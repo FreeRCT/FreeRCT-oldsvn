@@ -242,21 +242,18 @@ Functions</h2></td></tr>
 <tr class="memitem:a15077f60920c6cae8039ded19ce7792b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="stdafx_8h.html#adde6aaee8457bee49c2a92621fe22b79">uint8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="path_8h.html#a15077f60920c6cae8039ded19ce7792b">GetPathExits</a> (const <a class="el" href="structVoxel.html">Voxel</a> *v)</td></tr>
 <tr class="memdesc:a15077f60920c6cae8039ded19ce7792b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find all edges that are an exit for a path in the given voxel.  <a href="#a15077f60920c6cae8039ded19ce7792b">More...</a><br /></td></tr>
 <tr class="separator:a15077f60920c6cae8039ded19ce7792b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab4b7beba0b2cc93b19183c977e50cb76"><td class="memItemLeft" align="right" valign="top"><a class="el" href="stdafx_8h.html#adde6aaee8457bee49c2a92621fe22b79">uint8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="path_8h.html#ab4b7beba0b2cc93b19183c977e50cb76">GetPathExits</a> (int xpos, int ypos, int zpos)</td></tr>
-<tr class="memdesc:ab4b7beba0b2cc93b19183c977e50cb76"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find all edges that are an exit for a path in the given voxel.  <a href="#ab4b7beba0b2cc93b19183c977e50cb76">More...</a><br /></td></tr>
-<tr class="separator:ab4b7beba0b2cc93b19183c977e50cb76"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab0aa77d4456febf3d4088a80b7c9ed3e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="path_8h.html#ab0aa77d4456febf3d4088a80b7c9ed3e">TravelQueuePath</a> (int *xp, int *yp, int *zp, <a class="el" href="group__map__group.html#ga29bb8f9503c34074bad3c762c92ee68b">TileEdge</a> *entry)</td></tr>
-<tr class="memdesc:ab0aa77d4456febf3d4088a80b7c9ed3e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Walk over a queue path from the given entry edge at the given position.  <a href="#ab0aa77d4456febf3d4088a80b7c9ed3e">More...</a><br /></td></tr>
-<tr class="separator:ab0aa77d4456febf3d4088a80b7c9ed3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae7c6d68e033b0ad71ed538f11366c08b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="path_8h.html#ae7c6d68e033b0ad71ed538f11366c08b">PathExistsAtBottomEdge</a> (int xpos, int ypos, int zpos, <a class="el" href="group__map__group.html#ga29bb8f9503c34074bad3c762c92ee68b">TileEdge</a> edge)</td></tr>
-<tr class="memdesc:ae7c6d68e033b0ad71ed538f11366c08b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Does a path run at/to the bottom the given voxel in the neighbouring voxel?  <a href="#ae7c6d68e033b0ad71ed538f11366c08b">More...</a><br /></td></tr>
-<tr class="separator:ae7c6d68e033b0ad71ed538f11366c08b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a49d6cdd05e802c963868afbd6559b530"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="path_8h.html#a49d6cdd05e802c963868afbd6559b530">TravelQueuePath</a> (<a class="el" href="geometry_8h.html#a71fcb91f44cc6cbf519d0c45c07e931d">XYZPoint16</a> *voxel_pos, <a class="el" href="group__map__group.html#ga29bb8f9503c34074bad3c762c92ee68b">TileEdge</a> *entry)</td></tr>
+<tr class="memdesc:a49d6cdd05e802c963868afbd6559b530"><td class="mdescLeft">&#160;</td><td class="mdescRight">Walk over a queue path from the given entry edge at the given position.  <a href="#a49d6cdd05e802c963868afbd6559b530">More...</a><br /></td></tr>
+<tr class="separator:a49d6cdd05e802c963868afbd6559b530"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb3219210234f66a8d9f9fa749b20571"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="path_8h.html#afb3219210234f66a8d9f9fa749b20571">PathExistsAtBottomEdge</a> (<a class="el" href="geometry_8h.html#a71fcb91f44cc6cbf519d0c45c07e931d">XYZPoint16</a> voxel_pos, <a class="el" href="group__map__group.html#ga29bb8f9503c34074bad3c762c92ee68b">TileEdge</a> edge)</td></tr>
+<tr class="memdesc:afb3219210234f66a8d9f9fa749b20571"><td class="mdescLeft">&#160;</td><td class="mdescRight">Does a path run at/to the bottom the given voxel in the neighbouring voxel?  <a href="#afb3219210234f66a8d9f9fa749b20571">More...</a><br /></td></tr>
+<tr class="separator:afb3219210234f66a8d9f9fa749b20571"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af8c28a6c7084778bdf81c2e098991b49"><td class="memItemLeft" align="right" valign="top"><a class="el" href="stdafx_8h.html#adde6aaee8457bee49c2a92621fe22b79">uint8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="path_8h.html#af8c28a6c7084778bdf81c2e098991b49">SetPathEdge</a> (<a class="el" href="stdafx_8h.html#adde6aaee8457bee49c2a92621fe22b79">uint8</a> slope, <a class="el" href="group__map__group.html#ga29bb8f9503c34074bad3c762c92ee68b">TileEdge</a> edge, bool connect)</td></tr>
 <tr class="memdesc:af8c28a6c7084778bdf81c2e098991b49"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the edge of a path sprite.  <a href="#af8c28a6c7084778bdf81c2e098991b49">More...</a><br /></td></tr>
 <tr class="separator:af8c28a6c7084778bdf81c2e098991b49"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0ad66bab121db574823457f41b81d843"><td class="memItemLeft" align="right" valign="top"><a class="el" href="stdafx_8h.html#adde6aaee8457bee49c2a92621fe22b79">uint8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="path_8h.html#a0ad66bab121db574823457f41b81d843">AddRemovePathEdges</a> (<a class="el" href="stdafx_8h.html#a05f6b0ae8f6a6e135b0e290c25fe0e4e">uint16</a> xpos, <a class="el" href="stdafx_8h.html#a05f6b0ae8f6a6e135b0e290c25fe0e4e">uint16</a> ypos, <a class="el" href="stdafx_8h.html#adde6aaee8457bee49c2a92621fe22b79">uint8</a> zpos, <a class="el" href="stdafx_8h.html#adde6aaee8457bee49c2a92621fe22b79">uint8</a> slope, <a class="el" href="stdafx_8h.html#adde6aaee8457bee49c2a92621fe22b79">uint8</a> dirs, bool use_additions, <a class="el" href="path_8h.html#ab63ae68a86342b2888c58c113d3a255c">PathStatus</a> status)</td></tr>
-<tr class="memdesc:a0ad66bab121db574823457f41b81d843"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add edges of the neighbouring path tiles.  <a href="#a0ad66bab121db574823457f41b81d843">More...</a><br /></td></tr>
-<tr class="separator:a0ad66bab121db574823457f41b81d843"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a017bda94d2dcc2c4dd2ed87742211abd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="stdafx_8h.html#adde6aaee8457bee49c2a92621fe22b79">uint8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="path_8h.html#a017bda94d2dcc2c4dd2ed87742211abd">AddRemovePathEdges</a> (const <a class="el" href="geometry_8h.html#a71fcb91f44cc6cbf519d0c45c07e931d">XYZPoint16</a> &amp;voxel_pos, <a class="el" href="stdafx_8h.html#adde6aaee8457bee49c2a92621fe22b79">uint8</a> slope, <a class="el" href="stdafx_8h.html#adde6aaee8457bee49c2a92621fe22b79">uint8</a> dirs, bool use_additions, <a class="el" href="path_8h.html#ab63ae68a86342b2888c58c113d3a255c">PathStatus</a> status)</td></tr>
+<tr class="memdesc:a017bda94d2dcc2c4dd2ed87742211abd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add edges of the neighbouring path tiles.  <a href="#a017bda94d2dcc2c4dd2ed87742211abd">More...</a><br /></td></tr>
+<tr class="separator:a017bda94d2dcc2c4dd2ed87742211abd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
@@ -371,80 +368,21 @@ const <a class="el" href="stdafx_8h.html#adde6aaee8457bee49c2a92621fe22b79">uint
 
 <p>Definition at line <a class="el" href="path_8cpp_source.html#l00221">221</a> of file <a class="el" href="path_8cpp_source.html">path.cpp</a>.</p>
 
-<p>References <a class="el" href="path_8cpp_source.html#l00038">_path_expand</a>, <a class="el" href="tile_8h_source.html#l00119">EDGE_NE</a>, <a class="el" href="tile_8h_source.html#l00122">EDGE_NW</a>, <a class="el" href="tile_8h_source.html#l00120">EDGE_SE</a>, <a class="el" href="tile_8h_source.html#l00121">EDGE_SW</a>, <a class="el" href="map_8h_source.html#l00394">GetImplodedPathSlope()</a>, <a class="el" href="map_8h_source.html#l00072">Voxel::GetInstance()</a>, <a class="el" href="map_8h_source.html#l00105">Voxel::GetInstanceData()</a>, <a class="el" href="map_8h_source.html#l00372">HasValidPath()</a>, <a class="el" href="stdafx_8h_source.html#l00182">NOT_REACHED</a>, <a class="el" href="path_8h_source.html#l00077">PATH_FLAT_COUNT</a>, <a class="el" href="path_8h_source.html#l00079">PATH_RAMP_NE</a>, <a class="el" href="path_8h_source.html#l00080">PATH_RAMP_NW</a>, <a class="el" href="path_8h_source.html#l00081">PATH_RAMP_SE</a>, <a class="el" href="path_8h_source.html#l00082">PATH_RAMP_SW</a>, <a class="el" href="path_8h_source.html#l00091">PATHBIT_NE</a>, and <a class="el" href="map_8h_source.html#l00043">SRI_PATH</a>.</p>
+<p>References <a class="el" href="path_8cpp_source.html#l00038">_path_expand</a>, <a class="el" href="tile_8h_source.html#l00119">EDGE_NE</a>, <a class="el" href="tile_8h_source.html#l00122">EDGE_NW</a>, <a class="el" href="tile_8h_source.html#l00120">EDGE_SE</a>, <a class="el" href="tile_8h_source.html#l00121">EDGE_SW</a>, <a class="el" href="map_8h_source.html#l00390">GetImplodedPathSlope()</a>, <a class="el" href="map_8h_source.html#l00072">Voxel::GetInstance()</a>, <a class="el" href="map_8h_source.html#l00105">Voxel::GetInstanceData()</a>, <a class="el" href="map_8h_source.html#l00368">HasValidPath()</a>, <a class="el" href="stdafx_8h_source.html#l00182">NOT_REACHED</a>, <a class="el" href="path_8h_source.html#l00077">PATH_FLAT_COUNT</a>, <a class="el" href="path_8h_source.html#l00079">PATH_RAMP_NE</a>, <a class="el" href="path_8h_source.html#l00080">PATH_RAMP_NW</a>, <a class="el" href="path_8h_source.html#l00081">PATH_RAMP_SE</a>, <a class="el" href="path_8h_source.html#l00082">PATH_RAMP_SW</a>, <a class="el" href="path_8h_source.html#l00091">PATHBIT_NE</a>, and <a class="el" href="map_8h_source.html#l00043">SRI_PATH</a>.</p>
 
-<p>Referenced by <a class="el" href="person_8cpp_source.html#l00503">GetParkEntryDirection()</a>, <a class="el" href="path_8cpp_source.html#l00249">GetPathExits()</a>, <a class="el" href="path__finding_8cpp_source.html#l00141">PathSearcher::Search()</a>, and <a class="el" href="path_8cpp_source.html#l00267">TravelQueuePath()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="ab4b7beba0b2cc93b19183c977e50cb76"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="stdafx_8h.html#adde6aaee8457bee49c2a92621fe22b79">uint8</a> GetPathExits </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>xpos</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>ypos</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>zpos</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Find all edges that are an exit for a path in the given voxel. </p>
-<p>No investigation is performed whether the exits connect to anything. </p><dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">xpos</td><td>X position of the voxel. </td></tr>
-    <tr><td class="paramname">ypos</td><td>Y position of the voxel. </td></tr>
-    <tr><td class="paramname">zpos</td><td>Z position of the voxel. </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>Exits for a path in the queried voxel. Lower 4 bits are exits at the bottom; upper 4 bits are exits at the top. </dd></dl>
-
-<p>Definition at line <a class="el" href="path_8cpp_source.html#l00249">249</a> of file <a class="el" href="path_8cpp_source.html">path.cpp</a>.</p>
-
-<p>References <a class="el" href="map_8cpp_source.html#l00027">_world</a>, <a class="el" href="path_8cpp_source.html#l00221">GetPathExits()</a>, <a class="el" href="map_8h_source.html#l00520">VoxelWorld::GetVoxel()</a>, and <a class="el" href="map_8h_source.html#l00653">IsVoxelstackInsideWorld()</a>.</p>
+<p>Referenced by <a class="el" href="person_8cpp_source.html#l00471">Guest::GetExitDirections()</a>, <a class="el" href="person_8cpp_source.html#l00532">GetParkEntryDirection()</a>, <a class="el" href="path__finding_8cpp_source.html#l00127">PathSearcher::Search()</a>, and <a class="el" href="path_8cpp_source.html#l00250">TravelQueuePath()</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="ab0aa77d4456febf3d4088a80b7c9ed3e"></a>
+<a class="anchor" id="a49d6cdd05e802c963868afbd6559b530"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">bool TravelQueuePath </td>
           <td>(</td>
-          <td class="paramtype">int *&#160;</td>
-          <td class="paramname"><em>xp</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int *&#160;</td>
-          <td class="paramname"><em>yp</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int *&#160;</td>
-          <td class="paramname"><em>zp</em>, </td>
+          <td class="paramtype"><a class="el" href="geometry_8h.html#a71fcb91f44cc6cbf519d0c45c07e931d">XYZPoint16</a> *&#160;</td>
+          <td class="paramname"><em>voxel_pos</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -463,9 +401,7 @@ const <a class="el" href="stdafx_8h.html#adde6aaee8457bee49c2a92621fe22b79">uint
 <p>Walk over a queue path from the given entry edge at the given position. </p>
 <p>If it leads to a new voxel edge, the provided position and edge is update with the exit point. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">xp</td><td>[inout] Start voxel X position before the queue path, updated to last voxel position. </td></tr>
-    <tr><td class="paramname">yp</td><td>[inout] Start voxel Y position before the queue path, updated to last voxel position. </td></tr>
-    <tr><td class="paramname">zp</td><td>[inout] Start voxel Z position before the queue path, updated to last voxel position. </td></tr>
+    <tr><td class="paramname">voxel_pos</td><td>[inout] Start voxel position before the queue path, updated to last voxel position. </td></tr>
     <tr><td class="paramname">entry</td><td>Direction used for entry to the path, updated to last edge exit direction. </td></tr>
   </table>
   </dd>
@@ -473,35 +409,23 @@ const <a class="el" href="stdafx_8h.html#adde6aaee8457bee49c2a92621fe22b79">uint
 <dl class="section return"><dt>Returns</dt><dd>Whether a (possibly) new last voxel could be found, <code>false</code> means the path leads to nowhere. </dd></dl>
 <dl class="section note"><dt>Note</dt><dd>Parameter values may get changed during the call, do not rely on their values except when <code>true</code> is returned. </dd></dl>
 
-<p>Definition at line <a class="el" href="path_8cpp_source.html#l00267">267</a> of file <a class="el" href="path_8cpp_source.html">path.cpp</a>.</p>
+<p>Definition at line <a class="el" href="path_8cpp_source.html#l00250">250</a> of file <a class="el" href="path_8cpp_source.html">path.cpp</a>.</p>
 
-<p>References <a class="el" href="sprite__store_8cpp_source.html#l00031">_sprite_manager</a>, <a class="el" href="tile__func_8cpp_source.html#l00032">_tile_dxy</a>, <a class="el" href="map_8cpp_source.html#l00027">_world</a>, <a class="el" href="tile_8h_source.html#l00118">EDGE_BEGIN</a>, <a class="el" href="tile_8h_source.html#l00124">EDGE_COUNT</a>, <a class="el" href="map_8h_source.html#l00105">Voxel::GetInstanceData()</a>, <a class="el" href="path_8cpp_source.html#l00221">GetPathExits()</a>, <a class="el" href="sprite__store_8cpp_source.html#l01603">SpriteManager::GetPathStatus()</a>, <a class="el" href="map_8h_source.html#l00433">GetPathType()</a>, <a class="el" href="map_8h_source.html#l00520">VoxelWorld::GetVoxel()</a>, <a class="el" href="map_8h_source.html#l00372">HasValidPath()</a>, <a class="el" href="map_8h_source.html#l00653">IsVoxelstackInsideWorld()</a>, <a class="el" href="path_8h_source.html#l00118">PAS_QUEUE_PATH</a>, <a class="el" href="geometry_8h_source.html#l00037">Point&lt; CT &gt;::x</a>, and <a class="el" href="geometry_8h_source.html#l00038">Point&lt; CT &gt;::y</a>.</p>
+<p>References <a class="el" href="sprite__store_8cpp_source.html#l00031">_sprite_manager</a>, <a class="el" href="tile__func_8cpp_source.html#l00032">_tile_dxy</a>, <a class="el" href="map_8cpp_source.html#l00027">_world</a>, <a class="el" href="tile_8h_source.html#l00118">EDGE_BEGIN</a>, <a class="el" href="tile_8h_source.html#l00124">EDGE_COUNT</a>, <a class="el" href="map_8h_source.html#l00105">Voxel::GetInstanceData()</a>, <a class="el" href="path_8cpp_source.html#l00221">GetPathExits()</a>, <a class="el" href="sprite__store_8cpp_source.html#l01748">SpriteManager::GetPathStatus()</a>, <a class="el" href="map_8h_source.html#l00429">GetPathType()</a>, <a class="el" href="map_8h_source.html#l00514">VoxelWorld::GetVoxel()</a>, <a class="el" href="map_8h_source.html#l00368">HasValidPath()</a>, <a class="el" href="map_8h_source.html#l00639">IsVoxelstackInsideWorld()</a>, <a class="el" href="path_8h_source.html#l00118">PAS_QUEUE_PATH</a>, <a class="el" href="geometry_8h_source.html#l00036">Point&lt; CT &gt;::x</a>, <a class="el" href="geometry_8h_source.html#l00100">XYZPoint&lt; CT &gt;::x</a>, <a class="el" href="geometry_8h_source.html#l00037">Point&lt; CT &gt;::y</a>, <a class="el" href="geometry_8h_source.html#l00101">XYZPoint&lt; CT &gt;::y</a>, and <a class="el" href="geometry_8h_source.html#l00102">XYZPoint&lt; CT &gt;::z</a>.</p>
 
 <p>Referenced by <a class="el" href="person_8cpp_source.html#l00389">Guest::ComputeExitDesire()</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="ae7c6d68e033b0ad71ed538f11366c08b"></a>
+<a class="anchor" id="afb3219210234f66a8d9f9fa749b20571"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">bool PathExistsAtBottomEdge </td>
           <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>xpos</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>ypos</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>zpos</em>, </td>
+          <td class="paramtype"><a class="el" href="geometry_8h.html#a71fcb91f44cc6cbf519d0c45c07e931d">XYZPoint16</a>&#160;</td>
+          <td class="paramname"><em>voxel_pos</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -520,22 +444,20 @@ const <a class="el" href="stdafx_8h.html#adde6aaee8457bee49c2a92621fe22b79">uint
 <p>Does a path run at/to the bottom the given voxel in the neighbouring voxel? </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">xpos</td><td>X coordinate of the voxel. </td></tr>
-    <tr><td class="paramname">ypos</td><td>Y coordinate of the voxel. </td></tr>
-    <tr><td class="paramname">zpos</td><td>Z coordinate of the voxel. </td></tr>
+    <tr><td class="paramname">voxel_pos</td><td>Coordinate of the voxel. </td></tr>
     <tr><td class="paramname">edge</td><td>Direction to move to get the neighbouring voxel. </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Whether a path exists at the bottom of the neighbouring voxel. </dd></dl>
 <dl class="section pre"><dt>Precondition</dt><dd>voxel coordinate must be valid in the world. </dd></dl>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000030">Todo:</a></b></dt><dd>Merge with path computations in the path placement. </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000031">Todo:</a></b></dt><dd>Merge with path computations in the path placement. </dd></dl>
 
-<p>Definition at line <a class="el" href="path__build_8cpp_source.html#l00093">93</a> of file <a class="el" href="path__build_8cpp_source.html">path_build.cpp</a>.</p>
+<p>Definition at line <a class="el" href="path__build_8cpp_source.html#l00087">87</a> of file <a class="el" href="path__build_8cpp_source.html">path_build.cpp</a>.</p>
 
-<p>References <a class="el" href="path_8cpp_source.html#l00026">_path_down_from_edge</a>, <a class="el" href="path_8cpp_source.html#l00018">_path_up_from_edge</a>, <a class="el" href="tile__func_8cpp_source.html#l00032">_tile_dxy</a>, <a class="el" href="map_8cpp_source.html#l00027">_world</a>, <a class="el" href="map_8h_source.html#l00394">GetImplodedPathSlope()</a>, <a class="el" href="map_8h_source.html#l00520">VoxelWorld::GetVoxel()</a>, <a class="el" href="map_8h_source.html#l00372">HasValidPath()</a>, <a class="el" href="map_8h_source.html#l00653">IsVoxelstackInsideWorld()</a>, <a class="el" href="path_8h_source.html#l00077">PATH_FLAT_COUNT</a>, <a class="el" href="geometry_8h_source.html#l00037">Point&lt; CT &gt;::x</a>, and <a class="el" href="geometry_8h_source.html#l00038">Point&lt; CT &gt;::y</a>.</p>
+<p>References <a class="el" href="path_8cpp_source.html#l00026">_path_down_from_edge</a>, <a class="el" href="path_8cpp_source.html#l00018">_path_up_from_edge</a>, <a class="el" href="tile__func_8cpp_source.html#l00032">_tile_dxy</a>, <a class="el" href="map_8cpp_source.html#l00027">_world</a>, <a class="el" href="map_8h_source.html#l00390">GetImplodedPathSlope()</a>, <a class="el" href="map_8h_source.html#l00514">VoxelWorld::GetVoxel()</a>, <a class="el" href="map_8h_source.html#l00368">HasValidPath()</a>, <a class="el" href="map_8h_source.html#l00639">IsVoxelstackInsideWorld()</a>, <a class="el" href="path_8h_source.html#l00077">PATH_FLAT_COUNT</a>, <a class="el" href="geometry_8h_source.html#l00036">Point&lt; CT &gt;::x</a>, <a class="el" href="geometry_8h_source.html#l00100">XYZPoint&lt; CT &gt;::x</a>, <a class="el" href="geometry_8h_source.html#l00037">Point&lt; CT &gt;::y</a>, <a class="el" href="geometry_8h_source.html#l00101">XYZPoint&lt; CT &gt;::y</a>, and <a class="el" href="geometry_8h_source.html#l00102">XYZPoint&lt; CT &gt;::z</a>.</p>
 
-<p>Referenced by <a class="el" href="ride__gui_8cpp_source.html#l00375">ShopPlacementManager::CanPlaceShop()</a>, and <a class="el" href="person_8cpp_source.html#l00389">Guest::ComputeExitDesire()</a>.</p>
+<p>Referenced by <a class="el" href="ride__gui_8cpp_source.html#l00372">ShopPlacementManager::CanPlaceShop()</a>, and <a class="el" href="person_8cpp_source.html#l00389">Guest::ComputeExitDesire()</a>.</p>
 
 </div>
 </div>
@@ -580,35 +502,23 @@ const <a class="el" href="stdafx_8h.html#adde6aaee8457bee49c2a92621fe22b79">uint
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>(Possibly) updated path slope. </dd></dl>
 
-<p>Definition at line <a class="el" href="path_8cpp_source.html#l00340">340</a> of file <a class="el" href="path_8cpp_source.html">path.cpp</a>.</p>
+<p>Definition at line <a class="el" href="path_8cpp_source.html#l00315">315</a> of file <a class="el" href="path_8cpp_source.html">path.cpp</a>.</p>
 
 <p>References <a class="el" href="path_8cpp_source.html#l00038">_path_expand</a>, <a class="el" href="path_8cpp_source.html#l00094">_path_implode</a>, <a class="el" href="tile_8h_source.html#l00119">EDGE_NE</a>, <a class="el" href="tile_8h_source.html#l00122">EDGE_NW</a>, <a class="el" href="tile_8h_source.html#l00120">EDGE_SE</a>, <a class="el" href="tile_8h_source.html#l00121">EDGE_SW</a>, <a class="el" href="stdafx_8h_source.html#l00182">NOT_REACHED</a>, <a class="el" href="path_8h_source.html#l00077">PATH_FLAT_COUNT</a>, <a class="el" href="path_8h_source.html#l00088">PATHBIT_E</a>, <a class="el" href="path_8h_source.html#l00087">PATHBIT_N</a>, <a class="el" href="path_8h_source.html#l00091">PATHBIT_NE</a>, <a class="el" href="path_8h_source.html#l00094">PATHBIT_NW</a>, <a class="el" href="path_8h_source.html#l00089">PATHBIT_S</a>, <a class="el" href="path_8h_source.html#l00092">PATHBIT_SE</a>, <a class="el" href="path_8h_source.html#l00093">PATHBIT_SW</a>, and <a class="el" href="path_8h_source.html#l00090">PATHBIT_W</a>.</p>
 
-<p>Referenced by <a class="el" href="path_8cpp_source.html#l00460">AddRemovePathEdges()</a>, and <a class="el" href="path_8cpp_source.html#l00400">ExamineNeighbourPathEdge()</a>.</p>
+<p>Referenced by <a class="el" href="path_8cpp_source.html#l00431">AddRemovePathEdges()</a>, and <a class="el" href="path_8cpp_source.html#l00373">ExamineNeighbourPathEdge()</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a0ad66bab121db574823457f41b81d843"></a>
+<a class="anchor" id="a017bda94d2dcc2c4dd2ed87742211abd"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="stdafx_8h.html#adde6aaee8457bee49c2a92621fe22b79">uint8</a> AddRemovePathEdges </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="stdafx_8h.html#a05f6b0ae8f6a6e135b0e290c25fe0e4e">uint16</a>&#160;</td>
-          <td class="paramname"><em>xpos</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="stdafx_8h.html#a05f6b0ae8f6a6e135b0e290c25fe0e4e">uint16</a>&#160;</td>
-          <td class="paramname"><em>ypos</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="stdafx_8h.html#adde6aaee8457bee49c2a92621fe22b79">uint8</a>&#160;</td>
-          <td class="paramname"><em>zpos</em>, </td>
+          <td class="paramtype">const <a class="el" href="geometry_8h.html#a71fcb91f44cc6cbf519d0c45c07e931d">XYZPoint16</a> &amp;&#160;</td>
+          <td class="paramname"><em>voxel_pos</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -645,9 +555,7 @@ const <a class="el" href="stdafx_8h.html#adde6aaee8457bee49c2a92621fe22b79">uint
 <p>Add edges of the neighbouring path tiles. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">xpos</td><td>X coordinate of the central voxel with a path tile. </td></tr>
-    <tr><td class="paramname">ypos</td><td>Y coordinate of the central voxel with a path tile. </td></tr>
-    <tr><td class="paramname">zpos</td><td>Z coordinate of the central voxel with a path tile. </td></tr>
+    <tr><td class="paramname">voxel_pos</td><td>Coordinate of the central voxel with a path tile. </td></tr>
     <tr><td class="paramname">slope</td><td>Imploded path slope of the central voxel. </td></tr>
     <tr><td class="paramname">dirs</td><td>Edge directions to change (bitset of <a class="el" href="group__map__group.html#ga29bb8f9503c34074bad3c762c92ee68b" title="Edges of a tile, starts at NE direction, and rotates clockwise. ">TileEdge</a>), usually <a class="el" href="group__map__group.html#gga29bb8f9503c34074bad3c762c92ee68ba9aeba05ca411e9e289f346e9593b9970" title="Bit set of all edges. ">EDGE_ALL</a>. </td></tr>
     <tr><td class="paramname">use_additions</td><td>Use <a class="el" href="viewport_8cpp.html#a072daf482c5a3aaf1d74d62e5dc91bad" title="Proposed additions to the game world. ">_additions</a> rather than <a class="el" href="group__map__group.html#gae1beaf14b9effb4a54e82830c7b36616" title="The game world. ">_world</a>. </td></tr>
@@ -657,11 +565,11 @@ const <a class="el" href="stdafx_8h.html#adde6aaee8457bee49c2a92621fe22b79">uint
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Updated (imploded) slope at the central voxel. </dd></dl>
 
-<p>Definition at line <a class="el" href="path_8cpp_source.html#l00460">460</a> of file <a class="el" href="path_8cpp_source.html">path.cpp</a>.</p>
+<p>Definition at line <a class="el" href="path_8cpp_source.html#l00431">431</a> of file <a class="el" href="path_8cpp_source.html">path.cpp</a>.</p>
 
-<p>References <a class="el" href="path_8cpp_source.html#l00026">_path_down_from_edge</a>, <a class="el" href="path_8cpp_source.html#l00018">_path_up_from_edge</a>, <a class="el" href="tile__func_8cpp_source.html#l00032">_tile_dxy</a>, <a class="el" href="map_8cpp_source.html#l00027">_world</a>, <a class="el" href="tile_8h_source.html#l00118">EDGE_BEGIN</a>, <a class="el" href="tile_8h_source.html#l00124">EDGE_COUNT</a>, <a class="el" href="path_8cpp_source.html#l00400">ExamineNeighbourPathEdge()</a>, <a class="el" href="path_8cpp_source.html#l00377">GetQuePathEdgeConnectCount()</a>, <a class="el" href="map_8h_source.html#l00542">VoxelWorld::GetXSize()</a>, <a class="el" href="map_8h_source.html#l00551">VoxelWorld::GetYSize()</a>, <a class="el" href="stdafx_8h_source.html#l00157">lengthof</a>, <a class="el" href="viewport_8cpp_source.html#l01716">MarkVoxelDirty()</a>, <a class="el" href="stdafx_8h_source.html#l00182">NOT_REACHED</a>, <a class="el" href="path_8h_source.html#l00117">PAS_NORMAL_PATH</a>, <a class="el" href="path_8h_source.html#l00118">PAS_QUEUE_PATH</a>, <a class="el" href="path_8h_source.html#l00116">PAS_UNUSED</a>, <a class="el" href="path_8h_source.html#l00077">PATH_FLAT_COUNT</a>, <a class="el" href="map_8h_source.html#l00114">Voxel::SetInstanceData()</a>, <a class="el" href="path_8cpp_source.html#l00340">SetPathEdge()</a>, <a class="el" href="map_8h_source.html#l00027">WORLD_Z_SIZE</a>, <a class="el" href="geometry_8h_source.html#l00037">Point&lt; CT &gt;::x</a>, and <a class="el" href="geometry_8h_source.html#l00038">Point&lt; CT &gt;::y</a>.</p>
+<p>References <a class="el" href="path_8cpp_source.html#l00026">_path_down_from_edge</a>, <a class="el" href="path_8cpp_source.html#l00018">_path_up_from_edge</a>, <a class="el" href="tile__func_8cpp_source.html#l00032">_tile_dxy</a>, <a class="el" href="tile_8h_source.html#l00118">EDGE_BEGIN</a>, <a class="el" href="tile_8h_source.html#l00124">EDGE_COUNT</a>, <a class="el" href="path_8cpp_source.html#l00373">ExamineNeighbourPathEdge()</a>, <a class="el" href="path_8cpp_source.html#l00352">GetQuePathEdgeConnectCount()</a>, <a class="el" href="map_8h_source.html#l00639">IsVoxelstackInsideWorld()</a>, <a class="el" href="stdafx_8h_source.html#l00157">lengthof</a>, <a class="el" href="viewport_8cpp_source.html#l01698">MarkVoxelDirty()</a>, <a class="el" href="stdafx_8h_source.html#l00182">NOT_REACHED</a>, <a class="el" href="path_8h_source.html#l00117">PAS_NORMAL_PATH</a>, <a class="el" href="path_8h_source.html#l00118">PAS_QUEUE_PATH</a>, <a class="el" href="path_8h_source.html#l00116">PAS_UNUSED</a>, <a class="el" href="path_8h_source.html#l00077">PATH_FLAT_COUNT</a>, <a class="el" href="map_8h_source.html#l00114">Voxel::SetInstanceData()</a>, <a class="el" href="path_8cpp_source.html#l00315">SetPathEdge()</a>, <a class="el" href="map_8h_source.html#l00027">WORLD_Z_SIZE</a>, <a class="el" href="geometry_8h_source.html#l00036">Point&lt; CT &gt;::x</a>, <a class="el" href="geometry_8h_source.html#l00100">XYZPoint&lt; CT &gt;::x</a>, <a class="el" href="geometry_8h_source.html#l00037">Point&lt; CT &gt;::y</a>, <a class="el" href="geometry_8h_source.html#l00101">XYZPoint&lt; CT &gt;::y</a>, and <a class="el" href="geometry_8h_source.html#l00102">XYZPoint&lt; CT &gt;::z</a>.</p>
 
-<p>Referenced by <a class="el" href="path__build_8cpp_source.html#l00030">BuildPathAtTile()</a>, <a class="el" href="ride__gui_8cpp_source.html#l00465">ShopPlacementManager::PlaceShop()</a>, and <a class="el" href="path__build_8cpp_source.html#l00062">RemovePathAtTile()</a>.</p>
+<p>Referenced by <a class="el" href="path__build_8cpp_source.html#l00028">BuildPathAtTile()</a>, <a class="el" href="ride__gui_8cpp_source.html#l00460">ShopPlacementManager::PlaceShop()</a>, and <a class="el" href="path__build_8cpp_source.html#l00058">RemovePathAtTile()</a>.</p>
 
 </div>
 </div>
@@ -680,7 +588,7 @@ const <a class="el" href="stdafx_8h.html#adde6aaee8457bee49c2a92621fe22b79">uint
 
 <p>Definition at line <a class="el" href="path_8cpp_source.html#l00018">18</a> of file <a class="el" href="path_8cpp_source.html">path.cpp</a>.</p>
 
-<p>Referenced by <a class="el" href="path_8cpp_source.html#l00460">AddRemovePathEdges()</a>, <a class="el" href="path__build_8cpp_source.html#l00122">BuildUpwardPath()</a>, <a class="el" href="path__build_8cpp_source.html#l00278">CanBuildPathFromEdge()</a>, <a class="el" href="path_8cpp_source.html#l00400">ExamineNeighbourPathEdge()</a>, <a class="el" href="path__build_8cpp_source.html#l00315">GetPathAttachPoints()</a>, and <a class="el" href="path__build_8cpp_source.html#l00093">PathExistsAtBottomEdge()</a>.</p>
+<p>Referenced by <a class="el" href="path_8cpp_source.html#l00431">AddRemovePathEdges()</a>, <a class="el" href="path__build_8cpp_source.html#l00115">BuildUpwardPath()</a>, <a class="el" href="path__build_8cpp_source.html#l00266">CanBuildPathFromEdge()</a>, <a class="el" href="path_8cpp_source.html#l00373">ExamineNeighbourPathEdge()</a>, <a class="el" href="path__build_8cpp_source.html#l00301">GetPathAttachPoints()</a>, and <a class="el" href="path__build_8cpp_source.html#l00087">PathExistsAtBottomEdge()</a>.</p>
 
 </div>
 </div>
@@ -698,7 +606,7 @@ const <a class="el" href="stdafx_8h.html#adde6aaee8457bee49c2a92621fe22b79">uint
 
 <p>Definition at line <a class="el" href="path_8cpp_source.html#l00026">26</a> of file <a class="el" href="path_8cpp_source.html">path.cpp</a>.</p>
 
-<p>Referenced by <a class="el" href="path_8cpp_source.html#l00460">AddRemovePathEdges()</a>, <a class="el" href="path__build_8cpp_source.html#l00203">BuildDownwardPath()</a>, <a class="el" href="path__build_8cpp_source.html#l00278">CanBuildPathFromEdge()</a>, <a class="el" href="path_8cpp_source.html#l00400">ExamineNeighbourPathEdge()</a>, <a class="el" href="path__build_8cpp_source.html#l00315">GetPathAttachPoints()</a>, <a class="el" href="path__build_8cpp_source.html#l00093">PathExistsAtBottomEdge()</a>, <a class="el" href="path__build_8cpp_source.html#l00892">PathBuildManager::SelectBuyRemove()</a>, and <a class="el" href="path__build_8cpp_source.html#l00556">PathBuildManager::SelectMovement()</a>.</p>
+<p>Referenced by <a class="el" href="path_8cpp_source.html#l00431">AddRemovePathEdges()</a>, <a class="el" href="path__build_8cpp_source.html#l00192">BuildDownwardPath()</a>, <a class="el" href="path__build_8cpp_source.html#l00266">CanBuildPathFromEdge()</a>, <a class="el" href="path_8cpp_source.html#l00373">ExamineNeighbourPathEdge()</a>, <a class="el" href="path__build_8cpp_source.html#l00301">GetPathAttachPoints()</a>, <a class="el" href="path__build_8cpp_source.html#l00087">PathExistsAtBottomEdge()</a>, <a class="el" href="path__build_8cpp_source.html#l00907">PathBuildManager::SelectBuyRemove()</a>, and <a class="el" href="path__build_8cpp_source.html#l00589">PathBuildManager::SelectMovement()</a>.</p>
 
 </div>
 </div>
@@ -716,14 +624,14 @@ const <a class="el" href="stdafx_8h.html#adde6aaee8457bee49c2a92621fe22b79">uint
 
 <p>Definition at line <a class="el" href="path_8cpp_source.html#l00162">162</a> of file <a class="el" href="path_8cpp_source.html">path.cpp</a>.</p>
 
-<p>Referenced by <a class="el" href="viewport_8cpp_source.html#l00891">SpriteCollector::CollectVoxel()</a>, and <a class="el" href="sprite__store_8h_source.html#l00503">SpriteStorage::GetPathSprite()</a>.</p>
+<p>Referenced by <a class="el" href="viewport_8cpp_source.html#l00864">SpriteCollector::CollectVoxel()</a>, and <a class="el" href="sprite__store_8h_source.html#l00527">SpriteStorage::GetPathSprite()</a>.</p>
 
 </div>
 </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Sep 5 2014 19:06:13 for FreeRCT by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Feb 20 2015 17:42:11 for FreeRCT by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

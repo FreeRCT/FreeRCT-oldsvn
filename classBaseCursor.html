@@ -79,9 +79,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a205b847cffc085371726b27faa64a129"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseCursor.html#a205b847cffc085371726b27faa64a129">MarkDirty</a> ()=0</td></tr>
 <tr class="memdesc:a205b847cffc085371726b27faa64a129"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update the cursor at the screen.  <a href="#a205b847cffc085371726b27faa64a129">More...</a><br /></td></tr>
 <tr class="separator:a205b847cffc085371726b27faa64a129"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0179f266fa93190995aa785615b8f210"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group__viewport__group.html#gabbe637356c8cb749a9726f13658031fa">CursorType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseCursor.html#a0179f266fa93190995aa785615b8f210">GetCursor</a> (<a class="el" href="stdafx_8h.html#a05f6b0ae8f6a6e135b0e290c25fe0e4e">uint16</a> xpos, <a class="el" href="stdafx_8h.html#a05f6b0ae8f6a6e135b0e290c25fe0e4e">uint16</a> ypos, <a class="el" href="stdafx_8h.html#adde6aaee8457bee49c2a92621fe22b79">uint8</a> zpos)=0</td></tr>
-<tr class="memdesc:a0179f266fa93190995aa785615b8f210"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a cursor.  <a href="#a0179f266fa93190995aa785615b8f210">More...</a><br /></td></tr>
-<tr class="separator:a0179f266fa93190995aa785615b8f210"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9956cd619610d9c4a8d2b75af43079df"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group__viewport__group.html#gabbe637356c8cb749a9726f13658031fa">CursorType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseCursor.html#a9956cd619610d9c4a8d2b75af43079df">GetCursor</a> (const <a class="el" href="geometry_8h.html#a71fcb91f44cc6cbf519d0c45c07e931d">XYZPoint16</a> &amp;cursor_pos)=0</td></tr>
+<tr class="memdesc:a9956cd619610d9c4a8d2b75af43079df"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a cursor.  <a href="#a9956cd619610d9c4a8d2b75af43079df">More...</a><br /></td></tr>
+<tr class="separator:a9956cd619610d9c4a8d2b75af43079df"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a24db7f978ea4641b4ca2b956ef433b1d"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="stdafx_8h.html#adde6aaee8457bee49c2a92621fe22b79">uint8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseCursor.html#a24db7f978ea4641b4ca2b956ef433b1d">GetMaxCursorHeight</a> (<a class="el" href="stdafx_8h.html#a05f6b0ae8f6a6e135b0e290c25fe0e4e">uint16</a> xpos, <a class="el" href="stdafx_8h.html#a05f6b0ae8f6a6e135b0e290c25fe0e4e">uint16</a> ypos, <a class="el" href="stdafx_8h.html#adde6aaee8457bee49c2a92621fe22b79">uint8</a> zpos)=0</td></tr>
 <tr class="memdesc:a24db7f978ea4641b4ca2b956ef433b1d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the maximum height of the <em>xpos</em>, <em>ypos</em> stack that needs to be examined.  <a href="#a24db7f978ea4641b4ca2b956ef433b1d">More...</a><br /></td></tr>
 <tr class="separator:a24db7f978ea4641b4ca2b956ef433b1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -103,7 +103,7 @@ Public Attributes</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Base class of a viewport cursor. </p>
 
-<p>Definition at line <a class="el" href="viewport_8h_source.html#l00127">127</a> of file <a class="el" href="viewport_8h_source.html">viewport.h</a>.</p>
+<p>Definition at line <a class="el" href="viewport_8h_source.html#l00125">125</a> of file <a class="el" href="viewport_8h_source.html">viewport.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a40410fe20f900ee736d51544acc62663"></a>
 <div class="memitem">
@@ -127,9 +127,9 @@ Public Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="viewport_8cpp_source.html#l00477">477</a> of file <a class="el" href="viewport_8cpp_source.html">viewport.cpp</a>.</p>
+<p>Definition at line <a class="el" href="viewport_8cpp_source.html#l00472">472</a> of file <a class="el" href="viewport_8cpp_source.html">viewport.cpp</a>.</p>
 
-<p>References <a class="el" href="viewport_8h_source.html#l00056">CUR_TYPE_INVALID</a>, <a class="el" href="viewport_8h_source.html#l00133">type</a>, and <a class="el" href="viewport_8h_source.html#l00132">vp</a>.</p>
+<p>References <a class="el" href="viewport_8h_source.html#l00056">CUR_TYPE_INVALID</a>, <a class="el" href="viewport_8h_source.html#l00131">type</a>, and <a class="el" href="viewport_8h_source.html#l00130">vp</a>.</p>
 
 </div>
 </div>
@@ -159,11 +159,11 @@ Public Attributes</h2></td></tr>
 
 <p>Implemented in <a class="el" href="classEdgeCursor.html#ab49ffb0b2a013e3e306ed1bbc3e9cca4">EdgeCursor</a>, <a class="el" href="classMultiCursor.html#a242f163f169ded10c0130c6418a35475">MultiCursor</a>, and <a class="el" href="classCursor.html#a0b0ce3458c817aa4f58cd2ffe61b5d92">Cursor</a>.</p>
 
-<p>Referenced by <a class="el" href="viewport_8cpp_source.html#l00488">SetInvalid()</a>.</p>
+<p>Referenced by <a class="el" href="viewport_8cpp_source.html#l00483">SetInvalid()</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a0179f266fa93190995aa785615b8f210"></a>
+<a class="anchor" id="a9956cd619610d9c4a8d2b75af43079df"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -173,25 +173,9 @@ Public Attributes</h2></td></tr>
         <tr>
           <td class="memname">virtual <a class="el" href="group__viewport__group.html#gabbe637356c8cb749a9726f13658031fa">CursorType</a> BaseCursor::GetCursor </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="stdafx_8h.html#a05f6b0ae8f6a6e135b0e290c25fe0e4e">uint16</a>&#160;</td>
-          <td class="paramname"><em>xpos</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramtype">const <a class="el" href="geometry_8h.html#a71fcb91f44cc6cbf519d0c45c07e931d">XYZPoint16</a> &amp;&#160;</td>
+          <td class="paramname"><em>cursor_pos</em></td><td>)</td>
           <td></td>
-          <td class="paramtype"><a class="el" href="stdafx_8h.html#a05f6b0ae8f6a6e135b0e290c25fe0e4e">uint16</a>&#160;</td>
-          <td class="paramname"><em>ypos</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="stdafx_8h.html#adde6aaee8457bee49c2a92621fe22b79">uint8</a>&#160;</td>
-          <td class="paramname"><em>zpos</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -204,15 +188,13 @@ Public Attributes</h2></td></tr>
 <p>Get a cursor. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">xpos</td><td>Expected x coordinate of the cursor. </td></tr>
-    <tr><td class="paramname">ypos</td><td>Expected y coordinate of the cursor. </td></tr>
-    <tr><td class="paramname">zpos</td><td>Expected z coordinate of the cursor. </td></tr>
+    <tr><td class="paramname">cursor_pos</td><td>Expected coordinate of the cursor. </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The cursor sprite if the cursor exists and the coordinates are correct, else <code>nullptr</code>. </dd></dl>
 
-<p>Implemented in <a class="el" href="classEdgeCursor.html#a16e735892ce061e82d559a8693175c76">EdgeCursor</a>, <a class="el" href="classMultiCursor.html#af83ec9909f812dc9df37bcc43477c497">MultiCursor</a>, and <a class="el" href="classCursor.html#a96569b8107bb24395420303e2f6abb1b">Cursor</a>.</p>
+<p>Implemented in <a class="el" href="classEdgeCursor.html#ab266e20df1669efe15186b5feafeae98">EdgeCursor</a>, <a class="el" href="classMultiCursor.html#a3b8ef00f66c9e6727a30232def93230a">MultiCursor</a>, and <a class="el" href="classCursor.html#a170e6df8f5803a6f847f111382e97f93">Cursor</a>.</p>
 
 </div>
 </div>
@@ -284,11 +266,11 @@ Public Attributes</h2></td></tr>
 
 <p>Mark the cursor as being invalid, and update the viewport if necessary. </p>
 
-<p>Definition at line <a class="el" href="viewport_8cpp_source.html#l00488">488</a> of file <a class="el" href="viewport_8cpp_source.html">viewport.cpp</a>.</p>
+<p>Definition at line <a class="el" href="viewport_8cpp_source.html#l00483">483</a> of file <a class="el" href="viewport_8cpp_source.html">viewport.cpp</a>.</p>
 
-<p>References <a class="el" href="viewport_8h_source.html#l00056">CUR_TYPE_INVALID</a>, <a class="el" href="classBaseCursor.html#a205b847cffc085371726b27faa64a129">MarkDirty()</a>, and <a class="el" href="viewport_8h_source.html#l00133">type</a>.</p>
+<p>References <a class="el" href="viewport_8h_source.html#l00056">CUR_TYPE_INVALID</a>, <a class="el" href="classBaseCursor.html#a205b847cffc085371726b27faa64a129">MarkDirty()</a>, and <a class="el" href="viewport_8h_source.html#l00131">type</a>.</p>
 
-<p>Referenced by <a class="el" href="fence__build_8cpp_source.html#l00106">FenceBuildManager::LeaveMode()</a>, <a class="el" href="terraform_8cpp_source.html#l00663">TileTerraformMouseMode::LeaveMode()</a>, <a class="el" href="terraform_8cpp_source.html#l00644">TileTerraformMouseMode::SetCursors()</a>, and <a class="el" href="path__build_8cpp_source.html#l00637">PathBuildManager::UpdateState()</a>.</p>
+<p>Referenced by <a class="el" href="fence__build_8cpp_source.html#l00107">FenceBuildManager::LeaveMode()</a>, <a class="el" href="terraform_8cpp_source.html#l00663">TileTerraformMouseMode::LeaveMode()</a>, <a class="el" href="terraform_8cpp_source.html#l00644">TileTerraformMouseMode::SetCursors()</a>, and <a class="el" href="path__build_8cpp_source.html#l00663">PathBuildManager::UpdateState()</a>.</p>
 
 </div>
 </div>
@@ -299,7 +281,7 @@ Public Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Sep 5 2014 19:06:14 for FreeRCT by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Feb 20 2015 17:42:11 for FreeRCT by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

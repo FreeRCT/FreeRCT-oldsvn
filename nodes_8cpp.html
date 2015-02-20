@@ -84,6 +84,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a561c8093c6c375e948ff7b95bc3dc7fc"><td class="memItemLeft" align="right" valign="top">static const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="nodes_8cpp.html#a561c8093c6c375e948ff7b95bc3dc7fc">SkipDotDot</a> (const char *p)</td></tr>
 <tr class="memdesc:a561c8093c6c375e948ff7b95bc3dc7fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Advance the pointer over white space, and the word <code>".."</code>.  <a href="#a561c8093c6c375e948ff7b95bc3dc7fc">More...</a><br /></td></tr>
 <tr class="separator:a561c8093c6c375e948ff7b95bc3dc7fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa64b2080117ad776b4530979cfc66057"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="stdafx_8h.html#a1134b580f8da4de94ca6b1de4d37975e">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="nodes_8cpp.html#aa64b2080117ad776b4530979cfc66057">WriteSprite</a> (std::shared_ptr&lt; <a class="el" href="classSpriteBlock.html">SpriteBlock</a> &gt; &amp;spr, <a class="el" href="classFileWriter.html">FileWriter</a> *fw)</td></tr>
+<tr class="memdesc:aa64b2080117ad776b4530979cfc66057"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write the sprite if available.  <a href="#aa64b2080117ad776b4530979cfc66057">More...</a><br /></td></tr>
+<tr class="separator:aa64b2080117ad776b4530979cfc66057"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae4a2942c02302d8786820d66f5871ab3"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="nodes_8cpp.html#ae4a2942c02302d8786820d66f5871ab3">GetLanguageIndex</a> (const char *lname, const <a class="el" href="classPosition.html">Position</a> &amp;pos)</td></tr>
 <tr class="memdesc:ae4a2942c02302d8786820d66f5871ab3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the index of a language from its name.  <a href="#ae4a2942c02302d8786820d66f5871ab3">More...</a><br /></td></tr>
 <tr class="separator:ae4a2942c02302d8786820d66f5871ab3"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -330,6 +333,54 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="aa64b2080117ad776b4530979cfc66057"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="stdafx_8h.html#a1134b580f8da4de94ca6b1de4d37975e">uint32</a> WriteSprite </td>
+          <td>(</td>
+          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="classSpriteBlock.html">SpriteBlock</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>spr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classFileWriter.html">FileWriter</a> *&#160;</td>
+          <td class="paramname"><em>fw</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Write the sprite if available. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">spr</td><td>Sprite to wite (if not <code>nullptr</code>). </td></tr>
+    <tr><td class="paramname">fw</td><td>File to write to. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><code>0</code> if no sprite available, else the block number of the written sprite. </dd></dl>
+
+<p>Definition at line <a class="el" href="nodes_8cpp_source.html#l00582">582</a> of file <a class="el" href="nodes_8cpp_source.html">nodes.cpp</a>.</p>
+
+<p>Referenced by <a class="el" href="nodes_8cpp_source.html#l00588">PDECBlock::Write()</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="ae4a2942c02302d8786820d66f5871ab3"></a>
 <div class="memitem">
 <div class="memproto">
@@ -364,9 +415,9 @@ Variables</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Index of the given language. </dd></dl>
 
-<p>Definition at line <a class="el" href="nodes_8cpp_source.html#l00620">620</a> of file <a class="el" href="nodes_8cpp_source.html">nodes.cpp</a>.</p>
+<p>Definition at line <a class="el" href="nodes_8cpp_source.html#l00662">662</a> of file <a class="el" href="nodes_8cpp_source.html">nodes.cpp</a>.</p>
 
-<p>References <a class="el" href="nodes_8cpp_source.html#l00605">_languages</a>, <a class="el" href="nodes_8h_source.html#l00493">LNG_COUNT</a>, and <a class="el" href="ast_8cpp_source.html#l00071">Position::ToString()</a>.</p>
+<p>References <a class="el" href="nodes_8cpp_source.html#l00647">_languages</a>, <a class="el" href="nodes_8h_source.html#l00520">LNG_COUNT</a>, and <a class="el" href="ast_8cpp_source.html#l00071">Position::ToString()</a>.</p>
 
 </div>
 </div>
@@ -418,9 +469,9 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="nodes_8cpp_source.html#l01171">1171</a> of file <a class="el" href="nodes_8cpp_source.html">nodes.cpp</a>.</p>
+<p>Definition at line <a class="el" href="nodes_8cpp_source.html#l01219">1219</a> of file <a class="el" href="nodes_8cpp_source.html">nodes.cpp</a>.</p>
 
-<p>Referenced by <a class="el" href="nodes_8cpp_source.html#l01208">TrackVoxel::Write()</a>, and <a class="el" href="nodes_8cpp_source.html#l01528">TrackPieceNode::Write()</a>.</p>
+<p>Referenced by <a class="el" href="nodes_8cpp_source.html#l01256">TrackVoxel::Write()</a>, and <a class="el" href="nodes_8cpp_source.html#l01576">TrackPieceNode::Write()</a>.</p>
 
 </div>
 </div>
@@ -466,9 +517,9 @@ Variables</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The rotated flags. </dd></dl>
 
-<p>Definition at line <a class="el" href="nodes_8cpp_source.html#l01186">1186</a> of file <a class="el" href="nodes_8cpp_source.html">nodes.cpp</a>.</p>
+<p>Definition at line <a class="el" href="nodes_8cpp_source.html#l01234">1234</a> of file <a class="el" href="nodes_8cpp_source.html">nodes.cpp</a>.</p>
 
-<p>Referenced by <a class="el" href="nodes_8cpp_source.html#l01208">TrackVoxel::Write()</a>.</p>
+<p>Referenced by <a class="el" href="nodes_8cpp_source.html#l01256">TrackVoxel::Write()</a>.</p>
 
 </div>
 </div>
@@ -527,7 +578,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="nodes_8cpp_source.html#l01313">1313</a> of file <a class="el" href="nodes_8cpp_source.html">nodes.cpp</a>.</p>
+<p>Definition at line <a class="el" href="nodes_8cpp_source.html#l01361">1361</a> of file <a class="el" href="nodes_8cpp_source.html">nodes.cpp</a>.</p>
 
 </div>
 </div>
@@ -586,7 +637,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="nodes_8cpp_source.html#l01347">1347</a> of file <a class="el" href="nodes_8cpp_source.html">nodes.cpp</a>.</p>
+<p>Definition at line <a class="el" href="nodes_8cpp_source.html#l01395">1395</a> of file <a class="el" href="nodes_8cpp_source.html">nodes.cpp</a>.</p>
 
 <p>References <a class="el" href="ast_8cpp_source.html#l00071">Position::ToString()</a>.</p>
 
@@ -654,7 +705,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="nodes_8cpp_source.html#l01377">1377</a> of file <a class="el" href="nodes_8cpp_source.html">nodes.cpp</a>.</p>
+<p>Definition at line <a class="el" href="nodes_8cpp_source.html#l01425">1425</a> of file <a class="el" href="nodes_8cpp_source.html">nodes.cpp</a>.</p>
 
 <p>References <a class="el" href="ast_8cpp_source.html#l00071">Position::ToString()</a>.</p>
 
@@ -691,11 +742,11 @@ Variables</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Number of bytes needed. </dd></dl>
 
-<p>Definition at line <a class="el" href="nodes_8cpp_source.html#l01460">1460</a> of file <a class="el" href="nodes_8cpp_source.html">nodes.cpp</a>.</p>
+<p>Definition at line <a class="el" href="nodes_8cpp_source.html#l01508">1508</a> of file <a class="el" href="nodes_8cpp_source.html">nodes.cpp</a>.</p>
 
-<p>References <a class="el" href="nodes_8h_source.html#l00757">CubicSplines::curve</a>.</p>
+<p>References <a class="el" href="nodes_8h_source.html#l00786">CubicSplines::curve</a>.</p>
 
-<p>Referenced by <a class="el" href="nodes_8cpp_source.html#l01528">TrackPieceNode::Write()</a>.</p>
+<p>Referenced by <a class="el" href="nodes_8cpp_source.html#l01576">TrackPieceNode::Write()</a>.</p>
 
 </div>
 </div>
@@ -747,9 +798,9 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="nodes_8cpp_source.html#l01476">1476</a> of file <a class="el" href="nodes_8cpp_source.html">nodes.cpp</a>.</p>
+<p>Definition at line <a class="el" href="nodes_8cpp_source.html#l01524">1524</a> of file <a class="el" href="nodes_8cpp_source.html">nodes.cpp</a>.</p>
 
-<p>Referenced by <a class="el" href="nodes_8cpp_source.html#l01495">SaveCarEntry()</a>.</p>
+<p>Referenced by <a class="el" href="nodes_8cpp_source.html#l01543">SaveCarEntry()</a>.</p>
 
 </div>
 </div>
@@ -808,11 +859,11 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="nodes_8cpp_source.html#l01495">1495</a> of file <a class="el" href="nodes_8cpp_source.html">nodes.cpp</a>.</p>
+<p>Definition at line <a class="el" href="nodes_8cpp_source.html#l01543">1543</a> of file <a class="el" href="nodes_8cpp_source.html">nodes.cpp</a>.</p>
 
-<p>References <a class="el" href="nodes_8cpp_source.html#l01476">RotateArray()</a>, <a class="el" href="file__writing_8cpp_source.html#l00081">FileBlock::SaveInt16()</a>, <a class="el" href="file__writing_8cpp_source.html#l00072">FileBlock::SaveUInt16()</a>, <a class="el" href="file__writing_8cpp_source.html#l00091">FileBlock::SaveUInt32()</a>, and <a class="el" href="file__writing_8cpp_source.html#l00052">FileBlock::SaveUInt8()</a>.</p>
+<p>References <a class="el" href="nodes_8cpp_source.html#l01524">RotateArray()</a>, <a class="el" href="file__writing_8cpp_source.html#l00081">FileBlock::SaveInt16()</a>, <a class="el" href="file__writing_8cpp_source.html#l00072">FileBlock::SaveUInt16()</a>, <a class="el" href="file__writing_8cpp_source.html#l00091">FileBlock::SaveUInt32()</a>, and <a class="el" href="file__writing_8cpp_source.html#l00052">FileBlock::SaveUInt8()</a>.</p>
 
-<p>Referenced by <a class="el" href="nodes_8cpp_source.html#l01528">TrackPieceNode::Write()</a>.</p>
+<p>Referenced by <a class="el" href="nodes_8cpp_source.html#l01576">TrackPieceNode::Write()</a>.</p>
 
 </div>
 </div>
@@ -845,16 +896,16 @@ Variables</h2></td></tr>
 </div><!-- fragment -->
 <p>Names of the known languages. </p>
 
-<p>Definition at line <a class="el" href="nodes_8cpp_source.html#l00605">605</a> of file <a class="el" href="nodes_8cpp_source.html">nodes.cpp</a>.</p>
+<p>Definition at line <a class="el" href="nodes_8cpp_source.html#l00647">647</a> of file <a class="el" href="nodes_8cpp_source.html">nodes.cpp</a>.</p>
 
-<p>Referenced by <a class="el" href="nodes_8cpp_source.html#l00840">StringBundle::CheckTranslations()</a>, <a class="el" href="nodes_8cpp_source.html#l00784">StringBundle::Fill()</a>, <a class="el" href="nodes_8cpp_source.html#l00620">GetLanguageIndex()</a>, <a class="el" href="nodes_8cpp_source.html#l00738">TextNode::GetSize()</a>, and <a class="el" href="nodes_8cpp_source.html#l00752">TextNode::Write()</a>.</p>
+<p>Referenced by <a class="el" href="nodes_8cpp_source.html#l00882">StringBundle::CheckTranslations()</a>, <a class="el" href="nodes_8cpp_source.html#l00826">StringBundle::Fill()</a>, <a class="el" href="nodes_8cpp_source.html#l00662">GetLanguageIndex()</a>, <a class="el" href="nodes_8cpp_source.html#l00780">TextNode::GetSize()</a>, and <a class="el" href="nodes_8cpp_source.html#l00794">TextNode::Write()</a>.</p>
 
 </div>
 </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Sep 5 2014 19:06:13 for FreeRCT by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Feb 20 2015 17:42:11 for FreeRCT by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

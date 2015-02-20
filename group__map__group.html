@@ -312,12 +312,13 @@ Enumerations</h2></td></tr>
 <a class="el" href="group__map__group.html#ggad15436b50732bd9ef2b6f2efa5f400eda057dc6545a965705b46b7b2bc6706246">GTP_GRASS2</a>, 
 <a class="el" href="group__map__group.html#ggad15436b50732bd9ef2b6f2efa5f400eda1f0b35cc5c7356b9abb87e818bd56a85">GTP_GRASS3</a>, 
 <br />
-&#160;&#160;<a class="el" href="group__map__group.html#ggad15436b50732bd9ef2b6f2efa5f400eda121313adcd3f943ef5f6c93de906727f">GTP_DESERT</a>, 
+&#160;&#160;<a class="el" href="group__map__group.html#ggad15436b50732bd9ef2b6f2efa5f400eda1ea6e1b32b16c9d9129f20da3c314a8b">GTP_UNDERGROUND</a>, 
+<a class="el" href="group__map__group.html#ggad15436b50732bd9ef2b6f2efa5f400eda121313adcd3f943ef5f6c93de906727f">GTP_DESERT</a>, 
 <a class="el" href="group__map__group.html#ggad15436b50732bd9ef2b6f2efa5f400eda8bc5605f0feda73854dc3bcbb1f056e6">GTP_CURSOR_TEST</a>, 
 <a class="el" href="group__map__group.html#ggad15436b50732bd9ef2b6f2efa5f400eda02014fe44d751ae9d07f737a68c148de">GTP_CURSOR_EDGE_TEST</a>, 
-<a class="el" href="group__map__group.html#ggad15436b50732bd9ef2b6f2efa5f400edacd542d486629ea5cb613fcc3360b9ecb">GTP_COUNT</a>, 
 <br />
-&#160;&#160;<a class="el" href="group__map__group.html#ggad15436b50732bd9ef2b6f2efa5f400edaf0ceff8e769df0430417e0704018dfc7">GTP_INVALID</a> = 0xF
+&#160;&#160;<a class="el" href="group__map__group.html#ggad15436b50732bd9ef2b6f2efa5f400edacd542d486629ea5cb613fcc3360b9ecb">GTP_COUNT</a>, 
+<a class="el" href="group__map__group.html#ggad15436b50732bd9ef2b6f2efa5f400edaf0ceff8e769df0430417e0704018dfc7">GTP_INVALID</a> = 0xF
 <br />
  }</td></tr>
 <tr class="memdesc:gad15436b50732bd9ef2b6f2efa5f400ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Available ground types.  <a href="group__map__group.html#gad15436b50732bd9ef2b6f2efa5f400ed">More...</a><br /></td></tr>
@@ -480,7 +481,7 @@ const <a class="el" href="stdafx_8h.html#adde6aaee8457bee49c2a92621fe22b79">uint
 
 <p>Available path sprites. </p>
 <p>The list of sprites for drawing a path cover. Conceptually, a path can connect to each of the four edges (NE, NW, SE, and SW). If both edges of a corner are present, the corner itself may also be covered (N, E, S, W). This leads to <a class="el" href="group__map__group.html#ga3622a3eda6865ce3e357b761e4f42dbdab04a104637f775750f8060270c1237c4" title="Number of flat path sprites. ">PATH_FLAT_COUNT</a> sprites listed below.</p>
-<p>This list is good for drawing and listing sprites, but is hard for editing path coverage. For this reason <a class="el" href="group__map__group.html#ga93b0b47375d1e3f9cc1633a46c8d79ee" title="Expansion of path sprite number to a value using path bits (PATHBIT_N, PATHBIT_E, PATHBIT_S...">_path_expand</a> and its reverse operation <a class="el" href="group__map__group.html#gaab4a54e058ccde2f6b982da4739a2a40" title="Inverse operation of _path_expand. ">_path_implode</a> exist. They translate the sprite number to/from a bitwise representation which is easier for manipulation. </p><dl class="todo"><dt><b><a class="el" href="todo.html#_todo000029">Todo:</a></b></dt><dd>Have ramps with path sprites without edges.</dd></dl>
+<p>This list is good for drawing and listing sprites, but is hard for editing path coverage. For this reason <a class="el" href="group__map__group.html#ga93b0b47375d1e3f9cc1633a46c8d79ee" title="Expansion of path sprite number to a value using path bits (PATHBIT_N, PATHBIT_E, PATHBIT_S...">_path_expand</a> and its reverse operation <a class="el" href="group__map__group.html#gaab4a54e058ccde2f6b982da4739a2a40" title="Inverse operation of _path_expand. ">_path_implode</a> exist. They translate the sprite number to/from a bitwise representation which is easier for manipulation. </p><dl class="todo"><dt><b><a class="el" href="todo.html#_todo000030">Todo:</a></b></dt><dd>Have ramps with path sprites without edges.</dd></dl>
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a class="anchor" id="ga3622a3eda6865ce3e357b761e4f42dbda1874741e017505f2ea18f01dbf62a215"></a>PATH_EMPTY&#160;</td><td class="fielddoc">
 <p>Path without edges or corners. </p>
@@ -846,6 +847,9 @@ const <a class="el" href="stdafx_8h.html#adde6aaee8457bee49c2a92621fe22b79">uint
 <tr><td class="fieldname"><a class="anchor" id="ggad15436b50732bd9ef2b6f2efa5f400eda1f0b35cc5c7356b9abb87e818bd56a85"></a>GTP_GRASS3&#160;</td><td class="fielddoc">
 <p>Rough grass type. </p>
 </td></tr>
+<tr><td class="fieldname"><a class="anchor" id="ggad15436b50732bd9ef2b6f2efa5f400eda1ea6e1b32b16c9d9129f20da3c314a8b"></a>GTP_UNDERGROUND&#160;</td><td class="fielddoc">
+<p>Underground view. </p>
+</td></tr>
 <tr><td class="fieldname"><a class="anchor" id="ggad15436b50732bd9ef2b6f2efa5f400eda121313adcd3f943ef5f6c93de906727f"></a>GTP_DESERT&#160;</td><td class="fielddoc">
 <p>Desert ground type. </p>
 </td></tr>
@@ -896,7 +900,7 @@ const <a class="el" href="stdafx_8h.html#adde6aaee8457bee49c2a92621fe22b79">uint
 </td></tr>
 </table>
 
-<p>Definition at line <a class="el" href="tile_8h_source.html#l00204">204</a> of file <a class="el" href="tile_8h_source.html">tile.h</a>.</p>
+<p>Definition at line <a class="el" href="tile_8h_source.html#l00205">205</a> of file <a class="el" href="tile_8h_source.html">tile.h</a>.</p>
 
 </div>
 </div>
@@ -950,7 +954,7 @@ const <a class="el" href="stdafx_8h.html#adde6aaee8457bee49c2a92621fe22b79">uint
 </td></tr>
 </table>
 
-<p>Definition at line <a class="el" href="tile_8h_source.html#l00218">218</a> of file <a class="el" href="tile_8h_source.html">tile.h</a>.</p>
+<p>Definition at line <a class="el" href="tile_8h_source.html#l00219">219</a> of file <a class="el" href="tile_8h_source.html">tile.h</a>.</p>
 
 </div>
 </div>
@@ -988,7 +992,7 @@ const <a class="el" href="stdafx_8h.html#adde6aaee8457bee49c2a92621fe22b79">uint
 
 <p>Definition at line <a class="el" href="orientation_8h_source.html#l00037">37</a> of file <a class="el" href="orientation_8h_source.html">orientation.h</a>.</p>
 
-<p>Referenced by <a class="el" href="viewport_8cpp_source.html#l01431">Viewport::MarkVoxelDirty()</a>.</p>
+<p>Referenced by <a class="el" href="viewport_8cpp_source.html#l01415">Viewport::MarkVoxelDirty()</a>.</p>
 
 </div>
 </div>
@@ -1025,7 +1029,7 @@ const <a class="el" href="stdafx_8h.html#adde6aaee8457bee49c2a92621fe22b79">uint
 
 <p>Definition at line <a class="el" href="orientation_8h_source.html#l00048">48</a> of file <a class="el" href="orientation_8h_source.html">orientation.h</a>.</p>
 
-<p>Referenced by <a class="el" href="viewport_8cpp_source.html#l01431">Viewport::MarkVoxelDirty()</a>.</p>
+<p>Referenced by <a class="el" href="viewport_8cpp_source.html#l01415">Viewport::MarkVoxelDirty()</a>.</p>
 
 </div>
 </div>
@@ -1073,7 +1077,7 @@ const <a class="el" href="stdafx_8h.html#adde6aaee8457bee49c2a92621fe22b79">uint
 
 <p>Definition at line <a class="el" href="orientation_8h_source.html#l00060">60</a> of file <a class="el" href="orientation_8h_source.html">orientation.h</a>.</p>
 
-<p>Referenced by <a class="el" href="viewport_8cpp_source.html#l01491">Viewport::ComputeCursorPosition()</a>, and <a class="el" href="path__gui_8cpp_source.html#l00249">PathBuildGui::OnClick()</a>.</p>
+<p>Referenced by <a class="el" href="viewport_8cpp_source.html#l01475">Viewport::ComputeCursorPosition()</a>, and <a class="el" href="path__gui_8cpp_source.html#l00256">PathBuildGui::OnClick()</a>.</p>
 
 </div>
 </div>
@@ -1121,7 +1125,7 @@ const <a class="el" href="stdafx_8h.html#adde6aaee8457bee49c2a92621fe22b79">uint
 
 <p>Definition at line <a class="el" href="orientation_8h_source.html#l00072">72</a> of file <a class="el" href="orientation_8h_source.html">orientation.h</a>.</p>
 
-<p>Referenced by <a class="el" href="viewport_8cpp_source.html#l00784">SpriteCollector::GetCursorSpriteAtPos()</a>, and <a class="el" href="path__gui_8cpp_source.html#l00310">PathBuildGui::SetButtons()</a>.</p>
+<p>Referenced by <a class="el" href="viewport_8cpp_source.html#l00759">SpriteCollector::GetCursorSpriteAtPos()</a>, and <a class="el" href="path__gui_8cpp_source.html#l00326">PathBuildGui::SetButtons()</a>.</p>
 
 </div>
 </div>
@@ -1160,7 +1164,7 @@ const <a class="el" href="stdafx_8h.html#adde6aaee8457bee49c2a92621fe22b79">uint
 
 <p>References <a class="el" href="tile_8h_source.html#l00069">TSB_STEEP</a>, and <a class="el" href="tile_8h_source.html#l00070">TSB_TOP</a>.</p>
 
-<p>Referenced by <a class="el" href="path__build_8cpp_source.html#l00203">BuildDownwardPath()</a>, <a class="el" href="path__build_8cpp_source.html#l00122">BuildUpwardPath()</a>, <a class="el" href="viewport_8cpp_source.html#l00891">SpriteCollector::CollectVoxel()</a>, <a class="el" href="terraform_8cpp_source.html#l00133">TerrainChanges::GetGroundData()</a>, <a class="el" href="path__build_8cpp_source.html#l00315">GetPathAttachPoints()</a>, <a class="el" href="terraform_8cpp_source.html#l00442">TerrainChanges::ModifyWorld()</a>, <a class="el" href="fence__build_8cpp_source.html#l00130">FenceBuildManager::OnMouseButtonEvent()</a>, <a class="el" href="path__build_8cpp_source.html#l00556">PathBuildManager::SelectMovement()</a>, <a class="el" href="fence__build_8cpp_source.html#l00068">FenceBuildManager::SetCursors()</a>, <a class="el" href="terraform_8cpp_source.html#l00353">SetXFoundations()</a>, <a class="el" href="terraform_8cpp_source.html#l00398">SetYFoundations()</a>, and <a class="el" href="map_8cpp_source.html#l00495">UpdateLandBorderFence()</a>.</p>
+<p>Referenced by <a class="el" href="path__build_8cpp_source.html#l00192">BuildDownwardPath()</a>, <a class="el" href="path__build_8cpp_source.html#l00115">BuildUpwardPath()</a>, <a class="el" href="viewport_8cpp_source.html#l00864">SpriteCollector::CollectVoxel()</a>, <a class="el" href="terraform_8cpp_source.html#l00133">TerrainChanges::GetGroundData()</a>, <a class="el" href="path__build_8cpp_source.html#l00301">GetPathAttachPoints()</a>, <a class="el" href="terraform_8cpp_source.html#l00442">TerrainChanges::ModifyWorld()</a>, <a class="el" href="fence__build_8cpp_source.html#l00131">FenceBuildManager::OnMouseButtonEvent()</a>, <a class="el" href="path__build_8cpp_source.html#l00589">PathBuildManager::SelectMovement()</a>, <a class="el" href="fence__build_8cpp_source.html#l00068">FenceBuildManager::SetCursors()</a>, <a class="el" href="terraform_8cpp_source.html#l00353">SetXFoundations()</a>, <a class="el" href="terraform_8cpp_source.html#l00398">SetYFoundations()</a>, <a class="el" href="path__build_8cpp_source.html#l00456">PathBuildManager::TileClicked()</a>, and <a class="el" href="map_8cpp_source.html#l00495">UpdateLandBorderFence()</a>.</p>
 
 </div>
 </div>
@@ -1199,7 +1203,7 @@ const <a class="el" href="stdafx_8h.html#adde6aaee8457bee49c2a92621fe22b79">uint
 
 <p>References <a class="el" href="tile_8h_source.html#l00065">TSB_EAST</a>, <a class="el" href="tile_8h_source.html#l00064">TSB_NORTH</a>, <a class="el" href="tile_8h_source.html#l00066">TSB_SOUTH</a>, <a class="el" href="tile_8h_source.html#l00069">TSB_STEEP</a>, and <a class="el" href="tile_8h_source.html#l00070">TSB_TOP</a>.</p>
 
-<p>Referenced by <a class="el" href="tile__func_8cpp_source.html#l00073">ComputeSlopeAndHeight()</a>, and <a class="el" href="map_8cpp_source.html#l00303">VoxelWorld::MakeFlatWorld()</a>.</p>
+<p>Referenced by <a class="el" href="tile__func_8cpp_source.html#l00081">ComputeSlopeAndHeight()</a>, and <a class="el" href="map_8cpp_source.html#l00303">VoxelWorld::MakeFlatWorld()</a>.</p>
 
 </div>
 </div>
@@ -1219,7 +1223,7 @@ const <a class="el" href="stdafx_8h.html#adde6aaee8457bee49c2a92621fe22b79">uint
 
 <p>Definition at line <a class="el" href="path_8cpp_source.html#l00094">94</a> of file <a class="el" href="path_8cpp_source.html">path.cpp</a>.</p>
 
-<p>Referenced by <a class="el" href="path_8cpp_source.html#l00340">SetPathEdge()</a>.</p>
+<p>Referenced by <a class="el" href="path_8cpp_source.html#l00315">SetPathEdge()</a>.</p>
 
 </div>
 </div>
@@ -1260,7 +1264,7 @@ const <a class="el" href="stdafx_8h.html#adde6aaee8457bee49c2a92621fe22b79">uint
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Sep 5 2014 19:06:14 for FreeRCT by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Feb 20 2015 17:42:11 for FreeRCT by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

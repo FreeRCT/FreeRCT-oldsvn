@@ -73,12 +73,12 @@ Inheritance diagram for Viewport:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a799f69bf6cb5454858ba433cf252b76f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classViewport.html#a799f69bf6cb5454858ba433cf252b76f">Viewport</a> (<a class="el" href="stdafx_8h.html#a1134b580f8da4de94ca6b1de4d37975e">uint32</a> <a class="el" href="classViewport.html#a0994b555106f4b5e9539f2a74e270870">xview</a>, <a class="el" href="stdafx_8h.html#a1134b580f8da4de94ca6b1de4d37975e">uint32</a> <a class="el" href="classViewport.html#a236c799d639cab3927e17cc7973877b0">yview</a>, <a class="el" href="stdafx_8h.html#a1134b580f8da4de94ca6b1de4d37975e">uint32</a> <a class="el" href="classViewport.html#af6e6138999e371db912ad1eaa28817e2">zview</a>)</td></tr>
-<tr class="memdesc:a799f69bf6cb5454858ba433cf252b76f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Viewport constructor.  <a href="#a799f69bf6cb5454858ba433cf252b76f">More...</a><br /></td></tr>
-<tr class="separator:a799f69bf6cb5454858ba433cf252b76f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a874a577cb17423ffbe20f5d70548a6a0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classViewport.html#a874a577cb17423ffbe20f5d70548a6a0">MarkVoxelDirty</a> (<a class="el" href="stdafx_8h.html#a259fa4834387bd68627ddf37bb3ebdb9">int16</a> xpos, <a class="el" href="stdafx_8h.html#a259fa4834387bd68627ddf37bb3ebdb9">int16</a> ypos, <a class="el" href="stdafx_8h.html#a259fa4834387bd68627ddf37bb3ebdb9">int16</a> zpos, <a class="el" href="stdafx_8h.html#a259fa4834387bd68627ddf37bb3ebdb9">int16</a> height=0)</td></tr>
-<tr class="memdesc:a874a577cb17423ffbe20f5d70548a6a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mark a voxel as in need of getting painted.  <a href="#a874a577cb17423ffbe20f5d70548a6a0">More...</a><br /></td></tr>
-<tr class="separator:a874a577cb17423ffbe20f5d70548a6a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a505db1334014f270149f7f07b64139e0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classViewport.html#a505db1334014f270149f7f07b64139e0">Viewport</a> (const <a class="el" href="geometry_8h.html#ad44b56387be4716a93eb09e15466703d">XYZPoint32</a> &amp;<a class="el" href="classViewport.html#a5a238302d2aaeccf11d004c66637bfd7">view_pos</a>)</td></tr>
+<tr class="memdesc:a505db1334014f270149f7f07b64139e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Viewport constructor.  <a href="#a505db1334014f270149f7f07b64139e0">More...</a><br /></td></tr>
+<tr class="separator:a505db1334014f270149f7f07b64139e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f1babfcd8b2768b3251c0c879afe19b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classViewport.html#a8f1babfcd8b2768b3251c0c879afe19b">MarkVoxelDirty</a> (const <a class="el" href="geometry_8h.html#a71fcb91f44cc6cbf519d0c45c07e931d">XYZPoint16</a> &amp;voxel_pos, <a class="el" href="stdafx_8h.html#a259fa4834387bd68627ddf37bb3ebdb9">int16</a> height=0)</td></tr>
+<tr class="memdesc:a8f1babfcd8b2768b3251c0c879afe19b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mark a voxel as in need of getting painted.  <a href="#a8f1babfcd8b2768b3251c0c879afe19b">More...</a><br /></td></tr>
+<tr class="separator:a8f1babfcd8b2768b3251c0c879afe19b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abf30438687247733d94674d5e174c206"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classViewport.html#abf30438687247733d94674d5e174c206">OnDraw</a> () override</td></tr>
 <tr class="memdesc:abf30438687247733d94674d5e174c206"><td class="mdescLeft">&#160;</td><td class="mdescRight">Paint the window to the screen.  <a href="#abf30438687247733d94674d5e174c206">More...</a><br /></td></tr>
 <tr class="separator:abf30438687247733d94674d5e174c206"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -91,9 +91,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ac2f43f9ca5af54296d614f1891597c0a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="viewport_8h.html#a7eaf31dcf3c53b721a3144bb135f8d25">ClickableSprite</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classViewport.html#ac2f43f9ca5af54296d614f1891597c0a">ComputeCursorPosition</a> (<a class="el" href="classFinderData.html">FinderData</a> *fdata)</td></tr>
 <tr class="memdesc:ac2f43f9ca5af54296d614f1891597c0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute position of the mouse cursor, and return the result.  <a href="#ac2f43f9ca5af54296d614f1891597c0a">More...</a><br /></td></tr>
 <tr class="separator:ac2f43f9ca5af54296d614f1891597c0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad0821d076af065df591306eb5287765a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__viewport__group.html#gabbe637356c8cb749a9726f13658031fa">CursorType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classViewport.html#ad0821d076af065df591306eb5287765a">GetCursorAtPos</a> (<a class="el" href="stdafx_8h.html#a05f6b0ae8f6a6e135b0e290c25fe0e4e">uint16</a> xpos, <a class="el" href="stdafx_8h.html#a05f6b0ae8f6a6e135b0e290c25fe0e4e">uint16</a> ypos, <a class="el" href="stdafx_8h.html#adde6aaee8457bee49c2a92621fe22b79">uint8</a> zpos)</td></tr>
-<tr class="memdesc:ad0821d076af065df591306eb5287765a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the cursor type at a given position.  <a href="#ad0821d076af065df591306eb5287765a">More...</a><br /></td></tr>
-<tr class="separator:ad0821d076af065df591306eb5287765a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57afb1b609dc0d7bed80ca49d5e3a41b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__viewport__group.html#gabbe637356c8cb749a9726f13658031fa">CursorType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classViewport.html#a57afb1b609dc0d7bed80ca49d5e3a41b">GetCursorAtPos</a> (const <a class="el" href="geometry_8h.html#a71fcb91f44cc6cbf519d0c45c07e931d">XYZPoint16</a> &amp;voxel_pos)</td></tr>
+<tr class="memdesc:a57afb1b609dc0d7bed80ca49d5e3a41b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the cursor type at a given position.  <a href="#a57afb1b609dc0d7bed80ca49d5e3a41b">More...</a><br /></td></tr>
+<tr class="separator:a57afb1b609dc0d7bed80ca49d5e3a41b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4bb0875319aca7c984be5d106594664c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="stdafx_8h.html#adde6aaee8457bee49c2a92621fe22b79">uint8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classViewport.html#a4bb0875319aca7c984be5d106594664c">GetMaxCursorHeight</a> (<a class="el" href="stdafx_8h.html#a05f6b0ae8f6a6e135b0e290c25fe0e4e">uint16</a> xpos, <a class="el" href="stdafx_8h.html#a05f6b0ae8f6a6e135b0e290c25fe0e4e">uint16</a> ypos, <a class="el" href="stdafx_8h.html#adde6aaee8457bee49c2a92621fe22b79">uint8</a> zpos)</td></tr>
 <tr class="memdesc:a4bb0875319aca7c984be5d106594664c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the highest voxel that should be examined in a voxel stack (since cursors may be placed above all voxels).  <a href="#a4bb0875319aca7c984be5d106594664c">More...</a><br /></td></tr>
 <tr class="separator:a4bb0875319aca7c984be5d106594664c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -115,6 +115,15 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a9ffc3b53f8f141f7a54c7f5aeab5a566"><td class="memItemLeft" align="right" valign="top"><a class="el" href="stdafx_8h.html#a43d43196463bde49cb067f5c20ab8481">int32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classViewport.html#a9ffc3b53f8f141f7a54c7f5aeab5a566">ComputeY</a> (<a class="el" href="stdafx_8h.html#a43d43196463bde49cb067f5c20ab8481">int32</a> xpos, <a class="el" href="stdafx_8h.html#a43d43196463bde49cb067f5c20ab8481">int32</a> ypos, <a class="el" href="stdafx_8h.html#a43d43196463bde49cb067f5c20ab8481">int32</a> zpos)</td></tr>
 <tr class="memdesc:a9ffc3b53f8f141f7a54c7f5aeab5a566"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get relative Y position of a point in the world (used for marking window parts dirty).  <a href="#a9ffc3b53f8f141f7a54c7f5aeab5a566">More...</a><br /></td></tr>
 <tr class="separator:a9ffc3b53f8f141f7a54c7f5aeab5a566"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e0a1af618c67fcef5d46e809bfcfe01"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classViewport.html#a1e0a1af618c67fcef5d46e809bfcfe01">IsUndergroundModeAvailable</a> () const </td></tr>
+<tr class="memdesc:a1e0a1af618c67fcef5d46e809bfcfe01"><td class="mdescLeft">&#160;</td><td class="mdescRight">Can the viewport switch to underground mode view?  <a href="#a1e0a1af618c67fcef5d46e809bfcfe01">More...</a><br /></td></tr>
+<tr class="separator:a1e0a1af618c67fcef5d46e809bfcfe01"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a9bacb50913e2d5ecc22027b6096cbd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classViewport.html#a5a9bacb50913e2d5ecc22027b6096cbd">SetUndergroundMode</a> ()</td></tr>
+<tr class="memdesc:a5a9bacb50913e2d5ecc22027b6096cbd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable the underground mode view, if possible.  <a href="#a5a9bacb50913e2d5ecc22027b6096cbd">More...</a><br /></td></tr>
+<tr class="separator:a5a9bacb50913e2d5ecc22027b6096cbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4633a976ae1cf9d873162ddf29c64cf5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classViewport.html#a4633a976ae1cf9d873162ddf29c64cf5">ToggleUndergroundMode</a> ()</td></tr>
+<tr class="memdesc:a4633a976ae1cf9d873162ddf29c64cf5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Toggle the underground mode view on/off.  <a href="#a4633a976ae1cf9d873162ddf29c64cf5">More...</a><br /></td></tr>
+<tr class="separator:a4633a976ae1cf9d873162ddf29c64cf5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab35bc7185cdb4e3ccd144e3b37f3224d"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classWindow.html#ab35bc7185cdb4e3ccd144e3b37f3224d">SetSize</a> (<a class="el" href="stdafx_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> width, <a class="el" href="stdafx_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> height)</td></tr>
 <tr class="memdesc:ab35bc7185cdb4e3ccd144e3b37f3224d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the initial size of a window.  <a href="#ab35bc7185cdb4e3ccd144e3b37f3224d">More...</a><br /></td></tr>
 <tr class="separator:ab35bc7185cdb4e3ccd144e3b37f3224d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -148,18 +157,10 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a0994b555106f4b5e9539f2a74e270870"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0994b555106f4b5e9539f2a74e270870"></a>
-<a class="el" href="stdafx_8h.html#a43d43196463bde49cb067f5c20ab8481">int32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classViewport.html#a0994b555106f4b5e9539f2a74e270870">xview</a></td></tr>
-<tr class="memdesc:a0994b555106f4b5e9539f2a74e270870"><td class="mdescLeft">&#160;</td><td class="mdescRight">X position of the centre point of the viewport. <br /></td></tr>
-<tr class="separator:a0994b555106f4b5e9539f2a74e270870"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a236c799d639cab3927e17cc7973877b0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a236c799d639cab3927e17cc7973877b0"></a>
-<a class="el" href="stdafx_8h.html#a43d43196463bde49cb067f5c20ab8481">int32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classViewport.html#a236c799d639cab3927e17cc7973877b0">yview</a></td></tr>
-<tr class="memdesc:a236c799d639cab3927e17cc7973877b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Y position of the centre point of the viewport. <br /></td></tr>
-<tr class="separator:a236c799d639cab3927e17cc7973877b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af6e6138999e371db912ad1eaa28817e2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af6e6138999e371db912ad1eaa28817e2"></a>
-<a class="el" href="stdafx_8h.html#a43d43196463bde49cb067f5c20ab8481">int32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classViewport.html#af6e6138999e371db912ad1eaa28817e2">zview</a></td></tr>
-<tr class="memdesc:af6e6138999e371db912ad1eaa28817e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Z position of the centre point of the viewport. <br /></td></tr>
-<tr class="separator:af6e6138999e371db912ad1eaa28817e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a238302d2aaeccf11d004c66637bfd7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5a238302d2aaeccf11d004c66637bfd7"></a>
+<a class="el" href="geometry_8h.html#ad44b56387be4716a93eb09e15466703d">XYZPoint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classViewport.html#a5a238302d2aaeccf11d004c66637bfd7">view_pos</a></td></tr>
+<tr class="memdesc:a5a238302d2aaeccf11d004c66637bfd7"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classPosition.html" title="Position in a source file. ">Position</a> of the centre point of the viewport. <br /></td></tr>
+<tr class="separator:a5a238302d2aaeccf11d004c66637bfd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4cf69d0f86ba6b3fd59e733628c87bc4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4cf69d0f86ba6b3fd59e733628c87bc4"></a>
 <a class="el" href="stdafx_8h.html#a05f6b0ae8f6a6e135b0e290c25fe0e4e">uint16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classViewport.html#a4cf69d0f86ba6b3fd59e733628c87bc4">tile_width</a></td></tr>
 <tr class="memdesc:a4cf69d0f86ba6b3fd59e733628c87bc4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Width of a tile. <br /></td></tr>
@@ -196,6 +197,10 @@ Public Attributes</h2></td></tr>
 bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classViewport.html#a6bd1183c6460d8561206839907d9f05f">additions_enabled</a></td></tr>
 <tr class="memdesc:a6bd1183c6460d8561206839907d9f05f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flashing of world additions is enabled. <br /></td></tr>
 <tr class="separator:a6bd1183c6460d8561206839907d9f05f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31d04253bf19b343e6bdce35847a5526"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a31d04253bf19b343e6bdce35847a5526"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classViewport.html#a31d04253bf19b343e6bdce35847a5526">underground_mode</a></td></tr>
+<tr class="memdesc:a31d04253bf19b343e6bdce35847a5526"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether underground mode is displayed in this viewport. <br /></td></tr>
+<tr class="separator:a31d04253bf19b343e6bdce35847a5526"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a28e5baa158219bb8485764c99239d211"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a28e5baa158219bb8485764c99239d211"></a>
 <a class="el" href="geometry_8h.html#a814137c690843aa9ff68694bfead1c09">Rectangle32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classWindow.html#a28e5baa158219bb8485764c99239d211">rect</a></td></tr>
 <tr class="memdesc:a28e5baa158219bb8485764c99239d211"><td class="mdescLeft">&#160;</td><td class="mdescRight">Screen area covered by the window. <br /></td></tr>
@@ -248,34 +253,18 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Class for displaying parts of the world. </p>
 
-<p>Definition at line <a class="el" href="viewport_8h_source.html#l00226">226</a> of file <a class="el" href="viewport_8h_source.html">viewport.h</a>.</p>
+<p>Definition at line <a class="el" href="viewport_8h_source.html#l00218">218</a> of file <a class="el" href="viewport_8h_source.html">viewport.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="a799f69bf6cb5454858ba433cf252b76f"></a>
+<a class="anchor" id="a505db1334014f270149f7f07b64139e0"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">Viewport::Viewport </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="stdafx_8h.html#a1134b580f8da4de94ca6b1de4d37975e">uint32</a>&#160;</td>
-          <td class="paramname"><em>xview</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramtype">const <a class="el" href="geometry_8h.html#ad44b56387be4716a93eb09e15466703d">XYZPoint32</a> &amp;&#160;</td>
+          <td class="paramname"><em>view_pos</em></td><td>)</td>
           <td></td>
-          <td class="paramtype"><a class="el" href="stdafx_8h.html#a1134b580f8da4de94ca6b1de4d37975e">uint32</a>&#160;</td>
-          <td class="paramname"><em>yview</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="stdafx_8h.html#a1134b580f8da4de94ca6b1de4d37975e">uint32</a>&#160;</td>
-          <td class="paramname"><em>zview</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -283,41 +272,27 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <p>Viewport constructor. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">xview</td><td>X pixel position of the center viewpoint of the main display. </td></tr>
-    <tr><td class="paramname">yview</td><td>Y pixel position of the center viewpoint of the main display. </td></tr>
-    <tr><td class="paramname">zview</td><td>Z pixel position of the center viewpoint of the main display. </td></tr>
+    <tr><td class="paramname">view_pos</td><td>Pixel position of the center viewpoint of the main display. </td></tr>
   </table>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="viewport_8cpp_source.html#l01347">1347</a> of file <a class="el" href="viewport_8cpp_source.html">viewport.cpp</a>.</p>
+<p>Definition at line <a class="el" href="viewport_8cpp_source.html#l01306">1306</a> of file <a class="el" href="viewport_8cpp_source.html">viewport.cpp</a>.</p>
 
-<p>References <a class="el" href="video_8cpp_source.html#l00025">_video</a>, <a class="el" href="viewport_8h_source.html#l00264">additions_displayed</a>, <a class="el" href="viewport_8h_source.html#l00261">additions_enabled</a>, <a class="el" href="video_8h_source.html#l00073">VideoSystem::GetXSize()</a>, <a class="el" href="video_8h_source.html#l00083">VideoSystem::GetYSize()</a>, <a class="el" href="viewport_8h_source.html#l00332">MouseModes::main_display</a>, <a class="el" href="viewport_8h_source.html#l00260">mouse_pos</a>, <a class="el" href="viewport_8h_source.html#l00255">orientation</a>, <a class="el" href="window_8cpp_source.html#l00092">Window::SetPosition()</a>, <a class="el" href="window_8cpp_source.html#l00081">Window::SetSize()</a>, <a class="el" href="viewport_8h_source.html#l00254">tile_height</a>, <a class="el" href="viewport_8h_source.html#l00253">tile_width</a>, <a class="el" href="orientation_8h_source.html#l00022">VOR_NORTH</a>, <a class="el" href="geometry_8h_source.html#l00037">Point&lt; CT &gt;::x</a>, <a class="el" href="viewport_8h_source.html#l00249">xview</a>, <a class="el" href="geometry_8h_source.html#l00038">Point&lt; CT &gt;::y</a>, <a class="el" href="viewport_8h_source.html#l00250">yview</a>, and <a class="el" href="viewport_8h_source.html#l00251">zview</a>.</p>
+<p>References <a class="el" href="video_8cpp_source.html#l00025">_video</a>, <a class="el" href="viewport_8h_source.html#l00258">additions_displayed</a>, <a class="el" href="viewport_8h_source.html#l00254">additions_enabled</a>, <a class="el" href="video_8h_source.html#l00073">VideoSystem::GetXSize()</a>, <a class="el" href="video_8h_source.html#l00083">VideoSystem::GetYSize()</a>, <a class="el" href="viewport_8h_source.html#l00326">MouseModes::main_display</a>, <a class="el" href="viewport_8h_source.html#l00253">mouse_pos</a>, <a class="el" href="viewport_8h_source.html#l00248">orientation</a>, <a class="el" href="window_8cpp_source.html#l00092">Window::SetPosition()</a>, <a class="el" href="window_8cpp_source.html#l00081">Window::SetSize()</a>, <a class="el" href="viewport_8h_source.html#l00247">tile_height</a>, <a class="el" href="viewport_8h_source.html#l00246">tile_width</a>, <a class="el" href="viewport_8h_source.html#l00255">underground_mode</a>, <a class="el" href="viewport_8h_source.html#l00245">view_pos</a>, <a class="el" href="orientation_8h_source.html#l00022">VOR_NORTH</a>, <a class="el" href="geometry_8h_source.html#l00036">Point&lt; CT &gt;::x</a>, and <a class="el" href="geometry_8h_source.html#l00037">Point&lt; CT &gt;::y</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a874a577cb17423ffbe20f5d70548a6a0"></a>
+<a class="anchor" id="a8f1babfcd8b2768b3251c0c879afe19b"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">void Viewport::MarkVoxelDirty </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="stdafx_8h.html#a259fa4834387bd68627ddf37bb3ebdb9">int16</a>&#160;</td>
-          <td class="paramname"><em>xpos</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="stdafx_8h.html#a259fa4834387bd68627ddf37bb3ebdb9">int16</a>&#160;</td>
-          <td class="paramname"><em>ypos</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="stdafx_8h.html#a259fa4834387bd68627ddf37bb3ebdb9">int16</a>&#160;</td>
-          <td class="paramname"><em>zpos</em>, </td>
+          <td class="paramtype">const <a class="el" href="geometry_8h.html#a71fcb91f44cc6cbf519d0c45c07e931d">XYZPoint16</a> &amp;&#160;</td>
+          <td class="paramname"><em>voxel_pos</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -336,19 +311,17 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <p>Mark a voxel as in need of getting painted. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">xpos</td><td>X position of the voxel. </td></tr>
-    <tr><td class="paramname">ypos</td><td>Y position of the voxel. </td></tr>
-    <tr><td class="paramname">zpos</td><td>Z position of the voxel. </td></tr>
+    <tr><td class="paramname">voxel_pos</td><td><a class="el" href="classPosition.html" title="Position in a source file. ">Position</a> of the voxel. </td></tr>
     <tr><td class="paramname">height</td><td>Number of voxels to mark above the specified coordinate (<code>0</code> means inspect the voxel itself). </td></tr>
   </table>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="viewport_8cpp_source.html#l01431">1431</a> of file <a class="el" href="viewport_8cpp_source.html">viewport.cpp</a>.</p>
+<p>Definition at line <a class="el" href="viewport_8cpp_source.html#l01415">1415</a> of file <a class="el" href="viewport_8cpp_source.html">viewport.cpp</a>.</p>
 
-<p>References <a class="el" href="tile__func_8cpp_source.html#l00024">_corner_dxy</a>, <a class="el" href="ride__type_8cpp_source.html#l00043">_rides_manager</a>, <a class="el" href="video_8cpp_source.html#l00025">_video</a>, <a class="el" href="map_8cpp_source.html#l00027">_world</a>, <a class="el" href="geometry_8h_source.html#l00247">Rectangle&lt; PT, SZ &gt;::base</a>, <a class="el" href="viewport_8cpp_source.html#l01383">ComputeX()</a>, <a class="el" href="viewport_8cpp_source.html#l01395">ComputeY()</a>, <a class="el" href="map_8h_source.html#l00215">Voxel::GetGroundSlope()</a>, <a class="el" href="map_8h_source.html#l00224">Voxel::GetGroundType()</a>, <a class="el" href="map_8h_source.html#l00072">Voxel::GetInstance()</a>, <a class="el" href="ride__type_8cpp_source.html#l00169">RideInstance::GetKind()</a>, <a class="el" href="ride__type_8cpp_source.html#l00412">RidesManager::GetRideInstance()</a>, <a class="el" href="shop__type_8cpp_source.html#l00123">ShopInstance::GetShopType()</a>, <a class="el" href="map_8h_source.html#l00520">VoxelWorld::GetVoxel()</a>, <a class="el" href="tile_8h_source.html#l00197">GTP_INVALID</a>, <a class="el" href="shop__type_8h_source.html#l00032">ShopType::height</a>, <a class="el" href="geometry_8h_source.html#l00249">Rectangle&lt; PT, SZ &gt;::height</a>, <a class="el" href="tile_8h_source.html#l00137">IsImplodedSteepSlope()</a>, <a class="el" href="video_8cpp_source.html#l00292">VideoSystem::MarkDisplayDirty()</a>, <a class="el" href="viewport_8h_source.html#l00255">orientation</a>, <a class="el" href="window_8h_source.html#l00123">Window::rect</a>, <a class="el" href="orientation_8h_source.html#l00037">RotateClockwise()</a>, <a class="el" href="orientation_8h_source.html#l00048">RotateCounterClockwise()</a>, <a class="el" href="ride__type_8h_source.html#l00034">RTK_SHOP</a>, <a class="el" href="map_8h_source.html#l00045">SRI_FULL_RIDES</a>, <a class="el" href="geometry_8h_source.html#l00248">Rectangle&lt; PT, SZ &gt;::width</a>, <a class="el" href="geometry_8h_source.html#l00037">Point&lt; CT &gt;::x</a>, <a class="el" href="viewport_8h_source.html#l00249">xview</a>, <a class="el" href="geometry_8h_source.html#l00038">Point&lt; CT &gt;::y</a>, <a class="el" href="viewport_8h_source.html#l00250">yview</a>, and <a class="el" href="viewport_8h_source.html#l00251">zview</a>.</p>
+<p>References <a class="el" href="tile__func_8cpp_source.html#l00024">_corner_dxy</a>, <a class="el" href="ride__type_8cpp_source.html#l00045">_rides_manager</a>, <a class="el" href="video_8cpp_source.html#l00025">_video</a>, <a class="el" href="map_8cpp_source.html#l00027">_world</a>, <a class="el" href="geometry_8h_source.html#l00349">Rectangle&lt; PT, SZ &gt;::base</a>, <a class="el" href="viewport_8cpp_source.html#l01369">ComputeX()</a>, <a class="el" href="viewport_8cpp_source.html#l01381">ComputeY()</a>, <a class="el" href="map_8h_source.html#l00215">Voxel::GetGroundSlope()</a>, <a class="el" href="map_8h_source.html#l00224">Voxel::GetGroundType()</a>, <a class="el" href="map_8h_source.html#l00072">Voxel::GetInstance()</a>, <a class="el" href="ride__type_8cpp_source.html#l00171">RideInstance::GetKind()</a>, <a class="el" href="ride__type_8cpp_source.html#l00434">RidesManager::GetRideInstance()</a>, <a class="el" href="shop__type_8cpp_source.html#l00157">ShopInstance::GetShopType()</a>, <a class="el" href="map_8h_source.html#l00514">VoxelWorld::GetVoxel()</a>, <a class="el" href="tile_8h_source.html#l00198">GTP_INVALID</a>, <a class="el" href="shop__type_8h_source.html#l00034">ShopType::height</a>, <a class="el" href="geometry_8h_source.html#l00351">Rectangle&lt; PT, SZ &gt;::height</a>, <a class="el" href="tile_8h_source.html#l00137">IsImplodedSteepSlope()</a>, <a class="el" href="video_8cpp_source.html#l00295">VideoSystem::MarkDisplayDirty()</a>, <a class="el" href="viewport_8h_source.html#l00248">orientation</a>, <a class="el" href="window_8h_source.html#l00139">Window::rect</a>, <a class="el" href="orientation_8h_source.html#l00037">RotateClockwise()</a>, <a class="el" href="orientation_8h_source.html#l00048">RotateCounterClockwise()</a>, <a class="el" href="ride__type_8h_source.html#l00034">RTK_SHOP</a>, <a class="el" href="map_8h_source.html#l00045">SRI_FULL_RIDES</a>, <a class="el" href="viewport_8h_source.html#l00245">view_pos</a>, <a class="el" href="geometry_8h_source.html#l00350">Rectangle&lt; PT, SZ &gt;::width</a>, <a class="el" href="geometry_8h_source.html#l00036">Point&lt; CT &gt;::x</a>, <a class="el" href="geometry_8h_source.html#l00100">XYZPoint&lt; CT &gt;::x</a>, <a class="el" href="geometry_8h_source.html#l00037">Point&lt; CT &gt;::y</a>, <a class="el" href="geometry_8h_source.html#l00101">XYZPoint&lt; CT &gt;::y</a>, and <a class="el" href="geometry_8h_source.html#l00102">XYZPoint&lt; CT &gt;::z</a>.</p>
 
-<p>Referenced by <a class="el" href="terraform_8cpp_source.html#l00754">ChangeAreaCursorMode()</a>, <a class="el" href="terraform_8cpp_source.html#l00690">ChangeTileCursorMode()</a>, <a class="el" href="viewport_8cpp_source.html#l00505">Cursor::MarkDirty()</a>, <a class="el" href="viewport_8cpp_source.html#l00600">MultiCursor::MarkDirty()</a>, <a class="el" href="viewport_8cpp_source.html#l00683">EdgeCursor::MarkDirty()</a>, <a class="el" href="map_8cpp_source.html#l00705">WorldAdditions::MarkDirty()</a>, <a class="el" href="viewport_8cpp_source.html#l01716">MarkVoxelDirty()</a>, and <a class="el" href="fence__build_8cpp_source.html#l00130">FenceBuildManager::OnMouseButtonEvent()</a>.</p>
+<p>Referenced by <a class="el" href="terraform_8cpp_source.html#l00754">ChangeAreaCursorMode()</a>, <a class="el" href="terraform_8cpp_source.html#l00690">ChangeTileCursorMode()</a>, <a class="el" href="viewport_8cpp_source.html#l00498">Cursor::MarkDirty()</a>, <a class="el" href="viewport_8cpp_source.html#l00587">MultiCursor::MarkDirty()</a>, <a class="el" href="viewport_8cpp_source.html#l00668">EdgeCursor::MarkDirty()</a>, <a class="el" href="map_8cpp_source.html#l00705">WorldAdditions::MarkDirty()</a>, <a class="el" href="viewport_8cpp_source.html#l01698">MarkVoxelDirty()</a>, and <a class="el" href="fence__build_8cpp_source.html#l00131">FenceBuildManager::OnMouseButtonEvent()</a>.</p>
 
 </div>
 </div>
@@ -378,9 +351,9 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 
 <p>Reimplemented from <a class="el" href="classWindow.html#a92cd18716e562eea3bb8b82d73c45c41">Window</a>.</p>
 
-<p>Definition at line <a class="el" href="viewport_8cpp_source.html#l01400">1400</a> of file <a class="el" href="viewport_8cpp_source.html">viewport.cpp</a>.</p>
+<p>Definition at line <a class="el" href="viewport_8cpp_source.html#l01386">1386</a> of file <a class="el" href="viewport_8cpp_source.html">viewport.cpp</a>.</p>
 
-<p>References <a class="el" href="video_8cpp_source.html#l00025">_video</a>, <a class="el" href="weather_8cpp_source.html#l00017">_weather</a>, <a class="el" href="viewport_8h_source.html#l00264">additions_displayed</a>, <a class="el" href="viewport_8h_source.html#l00261">additions_enabled</a>, <a class="el" href="viewport_8cpp_source.html#l00236">DrawData::base</a>, <a class="el" href="geometry_8h_source.html#l00247">Rectangle&lt; PT, SZ &gt;::base</a>, <a class="el" href="video_8cpp_source.html#l00515">VideoSystem::BlitImage()</a>, <a class="el" href="viewport_8h_source.html#l00333">MouseModes::current</a>, <a class="el" href="classMouseMode.html#ad6a36d0faeab665730130ed0d7795b27">MouseMode::EnableCursors()</a>, <a class="el" href="video_8cpp_source.html#l00486">VideoSystem::FillSurface()</a>, <a class="el" href="video_8cpp_source.html#l00326">VideoSystem::GetClippedRectangle()</a>, <a class="el" href="weather_8cpp_source.html#l00158">Weather::GetWeatherType()</a>, <a class="el" href="palette_8h_source.html#l00138">GS_LIGHT</a>, <a class="el" href="palette_8h_source.html#l00033">MakeRGBA()</a>, <a class="el" href="palette_8h_source.html#l00021">OPAQUE</a>, <a class="el" href="viewport_8cpp_source.html#l00237">DrawData::recolour</a>, <a class="el" href="window_8h_source.html#l00123">Window::rect</a>, <a class="el" href="video_8cpp_source.html#l00317">VideoSystem::SetClippedRectangle()</a>, <a class="el" href="viewport_8cpp_source.html#l00340">VoxelCollector::SetWindowSize()</a>, <a class="el" href="viewport_8cpp_source.html#l00235">DrawData::sprite</a>, <a class="el" href="geometry_8h_source.html#l00248">Rectangle&lt; PT, SZ &gt;::width</a>, and <a class="el" href="geometry_8h_source.html#l00037">Point&lt; CT &gt;::x</a>.</p>
+<p>References <a class="el" href="video_8cpp_source.html#l00025">_video</a>, <a class="el" href="weather_8cpp_source.html#l00017">_weather</a>, <a class="el" href="viewport_8h_source.html#l00258">additions_displayed</a>, <a class="el" href="viewport_8h_source.html#l00254">additions_enabled</a>, <a class="el" href="viewport_8cpp_source.html#l00232">DrawData::base</a>, <a class="el" href="geometry_8h_source.html#l00349">Rectangle&lt; PT, SZ &gt;::base</a>, <a class="el" href="video_8h_source.html#l00137">VideoSystem::BlitImage()</a>, <a class="el" href="viewport_8h_source.html#l00327">MouseModes::current</a>, <a class="el" href="classMouseMode.html#ad6a36d0faeab665730130ed0d7795b27">MouseMode::EnableCursors()</a>, <a class="el" href="video_8cpp_source.html#l00925">VideoSystem::FillRectangle()</a>, <a class="el" href="video_8cpp_source.html#l00329">VideoSystem::GetClippedRectangle()</a>, <a class="el" href="weather_8cpp_source.html#l00158">Weather::GetWeatherType()</a>, <a class="el" href="palette_8h_source.html#l00138">GS_LIGHT</a>, <a class="el" href="palette_8h_source.html#l00033">MakeRGBA()</a>, <a class="el" href="palette_8h_source.html#l00021">OPAQUE</a>, <a class="el" href="viewport_8cpp_source.html#l00233">DrawData::recolour</a>, <a class="el" href="window_8h_source.html#l00139">Window::rect</a>, <a class="el" href="video_8cpp_source.html#l00320">VideoSystem::SetClippedRectangle()</a>, <a class="el" href="viewport_8cpp_source.html#l00335">VoxelCollector::SetWindowSize()</a>, <a class="el" href="viewport_8cpp_source.html#l00231">DrawData::sprite</a>, <a class="el" href="geometry_8h_source.html#l00350">Rectangle&lt; PT, SZ &gt;::width</a>, and <a class="el" href="geometry_8h_source.html#l00036">Point&lt; CT &gt;::x</a>.</p>
 
 </div>
 </div>
@@ -406,11 +379,11 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="viewport_8cpp_source.html#l01534">1534</a> of file <a class="el" href="viewport_8cpp_source.html">viewport.cpp</a>.</p>
+<p>Definition at line <a class="el" href="viewport_8cpp_source.html#l01518">1518</a> of file <a class="el" href="viewport_8cpp_source.html">viewport.cpp</a>.</p>
 
-<p>References <a class="el" href="window_8h_source.html#l00112">ALL_WINDOWS_OF_TYPE</a>, <a class="el" href="window_8h_source.html#l00064">CHG_VIEWPORT_ROTATED</a>, <a class="el" href="window_8cpp_source.html#l00228">Window::MarkDirty()</a>, <a class="el" href="viewport_8h_source.html#l00260">mouse_pos</a>, <a class="el" href="window_8cpp_source.html#l01043">NotifyChange()</a>, <a class="el" href="viewport_8cpp_source.html#l01599">OnMouseMoveEvent()</a>, <a class="el" href="viewport_8h_source.html#l00255">orientation</a>, <a class="el" href="orientation_8h_source.html#l00027">VOR_NUM_ORIENT</a>, and <a class="el" href="window_8h_source.html#l00049">WC_PATH_BUILDER</a>.</p>
+<p>References <a class="el" href="window_8h_source.html#l00128">ALL_WINDOWS_OF_TYPE</a>, <a class="el" href="window_8h_source.html#l00064">CHG_VIEWPORT_ROTATED</a>, <a class="el" href="window_8cpp_source.html#l00228">Window::MarkDirty()</a>, <a class="el" href="viewport_8h_source.html#l00253">mouse_pos</a>, <a class="el" href="window_8cpp_source.html#l01054">NotifyChange()</a>, <a class="el" href="viewport_8cpp_source.html#l01583">OnMouseMoveEvent()</a>, <a class="el" href="viewport_8h_source.html#l00248">orientation</a>, <a class="el" href="orientation_8h_source.html#l00027">VOR_NUM_ORIENT</a>, and <a class="el" href="window_8h_source.html#l00049">WC_PATH_BUILDER</a>.</p>
 
-<p>Referenced by <a class="el" href="video_8cpp_source.html#l00346">VideoSystem::HandleEvent()</a>.</p>
+<p>Referenced by <a class="el" href="video_8cpp_source.html#l00351">HandleKeyInput()</a>.</p>
 
 </div>
 </div>
@@ -447,11 +420,11 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="viewport_8cpp_source.html#l01585">1585</a> of file <a class="el" href="viewport_8cpp_source.html">viewport.cpp</a>.</p>
+<p>Definition at line <a class="el" href="viewport_8cpp_source.html#l01569">1569</a> of file <a class="el" href="viewport_8cpp_source.html">viewport.cpp</a>.</p>
 
-<p>References <a class="el" href="map_8cpp_source.html#l00027">_world</a>, <a class="el" href="viewport_8cpp_source.html#l01550">ComputeHorizontalTranslation()</a>, <a class="el" href="map_8h_source.html#l00542">VoxelWorld::GetXSize()</a>, <a class="el" href="map_8h_source.html#l00551">VoxelWorld::GetYSize()</a>, <a class="el" href="window_8cpp_source.html#l00228">Window::MarkDirty()</a>, <a class="el" href="geometry_8h_source.html#l00037">Point&lt; CT &gt;::x</a>, <a class="el" href="viewport_8h_source.html#l00249">xview</a>, <a class="el" href="geometry_8h_source.html#l00038">Point&lt; CT &gt;::y</a>, and <a class="el" href="viewport_8h_source.html#l00250">yview</a>.</p>
+<p>References <a class="el" href="map_8cpp_source.html#l00027">_world</a>, <a class="el" href="viewport_8cpp_source.html#l01534">ComputeHorizontalTranslation()</a>, <a class="el" href="map_8h_source.html#l00534">VoxelWorld::GetXSize()</a>, <a class="el" href="map_8h_source.html#l00543">VoxelWorld::GetYSize()</a>, <a class="el" href="window_8cpp_source.html#l00228">Window::MarkDirty()</a>, <a class="el" href="viewport_8h_source.html#l00245">view_pos</a>, <a class="el" href="geometry_8h_source.html#l00036">Point&lt; CT &gt;::x</a>, <a class="el" href="geometry_8h_source.html#l00100">XYZPoint&lt; CT &gt;::x</a>, <a class="el" href="geometry_8h_source.html#l00037">Point&lt; CT &gt;::y</a>, and <a class="el" href="geometry_8h_source.html#l00101">XYZPoint&lt; CT &gt;::y</a>.</p>
 
-<p>Referenced by <a class="el" href="select__mode_8cpp_source.html#l00042">SelectMouseMode::OnMouseMoveEvent()</a>, <a class="el" href="path__build_8cpp_source.html#l00397">PathBuildManager::OnMouseMoveEvent()</a>, <a class="el" href="coaster__gui_8cpp_source.html#l01292">CoasterBuildMode::OnMouseMoveEvent()</a>, and <a class="el" href="terraform_8cpp_source.html#l00807">TileTerraformMouseMode::OnMouseMoveEvent()</a>.</p>
+<p>Referenced by <a class="el" href="select__mode_8cpp_source.html#l00042">SelectMouseMode::OnMouseMoveEvent()</a>, <a class="el" href="path__build_8cpp_source.html#l00386">PathBuildManager::OnMouseMoveEvent()</a>, <a class="el" href="coaster__gui_8cpp_source.html#l01277">CoasterBuildMode::OnMouseMoveEvent()</a>, and <a class="el" href="terraform_8cpp_source.html#l00807">TileTerraformMouseMode::OnMouseMoveEvent()</a>.</p>
 
 </div>
 </div>
@@ -478,40 +451,24 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Found type of sprite. </dd></dl>
 
-<p>Definition at line <a class="el" href="viewport_8cpp_source.html#l01491">1491</a> of file <a class="el" href="viewport_8cpp_source.html">viewport.cpp</a>.</p>
+<p>Definition at line <a class="el" href="viewport_8cpp_source.html#l01475">1475</a> of file <a class="el" href="viewport_8cpp_source.html">viewport.cpp</a>.</p>
 
-<p>References <a class="el" href="palette_8cpp_source.html#l00207">_palette</a>, <a class="el" href="orientation_8h_source.html#l00060">AddOrientations()</a>, <a class="el" href="viewport_8cpp_source.html#l00355">VoxelCollector::Collect()</a>, <a class="el" href="viewport_8h_source.html#l00064">CS_GROUND</a>, <a class="el" href="viewport_8h_source.html#l00065">CS_GROUND_EDGE</a>, <a class="el" href="viewport_8h_source.html#l00071">CS_MASK</a>, <a class="el" href="viewport_8h_source.html#l00063">CS_NONE</a>, <a class="el" href="viewport_8h_source.html#l00051">CUR_TYPE_EDGE_NE</a>, <a class="el" href="viewport_8h_source.html#l00046">CUR_TYPE_TILE</a>, <a class="el" href="viewport_8h_source.html#l00115">FinderData::cursor</a>, <a class="el" href="viewport_8cpp_source.html#l00299">PixelFinder::data</a>, <a class="el" href="tile_8h_source.html#l00124">EDGE_COUNT</a>, <a class="el" href="tile_8h_source.html#l00119">EDGE_NE</a>, <a class="el" href="tile_8h_source.html#l00122">EDGE_NW</a>, <a class="el" href="tile_8h_source.html#l00120">EDGE_SE</a>, <a class="el" href="tile_8h_source.html#l00121">EDGE_SW</a>, <a class="el" href="viewport_8cpp_source.html#l00298">PixelFinder::found</a>, <a class="el" href="viewport_8h_source.html#l00103">FW_CORNER</a>, <a class="el" href="viewport_8h_source.html#l00104">FW_EDGE</a>, <a class="el" href="geometry_8h_source.html#l00249">Rectangle&lt; PT, SZ &gt;::height</a>, <a class="el" href="viewport_8h_source.html#l00260">mouse_pos</a>, <a class="el" href="viewport_8cpp_source.html#l00234">DrawData::order</a>, <a class="el" href="viewport_8h_source.html#l00255">orientation</a>, <a class="el" href="viewport_8cpp_source.html#l00300">PixelFinder::pixel</a>, <a class="el" href="window_8h_source.html#l00123">Window::rect</a>, <a class="el" href="viewport_8h_source.html#l00113">FinderData::select</a>, <a class="el" href="viewport_8cpp_source.html#l00340">VoxelCollector::SetWindowSize()</a>, <a class="el" href="orientation_8h_source.html#l00023">VOR_EAST</a>, <a class="el" href="orientation_8h_source.html#l00022">VOR_NORTH</a>, <a class="el" href="orientation_8h_source.html#l00024">VOR_SOUTH</a>, <a class="el" href="orientation_8h_source.html#l00025">VOR_WEST</a>, <a class="el" href="geometry_8h_source.html#l00248">Rectangle&lt; PT, SZ &gt;::width</a>, <a class="el" href="geometry_8h_source.html#l00037">Point&lt; CT &gt;::x</a>, and <a class="el" href="geometry_8h_source.html#l00038">Point&lt; CT &gt;::y</a>.</p>
+<p>References <a class="el" href="palette_8cpp_source.html#l00207">_palette</a>, <a class="el" href="orientation_8h_source.html#l00060">AddOrientations()</a>, <a class="el" href="viewport_8cpp_source.html#l00350">VoxelCollector::Collect()</a>, <a class="el" href="viewport_8h_source.html#l00064">CS_GROUND</a>, <a class="el" href="viewport_8h_source.html#l00065">CS_GROUND_EDGE</a>, <a class="el" href="viewport_8h_source.html#l00071">CS_MASK</a>, <a class="el" href="viewport_8h_source.html#l00063">CS_NONE</a>, <a class="el" href="viewport_8h_source.html#l00051">CUR_TYPE_EDGE_NE</a>, <a class="el" href="viewport_8h_source.html#l00046">CUR_TYPE_TILE</a>, <a class="el" href="viewport_8h_source.html#l00115">FinderData::cursor</a>, <a class="el" href="viewport_8cpp_source.html#l00295">PixelFinder::data</a>, <a class="el" href="tile_8h_source.html#l00124">EDGE_COUNT</a>, <a class="el" href="tile_8h_source.html#l00119">EDGE_NE</a>, <a class="el" href="tile_8h_source.html#l00122">EDGE_NW</a>, <a class="el" href="tile_8h_source.html#l00120">EDGE_SE</a>, <a class="el" href="tile_8h_source.html#l00121">EDGE_SW</a>, <a class="el" href="viewport_8cpp_source.html#l00294">PixelFinder::found</a>, <a class="el" href="viewport_8h_source.html#l00103">FW_CORNER</a>, <a class="el" href="viewport_8h_source.html#l00104">FW_EDGE</a>, <a class="el" href="geometry_8h_source.html#l00351">Rectangle&lt; PT, SZ &gt;::height</a>, <a class="el" href="viewport_8h_source.html#l00253">mouse_pos</a>, <a class="el" href="viewport_8cpp_source.html#l00230">DrawData::order</a>, <a class="el" href="viewport_8h_source.html#l00248">orientation</a>, <a class="el" href="viewport_8cpp_source.html#l00296">PixelFinder::pixel</a>, <a class="el" href="window_8h_source.html#l00139">Window::rect</a>, <a class="el" href="viewport_8h_source.html#l00113">FinderData::select</a>, <a class="el" href="viewport_8cpp_source.html#l00335">VoxelCollector::SetWindowSize()</a>, <a class="el" href="orientation_8h_source.html#l00023">VOR_EAST</a>, <a class="el" href="orientation_8h_source.html#l00022">VOR_NORTH</a>, <a class="el" href="orientation_8h_source.html#l00024">VOR_SOUTH</a>, <a class="el" href="orientation_8h_source.html#l00025">VOR_WEST</a>, <a class="el" href="geometry_8h_source.html#l00350">Rectangle&lt; PT, SZ &gt;::width</a>, <a class="el" href="geometry_8h_source.html#l00036">Point&lt; CT &gt;::x</a>, and <a class="el" href="geometry_8h_source.html#l00037">Point&lt; CT &gt;::y</a>.</p>
 
-<p>Referenced by <a class="el" href="select__mode_8cpp_source.html#l00050">SelectMouseMode::OnMouseButtonEvent()</a>, <a class="el" href="path__build_8cpp_source.html#l00415">PathBuildManager::OnMouseButtonEvent()</a>, <a class="el" href="path__build_8cpp_source.html#l00397">PathBuildManager::OnMouseMoveEvent()</a>, <a class="el" href="fence__build_8cpp_source.html#l00068">FenceBuildManager::SetCursors()</a>, <a class="el" href="terraform_8cpp_source.html#l00644">TileTerraformMouseMode::SetCursors()</a>, and <a class="el" href="coaster__gui_8cpp_source.html#l01328">CoasterBuildMode::UpdateDisplay()</a>.</p>
+<p>Referenced by <a class="el" href="select__mode_8cpp_source.html#l00050">SelectMouseMode::OnMouseButtonEvent()</a>, <a class="el" href="path__build_8cpp_source.html#l00411">PathBuildManager::OnMouseButtonEvent()</a>, <a class="el" href="path__build_8cpp_source.html#l00386">PathBuildManager::OnMouseMoveEvent()</a>, <a class="el" href="fence__build_8cpp_source.html#l00068">FenceBuildManager::SetCursors()</a>, <a class="el" href="terraform_8cpp_source.html#l00644">TileTerraformMouseMode::SetCursors()</a>, and <a class="el" href="coaster__gui_8cpp_source.html#l01313">CoasterBuildMode::UpdateDisplay()</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="ad0821d076af065df591306eb5287765a"></a>
+<a class="anchor" id="a57afb1b609dc0d7bed80ca49d5e3a41b"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="group__viewport__group.html#gabbe637356c8cb749a9726f13658031fa">CursorType</a> Viewport::GetCursorAtPos </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="stdafx_8h.html#a05f6b0ae8f6a6e135b0e290c25fe0e4e">uint16</a>&#160;</td>
-          <td class="paramname"><em>xpos</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramtype">const <a class="el" href="geometry_8h.html#a71fcb91f44cc6cbf519d0c45c07e931d">XYZPoint16</a> &amp;&#160;</td>
+          <td class="paramname"><em>voxel_pos</em></td><td>)</td>
           <td></td>
-          <td class="paramtype"><a class="el" href="stdafx_8h.html#a05f6b0ae8f6a6e135b0e290c25fe0e4e">uint16</a>&#160;</td>
-          <td class="paramname"><em>ypos</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="stdafx_8h.html#adde6aaee8457bee49c2a92621fe22b79">uint8</a>&#160;</td>
-          <td class="paramname"><em>zpos</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -519,19 +476,17 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <p>Get the cursor type at a given position. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">xpos</td><td>X position of the voxel being drawn. </td></tr>
-    <tr><td class="paramname">ypos</td><td>Y position of the voxel being drawn. </td></tr>
-    <tr><td class="paramname">zpos</td><td>Z position of the voxel being drawn. </td></tr>
+    <tr><td class="paramname">voxel_pos</td><td><a class="el" href="classPosition.html" title="Position in a source file. ">Position</a> of the voxel being drawn. </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Cursor type at the position (<code>CUR_TYPE_INVALID</code> means no cursor available). </dd></dl>
 
-<p>Definition at line <a class="el" href="viewport_8cpp_source.html#l00741">741</a> of file <a class="el" href="viewport_8cpp_source.html">viewport.cpp</a>.</p>
+<p>Definition at line <a class="el" href="viewport_8cpp_source.html#l00718">718</a> of file <a class="el" href="viewport_8cpp_source.html">viewport.cpp</a>.</p>
 
-<p>References <a class="el" href="viewport_8h_source.html#l00264">additions_displayed</a>, <a class="el" href="viewport_8h_source.html#l00261">additions_enabled</a>, <a class="el" href="viewport_8h_source.html#l00258">area_cursor</a>, <a class="el" href="viewport_8h_source.html#l00257">arrow_cursor</a>, <a class="el" href="viewport_8h_source.html#l00056">CUR_TYPE_INVALID</a>, <a class="el" href="viewport_8h_source.html#l00259">edge_cursor</a>, <a class="el" href="viewport_8cpp_source.html#l00517">Cursor::GetCursor()</a>, <a class="el" href="viewport_8cpp_source.html#l00612">MultiCursor::GetCursor()</a>, <a class="el" href="viewport_8cpp_source.html#l00695">EdgeCursor::GetCursor()</a>, and <a class="el" href="viewport_8h_source.html#l00256">tile_cursor</a>.</p>
+<p>References <a class="el" href="viewport_8h_source.html#l00258">additions_displayed</a>, <a class="el" href="viewport_8h_source.html#l00254">additions_enabled</a>, <a class="el" href="viewport_8h_source.html#l00251">area_cursor</a>, <a class="el" href="viewport_8h_source.html#l00250">arrow_cursor</a>, <a class="el" href="viewport_8h_source.html#l00056">CUR_TYPE_INVALID</a>, <a class="el" href="viewport_8h_source.html#l00252">edge_cursor</a>, <a class="el" href="viewport_8cpp_source.html#l00508">Cursor::GetCursor()</a>, <a class="el" href="viewport_8cpp_source.html#l00599">MultiCursor::GetCursor()</a>, <a class="el" href="viewport_8cpp_source.html#l00678">EdgeCursor::GetCursor()</a>, and <a class="el" href="viewport_8h_source.html#l00249">tile_cursor</a>.</p>
 
-<p>Referenced by <a class="el" href="viewport_8cpp_source.html#l00784">SpriteCollector::GetCursorSpriteAtPos()</a>.</p>
+<p>Referenced by <a class="el" href="viewport_8cpp_source.html#l00759">SpriteCollector::GetCursorSpriteAtPos()</a>.</p>
 
 </div>
 </div>
@@ -576,11 +531,11 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Highest voxel to draw. </dd></dl>
 
-<p>Definition at line <a class="el" href="viewport_8cpp_source.html#l00763">763</a> of file <a class="el" href="viewport_8cpp_source.html">viewport.cpp</a>.</p>
+<p>Definition at line <a class="el" href="viewport_8cpp_source.html#l00740">740</a> of file <a class="el" href="viewport_8cpp_source.html">viewport.cpp</a>.</p>
 
-<p>References <a class="el" href="viewport_8h_source.html#l00264">additions_displayed</a>, <a class="el" href="viewport_8h_source.html#l00261">additions_enabled</a>, <a class="el" href="viewport_8h_source.html#l00258">area_cursor</a>, <a class="el" href="viewport_8h_source.html#l00257">arrow_cursor</a>, <a class="el" href="viewport_8h_source.html#l00259">edge_cursor</a>, <a class="el" href="viewport_8cpp_source.html#l00523">Cursor::GetMaxCursorHeight()</a>, <a class="el" href="viewport_8cpp_source.html#l00622">MultiCursor::GetMaxCursorHeight()</a>, <a class="el" href="viewport_8cpp_source.html#l00701">EdgeCursor::GetMaxCursorHeight()</a>, and <a class="el" href="viewport_8h_source.html#l00256">tile_cursor</a>.</p>
+<p>References <a class="el" href="viewport_8h_source.html#l00258">additions_displayed</a>, <a class="el" href="viewport_8h_source.html#l00254">additions_enabled</a>, <a class="el" href="viewport_8h_source.html#l00251">area_cursor</a>, <a class="el" href="viewport_8h_source.html#l00250">arrow_cursor</a>, <a class="el" href="viewport_8h_source.html#l00252">edge_cursor</a>, <a class="el" href="viewport_8cpp_source.html#l00514">Cursor::GetMaxCursorHeight()</a>, <a class="el" href="viewport_8cpp_source.html#l00609">MultiCursor::GetMaxCursorHeight()</a>, <a class="el" href="viewport_8cpp_source.html#l00684">EdgeCursor::GetMaxCursorHeight()</a>, and <a class="el" href="viewport_8h_source.html#l00249">tile_cursor</a>.</p>
 
-<p>Referenced by <a class="el" href="viewport_8cpp_source.html#l00355">VoxelCollector::Collect()</a>.</p>
+<p>Referenced by <a class="el" href="viewport_8cpp_source.html#l00350">VoxelCollector::Collect()</a>.</p>
 
 </div>
 </div>
@@ -599,11 +554,11 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 
 <p>Enable flashing display of showing proposed game world additions to the player. </p>
 
-<p>Definition at line <a class="el" href="viewport_8cpp_source.html#l00391">391</a> of file <a class="el" href="viewport_8cpp_source.html">viewport.cpp</a>.</p>
+<p>Definition at line <a class="el" href="viewport_8cpp_source.html#l00386">386</a> of file <a class="el" href="viewport_8cpp_source.html">viewport.cpp</a>.</p>
 
-<p>References <a class="el" href="viewport_8h_source.html#l00264">additions_displayed</a>, <a class="el" href="viewport_8h_source.html#l00261">additions_enabled</a>, <a class="el" href="viewport_8cpp_source.html#l00098">ADDITIONS_TIMEOUT_LENGTH</a>, <a class="el" href="viewport_8h_source.html#l00257">arrow_cursor</a>, <a class="el" href="viewport_8cpp_source.html#l00505">Cursor::MarkDirty()</a>, <a class="el" href="map_8cpp_source.html#l00705">WorldAdditions::MarkDirty()</a>, and <a class="el" href="window_8h_source.html#l00131">Window::timeout</a>.</p>
+<p>References <a class="el" href="viewport_8h_source.html#l00258">additions_displayed</a>, <a class="el" href="viewport_8h_source.html#l00254">additions_enabled</a>, <a class="el" href="viewport_8cpp_source.html#l00098">ADDITIONS_TIMEOUT_LENGTH</a>, <a class="el" href="viewport_8h_source.html#l00250">arrow_cursor</a>, <a class="el" href="viewport_8cpp_source.html#l00498">Cursor::MarkDirty()</a>, <a class="el" href="map_8cpp_source.html#l00705">WorldAdditions::MarkDirty()</a>, and <a class="el" href="window_8h_source.html#l00147">Window::timeout</a>.</p>
 
-<p>Referenced by <a class="el" href="path__build_8cpp_source.html#l00791">PathBuildManager::ComputeNewLongPath()</a>, <a class="el" href="viewport_8cpp_source.html#l00101">EnableWorldAdditions()</a>, and <a class="el" href="path__build_8cpp_source.html#l00637">PathBuildManager::UpdateState()</a>.</p>
+<p>Referenced by <a class="el" href="path__build_8cpp_source.html#l00811">PathBuildManager::ComputeNewLongPath()</a>, <a class="el" href="viewport_8cpp_source.html#l00101">EnableWorldAdditions()</a>, and <a class="el" href="path__build_8cpp_source.html#l00663">PathBuildManager::UpdateState()</a>.</p>
 
 </div>
 </div>
@@ -622,11 +577,11 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 
 <p>Disable flashing display of showing proposed game world additions to the player. </p>
 
-<p>Definition at line <a class="el" href="viewport_8cpp_source.html#l00403">403</a> of file <a class="el" href="viewport_8cpp_source.html">viewport.cpp</a>.</p>
+<p>Definition at line <a class="el" href="viewport_8cpp_source.html#l00398">398</a> of file <a class="el" href="viewport_8cpp_source.html">viewport.cpp</a>.</p>
 
-<p>References <a class="el" href="viewport_8h_source.html#l00264">additions_displayed</a>, <a class="el" href="viewport_8h_source.html#l00261">additions_enabled</a>, <a class="el" href="viewport_8h_source.html#l00257">arrow_cursor</a>, <a class="el" href="viewport_8cpp_source.html#l00505">Cursor::MarkDirty()</a>, <a class="el" href="map_8cpp_source.html#l00705">WorldAdditions::MarkDirty()</a>, and <a class="el" href="window_8h_source.html#l00131">Window::timeout</a>.</p>
+<p>References <a class="el" href="viewport_8h_source.html#l00258">additions_displayed</a>, <a class="el" href="viewport_8h_source.html#l00254">additions_enabled</a>, <a class="el" href="viewport_8h_source.html#l00250">arrow_cursor</a>, <a class="el" href="viewport_8cpp_source.html#l00498">Cursor::MarkDirty()</a>, <a class="el" href="map_8cpp_source.html#l00705">WorldAdditions::MarkDirty()</a>, and <a class="el" href="window_8h_source.html#l00147">Window::timeout</a>.</p>
 
-<p>Referenced by <a class="el" href="viewport_8cpp_source.html#l00108">DisableWorldAdditions()</a>, and <a class="el" href="path__build_8cpp_source.html#l00637">PathBuildManager::UpdateState()</a>.</p>
+<p>Referenced by <a class="el" href="viewport_8cpp_source.html#l00108">DisableWorldAdditions()</a>, and <a class="el" href="path__build_8cpp_source.html#l00663">PathBuildManager::UpdateState()</a>.</p>
 
 </div>
 </div>
@@ -646,11 +601,11 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <p>Reset the display state of the world additions, such that they become visible directly. </p>
 <dl class="section pre"><dt>Precondition</dt><dd>World additions have to be enabled. </dd></dl>
 
-<p>Definition at line <a class="el" href="viewport_8cpp_source.html#l00418">418</a> of file <a class="el" href="viewport_8cpp_source.html">viewport.cpp</a>.</p>
+<p>Definition at line <a class="el" href="viewport_8cpp_source.html#l00413">413</a> of file <a class="el" href="viewport_8cpp_source.html">viewport.cpp</a>.</p>
 
-<p>References <a class="el" href="viewport_8h_source.html#l00264">additions_displayed</a>, <a class="el" href="viewport_8h_source.html#l00261">additions_enabled</a>, <a class="el" href="viewport_8cpp_source.html#l00098">ADDITIONS_TIMEOUT_LENGTH</a>, <a class="el" href="viewport_8h_source.html#l00257">arrow_cursor</a>, <a class="el" href="viewport_8cpp_source.html#l00505">Cursor::MarkDirty()</a>, <a class="el" href="map_8cpp_source.html#l00705">WorldAdditions::MarkDirty()</a>, and <a class="el" href="window_8h_source.html#l00131">Window::timeout</a>.</p>
+<p>References <a class="el" href="viewport_8h_source.html#l00258">additions_displayed</a>, <a class="el" href="viewport_8h_source.html#l00254">additions_enabled</a>, <a class="el" href="viewport_8cpp_source.html#l00098">ADDITIONS_TIMEOUT_LENGTH</a>, <a class="el" href="viewport_8h_source.html#l00250">arrow_cursor</a>, <a class="el" href="viewport_8cpp_source.html#l00498">Cursor::MarkDirty()</a>, <a class="el" href="map_8cpp_source.html#l00705">WorldAdditions::MarkDirty()</a>, and <a class="el" href="window_8h_source.html#l00147">Window::timeout</a>.</p>
 
-<p>Referenced by <a class="el" href="path__build_8cpp_source.html#l00791">PathBuildManager::ComputeNewLongPath()</a>, <a class="el" href="ride__gui_8cpp_source.html#l00465">ShopPlacementManager::PlaceShop()</a>, and <a class="el" href="path__build_8cpp_source.html#l00637">PathBuildManager::UpdateState()</a>.</p>
+<p>Referenced by <a class="el" href="path__build_8cpp_source.html#l00811">PathBuildManager::ComputeNewLongPath()</a>, <a class="el" href="ride__gui_8cpp_source.html#l00460">ShopPlacementManager::PlaceShop()</a>, and <a class="el" href="path__build_8cpp_source.html#l00663">PathBuildManager::UpdateState()</a>.</p>
 
 </div>
 </div>
@@ -688,11 +643,11 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>New X and Y coordinates of the centre point. </dd></dl>
 
-<p>Definition at line <a class="el" href="viewport_8cpp_source.html#l01550">1550</a> of file <a class="el" href="viewport_8cpp_source.html">viewport.cpp</a>.</p>
+<p>Definition at line <a class="el" href="viewport_8cpp_source.html#l01534">1534</a> of file <a class="el" href="viewport_8cpp_source.html">viewport.cpp</a>.</p>
 
-<p>References <a class="el" href="stdafx_8h_source.html#l00182">NOT_REACHED</a>, <a class="el" href="viewport_8h_source.html#l00255">orientation</a>, <a class="el" href="viewport_8h_source.html#l00253">tile_width</a>, <a class="el" href="orientation_8h_source.html#l00023">VOR_EAST</a>, <a class="el" href="orientation_8h_source.html#l00022">VOR_NORTH</a>, <a class="el" href="orientation_8h_source.html#l00024">VOR_SOUTH</a>, <a class="el" href="orientation_8h_source.html#l00025">VOR_WEST</a>, <a class="el" href="geometry_8h_source.html#l00037">Point&lt; CT &gt;::x</a>, <a class="el" href="viewport_8h_source.html#l00249">xview</a>, <a class="el" href="geometry_8h_source.html#l00038">Point&lt; CT &gt;::y</a>, and <a class="el" href="viewport_8h_source.html#l00250">yview</a>.</p>
+<p>References <a class="el" href="stdafx_8h_source.html#l00182">NOT_REACHED</a>, <a class="el" href="viewport_8h_source.html#l00248">orientation</a>, <a class="el" href="viewport_8h_source.html#l00246">tile_width</a>, <a class="el" href="viewport_8h_source.html#l00245">view_pos</a>, <a class="el" href="orientation_8h_source.html#l00023">VOR_EAST</a>, <a class="el" href="orientation_8h_source.html#l00022">VOR_NORTH</a>, <a class="el" href="orientation_8h_source.html#l00024">VOR_SOUTH</a>, <a class="el" href="orientation_8h_source.html#l00025">VOR_WEST</a>, <a class="el" href="geometry_8h_source.html#l00036">Point&lt; CT &gt;::x</a>, <a class="el" href="geometry_8h_source.html#l00100">XYZPoint&lt; CT &gt;::x</a>, <a class="el" href="geometry_8h_source.html#l00037">Point&lt; CT &gt;::y</a>, and <a class="el" href="geometry_8h_source.html#l00101">XYZPoint&lt; CT &gt;::y</a>.</p>
 
-<p>Referenced by <a class="el" href="viewport_8cpp_source.html#l01585">MoveViewport()</a>, <a class="el" href="path__build_8cpp_source.html#l00397">PathBuildManager::OnMouseMoveEvent()</a>, and <a class="el" href="ride__gui_8cpp_source.html#l00465">ShopPlacementManager::PlaceShop()</a>.</p>
+<p>Referenced by <a class="el" href="viewport_8cpp_source.html#l01569">MoveViewport()</a>, <a class="el" href="path__build_8cpp_source.html#l00386">PathBuildManager::OnMouseMoveEvent()</a>, and <a class="el" href="ride__gui_8cpp_source.html#l00460">ShopPlacementManager::PlaceShop()</a>.</p>
 
 </div>
 </div>
@@ -730,11 +685,11 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Relative X position. </dd></dl>
 
-<p>Definition at line <a class="el" href="viewport_8cpp_source.html#l01383">1383</a> of file <a class="el" href="viewport_8cpp_source.html">viewport.cpp</a>.</p>
+<p>Definition at line <a class="el" href="viewport_8cpp_source.html#l01369">1369</a> of file <a class="el" href="viewport_8cpp_source.html">viewport.cpp</a>.</p>
 
-<p>References <a class="el" href="viewport_8cpp_source.html#l00122">ComputeXFunction()</a>, <a class="el" href="viewport_8h_source.html#l00255">orientation</a>, and <a class="el" href="viewport_8h_source.html#l00253">tile_width</a>.</p>
+<p>References <a class="el" href="viewport_8cpp_source.html#l00122">ComputeXFunction()</a>, <a class="el" href="viewport_8h_source.html#l00248">orientation</a>, and <a class="el" href="viewport_8h_source.html#l00246">tile_width</a>.</p>
 
-<p>Referenced by <a class="el" href="viewport_8cpp_source.html#l01431">MarkVoxelDirty()</a>.</p>
+<p>Referenced by <a class="el" href="viewport_8cpp_source.html#l01415">MarkVoxelDirty()</a>.</p>
 
 </div>
 </div>
@@ -779,11 +734,81 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Relative Y position. </dd></dl>
 
-<p>Definition at line <a class="el" href="viewport_8cpp_source.html#l01395">1395</a> of file <a class="el" href="viewport_8cpp_source.html">viewport.cpp</a>.</p>
+<p>Definition at line <a class="el" href="viewport_8cpp_source.html#l01381">1381</a> of file <a class="el" href="viewport_8cpp_source.html">viewport.cpp</a>.</p>
 
-<p>References <a class="el" href="viewport_8cpp_source.html#l00143">ComputeYFunction()</a>, <a class="el" href="viewport_8h_source.html#l00255">orientation</a>, <a class="el" href="viewport_8h_source.html#l00254">tile_height</a>, and <a class="el" href="viewport_8h_source.html#l00253">tile_width</a>.</p>
+<p>References <a class="el" href="viewport_8cpp_source.html#l00143">ComputeYFunction()</a>, <a class="el" href="viewport_8h_source.html#l00248">orientation</a>, <a class="el" href="viewport_8h_source.html#l00247">tile_height</a>, and <a class="el" href="viewport_8h_source.html#l00246">tile_width</a>.</p>
 
-<p>Referenced by <a class="el" href="viewport_8cpp_source.html#l01431">MarkVoxelDirty()</a>.</p>
+<p>Referenced by <a class="el" href="viewport_8cpp_source.html#l01415">MarkVoxelDirty()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a1e0a1af618c67fcef5d46e809bfcfe01"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Viewport::IsUndergroundModeAvailable </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Can the viewport switch to underground mode view? </p>
+<dl class="section return"><dt>Returns</dt><dd>Whether underground mode view is available. </dd></dl>
+
+<p>Definition at line <a class="el" href="viewport_8cpp_source.html#l01338">1338</a> of file <a class="el" href="viewport_8cpp_source.html">viewport.cpp</a>.</p>
+
+<p>References <a class="el" href="sprite__store_8cpp_source.html#l00031">_sprite_manager</a>, <a class="el" href="sprite__store_8cpp_source.html#l01558">SpriteManager::GetSprites()</a>, <a class="el" href="tile_8h_source.html#l00191">GTP_UNDERGROUND</a>, <a class="el" href="sprite__store_8cpp_source.html#l00298">SurfaceData::HasAllSprites()</a>, <a class="el" href="sprite__store_8h_source.html#l00592">SpriteStorage::surface</a>, and <a class="el" href="viewport_8h_source.html#l00246">tile_width</a>.</p>
+
+<p>Referenced by <a class="el" href="viewport_8cpp_source.html#l01345">SetUndergroundMode()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a5a9bacb50913e2d5ecc22027b6096cbd"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Viewport::SetUndergroundMode </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Enable the underground mode view, if possible. </p>
+
+<p>Definition at line <a class="el" href="viewport_8cpp_source.html#l01345">1345</a> of file <a class="el" href="viewport_8cpp_source.html">viewport.cpp</a>.</p>
+
+<p>References <a class="el" href="viewport_8cpp_source.html#l01338">IsUndergroundModeAvailable()</a>, <a class="el" href="window_8cpp_source.html#l00228">Window::MarkDirty()</a>, and <a class="el" href="viewport_8h_source.html#l00255">underground_mode</a>.</p>
+
+<p>Referenced by <a class="el" href="viewport_8cpp_source.html#l01353">ToggleUndergroundMode()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a4633a976ae1cf9d873162ddf29c64cf5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Viewport::ToggleUndergroundMode </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Toggle the underground mode view on/off. </p>
+
+<p>Definition at line <a class="el" href="viewport_8cpp_source.html#l01353">1353</a> of file <a class="el" href="viewport_8cpp_source.html">viewport.cpp</a>.</p>
+
+<p>References <a class="el" href="window_8cpp_source.html#l00228">Window::MarkDirty()</a>, <a class="el" href="viewport_8cpp_source.html#l01345">SetUndergroundMode()</a>, and <a class="el" href="viewport_8h_source.html#l00255">underground_mode</a>.</p>
+
+<p>Referenced by <a class="el" href="video_8cpp_source.html#l00351">HandleKeyInput()</a>.</p>
 
 </div>
 </div>
@@ -819,11 +844,11 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 
 <p>Reimplemented from <a class="el" href="classWindow.html#af2be7377d3747cb286c4ee11e412d42b">Window</a>.</p>
 
-<p>Definition at line <a class="el" href="viewport_8cpp_source.html#l01599">1599</a> of file <a class="el" href="viewport_8cpp_source.html">viewport.cpp</a>.</p>
+<p>Definition at line <a class="el" href="viewport_8cpp_source.html#l01583">1583</a> of file <a class="el" href="viewport_8cpp_source.html">viewport.cpp</a>.</p>
 
-<p>References <a class="el" href="viewport_8h_source.html#l00333">MouseModes::current</a>, <a class="el" href="viewport_8h_source.html#l00260">mouse_pos</a>, and <a class="el" href="viewport_8cpp_source.html#l01637">MouseMode::OnMouseMoveEvent()</a>.</p>
+<p>References <a class="el" href="viewport_8h_source.html#l00327">MouseModes::current</a>, <a class="el" href="viewport_8h_source.html#l00253">mouse_pos</a>, and <a class="el" href="viewport_8cpp_source.html#l01621">MouseMode::OnMouseMoveEvent()</a>.</p>
 
-<p>Referenced by <a class="el" href="viewport_8cpp_source.html#l01534">Rotate()</a>.</p>
+<p>Referenced by <a class="el" href="viewport_8cpp_source.html#l01518">Rotate()</a>.</p>
 
 </div>
 </div>
@@ -861,9 +886,9 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 
 <p>Reimplemented from <a class="el" href="classWindow.html#a71ef7afa2d90b8127ce6181adbe2b82e">Window</a>.</p>
 
-<p>Definition at line <a class="el" href="viewport_8cpp_source.html#l01607">1607</a> of file <a class="el" href="viewport_8cpp_source.html">viewport.cpp</a>.</p>
+<p>Definition at line <a class="el" href="viewport_8cpp_source.html#l01591">1591</a> of file <a class="el" href="viewport_8cpp_source.html">viewport.cpp</a>.</p>
 
-<p>References <a class="el" href="viewport_8h_source.html#l00333">MouseModes::current</a>, <a class="el" href="viewport_8cpp_source.html#l01646">MouseMode::OnMouseButtonEvent()</a>, and <a class="el" href="window_8h_source.html#l00096">WMME_NONE</a>.</p>
+<p>References <a class="el" href="viewport_8h_source.html#l00327">MouseModes::current</a>, <a class="el" href="viewport_8cpp_source.html#l01630">MouseMode::OnMouseButtonEvent()</a>, and <a class="el" href="window_8h_source.html#l00096">WMME_NONE</a>.</p>
 
 </div>
 </div>
@@ -899,9 +924,9 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 
 <p>Reimplemented from <a class="el" href="classWindow.html#a75a62b5bf0e1a90c9e3b4ebbfe08cb70">Window</a>.</p>
 
-<p>Definition at line <a class="el" href="viewport_8cpp_source.html#l01613">1613</a> of file <a class="el" href="viewport_8cpp_source.html">viewport.cpp</a>.</p>
+<p>Definition at line <a class="el" href="viewport_8cpp_source.html#l01597">1597</a> of file <a class="el" href="viewport_8cpp_source.html">viewport.cpp</a>.</p>
 
-<p>References <a class="el" href="viewport_8h_source.html#l00333">MouseModes::current</a>, and <a class="el" href="viewport_8cpp_source.html#l01655">MouseMode::OnMouseWheelEvent()</a>.</p>
+<p>References <a class="el" href="viewport_8h_source.html#l00327">MouseModes::current</a>, and <a class="el" href="viewport_8cpp_source.html#l01639">MouseMode::OnMouseWheelEvent()</a>.</p>
 
 </div>
 </div>
@@ -930,9 +955,9 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 
 <p>Reimplemented from <a class="el" href="classWindow.html#af67225c158278f151fc8eb25dee072fa">Window</a>.</p>
 
-<p>Definition at line <a class="el" href="viewport_8cpp_source.html#l00430">430</a> of file <a class="el" href="viewport_8cpp_source.html">viewport.cpp</a>.</p>
+<p>Definition at line <a class="el" href="viewport_8cpp_source.html#l00425">425</a> of file <a class="el" href="viewport_8cpp_source.html">viewport.cpp</a>.</p>
 
-<p>References <a class="el" href="viewport_8h_source.html#l00264">additions_displayed</a>, <a class="el" href="viewport_8h_source.html#l00261">additions_enabled</a>, <a class="el" href="viewport_8cpp_source.html#l00098">ADDITIONS_TIMEOUT_LENGTH</a>, <a class="el" href="viewport_8h_source.html#l00257">arrow_cursor</a>, <a class="el" href="viewport_8cpp_source.html#l00505">Cursor::MarkDirty()</a>, <a class="el" href="map_8cpp_source.html#l00705">WorldAdditions::MarkDirty()</a>, and <a class="el" href="window_8h_source.html#l00131">Window::timeout</a>.</p>
+<p>References <a class="el" href="viewport_8h_source.html#l00258">additions_displayed</a>, <a class="el" href="viewport_8h_source.html#l00254">additions_enabled</a>, <a class="el" href="viewport_8cpp_source.html#l00098">ADDITIONS_TIMEOUT_LENGTH</a>, <a class="el" href="viewport_8h_source.html#l00250">arrow_cursor</a>, <a class="el" href="viewport_8cpp_source.html#l00498">Cursor::MarkDirty()</a>, <a class="el" href="map_8cpp_source.html#l00705">WorldAdditions::MarkDirty()</a>, and <a class="el" href="window_8h_source.html#l00147">Window::timeout</a>.</p>
 
 </div>
 </div>
@@ -981,9 +1006,9 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 
 <p>Definition at line <a class="el" href="window_8cpp_source.html#l00081">81</a> of file <a class="el" href="window_8cpp_source.html">window.cpp</a>.</p>
 
-<p>References <a class="el" href="geometry_8h_source.html#l00249">Rectangle&lt; PT, SZ &gt;::height</a>, <a class="el" href="window_8h_source.html#l00123">Window::rect</a>, and <a class="el" href="geometry_8h_source.html#l00248">Rectangle&lt; PT, SZ &gt;::width</a>.</p>
+<p>References <a class="el" href="geometry_8h_source.html#l00351">Rectangle&lt; PT, SZ &gt;::height</a>, <a class="el" href="window_8h_source.html#l00139">Window::rect</a>, and <a class="el" href="geometry_8h_source.html#l00350">Rectangle&lt; PT, SZ &gt;::width</a>.</p>
 
-<p>Referenced by <a class="el" href="video_8cpp_source.html#l00229">VideoSystem::SetResolution()</a>, and <a class="el" href="viewport_8cpp_source.html#l01347">Viewport()</a>.</p>
+<p>Referenced by <a class="el" href="video_8cpp_source.html#l00241">VideoSystem::SetResolution()</a>, and <a class="el" href="viewport_8cpp_source.html#l01306">Viewport()</a>.</p>
 
 </div>
 </div>
@@ -1030,7 +1055,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 
 <p>Definition at line <a class="el" href="window_8cpp_source.html#l00092">92</a> of file <a class="el" href="window_8cpp_source.html">window.cpp</a>.</p>
 
-<p>Referenced by <a class="el" href="dropdown_8cpp_source.html#l00074">DropdownMenuWindow::DropdownMenuWindow()</a>, <a class="el" href="window_8cpp_source.html#l00833">WindowManager::MouseMoveEvent()</a>, <a class="el" href="dropdown_8cpp_source.html#l00233">RecolourDropdownWindow::RecolourDropdownWindow()</a>, <a class="el" href="window_8cpp_source.html#l00383">GuiWindow::SetupWidgetTree()</a>, and <a class="el" href="viewport_8cpp_source.html#l01347">Viewport()</a>.</p>
+<p>Referenced by <a class="el" href="dropdown_8cpp_source.html#l00074">DropdownMenuWindow::DropdownMenuWindow()</a>, <a class="el" href="window_8cpp_source.html#l00833">WindowManager::MouseMoveEvent()</a>, <a class="el" href="dropdown_8cpp_source.html#l00233">RecolourDropdownWindow::RecolourDropdownWindow()</a>, <a class="el" href="window_8cpp_source.html#l00383">GuiWindow::SetupWidgetTree()</a>, and <a class="el" href="viewport_8cpp_source.html#l01306">Viewport()</a>.</p>
 
 </div>
 </div>
@@ -1066,7 +1091,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 
 <p>Definition at line <a class="el" href="window_8cpp_source.html#l00101">101</a> of file <a class="el" href="window_8cpp_source.html">window.cpp</a>.</p>
 
-<p>References <a class="el" href="geometry_8h_source.html#l00247">Rectangle&lt; PT, SZ &gt;::base</a>, and <a class="el" href="window_8h_source.html#l00123">Window::rect</a>.</p>
+<p>References <a class="el" href="geometry_8h_source.html#l00349">Rectangle&lt; PT, SZ &gt;::base</a>, and <a class="el" href="window_8h_source.html#l00139">Window::rect</a>.</p>
 
 </div>
 </div>
@@ -1130,9 +1155,9 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 
 <p>Definition at line <a class="el" href="window_8cpp_source.html#l00228">228</a> of file <a class="el" href="window_8cpp_source.html">window.cpp</a>.</p>
 
-<p>References <a class="el" href="video_8cpp_source.html#l00025">_video</a>, <a class="el" href="video_8cpp_source.html#l00292">VideoSystem::MarkDisplayDirty()</a>, and <a class="el" href="window_8h_source.html#l00123">Window::rect</a>.</p>
+<p>References <a class="el" href="video_8cpp_source.html#l00025">_video</a>, <a class="el" href="video_8cpp_source.html#l00295">VideoSystem::MarkDisplayDirty()</a>, and <a class="el" href="window_8h_source.html#l00139">Window::rect</a>.</p>
 
-<p>Referenced by <a class="el" href="window_8cpp_source.html#l00769">WindowManager::DeleteWindow()</a>, <a class="el" href="window_8cpp_source.html#l00833">WindowManager::MouseMoveEvent()</a>, <a class="el" href="viewport_8cpp_source.html#l01585">MoveViewport()</a>, <a class="el" href="person__gui_8cpp_source.html#l00117">GuestInfoWindow::OnChange()</a>, <a class="el" href="shop__gui_8cpp_source.html#l00226">ShopManagerWindow::OnChange()</a>, <a class="el" href="toolbar__gui_8cpp_source.html#l00304">BottomToolbarWindow::OnChange()</a>, <a class="el" href="ride__gui_8cpp_source.html#l00233">RideSelectGui::OnClick()</a>, <a class="el" href="window_8cpp_source.html#l00780">WindowManager::RaiseWindow()</a>, <a class="el" href="viewport_8cpp_source.html#l01534">Rotate()</a>, <a class="el" href="window_8cpp_source.html#l00620">GuiWindow::SetHighlight()</a>, and <a class="el" href="window_8cpp_source.html#l00383">GuiWindow::SetupWidgetTree()</a>.</p>
+<p>Referenced by <a class="el" href="window_8cpp_source.html#l00769">WindowManager::DeleteWindow()</a>, <a class="el" href="window_8cpp_source.html#l00833">WindowManager::MouseMoveEvent()</a>, <a class="el" href="viewport_8cpp_source.html#l01569">MoveViewport()</a>, <a class="el" href="person__gui_8cpp_source.html#l00117">GuestInfoWindow::OnChange()</a>, <a class="el" href="shop__gui_8cpp_source.html#l00230">ShopManagerWindow::OnChange()</a>, <a class="el" href="toolbar__gui_8cpp_source.html#l00304">BottomToolbarWindow::OnChange()</a>, <a class="el" href="ride__gui_8cpp_source.html#l00232">RideSelectGui::OnClick()</a>, <a class="el" href="window_8cpp_source.html#l00780">WindowManager::RaiseWindow()</a>, <a class="el" href="viewport_8cpp_source.html#l01518">Rotate()</a>, <a class="el" href="window_8cpp_source.html#l00620">GuiWindow::SetHighlight()</a>, <a class="el" href="viewport_8cpp_source.html#l01345">SetUndergroundMode()</a>, <a class="el" href="window_8cpp_source.html#l00383">GuiWindow::SetupWidgetTree()</a>, and <a class="el" href="viewport_8cpp_source.html#l01353">ToggleUndergroundMode()</a>.</p>
 
 </div>
 </div>
@@ -1230,7 +1255,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 
 <p>Definition at line <a class="el" href="window_8cpp_source.html#l00290">290</a> of file <a class="el" href="window_8cpp_source.html">window.cpp</a>.</p>
 
-<p>Referenced by <a class="el" href="window_8cpp_source.html#l01056">HighlightWindowByType()</a>.</p>
+<p>Referenced by <a class="el" href="window_8cpp_source.html#l01067">HighlightWindowByType()</a>.</p>
 
 </div>
 </div>
@@ -1280,7 +1305,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 
 <p>Definition at line <a class="el" href="window_8cpp_source.html#l00300">300</a> of file <a class="el" href="window_8cpp_source.html">window.cpp</a>.</p>
 
-<p>Referenced by <a class="el" href="window_8cpp_source.html#l01043">NotifyChange()</a>.</p>
+<p>Referenced by <a class="el" href="window_8cpp_source.html#l01054">NotifyChange()</a>.</p>
 
 </div>
 </div>
@@ -1336,9 +1361,9 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <p>Timeout counter. </p>
 <p>Decremented on each iteration. When it reaches 0, <a class="el" href="classWindow.html#af67225c158278f151fc8eb25dee072fa" title="Timeout callback. ">TimeoutCallback</a> is called. </p>
 
-<p>Definition at line <a class="el" href="window_8h_source.html#l00131">131</a> of file <a class="el" href="window_8h_source.html">window.h</a>.</p>
+<p>Definition at line <a class="el" href="window_8h_source.html#l00147">147</a> of file <a class="el" href="window_8h_source.html">window.h</a>.</p>
 
-<p>Referenced by <a class="el" href="viewport_8cpp_source.html#l00403">DisableWorldAdditions()</a>, <a class="el" href="viewport_8cpp_source.html#l00391">EnableWorldAdditions()</a>, <a class="el" href="viewport_8cpp_source.html#l00418">EnsureAdditionsAreVisible()</a>, <a class="el" href="window_8cpp_source.html#l00461">GuiWindow::OnMouseButtonEvent()</a>, <a class="el" href="window_8cpp_source.html#l00620">GuiWindow::SetHighlight()</a>, <a class="el" href="window_8cpp_source.html#l01005">WindowManager::Tick()</a>, <a class="el" href="viewport_8cpp_source.html#l00430">TimeoutCallback()</a>, and <a class="el" href="window_8cpp_source.html#l00057">Window::Window()</a>.</p>
+<p>Referenced by <a class="el" href="viewport_8cpp_source.html#l00398">DisableWorldAdditions()</a>, <a class="el" href="viewport_8cpp_source.html#l00386">EnableWorldAdditions()</a>, <a class="el" href="viewport_8cpp_source.html#l00413">EnsureAdditionsAreVisible()</a>, <a class="el" href="window_8cpp_source.html#l00461">GuiWindow::OnMouseButtonEvent()</a>, <a class="el" href="window_8cpp_source.html#l00620">GuiWindow::SetHighlight()</a>, <a class="el" href="window_8cpp_source.html#l01016">WindowManager::Tick()</a>, <a class="el" href="viewport_8cpp_source.html#l00425">TimeoutCallback()</a>, and <a class="el" href="window_8cpp_source.html#l00057">Window::Window()</a>.</p>
 
 </div>
 </div>
@@ -1363,7 +1388,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <p>Window flags. </p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="window_8h.html#a85bb57df22ad4aa3bdf0a3d44a82e7a2" title="Various state flags of the Window. ">WindowFlags</a> </dd></dl>
 
-<p>Definition at line <a class="el" href="window_8h_source.html#l00132">132</a> of file <a class="el" href="window_8h_source.html">window.h</a>.</p>
+<p>Definition at line <a class="el" href="window_8h_source.html#l00148">148</a> of file <a class="el" href="window_8h_source.html">window.h</a>.</p>
 
 <p>Referenced by <a class="el" href="window_8cpp_source.html#l00450">GuiWindow::OnDraw()</a>, <a class="el" href="window_8cpp_source.html#l00620">GuiWindow::SetHighlight()</a>, <a class="el" href="window_8cpp_source.html#l00614">GuiWindow::TimeoutCallback()</a>, and <a class="el" href="window_8cpp_source.html#l00057">Window::Window()</a>.</p>
 
@@ -1376,7 +1401,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Sep 5 2014 19:06:16 for FreeRCT by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Feb 20 2015 17:42:12 for FreeRCT by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

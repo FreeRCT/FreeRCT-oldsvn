@@ -55,7 +55,7 @@
 <table class="directory">
   <tr class="even"><td class="entry"><a class="el" href="classPixelFinder.html#aa9f614ee6d26ac2e2d5238abab133770">allowed</a></td><td class="entry"><a class="el" href="classPixelFinder.html">PixelFinder</a></td><td class="entry"></td></tr>
   <tr><td class="entry"><a class="el" href="classVoxelCollector.html#a05a198f3b94bfff20c1bf1ccdf4ae365">Collect</a>(bool use_additions)</td><td class="entry"><a class="el" href="classVoxelCollector.html">VoxelCollector</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classPixelFinder.html#a31bc132fd909708b3b6c823eedcb1b43">CollectVoxel</a>(const Voxel *vx, int xpos, int ypos, int zpos, int32 xnorth, int32 ynorth) override</td><td class="entry"><a class="el" href="classPixelFinder.html">PixelFinder</a></td><td class="entry"><span class="mlabel">protected</span><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classPixelFinder.html#a2f650c8fff8cec322a25af9152f5f26d">CollectVoxel</a>(const Voxel *vx, const XYZPoint16 &amp;voxel_pos, int32 xnorth, int32 ynorth) override</td><td class="entry"><a class="el" href="classPixelFinder.html">PixelFinder</a></td><td class="entry"><span class="mlabel">protected</span><span class="mlabel">virtual</span></td></tr>
   <tr><td class="entry"><a class="el" href="classVoxelCollector.html#a888574dccee18b193ec92b4a6d732250">ComputeX</a>(int32 x, int32 y)</td><td class="entry"><a class="el" href="classVoxelCollector.html">VoxelCollector</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classVoxelCollector.html#a5e598f88e6d585180f9fc94964202167">ComputeY</a>(int32 x, int32 y, int32 z)</td><td class="entry"><a class="el" href="classVoxelCollector.html">VoxelCollector</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
   <tr><td class="entry"><a class="el" href="classPixelFinder.html#a29c2cbacbb286eed99841b873a23ce7c">data</a></td><td class="entry"><a class="el" href="classPixelFinder.html">PixelFinder</a></td><td class="entry"></td></tr>
@@ -71,17 +71,16 @@
   <tr><td class="entry"><a class="el" href="classVoxelCollector.html#a8270a2843c6824b485561e9721fa215d">sprites</a></td><td class="entry"><a class="el" href="classVoxelCollector.html">VoxelCollector</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classVoxelCollector.html#a5bff23a7f703800e1fed17b40a77096e">tile_height</a></td><td class="entry"><a class="el" href="classVoxelCollector.html">VoxelCollector</a></td><td class="entry"></td></tr>
   <tr><td class="entry"><a class="el" href="classVoxelCollector.html#ad888a7e30cdb2f7631ae8defb7d0737b">tile_width</a></td><td class="entry"><a class="el" href="classVoxelCollector.html">VoxelCollector</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classVoxelCollector.html#afadd1b6eee247fb0ba8015cb247e13e7">underground_mode</a></td><td class="entry"><a class="el" href="classVoxelCollector.html">VoxelCollector</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="classVoxelCollector.html#aae6dc6938654e5696e4473371be824f2">view_pos</a></td><td class="entry"><a class="el" href="classVoxelCollector.html">VoxelCollector</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classVoxelCollector.html#ae29ba7f4a6a8787134ca8c7d1b59fb7b">VoxelCollector</a>(Viewport *vp, bool draw_above_stack)</td><td class="entry"><a class="el" href="classVoxelCollector.html">VoxelCollector</a></td><td class="entry"></td></tr>
   <tr><td class="entry"><a class="el" href="classVoxelCollector.html#afa04c64dc66f1adecebe2a0d7fb2681c">vp</a></td><td class="entry"><a class="el" href="classVoxelCollector.html">VoxelCollector</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classVoxelCollector.html#a3d502ca684a9e21abbd00b0328e07e16">xview</a></td><td class="entry"><a class="el" href="classVoxelCollector.html">VoxelCollector</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="classVoxelCollector.html#a7a6bfbb35a77c19bc6c7e75b1183884c">yview</a></td><td class="entry"><a class="el" href="classVoxelCollector.html">VoxelCollector</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classVoxelCollector.html#a25bb12fc886f8d0f28cc300c5651e0f6">zview</a></td><td class="entry"><a class="el" href="classVoxelCollector.html">VoxelCollector</a></td><td class="entry"></td></tr>
-  <tr bgcolor="#f0f0f0"><td class="entry"><b>~PixelFinder</b>() (defined in <a class="el" href="classPixelFinder.html">PixelFinder</a>)</td><td class="entry"><a class="el" href="classPixelFinder.html">PixelFinder</a></td><td class="entry"></td></tr>
-  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>~VoxelCollector</b>() (defined in <a class="el" href="classVoxelCollector.html">VoxelCollector</a>)</td><td class="entry"><a class="el" href="classVoxelCollector.html">VoxelCollector</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>~PixelFinder</b>() (defined in <a class="el" href="classPixelFinder.html">PixelFinder</a>)</td><td class="entry"><a class="el" href="classPixelFinder.html">PixelFinder</a></td><td class="entry"></td></tr>
+  <tr bgcolor="#f0f0f0"><td class="entry"><b>~VoxelCollector</b>() (defined in <a class="el" href="classVoxelCollector.html">VoxelCollector</a>)</td><td class="entry"><a class="el" href="classVoxelCollector.html">VoxelCollector</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
 </table></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Sep 5 2014 19:06:15 for FreeRCT by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Feb 20 2015 17:42:12 for FreeRCT by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

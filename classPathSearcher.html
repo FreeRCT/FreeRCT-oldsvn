@@ -64,12 +64,12 @@
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:af774f37a24a1263b9c6cc29b959bba92"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathSearcher.html#af774f37a24a1263b9c6cc29b959bba92">PathSearcher</a> (int <a class="el" href="classPathSearcher.html#acd4ee7bfcda62d2130739d09399e4f32">dest_x</a>, int <a class="el" href="classPathSearcher.html#ab7a2282fa33afc0e53d3006544fff396">dest_y</a>, int <a class="el" href="classPathSearcher.html#af432e90bd856d5188a97bf0bb5d0457f">dest_z</a>)</td></tr>
-<tr class="memdesc:af774f37a24a1263b9c6cc29b959bba92"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor, find a path to (<em>dest_x</em>, <em>dest_y</em>, <em>dest_z</em>).  <a href="#af774f37a24a1263b9c6cc29b959bba92">More...</a><br /></td></tr>
-<tr class="separator:af774f37a24a1263b9c6cc29b959bba92"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a27c352ff9d85f5ba19829408468c7a5f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathSearcher.html#a27c352ff9d85f5ba19829408468c7a5f">AddStart</a> (int start_x, int start_y, int start_z)</td></tr>
-<tr class="memdesc:a27c352ff9d85f5ba19829408468c7a5f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a starting point to the searcher.  <a href="#a27c352ff9d85f5ba19829408468c7a5f">More...</a><br /></td></tr>
-<tr class="separator:a27c352ff9d85f5ba19829408468c7a5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae1eb20488d2a24781274506e61567ee0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathSearcher.html#ae1eb20488d2a24781274506e61567ee0">PathSearcher</a> (const <a class="el" href="geometry_8h.html#a71fcb91f44cc6cbf519d0c45c07e931d">XYZPoint16</a> &amp;<a class="el" href="classPathSearcher.html#aea4acd5bb901f3db9dfa3eefc430265c">dest_vox</a>)</td></tr>
+<tr class="memdesc:ae1eb20488d2a24781274506e61567ee0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor, find a path to (<em>dest_x</em>, <em>dest_y</em>, <em>dest_z</em>).  <a href="#ae1eb20488d2a24781274506e61567ee0">More...</a><br /></td></tr>
+<tr class="separator:ae1eb20488d2a24781274506e61567ee0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a092172c5cc83a4e074298df456b04ae6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathSearcher.html#a092172c5cc83a4e074298df456b04ae6">AddStart</a> (const <a class="el" href="geometry_8h.html#a71fcb91f44cc6cbf519d0c45c07e931d">XYZPoint16</a> &amp;start_vox)</td></tr>
+<tr class="memdesc:a092172c5cc83a4e074298df456b04ae6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a starting point to the searcher.  <a href="#a092172c5cc83a4e074298df456b04ae6">More...</a><br /></td></tr>
+<tr class="separator:a092172c5cc83a4e074298df456b04ae6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9a3a8b65cf302b5c9e36bf9b40ff4dbc"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathSearcher.html#a9a3a8b65cf302b5c9e36bf9b40ff4dbc">Search</a> ()</td></tr>
 <tr class="memdesc:a9a3a8b65cf302b5c9e36bf9b40ff4dbc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Search for a path to the destination.  <a href="#a9a3a8b65cf302b5c9e36bf9b40ff4dbc">More...</a><br /></td></tr>
 <tr class="separator:a9a3a8b65cf302b5c9e36bf9b40ff4dbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -79,18 +79,10 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:acd4ee7bfcda62d2130739d09399e4f32"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="acd4ee7bfcda62d2130739d09399e4f32"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathSearcher.html#acd4ee7bfcda62d2130739d09399e4f32">dest_x</a></td></tr>
-<tr class="memdesc:acd4ee7bfcda62d2130739d09399e4f32"><td class="mdescLeft">&#160;</td><td class="mdescRight">X coordinate of the desired destination voxel. <br /></td></tr>
-<tr class="separator:acd4ee7bfcda62d2130739d09399e4f32"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab7a2282fa33afc0e53d3006544fff396"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab7a2282fa33afc0e53d3006544fff396"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathSearcher.html#ab7a2282fa33afc0e53d3006544fff396">dest_y</a></td></tr>
-<tr class="memdesc:ab7a2282fa33afc0e53d3006544fff396"><td class="mdescLeft">&#160;</td><td class="mdescRight">Y coordinate of the desired destination voxel. <br /></td></tr>
-<tr class="separator:ab7a2282fa33afc0e53d3006544fff396"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af432e90bd856d5188a97bf0bb5d0457f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af432e90bd856d5188a97bf0bb5d0457f"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathSearcher.html#af432e90bd856d5188a97bf0bb5d0457f">dest_z</a></td></tr>
-<tr class="memdesc:af432e90bd856d5188a97bf0bb5d0457f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Z coordinate of the desired destination voxel. <br /></td></tr>
-<tr class="separator:af432e90bd856d5188a97bf0bb5d0457f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea4acd5bb901f3db9dfa3eefc430265c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aea4acd5bb901f3db9dfa3eefc430265c"></a>
+<a class="el" href="geometry_8h.html#a71fcb91f44cc6cbf519d0c45c07e931d">XYZPoint16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathSearcher.html#aea4acd5bb901f3db9dfa3eefc430265c">dest_vox</a></td></tr>
+<tr class="memdesc:aea4acd5bb901f3db9dfa3eefc430265c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Coordinate of the desired destination voxel. <br /></td></tr>
+<tr class="separator:aea4acd5bb901f3db9dfa3eefc430265c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7e0baf179b326840b34208e1855445b8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7e0baf179b326840b34208e1855445b8"></a>
 const <a class="el" href="classWalkedPosition.html">WalkedPosition</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathSearcher.html#a7e0baf179b326840b34208e1855445b8">dest_pos</a></td></tr>
 <tr class="memdesc:a7e0baf179b326840b34208e1855445b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">If path was found, this points to the end-point of the walk. <br /></td></tr>
@@ -98,12 +90,12 @@ const <a class="el" href="classWalkedPosition.html">WalkedPosition</a> *&#160;</
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:ab9f1b2dc32f0b347c5cc2426bf5559c1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="stdafx_8h.html#a1134b580f8da4de94ca6b1de4d37975e">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathSearcher.html#ab9f1b2dc32f0b347c5cc2426bf5559c1">GetEstimate</a> (int x, int y, int z)</td></tr>
-<tr class="memdesc:ab9f1b2dc32f0b347c5cc2426bf5559c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get an (optimistic) estimate of the path length to go to the destination voxel.  <a href="#ab9f1b2dc32f0b347c5cc2426bf5559c1">More...</a><br /></td></tr>
-<tr class="separator:ab9f1b2dc32f0b347c5cc2426bf5559c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6dcefb909edb183af0e1433b4fe8cefd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathSearcher.html#a6dcefb909edb183af0e1433b4fe8cefd">AddOpen</a> (int x, int y, int z, <a class="el" href="stdafx_8h.html#a1134b580f8da4de94ca6b1de4d37975e">uint32</a> traveled, const <a class="el" href="classWalkedPosition.html">WalkedPosition</a> *prev_pos)</td></tr>
-<tr class="memdesc:a6dcefb909edb183af0e1433b4fe8cefd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a new open position to the set of open points, if it is better than already available.  <a href="#a6dcefb909edb183af0e1433b4fe8cefd">More...</a><br /></td></tr>
-<tr class="separator:a6dcefb909edb183af0e1433b4fe8cefd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9bc660af35103d32b7d2c667bf0d6bde"><td class="memItemLeft" align="right" valign="top"><a class="el" href="stdafx_8h.html#a1134b580f8da4de94ca6b1de4d37975e">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathSearcher.html#a9bc660af35103d32b7d2c667bf0d6bde">GetEstimate</a> (const <a class="el" href="geometry_8h.html#a71fcb91f44cc6cbf519d0c45c07e931d">XYZPoint16</a> &amp;vox)</td></tr>
+<tr class="memdesc:a9bc660af35103d32b7d2c667bf0d6bde"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get an (optimistic) estimate of the path length to go to the destination voxel.  <a href="#a9bc660af35103d32b7d2c667bf0d6bde">More...</a><br /></td></tr>
+<tr class="separator:a9bc660af35103d32b7d2c667bf0d6bde"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa23f42c095304abe2e1592dcabdaf480"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathSearcher.html#aa23f42c095304abe2e1592dcabdaf480">AddOpen</a> (const <a class="el" href="geometry_8h.html#a71fcb91f44cc6cbf519d0c45c07e931d">XYZPoint16</a> &amp;vox, <a class="el" href="stdafx_8h.html#a1134b580f8da4de94ca6b1de4d37975e">uint32</a> traveled, const <a class="el" href="classWalkedPosition.html">WalkedPosition</a> *prev_pos)</td></tr>
+<tr class="memdesc:aa23f42c095304abe2e1592dcabdaf480"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a new open position to the set of open points, if it is better than already available.  <a href="#aa23f42c095304abe2e1592dcabdaf480">More...</a><br /></td></tr>
+<tr class="separator:aa23f42c095304abe2e1592dcabdaf480"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -121,79 +113,45 @@ Protected Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="path__finding_8h_source.html#l00044">44</a> of file <a class="el" href="path__finding_8h_source.html">path_finding.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="af774f37a24a1263b9c6cc29b959bba92"></a>
+<a class="anchor" id="ae1eb20488d2a24781274506e61567ee0"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">PathSearcher::PathSearcher </td>
           <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>dest_x</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramtype">const <a class="el" href="geometry_8h.html#a71fcb91f44cc6cbf519d0c45c07e931d">XYZPoint16</a> &amp;&#160;</td>
+          <td class="paramname"><em>dest_vox</em></td><td>)</td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>dest_y</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>dest_z</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>Constructor, find a path to (<em>dest_x</em>, <em>dest_y</em>, <em>dest_z</em>). </p>
-<p>Give starting points through <a class="el" href="classPathSearcher.html#a27c352ff9d85f5ba19829408468c7a5f" title="Add a starting point to the searcher. ">PathSearcher::AddStart</a>. </p><dl class="params"><dt>Parameters</dt><dd>
+<p>Give starting points through <a class="el" href="classPathSearcher.html#a092172c5cc83a4e074298df456b04ae6" title="Add a starting point to the searcher. ">PathSearcher::AddStart</a>. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">dest_x</td><td>X coordinate of the destination voxel. </td></tr>
-    <tr><td class="paramname">dest_y</td><td>Y coordinate of the destination voxel. </td></tr>
-    <tr><td class="paramname">dest_z</td><td>Z coordinate of the destination voxel. </td></tr>
+    <tr><td class="paramname">dest_vox</td><td>Coordinate of the destination voxel. </td></tr>
   </table>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="path__finding_8cpp_source.html#l00073">73</a> of file <a class="el" href="path__finding_8cpp_source.html">path_finding.cpp</a>.</p>
+<p>Definition at line <a class="el" href="path__finding_8cpp_source.html#l00067">67</a> of file <a class="el" href="path__finding_8cpp_source.html">path_finding.cpp</a>.</p>
 
-<p>References <a class="el" href="path__finding_8h_source.html#l00055">dest_pos</a>, <a class="el" href="path__finding_8h_source.html#l00052">dest_x</a>, <a class="el" href="path__finding_8h_source.html#l00053">dest_y</a>, and <a class="el" href="path__finding_8h_source.html#l00054">dest_z</a>.</p>
+<p>References <a class="el" href="path__finding_8h_source.html#l00053">dest_pos</a>, and <a class="el" href="path__finding_8h_source.html#l00052">dest_vox</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a27c352ff9d85f5ba19829408468c7a5f"></a>
+<a class="anchor" id="a092172c5cc83a4e074298df456b04ae6"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">void PathSearcher::AddStart </td>
           <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>start_x</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramtype">const <a class="el" href="geometry_8h.html#a71fcb91f44cc6cbf519d0c45c07e931d">XYZPoint16</a> &amp;&#160;</td>
+          <td class="paramname"><em>start_vox</em></td><td>)</td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>start_y</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>start_z</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -201,18 +159,16 @@ Protected Attributes</h2></td></tr>
 <p>Add a starting point to the searcher. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">start_x</td><td>X coordinate of the start voxel. </td></tr>
-    <tr><td class="paramname">start_y</td><td>Y coordinate of the start voxel. </td></tr>
-    <tr><td class="paramname">start_z</td><td>Z coordinate of the start voxel. </td></tr>
+    <tr><td class="paramname">start_vox</td><td>Coordinate of the start voxel. </td></tr>
   </table>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="path__finding_8cpp_source.html#l00087">87</a> of file <a class="el" href="path__finding_8cpp_source.html">path_finding.cpp</a>.</p>
+<p>Definition at line <a class="el" href="path__finding_8cpp_source.html#l00077">77</a> of file <a class="el" href="path__finding_8cpp_source.html">path_finding.cpp</a>.</p>
 
-<p>References <a class="el" href="path__finding_8cpp_source.html#l00114">AddOpen()</a>.</p>
+<p>References <a class="el" href="path__finding_8cpp_source.html#l00100">AddOpen()</a>.</p>
 
-<p>Referenced by <a class="el" href="person_8cpp_source.html#l00503">GetParkEntryDirection()</a>.</p>
+<p>Referenced by <a class="el" href="person_8cpp_source.html#l00586">GetGoHomeDirection()</a>, and <a class="el" href="person_8cpp_source.html#l00532">GetParkEntryDirection()</a>.</p>
 
 </div>
 </div>
@@ -232,11 +188,11 @@ Protected Attributes</h2></td></tr>
 <p>Search for a path to the destination. </p>
 <dl class="section return"><dt>Returns</dt><dd>Whether a path has been found. </dd></dl>
 
-<p>Definition at line <a class="el" href="path__finding_8cpp_source.html#l00141">141</a> of file <a class="el" href="path__finding_8cpp_source.html">path_finding.cpp</a>.</p>
+<p>Definition at line <a class="el" href="path__finding_8cpp_source.html#l00127">127</a> of file <a class="el" href="path__finding_8cpp_source.html">path_finding.cpp</a>.</p>
 
-<p>References <a class="el" href="tile__func_8cpp_source.html#l00032">_tile_dxy</a>, <a class="el" href="map_8cpp_source.html#l00027">_world</a>, <a class="el" href="path__finding_8cpp_source.html#l00114">AddOpen()</a>, <a class="el" href="path__finding_8h_source.html#l00055">dest_pos</a>, <a class="el" href="tile_8h_source.html#l00118">EDGE_BEGIN</a>, <a class="el" href="tile_8h_source.html#l00124">EDGE_COUNT</a>, <a class="el" href="path__finding_8h_source.html#l00026">WalkedPosition::estimate</a>, <a class="el" href="path__finding_8h_source.html#l00036">WalkedDistance::estimate</a>, <a class="el" href="path_8cpp_source.html#l00221">GetPathExits()</a>, <a class="el" href="map_8h_source.html#l00520">VoxelWorld::GetVoxel()</a>, <a class="el" href="map_8h_source.html#l00542">VoxelWorld::GetXSize()</a>, <a class="el" href="map_8h_source.html#l00551">VoxelWorld::GetYSize()</a>, <a class="el" href="path__finding_8h_source.html#l00059">open_points</a>, <a class="el" href="path__finding_8h_source.html#l00037">WalkedDistance::pos</a>, <a class="el" href="path__finding_8h_source.html#l00025">WalkedPosition::traveled</a>, <a class="el" href="path__finding_8h_source.html#l00035">WalkedDistance::traveled</a>, <a class="el" href="map_8h_source.html#l00027">WORLD_Z_SIZE</a>, <a class="el" href="path__finding_8h_source.html#l00022">WalkedPosition::x</a>, <a class="el" href="geometry_8h_source.html#l00037">Point&lt; CT &gt;::x</a>, <a class="el" href="path__finding_8h_source.html#l00023">WalkedPosition::y</a>, <a class="el" href="geometry_8h_source.html#l00038">Point&lt; CT &gt;::y</a>, and <a class="el" href="path__finding_8h_source.html#l00024">WalkedPosition::z</a>.</p>
+<p>References <a class="el" href="tile__func_8cpp_source.html#l00032">_tile_dxy</a>, <a class="el" href="map_8cpp_source.html#l00027">_world</a>, <a class="el" href="path__finding_8cpp_source.html#l00100">AddOpen()</a>, <a class="el" href="path__finding_8h_source.html#l00024">WalkedPosition::cur_vox</a>, <a class="el" href="path__finding_8h_source.html#l00053">dest_pos</a>, <a class="el" href="tile_8h_source.html#l00118">EDGE_BEGIN</a>, <a class="el" href="tile_8h_source.html#l00124">EDGE_COUNT</a>, <a class="el" href="path__finding_8h_source.html#l00026">WalkedPosition::estimate</a>, <a class="el" href="path__finding_8h_source.html#l00036">WalkedDistance::estimate</a>, <a class="el" href="path_8cpp_source.html#l00221">GetPathExits()</a>, <a class="el" href="map_8h_source.html#l00514">VoxelWorld::GetVoxel()</a>, <a class="el" href="map_8h_source.html#l00534">VoxelWorld::GetXSize()</a>, <a class="el" href="map_8h_source.html#l00543">VoxelWorld::GetYSize()</a>, <a class="el" href="path__finding_8h_source.html#l00057">open_points</a>, <a class="el" href="path__finding_8h_source.html#l00037">WalkedDistance::pos</a>, <a class="el" href="path__finding_8h_source.html#l00025">WalkedPosition::traveled</a>, <a class="el" href="path__finding_8h_source.html#l00035">WalkedDistance::traveled</a>, <a class="el" href="map_8h_source.html#l00027">WORLD_Z_SIZE</a>, <a class="el" href="geometry_8h_source.html#l00036">Point&lt; CT &gt;::x</a>, <a class="el" href="geometry_8h_source.html#l00100">XYZPoint&lt; CT &gt;::x</a>, <a class="el" href="geometry_8h_source.html#l00037">Point&lt; CT &gt;::y</a>, <a class="el" href="geometry_8h_source.html#l00101">XYZPoint&lt; CT &gt;::y</a>, and <a class="el" href="geometry_8h_source.html#l00102">XYZPoint&lt; CT &gt;::z</a>.</p>
 
-<p>Referenced by <a class="el" href="person_8cpp_source.html#l00503">GetParkEntryDirection()</a>.</p>
+<p>Referenced by <a class="el" href="person_8cpp_source.html#l00586">GetGoHomeDirection()</a>, and <a class="el" href="person_8cpp_source.html#l00532">GetParkEntryDirection()</a>.</p>
 
 </div>
 </div>
@@ -255,13 +211,13 @@ Protected Attributes</h2></td></tr>
 
 <p>Clear the used data structures of the path searcher. </p>
 
-<p>Definition at line <a class="el" href="path__finding_8cpp_source.html#l00196">196</a> of file <a class="el" href="path__finding_8cpp_source.html">path_finding.cpp</a>.</p>
+<p>Definition at line <a class="el" href="path__finding_8cpp_source.html#l00182">182</a> of file <a class="el" href="path__finding_8cpp_source.html">path_finding.cpp</a>.</p>
 
-<p>References <a class="el" href="path__finding_8h_source.html#l00055">dest_pos</a>, <a class="el" href="path__finding_8h_source.html#l00059">open_points</a>, and <a class="el" href="path__finding_8h_source.html#l00058">positions</a>.</p>
+<p>References <a class="el" href="path__finding_8h_source.html#l00053">dest_pos</a>, <a class="el" href="path__finding_8h_source.html#l00057">open_points</a>, and <a class="el" href="path__finding_8h_source.html#l00056">positions</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="ab9f1b2dc32f0b347c5cc2426bf5559c1"></a>
+<a class="anchor" id="a9bc660af35103d32b7d2c667bf0d6bde"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -271,25 +227,9 @@ Protected Attributes</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="stdafx_8h.html#a1134b580f8da4de94ca6b1de4d37975e">uint32</a> PathSearcher::GetEstimate </td>
           <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>x</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramtype">const <a class="el" href="geometry_8h.html#a71fcb91f44cc6cbf519d0c45c07e931d">XYZPoint16</a> &amp;&#160;</td>
+          <td class="paramname"><em>vox</em></td><td>)</td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>y</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>z</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -302,23 +242,21 @@ Protected Attributes</h2></td></tr>
 <p>Get an (optimistic) estimate of the path length to go to the destination voxel. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">x</td><td>Current x position in voxels. </td></tr>
-    <tr><td class="paramname">y</td><td>Current y position in voxels. </td></tr>
-    <tr><td class="paramname">z</td><td>Current z position in voxels. </td></tr>
+    <tr><td class="paramname">vox</td><td>Current position in voxels. </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Estimate of the length of path still to go. </dd></dl>
 
-<p>Definition at line <a class="el" href="path__finding_8cpp_source.html#l00099">99</a> of file <a class="el" href="path__finding_8cpp_source.html">path_finding.cpp</a>.</p>
+<p>Definition at line <a class="el" href="path__finding_8cpp_source.html#l00087">87</a> of file <a class="el" href="path__finding_8cpp_source.html">path_finding.cpp</a>.</p>
 
-<p>References <a class="el" href="path__finding_8h_source.html#l00052">dest_x</a>, <a class="el" href="path__finding_8h_source.html#l00053">dest_y</a>, and <a class="el" href="path__finding_8h_source.html#l00054">dest_z</a>.</p>
+<p>References <a class="el" href="geometry_8h_source.html#l00100">XYZPoint&lt; CT &gt;::x</a>, <a class="el" href="geometry_8h_source.html#l00101">XYZPoint&lt; CT &gt;::y</a>, and <a class="el" href="geometry_8h_source.html#l00102">XYZPoint&lt; CT &gt;::z</a>.</p>
 
-<p>Referenced by <a class="el" href="path__finding_8cpp_source.html#l00114">AddOpen()</a>.</p>
+<p>Referenced by <a class="el" href="path__finding_8cpp_source.html#l00100">AddOpen()</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a6dcefb909edb183af0e1433b4fe8cefd"></a>
+<a class="anchor" id="aa23f42c095304abe2e1592dcabdaf480"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -328,20 +266,8 @@ Protected Attributes</h2></td></tr>
         <tr>
           <td class="memname">void PathSearcher::AddOpen </td>
           <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>x</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>y</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>z</em>, </td>
+          <td class="paramtype">const <a class="el" href="geometry_8h.html#a71fcb91f44cc6cbf519d0c45c07e931d">XYZPoint16</a> &amp;&#160;</td>
+          <td class="paramname"><em>vox</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -371,20 +297,18 @@ Protected Attributes</h2></td></tr>
 <p>Add a new open position to the set of open points, if it is better than already available. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">x</td><td>X position of the current position. </td></tr>
-    <tr><td class="paramname">y</td><td>Y position of the current position. </td></tr>
-    <tr><td class="paramname">z</td><td>Z position of the current position. </td></tr>
+    <tr><td class="paramname">vox</td><td><a class="el" href="classPosition.html" title="Position in a source file. ">Position</a> of the current position. </td></tr>
     <tr><td class="paramname">traveled</td><td>Distance traveled to get to the current position. </td></tr>
     <tr><td class="paramname">prev_pos</td><td>Previous position (<code>nullptr</code> for the start position). </td></tr>
   </table>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="path__finding_8cpp_source.html#l00114">114</a> of file <a class="el" href="path__finding_8cpp_source.html">path_finding.cpp</a>.</p>
+<p>Definition at line <a class="el" href="path__finding_8cpp_source.html#l00100">100</a> of file <a class="el" href="path__finding_8cpp_source.html">path_finding.cpp</a>.</p>
 
-<p>References <a class="el" href="path__finding_8h_source.html#l00026">WalkedPosition::estimate</a>, <a class="el" href="path__finding_8cpp_source.html#l00099">GetEstimate()</a>, <a class="el" href="path__finding_8h_source.html#l00059">open_points</a>, <a class="el" href="path__finding_8h_source.html#l00058">positions</a>, <a class="el" href="path__finding_8h_source.html#l00027">WalkedPosition::prev_pos</a>, and <a class="el" href="path__finding_8h_source.html#l00025">WalkedPosition::traveled</a>.</p>
+<p>References <a class="el" href="path__finding_8h_source.html#l00026">WalkedPosition::estimate</a>, <a class="el" href="path__finding_8cpp_source.html#l00087">GetEstimate()</a>, <a class="el" href="path__finding_8h_source.html#l00057">open_points</a>, <a class="el" href="path__finding_8h_source.html#l00056">positions</a>, <a class="el" href="path__finding_8h_source.html#l00027">WalkedPosition::prev_pos</a>, and <a class="el" href="path__finding_8h_source.html#l00025">WalkedPosition::traveled</a>.</p>
 
-<p>Referenced by <a class="el" href="path__finding_8cpp_source.html#l00087">AddStart()</a>, and <a class="el" href="path__finding_8cpp_source.html#l00141">Search()</a>.</p>
+<p>Referenced by <a class="el" href="path__finding_8cpp_source.html#l00077">AddStart()</a>, and <a class="el" href="path__finding_8cpp_source.html#l00127">Search()</a>.</p>
 
 </div>
 </div>
@@ -395,7 +319,7 @@ Protected Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Sep 5 2014 19:06:15 for FreeRCT by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Feb 20 2015 17:42:12 for FreeRCT by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

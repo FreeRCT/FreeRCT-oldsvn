@@ -49,7 +49,8 @@
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#func-members">Functions</a>  </div>
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">shop_type.cpp File Reference</div>  </div>
 </div><!--header-->
@@ -60,6 +61,8 @@
 <div class="textblock"><code>#include &quot;<a class="el" href="stdafx_8h_source.html">stdafx.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="map_8h_source.html">map.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="shop__type_8h_source.html">shop_type.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="person_8h_source.html">person.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="people_8h_source.html">people.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="fileio_8h_source.html">fileio.h</a>&quot;</code><br />
 <code>#include &quot;generated/shops_strings.cpp&quot;</code><br />
 </div>
@@ -70,6 +73,17 @@ Functions</h2></td></tr>
 <tr class="memitem:a07f0a7d7eb2961f891f66297f0c1deee"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="shop__type_8cpp.html#a07f0a7d7eb2961f891f66297f0c1deee">IsValidItemType</a> (<a class="el" href="stdafx_8h.html#adde6aaee8457bee49c2a92621fe22b79">uint8</a> val)</td></tr>
 <tr class="memdesc:a07f0a7d7eb2961f891f66297f0c1deee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Can the given value be safely interpreted as item type to sell?  <a href="#a07f0a7d7eb2961f891f66297f0c1deee">More...</a><br /></td></tr>
 <tr class="separator:a07f0a7d7eb2961f891f66297f0c1deee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:ace1813a1ffcd88d2994a131ad7c23d34"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ace1813a1ffcd88d2994a131ad7c23d34"></a>
+static const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="shop__type_8cpp.html#ace1813a1ffcd88d2994a131ad7c23d34">TOILET_TIME</a> = 5000</td></tr>
+<tr class="memdesc:ace1813a1ffcd88d2994a131ad7c23d34"><td class="mdescLeft">&#160;</td><td class="mdescRight">Duration of visiting the toilet. <br /></td></tr>
+<tr class="separator:ace1813a1ffcd88d2994a131ad7c23d34"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68fbdf29ab29bb2689f889c560cfc176"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a68fbdf29ab29bb2689f889c560cfc176"></a>
+static const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="shop__type_8cpp.html#a68fbdf29ab29bb2689f889c560cfc176">CAPACITY_TOILET</a> = 2</td></tr>
+<tr class="memdesc:a68fbdf29ab29bb2689f889c560cfc176"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum number of guests that can use the toilet at the same time. <br /></td></tr>
+<tr class="separator:a68fbdf29ab29bb2689f889c560cfc176"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Implementation of the shop 'ride'. </p>
@@ -107,18 +121,18 @@ Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The provided value is a valid item type value. </dd></dl>
 
-<p>Definition at line <a class="el" href="shop__type_8cpp_source.html#l00045">45</a> of file <a class="el" href="shop__type_8cpp_source.html">shop_type.cpp</a>.</p>
+<p>Definition at line <a class="el" href="shop__type_8cpp_source.html#l00050">50</a> of file <a class="el" href="shop__type_8cpp_source.html">shop_type.cpp</a>.</p>
 
-<p>References <a class="el" href="ride__type_8h_source.html#l00055">ITP_DRINK</a>, <a class="el" href="ride__type_8h_source.html#l00056">ITP_ICE_CREAM</a>, <a class="el" href="ride__type_8h_source.html#l00057">ITP_NORMAL_FOOD</a>, <a class="el" href="ride__type_8h_source.html#l00054">ITP_NOTHING</a>, <a class="el" href="ride__type_8h_source.html#l00060">ITP_PARK_MAP</a>, <a class="el" href="ride__type_8h_source.html#l00058">ITP_SALTY_FOOD</a>, and <a class="el" href="ride__type_8h_source.html#l00059">ITP_UMBRELLA</a>.</p>
+<p>References <a class="el" href="ride__type_8h_source.html#l00060">ITP_BALLOON</a>, <a class="el" href="ride__type_8h_source.html#l00055">ITP_DRINK</a>, <a class="el" href="ride__type_8h_source.html#l00065">ITP_FIRST_AID</a>, <a class="el" href="ride__type_8h_source.html#l00056">ITP_ICE_CREAM</a>, <a class="el" href="ride__type_8h_source.html#l00063">ITP_MONEY</a>, <a class="el" href="ride__type_8h_source.html#l00057">ITP_NORMAL_FOOD</a>, <a class="el" href="ride__type_8h_source.html#l00054">ITP_NOTHING</a>, <a class="el" href="ride__type_8h_source.html#l00061">ITP_PARK_MAP</a>, <a class="el" href="ride__type_8h_source.html#l00058">ITP_SALTY_FOOD</a>, <a class="el" href="ride__type_8h_source.html#l00062">ITP_SOUVENIR</a>, <a class="el" href="ride__type_8h_source.html#l00064">ITP_TOILET</a>, and <a class="el" href="ride__type_8h_source.html#l00059">ITP_UMBRELLA</a>.</p>
 
-<p>Referenced by <a class="el" href="shop__type_8cpp_source.html#l00058">ShopType::Load()</a>.</p>
+<p>Referenced by <a class="el" href="shop__type_8cpp_source.html#l00079">ShopType::Load()</a>.</p>
 
 </div>
 </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Sep 5 2014 19:06:13 for FreeRCT by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Feb 20 2015 17:42:11 for FreeRCT by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

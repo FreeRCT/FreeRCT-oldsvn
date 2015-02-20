@@ -59,6 +59,7 @@
 <a href="#details">More...</a></p>
 <div class="textblock"><code>#include &quot;<a class="el" href="stdafx_8h_source.html">stdafx.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="sprite__store_8h_source.html">sprite_store.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="palette_8h_source.html">palette.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="sprite__data_8h_source.html">sprite_data.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="math__func_8h_source.html">math_func.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="video_8h_source.html">video.h</a>&quot;</code><br />
@@ -67,6 +68,9 @@
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:a1e5b4bce0e8bd7c7bf9e1176825883c5"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gui__graphics_8cpp.html#a1e5b4bce0e8bd7c7bf9e1176825883c5">DrawRepeatedSprites</a> (<a class="el" href="stdafx_8h.html#a43d43196463bde49cb067f5c20ab8481">int32</a> x_base, <a class="el" href="stdafx_8h.html#a43d43196463bde49cb067f5c20ab8481">int32</a> y_base, const <a class="el" href="classImageData.html">ImageData</a> *spr, <a class="el" href="stdafx_8h.html#a05f6b0ae8f6a6e135b0e290c25fe0e4e">uint16</a> numx, <a class="el" href="stdafx_8h.html#a05f6b0ae8f6a6e135b0e290c25fe0e4e">uint16</a> numy, const <a class="el" href="classRecolouring.html">Recolouring</a> &amp;recolour)</td></tr>
+<tr class="memdesc:a1e5b4bce0e8bd7c7bf9e1176825883c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw the same sprite repeatedly over a (potentially) large area.  <a href="#a1e5b4bce0e8bd7c7bf9e1176825883c5">More...</a><br /></td></tr>
+<tr class="separator:a1e5b4bce0e8bd7c7bf9e1176825883c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga8f1984be34b0aa2c1158ec62e1acfbe9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__widget__group.html#ga8f1984be34b0aa2c1158ec62e1acfbe9">DrawBorderSprites</a> (const <a class="el" href="structBorderSpriteData.html">BorderSpriteData</a> &amp;bsd, bool pressed, const <a class="el" href="geometry_8h.html#a814137c690843aa9ff68694bfead1c09">Rectangle32</a> &amp;rect, <a class="el" href="palette_8h.html#a2531bf93b05f9a3f1503611e1708b878">ColourRange</a> colour)</td></tr>
 <tr class="memdesc:ga8f1984be34b0aa2c1158ec62e1acfbe9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw border sprites around some contents.  <a href="group__widget__group.html#ga8f1984be34b0aa2c1158ec62e1acfbe9">More...</a><br /></td></tr>
 <tr class="separator:ga8f1984be34b0aa2c1158ec62e1acfbe9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -91,6 +95,83 @@ Functions</h2></td></tr>
 
 <p>Definition in file <a class="el" href="gui__graphics_8cpp_source.html">gui_graphics.cpp</a>.</p>
 </div><h2 class="groupheader">Function Documentation</h2>
+<a class="anchor" id="a1e5b4bce0e8bd7c7bf9e1176825883c5"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void DrawRepeatedSprites </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="stdafx_8h.html#a43d43196463bde49cb067f5c20ab8481">int32</a>&#160;</td>
+          <td class="paramname"><em>x_base</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="stdafx_8h.html#a43d43196463bde49cb067f5c20ab8481">int32</a>&#160;</td>
+          <td class="paramname"><em>y_base</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classImageData.html">ImageData</a> *&#160;</td>
+          <td class="paramname"><em>spr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="stdafx_8h.html#a05f6b0ae8f6a6e135b0e290c25fe0e4e">uint16</a>&#160;</td>
+          <td class="paramname"><em>numx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="stdafx_8h.html#a05f6b0ae8f6a6e135b0e290c25fe0e4e">uint16</a>&#160;</td>
+          <td class="paramname"><em>numy</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classRecolouring.html">Recolouring</a> &amp;&#160;</td>
+          <td class="paramname"><em>recolour</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Draw the same sprite repeatedly over a (potentially) large area. </p>
+<p>The function recognizes a single-pixel sprite as a special case, and converts it to a <a class="el" href="classVideoSystem.html#a09358c104a7c283a51e5474a8ea80feb" title="Fill the rectangle with a single colour. ">VideoSystem::FillRectangle</a> call. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">x_base</td><td>Left edge coordinate to start drawing. </td></tr>
+    <tr><td class="paramname">y_base</td><td>Top edge coordinate to start drawing. </td></tr>
+    <tr><td class="paramname">spr</td><td>Sprite to draw. </td></tr>
+    <tr><td class="paramname">numx</td><td>Number of horizontal repeats of the sprite. </td></tr>
+    <tr><td class="paramname">numy</td><td>Number of vertical repeats of the sprite. </td></tr>
+    <tr><td class="paramname">recolour</td><td><a class="el" href="classRecolouring.html" title="Sprite recolouring information. ">Recolouring</a> information. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="gui__graphics_8cpp_source.html#l00029">29</a> of file <a class="el" href="gui__graphics_8cpp_source.html">gui_graphics.cpp</a>.</p>
+
+<p>References <a class="el" href="video_8cpp_source.html#l00025">_video</a>, <a class="el" href="video_8cpp_source.html#l00689">VideoSystem::BlitImages()</a>, <a class="el" href="video_8cpp_source.html#l00925">VideoSystem::FillRectangle()</a>, <a class="el" href="sprite__data_8cpp_source.html#l00183">ImageData::GetPixel()</a>, and <a class="el" href="sprite__data_8h_source.html#l00042">ImageData::IsSinglePixel()</a>.</p>
+
+<p>Referenced by <a class="el" href="gui__graphics_8cpp_source.html#l00048">DrawBorderSprites()</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="ab35c436fa65451bffd63d069dbbe37ed"></a>
 <div class="memitem">
 <div class="memproto">
@@ -112,13 +193,13 @@ Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000017">Todo:</a></b></dt><dd>Alignment can be done much faster if we may assume a sprite size. Perhaps add some special cases for common sizes? </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000018">Todo:</a></b></dt><dd>Alignment can be done much faster if we may assume a sprite size. Perhaps add some special cases for common sizes? </dd></dl>
 
-<p>Definition at line <a class="el" href="gui__graphics_8cpp_source.html#l00069">69</a> of file <a class="el" href="gui__graphics_8cpp_source.html">gui_graphics.cpp</a>.</p>
+<p>Definition at line <a class="el" href="gui__graphics_8cpp_source.html#l00111">111</a> of file <a class="el" href="gui__graphics_8cpp_source.html">gui_graphics.cpp</a>.</p>
 
-<p>References <a class="el" href="sprite__store_8cpp_source.html#l00032">_gui_sprites</a>, <a class="el" href="video_8cpp_source.html#l00025">_video</a>, <a class="el" href="geometry_8h_source.html#l00247">Rectangle&lt; PT, SZ &gt;::base</a>, <a class="el" href="video_8cpp_source.html#l00825">VideoSystem::BlitImages()</a>, <a class="el" href="sprite__store_8h_source.html#l00427">GuiSprites::disabled</a>, <a class="el" href="video_8cpp_source.html#l00326">VideoSystem::GetClippedRectangle()</a>, <a class="el" href="video_8h_source.html#l00073">VideoSystem::GetXSize()</a>, <a class="el" href="video_8h_source.html#l00083">VideoSystem::GetYSize()</a>, <a class="el" href="sprite__data_8h_source.html#l00040">ImageData::height</a>, <a class="el" href="geometry_8h_source.html#l00249">Rectangle&lt; PT, SZ &gt;::height</a>, <a class="el" href="geometry_8h_source.html#l00198">Rectangle&lt; PT, SZ &gt;::RestrictTo()</a>, <a class="el" href="video_8cpp_source.html#l00317">VideoSystem::SetClippedRectangle()</a>, <a class="el" href="sprite__data_8h_source.html#l00039">ImageData::width</a>, <a class="el" href="geometry_8h_source.html#l00248">Rectangle&lt; PT, SZ &gt;::width</a>, <a class="el" href="geometry_8h_source.html#l00037">Point&lt; CT &gt;::x</a>, and <a class="el" href="geometry_8h_source.html#l00038">Point&lt; CT &gt;::y</a>.</p>
+<p>References <a class="el" href="sprite__store_8cpp_source.html#l00032">_gui_sprites</a>, <a class="el" href="video_8cpp_source.html#l00025">_video</a>, <a class="el" href="geometry_8h_source.html#l00349">Rectangle&lt; PT, SZ &gt;::base</a>, <a class="el" href="video_8cpp_source.html#l00689">VideoSystem::BlitImages()</a>, <a class="el" href="sprite__store_8h_source.html#l00449">GuiSprites::disabled</a>, <a class="el" href="video_8cpp_source.html#l00329">VideoSystem::GetClippedRectangle()</a>, <a class="el" href="video_8h_source.html#l00073">VideoSystem::GetXSize()</a>, <a class="el" href="video_8h_source.html#l00083">VideoSystem::GetYSize()</a>, <a class="el" href="sprite__data_8h_source.html#l00049">ImageData::height</a>, <a class="el" href="geometry_8h_source.html#l00351">Rectangle&lt; PT, SZ &gt;::height</a>, <a class="el" href="geometry_8h_source.html#l00300">Rectangle&lt; PT, SZ &gt;::RestrictTo()</a>, <a class="el" href="video_8cpp_source.html#l00320">VideoSystem::SetClippedRectangle()</a>, <a class="el" href="sprite__data_8h_source.html#l00048">ImageData::width</a>, <a class="el" href="geometry_8h_source.html#l00350">Rectangle&lt; PT, SZ &gt;::width</a>, <a class="el" href="geometry_8h_source.html#l00036">Point&lt; CT &gt;::x</a>, and <a class="el" href="geometry_8h_source.html#l00037">Point&lt; CT &gt;::y</a>.</p>
 
-<p>Referenced by <a class="el" href="widget_8cpp_source.html#l00406">DataWidget::Draw()</a>, and <a class="el" href="dropdown_8cpp_source.html#l00260">RecolourDropdownWindow::DrawWidget()</a>.</p>
+<p>Referenced by <a class="el" href="widget_8cpp_source.html#l00435">DataWidget::Draw()</a>, and <a class="el" href="dropdown_8cpp_source.html#l00260">RecolourDropdownWindow::DrawWidget()</a>.</p>
 
 </div>
 </div>
@@ -189,13 +270,13 @@ Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000018">Todo:</a></b></dt><dd>Reduce the naiviness of this. </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000019">Todo:</a></b></dt><dd>Reduce the naiviness of this. </dd></dl>
 
-<p>Definition at line <a class="el" href="gui__graphics_8cpp_source.html#l00105">105</a> of file <a class="el" href="gui__graphics_8cpp_source.html">gui_graphics.cpp</a>.</p>
+<p>Definition at line <a class="el" href="gui__graphics_8cpp_source.html#l00147">147</a> of file <a class="el" href="gui__graphics_8cpp_source.html">gui_graphics.cpp</a>.</p>
 
-<p>References <a class="el" href="palette_8cpp_source.html#l00207">_palette</a>, <a class="el" href="video_8cpp_source.html#l00025">_video</a>, <a class="el" href="video_8cpp_source.html#l00913">VideoSystem::BlitText()</a>, <a class="el" href="language_8cpp_source.html#l00393">DrawText()</a>, <a class="el" href="stdafx_8h_source.html#l00157">lengthof</a>, <a class="el" href="palette_8h_source.html#l00033">MakeRGBA()</a>, and <a class="el" href="palette_8h_source.html#l00021">OPAQUE</a>.</p>
+<p>References <a class="el" href="palette_8cpp_source.html#l00207">_palette</a>, <a class="el" href="video_8cpp_source.html#l00025">_video</a>, <a class="el" href="video_8cpp_source.html#l00777">VideoSystem::BlitText()</a>, <a class="el" href="language_8cpp_source.html#l00393">DrawText()</a>, <a class="el" href="stdafx_8h_source.html#l00157">lengthof</a>, <a class="el" href="palette_8h_source.html#l00033">MakeRGBA()</a>, and <a class="el" href="palette_8h_source.html#l00021">OPAQUE</a>.</p>
 
-<p>Referenced by <a class="el" href="widget_8cpp_source.html#l00406">DataWidget::Draw()</a>, and <a class="el" href="ride__gui_8cpp_source.html#l00184">RideSelectGui::DrawWidget()</a>.</p>
+<p>Referenced by <a class="el" href="widget_8cpp_source.html#l00435">DataWidget::Draw()</a>, and <a class="el" href="ride__gui_8cpp_source.html#l00184">RideSelectGui::DrawWidget()</a>.</p>
 
 </div>
 </div>
@@ -248,11 +329,11 @@ Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Pointer to the end of the line, points to either a NL or a NUL. </dd></dl>
 
-<p>Definition at line <a class="el" href="gui__graphics_8cpp_source.html#l00129">129</a> of file <a class="el" href="gui__graphics_8cpp_source.html">gui_graphics.cpp</a>.</p>
+<p>Definition at line <a class="el" href="gui__graphics_8cpp_source.html#l00171">171</a> of file <a class="el" href="gui__graphics_8cpp_source.html">gui_graphics.cpp</a>.</p>
 
-<p>References <a class="el" href="video_8cpp_source.html#l00025">_video</a>, <a class="el" href="video_8cpp_source.html#l00858">VideoSystem::GetTextSize()</a>, and <a class="el" href="scanner__funcs_8h.html#a23c058547fbc73b5659191844a9f258c">text</a>.</p>
+<p>References <a class="el" href="video_8cpp_source.html#l00025">_video</a>, <a class="el" href="video_8cpp_source.html#l00722">VideoSystem::GetTextSize()</a>, and <a class="el" href="scanner__funcs_8h.html#a23c058547fbc73b5659191844a9f258c">text</a>.</p>
 
-<p>Referenced by <a class="el" href="gui__graphics_8cpp_source.html#l00211">DrawMultilineString()</a>, and <a class="el" href="gui__graphics_8cpp_source.html#l00180">GetMultilineTextSize()</a>.</p>
+<p>Referenced by <a class="el" href="gui__graphics_8cpp_source.html#l00253">DrawMultilineString()</a>, and <a class="el" href="gui__graphics_8cpp_source.html#l00222">GetMultilineTextSize()</a>.</p>
 
 </div>
 </div>
@@ -306,9 +387,9 @@ Functions</h2></td></tr>
 <dd>
 Actual width (returned in <code>*width</code>) may be larger than <em>max_width</em> in case of long words. </dd></dl>
 
-<p>Definition at line <a class="el" href="gui__graphics_8cpp_source.html#l00180">180</a> of file <a class="el" href="gui__graphics_8cpp_source.html">gui_graphics.cpp</a>.</p>
+<p>Definition at line <a class="el" href="gui__graphics_8cpp_source.html#l00222">222</a> of file <a class="el" href="gui__graphics_8cpp_source.html">gui_graphics.cpp</a>.</p>
 
-<p>References <a class="el" href="video_8cpp_source.html#l00025">_video</a>, <a class="el" href="language_8cpp_source.html#l00393">DrawText()</a>, <a class="el" href="gui__graphics_8cpp_source.html#l00129">GetSingleLine()</a>, <a class="el" href="video_8h_source.html#l00142">VideoSystem::GetTextHeight()</a>, <a class="el" href="stdafx_8h_source.html#l00157">lengthof</a>, and <a class="el" href="scanner__funcs_8h.html#a23c058547fbc73b5659191844a9f258c">text</a>.</p>
+<p>References <a class="el" href="video_8cpp_source.html#l00025">_video</a>, <a class="el" href="language_8cpp_source.html#l00393">DrawText()</a>, <a class="el" href="gui__graphics_8cpp_source.html#l00171">GetSingleLine()</a>, <a class="el" href="video_8h_source.html#l00150">VideoSystem::GetTextHeight()</a>, <a class="el" href="stdafx_8h_source.html#l00157">lengthof</a>, and <a class="el" href="scanner__funcs_8h.html#a23c058547fbc73b5659191844a9f258c">text</a>.</p>
 
 <p>Referenced by <a class="el" href="ride__gui_8cpp_source.html#l00151">RideSelectGui::UpdateWidgetSize()</a>.</p>
 
@@ -376,9 +457,9 @@ Actual width (returned in <code>*width</code>) may be larger than <em>max_width<
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The height was sufficient to output all lines. </dd></dl>
 
-<p>Definition at line <a class="el" href="gui__graphics_8cpp_source.html#l00211">211</a> of file <a class="el" href="gui__graphics_8cpp_source.html">gui_graphics.cpp</a>.</p>
+<p>Definition at line <a class="el" href="gui__graphics_8cpp_source.html#l00253">253</a> of file <a class="el" href="gui__graphics_8cpp_source.html">gui_graphics.cpp</a>.</p>
 
-<p>References <a class="el" href="palette_8cpp_source.html#l00207">_palette</a>, <a class="el" href="video_8cpp_source.html#l00025">_video</a>, <a class="el" href="video_8cpp_source.html#l00913">VideoSystem::BlitText()</a>, <a class="el" href="language_8cpp_source.html#l00393">DrawText()</a>, <a class="el" href="gui__graphics_8cpp_source.html#l00129">GetSingleLine()</a>, <a class="el" href="video_8h_source.html#l00142">VideoSystem::GetTextHeight()</a>, <a class="el" href="stdafx_8h_source.html#l00157">lengthof</a>, and <a class="el" href="scanner__funcs_8h.html#a23c058547fbc73b5659191844a9f258c">text</a>.</p>
+<p>References <a class="el" href="palette_8cpp_source.html#l00207">_palette</a>, <a class="el" href="video_8cpp_source.html#l00025">_video</a>, <a class="el" href="video_8cpp_source.html#l00777">VideoSystem::BlitText()</a>, <a class="el" href="language_8cpp_source.html#l00393">DrawText()</a>, <a class="el" href="gui__graphics_8cpp_source.html#l00171">GetSingleLine()</a>, <a class="el" href="video_8h_source.html#l00150">VideoSystem::GetTextHeight()</a>, <a class="el" href="stdafx_8h_source.html#l00157">lengthof</a>, and <a class="el" href="scanner__funcs_8h.html#a23c058547fbc73b5659191844a9f258c">text</a>.</p>
 
 <p>Referenced by <a class="el" href="ride__gui_8cpp_source.html#l00184">RideSelectGui::DrawWidget()</a>.</p>
 
@@ -387,7 +468,7 @@ Actual width (returned in <code>*width</code>) may be larger than <em>max_width<
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Sep 5 2014 19:06:13 for FreeRCT by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Feb 20 2015 17:42:11 for FreeRCT by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

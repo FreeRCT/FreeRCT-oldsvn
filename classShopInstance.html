@@ -50,6 +50,7 @@
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classShopInstance-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">ShopInstance Class Reference</div>  </div>
@@ -81,15 +82,28 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a4b96d80aff71233b7add60c01d7d9b36"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShopInstance.html#a4b96d80aff71233b7add60c01d7d9b36">GetSprites</a> (<a class="el" href="stdafx_8h.html#a05f6b0ae8f6a6e135b0e290c25fe0e4e">uint16</a> voxel_number, <a class="el" href="stdafx_8h.html#adde6aaee8457bee49c2a92621fe22b79">uint8</a> orient, const <a class="el" href="classImageData.html">ImageData</a> *sprites[4]) const override</td></tr>
 <tr class="memdesc:a4b96d80aff71233b7add60c01d7d9b36"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the sprites to display for the provided voxel number.  <a href="#a4b96d80aff71233b7add60c01d7d9b36">More...</a><br /></td></tr>
 <tr class="separator:a4b96d80aff71233b7add60c01d7d9b36"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae32c479a4881d44f3e1de5e6c944088e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShopInstance.html#ae32c479a4881d44f3e1de5e6c944088e">SetRide</a> (<a class="el" href="stdafx_8h.html#adde6aaee8457bee49c2a92621fe22b79">uint8</a> <a class="el" href="classShopInstance.html#ac11be40f1a0d9d13f4cd0596fbf12caf">orientation</a>, <a class="el" href="stdafx_8h.html#a05f6b0ae8f6a6e135b0e290c25fe0e4e">uint16</a> <a class="el" href="classShopInstance.html#a18820385ee882ed882ef09d848178cda">xpos</a>, <a class="el" href="stdafx_8h.html#a05f6b0ae8f6a6e135b0e290c25fe0e4e">uint16</a> <a class="el" href="classShopInstance.html#a7ef22b7664b8d18fce4ee24ed1a308bd">ypos</a>, <a class="el" href="stdafx_8h.html#adde6aaee8457bee49c2a92621fe22b79">uint8</a> <a class="el" href="classShopInstance.html#a1288aa290d354aadc93aa47024594cf9">zpos</a>)</td></tr>
-<tr class="memdesc:ae32c479a4881d44f3e1de5e6c944088e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update a ride instance with its position in the world.  <a href="#ae32c479a4881d44f3e1de5e6c944088e">More...</a><br /></td></tr>
-<tr class="separator:ae32c479a4881d44f3e1de5e6c944088e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad1160d9b8f8318db9859b0aacf473f55"><td class="memItemLeft" align="right" valign="top"><a class="el" href="stdafx_8h.html#adde6aaee8457bee49c2a92621fe22b79">uint8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShopInstance.html#ad1160d9b8f8318db9859b0aacf473f55">GetEntranceDirections</a> (<a class="el" href="stdafx_8h.html#a05f6b0ae8f6a6e135b0e290c25fe0e4e">uint16</a> xvox, <a class="el" href="stdafx_8h.html#a05f6b0ae8f6a6e135b0e290c25fe0e4e">uint16</a> yvox, <a class="el" href="stdafx_8h.html#adde6aaee8457bee49c2a92621fe22b79">uint8</a> zvox) const override</td></tr>
-<tr class="memdesc:ad1160d9b8f8318db9859b0aacf473f55"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the set edges with an entrance to the ride.  <a href="#ad1160d9b8f8318db9859b0aacf473f55">More...</a><br /></td></tr>
-<tr class="separator:ad1160d9b8f8318db9859b0aacf473f55"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2b2f31c567df029ae5e6c90ffbb5a37c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRideInstance.html#a2b2f31c567df029ae5e6c90ffbb5a37c">CanBeVisited</a> (<a class="el" href="stdafx_8h.html#a05f6b0ae8f6a6e135b0e290c25fe0e4e">uint16</a> xvox, <a class="el" href="stdafx_8h.html#a05f6b0ae8f6a6e135b0e290c25fe0e4e">uint16</a> yvox, <a class="el" href="stdafx_8h.html#adde6aaee8457bee49c2a92621fe22b79">uint8</a> zvox, <a class="el" href="group__map__group.html#ga29bb8f9503c34074bad3c762c92ee68b">TileEdge</a> edge) const </td></tr>
-<tr class="memdesc:a2b2f31c567df029ae5e6c90ffbb5a37c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Can the ride be visited, assuming the shop is approached from direction <em>edge</em>?  <a href="#a2b2f31c567df029ae5e6c90ffbb5a37c">More...</a><br /></td></tr>
-<tr class="separator:a2b2f31c567df029ae5e6c90ffbb5a37c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab12938d435acf21ebcd54a60e93ee402"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShopInstance.html#ab12938d435acf21ebcd54a60e93ee402">SetRide</a> (<a class="el" href="stdafx_8h.html#adde6aaee8457bee49c2a92621fe22b79">uint8</a> <a class="el" href="classShopInstance.html#ac11be40f1a0d9d13f4cd0596fbf12caf">orientation</a>, const <a class="el" href="geometry_8h.html#a71fcb91f44cc6cbf519d0c45c07e931d">XYZPoint16</a> &amp;pos)</td></tr>
+<tr class="memdesc:ab12938d435acf21ebcd54a60e93ee402"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update a ride instance with its position in the world.  <a href="#ab12938d435acf21ebcd54a60e93ee402">More...</a><br /></td></tr>
+<tr class="separator:ab12938d435acf21ebcd54a60e93ee402"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b1d54b9e537ae62463c947d66d5aa02"><td class="memItemLeft" align="right" valign="top"><a class="el" href="stdafx_8h.html#adde6aaee8457bee49c2a92621fe22b79">uint8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShopInstance.html#a7b1d54b9e537ae62463c947d66d5aa02">GetEntranceDirections</a> (const <a class="el" href="geometry_8h.html#a71fcb91f44cc6cbf519d0c45c07e931d">XYZPoint16</a> &amp;vox) const override</td></tr>
+<tr class="memdesc:a7b1d54b9e537ae62463c947d66d5aa02"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the set edges with an entrance to the ride.  <a href="#a7b1d54b9e537ae62463c947d66d5aa02">More...</a><br /></td></tr>
+<tr class="separator:a7b1d54b9e537ae62463c947d66d5aa02"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a90fc0648370618e2bf99f206dacd51f1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="ride__type_8h.html#a7db2980a108b7cb683f55e882cdb1431">RideEntryResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShopInstance.html#a90fc0648370618e2bf99f206dacd51f1">EnterRide</a> (int guest, <a class="el" href="group__map__group.html#ga29bb8f9503c34074bad3c762c92ee68b">TileEdge</a> entry) override</td></tr>
+<tr class="memdesc:a90fc0648370618e2bf99f206dacd51f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">The given guest tries to enter the ride.  <a href="#a90fc0648370618e2bf99f206dacd51f1">More...</a><br /></td></tr>
+<tr class="separator:a90fc0648370618e2bf99f206dacd51f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae451f7291524c72d1d852e649d9e6f6c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="geometry_8h.html#ad44b56387be4716a93eb09e15466703d">XYZPoint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShopInstance.html#ae451f7291524c72d1d852e649d9e6f6c">GetExit</a> (int guest, <a class="el" href="group__map__group.html#ga29bb8f9503c34074bad3c762c92ee68b">TileEdge</a> entry_edge) override</td></tr>
+<tr class="memdesc:ae451f7291524c72d1d852e649d9e6f6c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the exit coordinates of the ride, is near the middle of a tile edge.  <a href="#ae451f7291524c72d1d852e649d9e6f6c">More...</a><br /></td></tr>
+<tr class="separator:ae451f7291524c72d1d852e649d9e6f6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a62cecc0440780d615a3c78338b6e8799"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a62cecc0440780d615a3c78338b6e8799"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShopInstance.html#a62cecc0440780d615a3c78338b6e8799">RemoveAllPeople</a> () override</td></tr>
+<tr class="memdesc:a62cecc0440780d615a3c78338b6e8799"><td class="mdescLeft">&#160;</td><td class="mdescRight">Immediately remove all guests and staff which is inside the ride. <br /></td></tr>
+<tr class="separator:a62cecc0440780d615a3c78338b6e8799"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac46d7a6bd7914e4739fdf7b3a3793564"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShopInstance.html#ac46d7a6bd7914e4739fdf7b3a3793564">OnAnimate</a> (int delay) override</td></tr>
+<tr class="memdesc:ac46d7a6bd7914e4739fdf7b3a3793564"><td class="mdescLeft">&#160;</td><td class="mdescRight">Some time has passed, update the state of the ride.  <a href="#ac46d7a6bd7914e4739fdf7b3a3793564">More...</a><br /></td></tr>
+<tr class="separator:ac46d7a6bd7914e4739fdf7b3a3793564"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee22d5789ec67e7d0e78dfac1f565c06"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRideInstance.html#aee22d5789ec67e7d0e78dfac1f565c06">CanBeVisited</a> (const <a class="el" href="geometry_8h.html#a71fcb91f44cc6cbf519d0c45c07e931d">XYZPoint16</a> &amp;vox, <a class="el" href="group__map__group.html#ga29bb8f9503c34074bad3c762c92ee68b">TileEdge</a> edge) const </td></tr>
+<tr class="memdesc:aee22d5789ec67e7d0e78dfac1f565c06"><td class="mdescLeft">&#160;</td><td class="mdescRight">Can the ride be visited, assuming it is approached from direction <em>edge</em>?  <a href="#aee22d5789ec67e7d0e78dfac1f565c06">More...</a><br /></td></tr>
+<tr class="separator:aee22d5789ec67e7d0e78dfac1f565c06"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad32ec17efa670e1440bbc7774e93ff70"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRideInstance.html#ad32ec17efa670e1440bbc7774e93ff70">SellItem</a> (int item_index)</td></tr>
 <tr class="memdesc:ad32ec17efa670e1440bbc7774e93ff70"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sell an item to a customer.  <a href="#ad32ec17efa670e1440bbc7774e93ff70">More...</a><br /></td></tr>
 <tr class="separator:ad32ec17efa670e1440bbc7774e93ff70"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -105,9 +119,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a8bf8312ed4d9a642f1729f06044cf347"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classRideType.html">RideType</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRideInstance.html#a8bf8312ed4d9a642f1729f06044cf347">GetRideType</a> () const </td></tr>
 <tr class="memdesc:a8bf8312ed4d9a642f1729f06044cf347"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the ride type of the instance.  <a href="#a8bf8312ed4d9a642f1729f06044cf347">More...</a><br /></td></tr>
 <tr class="separator:a8bf8312ed4d9a642f1729f06044cf347"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abd195952fcc3193d1befa1871d9c18eb"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRideInstance.html#abd195952fcc3193d1befa1871d9c18eb">OnAnimate</a> (int delay)</td></tr>
-<tr class="memdesc:abd195952fcc3193d1befa1871d9c18eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Some time has passed, update the state of the ride.  <a href="#abd195952fcc3193d1befa1871d9c18eb">More...</a><br /></td></tr>
-<tr class="separator:abd195952fcc3193d1befa1871d9c18eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6d3b0b1c2df82580da529abc06c9b036"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRideInstance.html#a6d3b0b1c2df82580da529abc06c9b036">OnNewMonth</a> ()</td></tr>
 <tr class="memdesc:a6d3b0b1c2df82580da529abc06c9b036"><td class="mdescLeft">&#160;</td><td class="mdescRight">Monthly update of the shop administration.  <a href="#a6d3b0b1c2df82580da529abc06c9b036">More...</a><br /></td></tr>
 <tr class="separator:a6d3b0b1c2df82580da529abc06c9b036"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -136,18 +147,10 @@ Public Attributes</h2></td></tr>
 <a class="el" href="stdafx_8h.html#adde6aaee8457bee49c2a92621fe22b79">uint8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShopInstance.html#ac11be40f1a0d9d13f4cd0596fbf12caf">orientation</a></td></tr>
 <tr class="memdesc:ac11be40f1a0d9d13f4cd0596fbf12caf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Orientation of the shop. <br /></td></tr>
 <tr class="separator:ac11be40f1a0d9d13f4cd0596fbf12caf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a18820385ee882ed882ef09d848178cda"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a18820385ee882ed882ef09d848178cda"></a>
-<a class="el" href="stdafx_8h.html#a05f6b0ae8f6a6e135b0e290c25fe0e4e">uint16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShopInstance.html#a18820385ee882ed882ef09d848178cda">xpos</a></td></tr>
-<tr class="memdesc:a18820385ee882ed882ef09d848178cda"><td class="mdescLeft">&#160;</td><td class="mdescRight">X position of the shop base voxel. <br /></td></tr>
-<tr class="separator:a18820385ee882ed882ef09d848178cda"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7ef22b7664b8d18fce4ee24ed1a308bd"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7ef22b7664b8d18fce4ee24ed1a308bd"></a>
-<a class="el" href="stdafx_8h.html#a05f6b0ae8f6a6e135b0e290c25fe0e4e">uint16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShopInstance.html#a7ef22b7664b8d18fce4ee24ed1a308bd">ypos</a></td></tr>
-<tr class="memdesc:a7ef22b7664b8d18fce4ee24ed1a308bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Y position of the shop base voxel. <br /></td></tr>
-<tr class="separator:a7ef22b7664b8d18fce4ee24ed1a308bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1288aa290d354aadc93aa47024594cf9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1288aa290d354aadc93aa47024594cf9"></a>
-<a class="el" href="stdafx_8h.html#adde6aaee8457bee49c2a92621fe22b79">uint8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShopInstance.html#a1288aa290d354aadc93aa47024594cf9">zpos</a></td></tr>
-<tr class="memdesc:a1288aa290d354aadc93aa47024594cf9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Z position of the shop base voxel. <br /></td></tr>
-<tr class="separator:a1288aa290d354aadc93aa47024594cf9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab5a17490adf512fed4b0097d3f238ebd"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab5a17490adf512fed4b0097d3f238ebd"></a>
+<a class="el" href="geometry_8h.html#a71fcb91f44cc6cbf519d0c45c07e931d">XYZPoint16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShopInstance.html#ab5a17490adf512fed4b0097d3f238ebd">vox_pos</a></td></tr>
+<tr class="memdesc:ab5a17490adf512fed4b0097d3f238ebd"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classPosition.html" title="Position in a source file. ">Position</a> of the shop base voxel. <br /></td></tr>
+<tr class="separator:ab5a17490adf512fed4b0097d3f238ebd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af193f674d85b910cd7bae305fff3f32a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af193f674d85b910cd7bae305fff3f32a"></a>
 <a class="el" href="stdafx_8h.html#adde6aaee8457bee49c2a92621fe22b79">uint8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRideInstance.html#af193f674d85b910cd7bae305fff3f32a">name</a> [64]</td></tr>
 <tr class="memdesc:af193f674d85b910cd7bae305fff3f32a"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="className.html" title="Base class for labels of named values. ">Name</a> of the ride, if it is instantiated. <br /></td></tr>
@@ -201,11 +204,18 @@ const <a class="el" href="classRideType.html">RideType</a> *&#160;</td><td class
 <a class="el" href="classRandom.html">Random</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRideInstance.html#a441b6d235c54521dee3251c3536c18ae">rnd</a></td></tr>
 <tr class="memdesc:a441b6d235c54521dee3251c3536c18ae"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classRandom.html" title="A random generator class. ">Random</a> number generator for determining ride breakage. <br /></td></tr>
 <tr class="separator:a441b6d235c54521dee3251c3536c18ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:ad0c5521dfd5b465bf596419c1f556b9b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad0c5521dfd5b465bf596419c1f556b9b"></a>
+<a class="el" href="classOnRideGuests.html">OnRideGuests</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShopInstance.html#ad0c5521dfd5b465bf596419c1f556b9b">onride_guests</a></td></tr>
+<tr class="memdesc:ad0c5521dfd5b465bf596419c1f556b9b"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classGuests.html" title="All our guests. ">Guests</a> in the ride. <br /></td></tr>
+<tr class="separator:ad0c5521dfd5b465bf596419c1f556b9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Shop 'ride'. </p>
 
-<p>Definition at line <a class="el" href="shop__type_8h_source.html#l00040">40</a> of file <a class="el" href="shop__type_8h_source.html">shop_type.h</a>.</p>
+<p>Definition at line <a class="el" href="shop__type_8h_source.html#l00042">42</a> of file <a class="el" href="shop__type_8h_source.html">shop_type.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a8ea7cf63257759688d238eb4c57d7650"></a>
 <div class="memitem">
@@ -228,10 +238,11 @@ const <a class="el" href="classRideType.html">RideType</a> *&#160;</td><td class
   </table>
   </dd>
 </dl>
+<p>&lt;</p><dl class="todo"><dt><b><a class="el" href="todo.html#_todo000053">Todo:</a></b></dt><dd>Implement loading of guests into a batch. </dd></dl>
 
-<p>Definition at line <a class="el" href="shop__type_8cpp_source.html#l00107">107</a> of file <a class="el" href="shop__type_8cpp_source.html">shop_type.cpp</a>.</p>
+<p>Definition at line <a class="el" href="shop__type_8cpp_source.html#l00140">140</a> of file <a class="el" href="shop__type_8cpp_source.html">shop_type.cpp</a>.</p>
 
-<p>References <a class="el" href="shop__type_8h_source.html#l00051">orientation</a>, <a class="el" href="shop__type_8h_source.html#l00052">xpos</a>, <a class="el" href="shop__type_8h_source.html#l00053">ypos</a>, and <a class="el" href="shop__type_8h_source.html#l00054">zpos</a>.</p>
+<p>References <a class="el" href="guest__batches_8cpp_source.html#l00126">OnRideGuests::Configure()</a>, <a class="el" href="shop__type_8cpp_source.html#l00122">ShopType::GetRideCapacity()</a>, <a class="el" href="shop__type_8h_source.html#l00061">onride_guests</a>, and <a class="el" href="shop__type_8h_source.html#l00057">orientation</a>.</p>
 
 </div>
 </div>
@@ -252,11 +263,11 @@ const <a class="el" href="classRideType.html">RideType</a> *&#160;</td><td class
 <p>Get the shop type of the ride. </p>
 <dl class="section return"><dt>Returns</dt><dd>The shop type of the ride. </dd></dl>
 
-<p>Definition at line <a class="el" href="shop__type_8cpp_source.html#l00123">123</a> of file <a class="el" href="shop__type_8cpp_source.html">shop_type.cpp</a>.</p>
+<p>Definition at line <a class="el" href="shop__type_8cpp_source.html#l00157">157</a> of file <a class="el" href="shop__type_8cpp_source.html">shop_type.cpp</a>.</p>
 
-<p>References <a class="el" href="ride__type_8h_source.html#l00073">RideType::kind</a>, <a class="el" href="ride__type_8h_source.html#l00034">RTK_SHOP</a>, and <a class="el" href="ride__type_8h_source.html#l00163">RideInstance::type</a>.</p>
+<p>References <a class="el" href="ride__type_8h_source.html#l00078">RideType::kind</a>, <a class="el" href="ride__type_8h_source.html#l00034">RTK_SHOP</a>, and <a class="el" href="ride__type_8h_source.html#l00178">RideInstance::type</a>.</p>
 
-<p>Referenced by <a class="el" href="ride__gui_8cpp_source.html#l00410">ShopPlacementManager::ComputeShopVoxel()</a>, <a class="el" href="shop__type_8cpp_source.html#l00156">GetEntranceDirections()</a>, <a class="el" href="viewport_8cpp_source.html#l01431">Viewport::MarkVoxelDirty()</a>, <a class="el" href="shop__gui_8cpp_source.html#l00150">ShopManagerWindow::SetWidgetStringParameters()</a>, and <a class="el" href="shop__gui_8cpp_source.html#l00118">ShopManagerWindow::ShopManagerWindow()</a>.</p>
+<p>Referenced by <a class="el" href="ride__gui_8cpp_source.html#l00405">ShopPlacementManager::ComputeShopVoxel()</a>, <a class="el" href="shop__type_8cpp_source.html#l00186">GetEntranceDirections()</a>, <a class="el" href="viewport_8cpp_source.html#l01415">Viewport::MarkVoxelDirty()</a>, <a class="el" href="shop__gui_8cpp_source.html#l00152">ShopManagerWindow::SetWidgetStringParameters()</a>, and <a class="el" href="shop__gui_8cpp_source.html#l00120">ShopManagerWindow::ShopManagerWindow()</a>.</p>
 
 </div>
 </div>
@@ -310,13 +321,13 @@ const <a class="el" href="classRideType.html">RideType</a> *&#160;</td><td class
 
 <p>Implements <a class="el" href="classRideInstance.html#a2023a342250310d30aaa7484b66bc1c1">RideInstance</a>.</p>
 
-<p>Definition at line <a class="el" href="shop__type_8cpp_source.html#l00129">129</a> of file <a class="el" href="shop__type_8cpp_source.html">shop_type.cpp</a>.</p>
+<p>Definition at line <a class="el" href="shop__type_8cpp_source.html#l00163">163</a> of file <a class="el" href="shop__type_8cpp_source.html">shop_type.cpp</a>.</p>
 
-<p>References <a class="el" href="classRideType.html#a1eaebd6b26d7c8f719d176f7930a6f16">RideType::GetView()</a>, <a class="el" href="shop__type_8h_source.html#l00051">orientation</a>, and <a class="el" href="ride__type_8h_source.html#l00163">RideInstance::type</a>.</p>
+<p>References <a class="el" href="classRideType.html#a1eaebd6b26d7c8f719d176f7930a6f16">RideType::GetView()</a>, <a class="el" href="shop__type_8h_source.html#l00057">orientation</a>, and <a class="el" href="ride__type_8h_source.html#l00178">RideInstance::type</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="ae32c479a4881d44f3e1de5e6c944088e"></a>
+<a class="anchor" id="ab12938d435acf21ebcd54a60e93ee402"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -329,20 +340,8 @@ const <a class="el" href="classRideType.html">RideType</a> *&#160;</td><td class
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="stdafx_8h.html#a05f6b0ae8f6a6e135b0e290c25fe0e4e">uint16</a>&#160;</td>
-          <td class="paramname"><em>xpos</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="stdafx_8h.html#a05f6b0ae8f6a6e135b0e290c25fe0e4e">uint16</a>&#160;</td>
-          <td class="paramname"><em>ypos</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="stdafx_8h.html#adde6aaee8457bee49c2a92621fe22b79">uint8</a>&#160;</td>
-          <td class="paramname"><em>zpos</em>&#160;</td>
+          <td class="paramtype">const <a class="el" href="geometry_8h.html#a71fcb91f44cc6cbf519d0c45c07e931d">XYZPoint16</a> &amp;&#160;</td>
+          <td class="paramname"><em>pos</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -356,22 +355,20 @@ const <a class="el" href="classRideType.html">RideType</a> *&#160;</td><td class
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">orientation</td><td>Orientation of the shop. </td></tr>
-    <tr><td class="paramname">xpos</td><td>X position of the shop. </td></tr>
-    <tr><td class="paramname">ypos</td><td>Y position of the shop. </td></tr>
-    <tr><td class="paramname">zpos</td><td>Z position of the shop. </td></tr>
+    <tr><td class="paramname">pos</td><td><a class="el" href="classPosition.html" title="Position in a source file. ">Position</a> of the shop. </td></tr>
   </table>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="shop__type_8cpp_source.html#l00144">144</a> of file <a class="el" href="shop__type_8cpp_source.html">shop_type.cpp</a>.</p>
+<p>Definition at line <a class="el" href="shop__type_8cpp_source.html#l00176">176</a> of file <a class="el" href="shop__type_8cpp_source.html">shop_type.cpp</a>.</p>
 
-<p>References <a class="el" href="map_8cpp_source.html#l00027">_world</a>, <a class="el" href="ride__type_8h_source.html#l00150">RideInstance::flags</a>, <a class="el" href="map_8cpp_source.html#l00482">VoxelWorld::GetTileOwner()</a>, <a class="el" href="shop__type_8h_source.html#l00051">orientation</a>, <a class="el" href="map_8h_source.html#l00453">OWN_PARK</a>, <a class="el" href="ride__type_8h_source.html#l00097">RIS_ALLOCATED</a>, <a class="el" href="ride__type_8h_source.html#l00149">RideInstance::state</a>, <a class="el" href="shop__type_8h_source.html#l00052">xpos</a>, <a class="el" href="shop__type_8h_source.html#l00053">ypos</a>, and <a class="el" href="shop__type_8h_source.html#l00054">zpos</a>.</p>
+<p>References <a class="el" href="map_8cpp_source.html#l00027">_world</a>, <a class="el" href="ride__type_8h_source.html#l00165">RideInstance::flags</a>, <a class="el" href="map_8cpp_source.html#l00482">VoxelWorld::GetTileOwner()</a>, <a class="el" href="shop__type_8h_source.html#l00057">orientation</a>, <a class="el" href="map_8h_source.html#l00449">OWN_PARK</a>, <a class="el" href="ride__type_8h_source.html#l00102">RIS_ALLOCATED</a>, <a class="el" href="ride__type_8h_source.html#l00164">RideInstance::state</a>, <a class="el" href="shop__type_8h_source.html#l00058">vox_pos</a>, <a class="el" href="geometry_8h_source.html#l00100">XYZPoint&lt; CT &gt;::x</a>, and <a class="el" href="geometry_8h_source.html#l00101">XYZPoint&lt; CT &gt;::y</a>.</p>
 
-<p>Referenced by <a class="el" href="ride__gui_8cpp_source.html#l00410">ShopPlacementManager::ComputeShopVoxel()</a>.</p>
+<p>Referenced by <a class="el" href="ride__gui_8cpp_source.html#l00405">ShopPlacementManager::ComputeShopVoxel()</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="ad1160d9b8f8318db9859b0aacf473f55"></a>
+<a class="anchor" id="a7b1d54b9e537ae62463c947d66d5aa02"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -381,25 +378,9 @@ const <a class="el" href="classRideType.html">RideType</a> *&#160;</td><td class
         <tr>
           <td class="memname"><a class="el" href="stdafx_8h.html#adde6aaee8457bee49c2a92621fe22b79">uint8</a> ShopInstance::GetEntranceDirections </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="stdafx_8h.html#a05f6b0ae8f6a6e135b0e290c25fe0e4e">uint16</a>&#160;</td>
-          <td class="paramname"><em>xvox</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="stdafx_8h.html#a05f6b0ae8f6a6e135b0e290c25fe0e4e">uint16</a>&#160;</td>
-          <td class="paramname"><em>yvox</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="stdafx_8h.html#adde6aaee8457bee49c2a92621fe22b79">uint8</a>&#160;</td>
-          <td class="paramname"><em>zvox</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td> const</td>
+          <td class="paramtype">const <a class="el" href="geometry_8h.html#a71fcb91f44cc6cbf519d0c45c07e931d">XYZPoint16</a> &amp;&#160;</td>
+          <td class="paramname"><em>vox</em></td><td>)</td>
+          <td> const</td>
         </tr>
       </table>
   </td>
@@ -412,25 +393,166 @@ const <a class="el" href="classRideType.html">RideType</a> *&#160;</td><td class
 <p>Get the set edges with an entrance to the ride. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">xvox</td><td>X position of the voxel with the ride. </td></tr>
-    <tr><td class="paramname">yvox</td><td>Y position of the voxel with the ride. </td></tr>
-    <tr><td class="paramname">zvox</td><td>Z position of the voxel with the ride. </td></tr>
+    <tr><td class="paramname">vox</td><td><a class="el" href="classPosition.html" title="Position in a source file. ">Position</a> of the voxel with the ride. </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Bit set of <a class="el" href="group__map__group.html#ga29bb8f9503c34074bad3c762c92ee68b" title="Edges of a tile, starts at NE direction, and rotates clockwise. ">TileEdge</a> that allows entering the ride (seen from the ride). </dd></dl>
 
-<p>Implements <a class="el" href="classRideInstance.html#a0a7b0f52dbe935f77556f95a81f5cb2e">RideInstance</a>.</p>
+<p>Implements <a class="el" href="classRideInstance.html#ad70de8cde78d2ee967d229b2b8a61e26">RideInstance</a>.</p>
 
-<p>Definition at line <a class="el" href="shop__type_8cpp_source.html#l00156">156</a> of file <a class="el" href="shop__type_8cpp_source.html">shop_type.cpp</a>.</p>
+<p>Definition at line <a class="el" href="shop__type_8cpp_source.html#l00186">186</a> of file <a class="el" href="shop__type_8cpp_source.html">shop_type.cpp</a>.</p>
 
-<p>References <a class="el" href="shop__type_8h_source.html#l00033">ShopType::flags</a>, <a class="el" href="shop__type_8cpp_source.html#l00123">GetShopType()</a>, <a class="el" href="shop__type_8h_source.html#l00051">orientation</a>, <a class="el" href="bitmath_8h_source.html#l00075">ROL()</a>, <a class="el" href="ride__type_8h_source.html#l00049">SHF_ENTRANCE_BITS</a>, <a class="el" href="shop__type_8h_source.html#l00052">xpos</a>, <a class="el" href="shop__type_8h_source.html#l00053">ypos</a>, and <a class="el" href="shop__type_8h_source.html#l00054">zpos</a>.</p>
+<p>References <a class="el" href="shop__type_8h_source.html#l00035">ShopType::flags</a>, <a class="el" href="shop__type_8cpp_source.html#l00157">GetShopType()</a>, <a class="el" href="shop__type_8h_source.html#l00057">orientation</a>, <a class="el" href="bitmath_8h_source.html#l00075">ROL()</a>, <a class="el" href="ride__type_8h_source.html#l00049">SHF_ENTRANCE_BITS</a>, and <a class="el" href="shop__type_8h_source.html#l00058">vox_pos</a>.</p>
 
-<p>Referenced by <a class="el" href="ride__gui_8cpp_source.html#l00465">ShopPlacementManager::PlaceShop()</a>.</p>
+<p>Referenced by <a class="el" href="ride__gui_8cpp_source.html#l00460">ShopPlacementManager::PlaceShop()</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a2b2f31c567df029ae5e6c90ffbb5a37c"></a>
+<a class="anchor" id="a90fc0648370618e2bf99f206dacd51f1"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="ride__type_8h.html#a7db2980a108b7cb683f55e882cdb1431">RideEntryResult</a> ShopInstance::EnterRide </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>guest</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__map__group.html#ga29bb8f9503c34074bad3c762c92ee68b">TileEdge</a>&#160;</td>
+          <td class="paramname"><em>entry_edge</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The given guest tries to enter the ride. </p>
+<p>Meaning and further handling of the ride visit depends on the return value.</p><ul>
+<li>If the call returns <a class="el" href="ride__type_8h.html#a7db2980a108b7cb683f55e882cdb1431aaa5a11356e409a8b26406d1cef9d6b83" title="Entry is refused. ">RER_REFUSED</a>, the guest is not given entry (ride is full), it should be tried again at another time.</li>
+<li>If the call returns <a class="el" href="ride__type_8h.html#a7db2980a108b7cb683f55e882cdb1431ac147ce2a7fbd640a26ba442669268937" title="Entry is given, the guest is staying inside the ride. ">RER_ENTERED</a>, the guest is given access, and is now staying in the ride. The ride calls <a class="el" href="classGuest.html#a91a0836b65be2e7b42bf919b871154fb" title="Exit the ride, and continue walking in the park. ">Guest::ExitRide</a> when it is done.</li>
+<li>If the call returns <a class="el" href="ride__type_8h.html#a7db2980a108b7cb683f55e882cdb1431a9d8795ddfa2f992283b00cf936b21517" title="Entry is given, and visit is immediately done. ">RER_DONE</a>, the guest is given access, and the ride is also immediately visited (<a class="el" href="classGuest.html#a91a0836b65be2e7b42bf919b871154fb" title="Exit the ride, and continue walking in the park. ">Guest::ExitRide</a> is called before returning this answer). <dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">guest</td><td>Number of the guest entering the ride. </td></tr>
+    <tr><td class="paramname">entry_edge</td><td>Edge of entering the ride. Value is passed back through <a class="el" href="classGuest.html#a91a0836b65be2e7b42bf919b871154fb" title="Exit the ride, and continue walking in the park. ">Guest::ExitRide</a>, to use as parameter in <a class="el" href="classRideInstance.html#a1cdef2422a64caf92653866198d70799" title="Get the exit coordinates of the ride, is near the middle of a tile edge. ">RideInstance::GetExit</a>. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Whether the guest is accepted, and if so, if the guest is staying inside. </dd></dl>
+</li>
+</ul>
+
+<p>Implements <a class="el" href="classRideInstance.html#acb7676e0ec87d26c9fb6528d5809a2f9">RideInstance</a>.</p>
+
+<p>Definition at line <a class="el" href="shop__type_8cpp_source.html#l00194">194</a> of file <a class="el" href="shop__type_8cpp_source.html">shop_type.cpp</a>.</p>
+
+<p>References <a class="el" href="people_8cpp_source.html#l00023">_guests</a>, <a class="el" href="guest__batches_8cpp_source.html#l00073">GuestBatch::AddGuest()</a>, <a class="el" href="person_8cpp_source.html#l00448">Guest::ExitRide()</a>, <a class="el" href="people_8h_source.html#l00076">Guests::Get()</a>, <a class="el" href="guest__batches_8h_source.html#l00082">OnRideGuests::GetBatch()</a>, <a class="el" href="guest__batches_8h_source.html#l00092">OnRideGuests::GetFreeBatch()</a>, <a class="el" href="guest__batches_8h_source.html#l00131">OnRideGuests::num_batches</a>, <a class="el" href="shop__type_8h_source.html#l00061">onride_guests</a>, <a class="el" href="ride__type_8h_source.html#l00127">RER_DONE</a>, <a class="el" href="ride__type_8h_source.html#l00126">RER_ENTERED</a>, <a class="el" href="ride__type_8h_source.html#l00125">RER_REFUSED</a>, <a class="el" href="guest__batches_8cpp_source.html#l00088">GuestBatch::Start()</a>, and <a class="el" href="shop__type_8cpp_source.html#l00021">TOILET_TIME</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ae451f7291524c72d1d852e649d9e6f6c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="geometry_8h.html#ad44b56387be4716a93eb09e15466703d">XYZPoint32</a> ShopInstance::GetExit </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>guest</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__map__group.html#ga29bb8f9503c34074bad3c762c92ee68b">TileEdge</a>&#160;</td>
+          <td class="paramname"><em>entry_edge</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the exit coordinates of the ride, is near the middle of a tile edge. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">guest</td><td>Number of the guest querying the exit coordinates. </td></tr>
+    <tr><td class="paramname">entry_edge</td><td>Edge used for entering the ride. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>World position of the exit. </dd></dl>
+
+<p>Implements <a class="el" href="classRideInstance.html#a1cdef2422a64caf92653866198d70799">RideInstance</a>.</p>
+
+<p>Definition at line <a class="el" href="shop__type_8cpp_source.html#l00214">214</a> of file <a class="el" href="shop__type_8cpp_source.html">shop_type.cpp</a>.</p>
+
+<p>References <a class="el" href="tile__func_8cpp_source.html#l00040">_exit_dxy</a>, <a class="el" href="shop__type_8h_source.html#l00058">vox_pos</a>, <a class="el" href="geometry_8h_source.html#l00036">Point&lt; CT &gt;::x</a>, <a class="el" href="geometry_8h_source.html#l00100">XYZPoint&lt; CT &gt;::x</a>, and <a class="el" href="geometry_8h_source.html#l00037">Point&lt; CT &gt;::y</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ac46d7a6bd7914e4739fdf7b3a3793564"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ShopInstance::OnAnimate </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>delay</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Some time has passed, update the state of the ride. </p>
+<p>Default implementation does nothing. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">delay</td><td>Number of milliseconds that passed. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Reimplemented from <a class="el" href="classRideInstance.html#abd195952fcc3193d1befa1871d9c18eb">RideInstance</a>.</p>
+
+<p>Definition at line <a class="el" href="shop__type_8cpp_source.html#l00239">239</a> of file <a class="el" href="shop__type_8cpp_source.html">shop_type.cpp</a>.</p>
+
+<p>References <a class="el" href="people_8cpp_source.html#l00023">_guests</a>, <a class="el" href="guest__batches_8h_source.html#l00129">OnRideGuests::batches</a>, <a class="el" href="guest__batches_8h_source.html#l00045">BST_EMPTY</a>, <a class="el" href="guest__batches_8cpp_source.html#l00021">GuestData::Clear()</a>, <a class="el" href="guest__batches_8h_source.html#l00028">GuestData::entry</a>, <a class="el" href="person_8cpp_source.html#l00448">Guest::ExitRide()</a>, <a class="el" href="people_8h_source.html#l00076">Guests::Get()</a>, <a class="el" href="guest__batches_8h_source.html#l00112">OnRideGuests::GetFinishedBatch()</a>, <a class="el" href="guest__batches_8h_source.html#l00027">GuestData::guest</a>, <a class="el" href="guest__batches_8h_source.html#l00055">GuestBatch::guests</a>, <a class="el" href="guest__batches_8h_source.html#l00034">GuestData::IsEmpty()</a>, <a class="el" href="guest__batches_8cpp_source.html#l00158">OnRideGuests::OnAnimate()</a>, <a class="el" href="shop__type_8h_source.html#l00061">onride_guests</a>, and <a class="el" href="guest__batches_8h_source.html#l00056">GuestBatch::state</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aee22d5789ec67e7d0e78dfac1f565c06"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -440,20 +562,8 @@ const <a class="el" href="classRideType.html">RideType</a> *&#160;</td><td class
         <tr>
           <td class="memname">bool RideInstance::CanBeVisited </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="stdafx_8h.html#a05f6b0ae8f6a6e135b0e290c25fe0e4e">uint16</a>&#160;</td>
-          <td class="paramname"><em>xvox</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="stdafx_8h.html#a05f6b0ae8f6a6e135b0e290c25fe0e4e">uint16</a>&#160;</td>
-          <td class="paramname"><em>yvox</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="stdafx_8h.html#adde6aaee8457bee49c2a92621fe22b79">uint8</a>&#160;</td>
-          <td class="paramname"><em>zvox</em>, </td>
+          <td class="paramtype">const <a class="el" href="geometry_8h.html#a71fcb91f44cc6cbf519d0c45c07e931d">XYZPoint16</a> &amp;&#160;</td>
+          <td class="paramname"><em>vox</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -474,23 +584,21 @@ const <a class="el" href="classRideType.html">RideType</a> *&#160;</td><td class
 </table>
 </div><div class="memdoc">
 
-<p>Can the ride be visited, assuming the shop is approached from direction <em>edge</em>? </p>
+<p>Can the ride be visited, assuming it is approached from direction <em>edge</em>? </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">xvox</td><td>X position of the voxel with the ride. </td></tr>
-    <tr><td class="paramname">yvox</td><td>Y position of the voxel with the ride. </td></tr>
-    <tr><td class="paramname">zvox</td><td>Z position of the voxel with the ride. </td></tr>
+    <tr><td class="paramname">vox</td><td><a class="el" href="classPosition.html" title="Position in a source file. ">Position</a> of the voxel with the ride. </td></tr>
     <tr><td class="paramname">edge</td><td>Direction of movement (exit direction of the neighbouring voxel). </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Whether the ride can be visited. </dd></dl>
 
-<p>Definition at line <a class="el" href="ride__type_8cpp_source.html#l00208">208</a> of file <a class="el" href="ride__type_8cpp_source.html">ride_type.cpp</a>.</p>
+<p>Definition at line <a class="el" href="ride__type_8cpp_source.html#l00230">230</a> of file <a class="el" href="ride__type_8cpp_source.html">ride_type.cpp</a>.</p>
 
-<p>References <a class="el" href="bitmath_8h_source.html#l00034">GB()</a>, <a class="el" href="classRideInstance.html#a0a7b0f52dbe935f77556f95a81f5cb2e">RideInstance::GetEntranceDirections()</a>, <a class="el" href="ride__type_8h_source.html#l00101">RIS_OPEN</a>, and <a class="el" href="ride__type_8h_source.html#l00149">RideInstance::state</a>.</p>
+<p>References <a class="el" href="bitmath_8h_source.html#l00034">GB()</a>, <a class="el" href="classRideInstance.html#ad70de8cde78d2ee967d229b2b8a61e26">RideInstance::GetEntranceDirections()</a>, <a class="el" href="ride__type_8h_source.html#l00106">RIS_OPEN</a>, and <a class="el" href="ride__type_8h_source.html#l00164">RideInstance::state</a>.</p>
 
-<p>Referenced by <a class="el" href="person_8cpp_source.html#l00389">Guest::ComputeExitDesire()</a>, and <a class="el" href="person_8cpp_source.html#l00698">Person::OnAnimate()</a>.</p>
+<p>Referenced by <a class="el" href="person_8cpp_source.html#l00389">Guest::ComputeExitDesire()</a>, and <a class="el" href="person_8cpp_source.html#l01062">Guest::VisitRideOnAnimate()</a>.</p>
 
 </div>
 </div>
@@ -524,11 +632,11 @@ const <a class="el" href="classRideType.html">RideType</a> *&#160;</td><td class
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="ride__type_8cpp_source.html#l00218">218</a> of file <a class="el" href="ride__type_8cpp_source.html">ride_type.cpp</a>.</p>
+<p>Definition at line <a class="el" href="ride__type_8cpp_source.html#l00240">240</a> of file <a class="el" href="ride__type_8cpp_source.html">ride_type.cpp</a>.</p>
 
-<p>References <a class="el" href="finances_8cpp_source.html#l00021">_finances_manager</a>, <a class="el" href="window_8h_source.html#l00066">CHG_DISPLAY_OLD</a>, <a class="el" href="finances_8h_source.html#l00200">FinancesManager::EarnShopSales()</a>, <a class="el" href="ride__type_8cpp_source.html#l00437">RideInstance::GetIndex()</a>, <a class="el" href="ride__type_8h_source.html#l00077">RideType::item_cost</a>, <a class="el" href="ride__type_8h_source.html#l00156">RideInstance::item_count</a>, <a class="el" href="ride__type_8h_source.html#l00155">RideInstance::item_price</a>, <a class="el" href="window_8cpp_source.html#l01043">NotifyChange()</a>, <a class="el" href="ride__type_8h_source.html#l00023">NUMBER_ITEM_TYPES_SOLD</a>, <a class="el" href="finances_8h_source.html#l00120">FinancesManager::PayShopStock()</a>, <a class="el" href="ride__type_8h_source.html#l00153">RideInstance::total_profit</a>, <a class="el" href="ride__type_8h_source.html#l00154">RideInstance::total_sell_profit</a>, <a class="el" href="ride__type_8h_source.html#l00163">RideInstance::type</a>, and <a class="el" href="window_8h_source.html#l00051">WC_SHOP_MANAGER</a>.</p>
+<p>References <a class="el" href="finances_8cpp_source.html#l00021">_finances_manager</a>, <a class="el" href="window_8h_source.html#l00066">CHG_DISPLAY_OLD</a>, <a class="el" href="finances_8h_source.html#l00200">FinancesManager::EarnShopSales()</a>, <a class="el" href="ride__type_8cpp_source.html#l00459">RideInstance::GetIndex()</a>, <a class="el" href="ride__type_8h_source.html#l00082">RideType::item_cost</a>, <a class="el" href="ride__type_8h_source.html#l00171">RideInstance::item_count</a>, <a class="el" href="ride__type_8h_source.html#l00170">RideInstance::item_price</a>, <a class="el" href="window_8cpp_source.html#l01054">NotifyChange()</a>, <a class="el" href="ride__type_8h_source.html#l00023">NUMBER_ITEM_TYPES_SOLD</a>, <a class="el" href="finances_8h_source.html#l00120">FinancesManager::PayShopStock()</a>, <a class="el" href="ride__type_8h_source.html#l00168">RideInstance::total_profit</a>, <a class="el" href="ride__type_8h_source.html#l00169">RideInstance::total_sell_profit</a>, <a class="el" href="ride__type_8h_source.html#l00178">RideInstance::type</a>, and <a class="el" href="window_8h_source.html#l00051">WC_SHOP_MANAGER</a>.</p>
 
-<p>Referenced by <a class="el" href="person_8cpp_source.html#l01073">Guest::VisitShop()</a>.</p>
+<p>Referenced by <a class="el" href="person_8cpp_source.html#l01330">Guest::BuyItem()</a>.</p>
 
 </div>
 </div>
@@ -563,11 +671,11 @@ const <a class="el" href="classRideType.html">RideType</a> *&#160;</td><td class
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Type of item sold. </dd></dl>
 
-<p>Definition at line <a class="el" href="ride__type_8cpp_source.html#l00237">237</a> of file <a class="el" href="ride__type_8cpp_source.html">ride_type.cpp</a>.</p>
+<p>Definition at line <a class="el" href="ride__type_8cpp_source.html#l00259">259</a> of file <a class="el" href="ride__type_8cpp_source.html">ride_type.cpp</a>.</p>
 
-<p>References <a class="el" href="ride__type_8h_source.html#l00076">RideType::item_type</a>, <a class="el" href="ride__type_8h_source.html#l00023">NUMBER_ITEM_TYPES_SOLD</a>, and <a class="el" href="ride__type_8h_source.html#l00163">RideInstance::type</a>.</p>
+<p>References <a class="el" href="ride__type_8h_source.html#l00081">RideType::item_type</a>, <a class="el" href="ride__type_8h_source.html#l00023">NUMBER_ITEM_TYPES_SOLD</a>, and <a class="el" href="ride__type_8h_source.html#l00178">RideInstance::type</a>.</p>
 
-<p>Referenced by <a class="el" href="person_8cpp_source.html#l01073">Guest::VisitShop()</a>, and <a class="el" href="person_8cpp_source.html#l01016">Guest::WantToVisit()</a>.</p>
+<p>Referenced by <a class="el" href="person_8cpp_source.html#l01330">Guest::BuyItem()</a>, <a class="el" href="person_8cpp_source.html#l01301">Guest::SelectItem()</a>, and <a class="el" href="person_8cpp_source.html#l01224">Guest::WantToVisit()</a>.</p>
 
 </div>
 </div>
@@ -602,11 +710,11 @@ const <a class="el" href="classRideType.html">RideType</a> *&#160;</td><td class
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Price to pay for the item. </dd></dl>
 
-<p>Definition at line <a class="el" href="ride__type_8cpp_source.html#l00248">248</a> of file <a class="el" href="ride__type_8cpp_source.html">ride_type.cpp</a>.</p>
+<p>Definition at line <a class="el" href="ride__type_8cpp_source.html#l00270">270</a> of file <a class="el" href="ride__type_8cpp_source.html">ride_type.cpp</a>.</p>
 
-<p>References <a class="el" href="ride__type_8h_source.html#l00155">RideInstance::item_price</a>, and <a class="el" href="ride__type_8h_source.html#l00023">NUMBER_ITEM_TYPES_SOLD</a>.</p>
+<p>References <a class="el" href="ride__type_8h_source.html#l00170">RideInstance::item_price</a>, and <a class="el" href="ride__type_8h_source.html#l00023">NUMBER_ITEM_TYPES_SOLD</a>.</p>
 
-<p>Referenced by <a class="el" href="shop__gui_8cpp_source.html#l00150">ShopManagerWindow::SetWidgetStringParameters()</a>, and <a class="el" href="person_8cpp_source.html#l01073">Guest::VisitShop()</a>.</p>
+<p>Referenced by <a class="el" href="person_8cpp_source.html#l01330">Guest::BuyItem()</a>, <a class="el" href="person_8cpp_source.html#l01301">Guest::SelectItem()</a>, and <a class="el" href="shop__gui_8cpp_source.html#l00152">ShopManagerWindow::SetWidgetStringParameters()</a>.</p>
 
 </div>
 </div>
@@ -634,11 +742,11 @@ const <a class="el" href="classRideType.html">RideType</a> *&#160;</td><td class
 <p>Get the kind of the ride. </p>
 <dl class="section return"><dt>Returns</dt><dd>the kind of the ride. </dd></dl>
 
-<p>Definition at line <a class="el" href="ride__type_8cpp_source.html#l00169">169</a> of file <a class="el" href="ride__type_8cpp_source.html">ride_type.cpp</a>.</p>
+<p>Definition at line <a class="el" href="ride__type_8cpp_source.html#l00171">171</a> of file <a class="el" href="ride__type_8cpp_source.html">ride_type.cpp</a>.</p>
 
-<p>References <a class="el" href="ride__type_8h_source.html#l00073">RideType::kind</a>, and <a class="el" href="ride__type_8h_source.html#l00163">RideInstance::type</a>.</p>
+<p>References <a class="el" href="ride__type_8h_source.html#l00078">RideType::kind</a>, and <a class="el" href="ride__type_8h_source.html#l00178">RideInstance::type</a>.</p>
 
-<p>Referenced by <a class="el" href="ride__gui_8cpp_source.html#l00410">ShopPlacementManager::ComputeShopVoxel()</a>, <a class="el" href="viewport_8cpp_source.html#l00854">DrawRide()</a>, <a class="el" href="viewport_8cpp_source.html#l01431">Viewport::MarkVoxelDirty()</a>, <a class="el" href="ride__type_8cpp_source.html#l00509">RidesManager::NewInstanceAdded()</a>, <a class="el" href="select__mode_8cpp_source.html#l00050">SelectMouseMode::OnMouseButtonEvent()</a>, <a class="el" href="ride__gui_8cpp_source.html#l00465">ShopPlacementManager::PlaceShop()</a>, <a class="el" href="coaster__gui_8cpp_source.html#l00624">ShowCoasterBuildGui()</a>, <a class="el" href="coaster__gui_8cpp_source.html#l00086">ShowCoasterManagementGui()</a>, and <a class="el" href="shop__gui_8cpp_source.html#l00235">ShowShopManagementGui()</a>.</p>
+<p>Referenced by <a class="el" href="ride__gui_8cpp_source.html#l00405">ShopPlacementManager::ComputeShopVoxel()</a>, <a class="el" href="viewport_8cpp_source.html#l00829">DrawRide()</a>, <a class="el" href="viewport_8cpp_source.html#l01415">Viewport::MarkVoxelDirty()</a>, <a class="el" href="ride__type_8cpp_source.html#l00531">RidesManager::NewInstanceAdded()</a>, <a class="el" href="select__mode_8cpp_source.html#l00050">SelectMouseMode::OnMouseButtonEvent()</a>, <a class="el" href="ride__gui_8cpp_source.html#l00460">ShopPlacementManager::PlaceShop()</a>, <a class="el" href="coaster__gui_8cpp_source.html#l00613">ShowCoasterBuildGui()</a>, <a class="el" href="coaster__gui_8cpp_source.html#l00086">ShowCoasterManagementGui()</a>, and <a class="el" href="shop__gui_8cpp_source.html#l00239">ShowShopManagementGui()</a>.</p>
 
 </div>
 </div>
@@ -666,49 +774,11 @@ const <a class="el" href="classRideType.html">RideType</a> *&#160;</td><td class
 <p>Get the ride type of the instance. </p>
 <dl class="section return"><dt>Returns</dt><dd>The ride type. </dd></dl>
 
-<p>Definition at line <a class="el" href="ride__type_8cpp_source.html#l00178">178</a> of file <a class="el" href="ride__type_8cpp_source.html">ride_type.cpp</a>.</p>
+<p>Definition at line <a class="el" href="ride__type_8cpp_source.html#l00180">180</a> of file <a class="el" href="ride__type_8cpp_source.html">ride_type.cpp</a>.</p>
 
-<p>References <a class="el" href="ride__type_8h_source.html#l00163">RideInstance::type</a>.</p>
+<p>References <a class="el" href="ride__type_8h_source.html#l00178">RideInstance::type</a>.</p>
 
-<p>Referenced by <a class="el" href="ride__type_8cpp_source.html#l00509">RidesManager::NewInstanceAdded()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="abd195952fcc3193d1befa1871d9c18eb"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void RideInstance::OnAnimate </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>delay</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span><span class="mlabel">inherited</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Some time has passed, update the state of the ride. </p>
-<p>Default implementation does nothing. </p><dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">delay</td><td>Number of milliseconds that passed. </td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p>Reimplemented in <a class="el" href="classCoasterInstance.html#abd986d5061247132d8bfb91ad46de0d0">CoasterInstance</a>.</p>
-
-<p>Definition at line <a class="el" href="ride__type_8cpp_source.html#l00258">258</a> of file <a class="el" href="ride__type_8cpp_source.html">ride_type.cpp</a>.</p>
-
-<p>Referenced by <a class="el" href="ride__type_8cpp_source.html#l00381">RidesManager::OnAnimate()</a>.</p>
+<p>Referenced by <a class="el" href="ride__type_8cpp_source.html#l00531">RidesManager::NewInstanceAdded()</a>.</p>
 
 </div>
 </div>
@@ -735,11 +805,11 @@ const <a class="el" href="classRideType.html">RideType</a> *&#160;</td><td class
 
 <p>Monthly update of the shop administration. </p>
 
-<p>Definition at line <a class="el" href="ride__type_8cpp_source.html#l00263">263</a> of file <a class="el" href="ride__type_8cpp_source.html">ride_type.cpp</a>.</p>
+<p>Definition at line <a class="el" href="ride__type_8cpp_source.html#l00285">285</a> of file <a class="el" href="ride__type_8cpp_source.html">ride_type.cpp</a>.</p>
 
-<p>References <a class="el" href="finances_8cpp_source.html#l00021">_finances_manager</a>, <a class="el" href="window_8h_source.html#l00066">CHG_DISPLAY_OLD</a>, <a class="el" href="ride__type_8h_source.html#l00150">RideInstance::flags</a>, <a class="el" href="ride__type_8cpp_source.html#l00437">RideInstance::GetIndex()</a>, <a class="el" href="ride__type_8h_source.html#l00074">RideType::monthly_cost</a>, <a class="el" href="ride__type_8h_source.html#l00075">RideType::monthly_open_cost</a>, <a class="el" href="window_8cpp_source.html#l01043">NotifyChange()</a>, <a class="el" href="finances_8h_source.html#l00140">FinancesManager::PayStaffWages()</a>, <a class="el" href="ride__type_8h_source.html#l00106">RIF_MONTHLY_PAID</a>, <a class="el" href="ride__type_8h_source.html#l00107">RIF_OPENED_PAID</a>, <a class="el" href="ride__type_8h_source.html#l00101">RIS_OPEN</a>, <a class="el" href="bitmath_8h_source.html#l00058">SB()</a>, <a class="el" href="ride__type_8h_source.html#l00149">RideInstance::state</a>, <a class="el" href="ride__type_8h_source.html#l00153">RideInstance::total_profit</a>, <a class="el" href="ride__type_8h_source.html#l00163">RideInstance::type</a>, and <a class="el" href="window_8h_source.html#l00051">WC_SHOP_MANAGER</a>.</p>
+<p>References <a class="el" href="finances_8cpp_source.html#l00021">_finances_manager</a>, <a class="el" href="window_8h_source.html#l00066">CHG_DISPLAY_OLD</a>, <a class="el" href="ride__type_8h_source.html#l00165">RideInstance::flags</a>, <a class="el" href="ride__type_8cpp_source.html#l00459">RideInstance::GetIndex()</a>, <a class="el" href="ride__type_8h_source.html#l00079">RideType::monthly_cost</a>, <a class="el" href="ride__type_8h_source.html#l00080">RideType::monthly_open_cost</a>, <a class="el" href="window_8cpp_source.html#l01054">NotifyChange()</a>, <a class="el" href="finances_8h_source.html#l00140">FinancesManager::PayStaffWages()</a>, <a class="el" href="ride__type_8h_source.html#l00111">RIF_MONTHLY_PAID</a>, <a class="el" href="ride__type_8h_source.html#l00112">RIF_OPENED_PAID</a>, <a class="el" href="ride__type_8h_source.html#l00106">RIS_OPEN</a>, <a class="el" href="bitmath_8h_source.html#l00058">SB()</a>, <a class="el" href="ride__type_8h_source.html#l00164">RideInstance::state</a>, <a class="el" href="ride__type_8h_source.html#l00168">RideInstance::total_profit</a>, <a class="el" href="ride__type_8h_source.html#l00178">RideInstance::type</a>, and <a class="el" href="window_8h_source.html#l00051">WC_SHOP_MANAGER</a>.</p>
 
-<p>Referenced by <a class="el" href="ride__type_8cpp_source.html#l00390">RidesManager::OnNewMonth()</a>.</p>
+<p>Referenced by <a class="el" href="ride__type_8cpp_source.html#l00412">RidesManager::OnNewMonth()</a>.</p>
 
 </div>
 </div>
@@ -766,11 +836,11 @@ const <a class="el" href="classRideType.html">RideType</a> *&#160;</td><td class
 
 <p>Daily update of breakages and maintenance. </p>
 
-<p>Definition at line <a class="el" href="ride__type_8cpp_source.html#l00280">280</a> of file <a class="el" href="ride__type_8cpp_source.html">ride_type.cpp</a>.</p>
+<p>Definition at line <a class="el" href="ride__type_8cpp_source.html#l00302">302</a> of file <a class="el" href="ride__type_8cpp_source.html">ride_type.cpp</a>.</p>
 
-<p>References <a class="el" href="ride__type_8cpp_source.html#l00286">RideInstance::HandleBreakdown()</a>.</p>
+<p>References <a class="el" href="ride__type_8cpp_source.html#l00308">RideInstance::HandleBreakdown()</a>.</p>
 
-<p>Referenced by <a class="el" href="ride__type_8cpp_source.html#l00399">RidesManager::OnNewDay()</a>.</p>
+<p>Referenced by <a class="el" href="ride__type_8cpp_source.html#l00421">RidesManager::OnNewDay()</a>.</p>
 
 </div>
 </div>
@@ -798,11 +868,11 @@ const <a class="el" href="classRideType.html">RideType</a> *&#160;</td><td class
 <p>Switch the ride to being constructed. </p>
 <dl class="section pre"><dt>Precondition</dt><dd>The ride should not be open. </dd></dl>
 
-<p>Definition at line <a class="el" href="ride__type_8cpp_source.html#l00358">358</a> of file <a class="el" href="ride__type_8cpp_source.html">ride_type.cpp</a>.</p>
+<p>Definition at line <a class="el" href="ride__type_8cpp_source.html#l00380">380</a> of file <a class="el" href="ride__type_8cpp_source.html">ride_type.cpp</a>.</p>
 
-<p>References <a class="el" href="ride__type_8h_source.html#l00098">RIS_BUILDING</a>, <a class="el" href="ride__type_8h_source.html#l00101">RIS_OPEN</a>, and <a class="el" href="ride__type_8h_source.html#l00149">RideInstance::state</a>.</p>
+<p>References <a class="el" href="ride__type_8h_source.html#l00103">RIS_BUILDING</a>, <a class="el" href="ride__type_8h_source.html#l00106">RIS_OPEN</a>, and <a class="el" href="ride__type_8h_source.html#l00164">RideInstance::state</a>.</p>
 
-<p>Referenced by <a class="el" href="ride__type_8cpp_source.html#l00509">RidesManager::NewInstanceAdded()</a>.</p>
+<p>Referenced by <a class="el" href="ride__type_8cpp_source.html#l00531">RidesManager::NewInstanceAdded()</a>.</p>
 
 </div>
 </div>
@@ -830,11 +900,11 @@ const <a class="el" href="classRideType.html">RideType</a> *&#160;</td><td class
 <p>Open the ride for the public. </p>
 <dl class="section pre"><dt>Precondition</dt><dd>The ride is open. </dd></dl>
 
-<p>Definition at line <a class="el" href="ride__type_8cpp_source.html#l00318">318</a> of file <a class="el" href="ride__type_8cpp_source.html">ride_type.cpp</a>.</p>
+<p>Definition at line <a class="el" href="ride__type_8cpp_source.html#l00340">340</a> of file <a class="el" href="ride__type_8cpp_source.html">ride_type.cpp</a>.</p>
 
-<p>References <a class="el" href="finances_8cpp_source.html#l00021">_finances_manager</a>, <a class="el" href="ride__type_8h_source.html#l00115">BDS_UNOPENED</a>, <a class="el" href="ride__type_8h_source.html#l00113">BDS_WILL_BREAK</a>, <a class="el" href="ride__type_8h_source.html#l00158">RideInstance::breakdown_ctr</a>, <a class="el" href="ride__type_8h_source.html#l00025">BREAKDOWN_GRACE_PERIOD</a>, <a class="el" href="ride__type_8h_source.html#l00160">RideInstance::breakdown_state</a>, <a class="el" href="window_8h_source.html#l00066">CHG_DISPLAY_OLD</a>, <a class="el" href="random_8cpp_source.html#l00046">Random::Exponential()</a>, <a class="el" href="ride__type_8h_source.html#l00150">RideInstance::flags</a>, <a class="el" href="bitmath_8h_source.html#l00034">GB()</a>, <a class="el" href="ride__type_8cpp_source.html#l00437">RideInstance::GetIndex()</a>, <a class="el" href="ride__type_8h_source.html#l00074">RideType::monthly_cost</a>, <a class="el" href="ride__type_8h_source.html#l00075">RideType::monthly_open_cost</a>, <a class="el" href="window_8cpp_source.html#l01043">NotifyChange()</a>, <a class="el" href="finances_8h_source.html#l00140">FinancesManager::PayStaffWages()</a>, <a class="el" href="ride__type_8h_source.html#l00159">RideInstance::reliability</a>, <a class="el" href="ride__type_8h_source.html#l00106">RIF_MONTHLY_PAID</a>, <a class="el" href="ride__type_8h_source.html#l00107">RIF_OPENED_PAID</a>, <a class="el" href="ride__type_8h_source.html#l00100">RIS_CLOSED</a>, <a class="el" href="ride__type_8h_source.html#l00101">RIS_OPEN</a>, <a class="el" href="ride__type_8h_source.html#l00165">RideInstance::rnd</a>, <a class="el" href="bitmath_8h_source.html#l00058">SB()</a>, <a class="el" href="ride__type_8h_source.html#l00149">RideInstance::state</a>, <a class="el" href="ride__type_8h_source.html#l00153">RideInstance::total_profit</a>, <a class="el" href="ride__type_8h_source.html#l00163">RideInstance::type</a>, and <a class="el" href="window_8h_source.html#l00051">WC_SHOP_MANAGER</a>.</p>
+<p>References <a class="el" href="finances_8cpp_source.html#l00021">_finances_manager</a>, <a class="el" href="ride__type_8h_source.html#l00120">BDS_UNOPENED</a>, <a class="el" href="ride__type_8h_source.html#l00118">BDS_WILL_BREAK</a>, <a class="el" href="ride__type_8h_source.html#l00173">RideInstance::breakdown_ctr</a>, <a class="el" href="ride__type_8h_source.html#l00025">BREAKDOWN_GRACE_PERIOD</a>, <a class="el" href="ride__type_8h_source.html#l00175">RideInstance::breakdown_state</a>, <a class="el" href="window_8h_source.html#l00066">CHG_DISPLAY_OLD</a>, <a class="el" href="random_8cpp_source.html#l00046">Random::Exponential()</a>, <a class="el" href="ride__type_8h_source.html#l00165">RideInstance::flags</a>, <a class="el" href="bitmath_8h_source.html#l00034">GB()</a>, <a class="el" href="ride__type_8cpp_source.html#l00459">RideInstance::GetIndex()</a>, <a class="el" href="ride__type_8h_source.html#l00079">RideType::monthly_cost</a>, <a class="el" href="ride__type_8h_source.html#l00080">RideType::monthly_open_cost</a>, <a class="el" href="window_8cpp_source.html#l01054">NotifyChange()</a>, <a class="el" href="finances_8h_source.html#l00140">FinancesManager::PayStaffWages()</a>, <a class="el" href="ride__type_8h_source.html#l00174">RideInstance::reliability</a>, <a class="el" href="ride__type_8h_source.html#l00111">RIF_MONTHLY_PAID</a>, <a class="el" href="ride__type_8h_source.html#l00112">RIF_OPENED_PAID</a>, <a class="el" href="ride__type_8h_source.html#l00105">RIS_CLOSED</a>, <a class="el" href="ride__type_8h_source.html#l00106">RIS_OPEN</a>, <a class="el" href="ride__type_8h_source.html#l00180">RideInstance::rnd</a>, <a class="el" href="bitmath_8h_source.html#l00058">SB()</a>, <a class="el" href="ride__type_8h_source.html#l00164">RideInstance::state</a>, <a class="el" href="ride__type_8h_source.html#l00168">RideInstance::total_profit</a>, <a class="el" href="ride__type_8h_source.html#l00178">RideInstance::type</a>, and <a class="el" href="window_8h_source.html#l00051">WC_SHOP_MANAGER</a>.</p>
 
-<p>Referenced by <a class="el" href="shop__gui_8cpp_source.html#l00197">ShopManagerWindow::OnClick()</a>.</p>
+<p>Referenced by <a class="el" href="shop__gui_8cpp_source.html#l00199">ShopManagerWindow::OnClick()</a>.</p>
 
 </div>
 </div>
@@ -860,14 +930,14 @@ const <a class="el" href="classRideType.html">RideType</a> *&#160;</td><td class
 </div><div class="memdoc">
 
 <p>Close the ride for the public. </p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000043">Todo:</a></b></dt><dd>Currently closing is instantly, we may want to have a transition phase here. <dl class="section pre"><dt>Precondition</dt><dd>The ride is open. </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000045">Todo:</a></b></dt><dd>Currently closing is instantly, we may want to have a transition phase here. <dl class="section pre"><dt>Precondition</dt><dd>The ride is open. </dd></dl>
 </dd></dl>
 
-<p>Definition at line <a class="el" href="ride__type_8cpp_source.html#l00349">349</a> of file <a class="el" href="ride__type_8cpp_source.html">ride_type.cpp</a>.</p>
+<p>Definition at line <a class="el" href="ride__type_8cpp_source.html#l00371">371</a> of file <a class="el" href="ride__type_8cpp_source.html">ride_type.cpp</a>.</p>
 
-<p>References <a class="el" href="ride__type_8h_source.html#l00100">RIS_CLOSED</a>, and <a class="el" href="ride__type_8h_source.html#l00149">RideInstance::state</a>.</p>
+<p>References <a class="el" href="ride__type_8h_source.html#l00105">RIS_CLOSED</a>, and <a class="el" href="ride__type_8h_source.html#l00164">RideInstance::state</a>.</p>
 
-<p>Referenced by <a class="el" href="ride__type_8cpp_source.html#l00509">RidesManager::NewInstanceAdded()</a>, and <a class="el" href="shop__gui_8cpp_source.html#l00197">ShopManagerWindow::OnClick()</a>.</p>
+<p>Referenced by <a class="el" href="ride__type_8cpp_source.html#l00531">RidesManager::NewInstanceAdded()</a>, and <a class="el" href="shop__gui_8cpp_source.html#l00199">ShopManagerWindow::OnClick()</a>.</p>
 
 </div>
 </div>
@@ -894,11 +964,11 @@ const <a class="el" href="classRideType.html">RideType</a> *&#160;</td><td class
 
 <p>Handle breakdowns of rides. </p>
 
-<p>Definition at line <a class="el" href="ride__type_8cpp_source.html#l00286">286</a> of file <a class="el" href="ride__type_8cpp_source.html">ride_type.cpp</a>.</p>
+<p>Definition at line <a class="el" href="ride__type_8cpp_source.html#l00308">308</a> of file <a class="el" href="ride__type_8cpp_source.html">ride_type.cpp</a>.</p>
 
-<p>References <a class="el" href="ride__type_8h_source.html#l00112">BDS_BROKEN</a>, <a class="el" href="ride__type_8h_source.html#l00114">BDS_NEEDS_NEW_CTR</a>, <a class="el" href="ride__type_8h_source.html#l00115">BDS_UNOPENED</a>, <a class="el" href="ride__type_8h_source.html#l00113">BDS_WILL_BREAK</a>, <a class="el" href="ride__type_8h_source.html#l00158">RideInstance::breakdown_ctr</a>, <a class="el" href="ride__type_8h_source.html#l00160">RideInstance::breakdown_state</a>, <a class="el" href="random_8cpp_source.html#l00046">Random::Exponential()</a>, <a class="el" href="stdafx_8h_source.html#l00182">NOT_REACHED</a>, <a class="el" href="ride__type_8h_source.html#l00159">RideInstance::reliability</a>, <a class="el" href="ride__type_8h_source.html#l00101">RIS_OPEN</a>, <a class="el" href="ride__type_8h_source.html#l00165">RideInstance::rnd</a>, and <a class="el" href="ride__type_8h_source.html#l00149">RideInstance::state</a>.</p>
+<p>References <a class="el" href="ride__type_8h_source.html#l00117">BDS_BROKEN</a>, <a class="el" href="ride__type_8h_source.html#l00119">BDS_NEEDS_NEW_CTR</a>, <a class="el" href="ride__type_8h_source.html#l00120">BDS_UNOPENED</a>, <a class="el" href="ride__type_8h_source.html#l00118">BDS_WILL_BREAK</a>, <a class="el" href="ride__type_8h_source.html#l00173">RideInstance::breakdown_ctr</a>, <a class="el" href="ride__type_8h_source.html#l00175">RideInstance::breakdown_state</a>, <a class="el" href="random_8cpp_source.html#l00046">Random::Exponential()</a>, <a class="el" href="stdafx_8h_source.html#l00182">NOT_REACHED</a>, <a class="el" href="ride__type_8h_source.html#l00174">RideInstance::reliability</a>, <a class="el" href="ride__type_8h_source.html#l00106">RIS_OPEN</a>, <a class="el" href="ride__type_8h_source.html#l00180">RideInstance::rnd</a>, and <a class="el" href="ride__type_8h_source.html#l00164">RideInstance::state</a>.</p>
 
-<p>Referenced by <a class="el" href="ride__type_8cpp_source.html#l00280">RideInstance::OnNewDay()</a>.</p>
+<p>Referenced by <a class="el" href="ride__type_8cpp_source.html#l00302">RideInstance::OnNewDay()</a>.</p>
 
 </div>
 </div>
@@ -926,11 +996,11 @@ const <a class="el" href="classRideType.html">RideType</a> *&#160;</td><td class
 <p>Get the ride instance index number. </p>
 <dl class="section return"><dt>Returns</dt><dd>Ride instance index. </dd></dl>
 
-<p>Definition at line <a class="el" href="ride__type_8cpp_source.html#l00437">437</a> of file <a class="el" href="ride__type_8cpp_source.html">ride_type.cpp</a>.</p>
+<p>Definition at line <a class="el" href="ride__type_8cpp_source.html#l00459">459</a> of file <a class="el" href="ride__type_8cpp_source.html">ride_type.cpp</a>.</p>
 
-<p>References <a class="el" href="ride__type_8h_source.html#l00202">RidesManager::instances</a>, <a class="el" href="stdafx_8h_source.html#l00157">lengthof</a>, <a class="el" href="stdafx_8h_source.html#l00182">NOT_REACHED</a>, and <a class="el" href="map_8h_source.html#l00045">SRI_FULL_RIDES</a>.</p>
+<p>References <a class="el" href="ride__type_8h_source.html#l00217">RidesManager::instances</a>, <a class="el" href="stdafx_8h_source.html#l00157">lengthof</a>, <a class="el" href="stdafx_8h_source.html#l00182">NOT_REACHED</a>, and <a class="el" href="map_8h_source.html#l00045">SRI_FULL_RIDES</a>.</p>
 
-<p>Referenced by <a class="el" href="coaster__gui_8cpp_source.html#l00263">CoasterBuildWindow::CoasterBuildWindow()</a>, <a class="el" href="ride__type_8cpp_source.html#l00263">RideInstance::OnNewMonth()</a>, <a class="el" href="ride__type_8cpp_source.html#l00318">RideInstance::OpenRide()</a>, <a class="el" href="coaster_8cpp_source.html#l00772">CoasterInstance::PlaceTrackPieceInAdditions()</a>, <a class="el" href="coaster_8cpp_source.html#l00793">CoasterInstance::RemoveTrackPieceInAdditions()</a>, <a class="el" href="ride__type_8cpp_source.html#l00218">RideInstance::SellItem()</a>, <a class="el" href="coaster__gui_8cpp_source.html#l00624">ShowCoasterBuildGui()</a>, and <a class="el" href="coaster__gui_8cpp_source.html#l00086">ShowCoasterManagementGui()</a>.</p>
+<p>Referenced by <a class="el" href="coaster__gui_8cpp_source.html#l00263">CoasterBuildWindow::CoasterBuildWindow()</a>, <a class="el" href="ride__type_8cpp_source.html#l00285">RideInstance::OnNewMonth()</a>, <a class="el" href="ride__type_8cpp_source.html#l00340">RideInstance::OpenRide()</a>, <a class="el" href="coaster_8cpp_source.html#l00769">CoasterInstance::PlaceTrackPieceInAdditions()</a>, <a class="el" href="coaster_8cpp_source.html#l00788">CoasterInstance::RemoveTrackPieceInAdditions()</a>, <a class="el" href="ride__type_8cpp_source.html#l00240">RideInstance::SellItem()</a>, <a class="el" href="coaster__gui_8cpp_source.html#l00613">ShowCoasterBuildGui()</a>, and <a class="el" href="coaster__gui_8cpp_source.html#l00086">ShowCoasterManagementGui()</a>.</p>
 
 </div>
 </div>
@@ -956,9 +1026,9 @@ const <a class="el" href="classRideType.html">RideType</a> *&#160;</td><td class
 <p>State of the instance. </p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="ride__type_8h.html#aa45d92b6242a5e33751fac9a278eff78" title="State of a ride instance. ">RideInstanceState</a> </dd></dl>
 
-<p>Definition at line <a class="el" href="ride__type_8h_source.html#l00149">149</a> of file <a class="el" href="ride__type_8h_source.html">ride_type.h</a>.</p>
+<p>Definition at line <a class="el" href="ride__type_8h_source.html#l00164">164</a> of file <a class="el" href="ride__type_8h_source.html">ride_type.h</a>.</p>
 
-<p>Referenced by <a class="el" href="ride__type_8cpp_source.html#l00358">RideInstance::BuildRide()</a>, <a class="el" href="ride__type_8cpp_source.html#l00208">RideInstance::CanBeVisited()</a>, <a class="el" href="ride__type_8cpp_source.html#l00349">RideInstance::CloseRide()</a>, <a class="el" href="person_8cpp_source.html#l00389">Guest::ComputeExitDesire()</a>, <a class="el" href="coaster_8cpp_source.html#l00609">CoasterInstance::DecideRideState()</a>, <a class="el" href="ride__type_8cpp_source.html#l00286">RideInstance::HandleBreakdown()</a>, <a class="el" href="ride__type_8cpp_source.html#l00509">RidesManager::NewInstanceAdded()</a>, <a class="el" href="shop__gui_8cpp_source.html#l00197">ShopManagerWindow::OnClick()</a>, <a class="el" href="ride__type_8cpp_source.html#l00263">RideInstance::OnNewMonth()</a>, <a class="el" href="ride__type_8cpp_source.html#l00318">RideInstance::OpenRide()</a>, <a class="el" href="ride__type_8cpp_source.html#l00144">RideInstance::RideInstance()</a>, <a class="el" href="shop__type_8cpp_source.html#l00144">SetRide()</a>, and <a class="el" href="shop__gui_8cpp_source.html#l00134">ShopManagerWindow::SetShopToggleButtons()</a>.</p>
+<p>Referenced by <a class="el" href="ride__type_8cpp_source.html#l00380">RideInstance::BuildRide()</a>, <a class="el" href="ride__type_8cpp_source.html#l00230">RideInstance::CanBeVisited()</a>, <a class="el" href="ride__type_8cpp_source.html#l00371">RideInstance::CloseRide()</a>, <a class="el" href="person_8cpp_source.html#l00389">Guest::ComputeExitDesire()</a>, <a class="el" href="coaster_8cpp_source.html#l00608">CoasterInstance::DecideRideState()</a>, <a class="el" href="ride__type_8cpp_source.html#l00308">RideInstance::HandleBreakdown()</a>, <a class="el" href="ride__type_8cpp_source.html#l00531">RidesManager::NewInstanceAdded()</a>, <a class="el" href="shop__gui_8cpp_source.html#l00199">ShopManagerWindow::OnClick()</a>, <a class="el" href="ride__type_8cpp_source.html#l00285">RideInstance::OnNewMonth()</a>, <a class="el" href="ride__type_8cpp_source.html#l00340">RideInstance::OpenRide()</a>, <a class="el" href="ride__type_8cpp_source.html#l00146">RideInstance::RideInstance()</a>, <a class="el" href="shop__type_8cpp_source.html#l00176">SetRide()</a>, and <a class="el" href="shop__gui_8cpp_source.html#l00136">ShopManagerWindow::SetShopToggleButtons()</a>.</p>
 
 </div>
 </div>
@@ -983,9 +1053,9 @@ const <a class="el" href="classRideType.html">RideType</a> *&#160;</td><td class
 <p>Flags of the instance. </p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="ride__type_8h.html#ad459ed82ff6dba2328daa812aad56f03" title="Flags of the ride instance. ">RideInstanceFlags</a> </dd></dl>
 
-<p>Definition at line <a class="el" href="ride__type_8h_source.html#l00150">150</a> of file <a class="el" href="ride__type_8h_source.html">ride_type.h</a>.</p>
+<p>Definition at line <a class="el" href="ride__type_8h_source.html#l00165">165</a> of file <a class="el" href="ride__type_8h_source.html">ride_type.h</a>.</p>
 
-<p>Referenced by <a class="el" href="ride__type_8cpp_source.html#l00263">RideInstance::OnNewMonth()</a>, <a class="el" href="ride__type_8cpp_source.html#l00318">RideInstance::OpenRide()</a>, <a class="el" href="ride__type_8cpp_source.html#l00144">RideInstance::RideInstance()</a>, and <a class="el" href="shop__type_8cpp_source.html#l00144">SetRide()</a>.</p>
+<p>Referenced by <a class="el" href="ride__type_8cpp_source.html#l00285">RideInstance::OnNewMonth()</a>, <a class="el" href="ride__type_8cpp_source.html#l00340">RideInstance::OpenRide()</a>, <a class="el" href="ride__type_8cpp_source.html#l00146">RideInstance::RideInstance()</a>, and <a class="el" href="shop__type_8cpp_source.html#l00176">SetRide()</a>.</p>
 
 </div>
 </div>
@@ -996,7 +1066,7 @@ const <a class="el" href="classRideType.html">RideType</a> *&#160;</td><td class
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Sep 5 2014 19:06:15 for FreeRCT by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Feb 20 2015 17:42:12 for FreeRCT by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

@@ -79,7 +79,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:adced3d8feb2c0017413bdcfed300931c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathBuildManager.html#adced3d8feb2c0017413bdcfed300931c">MayActivateMode</a> () override</td></tr>
 <tr class="memdesc:adced3d8feb2c0017413bdcfed300931c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Query the mode whether it can be enabled.  <a href="#adced3d8feb2c0017413bdcfed300931c">More...</a><br /></td></tr>
 <tr class="separator:adced3d8feb2c0017413bdcfed300931c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab15ebcdf7d0590edd4a6612029e256ad"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathBuildManager.html#ab15ebcdf7d0590edd4a6612029e256ad">ActivateMode</a> (const <a class="el" href="geometry_8h.html#a8dae0129165d8f97077d8cd1ea247764">Point16</a> &amp;pos) override</td></tr>
+<tr class="memitem:ab15ebcdf7d0590edd4a6612029e256ad"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathBuildManager.html#ab15ebcdf7d0590edd4a6612029e256ad">ActivateMode</a> (const <a class="el" href="geometry_8h.html#a8dae0129165d8f97077d8cd1ea247764">Point16</a> &amp;<a class="el" href="classPathBuildManager.html#af1c3a72264dfbbb5a72bd995a92f6266">pos</a>) override</td></tr>
 <tr class="memdesc:ab15ebcdf7d0590edd4a6612029e256ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Restart the path build interaction sequence.  <a href="#ab15ebcdf7d0590edd4a6612029e256ad">More...</a><br /></td></tr>
 <tr class="separator:ab15ebcdf7d0590edd4a6612029e256ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad78e50a83135db0c1cf123735755baa4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathBuildManager.html#ad78e50a83135db0c1cf123735755baa4">LeaveMode</a> () override</td></tr>
@@ -88,7 +88,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a44675b0e08cf9c268dc0cce33c299470"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathBuildManager.html#a44675b0e08cf9c268dc0cce33c299470">EnableCursors</a> () override</td></tr>
 <tr class="memdesc:a44675b0e08cf9c268dc0cce33c299470"><td class="mdescLeft">&#160;</td><td class="mdescRight">Control display of cursors in the mouse mode.  <a href="#a44675b0e08cf9c268dc0cce33c299470">More...</a><br /></td></tr>
 <tr class="separator:a44675b0e08cf9c268dc0cce33c299470"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a782d636cc1ebe6b084c9f3c5fee90163"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathBuildManager.html#a782d636cc1ebe6b084c9f3c5fee90163">OnMouseMoveEvent</a> (<a class="el" href="classViewport.html">Viewport</a> *vp, const <a class="el" href="geometry_8h.html#a8dae0129165d8f97077d8cd1ea247764">Point16</a> &amp;old_pos, const <a class="el" href="geometry_8h.html#a8dae0129165d8f97077d8cd1ea247764">Point16</a> &amp;pos) override</td></tr>
+<tr class="memitem:a782d636cc1ebe6b084c9f3c5fee90163"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathBuildManager.html#a782d636cc1ebe6b084c9f3c5fee90163">OnMouseMoveEvent</a> (<a class="el" href="classViewport.html">Viewport</a> *vp, const <a class="el" href="geometry_8h.html#a8dae0129165d8f97077d8cd1ea247764">Point16</a> &amp;old_pos, const <a class="el" href="geometry_8h.html#a8dae0129165d8f97077d8cd1ea247764">Point16</a> &amp;<a class="el" href="classPathBuildManager.html#af1c3a72264dfbbb5a72bd995a92f6266">pos</a>) override</td></tr>
 <tr class="memdesc:a782d636cc1ebe6b084c9f3c5fee90163"><td class="mdescLeft">&#160;</td><td class="mdescRight">The mouse moved while in this mouse mode.  <a href="#a782d636cc1ebe6b084c9f3c5fee90163">More...</a><br /></td></tr>
 <tr class="separator:a782d636cc1ebe6b084c9f3c5fee90163"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1400d7e4959491334e1db90d2291600a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathBuildManager.html#a1400d7e4959491334e1db90d2291600a">OnMouseButtonEvent</a> (<a class="el" href="classViewport.html">Viewport</a> *vp, <a class="el" href="stdafx_8h.html#adde6aaee8457bee49c2a92621fe22b79">uint8</a> <a class="el" href="classPathBuildManager.html#a21f7e8365b9e13624748d9f8f6a334bd">state</a>) override</td></tr>
@@ -97,9 +97,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a88767e06fdba54323989f9816cc0cb6d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathBuildManager.html#a88767e06fdba54323989f9816cc0cb6d">SetPathGuiState</a> (bool opened)</td></tr>
 <tr class="memdesc:a88767e06fdba54323989f9816cc0cb6d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the state of the path build GUI.  <a href="#a88767e06fdba54323989f9816cc0cb6d">More...</a><br /></td></tr>
 <tr class="separator:a88767e06fdba54323989f9816cc0cb6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acba8ee08d6225b94ce7279020cd8b701"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathBuildManager.html#acba8ee08d6225b94ce7279020cd8b701">TileClicked</a> (<a class="el" href="stdafx_8h.html#a05f6b0ae8f6a6e135b0e290c25fe0e4e">uint16</a> <a class="el" href="classPathBuildManager.html#ad67154be3a0d8a253780d4a1a73640a8">xpos</a>, <a class="el" href="stdafx_8h.html#a05f6b0ae8f6a6e135b0e290c25fe0e4e">uint16</a> <a class="el" href="classPathBuildManager.html#a499bc0205c15f8ffcec9a9218cab34bb">ypos</a>, <a class="el" href="stdafx_8h.html#adde6aaee8457bee49c2a92621fe22b79">uint8</a> <a class="el" href="classPathBuildManager.html#a313918be373125f1578256b18070abe4">zpos</a>)</td></tr>
-<tr class="memdesc:acba8ee08d6225b94ce7279020cd8b701"><td class="mdescLeft">&#160;</td><td class="mdescRight">User clicked somewhere.  <a href="#acba8ee08d6225b94ce7279020cd8b701">More...</a><br /></td></tr>
-<tr class="separator:acba8ee08d6225b94ce7279020cd8b701"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0877b2ad2f3c38c0f62a743440681aa8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathBuildManager.html#a0877b2ad2f3c38c0f62a743440681aa8">SetState</a> (<a class="el" href="path__build_8h.html#ae93e3967177886e33c765ccd77463d22">PathBuildState</a> <a class="el" href="classPathBuildManager.html#a21f7e8365b9e13624748d9f8f6a334bd">state</a>)</td></tr>
+<tr class="memdesc:a0877b2ad2f3c38c0f62a743440681aa8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the state of the path build manager.  <a href="#a0877b2ad2f3c38c0f62a743440681aa8">More...</a><br /></td></tr>
+<tr class="separator:a0877b2ad2f3c38c0f62a743440681aa8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3bfcc1f3e9cb63d4d1b1c001b5eaade0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathBuildManager.html#a3bfcc1f3e9cb63d4d1b1c001b5eaade0">TileClicked</a> (const <a class="el" href="geometry_8h.html#a71fcb91f44cc6cbf519d0c45c07e931d">XYZPoint16</a> &amp;click_pos)</td></tr>
+<tr class="memdesc:a3bfcc1f3e9cb63d4d1b1c001b5eaade0"><td class="mdescLeft">&#160;</td><td class="mdescRight">User clicked somewhere.  <a href="#a3bfcc1f3e9cb63d4d1b1c001b5eaade0">More...</a><br /></td></tr>
+<tr class="separator:a3bfcc1f3e9cb63d4d1b1c001b5eaade0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac448d90e345460f8f1b13f7dc9562d38"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathBuildManager.html#ac448d90e345460f8f1b13f7dc9562d38">ComputeNewLongPath</a> (const <a class="el" href="geometry_8h.html#a054a81790686800ec9933add2c1a5df1">Point32</a> &amp;mousexy)</td></tr>
 <tr class="memdesc:ac448d90e345460f8f1b13f7dc9562d38"><td class="mdescLeft">&#160;</td><td class="mdescRight">Build a path from <a class="el" href="path__build_8h.html#a27e5e590cb1ddac2214842a359bda80b" title="Path build manager. ">_path_builder</a> xpos/ypos to the mouse cursor position.  <a href="#ac448d90e345460f8f1b13f7dc9562d38">More...</a><br /></td></tr>
 <tr class="separator:ac448d90e345460f8f1b13f7dc9562d38"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -124,6 +127,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a813e8023b124f8c3f298c0ed414f7078"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathBuildManager.html#a813e8023b124f8c3f298c0ed414f7078">SelectBuyRemove</a> (bool buy)</td></tr>
 <tr class="memdesc:a813e8023b124f8c3f298c0ed414f7078"><td class="mdescLeft">&#160;</td><td class="mdescRight">User selected 'buy' or 'remove'.  <a href="#a813e8023b124f8c3f298c0ed414f7078">More...</a><br /></td></tr>
 <tr class="separator:a813e8023b124f8c3f298c0ed414f7078"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af746faab30b74469ecf0565f89d75a03"><td class="memItemLeft" align="right" valign="top"><a class="el" href="path__build_8h.html#ae93e3967177886e33c765ccd77463d22">PathBuildState</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathBuildManager.html#af746faab30b74469ecf0565f89d75a03">GetState</a> () const </td></tr>
+<tr class="memdesc:af746faab30b74469ecf0565f89d75a03"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the current state of the path build manager.  <a href="#af746faab30b74469ecf0565f89d75a03">More...</a><br /></td></tr>
+<tr class="separator:af746faab30b74469ecf0565f89d75a03"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aebafc2edf83dda26ef30b88b90e611fa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="stdafx_8h.html#adde6aaee8457bee49c2a92621fe22b79">uint8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathBuildManager.html#aebafc2edf83dda26ef30b88b90e611fa">GetAllowedArrows</a> () const </td></tr>
 <tr class="memdesc:aebafc2edf83dda26ef30b88b90e611fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the allowed directions of building from the selected tile.  <a href="#aebafc2edf83dda26ef30b88b90e611fa">More...</a><br /></td></tr>
 <tr class="separator:aebafc2edf83dda26ef30b88b90e611fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -160,10 +166,6 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a21f7e8365b9e13624748d9f8f6a334bd"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a21f7e8365b9e13624748d9f8f6a334bd"></a>
-<a class="el" href="path__build_8h.html#ae93e3967177886e33c765ccd77463d22">PathBuildState</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathBuildManager.html#a21f7e8365b9e13624748d9f8f6a334bd">state</a></td></tr>
-<tr class="memdesc:a21f7e8365b9e13624748d9f8f6a334bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">State of the path building process. <br /></td></tr>
-<tr class="separator:a21f7e8365b9e13624748d9f8f6a334bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a18eb61e44f231153761d42fc8bc9bf50"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a18eb61e44f231153761d42fc8bc9bf50"></a>
 <a class="el" href="path_8h.html#ae093c9a96eda0463cdd2501ba83f10c3">PathType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathBuildManager.html#a18eb61e44f231153761d42fc8bc9bf50">path_type</a></td></tr>
 <tr class="memdesc:a18eb61e44f231153761d42fc8bc9bf50"><td class="mdescLeft">&#160;</td><td class="mdescRight">Selected type of path to use for building. <br /></td></tr>
@@ -179,9 +181,9 @@ const <a class="el" href="group__viewport__group.html#ga1e53aab612718f53f9838d49
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
-<tr class="memitem:a00a51f2cb970348e60736e8d523ab5f0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathBuildManager.html#a00a51f2cb970348e60736e8d523ab5f0">ComputeArrowCursorPosition</a> (<a class="el" href="stdafx_8h.html#a05f6b0ae8f6a6e135b0e290c25fe0e4e">uint16</a> *<a class="el" href="classPathBuildManager.html#ad67154be3a0d8a253780d4a1a73640a8">xpos</a>, <a class="el" href="stdafx_8h.html#a05f6b0ae8f6a6e135b0e290c25fe0e4e">uint16</a> *<a class="el" href="classPathBuildManager.html#a499bc0205c15f8ffcec9a9218cab34bb">ypos</a>, <a class="el" href="stdafx_8h.html#adde6aaee8457bee49c2a92621fe22b79">uint8</a> *<a class="el" href="classPathBuildManager.html#a313918be373125f1578256b18070abe4">zpos</a>)</td></tr>
-<tr class="memdesc:a00a51f2cb970348e60736e8d523ab5f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the voxel to display the arrow cursor.  <a href="#a00a51f2cb970348e60736e8d523ab5f0">More...</a><br /></td></tr>
-<tr class="separator:a00a51f2cb970348e60736e8d523ab5f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b2db1148d53468c7315acdd9a157cc9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="geometry_8h.html#a71fcb91f44cc6cbf519d0c45c07e931d">XYZPoint16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathBuildManager.html#a4b2db1148d53468c7315acdd9a157cc9">ComputeArrowCursorPosition</a> ()</td></tr>
+<tr class="memdesc:a4b2db1148d53468c7315acdd9a157cc9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the voxel to display the arrow cursor.  <a href="#a4b2db1148d53468c7315acdd9a157cc9">More...</a><br /></td></tr>
+<tr class="separator:a4b2db1148d53468c7315acdd9a157cc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5e70b4b0a613bbbea7e925c2bb397114"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathBuildManager.html#a5e70b4b0a613bbbea7e925c2bb397114">ComputeWorldAdditions</a> ()</td></tr>
 <tr class="memdesc:a5e70b4b0a613bbbea7e925c2bb397114"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the new contents of the voxel where the path should be added from the <a class="el" href="group__map__group.html#gae1beaf14b9effb4a54e82830c7b36616" title="The game world. ">_world</a>.  <a href="#a5e70b4b0a613bbbea7e925c2bb397114">More...</a><br /></td></tr>
 <tr class="separator:a5e70b4b0a613bbbea7e925c2bb397114"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -194,34 +196,22 @@ Private Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
+<tr class="memitem:a21f7e8365b9e13624748d9f8f6a334bd"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a21f7e8365b9e13624748d9f8f6a334bd"></a>
+<a class="el" href="path__build_8h.html#ae93e3967177886e33c765ccd77463d22">PathBuildState</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathBuildManager.html#a21f7e8365b9e13624748d9f8f6a334bd">state</a></td></tr>
+<tr class="memdesc:a21f7e8365b9e13624748d9f8f6a334bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">State of the path building process. <br /></td></tr>
+<tr class="separator:a21f7e8365b9e13624748d9f8f6a334bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afa98e8ee57b97574a242071c5e512df3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afa98e8ee57b97574a242071c5e512df3"></a>
 <a class="el" href="stdafx_8h.html#adde6aaee8457bee49c2a92621fe22b79">uint8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathBuildManager.html#afa98e8ee57b97574a242071c5e512df3">mouse_state</a></td></tr>
 <tr class="memdesc:afa98e8ee57b97574a242071c5e512df3"><td class="mdescLeft">&#160;</td><td class="mdescRight">State of the mouse buttons. <br /></td></tr>
 <tr class="separator:afa98e8ee57b97574a242071c5e512df3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad67154be3a0d8a253780d4a1a73640a8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad67154be3a0d8a253780d4a1a73640a8"></a>
-<a class="el" href="stdafx_8h.html#a05f6b0ae8f6a6e135b0e290c25fe0e4e">uint16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathBuildManager.html#ad67154be3a0d8a253780d4a1a73640a8">xpos</a></td></tr>
-<tr class="memdesc:ad67154be3a0d8a253780d4a1a73640a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">X coordinate of the selected voxel. <br /></td></tr>
-<tr class="separator:ad67154be3a0d8a253780d4a1a73640a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2b9e1e703c6e677c585f7b1783e685c0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2b9e1e703c6e677c585f7b1783e685c0"></a>
-<a class="el" href="stdafx_8h.html#a05f6b0ae8f6a6e135b0e290c25fe0e4e">uint16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathBuildManager.html#a2b9e1e703c6e677c585f7b1783e685c0">xlong</a></td></tr>
-<tr class="memdesc:a2b9e1e703c6e677c585f7b1783e685c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">X coordinate of the long path destination voxel. <br /></td></tr>
-<tr class="separator:a2b9e1e703c6e677c585f7b1783e685c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a499bc0205c15f8ffcec9a9218cab34bb"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a499bc0205c15f8ffcec9a9218cab34bb"></a>
-<a class="el" href="stdafx_8h.html#a05f6b0ae8f6a6e135b0e290c25fe0e4e">uint16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathBuildManager.html#a499bc0205c15f8ffcec9a9218cab34bb">ypos</a></td></tr>
-<tr class="memdesc:a499bc0205c15f8ffcec9a9218cab34bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Y coordinate of the selected voxel. <br /></td></tr>
-<tr class="separator:a499bc0205c15f8ffcec9a9218cab34bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6e2f9b00f21bf3e5338fac6ad310a6a5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6e2f9b00f21bf3e5338fac6ad310a6a5"></a>
-<a class="el" href="stdafx_8h.html#a05f6b0ae8f6a6e135b0e290c25fe0e4e">uint16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathBuildManager.html#a6e2f9b00f21bf3e5338fac6ad310a6a5">ylong</a></td></tr>
-<tr class="memdesc:a6e2f9b00f21bf3e5338fac6ad310a6a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Y coordinate of the long path destination voxel. <br /></td></tr>
-<tr class="separator:a6e2f9b00f21bf3e5338fac6ad310a6a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a313918be373125f1578256b18070abe4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a313918be373125f1578256b18070abe4"></a>
-<a class="el" href="stdafx_8h.html#adde6aaee8457bee49c2a92621fe22b79">uint8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathBuildManager.html#a313918be373125f1578256b18070abe4">zpos</a></td></tr>
-<tr class="memdesc:a313918be373125f1578256b18070abe4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Z coordinate of the selected voxel. <br /></td></tr>
-<tr class="separator:a313918be373125f1578256b18070abe4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abea15235f9ad53553faf1efda14da77e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abea15235f9ad53553faf1efda14da77e"></a>
-<a class="el" href="stdafx_8h.html#adde6aaee8457bee49c2a92621fe22b79">uint8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathBuildManager.html#abea15235f9ad53553faf1efda14da77e">zlong</a></td></tr>
-<tr class="memdesc:abea15235f9ad53553faf1efda14da77e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Z coordinate of the long path destination voxel. <br /></td></tr>
-<tr class="separator:abea15235f9ad53553faf1efda14da77e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1c3a72264dfbbb5a72bd995a92f6266"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af1c3a72264dfbbb5a72bd995a92f6266"></a>
+<a class="el" href="geometry_8h.html#a71fcb91f44cc6cbf519d0c45c07e931d">XYZPoint16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathBuildManager.html#af1c3a72264dfbbb5a72bd995a92f6266">pos</a></td></tr>
+<tr class="memdesc:af1c3a72264dfbbb5a72bd995a92f6266"><td class="mdescLeft">&#160;</td><td class="mdescRight">Coordinate of the selected voxel. <br /></td></tr>
+<tr class="separator:af1c3a72264dfbbb5a72bd995a92f6266"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c61d575cde963e08003d5fd3ccb7b0d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6c61d575cde963e08003d5fd3ccb7b0d"></a>
+<a class="el" href="geometry_8h.html#a71fcb91f44cc6cbf519d0c45c07e931d">XYZPoint16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathBuildManager.html#a6c61d575cde963e08003d5fd3ccb7b0d">long_pos</a></td></tr>
+<tr class="memdesc:a6c61d575cde963e08003d5fd3ccb7b0d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Coordinate of the long path destination voxel. <br /></td></tr>
+<tr class="separator:a6c61d575cde963e08003d5fd3ccb7b0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abc6d1a79dd78b8c01f50f94a0623eb22"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abc6d1a79dd78b8c01f50f94a0623eb22"></a>
 <a class="el" href="stdafx_8h.html#adde6aaee8457bee49c2a92621fe22b79">uint8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathBuildManager.html#abc6d1a79dd78b8c01f50f94a0623eb22">allowed_arrows</a></td></tr>
 <tr class="memdesc:abc6d1a79dd78b8c01f50f94a0623eb22"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allowed build directions from the voxel (bitset of <a class="el" href="group__map__group.html#ga29bb8f9503c34074bad3c762c92ee68b" title="Edges of a tile, starts at NE direction, and rotates clockwise. ">TileEdge</a>, lower 4 bits are at bottom, upper 4 bits at top). <br /></td></tr>
@@ -242,7 +232,7 @@ Private Attributes</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Helper for storing data and state about the path building process. </p>
 
-<p>Definition at line <a class="el" href="path__build_8h_source.html#l00033">33</a> of file <a class="el" href="path__build_8h_source.html">path_build.h</a>.</p>
+<p>Definition at line <a class="el" href="path__build_8h_source.html#l00034">34</a> of file <a class="el" href="path__build_8h_source.html">path_build.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="abc3796d66911f075f4fc7cc5d2e946d8"></a>
 <div class="memitem">
@@ -259,9 +249,9 @@ Private Attributes</h2></td></tr>
 
 <p>Default constructor. </p>
 
-<p>Definition at line <a class="el" href="path__build_8cpp_source.html#l00357">357</a> of file <a class="el" href="path__build_8cpp_source.html">path_build.cpp</a>.</p>
+<p>Definition at line <a class="el" href="path__build_8cpp_source.html#l00346">346</a> of file <a class="el" href="path__build_8cpp_source.html">path_build.cpp</a>.</p>
 
-<p>References <a class="el" href="viewport_8cpp_source.html#l00108">DisableWorldAdditions()</a>, <a class="el" href="tile_8h_source.html#l00128">INVALID_EDGE</a>, <a class="el" href="path_8h_source.html#l00111">PAT_INVALID</a>, <a class="el" href="path__build_8h_source.html#l00069">path_type</a>, <a class="el" href="path__build_8h_source.html#l00023">PBS_IDLE</a>, <a class="el" href="path__build_8h_source.html#l00081">selected_arrow</a>, <a class="el" href="path__build_8h_source.html#l00083">selected_slope</a>, <a class="el" href="path__build_8h_source.html#l00068">state</a>, and <a class="el" href="tile_8h_source.html#l00233">TSL_INVALID</a>.</p>
+<p>References <a class="el" href="viewport_8cpp_source.html#l00108">DisableWorldAdditions()</a>, <a class="el" href="tile_8h_source.html#l00128">INVALID_EDGE</a>, <a class="el" href="path_8h_source.html#l00111">PAT_INVALID</a>, <a class="el" href="path__build_8h_source.html#l00072">path_type</a>, <a class="el" href="path__build_8h_source.html#l00023">PBS_IDLE</a>, <a class="el" href="path__build_8h_source.html#l00081">selected_arrow</a>, <a class="el" href="path__build_8h_source.html#l00083">selected_slope</a>, <a class="el" href="path__build_8h_source.html#l00075">state</a>, and <a class="el" href="tile_8h_source.html#l00234">TSL_INVALID</a>.</p>
 
 </div>
 </div>
@@ -292,7 +282,7 @@ Private Attributes</h2></td></tr>
 
 <p>Implements <a class="el" href="classMouseMode.html#a0278e5a0f9ec226902d0e0bd27ffb65c">MouseMode</a>.</p>
 
-<p>Definition at line <a class="el" href="path__build_8cpp_source.html#l00366">366</a> of file <a class="el" href="path__build_8cpp_source.html">path_build.cpp</a>.</p>
+<p>Definition at line <a class="el" href="path__build_8cpp_source.html#l00355">355</a> of file <a class="el" href="path__build_8cpp_source.html">path_build.cpp</a>.</p>
 
 </div>
 </div>
@@ -329,9 +319,9 @@ Private Attributes</h2></td></tr>
 
 <p>Implements <a class="el" href="classMouseMode.html#ac28b070af073b693313ab39557d64d7a">MouseMode</a>.</p>
 
-<p>Definition at line <a class="el" href="path__build_8cpp_source.html#l00376">376</a> of file <a class="el" href="path__build_8cpp_source.html">path_build.cpp</a>.</p>
+<p>Definition at line <a class="el" href="path__build_8cpp_source.html#l00365">365</a> of file <a class="el" href="path__build_8cpp_source.html">path_build.cpp</a>.</p>
 
-<p>References <a class="el" href="tile_8h_source.html#l00128">INVALID_EDGE</a>, <a class="el" href="path__build_8h_source.html#l00072">mouse_state</a>, <a class="el" href="path__build_8h_source.html#l00023">PBS_IDLE</a>, <a class="el" href="path__build_8h_source.html#l00024">PBS_WAIT_VOXEL</a>, <a class="el" href="path__build_8h_source.html#l00081">selected_arrow</a>, <a class="el" href="path__build_8h_source.html#l00083">selected_slope</a>, <a class="el" href="path__build_8h_source.html#l00068">state</a>, <a class="el" href="tile_8h_source.html#l00233">TSL_INVALID</a>, and <a class="el" href="path__build_8cpp_source.html#l00637">UpdateState()</a>.</p>
+<p>References <a class="el" href="tile_8h_source.html#l00128">INVALID_EDGE</a>, <a class="el" href="path__build_8h_source.html#l00076">mouse_state</a>, <a class="el" href="path__build_8h_source.html#l00023">PBS_IDLE</a>, <a class="el" href="path__build_8h_source.html#l00024">PBS_SINGLE</a>, <a class="el" href="path__build_8h_source.html#l00081">selected_arrow</a>, <a class="el" href="path__build_8h_source.html#l00083">selected_slope</a>, <a class="el" href="path__build_8h_source.html#l00075">state</a>, <a class="el" href="tile_8h_source.html#l00234">TSL_INVALID</a>, and <a class="el" href="path__build_8cpp_source.html#l00663">UpdateState()</a>.</p>
 
 </div>
 </div>
@@ -360,7 +350,7 @@ Private Attributes</h2></td></tr>
 
 <p>Implements <a class="el" href="classMouseMode.html#a36e8aab8b458d9d1973388e5813a1af4">MouseMode</a>.</p>
 
-<p>Definition at line <a class="el" href="path__build_8cpp_source.html#l00387">387</a> of file <a class="el" href="path__build_8cpp_source.html">path_build.cpp</a>.</p>
+<p>Definition at line <a class="el" href="path__build_8cpp_source.html#l00376">376</a> of file <a class="el" href="path__build_8cpp_source.html">path_build.cpp</a>.</p>
 
 <p>References <a class="el" href="viewport_8cpp_source.html#l00108">DisableWorldAdditions()</a>.</p>
 
@@ -392,7 +382,7 @@ Private Attributes</h2></td></tr>
 
 <p>Implements <a class="el" href="classMouseMode.html#ad6a36d0faeab665730130ed0d7795b27">MouseMode</a>.</p>
 
-<p>Definition at line <a class="el" href="path__build_8cpp_source.html#l00392">392</a> of file <a class="el" href="path__build_8cpp_source.html">path_build.cpp</a>.</p>
+<p>Definition at line <a class="el" href="path__build_8cpp_source.html#l00381">381</a> of file <a class="el" href="path__build_8cpp_source.html">path_build.cpp</a>.</p>
 
 </div>
 </div>
@@ -446,9 +436,9 @@ Private Attributes</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="classMouseMode.html#aca1a120320a2266729af76f9aff0d58c">MouseMode</a>.</p>
 
-<p>Definition at line <a class="el" href="path__build_8cpp_source.html#l00397">397</a> of file <a class="el" href="path__build_8cpp_source.html">path_build.cpp</a>.</p>
+<p>Definition at line <a class="el" href="path__build_8cpp_source.html#l00386">386</a> of file <a class="el" href="path__build_8cpp_source.html">path_build.cpp</a>.</p>
 
-<p>References <a class="el" href="viewport_8cpp_source.html#l01491">Viewport::ComputeCursorPosition()</a>, <a class="el" href="viewport_8cpp_source.html#l01550">Viewport::ComputeHorizontalTranslation()</a>, <a class="el" href="path__build_8cpp_source.html#l00791">ComputeNewLongPath()</a>, <a class="el" href="viewport_8h_source.html#l00064">CS_GROUND</a>, <a class="el" href="viewport_8h_source.html#l00063">CS_NONE</a>, <a class="el" href="viewport_8h_source.html#l00066">CS_PATH</a>, <a class="el" href="viewport_8h_source.html#l00115">FinderData::cursor</a>, <a class="el" href="viewport_8h_source.html#l00102">FW_TILE</a>, <a class="el" href="geometry_8h_source.html#l00249">Rectangle&lt; PT, SZ &gt;::height</a>, <a class="el" href="window_8h_source.html#l00083">MB_RIGHT</a>, <a class="el" href="path__build_8h_source.html#l00072">mouse_state</a>, <a class="el" href="viewport_8cpp_source.html#l01585">Viewport::MoveViewport()</a>, <a class="el" href="path__build_8h_source.html#l00028">PBS_LONG_BUILD</a>, <a class="el" href="path__build_8h_source.html#l00024">PBS_WAIT_VOXEL</a>, <a class="el" href="window_8h_source.html#l00123">Window::rect</a>, <a class="el" href="viewport_8cpp_source.html#l00539">Cursor::SetCursor()</a>, <a class="el" href="path__build_8h_source.html#l00068">state</a>, <a class="el" href="viewport_8h_source.html#l00256">Viewport::tile_cursor</a>, <a class="el" href="geometry_8h_source.html#l00248">Rectangle&lt; PT, SZ &gt;::width</a>, <a class="el" href="geometry_8h_source.html#l00037">Point&lt; CT &gt;::x</a>, <a class="el" href="viewport_8h_source.html#l00116">FinderData::xvoxel</a>, <a class="el" href="geometry_8h_source.html#l00038">Point&lt; CT &gt;::y</a>, <a class="el" href="viewport_8h_source.html#l00117">FinderData::yvoxel</a>, and <a class="el" href="viewport_8h_source.html#l00118">FinderData::zvoxel</a>.</p>
+<p>References <a class="el" href="viewport_8cpp_source.html#l01475">Viewport::ComputeCursorPosition()</a>, <a class="el" href="viewport_8cpp_source.html#l01534">Viewport::ComputeHorizontalTranslation()</a>, <a class="el" href="path__build_8cpp_source.html#l00811">ComputeNewLongPath()</a>, <a class="el" href="viewport_8h_source.html#l00064">CS_GROUND</a>, <a class="el" href="viewport_8h_source.html#l00063">CS_NONE</a>, <a class="el" href="viewport_8h_source.html#l00066">CS_PATH</a>, <a class="el" href="viewport_8h_source.html#l00115">FinderData::cursor</a>, <a class="el" href="viewport_8h_source.html#l00102">FW_TILE</a>, <a class="el" href="geometry_8h_source.html#l00351">Rectangle&lt; PT, SZ &gt;::height</a>, <a class="el" href="window_8h_source.html#l00081">MB_LEFT</a>, <a class="el" href="window_8h_source.html#l00083">MB_RIGHT</a>, <a class="el" href="path__build_8h_source.html#l00076">mouse_state</a>, <a class="el" href="viewport_8cpp_source.html#l01569">Viewport::MoveViewport()</a>, <a class="el" href="path__build_8h_source.html#l00029">PBS_LONG_BUILD</a>, <a class="el" href="path__build_8h_source.html#l00024">PBS_SINGLE</a>, <a class="el" href="path__build_8h_source.html#l00025">PBS_WAIT_VOXEL</a>, <a class="el" href="window_8h_source.html#l00139">Window::rect</a>, <a class="el" href="viewport_8cpp_source.html#l00528">Cursor::SetCursor()</a>, <a class="el" href="path__build_8h_source.html#l00075">state</a>, <a class="el" href="viewport_8h_source.html#l00249">Viewport::tile_cursor</a>, <a class="el" href="path__build_8cpp_source.html#l00456">TileClicked()</a>, <a class="el" href="viewport_8h_source.html#l00116">FinderData::voxel_pos</a>, <a class="el" href="geometry_8h_source.html#l00350">Rectangle&lt; PT, SZ &gt;::width</a>, <a class="el" href="geometry_8h_source.html#l00036">Point&lt; CT &gt;::x</a>, and <a class="el" href="geometry_8h_source.html#l00037">Point&lt; CT &gt;::y</a>.</p>
 
 </div>
 </div>
@@ -496,9 +486,9 @@ Private Attributes</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="classMouseMode.html#a63e36618cc08ec47d8d1b73cdb079704">MouseMode</a>.</p>
 
-<p>Definition at line <a class="el" href="path__build_8cpp_source.html#l00415">415</a> of file <a class="el" href="path__build_8cpp_source.html">path_build.cpp</a>.</p>
+<p>Definition at line <a class="el" href="path__build_8cpp_source.html#l00411">411</a> of file <a class="el" href="path__build_8cpp_source.html">path_build.cpp</a>.</p>
 
-<p>References <a class="el" href="viewport_8cpp_source.html#l01491">Viewport::ComputeCursorPosition()</a>, <a class="el" href="path__build_8cpp_source.html#l00881">ConfirmLongPath()</a>, <a class="el" href="viewport_8h_source.html#l00064">CS_GROUND</a>, <a class="el" href="viewport_8h_source.html#l00063">CS_NONE</a>, <a class="el" href="viewport_8h_source.html#l00066">CS_PATH</a>, <a class="el" href="viewport_8h_source.html#l00102">FW_TILE</a>, <a class="el" href="window_8h_source.html#l00085">MB_CURRENT</a>, <a class="el" href="window_8h_source.html#l00081">MB_LEFT</a>, <a class="el" href="path__build_8h_source.html#l00072">mouse_state</a>, <a class="el" href="path__build_8h_source.html#l00028">PBS_LONG_BUILD</a>, <a class="el" href="path__build_8h_source.html#l00029">PBS_LONG_BUY</a>, <a class="el" href="path__build_8cpp_source.html#l00449">TileClicked()</a>, <a class="el" href="viewport_8h_source.html#l00116">FinderData::xvoxel</a>, <a class="el" href="viewport_8h_source.html#l00117">FinderData::yvoxel</a>, and <a class="el" href="viewport_8h_source.html#l00118">FinderData::zvoxel</a>.</p>
+<p>References <a class="el" href="viewport_8cpp_source.html#l00095">_additions</a>, <a class="el" href="map_8cpp_source.html#l00660">WorldAdditions::Commit()</a>, <a class="el" href="viewport_8cpp_source.html#l01475">Viewport::ComputeCursorPosition()</a>, <a class="el" href="path__build_8cpp_source.html#l00897">ConfirmLongPath()</a>, <a class="el" href="viewport_8h_source.html#l00064">CS_GROUND</a>, <a class="el" href="viewport_8h_source.html#l00063">CS_NONE</a>, <a class="el" href="viewport_8h_source.html#l00066">CS_PATH</a>, <a class="el" href="viewport_8h_source.html#l00102">FW_TILE</a>, <a class="el" href="window_8h_source.html#l00085">MB_CURRENT</a>, <a class="el" href="window_8h_source.html#l00081">MB_LEFT</a>, <a class="el" href="window_8h_source.html#l00083">MB_RIGHT</a>, <a class="el" href="path__build_8h_source.html#l00076">mouse_state</a>, <a class="el" href="path__build_8h_source.html#l00029">PBS_LONG_BUILD</a>, <a class="el" href="path__build_8h_source.html#l00030">PBS_LONG_BUY</a>, <a class="el" href="path__build_8h_source.html#l00024">PBS_SINGLE</a>, <a class="el" href="path__build_8cpp_source.html#l00235">RemovePath()</a>, <a class="el" href="path__build_8cpp_source.html#l00456">TileClicked()</a>, and <a class="el" href="viewport_8h_source.html#l00116">FinderData::voxel_pos</a>.</p>
 
 </div>
 </div>
@@ -524,38 +514,52 @@ Private Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="path__build_8cpp_source.html#l00435">435</a> of file <a class="el" href="path__build_8cpp_source.html">path_build.cpp</a>.</p>
+<p>Definition at line <a class="el" href="path__build_8cpp_source.html#l00434">434</a> of file <a class="el" href="path__build_8cpp_source.html">path_build.cpp</a>.</p>
 
-<p>References <a class="el" href="viewport_8cpp_source.html#l00096">_mouse_modes</a>, <a class="el" href="viewport_8cpp_source.html#l01789">MouseModes::GetMouseMode()</a>, <a class="el" href="viewport_8cpp_source.html#l01704">GetViewport()</a>, <a class="el" href="viewport_8h_source.html#l00029">MM_PATH_BUILDING</a>, <a class="el" href="path__build_8h_source.html#l00023">PBS_IDLE</a>, <a class="el" href="path__build_8h_source.html#l00024">PBS_WAIT_VOXEL</a>, <a class="el" href="viewport_8cpp_source.html#l01727">MouseModes::SetViewportMousemode()</a>, <a class="el" href="path__build_8h_source.html#l00068">state</a>, and <a class="el" href="path__build_8cpp_source.html#l00637">UpdateState()</a>.</p>
+<p>References <a class="el" href="viewport_8cpp_source.html#l00096">_mouse_modes</a>, <a class="el" href="viewport_8cpp_source.html#l01771">MouseModes::GetMouseMode()</a>, <a class="el" href="viewport_8cpp_source.html#l01688">GetViewport()</a>, <a class="el" href="viewport_8h_source.html#l00029">MM_PATH_BUILDING</a>, <a class="el" href="path__build_8h_source.html#l00023">PBS_IDLE</a>, <a class="el" href="path__build_8h_source.html#l00024">PBS_SINGLE</a>, <a class="el" href="path__build_8cpp_source.html#l00446">SetState()</a>, <a class="el" href="viewport_8cpp_source.html#l01709">MouseModes::SetViewportMousemode()</a>, and <a class="el" href="path__build_8h_source.html#l00075">state</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="acba8ee08d6225b94ce7279020cd8b701"></a>
+<a class="anchor" id="a0877b2ad2f3c38c0f62a743440681aa8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PathBuildManager::SetState </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="path__build_8h.html#ae93e3967177886e33c765ccd77463d22">PathBuildState</a>&#160;</td>
+          <td class="paramname"><em>state</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set the state of the path build manager. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">state</td><td>PathBuildState of the manager. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="path__build_8cpp_source.html#l00446">446</a> of file <a class="el" href="path__build_8cpp_source.html">path_build.cpp</a>.</p>
+
+<p>References <a class="el" href="path__build_8h_source.html#l00075">state</a>, and <a class="el" href="path__build_8cpp_source.html#l00663">UpdateState()</a>.</p>
+
+<p>Referenced by <a class="el" href="path__build_8cpp_source.html#l00897">ConfirmLongPath()</a>, <a class="el" href="path__build_8cpp_source.html#l00531">MoveCursor()</a>, <a class="el" href="path__gui_8cpp_source.html#l00256">PathBuildGui::OnClick()</a>, <a class="el" href="path__build_8cpp_source.html#l00505">SelectArrow()</a>, <a class="el" href="path__build_8cpp_source.html#l00907">SelectBuyRemove()</a>, <a class="el" href="path__build_8cpp_source.html#l00777">SelectLong()</a>, <a class="el" href="path__build_8cpp_source.html#l00767">SelectSlope()</a>, <a class="el" href="path__build_8cpp_source.html#l00434">SetPathGuiState()</a>, and <a class="el" href="path__build_8cpp_source.html#l00456">TileClicked()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a3bfcc1f3e9cb63d4d1b1c001b5eaade0"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">void PathBuildManager::TileClicked </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="stdafx_8h.html#a05f6b0ae8f6a6e135b0e290c25fe0e4e">uint16</a>&#160;</td>
-          <td class="paramname"><em>xpos</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramtype">const <a class="el" href="geometry_8h.html#a71fcb91f44cc6cbf519d0c45c07e931d">XYZPoint16</a> &amp;&#160;</td>
+          <td class="paramname"><em>click_pos</em></td><td>)</td>
           <td></td>
-          <td class="paramtype"><a class="el" href="stdafx_8h.html#a05f6b0ae8f6a6e135b0e290c25fe0e4e">uint16</a>&#160;</td>
-          <td class="paramname"><em>ypos</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="stdafx_8h.html#adde6aaee8457bee49c2a92621fe22b79">uint8</a>&#160;</td>
-          <td class="paramname"><em>zpos</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -563,18 +567,16 @@ Private Attributes</h2></td></tr>
 <p>User clicked somewhere. </p>
 <p>Check whether it is a good tile or path, and if so, move the building process forward. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">xpos</td><td>X coordinate of the voxel. </td></tr>
-    <tr><td class="paramname">ypos</td><td>Y coordinate of the voxel. </td></tr>
-    <tr><td class="paramname">zpos</td><td>Z coordinate of the voxel. </td></tr>
+    <tr><td class="paramname">click_pos</td><td>Coordinate of the voxel. </td></tr>
   </table>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="path__build_8cpp_source.html#l00449">449</a> of file <a class="el" href="path__build_8cpp_source.html">path_build.cpp</a>.</p>
+<p>Definition at line <a class="el" href="path__build_8cpp_source.html#l00456">456</a> of file <a class="el" href="path__build_8cpp_source.html">path_build.cpp</a>.</p>
 
-<p>References <a class="el" href="path__build_8h_source.html#l00080">allowed_arrows</a>, <a class="el" href="path__build_8cpp_source.html#l00315">GetPathAttachPoints()</a>, <a class="el" href="path__build_8h_source.html#l00023">PBS_IDLE</a>, <a class="el" href="path__build_8h_source.html#l00025">PBS_WAIT_ARROW</a>, <a class="el" href="path__build_8h_source.html#l00027">PBS_WAIT_BUY</a>, <a class="el" href="path__build_8h_source.html#l00068">state</a>, <a class="el" href="path__build_8cpp_source.html#l00637">UpdateState()</a>, <a class="el" href="path__build_8h_source.html#l00074">xpos</a>, <a class="el" href="path__build_8h_source.html#l00076">ypos</a>, and <a class="el" href="path__build_8h_source.html#l00078">zpos</a>.</p>
+<p>References <a class="el" href="viewport_8cpp_source.html#l00095">_additions</a>, <a class="el" href="map_8cpp_source.html#l00027">_world</a>, <a class="el" href="path__build_8h_source.html#l00080">allowed_arrows</a>, <a class="el" href="path__build_8cpp_source.html#l00156">BuildFlatPath()</a>, <a class="el" href="path__build_8cpp_source.html#l00115">BuildUpwardPath()</a>, <a class="el" href="map_8cpp_source.html#l00660">WorldAdditions::Commit()</a>, <a class="el" href="tile_8h_source.html#l00119">EDGE_NE</a>, <a class="el" href="tile_8h_source.html#l00122">EDGE_NW</a>, <a class="el" href="tile_8h_source.html#l00120">EDGE_SE</a>, <a class="el" href="tile_8h_source.html#l00121">EDGE_SW</a>, <a class="el" href="tile_8h_source.html#l00158">ExpandTileSlope()</a>, <a class="el" href="map_8h_source.html#l00525">VoxelWorld::GetCreateVoxel()</a>, <a class="el" href="map_8h_source.html#l00215">Voxel::GetGroundSlope()</a>, <a class="el" href="path__build_8cpp_source.html#l00301">GetPathAttachPoints()</a>, <a class="el" href="tile_8h_source.html#l00128">INVALID_EDGE</a>, <a class="el" href="path__build_8h_source.html#l00072">path_type</a>, <a class="el" href="path__build_8h_source.html#l00023">PBS_IDLE</a>, <a class="el" href="path__build_8h_source.html#l00024">PBS_SINGLE</a>, <a class="el" href="path__build_8h_source.html#l00026">PBS_WAIT_ARROW</a>, <a class="el" href="path__build_8h_source.html#l00028">PBS_WAIT_BUY</a>, <a class="el" href="path__build_8h_source.html#l00078">pos</a>, <a class="el" href="path__build_8cpp_source.html#l00446">SetState()</a>, <a class="el" href="tile_8h_source.html#l00055">SL_FLAT</a>, <a class="el" href="path__build_8h_source.html#l00075">state</a>, <a class="el" href="tile_8h_source.html#l00072">TSB_NORTHEAST</a>, <a class="el" href="tile_8h_source.html#l00073">TSB_NORTHWEST</a>, <a class="el" href="tile_8h_source.html#l00074">TSB_SOUTHEAST</a>, and <a class="el" href="tile_8h_source.html#l00075">TSB_SOUTHWEST</a>.</p>
 
-<p>Referenced by <a class="el" href="path__build_8cpp_source.html#l00415">OnMouseButtonEvent()</a>.</p>
+<p>Referenced by <a class="el" href="path__build_8cpp_source.html#l00411">OnMouseButtonEvent()</a>, and <a class="el" href="path__build_8cpp_source.html#l00386">OnMouseMoveEvent()</a>.</p>
 
 </div>
 </div>
@@ -600,11 +602,11 @@ Private Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="path__build_8cpp_source.html#l00791">791</a> of file <a class="el" href="path__build_8cpp_source.html">path_build.cpp</a>.</p>
+<p>Definition at line <a class="el" href="path__build_8cpp_source.html#l00811">811</a> of file <a class="el" href="path__build_8cpp_source.html">path_build.cpp</a>.</p>
 
-<p>References <a class="el" href="viewport_8cpp_source.html#l00095">_additions</a>, <a class="el" href="tile__func_8cpp_source.html#l00032">_tile_dxy</a>, <a class="el" href="map_8cpp_source.html#l00027">_world</a>, <a class="el" href="path__build_8cpp_source.html#l00203">BuildDownwardPath()</a>, <a class="el" href="path__build_8cpp_source.html#l00165">BuildFlatPath()</a>, <a class="el" href="path__build_8cpp_source.html#l00122">BuildUpwardPath()</a>, <a class="el" href="path__build_8cpp_source.html#l00278">CanBuildPathFromEdge()</a>, <a class="el" href="map_8cpp_source.html#l00651">WorldAdditions::Clear()</a>, <a class="el" href="tile_8h_source.html#l00118">EDGE_BEGIN</a>, <a class="el" href="tile_8h_source.html#l00124">EDGE_COUNT</a>, <a class="el" href="viewport_8cpp_source.html#l00391">Viewport::EnableWorldAdditions()</a>, <a class="el" href="viewport_8cpp_source.html#l00418">Viewport::EnsureAdditionsAreVisible()</a>, <a class="el" href="viewport_8cpp_source.html#l01704">GetViewport()</a>, <a class="el" href="map_8h_source.html#l00542">VoxelWorld::GetXSize()</a>, <a class="el" href="map_8h_source.html#l00551">VoxelWorld::GetYSize()</a>, <a class="el" href="path__build_8cpp_source.html#l00780">GoodDirection()</a>, <a class="el" href="stdafx_8h_source.html#l00182">NOT_REACHED</a>, <a class="el" href="viewport_8h_source.html#l00255">Viewport::orientation</a>, <a class="el" href="path__build_8h_source.html#l00069">path_type</a>, <a class="el" href="tile_8h_source.html#l00220">TSL_DOWN</a>, <a class="el" href="tile_8h_source.html#l00221">TSL_FLAT</a>, <a class="el" href="tile_8h_source.html#l00233">TSL_INVALID</a>, <a class="el" href="tile_8h_source.html#l00222">TSL_UP</a>, <a class="el" href="orientation_8h_source.html#l00023">VOR_EAST</a>, <a class="el" href="orientation_8h_source.html#l00022">VOR_NORTH</a>, <a class="el" href="orientation_8h_source.html#l00024">VOR_SOUTH</a>, <a class="el" href="orientation_8h_source.html#l00025">VOR_WEST</a>, <a class="el" href="map_8h_source.html#l00027">WORLD_Z_SIZE</a>, <a class="el" href="geometry_8h_source.html#l00037">Point&lt; CT &gt;::x</a>, <a class="el" href="path__build_8h_source.html#l00075">xlong</a>, <a class="el" href="path__build_8h_source.html#l00074">xpos</a>, <a class="el" href="geometry_8h_source.html#l00038">Point&lt; CT &gt;::y</a>, <a class="el" href="path__build_8h_source.html#l00077">ylong</a>, <a class="el" href="path__build_8h_source.html#l00076">ypos</a>, <a class="el" href="path__build_8h_source.html#l00079">zlong</a>, <a class="el" href="path__build_8h_source.html#l00078">zpos</a>, and <a class="el" href="viewport_8h_source.html#l00251">Viewport::zview</a>.</p>
+<p>References <a class="el" href="viewport_8cpp_source.html#l00095">_additions</a>, <a class="el" href="tile__func_8cpp_source.html#l00032">_tile_dxy</a>, <a class="el" href="map_8cpp_source.html#l00027">_world</a>, <a class="el" href="path__build_8cpp_source.html#l00192">BuildDownwardPath()</a>, <a class="el" href="path__build_8cpp_source.html#l00156">BuildFlatPath()</a>, <a class="el" href="path__build_8cpp_source.html#l00115">BuildUpwardPath()</a>, <a class="el" href="path__build_8cpp_source.html#l00266">CanBuildPathFromEdge()</a>, <a class="el" href="map_8cpp_source.html#l00651">WorldAdditions::Clear()</a>, <a class="el" href="tile_8h_source.html#l00118">EDGE_BEGIN</a>, <a class="el" href="tile_8h_source.html#l00124">EDGE_COUNT</a>, <a class="el" href="viewport_8cpp_source.html#l00386">Viewport::EnableWorldAdditions()</a>, <a class="el" href="viewport_8cpp_source.html#l00413">Viewport::EnsureAdditionsAreVisible()</a>, <a class="el" href="viewport_8cpp_source.html#l01688">GetViewport()</a>, <a class="el" href="map_8h_source.html#l00534">VoxelWorld::GetXSize()</a>, <a class="el" href="map_8h_source.html#l00543">VoxelWorld::GetYSize()</a>, <a class="el" href="path__build_8cpp_source.html#l00800">GoodDirection()</a>, <a class="el" href="path__build_8h_source.html#l00079">long_pos</a>, <a class="el" href="stdafx_8h_source.html#l00182">NOT_REACHED</a>, <a class="el" href="viewport_8h_source.html#l00248">Viewport::orientation</a>, <a class="el" href="path__build_8h_source.html#l00072">path_type</a>, <a class="el" href="path__build_8h_source.html#l00078">pos</a>, <a class="el" href="tile_8h_source.html#l00221">TSL_DOWN</a>, <a class="el" href="tile_8h_source.html#l00222">TSL_FLAT</a>, <a class="el" href="tile_8h_source.html#l00234">TSL_INVALID</a>, <a class="el" href="tile_8h_source.html#l00223">TSL_UP</a>, <a class="el" href="viewport_8h_source.html#l00245">Viewport::view_pos</a>, <a class="el" href="orientation_8h_source.html#l00023">VOR_EAST</a>, <a class="el" href="orientation_8h_source.html#l00022">VOR_NORTH</a>, <a class="el" href="orientation_8h_source.html#l00024">VOR_SOUTH</a>, <a class="el" href="orientation_8h_source.html#l00025">VOR_WEST</a>, <a class="el" href="map_8h_source.html#l00027">WORLD_Z_SIZE</a>, <a class="el" href="geometry_8h_source.html#l00036">Point&lt; CT &gt;::x</a>, <a class="el" href="geometry_8h_source.html#l00100">XYZPoint&lt; CT &gt;::x</a>, <a class="el" href="geometry_8h_source.html#l00037">Point&lt; CT &gt;::y</a>, <a class="el" href="geometry_8h_source.html#l00101">XYZPoint&lt; CT &gt;::y</a>, and <a class="el" href="geometry_8h_source.html#l00102">XYZPoint&lt; CT &gt;::z</a>.</p>
 
-<p>Referenced by <a class="el" href="path__build_8cpp_source.html#l00397">OnMouseMoveEvent()</a>.</p>
+<p>Referenced by <a class="el" href="path__build_8cpp_source.html#l00386">OnMouseMoveEvent()</a>.</p>
 
 </div>
 </div>
@@ -623,11 +625,11 @@ Private Attributes</h2></td></tr>
 
 <p>Confirm that the current long path is the selection to build. </p>
 
-<p>Definition at line <a class="el" href="path__build_8cpp_source.html#l00881">881</a> of file <a class="el" href="path__build_8cpp_source.html">path_build.cpp</a>.</p>
+<p>Definition at line <a class="el" href="path__build_8cpp_source.html#l00897">897</a> of file <a class="el" href="path__build_8cpp_source.html">path_build.cpp</a>.</p>
 
-<p>References <a class="el" href="path__build_8h_source.html#l00028">PBS_LONG_BUILD</a>, <a class="el" href="path__build_8h_source.html#l00029">PBS_LONG_BUY</a>, <a class="el" href="path__build_8h_source.html#l00068">state</a>, and <a class="el" href="path__build_8cpp_source.html#l00637">UpdateState()</a>.</p>
+<p>References <a class="el" href="path__build_8h_source.html#l00029">PBS_LONG_BUILD</a>, <a class="el" href="path__build_8h_source.html#l00030">PBS_LONG_BUY</a>, <a class="el" href="path__build_8cpp_source.html#l00446">SetState()</a>, and <a class="el" href="path__build_8h_source.html#l00075">state</a>.</p>
 
-<p>Referenced by <a class="el" href="path__build_8cpp_source.html#l00415">OnMouseButtonEvent()</a>.</p>
+<p>Referenced by <a class="el" href="path__build_8cpp_source.html#l00411">OnMouseButtonEvent()</a>.</p>
 
 </div>
 </div>
@@ -653,11 +655,11 @@ Private Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="path__build_8cpp_source.html#l00467">467</a> of file <a class="el" href="path__build_8cpp_source.html">path_build.cpp</a>.</p>
+<p>Definition at line <a class="el" href="path__build_8cpp_source.html#l00505">505</a> of file <a class="el" href="path__build_8cpp_source.html">path_build.cpp</a>.</p>
 
-<p>References <a class="el" href="path__build_8h_source.html#l00080">allowed_arrows</a>, <a class="el" href="tile_8h_source.html#l00128">INVALID_EDGE</a>, <a class="el" href="path__build_8h_source.html#l00027">PBS_WAIT_BUY</a>, <a class="el" href="path__build_8h_source.html#l00026">PBS_WAIT_SLOPE</a>, <a class="el" href="path__build_8h_source.html#l00081">selected_arrow</a>, <a class="el" href="path__build_8h_source.html#l00068">state</a>, and <a class="el" href="path__build_8cpp_source.html#l00637">UpdateState()</a>.</p>
+<p>References <a class="el" href="path__build_8h_source.html#l00080">allowed_arrows</a>, <a class="el" href="tile_8h_source.html#l00128">INVALID_EDGE</a>, <a class="el" href="path__build_8h_source.html#l00028">PBS_WAIT_BUY</a>, <a class="el" href="path__build_8h_source.html#l00027">PBS_WAIT_SLOPE</a>, <a class="el" href="path__build_8h_source.html#l00081">selected_arrow</a>, <a class="el" href="path__build_8cpp_source.html#l00446">SetState()</a>, and <a class="el" href="path__build_8h_source.html#l00075">state</a>.</p>
 
-<p>Referenced by <a class="el" href="path__gui_8cpp_source.html#l00249">PathBuildGui::OnClick()</a>.</p>
+<p>Referenced by <a class="el" href="path__gui_8cpp_source.html#l00256">PathBuildGui::OnClick()</a>.</p>
 
 </div>
 </div>
@@ -683,11 +685,11 @@ Private Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="path__build_8cpp_source.html#l00480">480</a> of file <a class="el" href="path__build_8cpp_source.html">path_build.cpp</a>.</p>
+<p>Definition at line <a class="el" href="path__build_8cpp_source.html#l00517">517</a> of file <a class="el" href="path__build_8cpp_source.html">path_build.cpp</a>.</p>
 
-<p>References <a class="el" href="path__build_8h_source.html#l00069">path_type</a>, <a class="el" href="path__build_8h_source.html#l00027">PBS_WAIT_BUY</a>, <a class="el" href="path__build_8h_source.html#l00068">state</a>, and <a class="el" href="path__build_8cpp_source.html#l00637">UpdateState()</a>.</p>
+<p>References <a class="el" href="path__build_8h_source.html#l00072">path_type</a>, <a class="el" href="path__build_8h_source.html#l00028">PBS_WAIT_BUY</a>, <a class="el" href="path__build_8h_source.html#l00075">state</a>, and <a class="el" href="path__build_8cpp_source.html#l00663">UpdateState()</a>.</p>
 
-<p>Referenced by <a class="el" href="path__gui_8cpp_source.html#l00249">PathBuildGui::OnClick()</a>.</p>
+<p>Referenced by <a class="el" href="path__gui_8cpp_source.html#l00256">PathBuildGui::OnClick()</a>.</p>
 
 </div>
 </div>
@@ -713,11 +715,11 @@ Private Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="path__build_8cpp_source.html#l00744">744</a> of file <a class="el" href="path__build_8cpp_source.html">path_build.cpp</a>.</p>
+<p>Definition at line <a class="el" href="path__build_8cpp_source.html#l00767">767</a> of file <a class="el" href="path__build_8cpp_source.html">path_build.cpp</a>.</p>
 
-<p>References <a class="el" href="path__build_8h_source.html#l00082">allowed_slopes</a>, <a class="el" href="path__build_8h_source.html#l00026">PBS_WAIT_SLOPE</a>, <a class="el" href="path__build_8h_source.html#l00083">selected_slope</a>, <a class="el" href="path__build_8h_source.html#l00068">state</a>, <a class="el" href="tile_8h_source.html#l00223">TSL_COUNT_GENTLE</a>, and <a class="el" href="path__build_8cpp_source.html#l00637">UpdateState()</a>.</p>
+<p>References <a class="el" href="path__build_8h_source.html#l00082">allowed_slopes</a>, <a class="el" href="path__build_8h_source.html#l00027">PBS_WAIT_SLOPE</a>, <a class="el" href="path__build_8h_source.html#l00083">selected_slope</a>, <a class="el" href="path__build_8cpp_source.html#l00446">SetState()</a>, and <a class="el" href="tile_8h_source.html#l00224">TSL_COUNT_GENTLE</a>.</p>
 
-<p>Referenced by <a class="el" href="path__gui_8cpp_source.html#l00249">PathBuildGui::OnClick()</a>.</p>
+<p>Referenced by <a class="el" href="path__gui_8cpp_source.html#l00256">PathBuildGui::OnClick()</a>.</p>
 
 </div>
 </div>
@@ -743,11 +745,11 @@ Private Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="path__build_8cpp_source.html#l00556">556</a> of file <a class="el" href="path__build_8cpp_source.html">path_build.cpp</a>.</p>
+<p>Definition at line <a class="el" href="path__build_8cpp_source.html#l00589">589</a> of file <a class="el" href="path__build_8cpp_source.html">path_build.cpp</a>.</p>
 
-<p>References <a class="el" href="tile__func_8cpp_source.html#l00016">_corners_at_edge</a>, <a class="el" href="path_8cpp_source.html#l00026">_path_down_from_edge</a>, <a class="el" href="map_8cpp_source.html#l00027">_world</a>, <a class="el" href="tile_8h_source.html#l00158">ExpandTileSlope()</a>, <a class="el" href="map_8h_source.html#l00215">Voxel::GetGroundSlope()</a>, <a class="el" href="map_8h_source.html#l00224">Voxel::GetGroundType()</a>, <a class="el" href="map_8h_source.html#l00394">GetImplodedPathSlope()</a>, <a class="el" href="map_8h_source.html#l00520">VoxelWorld::GetVoxel()</a>, <a class="el" href="tile_8h_source.html#l00197">GTP_INVALID</a>, <a class="el" href="map_8h_source.html#l00372">HasValidPath()</a>, <a class="el" href="path__build_8cpp_source.html#l00494">MoveCursor()</a>, <a class="el" href="path__build_8h_source.html#l00027">PBS_WAIT_BUY</a>, <a class="el" href="path__build_8h_source.html#l00081">selected_arrow</a>, <a class="el" href="path__build_8h_source.html#l00068">state</a>, <a class="el" href="tile_8h_source.html#l00069">TSB_STEEP</a>, <a class="el" href="path__build_8h_source.html#l00074">xpos</a>, <a class="el" href="path__build_8h_source.html#l00076">ypos</a>, and <a class="el" href="path__build_8h_source.html#l00078">zpos</a>.</p>
+<p>References <a class="el" href="tile__func_8cpp_source.html#l00016">_corners_at_edge</a>, <a class="el" href="path_8cpp_source.html#l00026">_path_down_from_edge</a>, <a class="el" href="map_8cpp_source.html#l00027">_world</a>, <a class="el" href="tile_8h_source.html#l00158">ExpandTileSlope()</a>, <a class="el" href="map_8h_source.html#l00215">Voxel::GetGroundSlope()</a>, <a class="el" href="map_8h_source.html#l00224">Voxel::GetGroundType()</a>, <a class="el" href="map_8h_source.html#l00390">GetImplodedPathSlope()</a>, <a class="el" href="map_8h_source.html#l00514">VoxelWorld::GetVoxel()</a>, <a class="el" href="tile_8h_source.html#l00198">GTP_INVALID</a>, <a class="el" href="map_8h_source.html#l00368">HasValidPath()</a>, <a class="el" href="path__build_8cpp_source.html#l00531">MoveCursor()</a>, <a class="el" href="path__build_8h_source.html#l00028">PBS_WAIT_BUY</a>, <a class="el" href="path__build_8h_source.html#l00078">pos</a>, <a class="el" href="path__build_8h_source.html#l00081">selected_arrow</a>, <a class="el" href="path__build_8h_source.html#l00075">state</a>, and <a class="el" href="tile_8h_source.html#l00069">TSB_STEEP</a>.</p>
 
-<p>Referenced by <a class="el" href="path__gui_8cpp_source.html#l00249">PathBuildGui::OnClick()</a>, and <a class="el" href="path__build_8cpp_source.html#l00892">SelectBuyRemove()</a>.</p>
+<p>Referenced by <a class="el" href="path__gui_8cpp_source.html#l00256">PathBuildGui::OnClick()</a>, and <a class="el" href="path__build_8cpp_source.html#l00907">SelectBuyRemove()</a>.</p>
 
 </div>
 </div>
@@ -766,11 +768,11 @@ Private Attributes</h2></td></tr>
 
 <p>Enter long path building mode. </p>
 
-<p>Definition at line <a class="el" href="path__build_8cpp_source.html#l00755">755</a> of file <a class="el" href="path__build_8cpp_source.html">path_build.cpp</a>.</p>
+<p>Definition at line <a class="el" href="path__build_8cpp_source.html#l00777">777</a> of file <a class="el" href="path__build_8cpp_source.html">path_build.cpp</a>.</p>
 
-<p>References <a class="el" href="map_8cpp_source.html#l00027">_world</a>, <a class="el" href="map_8h_source.html#l00542">VoxelWorld::GetXSize()</a>, <a class="el" href="map_8h_source.html#l00551">VoxelWorld::GetYSize()</a>, <a class="el" href="path__build_8h_source.html#l00028">PBS_LONG_BUILD</a>, <a class="el" href="path__build_8h_source.html#l00029">PBS_LONG_BUY</a>, <a class="el" href="path__build_8h_source.html#l00025">PBS_WAIT_ARROW</a>, <a class="el" href="path__build_8h_source.html#l00068">state</a>, <a class="el" href="path__build_8cpp_source.html#l00637">UpdateState()</a>, <a class="el" href="map_8h_source.html#l00027">WORLD_Z_SIZE</a>, <a class="el" href="path__build_8h_source.html#l00075">xlong</a>, <a class="el" href="path__build_8h_source.html#l00077">ylong</a>, and <a class="el" href="path__build_8h_source.html#l00079">zlong</a>.</p>
+<p>References <a class="el" href="map_8cpp_source.html#l00027">_world</a>, <a class="el" href="map_8h_source.html#l00534">VoxelWorld::GetXSize()</a>, <a class="el" href="map_8h_source.html#l00543">VoxelWorld::GetYSize()</a>, <a class="el" href="path__build_8h_source.html#l00079">long_pos</a>, <a class="el" href="path__build_8h_source.html#l00029">PBS_LONG_BUILD</a>, <a class="el" href="path__build_8h_source.html#l00030">PBS_LONG_BUY</a>, <a class="el" href="path__build_8h_source.html#l00026">PBS_WAIT_ARROW</a>, <a class="el" href="path__build_8cpp_source.html#l00446">SetState()</a>, <a class="el" href="path__build_8h_source.html#l00075">state</a>, <a class="el" href="map_8h_source.html#l00027">WORLD_Z_SIZE</a>, <a class="el" href="geometry_8h_source.html#l00100">XYZPoint&lt; CT &gt;::x</a>, <a class="el" href="geometry_8h_source.html#l00101">XYZPoint&lt; CT &gt;::y</a>, and <a class="el" href="geometry_8h_source.html#l00102">XYZPoint&lt; CT &gt;::z</a>.</p>
 
-<p>Referenced by <a class="el" href="path__gui_8cpp_source.html#l00249">PathBuildGui::OnClick()</a>.</p>
+<p>Referenced by <a class="el" href="path__gui_8cpp_source.html#l00256">PathBuildGui::OnClick()</a>.</p>
 
 </div>
 </div>
@@ -796,11 +798,43 @@ Private Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="path__build_8cpp_source.html#l00892">892</a> of file <a class="el" href="path__build_8cpp_source.html">path_build.cpp</a>.</p>
+<p>Definition at line <a class="el" href="path__build_8cpp_source.html#l00907">907</a> of file <a class="el" href="path__build_8cpp_source.html">path_build.cpp</a>.</p>
 
-<p>References <a class="el" href="viewport_8cpp_source.html#l00095">_additions</a>, <a class="el" href="path_8cpp_source.html#l00026">_path_down_from_edge</a>, <a class="el" href="map_8cpp_source.html#l00027">_world</a>, <a class="el" href="map_8cpp_source.html#l00651">WorldAdditions::Clear()</a>, <a class="el" href="map_8cpp_source.html#l00660">WorldAdditions::Commit()</a>, <a class="el" href="map_8h_source.html#l00394">GetImplodedPathSlope()</a>, <a class="el" href="map_8h_source.html#l00520">VoxelWorld::GetVoxel()</a>, <a class="el" href="map_8h_source.html#l00372">HasValidPath()</a>, <a class="el" href="path__build_8cpp_source.html#l00494">MoveCursor()</a>, <a class="el" href="path__build_8h_source.html#l00029">PBS_LONG_BUY</a>, <a class="el" href="path__build_8h_source.html#l00025">PBS_WAIT_ARROW</a>, <a class="el" href="path__build_8h_source.html#l00027">PBS_WAIT_BUY</a>, <a class="el" href="path__build_8cpp_source.html#l00245">RemovePath()</a>, <a class="el" href="path__build_8h_source.html#l00081">selected_arrow</a>, <a class="el" href="path__build_8cpp_source.html#l00556">SelectMovement()</a>, <a class="el" href="path__build_8h_source.html#l00068">state</a>, <a class="el" href="path__build_8cpp_source.html#l00637">UpdateState()</a>, <a class="el" href="path__build_8h_source.html#l00075">xlong</a>, <a class="el" href="path__build_8h_source.html#l00074">xpos</a>, <a class="el" href="path__build_8h_source.html#l00077">ylong</a>, <a class="el" href="path__build_8h_source.html#l00076">ypos</a>, <a class="el" href="path__build_8h_source.html#l00079">zlong</a>, and <a class="el" href="path__build_8h_source.html#l00078">zpos</a>.</p>
+<p>References <a class="el" href="viewport_8cpp_source.html#l00095">_additions</a>, <a class="el" href="path_8cpp_source.html#l00026">_path_down_from_edge</a>, <a class="el" href="map_8cpp_source.html#l00027">_world</a>, <a class="el" href="map_8cpp_source.html#l00651">WorldAdditions::Clear()</a>, <a class="el" href="map_8cpp_source.html#l00660">WorldAdditions::Commit()</a>, <a class="el" href="map_8h_source.html#l00390">GetImplodedPathSlope()</a>, <a class="el" href="map_8h_source.html#l00514">VoxelWorld::GetVoxel()</a>, <a class="el" href="map_8h_source.html#l00368">HasValidPath()</a>, <a class="el" href="path__build_8h_source.html#l00079">long_pos</a>, <a class="el" href="path__build_8cpp_source.html#l00531">MoveCursor()</a>, <a class="el" href="path__build_8h_source.html#l00030">PBS_LONG_BUY</a>, <a class="el" href="path__build_8h_source.html#l00026">PBS_WAIT_ARROW</a>, <a class="el" href="path__build_8h_source.html#l00028">PBS_WAIT_BUY</a>, <a class="el" href="path__build_8h_source.html#l00078">pos</a>, <a class="el" href="path__build_8cpp_source.html#l00235">RemovePath()</a>, <a class="el" href="path__build_8h_source.html#l00081">selected_arrow</a>, <a class="el" href="path__build_8cpp_source.html#l00589">SelectMovement()</a>, <a class="el" href="path__build_8cpp_source.html#l00446">SetState()</a>, <a class="el" href="path__build_8h_source.html#l00075">state</a>, and <a class="el" href="path__build_8cpp_source.html#l00663">UpdateState()</a>.</p>
 
-<p>Referenced by <a class="el" href="path__gui_8cpp_source.html#l00249">PathBuildGui::OnClick()</a>.</p>
+<p>Referenced by <a class="el" href="path__gui_8cpp_source.html#l00256">PathBuildGui::OnClick()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="af746faab30b74469ecf0565f89d75a03"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="path__build_8h.html#ae93e3967177886e33c765ccd77463d22">PathBuildState</a> PathBuildManager::GetState </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the current state of the path build manager. </p>
+<dl class="section return"><dt>Returns</dt><dd>PathBuildState of the path build manager. </dd></dl>
+
+<p>Definition at line <a class="el" href="path__build_8h_source.html#l00095">95</a> of file <a class="el" href="path__build_8h_source.html">path_build.h</a>.</p>
+
+<p>References <a class="el" href="path__build_8h_source.html#l00075">state</a>.</p>
+
+<p>Referenced by <a class="el" href="path__gui_8cpp_source.html#l00326">PathBuildGui::SetButtons()</a>.</p>
 
 </div>
 </div>
@@ -828,11 +862,11 @@ Private Attributes</h2></td></tr>
 <p>Get the allowed directions of building from the selected tile. </p>
 <dl class="section return"><dt>Returns</dt><dd>Allowed directions as a bitset of tile edges. </dd></dl>
 
-<p>Definition at line <a class="el" href="path__build_8h_source.html#l00095">95</a> of file <a class="el" href="path__build_8h_source.html">path_build.h</a>.</p>
+<p>Definition at line <a class="el" href="path__build_8h_source.html#l00104">104</a> of file <a class="el" href="path__build_8h_source.html">path_build.h</a>.</p>
 
-<p>References <a class="el" href="path__build_8h_source.html#l00080">allowed_arrows</a>, <a class="el" href="path__build_8h_source.html#l00027">PBS_WAIT_BUY</a>, and <a class="el" href="path__build_8h_source.html#l00068">state</a>.</p>
+<p>References <a class="el" href="path__build_8h_source.html#l00080">allowed_arrows</a>, <a class="el" href="path__build_8h_source.html#l00028">PBS_WAIT_BUY</a>, and <a class="el" href="path__build_8h_source.html#l00075">state</a>.</p>
 
-<p>Referenced by <a class="el" href="path__gui_8cpp_source.html#l00310">PathBuildGui::SetButtons()</a>.</p>
+<p>Referenced by <a class="el" href="path__gui_8cpp_source.html#l00326">PathBuildGui::SetButtons()</a>.</p>
 
 </div>
 </div>
@@ -860,11 +894,11 @@ Private Attributes</h2></td></tr>
 <p>Get the selected arrow, if available. </p>
 <dl class="section return"><dt>Returns</dt><dd>The last selected arrow, or <a class="el" href="group__map__group.html#gga29bb8f9503c34074bad3c762c92ee68ba2ccac72ccffe9c7e939bed03787d1c96" title="Invalid edge (to denote lack of an edge). ">INVALID_EDGE</a> if none is available. </dd></dl>
 
-<p>Definition at line <a class="el" href="path__build_8h_source.html#l00105">105</a> of file <a class="el" href="path__build_8h_source.html">path_build.h</a>.</p>
+<p>Definition at line <a class="el" href="path__build_8h_source.html#l00114">114</a> of file <a class="el" href="path__build_8h_source.html">path_build.h</a>.</p>
 
-<p>References <a class="el" href="tile_8h_source.html#l00128">INVALID_EDGE</a>, <a class="el" href="path__build_8h_source.html#l00027">PBS_WAIT_BUY</a>, <a class="el" href="path__build_8h_source.html#l00081">selected_arrow</a>, and <a class="el" href="path__build_8h_source.html#l00068">state</a>.</p>
+<p>References <a class="el" href="tile_8h_source.html#l00128">INVALID_EDGE</a>, <a class="el" href="path__build_8h_source.html#l00028">PBS_WAIT_BUY</a>, <a class="el" href="path__build_8h_source.html#l00081">selected_arrow</a>, and <a class="el" href="path__build_8h_source.html#l00075">state</a>.</p>
 
-<p>Referenced by <a class="el" href="path__gui_8cpp_source.html#l00310">PathBuildGui::SetButtons()</a>.</p>
+<p>Referenced by <a class="el" href="path__gui_8cpp_source.html#l00326">PathBuildGui::SetButtons()</a>.</p>
 
 </div>
 </div>
@@ -892,11 +926,11 @@ Private Attributes</h2></td></tr>
 <p>Get the allowed directions of building from the selected tile. </p>
 <dl class="section return"><dt>Returns</dt><dd>Allowed directions as a bitset of tile edges. </dd></dl>
 
-<p>Definition at line <a class="el" href="path__build_8h_source.html#l00115">115</a> of file <a class="el" href="path__build_8h_source.html">path_build.h</a>.</p>
+<p>Definition at line <a class="el" href="path__build_8h_source.html#l00124">124</a> of file <a class="el" href="path__build_8h_source.html">path_build.h</a>.</p>
 
-<p>References <a class="el" href="path__build_8h_source.html#l00082">allowed_slopes</a>, <a class="el" href="path__build_8h_source.html#l00027">PBS_WAIT_BUY</a>, and <a class="el" href="path__build_8h_source.html#l00068">state</a>.</p>
+<p>References <a class="el" href="path__build_8h_source.html#l00082">allowed_slopes</a>, <a class="el" href="path__build_8h_source.html#l00028">PBS_WAIT_BUY</a>, and <a class="el" href="path__build_8h_source.html#l00075">state</a>.</p>
 
-<p>Referenced by <a class="el" href="path__gui_8cpp_source.html#l00310">PathBuildGui::SetButtons()</a>.</p>
+<p>Referenced by <a class="el" href="path__gui_8cpp_source.html#l00326">PathBuildGui::SetButtons()</a>.</p>
 
 </div>
 </div>
@@ -924,11 +958,11 @@ Private Attributes</h2></td></tr>
 <p>Get the selected slope, if available. </p>
 <dl class="section return"><dt>Returns</dt><dd>The last selected slope, or <a class="el" href="group__map__group.html#gga3c6755713f12385e83e096c36b8e84e8a2a923a4a698029baf0a27bba9a667242" title="Invalid track slope. ">TSL_INVALID</a> if no valid slope is available. </dd></dl>
 
-<p>Definition at line <a class="el" href="path__build_8h_source.html#l00125">125</a> of file <a class="el" href="path__build_8h_source.html">path_build.h</a>.</p>
+<p>Definition at line <a class="el" href="path__build_8h_source.html#l00134">134</a> of file <a class="el" href="path__build_8h_source.html">path_build.h</a>.</p>
 
-<p>References <a class="el" href="path__build_8h_source.html#l00027">PBS_WAIT_BUY</a>, <a class="el" href="path__build_8h_source.html#l00083">selected_slope</a>, <a class="el" href="path__build_8h_source.html#l00068">state</a>, and <a class="el" href="tile_8h_source.html#l00233">TSL_INVALID</a>.</p>
+<p>References <a class="el" href="path__build_8h_source.html#l00028">PBS_WAIT_BUY</a>, <a class="el" href="path__build_8h_source.html#l00083">selected_slope</a>, <a class="el" href="path__build_8h_source.html#l00075">state</a>, and <a class="el" href="tile_8h_source.html#l00234">TSL_INVALID</a>.</p>
 
-<p>Referenced by <a class="el" href="path__gui_8cpp_source.html#l00310">PathBuildGui::SetButtons()</a>.</p>
+<p>Referenced by <a class="el" href="path__gui_8cpp_source.html#l00326">PathBuildGui::SetButtons()</a>.</p>
 
 </div>
 </div>
@@ -956,11 +990,11 @@ Private Attributes</h2></td></tr>
 <p>Can the user press the 'buy' button at the path GUI? </p>
 <dl class="section return"><dt>Returns</dt><dd>Button is enabled. </dd></dl>
 
-<p>Definition at line <a class="el" href="path__build_8h_source.html#l00135">135</a> of file <a class="el" href="path__build_8h_source.html">path_build.h</a>.</p>
+<p>Definition at line <a class="el" href="path__build_8h_source.html#l00144">144</a> of file <a class="el" href="path__build_8h_source.html">path_build.h</a>.</p>
 
-<p>References <a class="el" href="path__build_8h_source.html#l00029">PBS_LONG_BUY</a>, <a class="el" href="path__build_8h_source.html#l00027">PBS_WAIT_BUY</a>, and <a class="el" href="path__build_8h_source.html#l00068">state</a>.</p>
+<p>References <a class="el" href="path__build_8h_source.html#l00030">PBS_LONG_BUY</a>, <a class="el" href="path__build_8h_source.html#l00028">PBS_WAIT_BUY</a>, and <a class="el" href="path__build_8h_source.html#l00075">state</a>.</p>
 
-<p>Referenced by <a class="el" href="path__gui_8cpp_source.html#l00310">PathBuildGui::SetButtons()</a>.</p>
+<p>Referenced by <a class="el" href="path__gui_8cpp_source.html#l00326">PathBuildGui::SetButtons()</a>.</p>
 
 </div>
 </div>
@@ -980,11 +1014,11 @@ Private Attributes</h2></td></tr>
 <p>Can the user press the 'remove' button at the path GUI? </p>
 <dl class="section return"><dt>Returns</dt><dd>Button is enabled. </dd></dl>
 
-<p>Definition at line <a class="el" href="path__build_8cpp_source.html#l00731">731</a> of file <a class="el" href="path__build_8cpp_source.html">path_build.cpp</a>.</p>
+<p>Definition at line <a class="el" href="path__build_8cpp_source.html#l00754">754</a> of file <a class="el" href="path__build_8cpp_source.html">path_build.cpp</a>.</p>
 
-<p>References <a class="el" href="map_8cpp_source.html#l00027">_world</a>, <a class="el" href="map_8h_source.html#l00520">VoxelWorld::GetVoxel()</a>, <a class="el" href="map_8h_source.html#l00372">HasValidPath()</a>, <a class="el" href="path__build_8h_source.html#l00023">PBS_IDLE</a>, <a class="el" href="path__build_8h_source.html#l00027">PBS_WAIT_BUY</a>, <a class="el" href="path__build_8h_source.html#l00024">PBS_WAIT_VOXEL</a>, <a class="el" href="path__build_8h_source.html#l00068">state</a>, <a class="el" href="path__build_8h_source.html#l00074">xpos</a>, <a class="el" href="path__build_8h_source.html#l00076">ypos</a>, and <a class="el" href="path__build_8h_source.html#l00078">zpos</a>.</p>
+<p>References <a class="el" href="map_8cpp_source.html#l00027">_world</a>, <a class="el" href="map_8h_source.html#l00514">VoxelWorld::GetVoxel()</a>, <a class="el" href="map_8h_source.html#l00368">HasValidPath()</a>, <a class="el" href="path__build_8h_source.html#l00023">PBS_IDLE</a>, <a class="el" href="path__build_8h_source.html#l00028">PBS_WAIT_BUY</a>, <a class="el" href="path__build_8h_source.html#l00025">PBS_WAIT_VOXEL</a>, <a class="el" href="path__build_8h_source.html#l00078">pos</a>, and <a class="el" href="path__build_8h_source.html#l00075">state</a>.</p>
 
-<p>Referenced by <a class="el" href="path__gui_8cpp_source.html#l00310">PathBuildGui::SetButtons()</a>.</p>
+<p>Referenced by <a class="el" href="path__gui_8cpp_source.html#l00326">PathBuildGui::SetButtons()</a>.</p>
 
 </div>
 </div>
@@ -1012,11 +1046,11 @@ Private Attributes</h2></td></tr>
 <p>Can the user press the 'forward' button at the path GUI? </p>
 <dl class="section return"><dt>Returns</dt><dd>Button is enabled. </dd></dl>
 
-<p>Definition at line <a class="el" href="path__build_8h_source.html#l00144">144</a> of file <a class="el" href="path__build_8h_source.html">path_build.h</a>.</p>
+<p>Definition at line <a class="el" href="path__build_8h_source.html#l00153">153</a> of file <a class="el" href="path__build_8h_source.html">path_build.h</a>.</p>
 
-<p>References <a class="el" href="path__build_8h_source.html#l00025">PBS_WAIT_ARROW</a>, <a class="el" href="path__build_8h_source.html#l00027">PBS_WAIT_BUY</a>, and <a class="el" href="path__build_8h_source.html#l00068">state</a>.</p>
+<p>References <a class="el" href="path__build_8h_source.html#l00026">PBS_WAIT_ARROW</a>, <a class="el" href="path__build_8h_source.html#l00028">PBS_WAIT_BUY</a>, and <a class="el" href="path__build_8h_source.html#l00075">state</a>.</p>
 
-<p>Referenced by <a class="el" href="path__gui_8cpp_source.html#l00310">PathBuildGui::SetButtons()</a>.</p>
+<p>Referenced by <a class="el" href="path__gui_8cpp_source.html#l00326">PathBuildGui::SetButtons()</a>.</p>
 
 </div>
 </div>
@@ -1044,11 +1078,11 @@ Private Attributes</h2></td></tr>
 <p>Can the user press the 'back' button at the path GUI? </p>
 <dl class="section return"><dt>Returns</dt><dd>Button is enabled. </dd></dl>
 
-<p>Definition at line <a class="el" href="path__build_8h_source.html#l00153">153</a> of file <a class="el" href="path__build_8h_source.html">path_build.h</a>.</p>
+<p>Definition at line <a class="el" href="path__build_8h_source.html#l00162">162</a> of file <a class="el" href="path__build_8h_source.html">path_build.h</a>.</p>
 
-<p>References <a class="el" href="path__build_8h_source.html#l00025">PBS_WAIT_ARROW</a>, <a class="el" href="path__build_8h_source.html#l00027">PBS_WAIT_BUY</a>, and <a class="el" href="path__build_8h_source.html#l00068">state</a>.</p>
+<p>References <a class="el" href="path__build_8h_source.html#l00026">PBS_WAIT_ARROW</a>, <a class="el" href="path__build_8h_source.html#l00028">PBS_WAIT_BUY</a>, and <a class="el" href="path__build_8h_source.html#l00075">state</a>.</p>
 
-<p>Referenced by <a class="el" href="path__gui_8cpp_source.html#l00310">PathBuildGui::SetButtons()</a>.</p>
+<p>Referenced by <a class="el" href="path__gui_8cpp_source.html#l00326">PathBuildGui::SetButtons()</a>.</p>
 
 </div>
 </div>
@@ -1076,11 +1110,11 @@ Private Attributes</h2></td></tr>
 <p>Is the 'long' mode button enabled? </p>
 <dl class="section return"><dt>Returns</dt><dd>Button is enabled. </dd></dl>
 
-<p>Definition at line <a class="el" href="path__build_8h_source.html#l00162">162</a> of file <a class="el" href="path__build_8h_source.html">path_build.h</a>.</p>
+<p>Definition at line <a class="el" href="path__build_8h_source.html#l00171">171</a> of file <a class="el" href="path__build_8h_source.html">path_build.h</a>.</p>
 
-<p>References <a class="el" href="path__build_8h_source.html#l00024">PBS_WAIT_VOXEL</a>, and <a class="el" href="path__build_8h_source.html#l00068">state</a>.</p>
+<p>References <a class="el" href="path__build_8h_source.html#l00025">PBS_WAIT_VOXEL</a>, and <a class="el" href="path__build_8h_source.html#l00075">state</a>.</p>
 
-<p>Referenced by <a class="el" href="path__gui_8cpp_source.html#l00310">PathBuildGui::SetButtons()</a>.</p>
+<p>Referenced by <a class="el" href="path__gui_8cpp_source.html#l00326">PathBuildGui::SetButtons()</a>.</p>
 
 </div>
 </div>
@@ -1108,15 +1142,15 @@ Private Attributes</h2></td></tr>
 <p>Is the 'long' mode button pressed? </p>
 <dl class="section return"><dt>Returns</dt><dd>Button is pressed. </dd></dl>
 
-<p>Definition at line <a class="el" href="path__build_8h_source.html#l00171">171</a> of file <a class="el" href="path__build_8h_source.html">path_build.h</a>.</p>
+<p>Definition at line <a class="el" href="path__build_8h_source.html#l00180">180</a> of file <a class="el" href="path__build_8h_source.html">path_build.h</a>.</p>
 
-<p>References <a class="el" href="path__build_8h_source.html#l00028">PBS_LONG_BUILD</a>, <a class="el" href="path__build_8h_source.html#l00029">PBS_LONG_BUY</a>, and <a class="el" href="path__build_8h_source.html#l00068">state</a>.</p>
+<p>References <a class="el" href="path__build_8h_source.html#l00029">PBS_LONG_BUILD</a>, <a class="el" href="path__build_8h_source.html#l00030">PBS_LONG_BUY</a>, and <a class="el" href="path__build_8h_source.html#l00075">state</a>.</p>
 
-<p>Referenced by <a class="el" href="path__gui_8cpp_source.html#l00310">PathBuildGui::SetButtons()</a>.</p>
+<p>Referenced by <a class="el" href="path__gui_8cpp_source.html#l00326">PathBuildGui::SetButtons()</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a00a51f2cb970348e60736e8d523ab5f0"></a>
+<a class="anchor" id="a4b2db1148d53468c7315acdd9a157cc9"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1124,27 +1158,10 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void PathBuildManager::ComputeArrowCursorPosition </td>
+          <td class="memname"><a class="el" href="geometry_8h.html#a71fcb91f44cc6cbf519d0c45c07e931d">XYZPoint16</a> PathBuildManager::ComputeArrowCursorPosition </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="stdafx_8h.html#a05f6b0ae8f6a6e135b0e290c25fe0e4e">uint16</a> *&#160;</td>
-          <td class="paramname"><em>xpos</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
-          <td class="paramtype"><a class="el" href="stdafx_8h.html#a05f6b0ae8f6a6e135b0e290c25fe0e4e">uint16</a> *&#160;</td>
-          <td class="paramname"><em>ypos</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="stdafx_8h.html#adde6aaee8457bee49c2a92621fe22b79">uint8</a> *&#160;</td>
-          <td class="paramname"><em>zpos</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -1155,20 +1172,13 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Compute the voxel to display the arrow cursor. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">xpos</td><td>[out] Computed X position of the voxel that should contain the arrow cursor. </td></tr>
-    <tr><td class="paramname">ypos</td><td>[out] Computed Y position of the voxel that should contain the arrow cursor. </td></tr>
-    <tr><td class="paramname">zpos</td><td>[out] Computed Z position of the voxel that should contain the arrow cursor. </td></tr>
-  </table>
-  </dd>
-</dl>
+<dl class="section return"><dt>Returns</dt><dd>Computed position of the voxel that should contain the arrow cursor. </dd></dl>
 
-<p>Definition at line <a class="el" href="path__build_8cpp_source.html#l00584">584</a> of file <a class="el" href="path__build_8cpp_source.html">path_build.cpp</a>.</p>
+<p>Definition at line <a class="el" href="path__build_8cpp_source.html#l00615">615</a> of file <a class="el" href="path__build_8cpp_source.html">path_build.cpp</a>.</p>
 
-<p>References <a class="el" href="tile__func_8cpp_source.html#l00032">_tile_dxy</a>, <a class="el" href="map_8cpp_source.html#l00027">_world</a>, <a class="el" href="path__build_8h_source.html#l00080">allowed_arrows</a>, <a class="el" href="map_8h_source.html#l00542">VoxelWorld::GetXSize()</a>, <a class="el" href="map_8h_source.html#l00551">VoxelWorld::GetYSize()</a>, <a class="el" href="tile_8h_source.html#l00128">INVALID_EDGE</a>, <a class="el" href="path__build_8h_source.html#l00025">PBS_WAIT_ARROW</a>, <a class="el" href="path__build_8h_source.html#l00027">PBS_WAIT_BUY</a>, <a class="el" href="path__build_8h_source.html#l00081">selected_arrow</a>, <a class="el" href="path__build_8h_source.html#l00068">state</a>, <a class="el" href="map_8h_source.html#l00027">WORLD_Z_SIZE</a>, <a class="el" href="geometry_8h_source.html#l00037">Point&lt; CT &gt;::x</a>, <a class="el" href="geometry_8h_source.html#l00038">Point&lt; CT &gt;::y</a>, and <a class="el" href="path__build_8h_source.html#l00078">zpos</a>.</p>
+<p>References <a class="el" href="tile__func_8cpp_source.html#l00032">_tile_dxy</a>, <a class="el" href="path__build_8h_source.html#l00080">allowed_arrows</a>, <a class="el" href="tile_8h_source.html#l00128">INVALID_EDGE</a>, <a class="el" href="map_8h_source.html#l00649">IsVoxelInsideWorld()</a>, <a class="el" href="path__build_8h_source.html#l00026">PBS_WAIT_ARROW</a>, <a class="el" href="path__build_8h_source.html#l00028">PBS_WAIT_BUY</a>, <a class="el" href="path__build_8h_source.html#l00078">pos</a>, <a class="el" href="path__build_8h_source.html#l00081">selected_arrow</a>, <a class="el" href="path__build_8h_source.html#l00075">state</a>, <a class="el" href="geometry_8h_source.html#l00036">Point&lt; CT &gt;::x</a>, <a class="el" href="geometry_8h_source.html#l00037">Point&lt; CT &gt;::y</a>, and <a class="el" href="geometry_8h_source.html#l00102">XYZPoint&lt; CT &gt;::z</a>.</p>
 
-<p>Referenced by <a class="el" href="path__build_8cpp_source.html#l00607">ComputeWorldAdditions()</a>, and <a class="el" href="path__build_8cpp_source.html#l00637">UpdateState()</a>.</p>
+<p>Referenced by <a class="el" href="path__build_8cpp_source.html#l00635">ComputeWorldAdditions()</a>, and <a class="el" href="path__build_8cpp_source.html#l00663">UpdateState()</a>.</p>
 
 </div>
 </div>
@@ -1195,11 +1205,11 @@ Private Attributes</h2></td></tr>
 
 <p>Compute the new contents of the voxel where the path should be added from the <a class="el" href="group__map__group.html#gae1beaf14b9effb4a54e82830c7b36616" title="The game world. ">_world</a>. </p>
 
-<p>Definition at line <a class="el" href="path__build_8cpp_source.html#l00607">607</a> of file <a class="el" href="path__build_8cpp_source.html">path_build.cpp</a>.</p>
+<p>Definition at line <a class="el" href="path__build_8cpp_source.html#l00635">635</a> of file <a class="el" href="path__build_8cpp_source.html">path_build.cpp</a>.</p>
 
-<p>References <a class="el" href="path__build_8h_source.html#l00082">allowed_slopes</a>, <a class="el" href="path__build_8cpp_source.html#l00203">BuildDownwardPath()</a>, <a class="el" href="path__build_8cpp_source.html#l00165">BuildFlatPath()</a>, <a class="el" href="path__build_8cpp_source.html#l00122">BuildUpwardPath()</a>, <a class="el" href="path__build_8cpp_source.html#l00584">ComputeArrowCursorPosition()</a>, <a class="el" href="stdafx_8h_source.html#l00182">NOT_REACHED</a>, <a class="el" href="path__build_8h_source.html#l00069">path_type</a>, <a class="el" href="path__build_8h_source.html#l00027">PBS_WAIT_BUY</a>, <a class="el" href="path__build_8h_source.html#l00081">selected_arrow</a>, <a class="el" href="path__build_8h_source.html#l00083">selected_slope</a>, <a class="el" href="path__build_8h_source.html#l00068">state</a>, <a class="el" href="tile_8h_source.html#l00220">TSL_DOWN</a>, <a class="el" href="tile_8h_source.html#l00221">TSL_FLAT</a>, <a class="el" href="tile_8h_source.html#l00233">TSL_INVALID</a>, <a class="el" href="tile_8h_source.html#l00222">TSL_UP</a>, <a class="el" href="path__build_8h_source.html#l00074">xpos</a>, <a class="el" href="path__build_8h_source.html#l00076">ypos</a>, and <a class="el" href="path__build_8h_source.html#l00078">zpos</a>.</p>
+<p>References <a class="el" href="path__build_8h_source.html#l00082">allowed_slopes</a>, <a class="el" href="path__build_8cpp_source.html#l00192">BuildDownwardPath()</a>, <a class="el" href="path__build_8cpp_source.html#l00156">BuildFlatPath()</a>, <a class="el" href="path__build_8cpp_source.html#l00115">BuildUpwardPath()</a>, <a class="el" href="path__build_8cpp_source.html#l00615">ComputeArrowCursorPosition()</a>, <a class="el" href="stdafx_8h_source.html#l00182">NOT_REACHED</a>, <a class="el" href="path__build_8h_source.html#l00072">path_type</a>, <a class="el" href="path__build_8h_source.html#l00028">PBS_WAIT_BUY</a>, <a class="el" href="path__build_8h_source.html#l00081">selected_arrow</a>, <a class="el" href="path__build_8h_source.html#l00083">selected_slope</a>, <a class="el" href="path__build_8h_source.html#l00075">state</a>, <a class="el" href="tile_8h_source.html#l00221">TSL_DOWN</a>, <a class="el" href="tile_8h_source.html#l00222">TSL_FLAT</a>, <a class="el" href="tile_8h_source.html#l00234">TSL_INVALID</a>, and <a class="el" href="tile_8h_source.html#l00223">TSL_UP</a>.</p>
 
-<p>Referenced by <a class="el" href="path__build_8cpp_source.html#l00637">UpdateState()</a>.</p>
+<p>Referenced by <a class="el" href="path__build_8cpp_source.html#l00663">UpdateState()</a>.</p>
 
 </div>
 </div>
@@ -1244,11 +1254,11 @@ Private Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="path__build_8cpp_source.html#l00494">494</a> of file <a class="el" href="path__build_8cpp_source.html">path_build.cpp</a>.</p>
+<p>Definition at line <a class="el" href="path__build_8cpp_source.html#l00531">531</a> of file <a class="el" href="path__build_8cpp_source.html">path_build.cpp</a>.</p>
 
-<p>References <a class="el" href="gamemode_8cpp_source.html#l00016">_game_mode_mgr</a>, <a class="el" href="tile__func_8cpp_source.html#l00032">_tile_dxy</a>, <a class="el" href="map_8cpp_source.html#l00027">_world</a>, <a class="el" href="map_8h_source.html#l00215">Voxel::GetGroundSlope()</a>, <a class="el" href="map_8h_source.html#l00224">Voxel::GetGroundType()</a>, <a class="el" href="map_8cpp_source.html#l00482">VoxelWorld::GetTileOwner()</a>, <a class="el" href="map_8h_source.html#l00520">VoxelWorld::GetVoxel()</a>, <a class="el" href="map_8h_source.html#l00542">VoxelWorld::GetXSize()</a>, <a class="el" href="map_8h_source.html#l00551">VoxelWorld::GetYSize()</a>, <a class="el" href="tile_8h_source.html#l00197">GTP_INVALID</a>, <a class="el" href="map_8h_source.html#l00372">HasValidPath()</a>, <a class="el" href="gamemode_8h_source.html#l00054">GameModeManager::InPlayMode()</a>, <a class="el" href="tile_8h_source.html#l00128">INVALID_EDGE</a>, <a class="el" href="tile_8h_source.html#l00137">IsImplodedSteepSlope()</a>, <a class="el" href="map_8h_source.html#l00453">OWN_PARK</a>, <a class="el" href="path__build_8h_source.html#l00025">PBS_WAIT_ARROW</a>, <a class="el" href="path__build_8h_source.html#l00027">PBS_WAIT_BUY</a>, <a class="el" href="path__build_8h_source.html#l00068">state</a>, <a class="el" href="path__build_8cpp_source.html#l00637">UpdateState()</a>, <a class="el" href="map_8h_source.html#l00027">WORLD_Z_SIZE</a>, <a class="el" href="geometry_8h_source.html#l00037">Point&lt; CT &gt;::x</a>, <a class="el" href="path__build_8h_source.html#l00074">xpos</a>, <a class="el" href="geometry_8h_source.html#l00038">Point&lt; CT &gt;::y</a>, <a class="el" href="path__build_8h_source.html#l00076">ypos</a>, and <a class="el" href="path__build_8h_source.html#l00078">zpos</a>.</p>
+<p>References <a class="el" href="gamemode_8cpp_source.html#l00016">_game_mode_mgr</a>, <a class="el" href="tile__func_8cpp_source.html#l00032">_tile_dxy</a>, <a class="el" href="map_8cpp_source.html#l00027">_world</a>, <a class="el" href="map_8h_source.html#l00215">Voxel::GetGroundSlope()</a>, <a class="el" href="map_8h_source.html#l00224">Voxel::GetGroundType()</a>, <a class="el" href="map_8cpp_source.html#l00482">VoxelWorld::GetTileOwner()</a>, <a class="el" href="map_8h_source.html#l00514">VoxelWorld::GetVoxel()</a>, <a class="el" href="map_8h_source.html#l00534">VoxelWorld::GetXSize()</a>, <a class="el" href="map_8h_source.html#l00543">VoxelWorld::GetYSize()</a>, <a class="el" href="tile_8h_source.html#l00198">GTP_INVALID</a>, <a class="el" href="map_8h_source.html#l00368">HasValidPath()</a>, <a class="el" href="gamemode_8h_source.html#l00054">GameModeManager::InPlayMode()</a>, <a class="el" href="tile_8h_source.html#l00128">INVALID_EDGE</a>, <a class="el" href="tile_8h_source.html#l00137">IsImplodedSteepSlope()</a>, <a class="el" href="map_8h_source.html#l00449">OWN_PARK</a>, <a class="el" href="path__build_8h_source.html#l00026">PBS_WAIT_ARROW</a>, <a class="el" href="path__build_8h_source.html#l00028">PBS_WAIT_BUY</a>, <a class="el" href="path__build_8h_source.html#l00078">pos</a>, <a class="el" href="path__build_8cpp_source.html#l00446">SetState()</a>, <a class="el" href="path__build_8h_source.html#l00075">state</a>, <a class="el" href="map_8h_source.html#l00027">WORLD_Z_SIZE</a>, <a class="el" href="geometry_8h_source.html#l00036">Point&lt; CT &gt;::x</a>, <a class="el" href="geometry_8h_source.html#l00100">XYZPoint&lt; CT &gt;::x</a>, <a class="el" href="geometry_8h_source.html#l00037">Point&lt; CT &gt;::y</a>, <a class="el" href="geometry_8h_source.html#l00101">XYZPoint&lt; CT &gt;::y</a>, and <a class="el" href="geometry_8h_source.html#l00102">XYZPoint&lt; CT &gt;::z</a>.</p>
 
-<p>Referenced by <a class="el" href="path__build_8cpp_source.html#l00892">SelectBuyRemove()</a>, and <a class="el" href="path__build_8cpp_source.html#l00556">SelectMovement()</a>.</p>
+<p>Referenced by <a class="el" href="path__build_8cpp_source.html#l00907">SelectBuyRemove()</a>, and <a class="el" href="path__build_8cpp_source.html#l00589">SelectMovement()</a>.</p>
 
 </div>
 </div>
@@ -1275,11 +1285,11 @@ Private Attributes</h2></td></tr>
 
 <p>Update the state of the path build process. </p>
 
-<p>Definition at line <a class="el" href="path__build_8cpp_source.html#l00637">637</a> of file <a class="el" href="path__build_8cpp_source.html">path_build.cpp</a>.</p>
+<p>Definition at line <a class="el" href="path__build_8cpp_source.html#l00663">663</a> of file <a class="el" href="path__build_8cpp_source.html">path_build.cpp</a>.</p>
 
-<p>References <a class="el" href="viewport_8cpp_source.html#l00095">_additions</a>, <a class="el" href="window_8h_source.html#l00112">ALL_WINDOWS_OF_TYPE</a>, <a class="el" href="path__build_8h_source.html#l00080">allowed_arrows</a>, <a class="el" href="path__build_8h_source.html#l00082">allowed_slopes</a>, <a class="el" href="viewport_8h_source.html#l00257">Viewport::arrow_cursor</a>, <a class="el" href="path__build_8cpp_source.html#l00278">CanBuildPathFromEdge()</a>, <a class="el" href="window_8h_source.html#l00063">CHG_UPDATE_BUTTONS</a>, <a class="el" href="map_8cpp_source.html#l00651">WorldAdditions::Clear()</a>, <a class="el" href="path__build_8cpp_source.html#l00584">ComputeArrowCursorPosition()</a>, <a class="el" href="path__build_8cpp_source.html#l00607">ComputeWorldAdditions()</a>, <a class="el" href="viewport_8h_source.html#l00047">CUR_TYPE_ARROW_NE</a>, <a class="el" href="viewport_8h_source.html#l00046">CUR_TYPE_TILE</a>, <a class="el" href="viewport_8cpp_source.html#l00403">Viewport::DisableWorldAdditions()</a>, <a class="el" href="tile_8h_source.html#l00119">EDGE_NE</a>, <a class="el" href="tile_8h_source.html#l00122">EDGE_NW</a>, <a class="el" href="tile_8h_source.html#l00120">EDGE_SE</a>, <a class="el" href="tile_8h_source.html#l00121">EDGE_SW</a>, <a class="el" href="viewport_8cpp_source.html#l00391">Viewport::EnableWorldAdditions()</a>, <a class="el" href="viewport_8cpp_source.html#l00418">Viewport::EnsureAdditionsAreVisible()</a>, <a class="el" href="path__build_8cpp_source.html#l00315">GetPathAttachPoints()</a>, <a class="el" href="viewport_8cpp_source.html#l01704">GetViewport()</a>, <a class="el" href="tile_8h_source.html#l00128">INVALID_EDGE</a>, <a class="el" href="window_8cpp_source.html#l01043">NotifyChange()</a>, <a class="el" href="path__build_8h_source.html#l00023">PBS_IDLE</a>, <a class="el" href="path__build_8h_source.html#l00028">PBS_LONG_BUILD</a>, <a class="el" href="path__build_8h_source.html#l00029">PBS_LONG_BUY</a>, <a class="el" href="path__build_8h_source.html#l00025">PBS_WAIT_ARROW</a>, <a class="el" href="path__build_8h_source.html#l00027">PBS_WAIT_BUY</a>, <a class="el" href="path__build_8h_source.html#l00026">PBS_WAIT_SLOPE</a>, <a class="el" href="path__build_8h_source.html#l00024">PBS_WAIT_VOXEL</a>, <a class="el" href="path__build_8h_source.html#l00081">selected_arrow</a>, <a class="el" href="path__build_8h_source.html#l00083">selected_slope</a>, <a class="el" href="viewport_8cpp_source.html#l00539">Cursor::SetCursor()</a>, <a class="el" href="viewport_8cpp_source.html#l00488">BaseCursor::SetInvalid()</a>, <a class="el" href="path__build_8h_source.html#l00068">state</a>, <a class="el" href="viewport_8h_source.html#l00256">Viewport::tile_cursor</a>, <a class="el" href="tile_8h_source.html#l00220">TSL_DOWN</a>, <a class="el" href="tile_8h_source.html#l00221">TSL_FLAT</a>, <a class="el" href="tile_8h_source.html#l00233">TSL_INVALID</a>, <a class="el" href="tile_8h_source.html#l00222">TSL_UP</a>, <a class="el" href="window_8h_source.html#l00049">WC_PATH_BUILDER</a>, <a class="el" href="path__build_8h_source.html#l00074">xpos</a>, <a class="el" href="path__build_8h_source.html#l00076">ypos</a>, and <a class="el" href="path__build_8h_source.html#l00078">zpos</a>.</p>
+<p>References <a class="el" href="viewport_8cpp_source.html#l00095">_additions</a>, <a class="el" href="window_8h_source.html#l00128">ALL_WINDOWS_OF_TYPE</a>, <a class="el" href="path__build_8h_source.html#l00080">allowed_arrows</a>, <a class="el" href="path__build_8h_source.html#l00082">allowed_slopes</a>, <a class="el" href="viewport_8h_source.html#l00250">Viewport::arrow_cursor</a>, <a class="el" href="path__build_8cpp_source.html#l00266">CanBuildPathFromEdge()</a>, <a class="el" href="window_8h_source.html#l00063">CHG_UPDATE_BUTTONS</a>, <a class="el" href="map_8cpp_source.html#l00651">WorldAdditions::Clear()</a>, <a class="el" href="path__build_8cpp_source.html#l00615">ComputeArrowCursorPosition()</a>, <a class="el" href="path__build_8cpp_source.html#l00635">ComputeWorldAdditions()</a>, <a class="el" href="viewport_8h_source.html#l00047">CUR_TYPE_ARROW_NE</a>, <a class="el" href="viewport_8h_source.html#l00046">CUR_TYPE_TILE</a>, <a class="el" href="viewport_8cpp_source.html#l00398">Viewport::DisableWorldAdditions()</a>, <a class="el" href="viewport_8cpp_source.html#l00108">DisableWorldAdditions()</a>, <a class="el" href="tile_8h_source.html#l00119">EDGE_NE</a>, <a class="el" href="tile_8h_source.html#l00122">EDGE_NW</a>, <a class="el" href="tile_8h_source.html#l00120">EDGE_SE</a>, <a class="el" href="tile_8h_source.html#l00121">EDGE_SW</a>, <a class="el" href="viewport_8cpp_source.html#l00386">Viewport::EnableWorldAdditions()</a>, <a class="el" href="viewport_8cpp_source.html#l00413">Viewport::EnsureAdditionsAreVisible()</a>, <a class="el" href="path__build_8cpp_source.html#l00301">GetPathAttachPoints()</a>, <a class="el" href="viewport_8cpp_source.html#l01688">GetViewport()</a>, <a class="el" href="tile_8h_source.html#l00128">INVALID_EDGE</a>, <a class="el" href="window_8cpp_source.html#l01054">NotifyChange()</a>, <a class="el" href="path__build_8h_source.html#l00023">PBS_IDLE</a>, <a class="el" href="path__build_8h_source.html#l00029">PBS_LONG_BUILD</a>, <a class="el" href="path__build_8h_source.html#l00030">PBS_LONG_BUY</a>, <a class="el" href="path__build_8h_source.html#l00024">PBS_SINGLE</a>, <a class="el" href="path__build_8h_source.html#l00026">PBS_WAIT_ARROW</a>, <a class="el" href="path__build_8h_source.html#l00028">PBS_WAIT_BUY</a>, <a class="el" href="path__build_8h_source.html#l00027">PBS_WAIT_SLOPE</a>, <a class="el" href="path__build_8h_source.html#l00025">PBS_WAIT_VOXEL</a>, <a class="el" href="path__build_8h_source.html#l00078">pos</a>, <a class="el" href="path__build_8h_source.html#l00081">selected_arrow</a>, <a class="el" href="path__build_8h_source.html#l00083">selected_slope</a>, <a class="el" href="viewport_8cpp_source.html#l00528">Cursor::SetCursor()</a>, <a class="el" href="viewport_8cpp_source.html#l00483">BaseCursor::SetInvalid()</a>, <a class="el" href="path__build_8h_source.html#l00075">state</a>, <a class="el" href="viewport_8h_source.html#l00249">Viewport::tile_cursor</a>, <a class="el" href="tile_8h_source.html#l00221">TSL_DOWN</a>, <a class="el" href="tile_8h_source.html#l00222">TSL_FLAT</a>, <a class="el" href="tile_8h_source.html#l00234">TSL_INVALID</a>, <a class="el" href="tile_8h_source.html#l00223">TSL_UP</a>, and <a class="el" href="window_8h_source.html#l00049">WC_PATH_BUILDER</a>.</p>
 
-<p>Referenced by <a class="el" href="path__build_8cpp_source.html#l00376">ActivateMode()</a>, <a class="el" href="path__build_8cpp_source.html#l00881">ConfirmLongPath()</a>, <a class="el" href="path__build_8cpp_source.html#l00494">MoveCursor()</a>, <a class="el" href="path__build_8cpp_source.html#l00467">SelectArrow()</a>, <a class="el" href="path__build_8cpp_source.html#l00892">SelectBuyRemove()</a>, <a class="el" href="path__build_8cpp_source.html#l00755">SelectLong()</a>, <a class="el" href="path__build_8cpp_source.html#l00480">SelectPathType()</a>, <a class="el" href="path__build_8cpp_source.html#l00744">SelectSlope()</a>, <a class="el" href="path__build_8cpp_source.html#l00435">SetPathGuiState()</a>, and <a class="el" href="path__build_8cpp_source.html#l00449">TileClicked()</a>.</p>
+<p>Referenced by <a class="el" href="path__build_8cpp_source.html#l00365">ActivateMode()</a>, <a class="el" href="path__build_8cpp_source.html#l00907">SelectBuyRemove()</a>, <a class="el" href="path__build_8cpp_source.html#l00517">SelectPathType()</a>, and <a class="el" href="path__build_8cpp_source.html#l00446">SetState()</a>.</p>
 
 </div>
 </div>
@@ -1326,9 +1336,9 @@ Private Attributes</h2></td></tr>
 
 <p>Reimplemented in <a class="el" href="classTileTerraformMouseMode.html#a7b529d70365b73749a43a948f34842ca">TileTerraformMouseMode</a>, and <a class="el" href="classFenceBuildManager.html#aff12102d42601ebd39615a4b17c93e9e">FenceBuildManager</a>.</p>
 
-<p>Definition at line <a class="el" href="viewport_8cpp_source.html#l01655">1655</a> of file <a class="el" href="viewport_8cpp_source.html">viewport.cpp</a>.</p>
+<p>Definition at line <a class="el" href="viewport_8cpp_source.html#l01639">1639</a> of file <a class="el" href="viewport_8cpp_source.html">viewport.cpp</a>.</p>
 
-<p>Referenced by <a class="el" href="viewport_8cpp_source.html#l01613">Viewport::OnMouseWheelEvent()</a>.</p>
+<p>Referenced by <a class="el" href="viewport_8cpp_source.html#l01597">Viewport::OnMouseWheelEvent()</a>.</p>
 
 </div>
 </div>
@@ -1339,7 +1349,7 @@ Private Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Sep 5 2014 19:06:15 for FreeRCT by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Feb 20 2015 17:42:12 for FreeRCT by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

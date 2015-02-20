@@ -123,9 +123,9 @@ Enumerations</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga714167f12950fd04045c47b29f0bf13a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__viewport__group.html#ga714167f12950fd04045c47b29f0bf13a">ShowMainDisplay</a> (<a class="el" href="stdafx_8h.html#a1134b580f8da4de94ca6b1de4d37975e">uint32</a> xview, <a class="el" href="stdafx_8h.html#a1134b580f8da4de94ca6b1de4d37975e">uint32</a> yview, <a class="el" href="stdafx_8h.html#a1134b580f8da4de94ca6b1de4d37975e">uint32</a> zview)</td></tr>
-<tr class="memdesc:ga714167f12950fd04045c47b29f0bf13a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Open the main isometric display window.  <a href="#ga714167f12950fd04045c47b29f0bf13a">More...</a><br /></td></tr>
-<tr class="separator:ga714167f12950fd04045c47b29f0bf13a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga0dc4080a39ea5f89477c0989aeb98fff"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__viewport__group.html#ga0dc4080a39ea5f89477c0989aeb98fff">ShowMainDisplay</a> (const <a class="el" href="geometry_8h.html#ad44b56387be4716a93eb09e15466703d">XYZPoint32</a> &amp;view_pos)</td></tr>
+<tr class="memdesc:ga0dc4080a39ea5f89477c0989aeb98fff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Open the main isometric display window.  <a href="#ga0dc4080a39ea5f89477c0989aeb98fff">More...</a><br /></td></tr>
+<tr class="separator:ga0dc4080a39ea5f89477c0989aeb98fff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
@@ -232,32 +232,16 @@ Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
-<a class="anchor" id="ga714167f12950fd04045c47b29f0bf13a"></a>
+<a class="anchor" id="ga0dc4080a39ea5f89477c0989aeb98fff"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">void ShowMainDisplay </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="stdafx_8h.html#a1134b580f8da4de94ca6b1de4d37975e">uint32</a>&#160;</td>
-          <td class="paramname"><em>xview</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramtype">const <a class="el" href="geometry_8h.html#ad44b56387be4716a93eb09e15466703d">XYZPoint32</a> &amp;&#160;</td>
+          <td class="paramname"><em>view_pos</em></td><td>)</td>
           <td></td>
-          <td class="paramtype"><a class="el" href="stdafx_8h.html#a1134b580f8da4de94ca6b1de4d37975e">uint32</a>&#160;</td>
-          <td class="paramname"><em>yview</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="stdafx_8h.html#a1134b580f8da4de94ca6b1de4d37975e">uint32</a>&#160;</td>
-          <td class="paramname"><em>zview</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -265,16 +249,14 @@ Functions</h2></td></tr>
 <p>Open the main isometric display window. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">xview</td><td>X pixel position of the center viewpoint of the main display. </td></tr>
-    <tr><td class="paramname">yview</td><td>Y pixel position of the center viewpoint of the main display. </td></tr>
-    <tr><td class="paramname">zview</td><td>Z pixel position of the center viewpoint of the main display. </td></tr>
+    <tr><td class="paramname">view_pos</td><td>Pixel position of the center viewpoint of the main display. </td></tr>
   </table>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="viewport_8cpp_source.html#l01801">1801</a> of file <a class="el" href="viewport_8cpp_source.html">viewport.cpp</a>.</p>
+<p>Definition at line <a class="el" href="viewport_8cpp_source.html#l01781">1781</a> of file <a class="el" href="viewport_8cpp_source.html">viewport.cpp</a>.</p>
 
-<p>References <a class="el" href="viewport_8cpp_source.html#l01727">MouseModes::SetViewportMousemode()</a>.</p>
+<p>References <a class="el" href="viewport_8cpp_source.html#l01709">MouseModes::SetViewportMousemode()</a>.</p>
 
 <p>Referenced by <a class="el" href="gamecontrol_8cpp_source.html#l00027">StartNewGame()</a>.</p>
 
@@ -283,7 +265,7 @@ Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Sep 5 2014 19:06:14 for FreeRCT by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Feb 20 2015 17:42:11 for FreeRCT by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

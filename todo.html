@@ -43,79 +43,81 @@
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><dl class="reflist">
-<dt><a class="anchor" id="_todo000074"></a>Member <a class="el" href="group__gui__group.html#ga8ea057d00e45dc2f9117244fe2ec1b5a">_bottom_toolbar_widgets</a>  []</dt>
+<dt><a class="anchor" id="_todo000076"></a>Member <a class="el" href="group__gui__group.html#ga8ea057d00e45dc2f9117244fe2ec1b5a">_bottom_toolbar_widgets</a>  []</dt>
 <dd><p class="startdd">Left/Right Padding get ignored when drawing text widgets </p>
 <p class="enddd">Implement non-minimal default window size to prevent the need to compute remaining space manually.  </p>
 </dd>
-<dt><a class="anchor" id="_todo000038"></a>Member <a class="el" href="rcdfile_8cpp.html#a21227d6f1ff27e6fd02c68b4a2b051d3">_rcd_paths</a>  []</dt>
+<dt><a class="anchor" id="_todo000040"></a>Member <a class="el" href="rcdfile_8cpp.html#a21227d6f1ff27e6fd02c68b4a2b051d3">_rcd_paths</a>  []</dt>
 <dd>Mke this configurable from cmake.  </dd>
-<dt><a class="anchor" id="_todo000075"></a>Member <a class="el" href="classBottomToolbarWindow.html#afe6501ef0e64a833fcc2b33c0178320a">BottomToolbarWindow::DrawWidget</a>  (WidgetNumber wid_num, const <a class="el" href="classBaseWidget.html" title="Base class for all widgets. ">BaseWidget</a> *wid) const override</dt>
-<dd>Add sprite for thunder to make the list weather sprites complete.  </dd>
-<dt><a class="anchor" id="_todo000008"></a>Member <a class="el" href="classCoasterBuildMode.html#aff978fff0f03cbfb3c7b370e8201dbc5">CoasterBuildMode::SetMousePosition</a>  (const Point16 &amp;pos)</dt>
+<dt><a class="anchor" id="_todo000009"></a>Member <a class="el" href="classCoasterBuildMode.html#aff978fff0f03cbfb3c7b370e8201dbc5">CoasterBuildMode::SetMousePosition</a>  (const Point16 &amp;pos)</dt>
 <dd>Is this data actually used?  </dd>
-<dt><a class="anchor" id="_todo000009"></a>Member <a class="el" href="classCoasterBuildWindow.html#a361e315776d9db0ce4c00b4e0b787775">CoasterBuildWindow::SetupSelection</a>  ()</dt>
+<dt><a class="anchor" id="_todo000010"></a>Member <a class="el" href="classCoasterBuildWindow.html#a361e315776d9db0ce4c00b4e0b787775">CoasterBuildWindow::SetupSelection</a>  ()</dt>
 <dd>Define this in the data format  </dd>
-<dt><a class="anchor" id="_todo000003"></a>Member <a class="el" href="classCoasterInstance.html#accedd89b7e21b1cc55e4f9a9939c751d">CoasterInstance::GetEntranceDirections</a>  (uint16 xvox, uint16 yvox, uint8 zvox) const override</dt>
+<dt><a class="anchor" id="_todo000004"></a>Member <a class="el" href="classCoasterInstance.html#a5ae0ca9bb35fcfb5afe75fe59d531a21">CoasterInstance::EnterRide</a>  (int guest, TileEdge entry) override</dt>
+<dd>Store the guest number.  </dd>
+<dt><a class="anchor" id="_todo000003"></a>Member <a class="el" href="classCoasterInstance.html#a74169966e3c48a1af5c09d373e061f3c">CoasterInstance::GetEntranceDirections</a>  (const XYZPoint16 &amp;vox) const override</dt>
 <dd>add entrance bits for the coaster.  </dd>
-<dt><a class="anchor" id="_todo000006"></a>Member <a class="el" href="classCoasterInstance.html#a1e2eccfccdc036acfc868d0ca17b7e5c">CoasterInstance::GetMaxNumberOfCars</a>  () const </dt>
+<dt><a class="anchor" id="_todo000007"></a>Member <a class="el" href="classCoasterInstance.html#a1e2eccfccdc036acfc868d0ca17b7e5c">CoasterInstance::GetMaxNumberOfCars</a>  () const </dt>
 <dd><p class="startdd">Take coaster length and number of trains into account. </p>
 <p class="enddd">Take car type into account.  </p>
 </dd>
-<dt><a class="anchor" id="_todo000004"></a>Member <a class="el" href="classCoasterInstance.html#ad189c22477f164a36c5e5a2aa00f73b7">CoasterInstance::GetMaxNumberOfTrains</a>  () const </dt>
+<dt><a class="anchor" id="_todo000005"></a>Member <a class="el" href="classCoasterInstance.html#ad189c22477f164a36c5e5a2aa00f73b7">CoasterInstance::GetMaxNumberOfTrains</a>  () const </dt>
 <dd>Take the positioned track pieces of the coaster into account.  </dd>
-<dt><a class="anchor" id="_todo000005"></a>Member <a class="el" href="classCoasterInstance.html#a96f7494a2af7ccc56fe943e62a50bb95">CoasterInstance::SetNumberOfTrains</a>  (int number_trains)</dt>
+<dt><a class="anchor" id="_todo000006"></a>Member <a class="el" href="classCoasterInstance.html#a96f7494a2af7ccc56fe943e62a50bb95">CoasterInstance::SetNumberOfTrains</a>  (int number_trains)</dt>
 <dd>Needs a better value, coaster trains do not stack.  </dd>
-<dt><a class="anchor" id="_todo000007"></a>Class <a class="el" href="classCoasterPlatform.html">CoasterPlatform</a>  </dt>
+<dt><a class="anchor" id="_todo000008"></a>Class <a class="el" href="classCoasterPlatform.html">CoasterPlatform</a>  </dt>
 <dd>Add support for different sizes sprites.  </dd>
 <dt><a class="anchor" id="_todo000002"></a>Member <a class="el" href="classCoasterTrain.html#a0546c00cdc6779e015250319decffd35">CoasterTrain::OnAnimate</a>  (int delay)</dt>
 <dd>Air and rail friction  </dd>
 <dt><a class="anchor" id="_todo000001"></a>Member <a class="el" href="classCoasterType.html#aa132db3139e35bb6374be5ede422c3ec">CoasterType::GetDefaultCarType</a>  () const </dt>
 <dd>Make a proper <a class="el" href="classCarType.html" title="A type of car riding at a track. ">CarType</a> selection.  </dd>
-<dt><a class="anchor" id="_todo000010"></a>Member <a class="el" href="classConfigFile.html#a62080d37d54848653aa26d8bc4630c45">ConfigFile::Load</a>  (const char *fname)</dt>
+<dt><a class="anchor" id="_todo000011"></a>Member <a class="el" href="classConfigFile.html#a62080d37d54848653aa26d8bc4630c45">ConfigFile::Load</a>  (const char *fname)</dt>
 <dd><p class="startdd">[easy] Eliminate duplicate config sections. </p>
 <p class="enddd">[easy] Strip whitespace around section names.  </p>
 </dd>
 <dt><a class="anchor" id="_todo000084"></a>Member <a class="el" href="classDataWidget.html#a8964df88a118c192d01de65ff5fe87bd">DataWidget::Draw</a>  (const <a class="el" href="classGuiWindow.html" title="Base class for windows with a widget tree. ">GuiWindow</a> *w) override</dt>
 <dd>Fix the hard-coded colour of the text.  </dd>
-<dt><a class="anchor" id="_todo000011"></a>Member <a class="el" href="dates_8h.html#ab7e28be5e0d869c2dca2c6f344babdd5">DateOnTick</a>  ()</dt>
+<dt><a class="anchor" id="_todo000012"></a>Member <a class="el" href="dates_8h.html#ab7e28be5e0d869c2dca2c6f344babdd5">DateOnTick</a>  ()</dt>
 <dd>Care about leap years.  </dd>
-<dt><a class="anchor" id="_todo000018"></a>Member <a class="el" href="gui__graphics_8h.html#afab222024b2d71d76a1a75b7f434c3b1">DrawString</a>  (StringID strid, uint8 colour, int x, int y, int width=0x7FFF, Alignment align=ALG_LEFT, bool outline=false)</dt>
+<dt><a class="anchor" id="_todo000019"></a>Member <a class="el" href="gui__graphics_8h.html#afab222024b2d71d76a1a75b7f434c3b1">DrawString</a>  (StringID strid, uint8 colour, int x, int y, int width=0x7FFF, Alignment align=ALG_LEFT, bool outline=false)</dt>
 <dd>Reduce the naiviness of this.  </dd>
-<dt><a class="anchor" id="_todo000018"></a>Member <a class="el" href="gui__graphics_8h.html#afab222024b2d71d76a1a75b7f434c3b1">DrawString</a>  (StringID strid, uint8 colour, int x, int y, int width=0x7FFF, Alignment align=ALG_LEFT, bool outline=false)</dt>
+<dt><a class="anchor" id="_todo000019"></a>Member <a class="el" href="gui__graphics_8h.html#afab222024b2d71d76a1a75b7f434c3b1">DrawString</a>  (StringID strid, uint8 colour, int x, int y, int width=0x7FFF, Alignment align=ALG_LEFT, bool outline=false)</dt>
 <dd>Reduce the naiviness of this.  </dd>
-<dt><a class="anchor" id="_todo000012"></a>Class <a class="el" href="classDropdownMenuWindow.html">DropdownMenuWindow</a>  </dt>
+<dt><a class="anchor" id="_todo000013"></a>Class <a class="el" href="classDropdownMenuWindow.html">DropdownMenuWindow</a>  </dt>
 <dd>Scrollbar.  </dd>
-<dt><a class="anchor" id="_todo000013"></a>Member <a class="el" href="classFenceGui.html#a1db324724c37c2744fd0a13700a3fd20">FenceGui::DrawWidget</a>  (WidgetNumber wid_num, const <a class="el" href="classBaseWidget.html" title="Base class for all widgets. ">BaseWidget</a> *wid) const </dt>
+<dt><a class="anchor" id="_todo000014"></a>Member <a class="el" href="classFenceGui.html#a1db324724c37c2744fd0a13700a3fd20">FenceGui::DrawWidget</a>  (WidgetNumber wid_num, const <a class="el" href="classBaseWidget.html" title="Base class for all widgets. ">BaseWidget</a> *wid) const </dt>
 <dd>Implement scrollbar position &amp; size.  </dd>
-<dt><a class="anchor" id="_todo000014"></a>Member <a class="el" href="classFenceGui.html#adc0e6ef517c6668c34c1c4e38599c831">FenceGui::OnClick</a>  (WidgetNumber wid, const Point16 &amp;pos) override</dt>
+<dt><a class="anchor" id="_todo000015"></a>Member <a class="el" href="classFenceGui.html#adc0e6ef517c6668c34c1c4e38599c831">FenceGui::OnClick</a>  (WidgetNumber wid, const Point16 &amp;pos) override</dt>
 <dd>Implement scrollbar position &amp; size.  </dd>
-<dt><a class="anchor" id="_todo000019"></a>Member <a class="el" href="language_8h.html#a0da6739a63cb91f184c9a637defa759d">GetDateString</a>  (const <a class="el" href="classDate.html" title="Date in the game. ">Date</a> &amp;d, const char *format="%02d-%s-%02d")</dt>
+<dt><a class="anchor" id="_todo000020"></a>Member <a class="el" href="language_8h.html#a0da6739a63cb91f184c9a637defa759d">GetDateString</a>  (const <a class="el" href="classDate.html" title="Date in the game. ">Date</a> &amp;d, const char *format="%02d-%s-%02d")</dt>
 <dd>Allow variable number of format parameters, e.g. "mm-yy".  </dd>
-<dt><a class="anchor" id="_todo000019"></a>Member <a class="el" href="language_8h.html#a0da6739a63cb91f184c9a637defa759d">GetDateString</a>  (const <a class="el" href="classDate.html" title="Date in the game. ">Date</a> &amp;d, const char *format="%02d-%s-%02d")</dt>
+<dt><a class="anchor" id="_todo000020"></a>Member <a class="el" href="language_8h.html#a0da6739a63cb91f184c9a637defa759d">GetDateString</a>  (const <a class="el" href="classDate.html" title="Date in the game. ">Date</a> &amp;d, const char *format="%02d-%s-%02d")</dt>
 <dd>Allow variable number of format parameters, e.g. "mm-yy".  </dd>
 <dt><a class="anchor" id="_todo000088"></a>Member <a class="el" href="window_8cpp.html#aafe46842887e62b149b426c98792fbd0">GetDistanceToMouse</a>  (const Point32 &amp;pt)</dt>
 <dd>[easy] Estimate is pretty stupid, and can be improved. (Partly diagonal + partly horizontal or vertical suffices.)  </dd>
-<dt><a class="anchor" id="_todo000020"></a>Member <a class="el" href="language_8h.html#ac4c65d2334348599d44a8373f235f80b">GetMaxDateSize</a>  ()</dt>
+<dt><a class="anchor" id="_todo000021"></a>Member <a class="el" href="language_8h.html#ac4c65d2334348599d44a8373f235f80b">GetMaxDateSize</a>  ()</dt>
 <dd>Allow different format of date.  </dd>
-<dt><a class="anchor" id="_todo000033"></a>Member <a class="el" href="person_8cpp.html#a7445decb32899258dbb5e80cd3c92503">GetZHeight</a>  (int16 x_vox, int16 y_vox, int16 z_vox, int16 x_pos, int16 y_pos)</dt>
+<dt><a class="anchor" id="_todo000034"></a>Member <a class="el" href="person_8cpp.html#a5248aa1c287bf99832eb36356b2d416e">GetZHeight</a>  (const XYZPoint16 &amp;vox, int16 x_pos, int16 y_pos)</dt>
 <dd><p class="startdd">Make it work at sloped surface too, in case the person ends up at path-less land. </p>
 <p class="enddd">No path here!  </p>
 </dd>
-<dt><a class="anchor" id="_todo000036"></a>Member <a class="el" href="classGuest.html#af61965465372fbc51c1d862cbfe17a50">Guest::DailyUpdate</a>  () override</dt>
-<dd><p class="startdd">Make de-activation a bit more random. </p>
-<p class="enddd">Implement dropping litter (<a class="el" href="classGuest.html#a693b673bb877c2083a45dd2b9a8cf03d" title="Guest has a wrapper for the food or drink. ">Guest::has_wrapper</a>) to the path, and also drop the wrapper when passing a non-empty litter bin.  </p>
+<dt><a class="anchor" id="_todo000037"></a>Member <a class="el" href="classGuest.html#af61965465372fbc51c1d862cbfe17a50">Guest::DailyUpdate</a>  () override</dt>
+<dd><p class="startdd">Make going home a bit more random. </p>
+<p>Implement dropping litter (<a class="el" href="classGuest.html#a693b673bb877c2083a45dd2b9a8cf03d" title="Guest has a wrapper for the food or drink. ">Guest::has_wrapper</a>) to the path, and also drop the wrapper when passing a non-empty litter bin. </p>
+<p>Implement nausea (<a class="el" href="classGuest.html#aff4653277c44b7e0bbc2aeb400c34385" title="Amount of nausea of the guest. ">Guest::nausea</a>). </p>
+<p class="enddd">Implement energy (for tiredness of guests).  </p>
 </dd>
-<dt><a class="anchor" id="_todo000035"></a>Member <a class="el" href="classGuest.html#ac0b98473add1c3fd854745b20e3d9531">Guest::DeActivate</a>  (AnimateResult ar) override</dt>
+<dt><a class="anchor" id="_todo000036"></a>Member <a class="el" href="classGuest.html#ac0b98473add1c3fd854745b20e3d9531">Guest::DeActivate</a>  (AnimateResult ar) override</dt>
 <dd>Evaluate <a class="el" href="classGuest.html#ab8a49643f22586402a233308c458bf48" title="Sum of all good experiences (for evaluating the day after getting home, values are 0-1000)...">Guest::total_happiness</a> against scenario requirements for evaluating the park value.  </dd>
-<dt><a class="anchor" id="_todo000037"></a>Member <a class="el" href="classGuest.html#a83ec56e27b72e44b9acf3ff1201cfc80">Guest::NeedForItem</a>  (enum ItemType it, bool use_random)</dt>
-<dd>Make warm food attractive on cold days.  </dd>
-<dt><a class="anchor" id="_todo000032"></a>Class <a class="el" href="classGuests.html">Guests</a>  </dt>
-<dd>Allow to have several blocks of guests.  </dd>
-<dt><a class="anchor" id="_todo000031"></a>Member <a class="el" href="classGuests.html#a4c2f01336a6da69b9a9bf26487a91639">Guests::OnNewDay</a>  ()</dt>
-<dd><p class="startdd">Add popularity rating concept. </p>
-<p class="enddd"><a class="el" href="classPerson.html" title="Class of a person in the world. ">Person</a> type should be configurable too.  </p>
+<dt><a class="anchor" id="_todo000038"></a>Member <a class="el" href="classGuest.html#a83ec56e27b72e44b9acf3ff1201cfc80">Guest::NeedForItem</a>  (enum ItemType it, bool use_random)</dt>
+<dd><p class="startdd">Make warm food attractive on cold days. </p>
+<p class="enddd">Add some form or age? (just a "is_child" boolean would suffice)  </p>
 </dd>
-<dt><a class="anchor" id="_todo000067"></a>Class <a class="el" href="structGuiSprites.html">GuiSprites</a>  </dt>
+<dt><a class="anchor" id="_todo000033"></a>Class <a class="el" href="classGuests.html">Guests</a>  </dt>
+<dd>Allow to have several blocks of guests.  </dd>
+<dt><a class="anchor" id="_todo000032"></a>Member <a class="el" href="classGuests.html#a4c2f01336a6da69b9a9bf26487a91639">Guests::OnNewDay</a>  ()</dt>
+<dd>Add popularity rating concept.  </dd>
+<dt><a class="anchor" id="_todo000069"></a>Class <a class="el" href="structGuiSprites.html">GuiSprites</a>  </dt>
 <dd><p class="startdd">Add widget for rounded_button </p>
 <p>Add widget for inset_frame </p>
 <p>Add widget for checkbox </p>
@@ -126,109 +128,111 @@
 <p>Add sprites for close box (currently a button)</p>
 <p class="enddd"></p>
 </dd>
-<dt><a class="anchor" id="_todo000059"></a>Member <a class="el" href="structGuiSprites.html#ad8b8eaa9151a2870f734b3d796b97f57">GuiSprites::LoadGCHK</a>  (<a class="el" href="classRcdFileReader.html" title="Class for reading an RCD file. ">RcdFileReader</a> *rcd_file, const ImageMap &amp;sprites)</dt>
+<dt><a class="anchor" id="_todo000062"></a>Member <a class="el" href="structGuiSprites.html#ad8b8eaa9151a2870f734b3d796b97f57">GuiSprites::LoadGCHK</a>  (<a class="el" href="classRcdFileReader.html" title="Class for reading an RCD file. ">RcdFileReader</a> *rcd_file, const ImageMap &amp;sprites)</dt>
 <dd>Load width and height from the RCD file too.  </dd>
-<dt><a class="anchor" id="_todo000061"></a>Member <a class="el" href="structGuiSprites.html#a18b8b13bbe4238e98186b898103d4b86">GuiSprites::LoadGSCL</a>  (<a class="el" href="classRcdFileReader.html" title="Class for reading an RCD file. ">RcdFileReader</a> *rcd_file, const ImageMap &amp;sprites)</dt>
+<dt><a class="anchor" id="_todo000064"></a>Member <a class="el" href="structGuiSprites.html#a18b8b13bbe4238e98186b898103d4b86">GuiSprites::LoadGSCL</a>  (<a class="el" href="classRcdFileReader.html" title="Class for reading an RCD file. ">RcdFileReader</a> *rcd_file, const ImageMap &amp;sprites)</dt>
 <dd><p class="startdd">Move widget_type further to the top in the RCD file block. </p>
 <p class="enddd">Add width of the scrollbar in the RCD file block.  </p>
 </dd>
-<dt><a class="anchor" id="_todo000060"></a>Member <a class="el" href="structGuiSprites.html#a711af4d7871b5880437a234857f6999d">GuiSprites::LoadGSLI</a>  (<a class="el" href="classRcdFileReader.html" title="Class for reading an RCD file. ">RcdFileReader</a> *rcd_file, const ImageMap &amp;sprites)</dt>
+<dt><a class="anchor" id="_todo000063"></a>Member <a class="el" href="structGuiSprites.html#a711af4d7871b5880437a234857f6999d">GuiSprites::LoadGSLI</a>  (<a class="el" href="classRcdFileReader.html" title="Class for reading an RCD file. ">RcdFileReader</a> *rcd_file, const ImageMap &amp;sprites)</dt>
 <dd>Move widget_type further to the top in the RCD file block.  </dd>
-<dt><a class="anchor" id="_todo000024"></a>Member <a class="el" href="map_8h.html#a1de3366166965adbd63f3a4f05116290">HasValidPath</a>  (const <a class="el" href="structVoxel.html" title="One voxel cell in the world. ">Voxel</a> *v)</dt>
+<dt><a class="anchor" id="_todo000025"></a>Member <a class="el" href="map_8h.html#a1de3366166965adbd63f3a4f05116290">HasValidPath</a>  (const <a class="el" href="structVoxel.html" title="One voxel cell in the world. ">Voxel</a> *v)</dt>
 <dd>Extend with acceptable types of path (plain path, queueing path, etc.)  </dd>
-<dt><a class="anchor" id="_todo000039"></a>Member <a class="el" href="classImage32bpp.html#abb3c6f7a6c0e6615bc11b246f31056cf">Image32bpp::Encode</a>  (int xpos, int ypos, int width, int height, int *size) const override</dt>
+<dt><a class="anchor" id="_todo000041"></a>Member <a class="el" href="classImage32bpp.html#abb3c6f7a6c0e6615bc11b246f31056cf">Image32bpp::Encode</a>  (int xpos, int ypos, int width, int height, int *size) const override</dt>
 <dd>Add recolouring image handling.  </dd>
 <dt><a class="anchor" id="_todo000086"></a>Member <a class="el" href="classIntermediateWidget.html#a711fb495e87e34567e7efa8b7e6b654a">IntermediateWidget::SetSmallestSizePosition</a>  (const Rectangle16 &amp;rect) override</dt>
 <dd>Handle RTL languages too.  </dd>
-<dt><a class="anchor" id="_todo000021"></a>Class <a class="el" href="classLanguage.html">Language</a>  </dt>
+<dt><a class="anchor" id="_todo000022"></a>Class <a class="el" href="classLanguage.html">Language</a>  </dt>
 <dd>Implement me.  </dd>
 <dt><a class="anchor" id="_todo000083"></a>Member <a class="el" href="classLeafWidget.html#a5dfc31b5ab5429e1eb0035a509bbea9a">LeafWidget::SetupMinimalSize</a>  (<a class="el" href="classGuiWindow.html" title="Base class for windows with a widget tree. ">GuiWindow</a> *w, <a class="el" href="classBaseWidget.html" title="Base class for all widgets. ">BaseWidget</a> **wid_array) override</dt>
 <dd>Add support for <a class="el" href="group__widget__group.html#gga7b98518122eb2e94554d2b99d29d1452aada768cb51436cfee58f0404950a0c09" title="Resize box. ">WT_RESIZEBOX</a>.  </dd>
-<dt><a class="anchor" id="_todo000081"></a>Member <a class="el" href="classMouseModes.html#a017410b133ee48dfb89c1e3c89d9b382">MouseModes::SetViewportMousemode</a>  ()</dt>
+<dt><a class="anchor" id="_todo000082"></a>Member <a class="el" href="classMouseModes.html#a017410b133ee48dfb89c1e3c89d9b382">MouseModes::SetViewportMousemode</a>  ()</dt>
 <dd><p class="startdd">Perhaps force a redraw/recompute in some way to ensure the right state is displayed? </p>
 <p class="enddd">Perhaps switch mode when a window associated with a mode is raised?  </p>
 </dd>
-<dt><a class="anchor" id="_todo000017"></a>Member <a class="el" href="gui__graphics_8h.html#ab35c436fa65451bffd63d069dbbe37ed">OverlayShaded</a>  (const Rectangle32 &amp;rect)</dt>
+<dt><a class="anchor" id="_todo000018"></a>Member <a class="el" href="gui__graphics_8h.html#ab35c436fa65451bffd63d069dbbe37ed">OverlayShaded</a>  (const Rectangle32 &amp;rect)</dt>
 <dd>Alignment can be done much faster if we may assume a sprite size. Perhaps add some special cases for common sizes?  </dd>
-<dt><a class="anchor" id="_todo000030"></a>Member <a class="el" href="path__build_8cpp.html#ae7c6d68e033b0ad71ed538f11366c08b">PathExistsAtBottomEdge</a>  (int xpos, int ypos, int zpos, TileEdge edge)</dt>
+<dt><a class="anchor" id="_todo000031"></a>Member <a class="el" href="path__build_8cpp.html#afb3219210234f66a8d9f9fa749b20571">PathExistsAtBottomEdge</a>  (XYZPoint16 voxel_pos, TileEdge edge)</dt>
 <dd>Merge with path computations in the path placement.  </dd>
-<dt><a class="anchor" id="_todo000029"></a>Member <a class="el" href="group__map__group.html#ga3622a3eda6865ce3e357b761e4f42dbd">PathSprites</a>  </dt>
+<dt><a class="anchor" id="_todo000030"></a>Member <a class="el" href="group__map__group.html#ga3622a3eda6865ce3e357b761e4f42dbd">PathSprites</a>  </dt>
 <dd><p class="startdd">Have ramps with path sprites without edges.</p>
 <p class="enddd"></p>
 </dd>
-<dt><a class="anchor" id="_todo000028"></a>Member <a class="el" href="classRecolouring.html#aed15ec8e4e92359a680489d3bb5c92dc">Recolouring::GetRecolourTable</a>  (uint8 layer) const </dt>
+<dt><a class="anchor" id="_todo000029"></a>Member <a class="el" href="classRecolouring.html#aed15ec8e4e92359a680489d3bb5c92dc">Recolouring::GetRecolourTable</a>  (uint8 layer) const </dt>
 <dd>Implement recolour layer check in the 32bpp sprite loading, so it can be asserted here.  </dd>
-<dt><a class="anchor" id="_todo000047"></a>Class <a class="el" href="classRideInstance.html">RideInstance</a>  </dt>
+<dt><a class="anchor" id="_todo000049"></a>Class <a class="el" href="classRideInstance.html">RideInstance</a>  </dt>
 <dd>Add ride parts and other things that need to be stored with a ride.  </dd>
-<dt><a class="anchor" id="_todo000043"></a>Member <a class="el" href="classRideInstance.html#ae5a40793161b5ec2264bae87094bb077">RideInstance::CloseRide</a>  ()</dt>
+<dt><a class="anchor" id="_todo000045"></a>Member <a class="el" href="classRideInstance.html#ae5a40793161b5ec2264bae87094bb077">RideInstance::CloseRide</a>  ()</dt>
 <dd>Currently closing is instantly, we may want to have a transition phase here. <dl class="section pre"><dt>Precondition</dt><dd>The ride is open.  </dd></dl>
 </dd>
-<dt><a class="anchor" id="_todo000041"></a>Class <a class="el" href="classRideSelectGui.html">RideSelectGui</a>  </dt>
+<dt><a class="anchor" id="_todo000043"></a>Class <a class="el" href="classRideSelectGui.html">RideSelectGui</a>  </dt>
 <dd>Unify widget number parameters.  </dd>
-<dt><a class="anchor" id="_todo000045"></a>Member <a class="el" href="classRidesManager.html#aeaa33852526a740190bf42f670d0abd4">RidesManager::DeleteInstance</a>  (uint16 num)</dt>
+<dt><a class="anchor" id="_todo000047"></a>Member <a class="el" href="classRidesManager.html#aeaa33852526a740190bf42f670d0abd4">RidesManager::DeleteInstance</a>  (uint16 num)</dt>
 <dd>The small matter of cleaning up in the world map. <dl class="section pre"><dt>Precondition</dt><dd>Instance must be closed.  </dd></dl>
 </dd>
-<dt><a class="anchor" id="_todo000044"></a>Member <a class="el" href="classRidesManager.html#a8e368759cff2cd27366b7b9f4b2cd648">RidesManager::NewInstanceAdded</a>  (uint16 num)</dt>
+<dt><a class="anchor" id="_todo000046"></a>Member <a class="el" href="classRidesManager.html#a8e368759cff2cd27366b7b9f4b2cd648">RidesManager::NewInstanceAdded</a>  (uint16 num)</dt>
 <dd>Add other ride types.  </dd>
-<dt><a class="anchor" id="_todo000046"></a>Member <a class="el" href="ride__type_8h.html#a7920a38ef1d6024ec5d65be22d0c3d6e">RideTypeKind</a>  </dt>
+<dt><a class="anchor" id="_todo000048"></a>Member <a class="el" href="ride__type_8h.html#a7920a38ef1d6024ec5d65be22d0c3d6e">RideTypeKind</a>  </dt>
 <dd>Split coasters into different kinds??  </dd>
 <dt><a class="anchor" id="_todo000085"></a>Member <a class="el" href="classScrollbarWidget.html#adf10aa334f77f886c5a140b7826c2b8e">ScrollbarWidget::OnClick</a>  (const Point32 &amp;base, const Point16 &amp;pos)</dt>
 <dd>Implement clicking above at the slider.  </dd>
-<dt><a class="anchor" id="_todo000048"></a>Member <a class="el" href="classSettingWindow.html#af0c3542c013439b334f22fb69f4909b5">SettingWindow::SetWidgetStringParameters</a>  (WidgetNumber wid_num) const override</dt>
+<dt><a class="anchor" id="_todo000050"></a>Member <a class="el" href="classSettingWindow.html#af0c3542c013439b334f22fb69f4909b5">SettingWindow::SetWidgetStringParameters</a>  (WidgetNumber wid_num) const override</dt>
 <dd><a class="el" href="classLanguage.html" title="Class for retrieving language strings. ">Language</a> name should be part of the language's properties, rather than a string.  </dd>
-<dt><a class="anchor" id="_todo000049"></a>Class <a class="el" href="classShopPlacementManager.html">ShopPlacementManager</a>  </dt>
+<dt><a class="anchor" id="_todo000053"></a>Member <a class="el" href="classShopInstance.html#a8ea7cf63257759688d238eb4c57d7650">ShopInstance::ShopInstance</a>  (const <a class="el" href="classShopType.html" title="A &#39;ride&#39; where you can buy food, drinks, and other stuff you need for a visit. ">ShopType</a> *type)</dt>
+<dd>Implement loading of guests into a batch.  </dd>
+<dt><a class="anchor" id="_todo000051"></a>Class <a class="el" href="classShopPlacementManager.html">ShopPlacementManager</a>  </dt>
 <dd>[low] Other rides will handle construction from their own instance window, perhaps the shop should do that too?  </dd>
-<dt><a class="anchor" id="_todo000042"></a>Member <a class="el" href="classShopPlacementManager.html#aa1f2ade68beec6e457cadba33d757f35">ShopPlacementManager::PlaceShop</a>  (const Point16 &amp;pos)</dt>
+<dt><a class="anchor" id="_todo000044"></a>Member <a class="el" href="classShopPlacementManager.html#aa1f2ade68beec6e457cadba33d757f35">ShopPlacementManager::PlaceShop</a>  (const Point16 &amp;pos)</dt>
 <dd>Let the shop do this.  </dd>
-<dt><a class="anchor" id="_todo000051"></a>Class <a class="el" href="classShopType.html">ShopType</a>  </dt>
+<dt><a class="anchor" id="_todo000054"></a>Class <a class="el" href="classShopType.html">ShopType</a>  </dt>
 <dd>Allow for other sized sprites + different recolours.  </dd>
-<dt><a class="anchor" id="_todo000050"></a>Member <a class="el" href="classShopType.html#a51c574abfadf7dc64f6f54dbf8a3fff1">ShopType::Load</a>  (<a class="el" href="classRcdFileReader.html" title="Class for reading an RCD file. ">RcdFileReader</a> *rcf_file, const ImageMap &amp;sprites, const TextMap &amp;texts)</dt>
+<dt><a class="anchor" id="_todo000052"></a>Member <a class="el" href="classShopType.html#a51c574abfadf7dc64f6f54dbf8a3fff1">ShopType::Load</a>  (<a class="el" href="classRcdFileReader.html" title="Class for reading an RCD file. ">RcdFileReader</a> *rcf_file, const ImageMap &amp;sprites, const TextMap &amp;texts)</dt>
 <dd>Widths other than 64.  </dd>
-<dt><a class="anchor" id="_todo000016"></a>Member <a class="el" href="gamecontrol_8h.html#abb4fdc0e3cdbd8ede2317276c573dd4e">ShutdownGame</a>  ()</dt>
+<dt><a class="anchor" id="_todo000017"></a>Member <a class="el" href="gamecontrol_8h.html#abb4fdc0e3cdbd8ede2317276c573dd4e">ShutdownGame</a>  ()</dt>
 <dd>Clean out the game data structures.  </dd>
-<dt><a class="anchor" id="_todo000080"></a>Member <a class="el" href="classSpriteCollector.html#a81fd5fd1c6aa1c5dae82e61cf72f118b">SpriteCollector::CollectVoxel</a>  (const <a class="el" href="structVoxel.html" title="One voxel cell in the world. ">Voxel</a> *vx, int xpos, int ypos, int zpos, int32 xnorth, int32 ynorth) override</dt>
+<dt><a class="anchor" id="_todo000081"></a>Member <a class="el" href="classSpriteCollector.html#a338ed55297778a47ca74984b088a99a1">SpriteCollector::CollectVoxel</a>  (const <a class="el" href="structVoxel.html" title="One voxel cell in the world. ">Voxel</a> *vx, const XYZPoint16 &amp;voxel_pos, int32 xnorth, int32 ynorth) override</dt>
 <dd>Can we gain time by checking for cursors once at every voxel stack, and only test every <em>zpos</em> when there is one in a stack?  </dd>
-<dt><a class="anchor" id="_todo000065"></a>Member <a class="el" href="classSpriteManager.html#acaa8e05b6be5ffb7868b04c382fcb607">SpriteManager::GetAnimation</a>  (AnimationType anim_type, PersonType per_type) const </dt>
+<dt><a class="anchor" id="_todo000068"></a>Member <a class="el" href="classSpriteManager.html#acaa8e05b6be5ffb7868b04c382fcb607">SpriteManager::GetAnimation</a>  (AnimationType anim_type, PersonType per_type) const </dt>
 <dd>Put this in a static array to make rendering people much cheaper.  </dd>
-<dt><a class="anchor" id="_todo000063"></a>Member <a class="el" href="classSpriteManager.html#a4a506110aec7cecde2e27c476f09b489">SpriteManager::GetSprites</a>  (uint16 size) const </dt>
+<dt><a class="anchor" id="_todo000066"></a>Member <a class="el" href="classSpriteManager.html#a4a506110aec7cecde2e27c476f09b489">SpriteManager::GetSprites</a>  (uint16 size) const </dt>
 <dd>Add support for other sprite sizes as well.  </dd>
-<dt><a class="anchor" id="_todo000064"></a>Member <a class="el" href="classSpriteManager.html#a58c65264c5bd130da024a03fc238d1f1">SpriteManager::GetTableSprite</a>  (uint16 number) const </dt>
+<dt><a class="anchor" id="_todo000067"></a>Member <a class="el" href="classSpriteManager.html#a58c65264c5bd130da024a03fc238d1f1">SpriteManager::GetTableSprite</a>  (uint16 number) const </dt>
 <dd><p class="startdd">Add lots of missing sprites. </p>
 <p class="enddd">Make this more efficient; linearly trying every entry scales badly.  </p>
 </dd>
-<dt><a class="anchor" id="_todo000062"></a>Member <a class="el" href="classSpriteManager.html#a648dad32c46213e4b7346e5094cae6e2">SpriteManager::Load</a>  (const char *fname)</dt>
+<dt><a class="anchor" id="_todo000065"></a>Member <a class="el" href="classSpriteManager.html#a648dad32c46213e4b7346e5094cae6e2">SpriteManager::Load</a>  (const char *fname)</dt>
 <dd><p class="startdd">Try to re-use already loaded blocks. </p>
 <p class="enddd">Code will use last loaded surface as grass.  </p>
 </dd>
-<dt><a class="anchor" id="_todo000056"></a>Member <a class="el" href="classSpriteManager.html#ac2ebc63de83ac951cb0cd7cefd7ad020">SpriteManager::LoadFUND</a>  (<a class="el" href="classRcdFileReader.html" title="Class for reading an RCD file. ">RcdFileReader</a> *rcd_file, const ImageMap &amp;sprites)</dt>
+<dt><a class="anchor" id="_todo000059"></a>Member <a class="el" href="classSpriteManager.html#ac2ebc63de83ac951cb0cd7cefd7ad020">SpriteManager::LoadFUND</a>  (<a class="el" href="classRcdFileReader.html" title="Class for reading an RCD file. ">RcdFileReader</a> *rcd_file, const ImageMap &amp;sprites)</dt>
 <dd>Remove height from RCD block.  </dd>
-<dt><a class="anchor" id="_todo000054"></a>Member <a class="el" href="classSpriteManager.html#aa72e40bcee880126f01cb1f5d35b8a67">SpriteManager::LoadPATH</a>  (<a class="el" href="classRcdFileReader.html" title="Class for reading an RCD file. ">RcdFileReader</a> *rcd_file, const ImageMap &amp;sprites)</dt>
+<dt><a class="anchor" id="_todo000057"></a>Member <a class="el" href="classSpriteManager.html#aa72e40bcee880126f01cb1f5d35b8a67">SpriteManager::LoadPATH</a>  (<a class="el" href="classRcdFileReader.html" title="Class for reading an RCD file. ">RcdFileReader</a> *rcd_file, const ImageMap &amp;sprites)</dt>
 <dd>Remove height from RCD block.  </dd>
-<dt><a class="anchor" id="_todo000057"></a>Member <a class="el" href="classSpriteManager.html#a8ff9996f9277c3b2a6efe17f770e4462">SpriteManager::LoadPLAT</a>  (<a class="el" href="classRcdFileReader.html" title="Class for reading an RCD file. ">RcdFileReader</a> *rcd_file, const ImageMap &amp;sprites)</dt>
+<dt><a class="anchor" id="_todo000060"></a>Member <a class="el" href="classSpriteManager.html#a8ff9996f9277c3b2a6efe17f770e4462">SpriteManager::LoadPLAT</a>  (<a class="el" href="classRcdFileReader.html" title="Class for reading an RCD file. ">RcdFileReader</a> *rcd_file, const ImageMap &amp;sprites)</dt>
 <dd>Remove height from RCD block.  </dd>
-<dt><a class="anchor" id="_todo000058"></a>Member <a class="el" href="classSpriteManager.html#a82275a7c7e7f8019a8eae36ea154dd67">SpriteManager::LoadSUPP</a>  (<a class="el" href="classRcdFileReader.html" title="Class for reading an RCD file. ">RcdFileReader</a> *rcd_file, const ImageMap &amp;sprites)</dt>
+<dt><a class="anchor" id="_todo000061"></a>Member <a class="el" href="classSpriteManager.html#a82275a7c7e7f8019a8eae36ea154dd67">SpriteManager::LoadSUPP</a>  (<a class="el" href="classRcdFileReader.html" title="Class for reading an RCD file. ">RcdFileReader</a> *rcd_file, const ImageMap &amp;sprites)</dt>
 <dd>Remove height from RCD block.  </dd>
-<dt><a class="anchor" id="_todo000052"></a>Member <a class="el" href="classSpriteManager.html#adfe6444ee06e1392b393f54d921e8dd0">SpriteManager::LoadSURF</a>  (<a class="el" href="classRcdFileReader.html" title="Class for reading an RCD file. ">RcdFileReader</a> *rcd_file, const ImageMap &amp;sprites)</dt>
+<dt><a class="anchor" id="_todo000055"></a>Member <a class="el" href="classSpriteManager.html#adfe6444ee06e1392b393f54d921e8dd0">SpriteManager::LoadSURF</a>  (<a class="el" href="classRcdFileReader.html" title="Class for reading an RCD file. ">RcdFileReader</a> *rcd_file, const ImageMap &amp;sprites)</dt>
 <dd>Remove height from RCD block.  </dd>
-<dt><a class="anchor" id="_todo000055"></a>Member <a class="el" href="classSpriteManager.html#ada5b8dc67dfe938ad1b2f5f79ee57d46">SpriteManager::LoadTCOR</a>  (<a class="el" href="classRcdFileReader.html" title="Class for reading an RCD file. ">RcdFileReader</a> *rcd_file, const ImageMap &amp;sprites)</dt>
+<dt><a class="anchor" id="_todo000058"></a>Member <a class="el" href="classSpriteManager.html#ada5b8dc67dfe938ad1b2f5f79ee57d46">SpriteManager::LoadTCOR</a>  (<a class="el" href="classRcdFileReader.html" title="Class for reading an RCD file. ">RcdFileReader</a> *rcd_file, const ImageMap &amp;sprites)</dt>
 <dd>Remove height from RCD block.  </dd>
-<dt><a class="anchor" id="_todo000053"></a>Member <a class="el" href="classSpriteManager.html#a38a2aaea23f4a86107c7871a2477481e">SpriteManager::LoadTSEL</a>  (<a class="el" href="classRcdFileReader.html" title="Class for reading an RCD file. ">RcdFileReader</a> *rcd_file, const ImageMap &amp;sprites)</dt>
+<dt><a class="anchor" id="_todo000056"></a>Member <a class="el" href="classSpriteManager.html#a38a2aaea23f4a86107c7871a2477481e">SpriteManager::LoadTSEL</a>  (<a class="el" href="classRcdFileReader.html" title="Class for reading an RCD file. ">RcdFileReader</a> *rcd_file, const ImageMap &amp;sprites)</dt>
 <dd>Remove height from RCD block.  </dd>
-<dt><a class="anchor" id="_todo000069"></a>Member <a class="el" href="classSpriteStorage.html#a61ff0ce89464b6f4d8777d5b8e7bb27f">SpriteStorage::GetAnimationSprite</a>  (AnimationType anim_type, uint16 frame_index, PersonType pers_type, ViewOrientation view) const </dt>
+<dt><a class="anchor" id="_todo000071"></a>Member <a class="el" href="classSpriteStorage.html#a61ff0ce89464b6f4d8777d5b8e7bb27f">SpriteStorage::GetAnimationSprite</a>  (AnimationType anim_type, uint16 frame_index, PersonType pers_type, ViewOrientation view) const </dt>
 <dd>[high] Pulling animations from a map for drawing sprites is too expensive.  </dd>
-<dt><a class="anchor" id="_todo000068"></a>Member <a class="el" href="classSpriteStorage.html#af6d10f568074c53528182934f9392762">SpriteStorage::GetPathSprite</a>  (uint8 type, uint8 slope, ViewOrientation orient) const </dt>
+<dt><a class="anchor" id="_todo000070"></a>Member <a class="el" href="classSpriteStorage.html#af6d10f568074c53528182934f9392762">SpriteStorage::GetPathSprite</a>  (uint8 type, uint8 slope, ViewOrientation orient) const </dt>
 <dd>[low] <em>type</em> is not used due to lack of other path types (sprites).  </dd>
-<dt><a class="anchor" id="_todo000025"></a>Member <a class="el" href="map_8h.html#ada9f0c1420f66f999469d82ef2262280ae3bfbce4590e9566985d32b115b851d7">SRI_FULL_RIDES</a>  </dt>
+<dt><a class="anchor" id="_todo000026"></a>Member <a class="el" href="map_8h.html#ada9f0c1420f66f999469d82ef2262280ae3bfbce4590e9566985d32b115b851d7">SRI_FULL_RIDES</a>  </dt>
 <dd>Add other scenery objects, like trees and flower beds.  </dd>
-<dt><a class="anchor" id="_todo000015"></a>Member <a class="el" href="gamecontrol_8h.html#a18f61bcdb241b66a808fac6ad4318edb">StartNewGame</a>  ()</dt>
+<dt><a class="anchor" id="_todo000016"></a>Member <a class="el" href="gamecontrol_8h.html#a18f61bcdb241b66a808fac6ad4318edb">StartNewGame</a>  ()</dt>
 <dd>We blindly assume game data structures are all clean.  </dd>
-<dt><a class="anchor" id="_todo000040"></a>Member <a class="el" href="classStringsNode.html#a201d71ead63d58404305a80515c7b02b">StringsNode::GetKey</a>  () const </dt>
+<dt><a class="anchor" id="_todo000042"></a>Member <a class="el" href="classStringsNode.html#a201d71ead63d58404305a80515c7b02b">StringsNode::GetKey</a>  () const </dt>
 <dd>This looks like it could be moved to <code>this-&gt;key</code>.  </dd>
-<dt><a class="anchor" id="_todo000070"></a>Class <a class="el" href="classTerrainChanges.html">TerrainChanges</a>  </dt>
+<dt><a class="anchor" id="_todo000072"></a>Class <a class="el" href="classTerrainChanges.html">TerrainChanges</a>  </dt>
 <dd><p class="startdd">Enable pulling the screen min/max coordinates from it, so we can give a good estimate of the area to redraw.</p>
 <p class="enddd"></p>
 </dd>
-<dt><a class="anchor" id="_todo000071"></a>Member <a class="el" href="classToolbarWindow.html#aa546e24228fe121493d636840d31b6ae">ToolbarWindow::OnClick</a>  (WidgetNumber number, const Point16 &amp;pos) override</dt>
+<dt><a class="anchor" id="_todo000073"></a>Member <a class="el" href="classToolbarWindow.html#aa546e24228fe121493d636840d31b6ae">ToolbarWindow::OnClick</a>  (WidgetNumber number, const Point16 &amp;pos) override</dt>
 <dd><p class="startdd">Provide option to enter the filename for saving. </p>
 <p>Provide feedback on the save. </p>
 <p class="enddd">Provide option to select the file to load.  </p>
@@ -237,26 +241,22 @@
 <dd><p class="startdd">[medium/difficult] Do this much less stupid.</p>
 <p class="enddd"></p>
 </dd>
-<dt><a class="anchor" id="_todo000077"></a>Member <a class="el" href="classVideoSystem.html#aac2ee62ab536863a2d11c029988a8056">VideoSystem::FinishRepaint</a>  ()</dt>
+<dt><a class="anchor" id="_todo000078"></a>Member <a class="el" href="classVideoSystem.html#aac2ee62ab536863a2d11c029988a8056">VideoSystem::FinishRepaint</a>  ()</dt>
 <dd>Implement partial window repainting.  </dd>
-<dt><a class="anchor" id="_todo000076"></a>Member <a class="el" href="classVideoSystem.html#a2e7f00ddaf32738929349f2be93a26e9">VideoSystem::MarkDisplayDirty</a>  (const Rectangle32 &amp;rect)</dt>
+<dt><a class="anchor" id="_todo000077"></a>Member <a class="el" href="classVideoSystem.html#a2e7f00ddaf32738929349f2be93a26e9">VideoSystem::MarkDisplayDirty</a>  (const Rectangle32 &amp;rect)</dt>
 <dd>Keep an administration of the rectangle(s??) to update, and update just that part.  </dd>
-<dt><a class="anchor" id="_todo000026"></a>Member <a class="el" href="structVoxel.html#a1f88256023c50f9d04fbe123db7c7320">Voxel::GetGrowth</a>  () const </dt>
+<dt><a class="anchor" id="_todo000027"></a>Member <a class="el" href="structVoxel.html#a1f88256023c50f9d04fbe123db7c7320">Voxel::GetGrowth</a>  () const </dt>
 <dd>Increment this value and (change ground type to other grass kinds) regularly to simulate grass growth.  </dd>
-<dt><a class="anchor" id="_todo000022"></a>Member <a class="el" href="structVoxel.html#a64f0c4eaf8b7b2601bd2d4046b414831">Voxel::Load</a>  (<a class="el" href="classLoader.html" title="Class for loading a save game. ">Loader</a> &amp;ldr, uint32 version)</dt>
+<dt><a class="anchor" id="_todo000023"></a>Member <a class="el" href="structVoxel.html#a64f0c4eaf8b7b2601bd2d4046b414831">Voxel::Load</a>  (<a class="el" href="classLoader.html" title="Class for loading a save game. ">Loader</a> &amp;ldr, uint32 version)</dt>
 <dd>Check sanity of the data.  </dd>
-<dt><a class="anchor" id="_todo000027"></a>Member <a class="el" href="structVoxel.html#ac141463f7c1579b0916bf9e52cb92161">Voxel::SetGrowth</a>  (uint8 growth)</dt>
+<dt><a class="anchor" id="_todo000028"></a>Member <a class="el" href="structVoxel.html#ac141463f7c1579b0916bf9e52cb92161">Voxel::SetGrowth</a>  (uint8 growth)</dt>
 <dd>Increment this value and (change ground type to other grass kinds) regularly to simulate grass growth.  </dd>
-<dt><a class="anchor" id="_todo000079"></a>Member <a class="el" href="classVoxelCollector.html#a05a198f3b94bfff20c1bf1ccdf4ae365">VoxelCollector::Collect</a>  (bool use_additions)</dt>
+<dt><a class="anchor" id="_todo000080"></a>Member <a class="el" href="classVoxelCollector.html#a05a198f3b94bfff20c1bf1ccdf4ae365">VoxelCollector::Collect</a>  (bool use_additions)</dt>
 <dd>Do this less stupid. Walking the whole world is not going to work in general.  </dd>
-<dt><a class="anchor" id="_todo000078"></a>Member <a class="el" href="classVoxelCollector.html#ae29ba7f4a6a8787134ca8c7d1b59fb7b">VoxelCollector::VoxelCollector</a>  (<a class="el" href="classViewport.html" title="Class for displaying parts of the world. ">Viewport</a> *vp, bool draw_above_stack)</dt>
+<dt><a class="anchor" id="_todo000079"></a>Member <a class="el" href="classVoxelCollector.html#ae29ba7f4a6a8787134ca8c7d1b59fb7b">VoxelCollector::VoxelCollector</a>  (<a class="el" href="classViewport.html" title="Class for displaying parts of the world. ">Viewport</a> *vp, bool draw_above_stack)</dt>
 <dd>Can we remove some variables, as <em>vp</em> is stored now as well?  </dd>
-<dt><a class="anchor" id="_todo000023"></a>Member <a class="el" href="classVoxelStack.html#a4c173066a68870a801e1ad59b0e72eea">VoxelStack::MakeVoxelStack</a>  (int16 new_base, uint16 new_height)</dt>
+<dt><a class="anchor" id="_todo000024"></a>Member <a class="el" href="classVoxelStack.html#a4c173066a68870a801e1ad59b0e72eea">VoxelStack::MakeVoxelStack</a>  (int16 new_base, uint16 new_height)</dt>
 <dd>If contents of a voxel is cleared, it might be released from the stack. Currently that is never done.  </dd>
-<dt><a class="anchor" id="_todo000066"></a>Member <a class="el" href="sprite__store_8h.html#a39e4120997ff50612ad4a983356c664c">WeatherSprites</a>  </dt>
-<dd>Add weather.  </dd>
-<dt><a class="anchor" id="_todo000082"></a>Member <a class="el" href="weather_8h.html#aae2a79ad426e847c0ddfd77d04ce2516">WeatherType</a>  </dt>
-<dd>Eliminate the need for <a class="el" href="sprite__store_8h.html#a39e4120997ff50612ad4a983356c664c" title="Offsets of weather sprites to SPR_GUI_WEATHER_START, for different types of weather. ">WeatherSprites</a> by adding a thunder sprite.  </dd>
 <dt><a class="anchor" id="_todo000087"></a>File <a class="el" href="window_8cpp.html">window.cpp</a>  </dt>
 <dd>[low] Consider the case where we don't have a video system.  </dd>
 <dt><a class="anchor" id="_todo000089"></a>Member <a class="el" href="classWindow.html#a52b7f858345bf4ce8902e144e8076522">Window::MarkDirty</a>  ()</dt>
@@ -271,7 +271,7 @@
 </div></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Sep 5 2014 19:06:14 for FreeRCT by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Feb 20 2015 17:42:11 for FreeRCT by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>
