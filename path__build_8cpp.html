@@ -75,6 +75,9 @@ Functions</h2></td></tr>
 <tr class="memitem:af15df8219870fcb7780c5a50afaca7be"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="path__build_8cpp.html#af15df8219870fcb7780c5a50afaca7be">RemovePathAtTile</a> (const <a class="el" href="geometry_8h.html#a71fcb91f44cc6cbf519d0c45c07e931d">XYZPoint16</a> &amp;voxel_pos, <a class="el" href="stdafx_8h.html#adde6aaee8457bee49c2a92621fe22b79">uint8</a> path_spr)</td></tr>
 <tr class="memdesc:af15df8219870fcb7780c5a50afaca7be"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove a path from a tile, and free the voxels above it as well.  <a href="#af15df8219870fcb7780c5a50afaca7be">More...</a><br /></td></tr>
 <tr class="separator:af15df8219870fcb7780c5a50afaca7be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a858db692af54f3bab9957184b00246"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="path__build_8cpp.html#a0a858db692af54f3bab9957184b00246">ChangePathAtTile</a> (const <a class="el" href="geometry_8h.html#a71fcb91f44cc6cbf519d0c45c07e931d">XYZPoint16</a> &amp;voxel_pos, <a class="el" href="path_8h.html#ae093c9a96eda0463cdd2501ba83f10c3">PathType</a> path_type, <a class="el" href="stdafx_8h.html#adde6aaee8457bee49c2a92621fe22b79">uint8</a> path_spr)</td></tr>
+<tr class="memdesc:a0a858db692af54f3bab9957184b00246"><td class="mdescLeft">&#160;</td><td class="mdescRight">Change the path type of a currently existing path.  <a href="#a0a858db692af54f3bab9957184b00246">More...</a><br /></td></tr>
+<tr class="separator:a0a858db692af54f3bab9957184b00246"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afb3219210234f66a8d9f9fa749b20571"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="path__build_8cpp.html#afb3219210234f66a8d9f9fa749b20571">PathExistsAtBottomEdge</a> (<a class="el" href="geometry_8h.html#a71fcb91f44cc6cbf519d0c45c07e931d">XYZPoint16</a> voxel_pos, <a class="el" href="group__map__group.html#ga29bb8f9503c34074bad3c762c92ee68b">TileEdge</a> edge)</td></tr>
 <tr class="memdesc:afb3219210234f66a8d9f9fa749b20571"><td class="mdescLeft">&#160;</td><td class="mdescRight">Does a path run at/to the bottom the given voxel in the neighbouring voxel?  <a href="#afb3219210234f66a8d9f9fa749b20571">More...</a><br /></td></tr>
 <tr class="separator:afb3219210234f66a8d9f9fa749b20571"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -90,6 +93,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a502fa2642f0903f2b589abd3f4abfacf"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="path__build_8cpp.html#a502fa2642f0903f2b589abd3f4abfacf">RemovePath</a> (const <a class="el" href="geometry_8h.html#a71fcb91f44cc6cbf519d0c45c07e931d">XYZPoint16</a> &amp;voxel_pos, bool test_only)</td></tr>
 <tr class="memdesc:a502fa2642f0903f2b589abd3f4abfacf"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Try to) remove a path from the given voxel.  <a href="#a502fa2642f0903f2b589abd3f4abfacf">More...</a><br /></td></tr>
 <tr class="separator:a502fa2642f0903f2b589abd3f4abfacf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad6b3116dd283d5d399d8998df4eff0f0"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="path__build_8cpp.html#ad6b3116dd283d5d399d8998df4eff0f0">ChangePath</a> (const <a class="el" href="geometry_8h.html#a71fcb91f44cc6cbf519d0c45c07e931d">XYZPoint16</a> &amp;voxel_pos, <a class="el" href="path_8h.html#ae093c9a96eda0463cdd2501ba83f10c3">PathType</a> path_type, bool test_only)</td></tr>
+<tr class="memdesc:ad6b3116dd283d5d399d8998df4eff0f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Try to) change the path type of the current path at the given voxel.  <a href="#ad6b3116dd283d5d399d8998df4eff0f0">More...</a><br /></td></tr>
+<tr class="separator:ad6b3116dd283d5d399d8998df4eff0f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae89adbb52380051e181630dfa6276cd1"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="stdafx_8h.html#adde6aaee8457bee49c2a92621fe22b79">uint8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="path__build_8cpp.html#ae89adbb52380051e181630dfa6276cd1">CanBuildPathFromEdge</a> (const <a class="el" href="geometry_8h.html#a71fcb91f44cc6cbf519d0c45c07e931d">XYZPoint16</a> &amp;voxel_pos, <a class="el" href="group__map__group.html#ga29bb8f9503c34074bad3c762c92ee68b">TileEdge</a> edge)</td></tr>
 <tr class="memdesc:ae89adbb52380051e181630dfa6276cd1"><td class="mdescLeft">&#160;</td><td class="mdescRight">In the given voxel, can a path be build in the voxel from the bottom at the given edge?  <a href="#ae89adbb52380051e181630dfa6276cd1">More...</a><br /></td></tr>
 <tr class="separator:ae89adbb52380051e181630dfa6276cd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -165,7 +171,7 @@ Variables</h2></td></tr>
 
 <p>References <a class="el" href="viewport_8cpp_source.html#l00095">_additions</a>, <a class="el" href="sprite__store_8cpp_source.html#l00031">_sprite_manager</a>, <a class="el" href="path_8cpp_source.html#l00431">AddRemovePathEdges()</a>, <a class="el" href="map_8h_source.html#l00282">Voxel::ClearVoxel()</a>, <a class="el" href="tile_8h_source.html#l00126">EDGE_ALL</a>, <a class="el" href="map_8cpp_source.html#l00234">VoxelStack::GetCreate()</a>, <a class="el" href="map_8cpp_source.html#l00675">WorldAdditions::GetModifyStack()</a>, <a class="el" href="sprite__store_8cpp_source.html#l01748">SpriteManager::GetPathStatus()</a>, <a class="el" href="map_8h_source.html#l00440">MakePathInstanceData()</a>, <a class="el" href="viewport_8cpp_source.html#l01698">MarkVoxelDirty()</a>, <a class="el" href="path_8h_source.html#l00077">PATH_FLAT_COUNT</a>, <a class="el" href="path_8h_source.html#l00085">PATH_INVALID</a>, <a class="el" href="map_8h_source.html#l00081">Voxel::SetInstance()</a>, <a class="el" href="map_8h_source.html#l00114">Voxel::SetInstanceData()</a>, <a class="el" href="map_8h_source.html#l00043">SRI_PATH</a>, <a class="el" href="geometry_8h_source.html#l00100">XYZPoint&lt; CT &gt;::x</a>, <a class="el" href="geometry_8h_source.html#l00101">XYZPoint&lt; CT &gt;::y</a>, and <a class="el" href="geometry_8h_source.html#l00102">XYZPoint&lt; CT &gt;::z</a>.</p>
 
-<p>Referenced by <a class="el" href="path__build_8cpp_source.html#l00192">BuildDownwardPath()</a>, <a class="el" href="path__build_8cpp_source.html#l00156">BuildFlatPath()</a>, and <a class="el" href="path__build_8cpp_source.html#l00115">BuildUpwardPath()</a>.</p>
+<p>Referenced by <a class="el" href="path__build_8cpp_source.html#l00215">BuildDownwardPath()</a>, <a class="el" href="path__build_8cpp_source.html#l00179">BuildFlatPath()</a>, and <a class="el" href="path__build_8cpp_source.html#l00138">BuildUpwardPath()</a>.</p>
 
 </div>
 </div>
@@ -215,7 +221,63 @@ Variables</h2></td></tr>
 
 <p>References <a class="el" href="viewport_8cpp_source.html#l00095">_additions</a>, <a class="el" href="path_8cpp_source.html#l00431">AddRemovePathEdges()</a>, <a class="el" href="tile_8h_source.html#l00126">EDGE_ALL</a>, <a class="el" href="map_8cpp_source.html#l00234">VoxelStack::GetCreate()</a>, <a class="el" href="map_8cpp_source.html#l00675">WorldAdditions::GetModifyStack()</a>, <a class="el" href="viewport_8cpp_source.html#l01698">MarkVoxelDirty()</a>, <a class="el" href="path_8h_source.html#l00116">PAS_UNUSED</a>, <a class="el" href="path_8h_source.html#l00077">PATH_FLAT_COUNT</a>, <a class="el" href="map_8h_source.html#l00081">Voxel::SetInstance()</a>, <a class="el" href="map_8h_source.html#l00114">Voxel::SetInstanceData()</a>, <a class="el" href="map_8h_source.html#l00037">SRI_FREE</a>, <a class="el" href="geometry_8h_source.html#l00100">XYZPoint&lt; CT &gt;::x</a>, <a class="el" href="geometry_8h_source.html#l00101">XYZPoint&lt; CT &gt;::y</a>, and <a class="el" href="geometry_8h_source.html#l00102">XYZPoint&lt; CT &gt;::z</a>.</p>
 
-<p>Referenced by <a class="el" href="path__build_8cpp_source.html#l00235">RemovePath()</a>.</p>
+<p>Referenced by <a class="el" href="path__build_8cpp_source.html#l00258">RemovePath()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a0a858db692af54f3bab9957184b00246"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void ChangePathAtTile </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="geometry_8h.html#a71fcb91f44cc6cbf519d0c45c07e931d">XYZPoint16</a> &amp;&#160;</td>
+          <td class="paramname"><em>voxel_pos</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="path_8h.html#ae093c9a96eda0463cdd2501ba83f10c3">PathType</a>&#160;</td>
+          <td class="paramname"><em>path_type</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="stdafx_8h.html#adde6aaee8457bee49c2a92621fe22b79">uint8</a>&#160;</td>
+          <td class="paramname"><em>path_spr</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Change the path type of a currently existing path. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">voxel_pos</td><td>Coordinate of the voxel. </td></tr>
+    <tr><td class="paramname">path_type</td><td>The type of path to change to. </td></tr>
+    <tr><td class="paramname">path_spr</td><td>Imploded sprite number. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="path__build_8cpp_source.html#l00085">85</a> of file <a class="el" href="path__build_8cpp_source.html">path_build.cpp</a>.</p>
+
+<p>References <a class="el" href="viewport_8cpp_source.html#l00095">_additions</a>, <a class="el" href="sprite__store_8cpp_source.html#l00031">_sprite_manager</a>, <a class="el" href="path_8cpp_source.html#l00431">AddRemovePathEdges()</a>, <a class="el" href="tile_8h_source.html#l00126">EDGE_ALL</a>, <a class="el" href="map_8cpp_source.html#l00234">VoxelStack::GetCreate()</a>, <a class="el" href="map_8cpp_source.html#l00675">WorldAdditions::GetModifyStack()</a>, <a class="el" href="sprite__store_8cpp_source.html#l01748">SpriteManager::GetPathStatus()</a>, <a class="el" href="map_8h_source.html#l00440">MakePathInstanceData()</a>, <a class="el" href="viewport_8cpp_source.html#l01698">MarkVoxelDirty()</a>, <a class="el" href="path_8h_source.html#l00116">PAS_UNUSED</a>, <a class="el" href="path_8h_source.html#l00030">PATH_EMPTY</a>, <a class="el" href="path_8h_source.html#l00077">PATH_FLAT_COUNT</a>, <a class="el" href="map_8h_source.html#l00114">Voxel::SetInstanceData()</a>, <a class="el" href="geometry_8h_source.html#l00100">XYZPoint&lt; CT &gt;::x</a>, <a class="el" href="geometry_8h_source.html#l00101">XYZPoint&lt; CT &gt;::y</a>, and <a class="el" href="geometry_8h_source.html#l00102">XYZPoint&lt; CT &gt;::z</a>.</p>
+
+<p>Referenced by <a class="el" href="path__build_8cpp_source.html#l00290">ChangePath()</a>.</p>
 
 </div>
 </div>
@@ -255,7 +317,7 @@ Variables</h2></td></tr>
 <dl class="section pre"><dt>Precondition</dt><dd>voxel coordinate must be valid in the world. </dd></dl>
 <dl class="todo"><dt><b><a class="el" href="todo.html#_todo000031">Todo:</a></b></dt><dd>Merge with path computations in the path placement. </dd></dl>
 
-<p>Definition at line <a class="el" href="path__build_8cpp_source.html#l00087">87</a> of file <a class="el" href="path__build_8cpp_source.html">path_build.cpp</a>.</p>
+<p>Definition at line <a class="el" href="path__build_8cpp_source.html#l00110">110</a> of file <a class="el" href="path__build_8cpp_source.html">path_build.cpp</a>.</p>
 
 <p>References <a class="el" href="path_8cpp_source.html#l00026">_path_down_from_edge</a>, <a class="el" href="path_8cpp_source.html#l00018">_path_up_from_edge</a>, <a class="el" href="tile__func_8cpp_source.html#l00032">_tile_dxy</a>, <a class="el" href="map_8cpp_source.html#l00027">_world</a>, <a class="el" href="map_8h_source.html#l00390">GetImplodedPathSlope()</a>, <a class="el" href="map_8h_source.html#l00514">VoxelWorld::GetVoxel()</a>, <a class="el" href="map_8h_source.html#l00368">HasValidPath()</a>, <a class="el" href="map_8h_source.html#l00639">IsVoxelstackInsideWorld()</a>, <a class="el" href="path_8h_source.html#l00077">PATH_FLAT_COUNT</a>, <a class="el" href="geometry_8h_source.html#l00036">Point&lt; CT &gt;::x</a>, <a class="el" href="geometry_8h_source.html#l00100">XYZPoint&lt; CT &gt;::x</a>, <a class="el" href="geometry_8h_source.html#l00037">Point&lt; CT &gt;::y</a>, <a class="el" href="geometry_8h_source.html#l00101">XYZPoint&lt; CT &gt;::y</a>, and <a class="el" href="geometry_8h_source.html#l00102">XYZPoint&lt; CT &gt;::z</a>.</p>
 
@@ -319,11 +381,11 @@ Variables</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Whether the path is or could be built. </dd></dl>
 
-<p>Definition at line <a class="el" href="path__build_8cpp_source.html#l00115">115</a> of file <a class="el" href="path__build_8cpp_source.html">path_build.cpp</a>.</p>
+<p>Definition at line <a class="el" href="path__build_8cpp_source.html#l00138">138</a> of file <a class="el" href="path__build_8cpp_source.html">path_build.cpp</a>.</p>
 
 <p>References <a class="el" href="tile__func_8cpp_source.html#l00016">_corners_at_edge</a>, <a class="el" href="gamemode_8cpp_source.html#l00016">_game_mode_mgr</a>, <a class="el" href="path_8cpp_source.html#l00018">_path_up_from_edge</a>, <a class="el" href="map_8cpp_source.html#l00027">_world</a>, <a class="el" href="path__build_8cpp_source.html#l00028">BuildPathAtTile()</a>, <a class="el" href="tile_8h_source.html#l00158">ExpandTileSlope()</a>, <a class="el" href="tile_8h_source.html#l00212">FDT_INVALID</a>, <a class="el" href="map_8cpp_source.html#l00216">VoxelStack::Get()</a>, <a class="el" href="map_8h_source.html#l00183">Voxel::GetFoundationType()</a>, <a class="el" href="map_8h_source.html#l00215">Voxel::GetGroundSlope()</a>, <a class="el" href="map_8h_source.html#l00224">Voxel::GetGroundType()</a>, <a class="el" href="map_8h_source.html#l00072">Voxel::GetInstance()</a>, <a class="el" href="map_8cpp_source.html#l00454">VoxelWorld::GetStack()</a>, <a class="el" href="map_8cpp_source.html#l00482">VoxelWorld::GetTileOwner()</a>, <a class="el" href="tile_8h_source.html#l00198">GTP_INVALID</a>, <a class="el" href="gamemode_8h_source.html#l00054">GameModeManager::InPlayMode()</a>, <a class="el" href="map_8h_source.html#l00276">Voxel::IsEmpty()</a>, <a class="el" href="map_8h_source.html#l00639">IsVoxelstackInsideWorld()</a>, <a class="el" href="map_8h_source.html#l00449">OWN_PARK</a>, <a class="el" href="map_8h_source.html#l00037">SRI_FREE</a>, <a class="el" href="tile_8h_source.html#l00069">TSB_STEEP</a>, <a class="el" href="tile_8h_source.html#l00070">TSB_TOP</a>, <a class="el" href="map_8h_source.html#l00027">WORLD_Z_SIZE</a>, <a class="el" href="geometry_8h_source.html#l00100">XYZPoint&lt; CT &gt;::x</a>, <a class="el" href="geometry_8h_source.html#l00101">XYZPoint&lt; CT &gt;::y</a>, and <a class="el" href="geometry_8h_source.html#l00102">XYZPoint&lt; CT &gt;::z</a>.</p>
 
-<p>Referenced by <a class="el" href="path__build_8cpp_source.html#l00266">CanBuildPathFromEdge()</a>, <a class="el" href="path__build_8cpp_source.html#l00811">PathBuildManager::ComputeNewLongPath()</a>, <a class="el" href="path__build_8cpp_source.html#l00635">PathBuildManager::ComputeWorldAdditions()</a>, and <a class="el" href="path__build_8cpp_source.html#l00456">PathBuildManager::TileClicked()</a>.</p>
+<p>Referenced by <a class="el" href="path__build_8cpp_source.html#l00315">CanBuildPathFromEdge()</a>, <a class="el" href="path__build_8cpp_source.html#l00878">PathBuildManager::ComputeNewLongPath()</a>, <a class="el" href="path__build_8cpp_source.html#l00688">PathBuildManager::ComputeWorldAdditions()</a>, and <a class="el" href="path__build_8cpp_source.html#l00505">PathBuildManager::TileClicked()</a>.</p>
 
 </div>
 </div>
@@ -376,11 +438,11 @@ Variables</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Whether the path is or could be built. </dd></dl>
 
-<p>Definition at line <a class="el" href="path__build_8cpp_source.html#l00156">156</a> of file <a class="el" href="path__build_8cpp_source.html">path_build.cpp</a>.</p>
+<p>Definition at line <a class="el" href="path__build_8cpp_source.html#l00179">179</a> of file <a class="el" href="path__build_8cpp_source.html">path_build.cpp</a>.</p>
 
 <p>References <a class="el" href="gamemode_8cpp_source.html#l00016">_game_mode_mgr</a>, <a class="el" href="map_8cpp_source.html#l00027">_world</a>, <a class="el" href="path__build_8cpp_source.html#l00028">BuildPathAtTile()</a>, <a class="el" href="tile_8h_source.html#l00212">FDT_INVALID</a>, <a class="el" href="map_8cpp_source.html#l00216">VoxelStack::Get()</a>, <a class="el" href="map_8h_source.html#l00183">Voxel::GetFoundationType()</a>, <a class="el" href="map_8h_source.html#l00215">Voxel::GetGroundSlope()</a>, <a class="el" href="map_8h_source.html#l00224">Voxel::GetGroundType()</a>, <a class="el" href="map_8h_source.html#l00072">Voxel::GetInstance()</a>, <a class="el" href="map_8cpp_source.html#l00454">VoxelWorld::GetStack()</a>, <a class="el" href="map_8cpp_source.html#l00482">VoxelWorld::GetTileOwner()</a>, <a class="el" href="tile_8h_source.html#l00198">GTP_INVALID</a>, <a class="el" href="gamemode_8h_source.html#l00054">GameModeManager::InPlayMode()</a>, <a class="el" href="map_8h_source.html#l00276">Voxel::IsEmpty()</a>, <a class="el" href="map_8h_source.html#l00639">IsVoxelstackInsideWorld()</a>, <a class="el" href="map_8h_source.html#l00449">OWN_PARK</a>, <a class="el" href="path_8h_source.html#l00030">PATH_EMPTY</a>, <a class="el" href="path_8h_source.html#l00077">PATH_FLAT_COUNT</a>, <a class="el" href="map_8h_source.html#l00037">SRI_FREE</a>, <a class="el" href="map_8h_source.html#l00027">WORLD_Z_SIZE</a>, <a class="el" href="geometry_8h_source.html#l00100">XYZPoint&lt; CT &gt;::x</a>, <a class="el" href="geometry_8h_source.html#l00101">XYZPoint&lt; CT &gt;::y</a>, and <a class="el" href="geometry_8h_source.html#l00102">XYZPoint&lt; CT &gt;::z</a>.</p>
 
-<p>Referenced by <a class="el" href="path__build_8cpp_source.html#l00266">CanBuildPathFromEdge()</a>, <a class="el" href="path__build_8cpp_source.html#l00811">PathBuildManager::ComputeNewLongPath()</a>, <a class="el" href="path__build_8cpp_source.html#l00635">PathBuildManager::ComputeWorldAdditions()</a>, and <a class="el" href="path__build_8cpp_source.html#l00456">PathBuildManager::TileClicked()</a>.</p>
+<p>Referenced by <a class="el" href="path__build_8cpp_source.html#l00315">CanBuildPathFromEdge()</a>, <a class="el" href="path__build_8cpp_source.html#l00878">PathBuildManager::ComputeNewLongPath()</a>, <a class="el" href="path__build_8cpp_source.html#l00688">PathBuildManager::ComputeWorldAdditions()</a>, and <a class="el" href="path__build_8cpp_source.html#l00505">PathBuildManager::TileClicked()</a>.</p>
 
 </div>
 </div>
@@ -440,11 +502,11 @@ Variables</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Whether the path is or could be built. </dd></dl>
 
-<p>Definition at line <a class="el" href="path__build_8cpp_source.html#l00192">192</a> of file <a class="el" href="path__build_8cpp_source.html">path_build.cpp</a>.</p>
+<p>Definition at line <a class="el" href="path__build_8cpp_source.html#l00215">215</a> of file <a class="el" href="path__build_8cpp_source.html">path_build.cpp</a>.</p>
 
 <p>References <a class="el" href="tile__func_8cpp_source.html#l00016">_corners_at_edge</a>, <a class="el" href="gamemode_8cpp_source.html#l00016">_game_mode_mgr</a>, <a class="el" href="path_8cpp_source.html#l00026">_path_down_from_edge</a>, <a class="el" href="map_8cpp_source.html#l00027">_world</a>, <a class="el" href="path__build_8cpp_source.html#l00028">BuildPathAtTile()</a>, <a class="el" href="tile_8h_source.html#l00158">ExpandTileSlope()</a>, <a class="el" href="tile_8h_source.html#l00212">FDT_INVALID</a>, <a class="el" href="map_8cpp_source.html#l00216">VoxelStack::Get()</a>, <a class="el" href="map_8h_source.html#l00183">Voxel::GetFoundationType()</a>, <a class="el" href="map_8h_source.html#l00215">Voxel::GetGroundSlope()</a>, <a class="el" href="map_8h_source.html#l00224">Voxel::GetGroundType()</a>, <a class="el" href="map_8h_source.html#l00072">Voxel::GetInstance()</a>, <a class="el" href="map_8cpp_source.html#l00454">VoxelWorld::GetStack()</a>, <a class="el" href="map_8cpp_source.html#l00482">VoxelWorld::GetTileOwner()</a>, <a class="el" href="tile_8h_source.html#l00198">GTP_INVALID</a>, <a class="el" href="gamemode_8h_source.html#l00054">GameModeManager::InPlayMode()</a>, <a class="el" href="map_8h_source.html#l00276">Voxel::IsEmpty()</a>, <a class="el" href="map_8h_source.html#l00639">IsVoxelstackInsideWorld()</a>, <a class="el" href="map_8h_source.html#l00449">OWN_PARK</a>, <a class="el" href="map_8h_source.html#l00037">SRI_FREE</a>, <a class="el" href="tile_8h_source.html#l00069">TSB_STEEP</a>, <a class="el" href="tile_8h_source.html#l00070">TSB_TOP</a>, <a class="el" href="map_8h_source.html#l00027">WORLD_Z_SIZE</a>, <a class="el" href="geometry_8h_source.html#l00100">XYZPoint&lt; CT &gt;::x</a>, <a class="el" href="geometry_8h_source.html#l00101">XYZPoint&lt; CT &gt;::y</a>, and <a class="el" href="geometry_8h_source.html#l00102">XYZPoint&lt; CT &gt;::z</a>.</p>
 
-<p>Referenced by <a class="el" href="path__build_8cpp_source.html#l00266">CanBuildPathFromEdge()</a>, <a class="el" href="path__build_8cpp_source.html#l00811">PathBuildManager::ComputeNewLongPath()</a>, and <a class="el" href="path__build_8cpp_source.html#l00635">PathBuildManager::ComputeWorldAdditions()</a>.</p>
+<p>Referenced by <a class="el" href="path__build_8cpp_source.html#l00315">CanBuildPathFromEdge()</a>, <a class="el" href="path__build_8cpp_source.html#l00878">PathBuildManager::ComputeNewLongPath()</a>, and <a class="el" href="path__build_8cpp_source.html#l00688">PathBuildManager::ComputeWorldAdditions()</a>.</p>
 
 </div>
 </div>
@@ -490,11 +552,68 @@ Variables</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Whether the path is or could be removed. </dd></dl>
 
-<p>Definition at line <a class="el" href="path__build_8cpp_source.html#l00235">235</a> of file <a class="el" href="path__build_8cpp_source.html">path_build.cpp</a>.</p>
+<p>Definition at line <a class="el" href="path__build_8cpp_source.html#l00258">258</a> of file <a class="el" href="path__build_8cpp_source.html">path_build.cpp</a>.</p>
 
 <p>References <a class="el" href="gamemode_8cpp_source.html#l00016">_game_mode_mgr</a>, <a class="el" href="map_8cpp_source.html#l00027">_world</a>, <a class="el" href="map_8cpp_source.html#l00216">VoxelStack::Get()</a>, <a class="el" href="map_8h_source.html#l00390">GetImplodedPathSlope()</a>, <a class="el" href="map_8h_source.html#l00072">Voxel::GetInstance()</a>, <a class="el" href="map_8h_source.html#l00105">Voxel::GetInstanceData()</a>, <a class="el" href="map_8cpp_source.html#l00454">VoxelWorld::GetStack()</a>, <a class="el" href="map_8cpp_source.html#l00482">VoxelWorld::GetTileOwner()</a>, <a class="el" href="map_8h_source.html#l00368">HasValidPath()</a>, <a class="el" href="gamemode_8h_source.html#l00054">GameModeManager::InPlayMode()</a>, <a class="el" href="map_8h_source.html#l00639">IsVoxelstackInsideWorld()</a>, <a class="el" href="map_8h_source.html#l00449">OWN_PARK</a>, <a class="el" href="path_8h_source.html#l00083">PATH_COUNT</a>, <a class="el" href="path_8h_source.html#l00077">PATH_FLAT_COUNT</a>, <a class="el" href="path__build_8cpp_source.html#l00058">RemovePathAtTile()</a>, <a class="el" href="map_8h_source.html#l00043">SRI_PATH</a>, <a class="el" href="map_8h_source.html#l00027">WORLD_Z_SIZE</a>, <a class="el" href="geometry_8h_source.html#l00100">XYZPoint&lt; CT &gt;::x</a>, <a class="el" href="geometry_8h_source.html#l00101">XYZPoint&lt; CT &gt;::y</a>, and <a class="el" href="geometry_8h_source.html#l00102">XYZPoint&lt; CT &gt;::z</a>.</p>
 
-<p>Referenced by <a class="el" href="path__build_8cpp_source.html#l00411">PathBuildManager::OnMouseButtonEvent()</a>, and <a class="el" href="path__build_8cpp_source.html#l00907">PathBuildManager::SelectBuyRemove()</a>.</p>
+<p>Referenced by <a class="el" href="path__build_8cpp_source.html#l00460">PathBuildManager::OnMouseButtonEvent()</a>, and <a class="el" href="path__build_8cpp_source.html#l00987">PathBuildManager::SelectBuyRemove()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ad6b3116dd283d5d399d8998df4eff0f0"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool ChangePath </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="geometry_8h.html#a71fcb91f44cc6cbf519d0c45c07e931d">XYZPoint16</a> &amp;&#160;</td>
+          <td class="paramname"><em>voxel_pos</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="path_8h.html#ae093c9a96eda0463cdd2501ba83f10c3">PathType</a>&#160;</td>
+          <td class="paramname"><em>path_type</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>test_only</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>(Try to) change the path type of the current path at the given voxel. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">voxel_pos</td><td>Coordinate of the voxel. </td></tr>
+    <tr><td class="paramname">path_type</td><td>For changing (ie not <em>test_only</em>), the type of path to change to. </td></tr>
+    <tr><td class="paramname">test_only</td><td>Only test whether it could be changed. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Whether the path's type could be changed. </dd></dl>
+
+<p>Definition at line <a class="el" href="path__build_8cpp_source.html#l00290">290</a> of file <a class="el" href="path__build_8cpp_source.html">path_build.cpp</a>.</p>
+
+<p>References <a class="el" href="map_8cpp_source.html#l00027">_world</a>, <a class="el" href="path__build_8cpp_source.html#l00085">ChangePathAtTile()</a>, <a class="el" href="map_8cpp_source.html#l00216">VoxelStack::Get()</a>, <a class="el" href="map_8h_source.html#l00390">GetImplodedPathSlope()</a>, <a class="el" href="map_8h_source.html#l00072">Voxel::GetInstance()</a>, <a class="el" href="map_8h_source.html#l00105">Voxel::GetInstanceData()</a>, <a class="el" href="map_8cpp_source.html#l00454">VoxelWorld::GetStack()</a>, <a class="el" href="map_8h_source.html#l00368">HasValidPath()</a>, <a class="el" href="path_8h_source.html#l00083">PATH_COUNT</a>, <a class="el" href="path_8h_source.html#l00077">PATH_FLAT_COUNT</a>, <a class="el" href="map_8h_source.html#l00043">SRI_PATH</a>, <a class="el" href="geometry_8h_source.html#l00100">XYZPoint&lt; CT &gt;::x</a>, <a class="el" href="geometry_8h_source.html#l00101">XYZPoint&lt; CT &gt;::y</a>, and <a class="el" href="geometry_8h_source.html#l00102">XYZPoint&lt; CT &gt;::z</a>.</p>
+
+<p>Referenced by <a class="el" href="path__build_8cpp_source.html#l00878">PathBuildManager::ComputeNewLongPath()</a>, <a class="el" href="path__build_8cpp_source.html#l00688">PathBuildManager::ComputeWorldAdditions()</a>, and <a class="el" href="path__build_8cpp_source.html#l00505">PathBuildManager::TileClicked()</a>.</p>
 
 </div>
 </div>
@@ -540,11 +659,11 @@ Variables</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Bit-set of track slopes, indicating the directions of building paths. </dd></dl>
 
-<p>Definition at line <a class="el" href="path__build_8cpp_source.html#l00266">266</a> of file <a class="el" href="path__build_8cpp_source.html">path_build.cpp</a>.</p>
+<p>Definition at line <a class="el" href="path__build_8cpp_source.html#l00315">315</a> of file <a class="el" href="path__build_8cpp_source.html">path_build.cpp</a>.</p>
 
-<p>References <a class="el" href="gamemode_8cpp_source.html#l00016">_game_mode_mgr</a>, <a class="el" href="path_8cpp_source.html#l00026">_path_down_from_edge</a>, <a class="el" href="path_8cpp_source.html#l00018">_path_up_from_edge</a>, <a class="el" href="tile__func_8cpp_source.html#l00032">_tile_dxy</a>, <a class="el" href="map_8cpp_source.html#l00027">_world</a>, <a class="el" href="path__build_8cpp_source.html#l00192">BuildDownwardPath()</a>, <a class="el" href="path__build_8cpp_source.html#l00156">BuildFlatPath()</a>, <a class="el" href="path__build_8cpp_source.html#l00115">BuildUpwardPath()</a>, <a class="el" href="map_8h_source.html#l00390">GetImplodedPathSlope()</a>, <a class="el" href="map_8cpp_source.html#l00482">VoxelWorld::GetTileOwner()</a>, <a class="el" href="map_8h_source.html#l00514">VoxelWorld::GetVoxel()</a>, <a class="el" href="map_8h_source.html#l00368">HasValidPath()</a>, <a class="el" href="gamemode_8h_source.html#l00054">GameModeManager::InPlayMode()</a>, <a class="el" href="map_8h_source.html#l00639">IsVoxelstackInsideWorld()</a>, <a class="el" href="map_8h_source.html#l00449">OWN_PARK</a>, <a class="el" href="path_8h_source.html#l00111">PAT_INVALID</a>, <a class="el" href="path_8h_source.html#l00077">PATH_FLAT_COUNT</a>, <a class="el" href="tile_8h_source.html#l00221">TSL_DOWN</a>, <a class="el" href="tile_8h_source.html#l00222">TSL_FLAT</a>, <a class="el" href="tile_8h_source.html#l00223">TSL_UP</a>, <a class="el" href="map_8h_source.html#l00027">WORLD_Z_SIZE</a>, <a class="el" href="geometry_8h_source.html#l00036">Point&lt; CT &gt;::x</a>, <a class="el" href="geometry_8h_source.html#l00100">XYZPoint&lt; CT &gt;::x</a>, <a class="el" href="geometry_8h_source.html#l00037">Point&lt; CT &gt;::y</a>, <a class="el" href="geometry_8h_source.html#l00101">XYZPoint&lt; CT &gt;::y</a>, and <a class="el" href="geometry_8h_source.html#l00102">XYZPoint&lt; CT &gt;::z</a>.</p>
+<p>References <a class="el" href="gamemode_8cpp_source.html#l00016">_game_mode_mgr</a>, <a class="el" href="path_8cpp_source.html#l00026">_path_down_from_edge</a>, <a class="el" href="path_8cpp_source.html#l00018">_path_up_from_edge</a>, <a class="el" href="tile__func_8cpp_source.html#l00032">_tile_dxy</a>, <a class="el" href="map_8cpp_source.html#l00027">_world</a>, <a class="el" href="path__build_8cpp_source.html#l00215">BuildDownwardPath()</a>, <a class="el" href="path__build_8cpp_source.html#l00179">BuildFlatPath()</a>, <a class="el" href="path__build_8cpp_source.html#l00138">BuildUpwardPath()</a>, <a class="el" href="map_8h_source.html#l00390">GetImplodedPathSlope()</a>, <a class="el" href="map_8cpp_source.html#l00482">VoxelWorld::GetTileOwner()</a>, <a class="el" href="map_8h_source.html#l00514">VoxelWorld::GetVoxel()</a>, <a class="el" href="map_8h_source.html#l00368">HasValidPath()</a>, <a class="el" href="gamemode_8h_source.html#l00054">GameModeManager::InPlayMode()</a>, <a class="el" href="map_8h_source.html#l00639">IsVoxelstackInsideWorld()</a>, <a class="el" href="map_8h_source.html#l00449">OWN_PARK</a>, <a class="el" href="path_8h_source.html#l00111">PAT_INVALID</a>, <a class="el" href="path_8h_source.html#l00077">PATH_FLAT_COUNT</a>, <a class="el" href="tile_8h_source.html#l00221">TSL_DOWN</a>, <a class="el" href="tile_8h_source.html#l00222">TSL_FLAT</a>, <a class="el" href="tile_8h_source.html#l00223">TSL_UP</a>, <a class="el" href="map_8h_source.html#l00027">WORLD_Z_SIZE</a>, <a class="el" href="geometry_8h_source.html#l00036">Point&lt; CT &gt;::x</a>, <a class="el" href="geometry_8h_source.html#l00100">XYZPoint&lt; CT &gt;::x</a>, <a class="el" href="geometry_8h_source.html#l00037">Point&lt; CT &gt;::y</a>, <a class="el" href="geometry_8h_source.html#l00101">XYZPoint&lt; CT &gt;::y</a>, and <a class="el" href="geometry_8h_source.html#l00102">XYZPoint&lt; CT &gt;::z</a>.</p>
 
-<p>Referenced by <a class="el" href="path__build_8cpp_source.html#l00811">PathBuildManager::ComputeNewLongPath()</a>, <a class="el" href="path__build_8cpp_source.html#l00301">GetPathAttachPoints()</a>, and <a class="el" href="path__build_8cpp_source.html#l00663">PathBuildManager::UpdateState()</a>.</p>
+<p>Referenced by <a class="el" href="path__build_8cpp_source.html#l00878">PathBuildManager::ComputeNewLongPath()</a>, <a class="el" href="path__build_8cpp_source.html#l00350">GetPathAttachPoints()</a>, and <a class="el" href="path__build_8cpp_source.html#l00730">PathBuildManager::UpdateState()</a>.</p>
 
 </div>
 </div>
@@ -579,11 +698,11 @@ Variables</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Attach points for paths starting from the given voxel coordinates. Upper 4 bits are the edges at the top of the voxel, lower 4 bits are the attach points for the bottom of the voxel. </dd></dl>
 
-<p>Definition at line <a class="el" href="path__build_8cpp_source.html#l00301">301</a> of file <a class="el" href="path__build_8cpp_source.html">path_build.cpp</a>.</p>
+<p>Definition at line <a class="el" href="path__build_8cpp_source.html#l00350">350</a> of file <a class="el" href="path__build_8cpp_source.html">path_build.cpp</a>.</p>
 
-<p>References <a class="el" href="tile__func_8cpp_source.html#l00016">_corners_at_edge</a>, <a class="el" href="path_8cpp_source.html#l00026">_path_down_from_edge</a>, <a class="el" href="path_8cpp_source.html#l00018">_path_up_from_edge</a>, <a class="el" href="tile__func_8cpp_source.html#l00032">_tile_dxy</a>, <a class="el" href="map_8cpp_source.html#l00027">_world</a>, <a class="el" href="path__build_8cpp_source.html#l00266">CanBuildPathFromEdge()</a>, <a class="el" href="tile_8h_source.html#l00118">EDGE_BEGIN</a>, <a class="el" href="tile_8h_source.html#l00124">EDGE_COUNT</a>, <a class="el" href="tile_8h_source.html#l00158">ExpandTileSlope()</a>, <a class="el" href="map_8h_source.html#l00215">Voxel::GetGroundSlope()</a>, <a class="el" href="map_8h_source.html#l00224">Voxel::GetGroundType()</a>, <a class="el" href="map_8h_source.html#l00390">GetImplodedPathSlope()</a>, <a class="el" href="map_8h_source.html#l00514">VoxelWorld::GetVoxel()</a>, <a class="el" href="tile_8h_source.html#l00198">GTP_INVALID</a>, <a class="el" href="map_8h_source.html#l00368">HasValidPath()</a>, <a class="el" href="map_8h_source.html#l00639">IsVoxelstackInsideWorld()</a>, <a class="el" href="path_8h_source.html#l00077">PATH_FLAT_COUNT</a>, <a class="el" href="tile_8h_source.html#l00069">TSB_STEEP</a>, <a class="el" href="map_8h_source.html#l00027">WORLD_Z_SIZE</a>, <a class="el" href="geometry_8h_source.html#l00036">Point&lt; CT &gt;::x</a>, <a class="el" href="geometry_8h_source.html#l00100">XYZPoint&lt; CT &gt;::x</a>, <a class="el" href="geometry_8h_source.html#l00037">Point&lt; CT &gt;::y</a>, <a class="el" href="geometry_8h_source.html#l00101">XYZPoint&lt; CT &gt;::y</a>, and <a class="el" href="geometry_8h_source.html#l00102">XYZPoint&lt; CT &gt;::z</a>.</p>
+<p>References <a class="el" href="tile__func_8cpp_source.html#l00016">_corners_at_edge</a>, <a class="el" href="path_8cpp_source.html#l00026">_path_down_from_edge</a>, <a class="el" href="path_8cpp_source.html#l00018">_path_up_from_edge</a>, <a class="el" href="tile__func_8cpp_source.html#l00032">_tile_dxy</a>, <a class="el" href="map_8cpp_source.html#l00027">_world</a>, <a class="el" href="path__build_8cpp_source.html#l00315">CanBuildPathFromEdge()</a>, <a class="el" href="tile_8h_source.html#l00118">EDGE_BEGIN</a>, <a class="el" href="tile_8h_source.html#l00124">EDGE_COUNT</a>, <a class="el" href="tile_8h_source.html#l00158">ExpandTileSlope()</a>, <a class="el" href="map_8h_source.html#l00215">Voxel::GetGroundSlope()</a>, <a class="el" href="map_8h_source.html#l00224">Voxel::GetGroundType()</a>, <a class="el" href="map_8h_source.html#l00390">GetImplodedPathSlope()</a>, <a class="el" href="map_8h_source.html#l00514">VoxelWorld::GetVoxel()</a>, <a class="el" href="tile_8h_source.html#l00198">GTP_INVALID</a>, <a class="el" href="map_8h_source.html#l00368">HasValidPath()</a>, <a class="el" href="map_8h_source.html#l00639">IsVoxelstackInsideWorld()</a>, <a class="el" href="path_8h_source.html#l00077">PATH_FLAT_COUNT</a>, <a class="el" href="tile_8h_source.html#l00069">TSB_STEEP</a>, <a class="el" href="map_8h_source.html#l00027">WORLD_Z_SIZE</a>, <a class="el" href="geometry_8h_source.html#l00036">Point&lt; CT &gt;::x</a>, <a class="el" href="geometry_8h_source.html#l00100">XYZPoint&lt; CT &gt;::x</a>, <a class="el" href="geometry_8h_source.html#l00037">Point&lt; CT &gt;::y</a>, <a class="el" href="geometry_8h_source.html#l00101">XYZPoint&lt; CT &gt;::y</a>, and <a class="el" href="geometry_8h_source.html#l00102">XYZPoint&lt; CT &gt;::z</a>.</p>
 
-<p>Referenced by <a class="el" href="path__build_8cpp_source.html#l00456">PathBuildManager::TileClicked()</a>, and <a class="el" href="path__build_8cpp_source.html#l00663">PathBuildManager::UpdateState()</a>.</p>
+<p>Referenced by <a class="el" href="path__build_8cpp_source.html#l00505">PathBuildManager::TileClicked()</a>, and <a class="el" href="path__build_8cpp_source.html#l00730">PathBuildManager::UpdateState()</a>.</p>
 
 </div>
 </div>
@@ -636,16 +755,16 @@ Variables</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The <em>change</em> direction is good. </dd></dl>
 
-<p>Definition at line <a class="el" href="path__build_8cpp_source.html#l00800">800</a> of file <a class="el" href="path__build_8cpp_source.html">path_build.cpp</a>.</p>
+<p>Definition at line <a class="el" href="path__build_8cpp_source.html#l00867">867</a> of file <a class="el" href="path__build_8cpp_source.html">path_build.cpp</a>.</p>
 
-<p>Referenced by <a class="el" href="path__build_8cpp_source.html#l00811">PathBuildManager::ComputeNewLongPath()</a>.</p>
+<p>Referenced by <a class="el" href="path__build_8cpp_source.html#l00878">PathBuildManager::ComputeNewLongPath()</a>.</p>
 
 </div>
 </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Feb 20 2015 17:42:11 for FreeRCT by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Feb 25 2015 13:22:40 for FreeRCT by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

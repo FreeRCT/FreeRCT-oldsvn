@@ -453,7 +453,7 @@ const <a class="el" href="stdafx_8h.html#adde6aaee8457bee49c2a92621fe22b79">uint
 <dl class="section pre"><dt>Precondition</dt><dd>voxel coordinate must be valid in the world. </dd></dl>
 <dl class="todo"><dt><b><a class="el" href="todo.html#_todo000031">Todo:</a></b></dt><dd>Merge with path computations in the path placement. </dd></dl>
 
-<p>Definition at line <a class="el" href="path__build_8cpp_source.html#l00087">87</a> of file <a class="el" href="path__build_8cpp_source.html">path_build.cpp</a>.</p>
+<p>Definition at line <a class="el" href="path__build_8cpp_source.html#l00110">110</a> of file <a class="el" href="path__build_8cpp_source.html">path_build.cpp</a>.</p>
 
 <p>References <a class="el" href="path_8cpp_source.html#l00026">_path_down_from_edge</a>, <a class="el" href="path_8cpp_source.html#l00018">_path_up_from_edge</a>, <a class="el" href="tile__func_8cpp_source.html#l00032">_tile_dxy</a>, <a class="el" href="map_8cpp_source.html#l00027">_world</a>, <a class="el" href="map_8h_source.html#l00390">GetImplodedPathSlope()</a>, <a class="el" href="map_8h_source.html#l00514">VoxelWorld::GetVoxel()</a>, <a class="el" href="map_8h_source.html#l00368">HasValidPath()</a>, <a class="el" href="map_8h_source.html#l00639">IsVoxelstackInsideWorld()</a>, <a class="el" href="path_8h_source.html#l00077">PATH_FLAT_COUNT</a>, <a class="el" href="geometry_8h_source.html#l00036">Point&lt; CT &gt;::x</a>, <a class="el" href="geometry_8h_source.html#l00100">XYZPoint&lt; CT &gt;::x</a>, <a class="el" href="geometry_8h_source.html#l00037">Point&lt; CT &gt;::y</a>, <a class="el" href="geometry_8h_source.html#l00101">XYZPoint&lt; CT &gt;::y</a>, and <a class="el" href="geometry_8h_source.html#l00102">XYZPoint&lt; CT &gt;::z</a>.</p>
 
@@ -569,7 +569,7 @@ const <a class="el" href="stdafx_8h.html#adde6aaee8457bee49c2a92621fe22b79">uint
 
 <p>References <a class="el" href="path_8cpp_source.html#l00026">_path_down_from_edge</a>, <a class="el" href="path_8cpp_source.html#l00018">_path_up_from_edge</a>, <a class="el" href="tile__func_8cpp_source.html#l00032">_tile_dxy</a>, <a class="el" href="tile_8h_source.html#l00118">EDGE_BEGIN</a>, <a class="el" href="tile_8h_source.html#l00124">EDGE_COUNT</a>, <a class="el" href="path_8cpp_source.html#l00373">ExamineNeighbourPathEdge()</a>, <a class="el" href="path_8cpp_source.html#l00352">GetQuePathEdgeConnectCount()</a>, <a class="el" href="map_8h_source.html#l00639">IsVoxelstackInsideWorld()</a>, <a class="el" href="stdafx_8h_source.html#l00157">lengthof</a>, <a class="el" href="viewport_8cpp_source.html#l01698">MarkVoxelDirty()</a>, <a class="el" href="stdafx_8h_source.html#l00182">NOT_REACHED</a>, <a class="el" href="path_8h_source.html#l00117">PAS_NORMAL_PATH</a>, <a class="el" href="path_8h_source.html#l00118">PAS_QUEUE_PATH</a>, <a class="el" href="path_8h_source.html#l00116">PAS_UNUSED</a>, <a class="el" href="path_8h_source.html#l00077">PATH_FLAT_COUNT</a>, <a class="el" href="map_8h_source.html#l00114">Voxel::SetInstanceData()</a>, <a class="el" href="path_8cpp_source.html#l00315">SetPathEdge()</a>, <a class="el" href="map_8h_source.html#l00027">WORLD_Z_SIZE</a>, <a class="el" href="geometry_8h_source.html#l00036">Point&lt; CT &gt;::x</a>, <a class="el" href="geometry_8h_source.html#l00100">XYZPoint&lt; CT &gt;::x</a>, <a class="el" href="geometry_8h_source.html#l00037">Point&lt; CT &gt;::y</a>, <a class="el" href="geometry_8h_source.html#l00101">XYZPoint&lt; CT &gt;::y</a>, and <a class="el" href="geometry_8h_source.html#l00102">XYZPoint&lt; CT &gt;::z</a>.</p>
 
-<p>Referenced by <a class="el" href="path__build_8cpp_source.html#l00028">BuildPathAtTile()</a>, <a class="el" href="ride__gui_8cpp_source.html#l00460">ShopPlacementManager::PlaceShop()</a>, and <a class="el" href="path__build_8cpp_source.html#l00058">RemovePathAtTile()</a>.</p>
+<p>Referenced by <a class="el" href="path__build_8cpp_source.html#l00028">BuildPathAtTile()</a>, <a class="el" href="path__build_8cpp_source.html#l00085">ChangePathAtTile()</a>, <a class="el" href="ride__gui_8cpp_source.html#l00460">ShopPlacementManager::PlaceShop()</a>, and <a class="el" href="path__build_8cpp_source.html#l00058">RemovePathAtTile()</a>.</p>
 
 </div>
 </div>
@@ -588,7 +588,7 @@ const <a class="el" href="stdafx_8h.html#adde6aaee8457bee49c2a92621fe22b79">uint
 
 <p>Definition at line <a class="el" href="path_8cpp_source.html#l00018">18</a> of file <a class="el" href="path_8cpp_source.html">path.cpp</a>.</p>
 
-<p>Referenced by <a class="el" href="path_8cpp_source.html#l00431">AddRemovePathEdges()</a>, <a class="el" href="path__build_8cpp_source.html#l00115">BuildUpwardPath()</a>, <a class="el" href="path__build_8cpp_source.html#l00266">CanBuildPathFromEdge()</a>, <a class="el" href="path_8cpp_source.html#l00373">ExamineNeighbourPathEdge()</a>, <a class="el" href="path__build_8cpp_source.html#l00301">GetPathAttachPoints()</a>, and <a class="el" href="path__build_8cpp_source.html#l00087">PathExistsAtBottomEdge()</a>.</p>
+<p>Referenced by <a class="el" href="path_8cpp_source.html#l00431">AddRemovePathEdges()</a>, <a class="el" href="path__build_8cpp_source.html#l00138">BuildUpwardPath()</a>, <a class="el" href="path__build_8cpp_source.html#l00315">CanBuildPathFromEdge()</a>, <a class="el" href="path_8cpp_source.html#l00373">ExamineNeighbourPathEdge()</a>, <a class="el" href="path__build_8cpp_source.html#l00350">GetPathAttachPoints()</a>, and <a class="el" href="path__build_8cpp_source.html#l00110">PathExistsAtBottomEdge()</a>.</p>
 
 </div>
 </div>
@@ -606,7 +606,7 @@ const <a class="el" href="stdafx_8h.html#adde6aaee8457bee49c2a92621fe22b79">uint
 
 <p>Definition at line <a class="el" href="path_8cpp_source.html#l00026">26</a> of file <a class="el" href="path_8cpp_source.html">path.cpp</a>.</p>
 
-<p>Referenced by <a class="el" href="path_8cpp_source.html#l00431">AddRemovePathEdges()</a>, <a class="el" href="path__build_8cpp_source.html#l00192">BuildDownwardPath()</a>, <a class="el" href="path__build_8cpp_source.html#l00266">CanBuildPathFromEdge()</a>, <a class="el" href="path_8cpp_source.html#l00373">ExamineNeighbourPathEdge()</a>, <a class="el" href="path__build_8cpp_source.html#l00301">GetPathAttachPoints()</a>, <a class="el" href="path__build_8cpp_source.html#l00087">PathExistsAtBottomEdge()</a>, <a class="el" href="path__build_8cpp_source.html#l00907">PathBuildManager::SelectBuyRemove()</a>, and <a class="el" href="path__build_8cpp_source.html#l00589">PathBuildManager::SelectMovement()</a>.</p>
+<p>Referenced by <a class="el" href="path_8cpp_source.html#l00431">AddRemovePathEdges()</a>, <a class="el" href="path__build_8cpp_source.html#l00215">BuildDownwardPath()</a>, <a class="el" href="path__build_8cpp_source.html#l00315">CanBuildPathFromEdge()</a>, <a class="el" href="path_8cpp_source.html#l00373">ExamineNeighbourPathEdge()</a>, <a class="el" href="path__build_8cpp_source.html#l00350">GetPathAttachPoints()</a>, <a class="el" href="path__build_8cpp_source.html#l00110">PathExistsAtBottomEdge()</a>, <a class="el" href="path__build_8cpp_source.html#l00987">PathBuildManager::SelectBuyRemove()</a>, and <a class="el" href="path__build_8cpp_source.html#l00642">PathBuildManager::SelectMovement()</a>.</p>
 
 </div>
 </div>
@@ -631,7 +631,7 @@ const <a class="el" href="stdafx_8h.html#adde6aaee8457bee49c2a92621fe22b79">uint
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Feb 20 2015 17:42:11 for FreeRCT by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Feb 25 2015 13:22:40 for FreeRCT by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>
