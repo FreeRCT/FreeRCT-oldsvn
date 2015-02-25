@@ -139,6 +139,9 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:aa72e40bcee880126f01cb1f5d35b8a67"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSpriteManager.html#aa72e40bcee880126f01cb1f5d35b8a67">LoadPATH</a> (<a class="el" href="classRcdFileReader.html">RcdFileReader</a> *rcd_file, const <a class="el" href="sprite__store_8h.html#a88932b0cbbb95cd50df52f1aa1db5aec">ImageMap</a> &amp;sprites)</td></tr>
 <tr class="memdesc:aa72e40bcee880126f01cb1f5d35b8a67"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load a path sprites block from a RCD file.  <a href="#aa72e40bcee880126f01cb1f5d35b8a67">More...</a><br /></td></tr>
 <tr class="separator:aa72e40bcee880126f01cb1f5d35b8a67"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79c7bde5926cf4088cd674f6b17075da"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSpriteManager.html#a79c7bde5926cf4088cd674f6b17075da">LoadPDEC</a> (<a class="el" href="classRcdFileReader.html">RcdFileReader</a> *rcd_file, const <a class="el" href="sprite__store_8h.html#a88932b0cbbb95cd50df52f1aa1db5aec">ImageMap</a> &amp;sprites)</td></tr>
+<tr class="memdesc:a79c7bde5926cf4088cd674f6b17075da"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load a path decoration sprites block from a RCD file.  <a href="#a79c7bde5926cf4088cd674f6b17075da">More...</a><br /></td></tr>
+<tr class="separator:a79c7bde5926cf4088cd674f6b17075da"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6c80a6f6845fc1ef5a005606d0b336e5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSpriteManager.html#a6c80a6f6845fc1ef5a005606d0b336e5">LoadBDIR</a> (<a class="el" href="classRcdFileReader.html">RcdFileReader</a> *rcd_file, const <a class="el" href="sprite__store_8h.html#a88932b0cbbb95cd50df52f1aa1db5aec">ImageMap</a> &amp;sprites)</td></tr>
 <tr class="memdesc:a6c80a6f6845fc1ef5a005606d0b336e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load a displayed object block.  <a href="#a6c80a6f6845fc1ef5a005606d0b336e5">More...</a><br /></td></tr>
 <tr class="separator:a6c80a6f6845fc1ef5a005606d0b336e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -155,7 +158,7 @@ Private Member Functions</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Storage and management of all sprites. </p>
 
-<p>Definition at line <a class="el" href="sprite__store_8h_source.html#l00587">587</a> of file <a class="el" href="sprite__store_8h_source.html">sprite_store.h</a>.</p>
+<p>Definition at line <a class="el" href="sprite__store_8h_source.html#l00612">612</a> of file <a class="el" href="sprite__store_8h_source.html">sprite_store.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a757bd0abdc5551dd0420f7f7cfc81994"></a>
 <div class="memitem">
@@ -172,9 +175,9 @@ Private Member Functions</h2></td></tr>
 
 <p>Sprite manager constructor. </p>
 
-<p>Definition at line <a class="el" href="sprite__store_8cpp_source.html#l01159">1159</a> of file <a class="el" href="sprite__store_8cpp_source.html">sprite_store.cpp</a>.</p>
+<p>Definition at line <a class="el" href="sprite__store_8cpp_source.html#l01289">1289</a> of file <a class="el" href="sprite__store_8cpp_source.html">sprite_store.cpp</a>.</p>
 
-<p>References <a class="el" href="sprite__store_8h_source.html#l00608">blocks</a>, and <a class="el" href="sprite__store_8cpp_source.html#l01042">GuiSprites::Clear()</a>.</p>
+<p>References <a class="el" href="sprite__store_8h_source.html#l00633">blocks</a>, and <a class="el" href="sprite__store_8cpp_source.html#l01167">GuiSprites::Clear()</a>.</p>
 
 </div>
 </div>
@@ -193,9 +196,9 @@ Private Member Functions</h2></td></tr>
 
 <p>Sprite manager destructor. </p>
 
-<p>Definition at line <a class="el" href="sprite__store_8cpp_source.html#l01166">1166</a> of file <a class="el" href="sprite__store_8cpp_source.html">sprite_store.cpp</a>.</p>
+<p>Definition at line <a class="el" href="sprite__store_8cpp_source.html#l01296">1296</a> of file <a class="el" href="sprite__store_8cpp_source.html">sprite_store.cpp</a>.</p>
 
-<p>References <a class="el" href="sprite__store_8h_source.html#l00611">animations</a>, <a class="el" href="sprite__store_8h_source.html#l00608">blocks</a>, <a class="el" href="sprite__store_8cpp_source.html#l01042">GuiSprites::Clear()</a>, and <a class="el" href="sprite__store_8h_source.html#l00038">RcdBlock::next</a>.</p>
+<p>References <a class="el" href="sprite__store_8h_source.html#l00636">animations</a>, <a class="el" href="sprite__store_8h_source.html#l00633">blocks</a>, <a class="el" href="sprite__store_8cpp_source.html#l01167">GuiSprites::Clear()</a>, and <a class="el" href="sprite__store_8h_source.html#l00039">RcdBlock::next</a>.</p>
 
 </div>
 </div>
@@ -215,9 +218,9 @@ Private Member Functions</h2></td></tr>
 
 <p>Load all useful RCD files found by <a class="el" href="rcdfile_8h.html#a411e40cb1786962d1d624b56ea009999" title="Available RCD files. ">_rcd_collection</a>, into the program. </p>
 
-<p>Definition at line <a class="el" href="sprite__store_8cpp_source.html#l01398">1398</a> of file <a class="el" href="sprite__store_8cpp_source.html">sprite_store.cpp</a>.</p>
+<p>Definition at line <a class="el" href="sprite__store_8cpp_source.html#l01533">1533</a> of file <a class="el" href="sprite__store_8cpp_source.html">sprite_store.cpp</a>.</p>
 
-<p>References <a class="el" href="rcdfile_8cpp_source.html#l00017">_rcd_collection</a>, <a class="el" href="sprite__store_8cpp_source.html#l01185">Load()</a>, and <a class="el" href="rcdfile_8h_source.html#l00038">RcdFileCollection::rcdfiles</a>.</p>
+<p>References <a class="el" href="rcdfile_8cpp_source.html#l00017">_rcd_collection</a>, <a class="el" href="sprite__store_8cpp_source.html#l01315">Load()</a>, and <a class="el" href="rcdfile_8h_source.html#l00038">RcdFileCollection::rcdfiles</a>.</p>
 
 <p>Referenced by <a class="el" href="freerct_8cpp_source.html#l00072">freerct_main()</a>.</p>
 
@@ -245,11 +248,11 @@ Private Member Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="sprite__store_8cpp_source.html#l01411">1411</a> of file <a class="el" href="sprite__store_8cpp_source.html">sprite_store.cpp</a>.</p>
+<p>Definition at line <a class="el" href="sprite__store_8cpp_source.html#l01546">1546</a> of file <a class="el" href="sprite__store_8cpp_source.html">sprite_store.cpp</a>.</p>
 
-<p>References <a class="el" href="sprite__store_8h_source.html#l00608">blocks</a>, and <a class="el" href="sprite__store_8h_source.html#l00038">RcdBlock::next</a>.</p>
+<p>References <a class="el" href="sprite__store_8h_source.html#l00633">blocks</a>, and <a class="el" href="sprite__store_8h_source.html#l00039">RcdBlock::next</a>.</p>
 
-<p>Referenced by <a class="el" href="sprite__store_8cpp_source.html#l01185">Load()</a>.</p>
+<p>Referenced by <a class="el" href="sprite__store_8cpp_source.html#l01315">Load()</a>.</p>
 
 </div>
 </div>
@@ -275,13 +278,13 @@ Private Member Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Sprite store with sprites of the requested size, if it exists, else <code>nullptr</code>. </dd></dl>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000063">Todo:</a></b></dt><dd>Add support for other sprite sizes as well. </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000066">Todo:</a></b></dt><dd>Add support for other sprite sizes as well. </dd></dl>
 
-<p>Definition at line <a class="el" href="sprite__store_8cpp_source.html#l01423">1423</a> of file <a class="el" href="sprite__store_8cpp_source.html">sprite_store.cpp</a>.</p>
+<p>Definition at line <a class="el" href="sprite__store_8cpp_source.html#l01558">1558</a> of file <a class="el" href="sprite__store_8cpp_source.html">sprite_store.cpp</a>.</p>
 
-<p>References <a class="el" href="sprite__store_8h_source.html#l00610">store</a>.</p>
+<p>References <a class="el" href="sprite__store_8h_source.html#l00635">store</a>.</p>
 
-<p>Referenced by <a class="el" href="fence__build_8cpp_source.html#l00068">FenceBuildManager::SetCursors()</a>, and <a class="el" href="viewport_8cpp_source.html#l00313">VoxelCollector::VoxelCollector()</a>.</p>
+<p>Referenced by <a class="el" href="viewport_8cpp_source.html#l01338">Viewport::IsUndergroundModeAvailable()</a>, <a class="el" href="fence__build_8cpp_source.html#l00068">FenceBuildManager::SetCursors()</a>, and <a class="el" href="viewport_8cpp_source.html#l00309">VoxelCollector::VoxelCollector()</a>.</p>
 
 </div>
 </div>
@@ -307,11 +310,11 @@ Private Member Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="sprite__store_8cpp_source.html#l01433">1433</a> of file <a class="el" href="sprite__store_8cpp_source.html">sprite_store.cpp</a>.</p>
+<p>Definition at line <a class="el" href="sprite__store_8cpp_source.html#l01568">1568</a> of file <a class="el" href="sprite__store_8cpp_source.html">sprite_store.cpp</a>.</p>
 
-<p>References <a class="el" href="sprite__store_8h_source.html#l00198">Animation::anim_type</a>, and <a class="el" href="sprite__store_8h_source.html#l00611">animations</a>.</p>
+<p>References <a class="el" href="sprite__store_8h_source.html#l00217">Animation::anim_type</a>, and <a class="el" href="sprite__store_8h_source.html#l00636">animations</a>.</p>
 
-<p>Referenced by <a class="el" href="sprite__store_8cpp_source.html#l01185">Load()</a>.</p>
+<p>Referenced by <a class="el" href="sprite__store_8cpp_source.html#l01315">Load()</a>.</p>
 
 </div>
 </div>
@@ -337,15 +340,15 @@ Private Member Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The sprite if available, else <code>nullptr</code>. </dd></dl>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000064">Todo:</a></b></dt><dd><p class="startdd">Add lots of missing sprites. </p>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000067">Todo:</a></b></dt><dd><p class="startdd">Add lots of missing sprites. </p>
 <p class="enddd">Make this more efficient; linearly trying every entry scales badly. </p>
 </dd></dl>
 
-<p>Definition at line <a class="el" href="sprite__store_8cpp_source.html#l01540">1540</a> of file <a class="el" href="sprite__store_8cpp_source.html">sprite_store.cpp</a>.</p>
+<p>Definition at line <a class="el" href="sprite__store_8cpp_source.html#l01683">1683</a> of file <a class="el" href="sprite__store_8cpp_source.html">sprite_store.cpp</a>.</p>
 
-<p>References <a class="el" href="sprite__store_8h_source.html#l00420">GuiSprites::bank_select</a>, <a class="el" href="sprite__store_8h_source.html#l00419">GuiSprites::bend_select</a>, <a class="el" href="sprite__store_8h_source.html#l00434">GuiSprites::bulldozer</a>, <a class="el" href="sprite__store_8h_source.html#l00435">GuiSprites::compass</a>, <a class="el" href="sprite__store_8h_source.html#l00537">SpriteStorage::GetArrowSprite()</a>, <a class="el" href="sprite__store_8h_source.html#l00421">GuiSprites::platform_select</a>, <a class="el" href="sprite__store_8h_source.html#l00422">GuiSprites::power_select</a>, <a class="el" href="sprite__store_8h_source.html#l00429">GuiSprites::rot_2d_neg</a>, <a class="el" href="sprite__store_8h_source.html#l00428">GuiSprites::rot_2d_pos</a>, <a class="el" href="sprite__store_8h_source.html#l00431">GuiSprites::rot_3d_neg</a>, <a class="el" href="sprite__store_8h_source.html#l00430">GuiSprites::rot_3d_pos</a>, <a class="el" href="sprite__store_8h_source.html#l00418">GuiSprites::slope_select</a>, <a class="el" href="gui__sprites_8h_source.html#l00049">SPR_GUI_BANK_END</a>, <a class="el" href="gui__sprites_8h_source.html#l00048">SPR_GUI_BANK_START</a>, <a class="el" href="gui__sprites_8h_source.html#l00046">SPR_GUI_BEND_END</a>, <a class="el" href="gui__sprites_8h_source.html#l00045">SPR_GUI_BEND_START</a>, <a class="el" href="gui__sprites_8h_source.html#l00043">SPR_GUI_BUILDARROW_END</a>, <a class="el" href="gui__sprites_8h_source.html#l00042">SPR_GUI_BUILDARROW_START</a>, <a class="el" href="gui__sprites_8h_source.html#l00017">SPR_GUI_BULLDOZER</a>, <a class="el" href="gui__sprites_8h_source.html#l00034">SPR_GUI_COMPASS_END</a>, <a class="el" href="gui__sprites_8h_source.html#l00033">SPR_GUI_COMPASS_START</a>, <a class="el" href="gui__sprites_8h_source.html#l00028">SPR_GUI_HAS_PLATFORM</a>, <a class="el" href="gui__sprites_8h_source.html#l00030">SPR_GUI_HAS_POWER</a>, <a class="el" href="gui__sprites_8h_source.html#l00029">SPR_GUI_NO_PLATFORM</a>, <a class="el" href="gui__sprites_8h_source.html#l00031">SPR_GUI_NO_POWER</a>, <a class="el" href="gui__sprites_8h_source.html#l00019">SPR_GUI_ROT2D_NEG</a>, <a class="el" href="gui__sprites_8h_source.html#l00018">SPR_GUI_ROT2D_POS</a>, <a class="el" href="gui__sprites_8h_source.html#l00021">SPR_GUI_ROT3D_NEG</a>, <a class="el" href="gui__sprites_8h_source.html#l00020">SPR_GUI_ROT3D_POS</a>, <a class="el" href="gui__sprites_8h_source.html#l00040">SPR_GUI_SLOPES_END</a>, <a class="el" href="gui__sprites_8h_source.html#l00039">SPR_GUI_SLOPES_START</a>, <a class="el" href="gui__sprites_8h_source.html#l00026">SPR_GUI_TRIANGLE_DOWN</a>, <a class="el" href="gui__sprites_8h_source.html#l00023">SPR_GUI_TRIANGLE_LEFT</a>, <a class="el" href="gui__sprites_8h_source.html#l00024">SPR_GUI_TRIANGLE_RIGHT</a>, <a class="el" href="gui__sprites_8h_source.html#l00025">SPR_GUI_TRIANGLE_UP</a>, <a class="el" href="gui__sprites_8h_source.html#l00037">SPR_GUI_WEATHER_END</a>, <a class="el" href="gui__sprites_8h_source.html#l00036">SPR_GUI_WEATHER_START</a>, <a class="el" href="sprite__store_8h_source.html#l00610">store</a>, <a class="el" href="sprite__store_8h_source.html#l00426">GuiSprites::triangle_down</a>, <a class="el" href="sprite__store_8h_source.html#l00423">GuiSprites::triangle_left</a>, <a class="el" href="sprite__store_8h_source.html#l00424">GuiSprites::triangle_right</a>, <a class="el" href="sprite__store_8h_source.html#l00425">GuiSprites::triangle_up</a>, <a class="el" href="orientation_8h_source.html#l00022">VOR_NORTH</a>, and <a class="el" href="sprite__store_8h_source.html#l00436">GuiSprites::weather</a>.</p>
+<p>References <a class="el" href="sprite__store_8h_source.html#l00442">GuiSprites::bank_select</a>, <a class="el" href="sprite__store_8h_source.html#l00441">GuiSprites::bend_select</a>, <a class="el" href="sprite__store_8h_source.html#l00456">GuiSprites::bulldozer</a>, <a class="el" href="sprite__store_8h_source.html#l00457">GuiSprites::compass</a>, <a class="el" href="sprite__store_8h_source.html#l00561">SpriteStorage::GetArrowSprite()</a>, <a class="el" href="sprite__store_8h_source.html#l00460">GuiSprites::lights_rg</a>, <a class="el" href="sprite__store_8h_source.html#l00459">GuiSprites::lights_rog</a>, <a class="el" href="sprite__store_8h_source.html#l00443">GuiSprites::platform_select</a>, <a class="el" href="sprite__store_8h_source.html#l00444">GuiSprites::power_select</a>, <a class="el" href="sprite__store_8h_source.html#l00451">GuiSprites::rot_2d_neg</a>, <a class="el" href="sprite__store_8h_source.html#l00450">GuiSprites::rot_2d_pos</a>, <a class="el" href="sprite__store_8h_source.html#l00453">GuiSprites::rot_3d_neg</a>, <a class="el" href="sprite__store_8h_source.html#l00452">GuiSprites::rot_3d_pos</a>, <a class="el" href="sprite__store_8h_source.html#l00440">GuiSprites::slope_select</a>, <a class="el" href="gui__sprites_8h_source.html#l00055">SPR_GUI_BANK_END</a>, <a class="el" href="gui__sprites_8h_source.html#l00054">SPR_GUI_BANK_START</a>, <a class="el" href="gui__sprites_8h_source.html#l00052">SPR_GUI_BEND_END</a>, <a class="el" href="gui__sprites_8h_source.html#l00051">SPR_GUI_BEND_START</a>, <a class="el" href="gui__sprites_8h_source.html#l00049">SPR_GUI_BUILDARROW_END</a>, <a class="el" href="gui__sprites_8h_source.html#l00048">SPR_GUI_BUILDARROW_START</a>, <a class="el" href="gui__sprites_8h_source.html#l00017">SPR_GUI_BULLDOZER</a>, <a class="el" href="gui__sprites_8h_source.html#l00034">SPR_GUI_COMPASS_END</a>, <a class="el" href="gui__sprites_8h_source.html#l00033">SPR_GUI_COMPASS_START</a>, <a class="el" href="gui__sprites_8h_source.html#l00028">SPR_GUI_HAS_PLATFORM</a>, <a class="el" href="gui__sprites_8h_source.html#l00030">SPR_GUI_HAS_POWER</a>, <a class="el" href="gui__sprites_8h_source.html#l00029">SPR_GUI_NO_PLATFORM</a>, <a class="el" href="gui__sprites_8h_source.html#l00031">SPR_GUI_NO_POWER</a>, <a class="el" href="gui__sprites_8h_source.html#l00043">SPR_GUI_RG_LIGHTS_END</a>, <a class="el" href="gui__sprites_8h_source.html#l00042">SPR_GUI_RG_LIGHTS_START</a>, <a class="el" href="gui__sprites_8h_source.html#l00040">SPR_GUI_ROG_LIGHTS_END</a>, <a class="el" href="gui__sprites_8h_source.html#l00039">SPR_GUI_ROG_LIGHTS_START</a>, <a class="el" href="gui__sprites_8h_source.html#l00019">SPR_GUI_ROT2D_NEG</a>, <a class="el" href="gui__sprites_8h_source.html#l00018">SPR_GUI_ROT2D_POS</a>, <a class="el" href="gui__sprites_8h_source.html#l00021">SPR_GUI_ROT3D_NEG</a>, <a class="el" href="gui__sprites_8h_source.html#l00020">SPR_GUI_ROT3D_POS</a>, <a class="el" href="gui__sprites_8h_source.html#l00046">SPR_GUI_SLOPES_END</a>, <a class="el" href="gui__sprites_8h_source.html#l00045">SPR_GUI_SLOPES_START</a>, <a class="el" href="gui__sprites_8h_source.html#l00026">SPR_GUI_TRIANGLE_DOWN</a>, <a class="el" href="gui__sprites_8h_source.html#l00023">SPR_GUI_TRIANGLE_LEFT</a>, <a class="el" href="gui__sprites_8h_source.html#l00024">SPR_GUI_TRIANGLE_RIGHT</a>, <a class="el" href="gui__sprites_8h_source.html#l00025">SPR_GUI_TRIANGLE_UP</a>, <a class="el" href="gui__sprites_8h_source.html#l00037">SPR_GUI_WEATHER_END</a>, <a class="el" href="gui__sprites_8h_source.html#l00036">SPR_GUI_WEATHER_START</a>, <a class="el" href="sprite__store_8h_source.html#l00635">store</a>, <a class="el" href="sprite__store_8h_source.html#l00448">GuiSprites::triangle_down</a>, <a class="el" href="sprite__store_8h_source.html#l00445">GuiSprites::triangle_left</a>, <a class="el" href="sprite__store_8h_source.html#l00446">GuiSprites::triangle_right</a>, <a class="el" href="sprite__store_8h_source.html#l00447">GuiSprites::triangle_up</a>, <a class="el" href="orientation_8h_source.html#l00022">VOR_NORTH</a>, and <a class="el" href="sprite__store_8h_source.html#l00458">GuiSprites::weather</a>.</p>
 
-<p>Referenced by <a class="el" href="widget_8cpp_source.html#l00406">DataWidget::Draw()</a>, <a class="el" href="toolbar__gui_8cpp_source.html#l00362">BottomToolbarWindow::DrawWidget()</a>, <a class="el" href="sprite__store_8cpp_source.html#l01475">GetTableSpriteSize()</a>, and <a class="el" href="sprite__store_8cpp_source.html#l01460">SetSpriteSize()</a>.</p>
+<p>Referenced by <a class="el" href="widget_8cpp_source.html#l00435">DataWidget::Draw()</a>, <a class="el" href="toolbar__gui_8cpp_source.html#l00362">BottomToolbarWindow::DrawWidget()</a>, <a class="el" href="sprite__store_8cpp_source.html#l01610">GetTableSpriteSize()</a>, and <a class="el" href="sprite__store_8cpp_source.html#l01595">SetSpriteSize()</a>.</p>
 
 </div>
 </div>
@@ -373,11 +376,11 @@ Private Member Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>The size of the sprite (which may be a default if there is no sprite). </dd></dl>
 <dl class="section note"><dt>Note</dt><dd>Return value is kept until the next call. </dd></dl>
 
-<p>Definition at line <a class="el" href="sprite__store_8cpp_source.html#l01475">1475</a> of file <a class="el" href="sprite__store_8cpp_source.html">sprite_store.cpp</a>.</p>
+<p>Definition at line <a class="el" href="sprite__store_8cpp_source.html#l01610">1610</a> of file <a class="el" href="sprite__store_8cpp_source.html">sprite_store.cpp</a>.</p>
 
-<p>References <a class="el" href="geometry_8h_source.html#l00247">Rectangle&lt; PT, SZ &gt;::base</a>, <a class="el" href="sprite__store_8cpp_source.html#l01443">GetSpriteSize()</a>, <a class="el" href="sprite__store_8cpp_source.html#l01540">GetTableSprite()</a>, <a class="el" href="sprite__data_8h_source.html#l00040">ImageData::height</a>, <a class="el" href="geometry_8h_source.html#l00249">Rectangle&lt; PT, SZ &gt;::height</a>, <a class="el" href="sprite__store_8cpp_source.html#l01460">SetSpriteSize()</a>, <a class="el" href="gui__sprites_8h_source.html#l00049">SPR_GUI_BANK_END</a>, <a class="el" href="gui__sprites_8h_source.html#l00048">SPR_GUI_BANK_START</a>, <a class="el" href="gui__sprites_8h_source.html#l00046">SPR_GUI_BEND_END</a>, <a class="el" href="gui__sprites_8h_source.html#l00045">SPR_GUI_BEND_START</a>, <a class="el" href="gui__sprites_8h_source.html#l00043">SPR_GUI_BUILDARROW_END</a>, <a class="el" href="gui__sprites_8h_source.html#l00042">SPR_GUI_BUILDARROW_START</a>, <a class="el" href="gui__sprites_8h_source.html#l00034">SPR_GUI_COMPASS_END</a>, <a class="el" href="gui__sprites_8h_source.html#l00033">SPR_GUI_COMPASS_START</a>, <a class="el" href="gui__sprites_8h_source.html#l00028">SPR_GUI_HAS_PLATFORM</a>, <a class="el" href="gui__sprites_8h_source.html#l00030">SPR_GUI_HAS_POWER</a>, <a class="el" href="gui__sprites_8h_source.html#l00029">SPR_GUI_NO_PLATFORM</a>, <a class="el" href="gui__sprites_8h_source.html#l00031">SPR_GUI_NO_POWER</a>, <a class="el" href="gui__sprites_8h_source.html#l00040">SPR_GUI_SLOPES_END</a>, <a class="el" href="gui__sprites_8h_source.html#l00039">SPR_GUI_SLOPES_START</a>, <a class="el" href="gui__sprites_8h_source.html#l00037">SPR_GUI_WEATHER_END</a>, <a class="el" href="gui__sprites_8h_source.html#l00036">SPR_GUI_WEATHER_START</a>, <a class="el" href="sprite__data_8h_source.html#l00039">ImageData::width</a>, <a class="el" href="geometry_8h_source.html#l00248">Rectangle&lt; PT, SZ &gt;::width</a>, <a class="el" href="geometry_8h_source.html#l00037">Point&lt; CT &gt;::x</a>, and <a class="el" href="geometry_8h_source.html#l00038">Point&lt; CT &gt;::y</a>.</p>
+<p>References <a class="el" href="geometry_8h_source.html#l00349">Rectangle&lt; PT, SZ &gt;::base</a>, <a class="el" href="sprite__store_8cpp_source.html#l01578">GetSpriteSize()</a>, <a class="el" href="sprite__store_8cpp_source.html#l01683">GetTableSprite()</a>, <a class="el" href="sprite__data_8h_source.html#l00049">ImageData::height</a>, <a class="el" href="geometry_8h_source.html#l00351">Rectangle&lt; PT, SZ &gt;::height</a>, <a class="el" href="sprite__store_8cpp_source.html#l01595">SetSpriteSize()</a>, <a class="el" href="gui__sprites_8h_source.html#l00055">SPR_GUI_BANK_END</a>, <a class="el" href="gui__sprites_8h_source.html#l00054">SPR_GUI_BANK_START</a>, <a class="el" href="gui__sprites_8h_source.html#l00052">SPR_GUI_BEND_END</a>, <a class="el" href="gui__sprites_8h_source.html#l00051">SPR_GUI_BEND_START</a>, <a class="el" href="gui__sprites_8h_source.html#l00049">SPR_GUI_BUILDARROW_END</a>, <a class="el" href="gui__sprites_8h_source.html#l00048">SPR_GUI_BUILDARROW_START</a>, <a class="el" href="gui__sprites_8h_source.html#l00034">SPR_GUI_COMPASS_END</a>, <a class="el" href="gui__sprites_8h_source.html#l00033">SPR_GUI_COMPASS_START</a>, <a class="el" href="gui__sprites_8h_source.html#l00028">SPR_GUI_HAS_PLATFORM</a>, <a class="el" href="gui__sprites_8h_source.html#l00030">SPR_GUI_HAS_POWER</a>, <a class="el" href="gui__sprites_8h_source.html#l00029">SPR_GUI_NO_PLATFORM</a>, <a class="el" href="gui__sprites_8h_source.html#l00031">SPR_GUI_NO_POWER</a>, <a class="el" href="gui__sprites_8h_source.html#l00043">SPR_GUI_RG_LIGHTS_END</a>, <a class="el" href="gui__sprites_8h_source.html#l00042">SPR_GUI_RG_LIGHTS_START</a>, <a class="el" href="gui__sprites_8h_source.html#l00040">SPR_GUI_ROG_LIGHTS_END</a>, <a class="el" href="gui__sprites_8h_source.html#l00039">SPR_GUI_ROG_LIGHTS_START</a>, <a class="el" href="gui__sprites_8h_source.html#l00046">SPR_GUI_SLOPES_END</a>, <a class="el" href="gui__sprites_8h_source.html#l00045">SPR_GUI_SLOPES_START</a>, <a class="el" href="gui__sprites_8h_source.html#l00037">SPR_GUI_WEATHER_END</a>, <a class="el" href="gui__sprites_8h_source.html#l00036">SPR_GUI_WEATHER_START</a>, <a class="el" href="sprite__data_8h_source.html#l00048">ImageData::width</a>, <a class="el" href="geometry_8h_source.html#l00350">Rectangle&lt; PT, SZ &gt;::width</a>, <a class="el" href="geometry_8h_source.html#l00036">Point&lt; CT &gt;::x</a>, and <a class="el" href="geometry_8h_source.html#l00037">Point&lt; CT &gt;::y</a>.</p>
 
-<p>Referenced by <a class="el" href="widget_8cpp_source.html#l00406">DataWidget::Draw()</a>, <a class="el" href="widget_8cpp_source.html#l00336">DataWidget::SetupMinimalSize()</a>, and <a class="el" href="toolbar__gui_8cpp_source.html#l00309">BottomToolbarWindow::UpdateWidgetSize()</a>.</p>
+<p>Referenced by <a class="el" href="widget_8cpp_source.html#l00435">DataWidget::Draw()</a>, <a class="el" href="widget_8cpp_source.html#l00351">DataWidget::SetupMinimalSize()</a>, and <a class="el" href="toolbar__gui_8cpp_source.html#l00309">BottomToolbarWindow::UpdateWidgetSize()</a>.</p>
 
 </div>
 </div>
@@ -414,13 +417,13 @@ Private Member Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The requested animation if it is available, else <code>nullptr</code> is returned. </dd></dl>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000065">Todo:</a></b></dt><dd>Put this in a static array to make rendering people much cheaper. </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000068">Todo:</a></b></dt><dd>Put this in a static array to make rendering people much cheaper. </dd></dl>
 
-<p>Definition at line <a class="el" href="sprite__store_8cpp_source.html#l01577">1577</a> of file <a class="el" href="sprite__store_8cpp_source.html">sprite_store.cpp</a>.</p>
+<p>Definition at line <a class="el" href="sprite__store_8cpp_source.html#l01722">1722</a> of file <a class="el" href="sprite__store_8cpp_source.html">sprite_store.cpp</a>.</p>
 
-<p>References <a class="el" href="sprite__store_8h_source.html#l00198">Animation::anim_type</a>, <a class="el" href="sprite__store_8h_source.html#l00611">animations</a>, and <a class="el" href="sprite__store_8h_source.html#l00197">Animation::person_type</a>.</p>
+<p>References <a class="el" href="sprite__store_8h_source.html#l00217">Animation::anim_type</a>, <a class="el" href="sprite__store_8h_source.html#l00636">animations</a>, and <a class="el" href="sprite__store_8h_source.html#l00216">Animation::person_type</a>.</p>
 
-<p>Referenced by <a class="el" href="people_8cpp_source.html#l00086">Guests::Initialize()</a>, and <a class="el" href="person_8cpp_source.html#l00662">Person::StartAnimation()</a>.</p>
+<p>Referenced by <a class="el" href="person_8cpp_source.html#l00772">Person::StartAnimation()</a>.</p>
 
 </div>
 </div>
@@ -448,9 +451,9 @@ Private Member Functions</h2></td></tr>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="group__map__group.html#ga2006e6d6a47129230c6995222052d403" title="Available fence types. ">FenceType</a>) </dd></dl>
 <dl class="section return"><dt>Returns</dt><dd><a class="el" href="classFence.html" title="Fence sprites. ">Fence</a> object or nullptr </dd></dl>
 
-<p>Definition at line <a class="el" href="sprite__store_8cpp_source.html#l01592">1592</a> of file <a class="el" href="sprite__store_8cpp_source.html">sprite_store.cpp</a>.</p>
+<p>Definition at line <a class="el" href="sprite__store_8cpp_source.html#l01737">1737</a> of file <a class="el" href="sprite__store_8cpp_source.html">sprite_store.cpp</a>.</p>
 
-<p>References <a class="el" href="sprite__store_8h_source.html#l00574">SpriteStorage::fence</a>, <a class="el" href="fence_8h_source.html#l00037">FENCE_TYPE_COUNT</a>, and <a class="el" href="sprite__store_8h_source.html#l00610">store</a>.</p>
+<p>References <a class="el" href="sprite__store_8h_source.html#l00598">SpriteStorage::fence</a>, <a class="el" href="fence_8h_source.html#l00037">FENCE_TYPE_COUNT</a>, and <a class="el" href="sprite__store_8h_source.html#l00635">store</a>.</p>
 
 <p>Referenced by <a class="el" href="fence__gui_8cpp_source.html#l00097">FenceGui::DrawWidget()</a>, <a class="el" href="fence__gui_8cpp_source.html#l00126">FenceGui::OnClick()</a>, and <a class="el" href="fence__gui_8cpp_source.html#l00079">FenceGui::UpdateWidgetSize()</a>.</p>
 
@@ -479,11 +482,11 @@ Private Member Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Status of the path type. </dd></dl>
 
-<p>Definition at line <a class="el" href="sprite__store_8cpp_source.html#l01603">1603</a> of file <a class="el" href="sprite__store_8cpp_source.html">sprite_store.cpp</a>.</p>
+<p>Definition at line <a class="el" href="sprite__store_8cpp_source.html#l01748">1748</a> of file <a class="el" href="sprite__store_8cpp_source.html">sprite_store.cpp</a>.</p>
 
-<p>References <a class="el" href="sprite__store_8h_source.html#l00575">SpriteStorage::path_sprites</a>, <a class="el" href="sprite__store_8h_source.html#l00115">Path::status</a>, and <a class="el" href="sprite__store_8h_source.html#l00610">store</a>.</p>
+<p>References <a class="el" href="sprite__store_8h_source.html#l00599">SpriteStorage::path_sprites</a>, <a class="el" href="sprite__store_8h_source.html#l00107">Path::status</a>, and <a class="el" href="sprite__store_8h_source.html#l00635">store</a>.</p>
 
-<p>Referenced by <a class="el" href="path__build_8cpp_source.html#l00030">BuildPathAtTile()</a>, <a class="el" href="path_8cpp_source.html#l00400">ExamineNeighbourPathEdge()</a>, <a class="el" href="person_8cpp_source.html#l00429">Guest::GetExitDirections()</a>, and <a class="el" href="path_8cpp_source.html#l00267">TravelQueuePath()</a>.</p>
+<p>Referenced by <a class="el" href="path__build_8cpp_source.html#l00028">BuildPathAtTile()</a>, <a class="el" href="path__build_8cpp_source.html#l00085">ChangePathAtTile()</a>, <a class="el" href="path_8cpp_source.html#l00373">ExamineNeighbourPathEdge()</a>, <a class="el" href="person_8cpp_source.html#l00471">Guest::GetExitDirections()</a>, and <a class="el" href="path_8cpp_source.html#l00250">TravelQueuePath()</a>.</p>
 
 </div>
 </div>
@@ -517,15 +520,15 @@ Private Member Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Error message if load failed, else <code>nullptr</code>. </dd></dl>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000062">Todo:</a></b></dt><dd><p class="startdd">Try to re-use already loaded blocks. </p>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000065">Todo:</a></b></dt><dd><p class="startdd">Try to re-use already loaded blocks. </p>
 <p class="enddd">Code will use last loaded surface as grass. </p>
 </dd></dl>
 
-<p>Definition at line <a class="el" href="sprite__store_8cpp_source.html#l01185">1185</a> of file <a class="el" href="sprite__store_8cpp_source.html">sprite_store.cpp</a>.</p>
+<p>Definition at line <a class="el" href="sprite__store_8cpp_source.html#l01315">1315</a> of file <a class="el" href="sprite__store_8cpp_source.html">sprite_store.cpp</a>.</p>
 
-<p>References <a class="el" href="ride__type_8cpp_source.html#l00043">_rides_manager</a>, <a class="el" href="sprite__store_8cpp_source.html#l01433">AddAnimation()</a>, <a class="el" href="sprite__store_8cpp_source.html#l01140">SpriteStorage::AddAnimationSprites()</a>, <a class="el" href="sprite__store_8cpp_source.html#l01411">AddBlock()</a>, <a class="el" href="sprite__store_8cpp_source.html#l01151">SpriteStorage::AddFence()</a>, <a class="el" href="ride__type_8cpp_source.html#l00450">RidesManager::AddRideType()</a>, <a class="el" href="sprite__store_8h_source.html#l00184">ANIM_INVALID</a>, <a class="el" href="sprite__store_8h_source.html#l00198">Animation::anim_type</a>, <a class="el" href="sprite__store_8h_source.html#l00215">AnimationSprites::anim_type</a>, <a class="el" href="fileio_8cpp_source.html#l00219">RcdFileReader::CheckFileHeader()</a>, <a class="el" href="coaster_8cpp_source.html#l00032">GetNewCarType()</a>, <a class="el" href="shop__type_8cpp_source.html#l00058">ShopType::Load()</a>, <a class="el" href="coaster_8cpp_source.html#l00051">CarType::Load()</a>, <a class="el" href="sprite__store_8cpp_source.html#l00170">TextData::Load()</a>, <a class="el" href="coaster_8cpp_source.html#l00095">CoasterType::Load()</a>, <a class="el" href="sprite__store_8cpp_source.html#l00371">Fence::Load()</a>, <a class="el" href="sprite__store_8cpp_source.html#l00619">Animation::Load()</a>, <a class="el" href="sprite__store_8cpp_source.html#l00674">AnimationSprites::Load()</a>, <a class="el" href="sprite__store_8cpp_source.html#l00569">LoadBDIR()</a>, <a class="el" href="coaster_8cpp_source.html#l00206">LoadCoasterPlatform()</a>, <a class="el" href="sprite__store_8cpp_source.html#l00468">LoadFUND()</a>, <a class="el" href="sprite__store_8cpp_source.html#l00734">GuiSprites::LoadGBOR()</a>, <a class="el" href="sprite__store_8cpp_source.html#l00801">GuiSprites::LoadGCHK()</a>, <a class="el" href="sprite__store_8cpp_source.html#l00926">GuiSprites::LoadGSCL()</a>, <a class="el" href="sprite__store_8cpp_source.html#l00859">GuiSprites::LoadGSLI()</a>, <a class="el" href="sprite__store_8cpp_source.html#l00983">GuiSprites::LoadGSLP()</a>, <a class="el" href="sprite__data_8cpp_source.html#l00251">LoadImage()</a>, <a class="el" href="sprite__store_8cpp_source.html#l00397">LoadPATH()</a>, <a class="el" href="sprite__store_8cpp_source.html#l00503">LoadPLAT()</a>, <a class="el" href="person_8cpp_source.html#l00057">LoadPRSG()</a>, <a class="el" href="sprite__store_8cpp_source.html#l00540">LoadSUPP()</a>, <a class="el" href="sprite__store_8cpp_source.html#l00300">LoadSURF()</a>, <a class="el" href="sprite__store_8cpp_source.html#l00439">LoadTCOR()</a>, <a class="el" href="sprite__store_8cpp_source.html#l00338">LoadTSEL()</a>, <a class="el" href="fileio_8h_source.html#l00067">RcdFileReader::name</a>, <a class="el" href="person__type_8h_source.html#l00027">PERSON_INVALID</a>, <a class="el" href="sprite__store_8h_source.html#l00197">Animation::person_type</a>, <a class="el" href="sprite__store_8h_source.html#l00214">AnimationSprites::person_type</a>, <a class="el" href="fileio_8cpp_source.html#l00236">RcdFileReader::ReadBlockHeader()</a>, <a class="el" href="sprite__store_8cpp_source.html#l01122">SpriteStorage::RemoveAnimations()</a>, <a class="el" href="fileio_8h_source.html#l00069">RcdFileReader::size</a>, <a class="el" href="fileio_8cpp_source.html#l00249">RcdFileReader::SkipBytes()</a>, <a class="el" href="sprite__store_8h_source.html#l00610">store</a>, and <a class="el" href="fileio_8h_source.html#l00068">RcdFileReader::version</a>.</p>
+<p>References <a class="el" href="ride__type_8cpp_source.html#l00045">_rides_manager</a>, <a class="el" href="sprite__store_8cpp_source.html#l01568">AddAnimation()</a>, <a class="el" href="sprite__store_8cpp_source.html#l01270">SpriteStorage::AddAnimationSprites()</a>, <a class="el" href="sprite__store_8cpp_source.html#l01546">AddBlock()</a>, <a class="el" href="sprite__store_8cpp_source.html#l01281">SpriteStorage::AddFence()</a>, <a class="el" href="ride__type_8cpp_source.html#l00472">RidesManager::AddRideType()</a>, <a class="el" href="sprite__store_8h_source.html#l00203">ANIM_INVALID</a>, <a class="el" href="sprite__store_8h_source.html#l00217">Animation::anim_type</a>, <a class="el" href="sprite__store_8h_source.html#l00234">AnimationSprites::anim_type</a>, <a class="el" href="fileio_8cpp_source.html#l00219">RcdFileReader::CheckFileHeader()</a>, <a class="el" href="coaster_8cpp_source.html#l00032">GetNewCarType()</a>, <a class="el" href="shop__type_8cpp_source.html#l00079">ShopType::Load()</a>, <a class="el" href="coaster_8cpp_source.html#l00051">CarType::Load()</a>, <a class="el" href="sprite__store_8cpp_source.html#l00170">TextData::Load()</a>, <a class="el" href="coaster_8cpp_source.html#l00093">CoasterType::Load()</a>, <a class="el" href="sprite__store_8cpp_source.html#l00379">Fence::Load()</a>, <a class="el" href="sprite__store_8cpp_source.html#l00737">Animation::Load()</a>, <a class="el" href="sprite__store_8cpp_source.html#l00792">AnimationSprites::Load()</a>, <a class="el" href="sprite__store_8cpp_source.html#l00683">LoadBDIR()</a>, <a class="el" href="coaster_8cpp_source.html#l00194">LoadCoasterPlatform()</a>, <a class="el" href="sprite__store_8cpp_source.html#l00582">LoadFUND()</a>, <a class="el" href="sprite__store_8cpp_source.html#l00852">GuiSprites::LoadGBOR()</a>, <a class="el" href="sprite__store_8cpp_source.html#l00920">GuiSprites::LoadGCHK()</a>, <a class="el" href="sprite__store_8cpp_source.html#l01045">GuiSprites::LoadGSCL()</a>, <a class="el" href="sprite__store_8cpp_source.html#l00978">GuiSprites::LoadGSLI()</a>, <a class="el" href="sprite__store_8cpp_source.html#l01102">GuiSprites::LoadGSLP()</a>, <a class="el" href="sprite__data_8cpp_source.html#l00265">LoadImage()</a>, <a class="el" href="sprite__store_8cpp_source.html#l00405">LoadPATH()</a>, <a class="el" href="sprite__store_8cpp_source.html#l00470">LoadPDEC()</a>, <a class="el" href="sprite__store_8cpp_source.html#l00617">LoadPLAT()</a>, <a class="el" href="person_8cpp_source.html#l00058">LoadPRSG()</a>, <a class="el" href="sprite__store_8cpp_source.html#l00654">LoadSUPP()</a>, <a class="el" href="sprite__store_8cpp_source.html#l00312">LoadSURF()</a>, <a class="el" href="sprite__store_8cpp_source.html#l00553">LoadTCOR()</a>, <a class="el" href="sprite__store_8cpp_source.html#l00346">LoadTSEL()</a>, <a class="el" href="fileio_8h_source.html#l00067">RcdFileReader::name</a>, <a class="el" href="person__type_8h_source.html#l00030">PERSON_INVALID</a>, <a class="el" href="sprite__store_8h_source.html#l00216">Animation::person_type</a>, <a class="el" href="sprite__store_8h_source.html#l00233">AnimationSprites::person_type</a>, <a class="el" href="fileio_8cpp_source.html#l00236">RcdFileReader::ReadBlockHeader()</a>, <a class="el" href="sprite__store_8cpp_source.html#l01250">SpriteStorage::RemoveAnimations()</a>, <a class="el" href="fileio_8h_source.html#l00069">RcdFileReader::size</a>, <a class="el" href="fileio_8cpp_source.html#l00250">RcdFileReader::SkipBytes()</a>, <a class="el" href="sprite__store_8h_source.html#l00635">store</a>, and <a class="el" href="fileio_8h_source.html#l00068">RcdFileReader::version</a>.</p>
 
-<p>Referenced by <a class="el" href="sprite__store_8cpp_source.html#l01398">LoadRcdFiles()</a>.</p>
+<p>Referenced by <a class="el" href="sprite__store_8cpp_source.html#l01533">LoadRcdFiles()</a>.</p>
 
 </div>
 </div>
@@ -560,11 +563,11 @@ Private Member Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Sprite storage object for the given width if it exists, else <code>nullptr</code>. </dd></dl>
 
-<p>Definition at line <a class="el" href="sprite__store_8cpp_source.html#l01391">1391</a> of file <a class="el" href="sprite__store_8cpp_source.html">sprite_store.cpp</a>.</p>
+<p>Definition at line <a class="el" href="sprite__store_8cpp_source.html#l01526">1526</a> of file <a class="el" href="sprite__store_8cpp_source.html">sprite_store.cpp</a>.</p>
 
-<p>References <a class="el" href="sprite__store_8h_source.html#l00610">store</a>.</p>
+<p>References <a class="el" href="sprite__store_8h_source.html#l00635">store</a>.</p>
 
-<p>Referenced by <a class="el" href="sprite__store_8cpp_source.html#l00569">LoadBDIR()</a>, <a class="el" href="sprite__store_8cpp_source.html#l00468">LoadFUND()</a>, <a class="el" href="sprite__store_8cpp_source.html#l00397">LoadPATH()</a>, <a class="el" href="sprite__store_8cpp_source.html#l00503">LoadPLAT()</a>, <a class="el" href="sprite__store_8cpp_source.html#l00540">LoadSUPP()</a>, <a class="el" href="sprite__store_8cpp_source.html#l00300">LoadSURF()</a>, <a class="el" href="sprite__store_8cpp_source.html#l00439">LoadTCOR()</a>, and <a class="el" href="sprite__store_8cpp_source.html#l00338">LoadTSEL()</a>.</p>
+<p>Referenced by <a class="el" href="sprite__store_8cpp_source.html#l00683">LoadBDIR()</a>, <a class="el" href="sprite__store_8cpp_source.html#l00582">LoadFUND()</a>, <a class="el" href="sprite__store_8cpp_source.html#l00405">LoadPATH()</a>, <a class="el" href="sprite__store_8cpp_source.html#l00470">LoadPDEC()</a>, <a class="el" href="sprite__store_8cpp_source.html#l00617">LoadPLAT()</a>, <a class="el" href="sprite__store_8cpp_source.html#l00654">LoadSUPP()</a>, <a class="el" href="sprite__store_8cpp_source.html#l00312">LoadSURF()</a>, <a class="el" href="sprite__store_8cpp_source.html#l00553">LoadTCOR()</a>, and <a class="el" href="sprite__store_8cpp_source.html#l00346">LoadTSEL()</a>.</p>
 
 </div>
 </div>
@@ -609,13 +612,13 @@ Private Member Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Loading was successful. </dd></dl>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000052">Todo:</a></b></dt><dd>Remove height from RCD block. </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000055">Todo:</a></b></dt><dd>Remove height from RCD block. </dd></dl>
 
-<p>Definition at line <a class="el" href="sprite__store_8cpp_source.html#l00300">300</a> of file <a class="el" href="sprite__store_8cpp_source.html">sprite_store.cpp</a>.</p>
+<p>Definition at line <a class="el" href="sprite__store_8cpp_source.html#l00312">312</a> of file <a class="el" href="sprite__store_8cpp_source.html">sprite_store.cpp</a>.</p>
 
-<p>References <a class="el" href="sprite__store_8cpp_source.html#l01391">GetSpriteStore()</a>, <a class="el" href="fileio_8cpp_source.html#l00174">RcdFileReader::GetUInt16()</a>, <a class="el" href="tile_8h_source.html#l00195">GTP_COUNT</a>, <a class="el" href="tile_8h_source.html#l00193">GTP_CURSOR_EDGE_TEST</a>, <a class="el" href="tile_8h_source.html#l00192">GTP_CURSOR_TEST</a>, <a class="el" href="tile_8h_source.html#l00191">GTP_DESERT</a>, <a class="el" href="tile_8h_source.html#l00187">GTP_GRASS0</a>, <a class="el" href="tile_8h_source.html#l00188">GTP_GRASS1</a>, <a class="el" href="tile_8h_source.html#l00189">GTP_GRASS2</a>, <a class="el" href="tile_8h_source.html#l00190">GTP_GRASS3</a>, <a class="el" href="tile_8h_source.html#l00197">GTP_INVALID</a>, <a class="el" href="sprite__store_8cpp_source.html#l00256">LoadSpriteFromFile()</a>, <a class="el" href="tile_8h_source.html#l00080">NUM_SLOPE_SPRITES</a>, <a class="el" href="fileio_8h_source.html#l00069">RcdFileReader::size</a>, <a class="el" href="sprite__store_8h_source.html#l00066">SurfaceData::surface</a>, <a class="el" href="sprite__store_8h_source.html#l00568">SpriteStorage::surface</a>, and <a class="el" href="fileio_8h_source.html#l00068">RcdFileReader::version</a>.</p>
+<p>References <a class="el" href="sprite__store_8cpp_source.html#l01526">GetSpriteStore()</a>, <a class="el" href="fileio_8cpp_source.html#l00174">RcdFileReader::GetUInt16()</a>, <a class="el" href="tile_8h_source.html#l00196">GTP_COUNT</a>, <a class="el" href="tile_8h_source.html#l00194">GTP_CURSOR_EDGE_TEST</a>, <a class="el" href="tile_8h_source.html#l00193">GTP_CURSOR_TEST</a>, <a class="el" href="tile_8h_source.html#l00192">GTP_DESERT</a>, <a class="el" href="tile_8h_source.html#l00187">GTP_GRASS0</a>, <a class="el" href="tile_8h_source.html#l00188">GTP_GRASS1</a>, <a class="el" href="tile_8h_source.html#l00189">GTP_GRASS2</a>, <a class="el" href="tile_8h_source.html#l00190">GTP_GRASS3</a>, <a class="el" href="tile_8h_source.html#l00198">GTP_INVALID</a>, <a class="el" href="tile_8h_source.html#l00191">GTP_UNDERGROUND</a>, <a class="el" href="sprite__store_8cpp_source.html#l00256">LoadSpriteFromFile()</a>, <a class="el" href="tile_8h_source.html#l00080">NUM_SLOPE_SPRITES</a>, <a class="el" href="fileio_8h_source.html#l00069">RcdFileReader::size</a>, <a class="el" href="sprite__store_8h_source.html#l00069">SurfaceData::surface</a>, <a class="el" href="sprite__store_8h_source.html#l00592">SpriteStorage::surface</a>, and <a class="el" href="fileio_8h_source.html#l00068">RcdFileReader::version</a>.</p>
 
-<p>Referenced by <a class="el" href="sprite__store_8cpp_source.html#l01185">Load()</a>.</p>
+<p>Referenced by <a class="el" href="sprite__store_8cpp_source.html#l01315">Load()</a>.</p>
 
 </div>
 </div>
@@ -660,13 +663,13 @@ Private Member Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Loading was successful. </dd></dl>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000053">Todo:</a></b></dt><dd>Remove height from RCD block. </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000056">Todo:</a></b></dt><dd>Remove height from RCD block. </dd></dl>
 
-<p>Definition at line <a class="el" href="sprite__store_8cpp_source.html#l00338">338</a> of file <a class="el" href="sprite__store_8cpp_source.html">sprite_store.cpp</a>.</p>
+<p>Definition at line <a class="el" href="sprite__store_8cpp_source.html#l00346">346</a> of file <a class="el" href="sprite__store_8cpp_source.html">sprite_store.cpp</a>.</p>
 
-<p>References <a class="el" href="sprite__store_8cpp_source.html#l01391">GetSpriteStore()</a>, <a class="el" href="fileio_8cpp_source.html#l00174">RcdFileReader::GetUInt16()</a>, <a class="el" href="sprite__store_8cpp_source.html#l00256">LoadSpriteFromFile()</a>, <a class="el" href="tile_8h_source.html#l00080">NUM_SLOPE_SPRITES</a>, <a class="el" href="fileio_8h_source.html#l00069">RcdFileReader::size</a>, <a class="el" href="sprite__store_8h_source.html#l00077">TileSelection::surface</a>, <a class="el" href="sprite__store_8h_source.html#l00572">SpriteStorage::tile_select</a>, and <a class="el" href="fileio_8h_source.html#l00068">RcdFileReader::version</a>.</p>
+<p>References <a class="el" href="sprite__store_8cpp_source.html#l01526">GetSpriteStore()</a>, <a class="el" href="fileio_8cpp_source.html#l00174">RcdFileReader::GetUInt16()</a>, <a class="el" href="sprite__store_8cpp_source.html#l00256">LoadSpriteFromFile()</a>, <a class="el" href="tile_8h_source.html#l00080">NUM_SLOPE_SPRITES</a>, <a class="el" href="fileio_8h_source.html#l00069">RcdFileReader::size</a>, <a class="el" href="sprite__store_8h_source.html#l00069">SurfaceData::surface</a>, <a class="el" href="sprite__store_8h_source.html#l00596">SpriteStorage::tile_select</a>, and <a class="el" href="fileio_8h_source.html#l00068">RcdFileReader::version</a>.</p>
 
-<p>Referenced by <a class="el" href="sprite__store_8cpp_source.html#l01185">Load()</a>.</p>
+<p>Referenced by <a class="el" href="sprite__store_8cpp_source.html#l01315">Load()</a>.</p>
 
 </div>
 </div>
@@ -711,13 +714,13 @@ Private Member Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Loading was successful. </dd></dl>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000055">Todo:</a></b></dt><dd>Remove height from RCD block. </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000058">Todo:</a></b></dt><dd>Remove height from RCD block. </dd></dl>
 
-<p>Definition at line <a class="el" href="sprite__store_8cpp_source.html#l00439">439</a> of file <a class="el" href="sprite__store_8cpp_source.html">sprite_store.cpp</a>.</p>
+<p>Definition at line <a class="el" href="sprite__store_8cpp_source.html#l00553">553</a> of file <a class="el" href="sprite__store_8cpp_source.html">sprite_store.cpp</a>.</p>
 
-<p>References <a class="el" href="sprite__store_8cpp_source.html#l01391">GetSpriteStore()</a>, <a class="el" href="fileio_8cpp_source.html#l00174">RcdFileReader::GetUInt16()</a>, <a class="el" href="sprite__store_8cpp_source.html#l00256">LoadSpriteFromFile()</a>, <a class="el" href="tile_8h_source.html#l00080">NUM_SLOPE_SPRITES</a>, <a class="el" href="fileio_8h_source.html#l00069">RcdFileReader::size</a>, <a class="el" href="sprite__store_8h_source.html#l00088">TileCorners::sprites</a>, <a class="el" href="sprite__store_8h_source.html#l00573">SpriteStorage::tile_corners</a>, <a class="el" href="fileio_8h_source.html#l00068">RcdFileReader::version</a>, and <a class="el" href="orientation_8h_source.html#l00027">VOR_NUM_ORIENT</a>.</p>
+<p>References <a class="el" href="sprite__store_8cpp_source.html#l01526">GetSpriteStore()</a>, <a class="el" href="fileio_8cpp_source.html#l00174">RcdFileReader::GetUInt16()</a>, <a class="el" href="sprite__store_8cpp_source.html#l00256">LoadSpriteFromFile()</a>, <a class="el" href="tile_8h_source.html#l00080">NUM_SLOPE_SPRITES</a>, <a class="el" href="fileio_8h_source.html#l00069">RcdFileReader::size</a>, <a class="el" href="sprite__store_8h_source.html#l00080">TileCorners::sprites</a>, <a class="el" href="sprite__store_8h_source.html#l00597">SpriteStorage::tile_corners</a>, <a class="el" href="fileio_8h_source.html#l00068">RcdFileReader::version</a>, and <a class="el" href="orientation_8h_source.html#l00027">VOR_NUM_ORIENT</a>.</p>
 
-<p>Referenced by <a class="el" href="sprite__store_8cpp_source.html#l01185">Load()</a>.</p>
+<p>Referenced by <a class="el" href="sprite__store_8cpp_source.html#l01315">Load()</a>.</p>
 
 </div>
 </div>
@@ -762,13 +765,13 @@ Private Member Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Loading was successful. </dd></dl>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000056">Todo:</a></b></dt><dd>Remove height from RCD block. </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000059">Todo:</a></b></dt><dd>Remove height from RCD block. </dd></dl>
 
-<p>Definition at line <a class="el" href="sprite__store_8cpp_source.html#l00468">468</a> of file <a class="el" href="sprite__store_8cpp_source.html">sprite_store.cpp</a>.</p>
+<p>Definition at line <a class="el" href="sprite__store_8cpp_source.html#l00582">582</a> of file <a class="el" href="sprite__store_8cpp_source.html">sprite_store.cpp</a>.</p>
 
-<p>References <a class="el" href="tile_8h_source.html#l00207">FDT_BRICK</a>, <a class="el" href="tile_8h_source.html#l00209">FDT_COUNT</a>, <a class="el" href="tile_8h_source.html#l00205">FDT_GROUND</a>, <a class="el" href="tile_8h_source.html#l00211">FDT_INVALID</a>, <a class="el" href="tile_8h_source.html#l00206">FDT_WOOD</a>, <a class="el" href="sprite__store_8h_source.html#l00569">SpriteStorage::foundation</a>, <a class="el" href="sprite__store_8cpp_source.html#l01391">GetSpriteStore()</a>, <a class="el" href="fileio_8cpp_source.html#l00174">RcdFileReader::GetUInt16()</a>, <a class="el" href="stdafx_8h_source.html#l00157">lengthof</a>, <a class="el" href="sprite__store_8cpp_source.html#l00256">LoadSpriteFromFile()</a>, <a class="el" href="fileio_8h_source.html#l00069">RcdFileReader::size</a>, <a class="el" href="sprite__store_8h_source.html#l00127">Foundation::sprites</a>, and <a class="el" href="fileio_8h_source.html#l00068">RcdFileReader::version</a>.</p>
+<p>References <a class="el" href="tile_8h_source.html#l00208">FDT_BRICK</a>, <a class="el" href="tile_8h_source.html#l00210">FDT_COUNT</a>, <a class="el" href="tile_8h_source.html#l00206">FDT_GROUND</a>, <a class="el" href="tile_8h_source.html#l00212">FDT_INVALID</a>, <a class="el" href="tile_8h_source.html#l00207">FDT_WOOD</a>, <a class="el" href="sprite__store_8h_source.html#l00593">SpriteStorage::foundation</a>, <a class="el" href="sprite__store_8cpp_source.html#l01526">GetSpriteStore()</a>, <a class="el" href="fileio_8cpp_source.html#l00174">RcdFileReader::GetUInt16()</a>, <a class="el" href="stdafx_8h_source.html#l00157">lengthof</a>, <a class="el" href="sprite__store_8cpp_source.html#l00256">LoadSpriteFromFile()</a>, <a class="el" href="fileio_8h_source.html#l00069">RcdFileReader::size</a>, <a class="el" href="sprite__store_8h_source.html#l00146">Foundation::sprites</a>, and <a class="el" href="fileio_8h_source.html#l00068">RcdFileReader::version</a>.</p>
 
-<p>Referenced by <a class="el" href="sprite__store_8cpp_source.html#l01185">Load()</a>.</p>
+<p>Referenced by <a class="el" href="sprite__store_8cpp_source.html#l01315">Load()</a>.</p>
 
 </div>
 </div>
@@ -813,13 +816,63 @@ Private Member Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Loading was successful. </dd></dl>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000054">Todo:</a></b></dt><dd>Remove height from RCD block. </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000057">Todo:</a></b></dt><dd>Remove height from RCD block. </dd></dl>
 
-<p>Definition at line <a class="el" href="sprite__store_8cpp_source.html#l00397">397</a> of file <a class="el" href="sprite__store_8cpp_source.html">sprite_store.cpp</a>.</p>
+<p>Definition at line <a class="el" href="sprite__store_8cpp_source.html#l00405">405</a> of file <a class="el" href="sprite__store_8cpp_source.html">sprite_store.cpp</a>.</p>
 
-<p>References <a class="el" href="sprite__store_8cpp_source.html#l01391">GetSpriteStore()</a>, <a class="el" href="fileio_8cpp_source.html#l00174">RcdFileReader::GetUInt16()</a>, <a class="el" href="sprite__store_8cpp_source.html#l00256">LoadSpriteFromFile()</a>, <a class="el" href="path_8h_source.html#l00117">PAS_NORMAL_PATH</a>, <a class="el" href="path_8h_source.html#l00118">PAS_QUEUE_PATH</a>, <a class="el" href="path_8h_source.html#l00107">PAT_ASPHALT</a>, <a class="el" href="path_8h_source.html#l00108">PAT_CONCRETE</a>, <a class="el" href="path_8h_source.html#l00111">PAT_INVALID</a>, <a class="el" href="path_8h_source.html#l00106">PAT_TILED</a>, <a class="el" href="path_8h_source.html#l00105">PAT_WOOD</a>, <a class="el" href="path_8h_source.html#l00083">PATH_COUNT</a>, <a class="el" href="sprite__store_8h_source.html#l00575">SpriteStorage::path_sprites</a>, <a class="el" href="fileio_8h_source.html#l00069">RcdFileReader::size</a>, <a class="el" href="sprite__store_8h_source.html#l00116">Path::sprites</a>, <a class="el" href="sprite__store_8h_source.html#l00115">Path::status</a>, and <a class="el" href="fileio_8h_source.html#l00068">RcdFileReader::version</a>.</p>
+<p>References <a class="el" href="sprite__store_8cpp_source.html#l01526">GetSpriteStore()</a>, <a class="el" href="fileio_8cpp_source.html#l00174">RcdFileReader::GetUInt16()</a>, <a class="el" href="sprite__store_8cpp_source.html#l00256">LoadSpriteFromFile()</a>, <a class="el" href="path_8h_source.html#l00117">PAS_NORMAL_PATH</a>, <a class="el" href="path_8h_source.html#l00118">PAS_QUEUE_PATH</a>, <a class="el" href="path_8h_source.html#l00107">PAT_ASPHALT</a>, <a class="el" href="path_8h_source.html#l00108">PAT_CONCRETE</a>, <a class="el" href="path_8h_source.html#l00111">PAT_INVALID</a>, <a class="el" href="path_8h_source.html#l00106">PAT_TILED</a>, <a class="el" href="path_8h_source.html#l00105">PAT_WOOD</a>, <a class="el" href="path_8h_source.html#l00083">PATH_COUNT</a>, <a class="el" href="sprite__store_8h_source.html#l00599">SpriteStorage::path_sprites</a>, <a class="el" href="fileio_8h_source.html#l00069">RcdFileReader::size</a>, <a class="el" href="sprite__store_8h_source.html#l00108">Path::sprites</a>, <a class="el" href="sprite__store_8h_source.html#l00107">Path::status</a>, and <a class="el" href="fileio_8h_source.html#l00068">RcdFileReader::version</a>.</p>
 
-<p>Referenced by <a class="el" href="sprite__store_8cpp_source.html#l01185">Load()</a>.</p>
+<p>Referenced by <a class="el" href="sprite__store_8cpp_source.html#l01315">Load()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a79c7bde5926cf4088cd674f6b17075da"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool SpriteManager::LoadPDEC </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classRcdFileReader.html">RcdFileReader</a> *&#160;</td>
+          <td class="paramname"><em>rcd_file</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="sprite__store_8h.html#a88932b0cbbb95cd50df52f1aa1db5aec">ImageMap</a> &amp;&#160;</td>
+          <td class="paramname"><em>sprites</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Load a path decoration sprites block from a RCD file. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">rcd_file</td><td>RCD file used for loading. </td></tr>
+    <tr><td class="paramname">sprites</td><td>Map of already loaded sprites. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Loading was successful. </dd></dl>
+
+<p>Definition at line <a class="el" href="sprite__store_8cpp_source.html#l00470">470</a> of file <a class="el" href="sprite__store_8cpp_source.html">sprite_store.cpp</a>.</p>
+
+<p>References <a class="el" href="sprite__store_8h_source.html#l00124">PathDecoration::bench</a>, <a class="el" href="sprite__store_8h_source.html#l00125">PathDecoration::demolished_bench</a>, <a class="el" href="sprite__store_8h_source.html#l00121">PathDecoration::demolished_bin</a>, <a class="el" href="sprite__store_8h_source.html#l00123">PathDecoration::demolished_lamp</a>, <a class="el" href="tile_8h_source.html#l00118">EDGE_BEGIN</a>, <a class="el" href="tile_8h_source.html#l00124">EDGE_COUNT</a>, <a class="el" href="sprite__store_8h_source.html#l00127">PathDecoration::flat_litter</a>, <a class="el" href="sprite__store_8h_source.html#l00132">PathDecoration::flat_litter_count</a>, <a class="el" href="sprite__store_8h_source.html#l00129">PathDecoration::flat_vomit</a>, <a class="el" href="sprite__store_8h_source.html#l00133">PathDecoration::flat_vomit_count</a>, <a class="el" href="sprite__store_8cpp_source.html#l01526">GetSpriteStore()</a>, <a class="el" href="fileio_8cpp_source.html#l00174">RcdFileReader::GetUInt16()</a>, <a class="el" href="sprite__store_8h_source.html#l00122">PathDecoration::lamp_post</a>, <a class="el" href="sprite__store_8h_source.html#l00119">PathDecoration::litterbin</a>, <a class="el" href="sprite__store_8cpp_source.html#l00256">LoadSpriteFromFile()</a>, <a class="el" href="sprite__store_8h_source.html#l00120">PathDecoration::overflow_bin</a>, <a class="el" href="sprite__store_8h_source.html#l00600">SpriteStorage::path_decoration</a>, <a class="el" href="sprite__store_8h_source.html#l00128">PathDecoration::ramp_litter</a>, <a class="el" href="sprite__store_8h_source.html#l00134">PathDecoration::ramp_litter_count</a>, <a class="el" href="sprite__store_8h_source.html#l00130">PathDecoration::ramp_vomit</a>, <a class="el" href="sprite__store_8h_source.html#l00135">PathDecoration::ramp_vomit_count</a>, <a class="el" href="fileio_8h_source.html#l00069">RcdFileReader::size</a>, and <a class="el" href="fileio_8h_source.html#l00068">RcdFileReader::version</a>.</p>
+
+<p>Referenced by <a class="el" href="sprite__store_8cpp_source.html#l01315">Load()</a>.</p>
 
 </div>
 </div>
@@ -865,11 +918,11 @@ Private Member Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Loading was successful. </dd></dl>
 
-<p>Definition at line <a class="el" href="sprite__store_8cpp_source.html#l00569">569</a> of file <a class="el" href="sprite__store_8cpp_source.html">sprite_store.cpp</a>.</p>
+<p>Definition at line <a class="el" href="sprite__store_8cpp_source.html#l00683">683</a> of file <a class="el" href="sprite__store_8cpp_source.html">sprite_store.cpp</a>.</p>
 
-<p>References <a class="el" href="sprite__store_8h_source.html#l00576">SpriteStorage::build_arrows</a>, <a class="el" href="sprite__store_8cpp_source.html#l01391">GetSpriteStore()</a>, <a class="el" href="fileio_8cpp_source.html#l00174">RcdFileReader::GetUInt16()</a>, <a class="el" href="stdafx_8h_source.html#l00157">lengthof</a>, <a class="el" href="sprite__store_8cpp_source.html#l00256">LoadSpriteFromFile()</a>, <a class="el" href="fileio_8h_source.html#l00069">RcdFileReader::size</a>, <a class="el" href="sprite__store_8h_source.html#l00165">DisplayedObject::sprites</a>, and <a class="el" href="fileio_8h_source.html#l00068">RcdFileReader::version</a>.</p>
+<p>References <a class="el" href="sprite__store_8h_source.html#l00601">SpriteStorage::build_arrows</a>, <a class="el" href="sprite__store_8cpp_source.html#l01526">GetSpriteStore()</a>, <a class="el" href="fileio_8cpp_source.html#l00174">RcdFileReader::GetUInt16()</a>, <a class="el" href="stdafx_8h_source.html#l00157">lengthof</a>, <a class="el" href="sprite__store_8cpp_source.html#l00256">LoadSpriteFromFile()</a>, <a class="el" href="fileio_8h_source.html#l00069">RcdFileReader::size</a>, <a class="el" href="sprite__store_8h_source.html#l00184">DisplayedObject::sprites</a>, and <a class="el" href="fileio_8h_source.html#l00068">RcdFileReader::version</a>.</p>
 
-<p>Referenced by <a class="el" href="sprite__store_8cpp_source.html#l01185">Load()</a>.</p>
+<p>Referenced by <a class="el" href="sprite__store_8cpp_source.html#l01315">Load()</a>.</p>
 
 </div>
 </div>
@@ -914,13 +967,13 @@ Private Member Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Loading was successful. </dd></dl>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000057">Todo:</a></b></dt><dd>Remove height from RCD block. </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000060">Todo:</a></b></dt><dd>Remove height from RCD block. </dd></dl>
 
-<p>Definition at line <a class="el" href="sprite__store_8cpp_source.html#l00503">503</a> of file <a class="el" href="sprite__store_8cpp_source.html">sprite_store.cpp</a>.</p>
+<p>Definition at line <a class="el" href="sprite__store_8cpp_source.html#l00617">617</a> of file <a class="el" href="sprite__store_8cpp_source.html">sprite_store.cpp</a>.</p>
 
-<p>References <a class="el" href="sprite__store_8h_source.html#l00139">Platform::flat</a>, <a class="el" href="sprite__store_8cpp_source.html#l01391">GetSpriteStore()</a>, <a class="el" href="fileio_8cpp_source.html#l00174">RcdFileReader::GetUInt16()</a>, <a class="el" href="sprite__store_8h_source.html#l00142">Platform::left_ramp</a>, <a class="el" href="stdafx_8h_source.html#l00157">lengthof</a>, <a class="el" href="sprite__store_8cpp_source.html#l00256">LoadSpriteFromFile()</a>, <a class="el" href="sprite__store_8h_source.html#l00570">SpriteStorage::platform</a>, <a class="el" href="sprite__store_8h_source.html#l00140">Platform::ramp</a>, <a class="el" href="sprite__store_8h_source.html#l00141">Platform::right_ramp</a>, <a class="el" href="fileio_8h_source.html#l00069">RcdFileReader::size</a>, and <a class="el" href="fileio_8h_source.html#l00068">RcdFileReader::version</a>.</p>
+<p>References <a class="el" href="sprite__store_8h_source.html#l00158">Platform::flat</a>, <a class="el" href="sprite__store_8cpp_source.html#l01526">GetSpriteStore()</a>, <a class="el" href="fileio_8cpp_source.html#l00174">RcdFileReader::GetUInt16()</a>, <a class="el" href="sprite__store_8h_source.html#l00161">Platform::left_ramp</a>, <a class="el" href="stdafx_8h_source.html#l00157">lengthof</a>, <a class="el" href="sprite__store_8cpp_source.html#l00256">LoadSpriteFromFile()</a>, <a class="el" href="sprite__store_8h_source.html#l00594">SpriteStorage::platform</a>, <a class="el" href="sprite__store_8h_source.html#l00159">Platform::ramp</a>, <a class="el" href="sprite__store_8h_source.html#l00160">Platform::right_ramp</a>, <a class="el" href="fileio_8h_source.html#l00069">RcdFileReader::size</a>, and <a class="el" href="fileio_8h_source.html#l00068">RcdFileReader::version</a>.</p>
 
-<p>Referenced by <a class="el" href="sprite__store_8cpp_source.html#l01185">Load()</a>.</p>
+<p>Referenced by <a class="el" href="sprite__store_8cpp_source.html#l01315">Load()</a>.</p>
 
 </div>
 </div>
@@ -965,13 +1018,13 @@ Private Member Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Loading was successful. </dd></dl>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000058">Todo:</a></b></dt><dd>Remove height from RCD block. </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000061">Todo:</a></b></dt><dd>Remove height from RCD block. </dd></dl>
 
-<p>Definition at line <a class="el" href="sprite__store_8cpp_source.html#l00540">540</a> of file <a class="el" href="sprite__store_8cpp_source.html">sprite_store.cpp</a>.</p>
+<p>Definition at line <a class="el" href="sprite__store_8cpp_source.html#l00654">654</a> of file <a class="el" href="sprite__store_8cpp_source.html">sprite_store.cpp</a>.</p>
 
-<p>References <a class="el" href="sprite__store_8cpp_source.html#l01391">GetSpriteStore()</a>, <a class="el" href="fileio_8cpp_source.html#l00174">RcdFileReader::GetUInt16()</a>, <a class="el" href="stdafx_8h_source.html#l00157">lengthof</a>, <a class="el" href="sprite__store_8cpp_source.html#l00256">LoadSpriteFromFile()</a>, <a class="el" href="fileio_8h_source.html#l00069">RcdFileReader::size</a>, <a class="el" href="sprite__store_8h_source.html#l00153">Support::sprites</a>, <a class="el" href="tile_8h_source.html#l00109">SSP_COUNT</a>, <a class="el" href="sprite__store_8h_source.html#l00571">SpriteStorage::support</a>, and <a class="el" href="fileio_8h_source.html#l00068">RcdFileReader::version</a>.</p>
+<p>References <a class="el" href="sprite__store_8cpp_source.html#l01526">GetSpriteStore()</a>, <a class="el" href="fileio_8cpp_source.html#l00174">RcdFileReader::GetUInt16()</a>, <a class="el" href="stdafx_8h_source.html#l00157">lengthof</a>, <a class="el" href="sprite__store_8cpp_source.html#l00256">LoadSpriteFromFile()</a>, <a class="el" href="fileio_8h_source.html#l00069">RcdFileReader::size</a>, <a class="el" href="sprite__store_8h_source.html#l00172">Support::sprites</a>, <a class="el" href="tile_8h_source.html#l00109">SSP_COUNT</a>, <a class="el" href="sprite__store_8h_source.html#l00595">SpriteStorage::support</a>, and <a class="el" href="fileio_8h_source.html#l00068">RcdFileReader::version</a>.</p>
 
-<p>Referenced by <a class="el" href="sprite__store_8cpp_source.html#l01185">Load()</a>.</p>
+<p>Referenced by <a class="el" href="sprite__store_8cpp_source.html#l01315">Load()</a>.</p>
 
 </div>
 </div>
@@ -1023,11 +1076,11 @@ Private Member Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="sprite__store_8cpp_source.html#l01460">1460</a> of file <a class="el" href="sprite__store_8cpp_source.html">sprite_store.cpp</a>.</p>
+<p>Definition at line <a class="el" href="sprite__store_8cpp_source.html#l01595">1595</a> of file <a class="el" href="sprite__store_8cpp_source.html">sprite_store.cpp</a>.</p>
 
-<p>References <a class="el" href="sprite__store_8cpp_source.html#l01443">GetSpriteSize()</a>, <a class="el" href="sprite__store_8cpp_source.html#l01540">GetTableSprite()</a>, <a class="el" href="sprite__data_8h_source.html#l00040">ImageData::height</a>, <a class="el" href="geometry_8h_source.html#l00229">Rectangle&lt; PT, SZ &gt;::MergeArea()</a>, and <a class="el" href="sprite__data_8h_source.html#l00039">ImageData::width</a>.</p>
+<p>References <a class="el" href="sprite__store_8cpp_source.html#l01578">GetSpriteSize()</a>, <a class="el" href="sprite__store_8cpp_source.html#l01683">GetTableSprite()</a>, <a class="el" href="sprite__data_8h_source.html#l00049">ImageData::height</a>, <a class="el" href="geometry_8h_source.html#l00331">Rectangle&lt; PT, SZ &gt;::MergeArea()</a>, and <a class="el" href="sprite__data_8h_source.html#l00048">ImageData::width</a>.</p>
 
-<p>Referenced by <a class="el" href="sprite__store_8cpp_source.html#l01475">GetTableSpriteSize()</a>.</p>
+<p>Referenced by <a class="el" href="sprite__store_8cpp_source.html#l01610">GetTableSpriteSize()</a>.</p>
 
 </div>
 </div>
@@ -1038,7 +1091,7 @@ Private Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Sep 5 2014 19:06:15 for FreeRCT by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Feb 25 2015 13:22:41 for FreeRCT by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

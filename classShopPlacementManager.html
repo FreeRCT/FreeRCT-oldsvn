@@ -142,19 +142,19 @@ const <a class="el" href="group__viewport__group.html#ga1e53aab612718f53f9838d49
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
-<tr class="memitem:a525b086151dcbfc17ff6ce159c033482"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShopPlacementManager.html#a525b086151dcbfc17ff6ce159c033482">CanPlaceShop</a> (const <a class="el" href="classShopType.html">ShopType</a> *selected_shop, int xpos, int ypos, int zpos)</td></tr>
-<tr class="memdesc:a525b086151dcbfc17ff6ce159c033482"><td class="mdescLeft">&#160;</td><td class="mdescRight">Can a shop be placed at the given voxel?  <a href="#a525b086151dcbfc17ff6ce159c033482">More...</a><br /></td></tr>
-<tr class="separator:a525b086151dcbfc17ff6ce159c033482"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a96ee99ec62a5d7813a9e2df1c8663531"><td class="memItemLeft" align="right" valign="top"><a class="el" href="shop__placement_8h.html#a5dd4effc2e08236eced8abeec2cad9d7">RidePlacementResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShopPlacementManager.html#a96ee99ec62a5d7813a9e2df1c8663531">ComputeShopVoxel</a> (<a class="el" href="stdafx_8h.html#a43d43196463bde49cb067f5c20ab8481">int32</a> xworld, <a class="el" href="stdafx_8h.html#a43d43196463bde49cb067f5c20ab8481">int32</a> yworld, <a class="el" href="stdafx_8h.html#a43d43196463bde49cb067f5c20ab8481">int32</a> zworld)</td></tr>
-<tr class="memdesc:a96ee99ec62a5d7813a9e2df1c8663531"><td class="mdescLeft">&#160;</td><td class="mdescRight">Decide at which voxel to place a shop.  <a href="#a96ee99ec62a5d7813a9e2df1c8663531">More...</a><br /></td></tr>
-<tr class="separator:a96ee99ec62a5d7813a9e2df1c8663531"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae1c50caaeea804c5ba4288fa9026d13"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShopPlacementManager.html#aae1c50caaeea804c5ba4288fa9026d13">CanPlaceShop</a> (const <a class="el" href="classShopType.html">ShopType</a> *selected_shop, const <a class="el" href="geometry_8h.html#a71fcb91f44cc6cbf519d0c45c07e931d">XYZPoint16</a> &amp;pos)</td></tr>
+<tr class="memdesc:aae1c50caaeea804c5ba4288fa9026d13"><td class="mdescLeft">&#160;</td><td class="mdescRight">Can a shop be placed at the given voxel?  <a href="#aae1c50caaeea804c5ba4288fa9026d13">More...</a><br /></td></tr>
+<tr class="separator:aae1c50caaeea804c5ba4288fa9026d13"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a602d5401aeb58a029c0f812831f17b63"><td class="memItemLeft" align="right" valign="top"><a class="el" href="shop__placement_8h.html#a5dd4effc2e08236eced8abeec2cad9d7">RidePlacementResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShopPlacementManager.html#a602d5401aeb58a029c0f812831f17b63">ComputeShopVoxel</a> (<a class="el" href="geometry_8h.html#ad44b56387be4716a93eb09e15466703d">XYZPoint32</a> world_pos)</td></tr>
+<tr class="memdesc:a602d5401aeb58a029c0f812831f17b63"><td class="mdescLeft">&#160;</td><td class="mdescRight">Decide at which voxel to place a shop.  <a href="#a602d5401aeb58a029c0f812831f17b63">More...</a><br /></td></tr>
+<tr class="separator:a602d5401aeb58a029c0f812831f17b63"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa1f2ade68beec6e457cadba33d757f35"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShopPlacementManager.html#aa1f2ade68beec6e457cadba33d757f35">PlaceShop</a> (const <a class="el" href="geometry_8h.html#a8dae0129165d8f97077d8cd1ea247764">Point16</a> &amp;pos)</td></tr>
 <tr class="memdesc:aa1f2ade68beec6e457cadba33d757f35"><td class="mdescLeft">&#160;</td><td class="mdescRight">Place the shop at the indicated mouse position (if possible), and update the state to <a class="el" href="shop__placement_8h.html#a5c15a13dbc775a9d9f08d854680c0f3aa6b1b8e960d2b8742c27cfc3de60615e5" title="A shop has been selected, but the mouse is at a bad spot for building a shop. ">SPS_BAD_POS</a> or <a class="el" href="shop__placement_8h.html#a5c15a13dbc775a9d9f08d854680c0f3aac6b9088b1cde16a975589c7ede4179e1" title="A shop has been selected, and the mouse if at a good spot (is displayed in the world additions)...">SPS_GOOD_POS</a>.  <a href="#aa1f2ade68beec6e457cadba33d757f35">More...</a><br /></td></tr>
 <tr class="separator:aa1f2ade68beec6e457cadba33d757f35"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Class interacting between <a class="el" href="classRideSelectGui.html" title="GUI for selecting a ride to build. ">RideSelectGui</a>, and the <a class="el" href="classViewport.html" title="Class for displaying parts of the world. ">Viewport</a> mouse mode <a class="el" href="group__viewport__group.html#gga1e53aab612718f53f9838d49f13be786acba4b3593bd609660636cb391d009c91" title="Placement of a shop. ">MM_SHOP_PLACEMENT</a>. </p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000049">Todo:</a></b></dt><dd>[low] Other rides will handle construction from their own instance window, perhaps the shop should do that too? </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000051">Todo:</a></b></dt><dd>[low] Other rides will handle construction from their own instance window, perhaps the shop should do that too? </dd></dl>
 
 <p>Definition at line <a class="el" href="shop__placement_8h_source.html#l00038">38</a> of file <a class="el" href="shop__placement_8h_source.html">shop_placement.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
@@ -173,7 +173,7 @@ Private Member Functions</h2></td></tr>
 
 <p>Constructor of the shop placement coordinator. </p>
 
-<p>Definition at line <a class="el" href="ride__gui_8cpp_source.html#l00507">507</a> of file <a class="el" href="ride__gui_8cpp_source.html">ride_gui.cpp</a>.</p>
+<p>Definition at line <a class="el" href="ride__gui_8cpp_source.html#l00502">502</a> of file <a class="el" href="ride__gui_8cpp_source.html">ride_gui.cpp</a>.</p>
 
 <p>References <a class="el" href="shop__placement_8h_source.html#l00058">instance</a>, <a class="el" href="ride__type_8h_source.html#l00021">INVALID_RIDE_INSTANCE</a>, <a class="el" href="shop__placement_8h_source.html#l00057">selected_ride</a>, <a class="el" href="shop__placement_8h_source.html#l00021">SPS_OFF</a>, and <a class="el" href="shop__placement_8h_source.html#l00055">state</a>.</p>
 
@@ -206,7 +206,7 @@ Private Member Functions</h2></td></tr>
 
 <p>Implements <a class="el" href="classMouseMode.html#a0278e5a0f9ec226902d0e0bd27ffb65c">MouseMode</a>.</p>
 
-<p>Definition at line <a class="el" href="ride__gui_8cpp_source.html#l00519">519</a> of file <a class="el" href="ride__gui_8cpp_source.html">ride_gui.cpp</a>.</p>
+<p>Definition at line <a class="el" href="ride__gui_8cpp_source.html#l00514">514</a> of file <a class="el" href="ride__gui_8cpp_source.html">ride_gui.cpp</a>.</p>
 
 <p>References <a class="el" href="shop__placement_8h_source.html#l00057">selected_ride</a>, <a class="el" href="shop__placement_8h_source.html#l00023">SPS_BAD_POS</a>, <a class="el" href="shop__placement_8h_source.html#l00024">SPS_GOOD_POS</a>, <a class="el" href="shop__placement_8h_source.html#l00022">SPS_OPENED</a>, and <a class="el" href="shop__placement_8h_source.html#l00055">state</a>.</p>
 
@@ -244,9 +244,9 @@ Private Member Functions</h2></td></tr>
 
 <p>Implements <a class="el" href="classMouseMode.html#ac28b070af073b693313ab39557d64d7a">MouseMode</a>.</p>
 
-<p>Definition at line <a class="el" href="ride__gui_8cpp_source.html#l00526">526</a> of file <a class="el" href="ride__gui_8cpp_source.html">ride_gui.cpp</a>.</p>
+<p>Definition at line <a class="el" href="ride__gui_8cpp_source.html#l00521">521</a> of file <a class="el" href="ride__gui_8cpp_source.html">ride_gui.cpp</a>.</p>
 
-<p>References <a class="el" href="viewport_8cpp_source.html#l00101">EnableWorldAdditions()</a>, <a class="el" href="shop__placement_8h_source.html#l00059">mouse_pos</a>, <a class="el" href="ride__gui_8cpp_source.html#l00465">PlaceShop()</a>, <a class="el" href="shop__placement_8h_source.html#l00057">selected_ride</a>, <a class="el" href="shop__placement_8h_source.html#l00021">SPS_OFF</a>, <a class="el" href="shop__placement_8h_source.html#l00022">SPS_OPENED</a>, and <a class="el" href="shop__placement_8h_source.html#l00055">state</a>.</p>
+<p>References <a class="el" href="viewport_8cpp_source.html#l00101">EnableWorldAdditions()</a>, <a class="el" href="shop__placement_8h_source.html#l00059">mouse_pos</a>, <a class="el" href="ride__gui_8cpp_source.html#l00460">PlaceShop()</a>, <a class="el" href="shop__placement_8h_source.html#l00057">selected_ride</a>, <a class="el" href="shop__placement_8h_source.html#l00021">SPS_OFF</a>, <a class="el" href="shop__placement_8h_source.html#l00022">SPS_OPENED</a>, and <a class="el" href="shop__placement_8h_source.html#l00055">state</a>.</p>
 
 </div>
 </div>
@@ -275,9 +275,9 @@ Private Member Functions</h2></td></tr>
 
 <p>Implements <a class="el" href="classMouseMode.html#a36e8aab8b458d9d1973388e5813a1af4">MouseMode</a>.</p>
 
-<p>Definition at line <a class="el" href="ride__gui_8cpp_source.html#l00541">541</a> of file <a class="el" href="ride__gui_8cpp_source.html">ride_gui.cpp</a>.</p>
+<p>Definition at line <a class="el" href="ride__gui_8cpp_source.html#l00536">536</a> of file <a class="el" href="ride__gui_8cpp_source.html">ride_gui.cpp</a>.</p>
 
-<p>References <a class="el" href="ride__type_8cpp_source.html#l00043">_rides_manager</a>, <a class="el" href="window_8h_source.html#l00112">ALL_WINDOWS_OF_TYPE</a>, <a class="el" href="window_8h_source.html#l00065">CHG_MOUSE_MODE_LOST</a>, <a class="el" href="ride__type_8cpp_source.html#l00568">RidesManager::DeleteInstance()</a>, <a class="el" href="viewport_8cpp_source.html#l00108">DisableWorldAdditions()</a>, <a class="el" href="shop__placement_8h_source.html#l00058">instance</a>, <a class="el" href="ride__type_8h_source.html#l00021">INVALID_RIDE_INSTANCE</a>, <a class="el" href="window_8cpp_source.html#l01043">NotifyChange()</a>, <a class="el" href="shop__placement_8h_source.html#l00057">selected_ride</a>, <a class="el" href="shop__placement_8h_source.html#l00023">SPS_BAD_POS</a>, <a class="el" href="shop__placement_8h_source.html#l00024">SPS_GOOD_POS</a>, <a class="el" href="shop__placement_8h_source.html#l00022">SPS_OPENED</a>, <a class="el" href="shop__placement_8h_source.html#l00055">state</a>, and <a class="el" href="window_8h_source.html#l00050">WC_RIDE_SELECT</a>.</p>
+<p>References <a class="el" href="ride__type_8cpp_source.html#l00045">_rides_manager</a>, <a class="el" href="window_8h_source.html#l00128">ALL_WINDOWS_OF_TYPE</a>, <a class="el" href="window_8h_source.html#l00065">CHG_MOUSE_MODE_LOST</a>, <a class="el" href="ride__type_8cpp_source.html#l00590">RidesManager::DeleteInstance()</a>, <a class="el" href="viewport_8cpp_source.html#l00108">DisableWorldAdditions()</a>, <a class="el" href="shop__placement_8h_source.html#l00058">instance</a>, <a class="el" href="ride__type_8h_source.html#l00021">INVALID_RIDE_INSTANCE</a>, <a class="el" href="window_8cpp_source.html#l01054">NotifyChange()</a>, <a class="el" href="shop__placement_8h_source.html#l00057">selected_ride</a>, <a class="el" href="shop__placement_8h_source.html#l00023">SPS_BAD_POS</a>, <a class="el" href="shop__placement_8h_source.html#l00024">SPS_GOOD_POS</a>, <a class="el" href="shop__placement_8h_source.html#l00022">SPS_OPENED</a>, <a class="el" href="shop__placement_8h_source.html#l00055">state</a>, and <a class="el" href="window_8h_source.html#l00050">WC_RIDE_SELECT</a>.</p>
 
 </div>
 </div>
@@ -307,7 +307,7 @@ Private Member Functions</h2></td></tr>
 
 <p>Implements <a class="el" href="classMouseMode.html#ad6a36d0faeab665730130ed0d7795b27">MouseMode</a>.</p>
 
-<p>Definition at line <a class="el" href="ride__gui_8cpp_source.html#l00514">514</a> of file <a class="el" href="ride__gui_8cpp_source.html">ride_gui.cpp</a>.</p>
+<p>Definition at line <a class="el" href="ride__gui_8cpp_source.html#l00509">509</a> of file <a class="el" href="ride__gui_8cpp_source.html">ride_gui.cpp</a>.</p>
 
 </div>
 </div>
@@ -361,9 +361,9 @@ Private Member Functions</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="classMouseMode.html#aca1a120320a2266729af76f9aff0d58c">MouseMode</a>.</p>
 
-<p>Definition at line <a class="el" href="ride__gui_8cpp_source.html#l00558">558</a> of file <a class="el" href="ride__gui_8cpp_source.html">ride_gui.cpp</a>.</p>
+<p>Definition at line <a class="el" href="ride__gui_8cpp_source.html#l00553">553</a> of file <a class="el" href="ride__gui_8cpp_source.html">ride_gui.cpp</a>.</p>
 
-<p>References <a class="el" href="shop__placement_8h_source.html#l00059">mouse_pos</a>, <a class="el" href="ride__gui_8cpp_source.html#l00465">PlaceShop()</a>, <a class="el" href="shop__placement_8h_source.html#l00021">SPS_OFF</a>, <a class="el" href="shop__placement_8h_source.html#l00022">SPS_OPENED</a>, and <a class="el" href="shop__placement_8h_source.html#l00055">state</a>.</p>
+<p>References <a class="el" href="shop__placement_8h_source.html#l00059">mouse_pos</a>, <a class="el" href="ride__gui_8cpp_source.html#l00460">PlaceShop()</a>, <a class="el" href="shop__placement_8h_source.html#l00021">SPS_OFF</a>, <a class="el" href="shop__placement_8h_source.html#l00022">SPS_OPENED</a>, and <a class="el" href="shop__placement_8h_source.html#l00055">state</a>.</p>
 
 </div>
 </div>
@@ -411,9 +411,9 @@ Private Member Functions</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="classMouseMode.html#a63e36618cc08ec47d8d1b73cdb079704">MouseMode</a>.</p>
 
-<p>Definition at line <a class="el" href="ride__gui_8cpp_source.html#l00566">566</a> of file <a class="el" href="ride__gui_8cpp_source.html">ride_gui.cpp</a>.</p>
+<p>Definition at line <a class="el" href="ride__gui_8cpp_source.html#l00561">561</a> of file <a class="el" href="ride__gui_8cpp_source.html">ride_gui.cpp</a>.</p>
 
-<p>References <a class="el" href="viewport_8cpp_source.html#l00095">_additions</a>, <a class="el" href="viewport_8cpp_source.html#l00096">_mouse_modes</a>, <a class="el" href="ride__type_8cpp_source.html#l00043">_rides_manager</a>, <a class="el" href="window_8h_source.html#l00112">ALL_WINDOWS_OF_TYPE</a>, <a class="el" href="window_8h_source.html#l00065">CHG_MOUSE_MODE_LOST</a>, <a class="el" href="map_8cpp_source.html#l00660">WorldAdditions::Commit()</a>, <a class="el" href="viewport_8cpp_source.html#l00108">DisableWorldAdditions()</a>, <a class="el" href="shop__placement_8h_source.html#l00058">instance</a>, <a class="el" href="ride__type_8h_source.html#l00021">INVALID_RIDE_INSTANCE</a>, <a class="el" href="window_8h_source.html#l00081">MB_LEFT</a>, <a class="el" href="ride__type_8cpp_source.html#l00509">RidesManager::NewInstanceAdded()</a>, <a class="el" href="window_8cpp_source.html#l01043">NotifyChange()</a>, <a class="el" href="shop__placement_8h_source.html#l00057">selected_ride</a>, <a class="el" href="viewport_8cpp_source.html#l01727">MouseModes::SetViewportMousemode()</a>, <a class="el" href="shop__placement_8h_source.html#l00024">SPS_GOOD_POS</a>, <a class="el" href="shop__placement_8h_source.html#l00022">SPS_OPENED</a>, <a class="el" href="shop__placement_8h_source.html#l00055">state</a>, and <a class="el" href="window_8h_source.html#l00050">WC_RIDE_SELECT</a>.</p>
+<p>References <a class="el" href="viewport_8cpp_source.html#l00095">_additions</a>, <a class="el" href="viewport_8cpp_source.html#l00096">_mouse_modes</a>, <a class="el" href="ride__type_8cpp_source.html#l00045">_rides_manager</a>, <a class="el" href="window_8h_source.html#l00128">ALL_WINDOWS_OF_TYPE</a>, <a class="el" href="window_8h_source.html#l00065">CHG_MOUSE_MODE_LOST</a>, <a class="el" href="map_8cpp_source.html#l00660">WorldAdditions::Commit()</a>, <a class="el" href="viewport_8cpp_source.html#l00108">DisableWorldAdditions()</a>, <a class="el" href="shop__placement_8h_source.html#l00058">instance</a>, <a class="el" href="ride__type_8h_source.html#l00021">INVALID_RIDE_INSTANCE</a>, <a class="el" href="window_8h_source.html#l00081">MB_LEFT</a>, <a class="el" href="ride__type_8cpp_source.html#l00531">RidesManager::NewInstanceAdded()</a>, <a class="el" href="window_8cpp_source.html#l01054">NotifyChange()</a>, <a class="el" href="shop__placement_8h_source.html#l00057">selected_ride</a>, <a class="el" href="viewport_8cpp_source.html#l01709">MouseModes::SetViewportMousemode()</a>, <a class="el" href="shop__placement_8h_source.html#l00024">SPS_GOOD_POS</a>, <a class="el" href="shop__placement_8h_source.html#l00022">SPS_OPENED</a>, <a class="el" href="shop__placement_8h_source.html#l00055">state</a>, and <a class="el" href="window_8h_source.html#l00050">WC_RIDE_SELECT</a>.</p>
 
 </div>
 </div>
@@ -432,7 +432,7 @@ Private Member Functions</h2></td></tr>
 
 <p>The user opened the window. </p>
 
-<p>Definition at line <a class="el" href="ride__gui_8cpp_source.html#l00588">588</a> of file <a class="el" href="ride__gui_8cpp_source.html">ride_gui.cpp</a>.</p>
+<p>Definition at line <a class="el" href="ride__gui_8cpp_source.html#l00583">583</a> of file <a class="el" href="ride__gui_8cpp_source.html">ride_gui.cpp</a>.</p>
 
 <p>References <a class="el" href="tile_8h_source.html#l00120">EDGE_SE</a>, <a class="el" href="shop__placement_8h_source.html#l00058">instance</a>, <a class="el" href="ride__type_8h_source.html#l00021">INVALID_RIDE_INSTANCE</a>, <a class="el" href="shop__placement_8h_source.html#l00056">orientation</a>, <a class="el" href="shop__placement_8h_source.html#l00057">selected_ride</a>, <a class="el" href="shop__placement_8h_source.html#l00021">SPS_OFF</a>, <a class="el" href="shop__placement_8h_source.html#l00022">SPS_OPENED</a>, and <a class="el" href="shop__placement_8h_source.html#l00055">state</a>.</p>
 
@@ -453,9 +453,9 @@ Private Member Functions</h2></td></tr>
 
 <p>The user closed the window. </p>
 
-<p>Definition at line <a class="el" href="ride__gui_8cpp_source.html#l00599">599</a> of file <a class="el" href="ride__gui_8cpp_source.html">ride_gui.cpp</a>.</p>
+<p>Definition at line <a class="el" href="ride__gui_8cpp_source.html#l00594">594</a> of file <a class="el" href="ride__gui_8cpp_source.html">ride_gui.cpp</a>.</p>
 
-<p>References <a class="el" href="viewport_8cpp_source.html#l00096">_mouse_modes</a>, <a class="el" href="ride__type_8cpp_source.html#l00043">_rides_manager</a>, <a class="el" href="ride__type_8cpp_source.html#l00568">RidesManager::DeleteInstance()</a>, <a class="el" href="shop__placement_8h_source.html#l00058">instance</a>, <a class="el" href="ride__type_8h_source.html#l00021">INVALID_RIDE_INSTANCE</a>, <a class="el" href="shop__placement_8h_source.html#l00057">selected_ride</a>, <a class="el" href="viewport_8cpp_source.html#l01727">MouseModes::SetViewportMousemode()</a>, <a class="el" href="shop__placement_8h_source.html#l00023">SPS_BAD_POS</a>, <a class="el" href="shop__placement_8h_source.html#l00024">SPS_GOOD_POS</a>, <a class="el" href="shop__placement_8h_source.html#l00021">SPS_OFF</a>, <a class="el" href="shop__placement_8h_source.html#l00022">SPS_OPENED</a>, and <a class="el" href="shop__placement_8h_source.html#l00055">state</a>.</p>
+<p>References <a class="el" href="viewport_8cpp_source.html#l00096">_mouse_modes</a>, <a class="el" href="ride__type_8cpp_source.html#l00045">_rides_manager</a>, <a class="el" href="ride__type_8cpp_source.html#l00590">RidesManager::DeleteInstance()</a>, <a class="el" href="shop__placement_8h_source.html#l00058">instance</a>, <a class="el" href="ride__type_8h_source.html#l00021">INVALID_RIDE_INSTANCE</a>, <a class="el" href="shop__placement_8h_source.html#l00057">selected_ride</a>, <a class="el" href="viewport_8cpp_source.html#l01709">MouseModes::SetViewportMousemode()</a>, <a class="el" href="shop__placement_8h_source.html#l00023">SPS_BAD_POS</a>, <a class="el" href="shop__placement_8h_source.html#l00024">SPS_GOOD_POS</a>, <a class="el" href="shop__placement_8h_source.html#l00021">SPS_OFF</a>, <a class="el" href="shop__placement_8h_source.html#l00022">SPS_OPENED</a>, and <a class="el" href="shop__placement_8h_source.html#l00055">state</a>.</p>
 
 </div>
 </div>
@@ -482,11 +482,11 @@ Private Member Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>New ride type has been set successfully. </dd></dl>
 
-<p>Definition at line <a class="el" href="ride__gui_8cpp_source.html#l00622">622</a> of file <a class="el" href="ride__gui_8cpp_source.html">ride_gui.cpp</a>.</p>
+<p>Definition at line <a class="el" href="ride__gui_8cpp_source.html#l00617">617</a> of file <a class="el" href="ride__gui_8cpp_source.html">ride_gui.cpp</a>.</p>
 
-<p>References <a class="el" href="viewport_8cpp_source.html#l00096">_mouse_modes</a>, <a class="el" href="ride__type_8cpp_source.html#l00043">_rides_manager</a>, <a class="el" href="ride__type_8cpp_source.html#l00481">RidesManager::CreateInstance()</a>, <a class="el" href="ride__type_8cpp_source.html#l00568">RidesManager::DeleteInstance()</a>, <a class="el" href="viewport_8cpp_source.html#l00108">DisableWorldAdditions()</a>, <a class="el" href="ride__type_8cpp_source.html#l00466">RidesManager::GetFreeInstance()</a>, <a class="el" href="ride__type_8h_source.html#l00195">RidesManager::GetRideType()</a>, <a class="el" href="shop__placement_8h_source.html#l00058">instance</a>, <a class="el" href="ride__type_8h_source.html#l00021">INVALID_RIDE_INSTANCE</a>, <a class="el" href="viewport_8h_source.html#l00306">MouseMode::mode</a>, <a class="el" href="shop__placement_8h_source.html#l00059">mouse_pos</a>, <a class="el" href="ride__gui_8cpp_source.html#l00465">PlaceShop()</a>, <a class="el" href="shop__placement_8h_source.html#l00057">selected_ride</a>, <a class="el" href="viewport_8cpp_source.html#l01759">MouseModes::SetMouseMode()</a>, <a class="el" href="viewport_8cpp_source.html#l01727">MouseModes::SetViewportMousemode()</a>, <a class="el" href="shop__placement_8h_source.html#l00021">SPS_OFF</a>, <a class="el" href="shop__placement_8h_source.html#l00022">SPS_OPENED</a>, and <a class="el" href="shop__placement_8h_source.html#l00055">state</a>.</p>
+<p>References <a class="el" href="viewport_8cpp_source.html#l00096">_mouse_modes</a>, <a class="el" href="ride__type_8cpp_source.html#l00045">_rides_manager</a>, <a class="el" href="ride__type_8cpp_source.html#l00503">RidesManager::CreateInstance()</a>, <a class="el" href="ride__type_8cpp_source.html#l00590">RidesManager::DeleteInstance()</a>, <a class="el" href="viewport_8cpp_source.html#l00108">DisableWorldAdditions()</a>, <a class="el" href="ride__type_8cpp_source.html#l00488">RidesManager::GetFreeInstance()</a>, <a class="el" href="ride__type_8h_source.html#l00210">RidesManager::GetRideType()</a>, <a class="el" href="shop__placement_8h_source.html#l00058">instance</a>, <a class="el" href="ride__type_8h_source.html#l00021">INVALID_RIDE_INSTANCE</a>, <a class="el" href="viewport_8h_source.html#l00300">MouseMode::mode</a>, <a class="el" href="shop__placement_8h_source.html#l00059">mouse_pos</a>, <a class="el" href="ride__gui_8cpp_source.html#l00460">PlaceShop()</a>, <a class="el" href="shop__placement_8h_source.html#l00057">selected_ride</a>, <a class="el" href="viewport_8cpp_source.html#l01741">MouseModes::SetMouseMode()</a>, <a class="el" href="viewport_8cpp_source.html#l01709">MouseModes::SetViewportMousemode()</a>, <a class="el" href="shop__placement_8h_source.html#l00021">SPS_OFF</a>, <a class="el" href="shop__placement_8h_source.html#l00022">SPS_OPENED</a>, and <a class="el" href="shop__placement_8h_source.html#l00055">state</a>.</p>
 
-<p>Referenced by <a class="el" href="ride__gui_8cpp_source.html#l00233">RideSelectGui::OnClick()</a>, and <a class="el" href="ride__gui_8cpp_source.html#l00320">RideSelectGui::SetNewRide()</a>.</p>
+<p>Referenced by <a class="el" href="ride__gui_8cpp_source.html#l00232">RideSelectGui::OnClick()</a>, and <a class="el" href="ride__gui_8cpp_source.html#l00319">RideSelectGui::SetNewRide()</a>.</p>
 
 </div>
 </div>
@@ -505,15 +505,15 @@ Private Member Functions</h2></td></tr>
 
 <p>The shop was rotated; recompute position if needed. </p>
 
-<p>Definition at line <a class="el" href="ride__gui_8cpp_source.html#l00673">673</a> of file <a class="el" href="ride__gui_8cpp_source.html">ride_gui.cpp</a>.</p>
+<p>Definition at line <a class="el" href="ride__gui_8cpp_source.html#l00668">668</a> of file <a class="el" href="ride__gui_8cpp_source.html">ride_gui.cpp</a>.</p>
 
-<p>References <a class="el" href="shop__placement_8h_source.html#l00059">mouse_pos</a>, <a class="el" href="ride__gui_8cpp_source.html#l00465">PlaceShop()</a>, <a class="el" href="shop__placement_8h_source.html#l00021">SPS_OFF</a>, <a class="el" href="shop__placement_8h_source.html#l00022">SPS_OPENED</a>, and <a class="el" href="shop__placement_8h_source.html#l00055">state</a>.</p>
+<p>References <a class="el" href="shop__placement_8h_source.html#l00059">mouse_pos</a>, <a class="el" href="ride__gui_8cpp_source.html#l00460">PlaceShop()</a>, <a class="el" href="shop__placement_8h_source.html#l00021">SPS_OFF</a>, <a class="el" href="shop__placement_8h_source.html#l00022">SPS_OPENED</a>, and <a class="el" href="shop__placement_8h_source.html#l00055">state</a>.</p>
 
-<p>Referenced by <a class="el" href="ride__gui_8cpp_source.html#l00233">RideSelectGui::OnClick()</a>.</p>
+<p>Referenced by <a class="el" href="ride__gui_8cpp_source.html#l00232">RideSelectGui::OnClick()</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a525b086151dcbfc17ff6ce159c033482"></a>
+<a class="anchor" id="aae1c50caaeea804c5ba4288fa9026d13"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -529,20 +529,8 @@ Private Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>xpos</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>ypos</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>zpos</em>&#160;</td>
+          <td class="paramtype">const <a class="el" href="geometry_8h.html#a71fcb91f44cc6cbf519d0c45c07e931d">XYZPoint16</a> &amp;&#160;</td>
+          <td class="paramname"><em>pos</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -561,9 +549,7 @@ Private Member Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">selected_shop</td><td>Shop to place. </td></tr>
-    <tr><td class="paramname">xpos</td><td>X coordinate of the voxel. </td></tr>
-    <tr><td class="paramname">ypos</td><td>Y coordinate of the voxel. </td></tr>
-    <tr><td class="paramname">zpos</td><td>Z coordinate of the voxel. </td></tr>
+    <tr><td class="paramname">pos</td><td>Coordinate of the voxel. </td></tr>
   </table>
   </dd>
 </dl>
@@ -572,15 +558,13 @@ Private Member Functions</h2></td></tr>
 <em>selected_shop</em> may not be <code>nullptr</code>. </dd></dl>
 <dl class="section return"><dt>Returns</dt><dd>Shop can be placed at the given position. </dd></dl>
 
-<p>Definition at line <a class="el" href="ride__gui_8cpp_source.html#l00375">375</a> of file <a class="el" href="ride__gui_8cpp_source.html">ride_gui.cpp</a>.</p>
+<p>Definition at line <a class="el" href="ride__gui_8cpp_source.html#l00372">372</a> of file <a class="el" href="ride__gui_8cpp_source.html">ride_gui.cpp</a>.</p>
 
-<p>References <a class="el" href="map_8cpp_source.html#l00027">_world</a>, <a class="el" href="map_8h_source.html#l00090">Voxel::CanPlaceInstance()</a>, <a class="el" href="tile_8h_source.html#l00118">EDGE_BEGIN</a>, <a class="el" href="tile_8h_source.html#l00124">EDGE_COUNT</a>, <a class="el" href="shop__type_8h_source.html#l00033">ShopType::flags</a>, <a class="el" href="map_8h_source.html#l00215">Voxel::GetGroundSlope()</a>, <a class="el" href="map_8h_source.html#l00224">Voxel::GetGroundType()</a>, <a class="el" href="map_8h_source.html#l00072">Voxel::GetInstance()</a>, <a class="el" href="map_8cpp_source.html#l00482">VoxelWorld::GetTileOwner()</a>, <a class="el" href="viewport_8cpp_source.html#l01704">GetViewport()</a>, <a class="el" href="map_8h_source.html#l00520">VoxelWorld::GetVoxel()</a>, <a class="el" href="tile_8h_source.html#l00197">GTP_INVALID</a>, <a class="el" href="viewport_8h_source.html#l00255">Viewport::orientation</a>, <a class="el" href="map_8h_source.html#l00453">OWN_PARK</a>, <a class="el" href="path__build_8cpp_source.html#l00093">PathExistsAtBottomEdge()</a>, <a class="el" href="tile_8h_source.html#l00055">SL_FLAT</a>, and <a class="el" href="map_8h_source.html#l00037">SRI_FREE</a>.</p>
-
-<p>Referenced by <a class="el" href="ride__gui_8cpp_source.html#l00410">ComputeShopVoxel()</a>.</p>
+<p>References <a class="el" href="map_8cpp_source.html#l00027">_world</a>, <a class="el" href="map_8h_source.html#l00090">Voxel::CanPlaceInstance()</a>, <a class="el" href="tile_8h_source.html#l00118">EDGE_BEGIN</a>, <a class="el" href="tile_8h_source.html#l00124">EDGE_COUNT</a>, <a class="el" href="shop__type_8h_source.html#l00035">ShopType::flags</a>, <a class="el" href="map_8h_source.html#l00215">Voxel::GetGroundSlope()</a>, <a class="el" href="map_8h_source.html#l00224">Voxel::GetGroundType()</a>, <a class="el" href="map_8h_source.html#l00072">Voxel::GetInstance()</a>, <a class="el" href="map_8cpp_source.html#l00482">VoxelWorld::GetTileOwner()</a>, <a class="el" href="viewport_8cpp_source.html#l01688">GetViewport()</a>, <a class="el" href="map_8h_source.html#l00514">VoxelWorld::GetVoxel()</a>, <a class="el" href="tile_8h_source.html#l00198">GTP_INVALID</a>, <a class="el" href="viewport_8h_source.html#l00248">Viewport::orientation</a>, <a class="el" href="map_8h_source.html#l00449">OWN_PARK</a>, <a class="el" href="path__build_8cpp_source.html#l00110">PathExistsAtBottomEdge()</a>, <a class="el" href="tile_8h_source.html#l00055">SL_FLAT</a>, <a class="el" href="map_8h_source.html#l00037">SRI_FREE</a>, <a class="el" href="geometry_8h_source.html#l00100">XYZPoint&lt; CT &gt;::x</a>, <a class="el" href="geometry_8h_source.html#l00101">XYZPoint&lt; CT &gt;::y</a>, and <a class="el" href="geometry_8h_source.html#l00102">XYZPoint&lt; CT &gt;::z</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a96ee99ec62a5d7813a9e2df1c8663531"></a>
+<a class="anchor" id="a602d5401aeb58a029c0f812831f17b63"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -590,25 +574,9 @@ Private Member Functions</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="shop__placement_8h.html#a5dd4effc2e08236eced8abeec2cad9d7">RidePlacementResult</a> ShopPlacementManager::ComputeShopVoxel </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="stdafx_8h.html#a43d43196463bde49cb067f5c20ab8481">int32</a>&#160;</td>
-          <td class="paramname"><em>xworld</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramtype"><a class="el" href="geometry_8h.html#ad44b56387be4716a93eb09e15466703d">XYZPoint32</a>&#160;</td>
+          <td class="paramname"><em>world_pos</em></td><td>)</td>
           <td></td>
-          <td class="paramtype"><a class="el" href="stdafx_8h.html#a43d43196463bde49cb067f5c20ab8481">int32</a>&#160;</td>
-          <td class="paramname"><em>yworld</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="stdafx_8h.html#a43d43196463bde49cb067f5c20ab8481">int32</a>&#160;</td>
-          <td class="paramname"><em>zworld</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -621,19 +589,17 @@ Private Member Functions</h2></td></tr>
 <p>Decide at which voxel to place a shop. </p>
 <p>It should be placed at a voxel intersecting with the view line through the given point in the world. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">xworld</td><td>X coordinate of the point. </td></tr>
-    <tr><td class="paramname">yworld</td><td>Y coordinate of the point. </td></tr>
-    <tr><td class="paramname">zworld</td><td>Z coordinate of the point. </td></tr>
+    <tr><td class="paramname">world_pos</td><td>Coordinate of the point. </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Result of the placement process. </dd></dl>
 
-<p>Definition at line <a class="el" href="ride__gui_8cpp_source.html#l00410">410</a> of file <a class="el" href="ride__gui_8cpp_source.html">ride_gui.cpp</a>.</p>
+<p>Definition at line <a class="el" href="ride__gui_8cpp_source.html#l00405">405</a> of file <a class="el" href="ride__gui_8cpp_source.html">ride_gui.cpp</a>.</p>
 
-<p>References <a class="el" href="ride__type_8cpp_source.html#l00043">_rides_manager</a>, <a class="el" href="map_8cpp_source.html#l00027">_world</a>, <a class="el" href="ride__gui_8cpp_source.html#l00375">CanPlaceShop()</a>, <a class="el" href="ride__type_8cpp_source.html#l00169">RideInstance::GetKind()</a>, <a class="el" href="ride__type_8cpp_source.html#l00412">RidesManager::GetRideInstance()</a>, <a class="el" href="shop__type_8cpp_source.html#l00123">ShopInstance::GetShopType()</a>, <a class="el" href="viewport_8cpp_source.html#l01704">GetViewport()</a>, <a class="el" href="map_8h_source.html#l00542">VoxelWorld::GetXSize()</a>, <a class="el" href="map_8h_source.html#l00551">VoxelWorld::GetYSize()</a>, <a class="el" href="shop__placement_8h_source.html#l00058">instance</a>, <a class="el" href="map_8h_source.html#l00653">IsVoxelstackInsideWorld()</a>, <a class="el" href="stdafx_8h_source.html#l00182">NOT_REACHED</a>, <a class="el" href="shop__type_8h_source.html#l00051">ShopInstance::orientation</a>, <a class="el" href="shop__placement_8h_source.html#l00056">orientation</a>, <a class="el" href="viewport_8h_source.html#l00255">Viewport::orientation</a>, <a class="el" href="shop__placement_8h_source.html#l00031">RPR_CHANGED</a>, <a class="el" href="shop__placement_8h_source.html#l00029">RPR_FAIL</a>, <a class="el" href="shop__placement_8h_source.html#l00030">RPR_SAMEPOS</a>, <a class="el" href="ride__type_8h_source.html#l00034">RTK_SHOP</a>, <a class="el" href="shop__type_8cpp_source.html#l00144">ShopInstance::SetRide()</a>, <a class="el" href="orientation_8h_source.html#l00023">VOR_EAST</a>, <a class="el" href="orientation_8h_source.html#l00022">VOR_NORTH</a>, <a class="el" href="orientation_8h_source.html#l00024">VOR_SOUTH</a>, <a class="el" href="orientation_8h_source.html#l00025">VOR_WEST</a>, <a class="el" href="map_8h_source.html#l00027">WORLD_Z_SIZE</a>, <a class="el" href="shop__type_8h_source.html#l00052">ShopInstance::xpos</a>, <a class="el" href="shop__type_8h_source.html#l00053">ShopInstance::ypos</a>, and <a class="el" href="shop__type_8h_source.html#l00054">ShopInstance::zpos</a>.</p>
+<p>References <a class="el" href="ride__type_8cpp_source.html#l00045">_rides_manager</a>, <a class="el" href="map_8cpp_source.html#l00027">_world</a>, <a class="el" href="ride__type_8cpp_source.html#l00171">RideInstance::GetKind()</a>, <a class="el" href="ride__type_8cpp_source.html#l00434">RidesManager::GetRideInstance()</a>, <a class="el" href="shop__type_8cpp_source.html#l00157">ShopInstance::GetShopType()</a>, <a class="el" href="viewport_8cpp_source.html#l01688">GetViewport()</a>, <a class="el" href="map_8h_source.html#l00534">VoxelWorld::GetXSize()</a>, <a class="el" href="map_8h_source.html#l00543">VoxelWorld::GetYSize()</a>, <a class="el" href="shop__placement_8h_source.html#l00058">instance</a>, <a class="el" href="map_8h_source.html#l00639">IsVoxelstackInsideWorld()</a>, <a class="el" href="stdafx_8h_source.html#l00182">NOT_REACHED</a>, <a class="el" href="shop__placement_8h_source.html#l00056">orientation</a>, <a class="el" href="shop__type_8h_source.html#l00057">ShopInstance::orientation</a>, <a class="el" href="viewport_8h_source.html#l00248">Viewport::orientation</a>, <a class="el" href="shop__placement_8h_source.html#l00031">RPR_CHANGED</a>, <a class="el" href="shop__placement_8h_source.html#l00029">RPR_FAIL</a>, <a class="el" href="shop__placement_8h_source.html#l00030">RPR_SAMEPOS</a>, <a class="el" href="ride__type_8h_source.html#l00034">RTK_SHOP</a>, <a class="el" href="shop__type_8cpp_source.html#l00176">ShopInstance::SetRide()</a>, <a class="el" href="orientation_8h_source.html#l00023">VOR_EAST</a>, <a class="el" href="orientation_8h_source.html#l00022">VOR_NORTH</a>, <a class="el" href="orientation_8h_source.html#l00024">VOR_SOUTH</a>, <a class="el" href="orientation_8h_source.html#l00025">VOR_WEST</a>, <a class="el" href="shop__type_8h_source.html#l00058">ShopInstance::vox_pos</a>, <a class="el" href="map_8h_source.html#l00027">WORLD_Z_SIZE</a>, <a class="el" href="geometry_8h_source.html#l00100">XYZPoint&lt; CT &gt;::x</a>, <a class="el" href="geometry_8h_source.html#l00101">XYZPoint&lt; CT &gt;::y</a>, and <a class="el" href="geometry_8h_source.html#l00102">XYZPoint&lt; CT &gt;::z</a>.</p>
 
-<p>Referenced by <a class="el" href="ride__gui_8cpp_source.html#l00465">PlaceShop()</a>.</p>
+<p>Referenced by <a class="el" href="ride__gui_8cpp_source.html#l00460">PlaceShop()</a>.</p>
 
 </div>
 </div>
@@ -667,13 +633,13 @@ Private Member Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section pre"><dt>Precondition</dt><dd>World additions should be ours to use, and have been enabled. </dd></dl>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000042">Todo:</a></b></dt><dd>Let the shop do this. </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000044">Todo:</a></b></dt><dd>Let the shop do this. </dd></dl>
 
-<p>Definition at line <a class="el" href="ride__gui_8cpp_source.html#l00465">465</a> of file <a class="el" href="ride__gui_8cpp_source.html">ride_gui.cpp</a>.</p>
+<p>Definition at line <a class="el" href="ride__gui_8cpp_source.html#l00460">460</a> of file <a class="el" href="ride__gui_8cpp_source.html">ride_gui.cpp</a>.</p>
 
-<p>References <a class="el" href="viewport_8cpp_source.html#l00095">_additions</a>, <a class="el" href="ride__type_8cpp_source.html#l00043">_rides_manager</a>, <a class="el" href="path_8cpp_source.html#l00460">AddRemovePathEdges()</a>, <a class="el" href="map_8cpp_source.html#l00651">WorldAdditions::Clear()</a>, <a class="el" href="viewport_8cpp_source.html#l01550">Viewport::ComputeHorizontalTranslation()</a>, <a class="el" href="ride__gui_8cpp_source.html#l00410">ComputeShopVoxel()</a>, <a class="el" href="viewport_8cpp_source.html#l00418">Viewport::EnsureAdditionsAreVisible()</a>, <a class="el" href="map_8h_source.html#l00630">WorldAdditions::GetCreateVoxel()</a>, <a class="el" href="shop__type_8cpp_source.html#l00156">ShopInstance::GetEntranceDirections()</a>, <a class="el" href="ride__type_8cpp_source.html#l00169">RideInstance::GetKind()</a>, <a class="el" href="ride__type_8cpp_source.html#l00412">RidesManager::GetRideInstance()</a>, <a class="el" href="viewport_8cpp_source.html#l01704">GetViewport()</a>, <a class="el" href="geometry_8h_source.html#l00249">Rectangle&lt; PT, SZ &gt;::height</a>, <a class="el" href="shop__placement_8h_source.html#l00058">instance</a>, <a class="el" href="map_8cpp_source.html#l00705">WorldAdditions::MarkDirty()</a>, <a class="el" href="stdafx_8h_source.html#l00182">NOT_REACHED</a>, <a class="el" href="path_8h_source.html#l00118">PAS_QUEUE_PATH</a>, <a class="el" href="path_8h_source.html#l00030">PATH_EMPTY</a>, <a class="el" href="window_8h_source.html#l00123">Window::rect</a>, <a class="el" href="shop__placement_8h_source.html#l00031">RPR_CHANGED</a>, <a class="el" href="shop__placement_8h_source.html#l00029">RPR_FAIL</a>, <a class="el" href="shop__placement_8h_source.html#l00030">RPR_SAMEPOS</a>, <a class="el" href="ride__type_8h_source.html#l00034">RTK_SHOP</a>, <a class="el" href="shop__placement_8h_source.html#l00023">SPS_BAD_POS</a>, <a class="el" href="shop__placement_8h_source.html#l00024">SPS_GOOD_POS</a>, <a class="el" href="map_8h_source.html#l00045">SRI_FULL_RIDES</a>, <a class="el" href="map_8h_source.html#l00047">SRI_LAST</a>, <a class="el" href="shop__placement_8h_source.html#l00055">state</a>, <a class="el" href="geometry_8h_source.html#l00248">Rectangle&lt; PT, SZ &gt;::width</a>, <a class="el" href="geometry_8h_source.html#l00037">Point&lt; CT &gt;::x</a>, <a class="el" href="shop__type_8h_source.html#l00052">ShopInstance::xpos</a>, <a class="el" href="geometry_8h_source.html#l00038">Point&lt; CT &gt;::y</a>, <a class="el" href="shop__type_8h_source.html#l00053">ShopInstance::ypos</a>, <a class="el" href="shop__type_8h_source.html#l00054">ShopInstance::zpos</a>, and <a class="el" href="viewport_8h_source.html#l00251">Viewport::zview</a>.</p>
+<p>References <a class="el" href="viewport_8cpp_source.html#l00095">_additions</a>, <a class="el" href="ride__type_8cpp_source.html#l00045">_rides_manager</a>, <a class="el" href="path_8cpp_source.html#l00431">AddRemovePathEdges()</a>, <a class="el" href="map_8cpp_source.html#l00651">WorldAdditions::Clear()</a>, <a class="el" href="viewport_8cpp_source.html#l01534">Viewport::ComputeHorizontalTranslation()</a>, <a class="el" href="ride__gui_8cpp_source.html#l00405">ComputeShopVoxel()</a>, <a class="el" href="viewport_8cpp_source.html#l00413">Viewport::EnsureAdditionsAreVisible()</a>, <a class="el" href="map_8h_source.html#l00616">WorldAdditions::GetCreateVoxel()</a>, <a class="el" href="shop__type_8cpp_source.html#l00186">ShopInstance::GetEntranceDirections()</a>, <a class="el" href="ride__type_8cpp_source.html#l00171">RideInstance::GetKind()</a>, <a class="el" href="ride__type_8cpp_source.html#l00434">RidesManager::GetRideInstance()</a>, <a class="el" href="viewport_8cpp_source.html#l01688">GetViewport()</a>, <a class="el" href="geometry_8h_source.html#l00351">Rectangle&lt; PT, SZ &gt;::height</a>, <a class="el" href="shop__placement_8h_source.html#l00058">instance</a>, <a class="el" href="map_8cpp_source.html#l00705">WorldAdditions::MarkDirty()</a>, <a class="el" href="stdafx_8h_source.html#l00182">NOT_REACHED</a>, <a class="el" href="path_8h_source.html#l00118">PAS_QUEUE_PATH</a>, <a class="el" href="path_8h_source.html#l00030">PATH_EMPTY</a>, <a class="el" href="window_8h_source.html#l00139">Window::rect</a>, <a class="el" href="shop__placement_8h_source.html#l00031">RPR_CHANGED</a>, <a class="el" href="shop__placement_8h_source.html#l00029">RPR_FAIL</a>, <a class="el" href="shop__placement_8h_source.html#l00030">RPR_SAMEPOS</a>, <a class="el" href="ride__type_8h_source.html#l00034">RTK_SHOP</a>, <a class="el" href="shop__placement_8h_source.html#l00023">SPS_BAD_POS</a>, <a class="el" href="shop__placement_8h_source.html#l00024">SPS_GOOD_POS</a>, <a class="el" href="map_8h_source.html#l00045">SRI_FULL_RIDES</a>, <a class="el" href="map_8h_source.html#l00047">SRI_LAST</a>, <a class="el" href="shop__placement_8h_source.html#l00055">state</a>, <a class="el" href="viewport_8h_source.html#l00245">Viewport::view_pos</a>, <a class="el" href="shop__type_8h_source.html#l00058">ShopInstance::vox_pos</a>, <a class="el" href="geometry_8h_source.html#l00350">Rectangle&lt; PT, SZ &gt;::width</a>, <a class="el" href="geometry_8h_source.html#l00036">Point&lt; CT &gt;::x</a>, <a class="el" href="geometry_8h_source.html#l00037">Point&lt; CT &gt;::y</a>, and <a class="el" href="geometry_8h_source.html#l00102">XYZPoint&lt; CT &gt;::z</a>.</p>
 
-<p>Referenced by <a class="el" href="ride__gui_8cpp_source.html#l00526">ActivateMode()</a>, <a class="el" href="ride__gui_8cpp_source.html#l00558">OnMouseMoveEvent()</a>, <a class="el" href="ride__gui_8cpp_source.html#l00673">Rotated()</a>, and <a class="el" href="ride__gui_8cpp_source.html#l00622">SetSelection()</a>.</p>
+<p>Referenced by <a class="el" href="ride__gui_8cpp_source.html#l00521">ActivateMode()</a>, <a class="el" href="ride__gui_8cpp_source.html#l00553">OnMouseMoveEvent()</a>, <a class="el" href="ride__gui_8cpp_source.html#l00668">Rotated()</a>, and <a class="el" href="ride__gui_8cpp_source.html#l00617">SetSelection()</a>.</p>
 
 </div>
 </div>
@@ -720,9 +686,9 @@ Private Member Functions</h2></td></tr>
 
 <p>Reimplemented in <a class="el" href="classTileTerraformMouseMode.html#a7b529d70365b73749a43a948f34842ca">TileTerraformMouseMode</a>, and <a class="el" href="classFenceBuildManager.html#aff12102d42601ebd39615a4b17c93e9e">FenceBuildManager</a>.</p>
 
-<p>Definition at line <a class="el" href="viewport_8cpp_source.html#l01655">1655</a> of file <a class="el" href="viewport_8cpp_source.html">viewport.cpp</a>.</p>
+<p>Definition at line <a class="el" href="viewport_8cpp_source.html#l01639">1639</a> of file <a class="el" href="viewport_8cpp_source.html">viewport.cpp</a>.</p>
 
-<p>Referenced by <a class="el" href="viewport_8cpp_source.html#l01613">Viewport::OnMouseWheelEvent()</a>.</p>
+<p>Referenced by <a class="el" href="viewport_8cpp_source.html#l01597">Viewport::OnMouseWheelEvent()</a>.</p>
 
 </div>
 </div>
@@ -733,7 +699,7 @@ Private Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Sep 5 2014 19:06:15 for FreeRCT by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Feb 25 2015 13:22:41 for FreeRCT by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

@@ -229,9 +229,9 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:aa1cae62e2ce277b51a17e47bc23f15b0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="widget_8h.html#a8d155843a1214efcf6195f349cc7d913">WidgetNumber</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGuiWindow.html#aa1cae62e2ce277b51a17e47bc23f15b0">GetSelectedRadioButton</a> (const <a class="el" href="widget_8h.html#a8d155843a1214efcf6195f349cc7d913">WidgetNumber</a> *wids)</td></tr>
 <tr class="memdesc:aa1cae62e2ce277b51a17e47bc23f15b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find the currently selected widget from a set of radio buttons (<a class="el" href="group__widget__group.html#gga7b98518122eb2e94554d2b99d29d1452a029dd16ee4aad1e99b4b9f33007c34c0" title="Radio button widget. ">WT_RADIOBUTTON</a> or bi-stable button widgets).  <a href="#aa1cae62e2ce277b51a17e47bc23f15b0">More...</a><br /></td></tr>
 <tr class="separator:aa1cae62e2ce277b51a17e47bc23f15b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afbd595ac6745036e4437fe56195d2d5a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGuiWindow.html#afbd595ac6745036e4437fe56195d2d5a">SetShopType</a> (const <a class="el" href="classRideType.html">RideType</a> *<a class="el" href="classGuiWindow.html#ab012a382c77823dc03d57dc8e74b88a2">ride_type</a>)</td></tr>
-<tr class="memdesc:afbd595ac6745036e4437fe56195d2d5a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the string translation base for the generic strings of this window.  <a href="#afbd595ac6745036e4437fe56195d2d5a">More...</a><br /></td></tr>
-<tr class="separator:afbd595ac6745036e4437fe56195d2d5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb5bbb2ad271dfc1c4e9e50895bfc677"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGuiWindow.html#acb5bbb2ad271dfc1c4e9e50895bfc677">SetRideType</a> (const <a class="el" href="classRideType.html">RideType</a> *<a class="el" href="classGuiWindow.html#ab012a382c77823dc03d57dc8e74b88a2">ride_type</a>)</td></tr>
+<tr class="memdesc:acb5bbb2ad271dfc1c4e9e50895bfc677"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the string translation base for the generic strings of this window.  <a href="#acb5bbb2ad271dfc1c4e9e50895bfc677">More...</a><br /></td></tr>
+<tr class="separator:acb5bbb2ad271dfc1c4e9e50895bfc677"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0aa87cb4f50306d90bf06154d8f0a649"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGuiWindow.html#a0aa87cb4f50306d90bf06154d8f0a649">ShowDropdownMenu</a> (<a class="el" href="widget_8h.html#a8d155843a1214efcf6195f349cc7d913">WidgetNumber</a> widnum, const <a class="el" href="window_8h.html#acecb4f0b97d63a78e9f31d2ca3a00fa9">DropdownList</a> &amp;items, int selected_index, <a class="el" href="palette_8h.html#a2531bf93b05f9a3f1503611e1708b878">ColourRange</a> colour=<a class="el" href="palette_8h.html#a2531bf93b05f9a3f1503611e1708b878ae6078cc49eea77d6dfcbb0b001997984">COL_RANGE_INVALID</a>)</td></tr>
 <tr class="memdesc:a0aa87cb4f50306d90bf06154d8f0a649"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shows a Dropdown Menu.  <a href="#a0aa87cb4f50306d90bf06154d8f0a649">More...</a><br /></td></tr>
 <tr class="separator:a0aa87cb4f50306d90bf06154d8f0a649"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -263,7 +263,7 @@ const <a class="el" href="classRideType.html">RideType</a> *&#160;</td><td class
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>GUI for selecting a ride to build. </p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000041">Todo:</a></b></dt><dd>Unify widget number parameters. </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000043">Todo:</a></b></dt><dd>Unify widget number parameters. </dd></dl>
 
 <p>Definition at line <a class="el" href="ride__gui_8cpp_source.html#l00031">31</a> of file <a class="el" href="ride__gui_8cpp_source.html">ride_gui.cpp</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
@@ -312,7 +312,7 @@ const <a class="el" href="classRideType.html">RideType</a> *&#160;</td><td class
 
 <p>Definition at line <a class="el" href="ride__gui_8cpp_source.html#l00151">151</a> of file <a class="el" href="ride__gui_8cpp_source.html">ride_gui.cpp</a>.</p>
 
-<p>References <a class="el" href="ride__type_8cpp_source.html#l00043">_rides_manager</a>, <a class="el" href="gui__graphics_8cpp_source.html#l00180">GetMultilineTextSize()</a>, <a class="el" href="ride__type_8h_source.html#l00195">RidesManager::GetRideType()</a>, <a class="el" href="ride__type_8cpp_source.html#l00134">RideType::GetString()</a>, <a class="el" href="gui__graphics_8h_source.html#l00026">GetTextHeight()</a>, <a class="el" href="language_8cpp_source.html#l00499">GetTextSize()</a>, <a class="el" href="ride__type_8cpp_source.html#l00124">RideType::GetTypeDescription()</a>, <a class="el" href="ride__type_8cpp_source.html#l00115">RideType::GetTypeName()</a>, <a class="el" href="ride__type_8h_source.html#l00019">MAX_NUMBER_OF_RIDE_TYPES</a>, <a class="el" href="widget_8h_source.html#l00089">BaseWidget::min_x</a>, <a class="el" href="widget_8h_source.html#l00090">BaseWidget::min_y</a>, <a class="el" href="widget_8h_source.html#l00095">BaseWidget::resize_y</a>, <a class="el" href="ride__gui_8cpp_source.html#l00061">RSEL_DESC</a>, and <a class="el" href="ride__gui_8cpp_source.html#l00059">RSEL_LIST</a>.</p>
+<p>References <a class="el" href="ride__type_8cpp_source.html#l00045">_rides_manager</a>, <a class="el" href="gui__graphics_8cpp_source.html#l00222">GetMultilineTextSize()</a>, <a class="el" href="ride__type_8h_source.html#l00210">RidesManager::GetRideType()</a>, <a class="el" href="ride__type_8cpp_source.html#l00136">RideType::GetString()</a>, <a class="el" href="gui__graphics_8h_source.html#l00026">GetTextHeight()</a>, <a class="el" href="language_8cpp_source.html#l00499">GetTextSize()</a>, <a class="el" href="ride__type_8cpp_source.html#l00126">RideType::GetTypeDescription()</a>, <a class="el" href="ride__type_8cpp_source.html#l00117">RideType::GetTypeName()</a>, <a class="el" href="ride__type_8h_source.html#l00019">MAX_NUMBER_OF_RIDE_TYPES</a>, <a class="el" href="widget_8h_source.html#l00094">BaseWidget::min_x</a>, <a class="el" href="widget_8h_source.html#l00095">BaseWidget::min_y</a>, <a class="el" href="widget_8h_source.html#l00100">BaseWidget::resize_y</a>, <a class="el" href="ride__gui_8cpp_source.html#l00061">RSEL_DESC</a>, and <a class="el" href="ride__gui_8cpp_source.html#l00059">RSEL_LIST</a>.</p>
 
 </div>
 </div>
@@ -361,7 +361,7 @@ const <a class="el" href="classRideType.html">RideType</a> *&#160;</td><td class
 
 <p>Definition at line <a class="el" href="ride__gui_8cpp_source.html#l00184">184</a> of file <a class="el" href="ride__gui_8cpp_source.html">ride_gui.cpp</a>.</p>
 
-<p>References <a class="el" href="ride__type_8cpp_source.html#l00043">_rides_manager</a>, <a class="el" href="video_8cpp_source.html#l00025">_video</a>, <a class="el" href="video_8cpp_source.html#l00515">VideoSystem::BlitImage()</a>, <a class="el" href="ride__gui_8cpp_source.html#l00044">current_ride</a>, <a class="el" href="gui__graphics_8cpp_source.html#l00211">DrawMultilineString()</a>, <a class="el" href="gui__graphics_8cpp_source.html#l00105">DrawString()</a>, <a class="el" href="ride__type_8h_source.html#l00195">RidesManager::GetRideType()</a>, <a class="el" href="widget_8cpp_source.html#l00777">ScrollbarWidget::GetStart()</a>, <a class="el" href="ride__type_8cpp_source.html#l00134">RideType::GetString()</a>, <a class="el" href="gui__graphics_8h_source.html#l00026">GetTextHeight()</a>, <a class="el" href="ride__type_8cpp_source.html#l00124">RideType::GetTypeDescription()</a>, <a class="el" href="ride__type_8cpp_source.html#l00115">RideType::GetTypeName()</a>, <a class="el" href="classRideType.html#a1eaebd6b26d7c8f719d176f7930a6f16">RideType::GetView()</a>, <a class="el" href="widget_8cpp_source.html#l00748">ScrollbarWidget::GetVisibleCount()</a>, <a class="el" href="window_8h_source.html#l00184">GuiWindow::GetWidgetScreenX()</a>, <a class="el" href="window_8h_source.html#l00194">GuiWindow::GetWidgetScreenY()</a>, <a class="el" href="palette_8h_source.html#l00136">GS_NORMAL</a>, <a class="el" href="geometry_8h_source.html#l00249">Rectangle&lt; PT, SZ &gt;::height</a>, <a class="el" href="ride__type_8h_source.html#l00073">RideType::kind</a>, <a class="el" href="shop__placement_8h_source.html#l00056">ShopPlacementManager::orientation</a>, <a class="el" href="widget_8h_source.html#l00091">BaseWidget::pos</a>, <a class="el" href="window_8h_source.html#l00123">Window::rect</a>, <a class="el" href="ride__gui_8cpp_source.html#l00061">RSEL_DESC</a>, <a class="el" href="ride__gui_8cpp_source.html#l00062">RSEL_DISPLAY</a>, <a class="el" href="ride__gui_8cpp_source.html#l00059">RSEL_LIST</a>, <a class="el" href="ride__gui_8cpp_source.html#l00060">RSEL_SCROLL_LIST</a>, <a class="el" href="ride__type_8h_source.html#l00034">RTK_SHOP</a>, <a class="el" href="palette_8h_source.html#l00116">TEXT_BLACK</a>, <a class="el" href="palette_8h_source.html#l00117">TEXT_WHITE</a>, <a class="el" href="geometry_8h_source.html#l00248">Rectangle&lt; PT, SZ &gt;::width</a>, <a class="el" href="geometry_8h_source.html#l00037">Point&lt; CT &gt;::x</a>, and <a class="el" href="geometry_8h_source.html#l00038">Point&lt; CT &gt;::y</a>.</p>
+<p>References <a class="el" href="ride__type_8cpp_source.html#l00045">_rides_manager</a>, <a class="el" href="video_8cpp_source.html#l00025">_video</a>, <a class="el" href="video_8h_source.html#l00137">VideoSystem::BlitImage()</a>, <a class="el" href="ride__gui_8cpp_source.html#l00044">current_ride</a>, <a class="el" href="gui__graphics_8cpp_source.html#l00253">DrawMultilineString()</a>, <a class="el" href="gui__graphics_8cpp_source.html#l00147">DrawString()</a>, <a class="el" href="ride__type_8h_source.html#l00210">RidesManager::GetRideType()</a>, <a class="el" href="widget_8cpp_source.html#l00813">ScrollbarWidget::GetStart()</a>, <a class="el" href="ride__type_8cpp_source.html#l00136">RideType::GetString()</a>, <a class="el" href="gui__graphics_8h_source.html#l00026">GetTextHeight()</a>, <a class="el" href="ride__type_8cpp_source.html#l00126">RideType::GetTypeDescription()</a>, <a class="el" href="ride__type_8cpp_source.html#l00117">RideType::GetTypeName()</a>, <a class="el" href="classRideType.html#a1eaebd6b26d7c8f719d176f7930a6f16">RideType::GetView()</a>, <a class="el" href="widget_8cpp_source.html#l00784">ScrollbarWidget::GetVisibleCount()</a>, <a class="el" href="window_8h_source.html#l00200">GuiWindow::GetWidgetScreenX()</a>, <a class="el" href="window_8h_source.html#l00210">GuiWindow::GetWidgetScreenY()</a>, <a class="el" href="palette_8h_source.html#l00136">GS_NORMAL</a>, <a class="el" href="geometry_8h_source.html#l00351">Rectangle&lt; PT, SZ &gt;::height</a>, <a class="el" href="ride__type_8h_source.html#l00078">RideType::kind</a>, <a class="el" href="shop__placement_8h_source.html#l00056">ShopPlacementManager::orientation</a>, <a class="el" href="widget_8h_source.html#l00096">BaseWidget::pos</a>, <a class="el" href="window_8h_source.html#l00139">Window::rect</a>, <a class="el" href="ride__gui_8cpp_source.html#l00061">RSEL_DESC</a>, <a class="el" href="ride__gui_8cpp_source.html#l00062">RSEL_DISPLAY</a>, <a class="el" href="ride__gui_8cpp_source.html#l00059">RSEL_LIST</a>, <a class="el" href="ride__gui_8cpp_source.html#l00060">RSEL_SCROLL_LIST</a>, <a class="el" href="ride__type_8h_source.html#l00034">RTK_SHOP</a>, <a class="el" href="palette_8h_source.html#l00116">TEXT_BLACK</a>, <a class="el" href="palette_8h_source.html#l00117">TEXT_WHITE</a>, <a class="el" href="geometry_8h_source.html#l00350">Rectangle&lt; PT, SZ &gt;::width</a>, <a class="el" href="geometry_8h_source.html#l00036">Point&lt; CT &gt;::x</a>, and <a class="el" href="geometry_8h_source.html#l00037">Point&lt; CT &gt;::y</a>.</p>
 
 </div>
 </div>
@@ -408,9 +408,9 @@ const <a class="el" href="classRideType.html">RideType</a> *&#160;</td><td class
 
 <p>Reimplemented from <a class="el" href="classGuiWindow.html#a53d098a69e49ee49535336fff3000424">GuiWindow</a>.</p>
 
-<p>Definition at line <a class="el" href="ride__gui_8cpp_source.html#l00233">233</a> of file <a class="el" href="ride__gui_8cpp_source.html">ride_gui.cpp</a>.</p>
+<p>Definition at line <a class="el" href="ride__gui_8cpp_source.html#l00232">232</a> of file <a class="el" href="ride__gui_8cpp_source.html">ride_gui.cpp</a>.</p>
 
-<p>References <a class="el" href="ride__type_8cpp_source.html#l00043">_rides_manager</a>, <a class="el" href="ride__type_8cpp_source.html#l00481">RidesManager::CreateInstance()</a>, <a class="el" href="ride__gui_8cpp_source.html#l00043">current_kind</a>, <a class="el" href="ride__gui_8cpp_source.html#l00044">current_ride</a>, <a class="el" href="widget_8cpp_source.html#l00714">ScrollbarWidget::GetClickedRow()</a>, <a class="el" href="ride__type_8cpp_source.html#l00466">RidesManager::GetFreeInstance()</a>, <a class="el" href="ride__type_8h_source.html#l00195">RidesManager::GetRideType()</a>, <a class="el" href="ride__type_8h_source.html#l00021">INVALID_RIDE_INSTANCE</a>, <a class="el" href="window_8cpp_source.html#l00549">GuiWindow::IsWidgetPressed()</a>, <a class="el" href="ride__type_8h_source.html#l00073">RideType::kind</a>, <a class="el" href="window_8cpp_source.html#l00228">Window::MarkDirty()</a>, <a class="el" href="window_8h_source.html#l00295">GuiWindow::MarkWidgetDirty()</a>, <a class="el" href="ride__type_8cpp_source.html#l00509">RidesManager::NewInstanceAdded()</a>, <a class="el" href="shop__placement_8h_source.html#l00056">ShopPlacementManager::orientation</a>, <a class="el" href="ride__gui_8cpp_source.html#l00042">ride_types</a>, <a class="el" href="ride__gui_8cpp_source.html#l00673">ShopPlacementManager::Rotated()</a>, <a class="el" href="ride__gui_8cpp_source.html#l00058">RSEL_COASTER</a>, <a class="el" href="ride__gui_8cpp_source.html#l00062">RSEL_DISPLAY</a>, <a class="el" href="ride__gui_8cpp_source.html#l00056">RSEL_GENTLE</a>, <a class="el" href="ride__gui_8cpp_source.html#l00059">RSEL_LIST</a>, <a class="el" href="ride__gui_8cpp_source.html#l00065">RSEL_ROT_NEG</a>, <a class="el" href="ride__gui_8cpp_source.html#l00064">RSEL_ROT_POS</a>, <a class="el" href="ride__gui_8cpp_source.html#l00060">RSEL_SCROLL_LIST</a>, <a class="el" href="ride__gui_8cpp_source.html#l00063">RSEL_SELECT</a>, <a class="el" href="ride__gui_8cpp_source.html#l00055">RSEL_SHOPS</a>, <a class="el" href="ride__gui_8cpp_source.html#l00057">RSEL_WET</a>, <a class="el" href="ride__type_8h_source.html#l00037">RTK_COASTER</a>, <a class="el" href="ride__type_8h_source.html#l00034">RTK_SHOP</a>, <a class="el" href="ride__gui_8cpp_source.html#l00320">SetNewRide()</a>, <a class="el" href="ride__gui_8cpp_source.html#l00303">SetNewRideKind()</a>, <a class="el" href="ride__gui_8cpp_source.html#l00622">ShopPlacementManager::SetSelection()</a>, <a class="el" href="window_8cpp_source.html#l00535">GuiWindow::SetWidgetPressed()</a>, and <a class="el" href="coaster__gui_8cpp_source.html#l00086">ShowCoasterManagementGui()</a>.</p>
+<p>References <a class="el" href="ride__type_8cpp_source.html#l00045">_rides_manager</a>, <a class="el" href="ride__type_8cpp_source.html#l00503">RidesManager::CreateInstance()</a>, <a class="el" href="ride__gui_8cpp_source.html#l00043">current_kind</a>, <a class="el" href="ride__gui_8cpp_source.html#l00044">current_ride</a>, <a class="el" href="widget_8cpp_source.html#l00750">ScrollbarWidget::GetClickedRow()</a>, <a class="el" href="ride__type_8cpp_source.html#l00488">RidesManager::GetFreeInstance()</a>, <a class="el" href="ride__type_8h_source.html#l00210">RidesManager::GetRideType()</a>, <a class="el" href="ride__type_8h_source.html#l00021">INVALID_RIDE_INSTANCE</a>, <a class="el" href="window_8cpp_source.html#l00549">GuiWindow::IsWidgetPressed()</a>, <a class="el" href="ride__type_8h_source.html#l00078">RideType::kind</a>, <a class="el" href="window_8cpp_source.html#l00228">Window::MarkDirty()</a>, <a class="el" href="window_8h_source.html#l00311">GuiWindow::MarkWidgetDirty()</a>, <a class="el" href="ride__type_8cpp_source.html#l00531">RidesManager::NewInstanceAdded()</a>, <a class="el" href="shop__placement_8h_source.html#l00056">ShopPlacementManager::orientation</a>, <a class="el" href="ride__gui_8cpp_source.html#l00042">ride_types</a>, <a class="el" href="ride__gui_8cpp_source.html#l00668">ShopPlacementManager::Rotated()</a>, <a class="el" href="ride__gui_8cpp_source.html#l00058">RSEL_COASTER</a>, <a class="el" href="ride__gui_8cpp_source.html#l00062">RSEL_DISPLAY</a>, <a class="el" href="ride__gui_8cpp_source.html#l00056">RSEL_GENTLE</a>, <a class="el" href="ride__gui_8cpp_source.html#l00059">RSEL_LIST</a>, <a class="el" href="ride__gui_8cpp_source.html#l00065">RSEL_ROT_NEG</a>, <a class="el" href="ride__gui_8cpp_source.html#l00064">RSEL_ROT_POS</a>, <a class="el" href="ride__gui_8cpp_source.html#l00060">RSEL_SCROLL_LIST</a>, <a class="el" href="ride__gui_8cpp_source.html#l00063">RSEL_SELECT</a>, <a class="el" href="ride__gui_8cpp_source.html#l00055">RSEL_SHOPS</a>, <a class="el" href="ride__gui_8cpp_source.html#l00057">RSEL_WET</a>, <a class="el" href="ride__type_8h_source.html#l00037">RTK_COASTER</a>, <a class="el" href="ride__type_8h_source.html#l00034">RTK_SHOP</a>, <a class="el" href="ride__gui_8cpp_source.html#l00319">SetNewRide()</a>, <a class="el" href="ride__gui_8cpp_source.html#l00302">SetNewRideKind()</a>, <a class="el" href="ride__gui_8cpp_source.html#l00617">ShopPlacementManager::SetSelection()</a>, <a class="el" href="window_8cpp_source.html#l00535">GuiWindow::SetWidgetPressed()</a>, and <a class="el" href="coaster__gui_8cpp_source.html#l00086">ShowCoasterManagementGui()</a>.</p>
 
 </div>
 </div>
@@ -458,7 +458,7 @@ const <a class="el" href="classRideType.html">RideType</a> *&#160;</td><td class
 
 <p>Reimplemented from <a class="el" href="classWindow.html#a8463d13ff33f2757cc7dae6e2275066f">Window</a>.</p>
 
-<p>Definition at line <a class="el" href="ride__gui_8cpp_source.html#l00290">290</a> of file <a class="el" href="ride__gui_8cpp_source.html">ride_gui.cpp</a>.</p>
+<p>Definition at line <a class="el" href="ride__gui_8cpp_source.html#l00289">289</a> of file <a class="el" href="ride__gui_8cpp_source.html">ride_gui.cpp</a>.</p>
 
 <p>References <a class="el" href="window_8h_source.html#l00065">CHG_MOUSE_MODE_LOST</a>, <a class="el" href="ride__gui_8cpp_source.html#l00063">RSEL_SELECT</a>, and <a class="el" href="window_8cpp_source.html#l00535">GuiWindow::SetWidgetPressed()</a>.</p>
 
@@ -506,11 +506,11 @@ const <a class="el" href="classRideType.html">RideType</a> *&#160;</td><td class
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Whether selection was changed. </dd></dl>
 
-<p>Definition at line <a class="el" href="ride__gui_8cpp_source.html#l00303">303</a> of file <a class="el" href="ride__gui_8cpp_source.html">ride_gui.cpp</a>.</p>
+<p>Definition at line <a class="el" href="ride__gui_8cpp_source.html#l00302">302</a> of file <a class="el" href="ride__gui_8cpp_source.html">ride_gui.cpp</a>.</p>
 
-<p>References <a class="el" href="ride__gui_8cpp_source.html#l00069">_ride_type_select_bar</a>, <a class="el" href="ride__gui_8cpp_source.html#l00043">current_kind</a>, <a class="el" href="ride__gui_8cpp_source.html#l00042">ride_types</a>, <a class="el" href="ride__gui_8cpp_source.html#l00060">RSEL_SCROLL_LIST</a>, <a class="el" href="ride__type_8h_source.html#l00039">RTK_RIDE_KIND_COUNT</a>, <a class="el" href="widget_8cpp_source.html#l00703">ScrollbarWidget::SetItemCount()</a>, <a class="el" href="ride__gui_8cpp_source.html#l00320">SetNewRide()</a>, and <a class="el" href="window_8cpp_source.html#l00583">GuiWindow::SetRadioButtonsSelected()</a>.</p>
+<p>References <a class="el" href="ride__gui_8cpp_source.html#l00069">_ride_type_select_bar</a>, <a class="el" href="ride__gui_8cpp_source.html#l00043">current_kind</a>, <a class="el" href="ride__gui_8cpp_source.html#l00042">ride_types</a>, <a class="el" href="ride__gui_8cpp_source.html#l00060">RSEL_SCROLL_LIST</a>, <a class="el" href="ride__type_8h_source.html#l00039">RTK_RIDE_KIND_COUNT</a>, <a class="el" href="widget_8cpp_source.html#l00739">ScrollbarWidget::SetItemCount()</a>, <a class="el" href="ride__gui_8cpp_source.html#l00319">SetNewRide()</a>, and <a class="el" href="window_8cpp_source.html#l00583">GuiWindow::SetRadioButtonsSelected()</a>.</p>
 
-<p>Referenced by <a class="el" href="ride__gui_8cpp_source.html#l00233">OnClick()</a>.</p>
+<p>Referenced by <a class="el" href="ride__gui_8cpp_source.html#l00232">OnClick()</a>.</p>
 
 </div>
 </div>
@@ -544,11 +544,11 @@ const <a class="el" href="classRideType.html">RideType</a> *&#160;</td><td class
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="ride__gui_8cpp_source.html#l00320">320</a> of file <a class="el" href="ride__gui_8cpp_source.html">ride_gui.cpp</a>.</p>
+<p>Definition at line <a class="el" href="ride__gui_8cpp_source.html#l00319">319</a> of file <a class="el" href="ride__gui_8cpp_source.html">ride_gui.cpp</a>.</p>
 
-<p>References <a class="el" href="ride__type_8cpp_source.html#l00043">_rides_manager</a>, <a class="el" href="ride__gui_8cpp_source.html#l00043">current_kind</a>, <a class="el" href="ride__gui_8cpp_source.html#l00044">current_ride</a>, <a class="el" href="ride__type_8h_source.html#l00195">RidesManager::GetRideType()</a>, <a class="el" href="window_8cpp_source.html#l00549">GuiWindow::IsWidgetPressed()</a>, <a class="el" href="ride__type_8h_source.html#l00073">RideType::kind</a>, <a class="el" href="ride__type_8h_source.html#l00019">MAX_NUMBER_OF_RIDE_TYPES</a>, <a class="el" href="stdafx_8h_source.html#l00182">NOT_REACHED</a>, <a class="el" href="ride__gui_8cpp_source.html#l00042">ride_types</a>, <a class="el" href="ride__gui_8cpp_source.html#l00063">RSEL_SELECT</a>, <a class="el" href="ride__type_8h_source.html#l00037">RTK_COASTER</a>, <a class="el" href="ride__type_8h_source.html#l00035">RTK_GENTLE</a>, <a class="el" href="ride__type_8h_source.html#l00034">RTK_SHOP</a>, <a class="el" href="ride__type_8h_source.html#l00036">RTK_WET</a>, <a class="el" href="ride__gui_8cpp_source.html#l00622">ShopPlacementManager::SetSelection()</a>, and <a class="el" href="window_8cpp_source.html#l00535">GuiWindow::SetWidgetPressed()</a>.</p>
+<p>References <a class="el" href="ride__type_8cpp_source.html#l00045">_rides_manager</a>, <a class="el" href="ride__gui_8cpp_source.html#l00043">current_kind</a>, <a class="el" href="ride__gui_8cpp_source.html#l00044">current_ride</a>, <a class="el" href="ride__type_8h_source.html#l00210">RidesManager::GetRideType()</a>, <a class="el" href="window_8cpp_source.html#l00549">GuiWindow::IsWidgetPressed()</a>, <a class="el" href="ride__type_8h_source.html#l00078">RideType::kind</a>, <a class="el" href="ride__type_8h_source.html#l00019">MAX_NUMBER_OF_RIDE_TYPES</a>, <a class="el" href="stdafx_8h_source.html#l00182">NOT_REACHED</a>, <a class="el" href="ride__gui_8cpp_source.html#l00042">ride_types</a>, <a class="el" href="ride__gui_8cpp_source.html#l00063">RSEL_SELECT</a>, <a class="el" href="ride__type_8h_source.html#l00037">RTK_COASTER</a>, <a class="el" href="ride__type_8h_source.html#l00035">RTK_GENTLE</a>, <a class="el" href="ride__type_8h_source.html#l00034">RTK_SHOP</a>, <a class="el" href="ride__type_8h_source.html#l00036">RTK_WET</a>, <a class="el" href="ride__gui_8cpp_source.html#l00617">ShopPlacementManager::SetSelection()</a>, and <a class="el" href="window_8cpp_source.html#l00535">GuiWindow::SetWidgetPressed()</a>.</p>
 
-<p>Referenced by <a class="el" href="ride__gui_8cpp_source.html#l00233">OnClick()</a>, and <a class="el" href="ride__gui_8cpp_source.html#l00303">SetNewRideKind()</a>.</p>
+<p>Referenced by <a class="el" href="ride__gui_8cpp_source.html#l00232">OnClick()</a>, and <a class="el" href="ride__gui_8cpp_source.html#l00302">SetNewRideKind()</a>.</p>
 
 </div>
 </div>
@@ -580,7 +580,7 @@ const <a class="el" href="classRideType.html">RideType</a> *&#160;</td><td class
 
 <p>Definition at line <a class="el" href="window_8cpp_source.html#l00450">450</a> of file <a class="el" href="window_8cpp_source.html">window.cpp</a>.</p>
 
-<p>References <a class="el" href="video_8cpp_source.html#l00025">_video</a>, <a class="el" href="widget_8cpp_source.html#l00183">BaseWidget::Draw()</a>, <a class="el" href="video_8cpp_source.html#l01044">VideoSystem::DrawRectangle()</a>, <a class="el" href="window_8h_source.html#l00132">Window::flags</a>, <a class="el" href="palette_8h_source.html#l00033">MakeRGBA()</a>, <a class="el" href="palette_8h_source.html#l00021">OPAQUE</a>, <a class="el" href="window_8h_source.html#l00123">Window::rect</a>, <a class="el" href="window_8h_source.html#l00236">GuiWindow::tree</a>, and <a class="el" href="window_8h_source.html#l00073">WF_HIGHLIGHT</a>.</p>
+<p>References <a class="el" href="video_8cpp_source.html#l00025">_video</a>, <a class="el" href="widget_8cpp_source.html#l00183">BaseWidget::Draw()</a>, <a class="el" href="video_8cpp_source.html#l00908">VideoSystem::DrawRectangle()</a>, <a class="el" href="window_8h_source.html#l00148">Window::flags</a>, <a class="el" href="palette_8h_source.html#l00033">MakeRGBA()</a>, <a class="el" href="palette_8h_source.html#l00021">OPAQUE</a>, <a class="el" href="window_8h_source.html#l00139">Window::rect</a>, <a class="el" href="window_8h_source.html#l00252">GuiWindow::tree</a>, and <a class="el" href="window_8h_source.html#l00073">WF_HIGHLIGHT</a>.</p>
 
 </div>
 </div>
@@ -618,7 +618,7 @@ const <a class="el" href="classRideType.html">RideType</a> *&#160;</td><td class
 
 <p>Definition at line <a class="el" href="window_8cpp_source.html#l00434">434</a> of file <a class="el" href="window_8cpp_source.html">window.cpp</a>.</p>
 
-<p>Referenced by <a class="el" href="widget_8cpp_source.html#l00406">DataWidget::Draw()</a>, and <a class="el" href="widget_8cpp_source.html#l00336">DataWidget::SetupMinimalSize()</a>.</p>
+<p>Referenced by <a class="el" href="widget_8cpp_source.html#l00435">DataWidget::Draw()</a>, and <a class="el" href="widget_8cpp_source.html#l00351">DataWidget::SetupMinimalSize()</a>.</p>
 
 </div>
 </div>
@@ -702,9 +702,9 @@ const <a class="el" href="classRideType.html">RideType</a> *&#160;</td><td class
 
 <p>Definition at line <a class="el" href="window_8cpp_source.html#l00360">360</a> of file <a class="el" href="window_8cpp_source.html">window.cpp</a>.</p>
 
-<p>References <a class="el" href="ride__type_8cpp_source.html#l00134">RideType::GetString()</a>, <a class="el" href="window_8h_source.html#l00204">GuiWindow::ride_type</a>, <a class="el" href="language_8h_source.html#l00046">STR_GENERIC_SHOP_START</a>, and <a class="el" href="language_8h_source.html#l00055">STR_INVALID</a>.</p>
+<p>References <a class="el" href="ride__type_8cpp_source.html#l00136">RideType::GetString()</a>, <a class="el" href="window_8h_source.html#l00220">GuiWindow::ride_type</a>, <a class="el" href="language_8h_source.html#l00046">STR_GENERIC_SHOP_START</a>, and <a class="el" href="language_8h_source.html#l00055">STR_INVALID</a>.</p>
 
-<p>Referenced by <a class="el" href="widget_8cpp_source.html#l00406">DataWidget::Draw()</a>, and <a class="el" href="widget_8cpp_source.html#l00336">DataWidget::SetupMinimalSize()</a>.</p>
+<p>Referenced by <a class="el" href="widget_8cpp_source.html#l00435">DataWidget::Draw()</a>, and <a class="el" href="widget_8cpp_source.html#l00351">DataWidget::SetupMinimalSize()</a>.</p>
 
 </div>
 </div>
@@ -736,7 +736,7 @@ const <a class="el" href="classRideType.html">RideType</a> *&#160;</td><td class
 
 <p>Definition at line <a class="el" href="window_8cpp_source.html#l00368">368</a> of file <a class="el" href="window_8cpp_source.html">window.cpp</a>.</p>
 
-<p>References <a class="el" href="geometry_8h_source.html#l00247">Rectangle&lt; PT, SZ &gt;::base</a>, <a class="el" href="widget_8h_source.html#l00089">BaseWidget::min_x</a>, <a class="el" href="window_8h_source.html#l00123">Window::rect</a>, <a class="el" href="widget_8cpp_source.html#l00172">BaseWidget::SetSmallestSizePosition()</a>, <a class="el" href="widget_8cpp_source.html#l00141">BaseWidget::SetupMinimalSize()</a>, <a class="el" href="window_8h_source.html#l00236">GuiWindow::tree</a>, <a class="el" href="window_8h_source.html#l00237">GuiWindow::widgets</a>, and <a class="el" href="geometry_8h_source.html#l00037">Point&lt; CT &gt;::x</a>.</p>
+<p>References <a class="el" href="geometry_8h_source.html#l00349">Rectangle&lt; PT, SZ &gt;::base</a>, <a class="el" href="widget_8h_source.html#l00094">BaseWidget::min_x</a>, <a class="el" href="window_8h_source.html#l00139">Window::rect</a>, <a class="el" href="widget_8cpp_source.html#l00172">BaseWidget::SetSmallestSizePosition()</a>, <a class="el" href="widget_8cpp_source.html#l00141">BaseWidget::SetupMinimalSize()</a>, <a class="el" href="window_8h_source.html#l00252">GuiWindow::tree</a>, <a class="el" href="window_8h_source.html#l00253">GuiWindow::widgets</a>, and <a class="el" href="geometry_8h_source.html#l00036">Point&lt; CT &gt;::x</a>.</p>
 
 <p>Referenced by <a class="el" href="window_8cpp_source.html#l00383">GuiWindow::SetupWidgetTree()</a>.</p>
 
@@ -776,7 +776,7 @@ const <a class="el" href="classRideType.html">RideType</a> *&#160;</td><td class
 
 <p>Definition at line <a class="el" href="window_8cpp_source.html#l00456">456</a> of file <a class="el" href="window_8cpp_source.html">window.cpp</a>.</p>
 
-<p>References <a class="el" href="window_8h_source.html#l00203">GuiWindow::mouse_pos</a>.</p>
+<p>References <a class="el" href="window_8h_source.html#l00219">GuiWindow::mouse_pos</a>.</p>
 
 </div>
 </div>
@@ -816,7 +816,7 @@ const <a class="el" href="classRideType.html">RideType</a> *&#160;</td><td class
 
 <p>Definition at line <a class="el" href="window_8cpp_source.html#l00461">461</a> of file <a class="el" href="window_8cpp_source.html">window.cpp</a>.</p>
 
-<p>References <a class="el" href="geometry_8h_source.html#l00247">Rectangle&lt; PT, SZ &gt;::base</a>, <a class="el" href="widget_8cpp_source.html#l00194">BaseWidget::GetWidgetByPosition()</a>, <a class="el" href="window_8cpp_source.html#l00047">IsLeftClick()</a>, <a class="el" href="widget_8h_source.html#l00151">LeafWidget::IsShaded()</a>, <a class="el" href="widget_8cpp_source.html#l00212">BaseWidget::MarkDirty()</a>, <a class="el" href="window_8h_source.html#l00203">GuiWindow::mouse_pos</a>, <a class="el" href="widget_8h_source.html#l00085">BaseWidget::number</a>, <a class="el" href="window_8cpp_source.html#l00502">GuiWindow::OnClick()</a>, <a class="el" href="widget_8cpp_source.html#l00655">ScrollbarWidget::OnClick()</a>, <a class="el" href="widget_8h_source.html#l00091">BaseWidget::pos</a>, <a class="el" href="window_8h_source.html#l00123">Window::rect</a>, <a class="el" href="widget_8h_source.html#l00169">LeafWidget::SetPressed()</a>, <a class="el" href="window_8h_source.html#l00131">Window::timeout</a>, <a class="el" href="window_8h_source.html#l00236">GuiWindow::tree</a>, <a class="el" href="window_8h_source.html#l00097">WMME_CLOSE_WINDOW</a>, <a class="el" href="window_8h_source.html#l00098">WMME_MOVE_WINDOW</a>, <a class="el" href="window_8h_source.html#l00096">WMME_NONE</a>, <a class="el" href="widget_8h_source.html#l00034">WT_CLOSEBOX</a>, <a class="el" href="widget_8h_source.html#l00043">WT_IMAGE_PUSHBUTTON</a>, <a class="el" href="widget_8h_source.html#l00042">WT_TEXT_PUSHBUTTON</a>, <a class="el" href="widget_8h_source.html#l00033">WT_TITLEBAR</a>, <a class="el" href="widget_8h_source.html#l00084">BaseWidget::wtype</a>, <a class="el" href="geometry_8h_source.html#l00037">Point&lt; CT &gt;::x</a>, and <a class="el" href="geometry_8h_source.html#l00038">Point&lt; CT &gt;::y</a>.</p>
+<p>References <a class="el" href="geometry_8h_source.html#l00349">Rectangle&lt; PT, SZ &gt;::base</a>, <a class="el" href="widget_8cpp_source.html#l00194">BaseWidget::GetWidgetByPosition()</a>, <a class="el" href="window_8cpp_source.html#l00047">IsLeftClick()</a>, <a class="el" href="widget_8h_source.html#l00156">LeafWidget::IsShaded()</a>, <a class="el" href="widget_8cpp_source.html#l00212">BaseWidget::MarkDirty()</a>, <a class="el" href="window_8h_source.html#l00219">GuiWindow::mouse_pos</a>, <a class="el" href="widget_8h_source.html#l00090">BaseWidget::number</a>, <a class="el" href="widget_8cpp_source.html#l00691">ScrollbarWidget::OnClick()</a>, <a class="el" href="window_8cpp_source.html#l00502">GuiWindow::OnClick()</a>, <a class="el" href="widget_8h_source.html#l00096">BaseWidget::pos</a>, <a class="el" href="window_8h_source.html#l00139">Window::rect</a>, <a class="el" href="widget_8h_source.html#l00174">LeafWidget::SetPressed()</a>, <a class="el" href="window_8h_source.html#l00147">Window::timeout</a>, <a class="el" href="window_8h_source.html#l00252">GuiWindow::tree</a>, <a class="el" href="window_8h_source.html#l00097">WMME_CLOSE_WINDOW</a>, <a class="el" href="window_8h_source.html#l00098">WMME_MOVE_WINDOW</a>, <a class="el" href="window_8h_source.html#l00096">WMME_NONE</a>, <a class="el" href="widget_8h_source.html#l00034">WT_CLOSEBOX</a>, <a class="el" href="widget_8h_source.html#l00043">WT_IMAGE_PUSHBUTTON</a>, <a class="el" href="widget_8h_source.html#l00042">WT_TEXT_PUSHBUTTON</a>, <a class="el" href="widget_8h_source.html#l00033">WT_TITLEBAR</a>, <a class="el" href="widget_8h_source.html#l00089">BaseWidget::wtype</a>, <a class="el" href="geometry_8h_source.html#l00036">Point&lt; CT &gt;::x</a>, and <a class="el" href="geometry_8h_source.html#l00037">Point&lt; CT &gt;::y</a>.</p>
 
 </div>
 </div>
@@ -847,7 +847,7 @@ const <a class="el" href="classRideType.html">RideType</a> *&#160;</td><td class
 
 <p>Definition at line <a class="el" href="window_8cpp_source.html#l00491">491</a> of file <a class="el" href="window_8cpp_source.html">window.cpp</a>.</p>
 
-<p>References <a class="el" href="window_8h_source.html#l00203">GuiWindow::mouse_pos</a>, <a class="el" href="geometry_8h_source.html#l00037">Point&lt; CT &gt;::x</a>, and <a class="el" href="geometry_8h_source.html#l00038">Point&lt; CT &gt;::y</a>.</p>
+<p>References <a class="el" href="window_8h_source.html#l00219">GuiWindow::mouse_pos</a>, <a class="el" href="geometry_8h_source.html#l00036">Point&lt; CT &gt;::x</a>, and <a class="el" href="geometry_8h_source.html#l00037">Point&lt; CT &gt;::y</a>.</p>
 
 </div>
 </div>
@@ -879,7 +879,7 @@ const <a class="el" href="classRideType.html">RideType</a> *&#160;</td><td class
 
 <p>Definition at line <a class="el" href="window_8cpp_source.html#l00614">614</a> of file <a class="el" href="window_8cpp_source.html">window.cpp</a>.</p>
 
-<p>References <a class="el" href="widget_8cpp_source.html#l00204">BaseWidget::AutoRaiseButtons()</a>, <a class="el" href="geometry_8h_source.html#l00247">Rectangle&lt; PT, SZ &gt;::base</a>, <a class="el" href="window_8h_source.html#l00132">Window::flags</a>, <a class="el" href="window_8h_source.html#l00123">Window::rect</a>, <a class="el" href="window_8cpp_source.html#l00620">GuiWindow::SetHighlight()</a>, <a class="el" href="window_8h_source.html#l00236">GuiWindow::tree</a>, and <a class="el" href="window_8h_source.html#l00073">WF_HIGHLIGHT</a>.</p>
+<p>References <a class="el" href="widget_8cpp_source.html#l00204">BaseWidget::AutoRaiseButtons()</a>, <a class="el" href="geometry_8h_source.html#l00349">Rectangle&lt; PT, SZ &gt;::base</a>, <a class="el" href="window_8h_source.html#l00148">Window::flags</a>, <a class="el" href="window_8h_source.html#l00139">Window::rect</a>, <a class="el" href="window_8cpp_source.html#l00620">GuiWindow::SetHighlight()</a>, <a class="el" href="window_8h_source.html#l00252">GuiWindow::tree</a>, and <a class="el" href="window_8h_source.html#l00073">WF_HIGHLIGHT</a>.</p>
 
 </div>
 </div>
@@ -917,7 +917,7 @@ const <a class="el" href="classRideType.html">RideType</a> *&#160;</td><td class
 
 <p>Definition at line <a class="el" href="window_8cpp_source.html#l00620">620</a> of file <a class="el" href="window_8cpp_source.html">window.cpp</a>.</p>
 
-<p>References <a class="el" href="window_8h_source.html#l00132">Window::flags</a>, <a class="el" href="window_8cpp_source.html#l00228">Window::MarkDirty()</a>, <a class="el" href="window_8h_source.html#l00131">Window::timeout</a>, and <a class="el" href="window_8h_source.html#l00073">WF_HIGHLIGHT</a>.</p>
+<p>References <a class="el" href="window_8h_source.html#l00148">Window::flags</a>, <a class="el" href="window_8cpp_source.html#l00228">Window::MarkDirty()</a>, <a class="el" href="window_8h_source.html#l00147">Window::timeout</a>, and <a class="el" href="window_8h_source.html#l00073">WF_HIGHLIGHT</a>.</p>
 
 <p>Referenced by <a class="el" href="window_8cpp_source.html#l00318">GuiWindow::GuiWindow()</a>, and <a class="el" href="window_8cpp_source.html#l00614">GuiWindow::TimeoutCallback()</a>.</p>
 
@@ -954,11 +954,11 @@ const <a class="el" href="classRideType.html">RideType</a> *&#160;</td><td class
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Horizontal position of the top-left corner of the widget at the screen. </dd></dl>
 
-<p>Definition at line <a class="el" href="window_8h_source.html#l00184">184</a> of file <a class="el" href="window_8h_source.html">window.h</a>.</p>
+<p>Definition at line <a class="el" href="window_8h_source.html#l00200">200</a> of file <a class="el" href="window_8h_source.html">window.h</a>.</p>
 
-<p>References <a class="el" href="geometry_8h_source.html#l00247">Rectangle&lt; PT, SZ &gt;::base</a>, <a class="el" href="widget_8h_source.html#l00091">BaseWidget::pos</a>, <a class="el" href="window_8h_source.html#l00123">Window::rect</a>, and <a class="el" href="geometry_8h_source.html#l00037">Point&lt; CT &gt;::x</a>.</p>
+<p>References <a class="el" href="geometry_8h_source.html#l00349">Rectangle&lt; PT, SZ &gt;::base</a>, <a class="el" href="widget_8h_source.html#l00096">BaseWidget::pos</a>, <a class="el" href="window_8h_source.html#l00139">Window::rect</a>, and <a class="el" href="geometry_8h_source.html#l00036">Point&lt; CT &gt;::x</a>.</p>
 
-<p>Referenced by <a class="el" href="widget_8cpp_source.html#l00269">LeafWidget::Draw()</a>, <a class="el" href="widget_8cpp_source.html#l00406">DataWidget::Draw()</a>, <a class="el" href="widget_8cpp_source.html#l00543">ScrollbarWidget::Draw()</a>, <a class="el" href="widget_8cpp_source.html#l00909">BackgroundWidget::Draw()</a>, <a class="el" href="terraform__gui_8cpp_source.html#l00090">TerraformGui::DrawWidget()</a>, <a class="el" href="path__gui_8cpp_source.html#l00214">PathBuildGui::DrawWidget()</a>, <a class="el" href="fence__gui_8cpp_source.html#l00097">FenceGui::DrawWidget()</a>, <a class="el" href="ride__gui_8cpp_source.html#l00184">DrawWidget()</a>, <a class="el" href="dropdown_8cpp_source.html#l00260">RecolourDropdownWindow::DrawWidget()</a>, <a class="el" href="toolbar__gui_8cpp_source.html#l00362">BottomToolbarWindow::DrawWidget()</a>, <a class="el" href="fence__gui_8cpp_source.html#l00126">FenceGui::OnClick()</a>, <a class="el" href="dropdown_8cpp_source.html#l00148">GuiWindow::ShowDropdownMenu()</a>, and <a class="el" href="dropdown_8cpp_source.html#l00273">GuiWindow::ShowRecolourDropdown()</a>.</p>
+<p>Referenced by <a class="el" href="widget_8cpp_source.html#l00278">LeafWidget::Draw()</a>, <a class="el" href="widget_8cpp_source.html#l00435">DataWidget::Draw()</a>, <a class="el" href="widget_8cpp_source.html#l00579">ScrollbarWidget::Draw()</a>, <a class="el" href="widget_8cpp_source.html#l00946">BackgroundWidget::Draw()</a>, <a class="el" href="terraform__gui_8cpp_source.html#l00092">TerraformGui::DrawWidget()</a>, <a class="el" href="path__gui_8cpp_source.html#l00219">PathBuildGui::DrawWidget()</a>, <a class="el" href="fence__gui_8cpp_source.html#l00097">FenceGui::DrawWidget()</a>, <a class="el" href="ride__gui_8cpp_source.html#l00184">DrawWidget()</a>, <a class="el" href="dropdown_8cpp_source.html#l00260">RecolourDropdownWindow::DrawWidget()</a>, <a class="el" href="toolbar__gui_8cpp_source.html#l00362">BottomToolbarWindow::DrawWidget()</a>, <a class="el" href="fence__gui_8cpp_source.html#l00126">FenceGui::OnClick()</a>, <a class="el" href="dropdown_8cpp_source.html#l00148">GuiWindow::ShowDropdownMenu()</a>, and <a class="el" href="dropdown_8cpp_source.html#l00273">GuiWindow::ShowRecolourDropdown()</a>.</p>
 
 </div>
 </div>
@@ -993,11 +993,11 @@ const <a class="el" href="classRideType.html">RideType</a> *&#160;</td><td class
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Vertical position of the top-left corner of the widget at the screen. </dd></dl>
 
-<p>Definition at line <a class="el" href="window_8h_source.html#l00194">194</a> of file <a class="el" href="window_8h_source.html">window.h</a>.</p>
+<p>Definition at line <a class="el" href="window_8h_source.html#l00210">210</a> of file <a class="el" href="window_8h_source.html">window.h</a>.</p>
 
-<p>References <a class="el" href="geometry_8h_source.html#l00247">Rectangle&lt; PT, SZ &gt;::base</a>, <a class="el" href="widget_8h_source.html#l00091">BaseWidget::pos</a>, <a class="el" href="window_8h_source.html#l00123">Window::rect</a>, and <a class="el" href="geometry_8h_source.html#l00038">Point&lt; CT &gt;::y</a>.</p>
+<p>References <a class="el" href="geometry_8h_source.html#l00349">Rectangle&lt; PT, SZ &gt;::base</a>, <a class="el" href="widget_8h_source.html#l00096">BaseWidget::pos</a>, <a class="el" href="window_8h_source.html#l00139">Window::rect</a>, and <a class="el" href="geometry_8h_source.html#l00037">Point&lt; CT &gt;::y</a>.</p>
 
-<p>Referenced by <a class="el" href="widget_8cpp_source.html#l00269">LeafWidget::Draw()</a>, <a class="el" href="widget_8cpp_source.html#l00406">DataWidget::Draw()</a>, <a class="el" href="widget_8cpp_source.html#l00543">ScrollbarWidget::Draw()</a>, <a class="el" href="widget_8cpp_source.html#l00909">BackgroundWidget::Draw()</a>, <a class="el" href="terraform__gui_8cpp_source.html#l00090">TerraformGui::DrawWidget()</a>, <a class="el" href="path__gui_8cpp_source.html#l00214">PathBuildGui::DrawWidget()</a>, <a class="el" href="fence__gui_8cpp_source.html#l00097">FenceGui::DrawWidget()</a>, <a class="el" href="ride__gui_8cpp_source.html#l00184">DrawWidget()</a>, <a class="el" href="dropdown_8cpp_source.html#l00260">RecolourDropdownWindow::DrawWidget()</a>, <a class="el" href="toolbar__gui_8cpp_source.html#l00362">BottomToolbarWindow::DrawWidget()</a>, <a class="el" href="fence__gui_8cpp_source.html#l00126">FenceGui::OnClick()</a>, <a class="el" href="dropdown_8cpp_source.html#l00148">GuiWindow::ShowDropdownMenu()</a>, and <a class="el" href="dropdown_8cpp_source.html#l00273">GuiWindow::ShowRecolourDropdown()</a>.</p>
+<p>Referenced by <a class="el" href="widget_8cpp_source.html#l00278">LeafWidget::Draw()</a>, <a class="el" href="widget_8cpp_source.html#l00435">DataWidget::Draw()</a>, <a class="el" href="widget_8cpp_source.html#l00579">ScrollbarWidget::Draw()</a>, <a class="el" href="widget_8cpp_source.html#l00946">BackgroundWidget::Draw()</a>, <a class="el" href="terraform__gui_8cpp_source.html#l00092">TerraformGui::DrawWidget()</a>, <a class="el" href="path__gui_8cpp_source.html#l00219">PathBuildGui::DrawWidget()</a>, <a class="el" href="fence__gui_8cpp_source.html#l00097">FenceGui::DrawWidget()</a>, <a class="el" href="ride__gui_8cpp_source.html#l00184">DrawWidget()</a>, <a class="el" href="dropdown_8cpp_source.html#l00260">RecolourDropdownWindow::DrawWidget()</a>, <a class="el" href="toolbar__gui_8cpp_source.html#l00362">BottomToolbarWindow::DrawWidget()</a>, <a class="el" href="fence__gui_8cpp_source.html#l00126">FenceGui::OnClick()</a>, <a class="el" href="dropdown_8cpp_source.html#l00148">GuiWindow::ShowDropdownMenu()</a>, and <a class="el" href="dropdown_8cpp_source.html#l00273">GuiWindow::ShowRecolourDropdown()</a>.</p>
 
 </div>
 </div>
@@ -1031,11 +1031,11 @@ const <a class="el" href="classRideType.html">RideType</a> *&#160;</td><td class
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="window_8h_source.html#l00295">295</a> of file <a class="el" href="window_8h_source.html">window.h</a>.</p>
+<p>Definition at line <a class="el" href="window_8h_source.html#l00311">311</a> of file <a class="el" href="window_8h_source.html">window.h</a>.</p>
 
-<p>References <a class="el" href="geometry_8h_source.html#l00247">Rectangle&lt; PT, SZ &gt;::base</a>, <a class="el" href="widget_8cpp_source.html#l00212">BaseWidget::MarkDirty()</a>, and <a class="el" href="window_8h_source.html#l00123">Window::rect</a>.</p>
+<p>References <a class="el" href="geometry_8h_source.html#l00349">Rectangle&lt; PT, SZ &gt;::base</a>, <a class="el" href="widget_8cpp_source.html#l00212">BaseWidget::MarkDirty()</a>, and <a class="el" href="window_8h_source.html#l00139">Window::rect</a>.</p>
 
-<p>Referenced by <a class="el" href="toolbar__gui_8cpp_source.html#l00163">ToolbarWindow::OnChange()</a>, <a class="el" href="ride__gui_8cpp_source.html#l00233">OnClick()</a>, <a class="el" href="terraform__gui_8cpp_source.html#l00162">TerraformGui::Setlevelling()</a>, and <a class="el" href="terraform__gui_8cpp_source.html#l00180">TerraformGui::SetTerraformSize()</a>.</p>
+<p>Referenced by <a class="el" href="toolbar__gui_8cpp_source.html#l00163">ToolbarWindow::OnChange()</a>, <a class="el" href="ride__gui_8cpp_source.html#l00232">OnClick()</a>, <a class="el" href="terraform__gui_8cpp_source.html#l00166">TerraformGui::Setlevelling()</a>, and <a class="el" href="terraform__gui_8cpp_source.html#l00184">TerraformGui::SetTerraformSize()</a>.</p>
 
 </div>
 </div>
@@ -1083,9 +1083,9 @@ const <a class="el" href="classRideType.html">RideType</a> *&#160;</td><td class
 
 <p>Definition at line <a class="el" href="window_8cpp_source.html#l00383">383</a> of file <a class="el" href="window_8cpp_source.html">window.cpp</a>.</p>
 
-<p>References <a class="el" href="window_8h_source.html#l00200">GuiWindow::initialized</a>, <a class="el" href="widget_8cpp_source.html#l01772">MakeWidgetTree()</a>, <a class="el" href="window_8cpp_source.html#l00228">Window::MarkDirty()</a>, <a class="el" href="window_8h_source.html#l00238">GuiWindow::num_widgets</a>, <a class="el" href="window_8cpp_source.html#l00217">Window::OnInitialPosition()</a>, <a class="el" href="window_8cpp_source.html#l00368">GuiWindow::ResetSize()</a>, <a class="el" href="window_8cpp_source.html#l00092">Window::SetPosition()</a>, <a class="el" href="window_8h_source.html#l00236">GuiWindow::tree</a>, <a class="el" href="window_8h_source.html#l00237">GuiWindow::widgets</a>, <a class="el" href="geometry_8h_source.html#l00037">Point&lt; CT &gt;::x</a>, and <a class="el" href="geometry_8h_source.html#l00038">Point&lt; CT &gt;::y</a>.</p>
+<p>References <a class="el" href="window_8h_source.html#l00216">GuiWindow::initialized</a>, <a class="el" href="widget_8cpp_source.html#l01815">MakeWidgetTree()</a>, <a class="el" href="window_8cpp_source.html#l00228">Window::MarkDirty()</a>, <a class="el" href="window_8h_source.html#l00254">GuiWindow::num_widgets</a>, <a class="el" href="window_8cpp_source.html#l00217">Window::OnInitialPosition()</a>, <a class="el" href="window_8cpp_source.html#l00368">GuiWindow::ResetSize()</a>, <a class="el" href="window_8cpp_source.html#l00092">Window::SetPosition()</a>, <a class="el" href="window_8h_source.html#l00252">GuiWindow::tree</a>, <a class="el" href="window_8h_source.html#l00253">GuiWindow::widgets</a>, <a class="el" href="geometry_8h_source.html#l00036">Point&lt; CT &gt;::x</a>, and <a class="el" href="geometry_8h_source.html#l00037">Point&lt; CT &gt;::y</a>.</p>
 
-<p>Referenced by <a class="el" href="coaster__gui_8cpp_source.html#l00263">CoasterBuildWindow::CoasterBuildWindow()</a>, <a class="el" href="coaster__gui_8cpp_source.html#l00060">CoasterInstanceWindow::CoasterInstanceWindow()</a>, <a class="el" href="dropdown_8cpp_source.html#l00074">DropdownMenuWindow::DropdownMenuWindow()</a>, <a class="el" href="error__gui_8cpp_source.html#l00051">ErrorMessageWindow::ErrorMessageWindow()</a>, <a class="el" href="person__gui_8cpp_source.html#l00077">GuestInfoWindow::GuestInfoWindow()</a>, <a class="el" href="toolbar__gui_8cpp_source.html#l00443">QuitProgramWindow::QuitProgramWindow()</a>, <a class="el" href="dropdown_8cpp_source.html#l00233">RecolourDropdownWindow::RecolourDropdownWindow()</a>, and <a class="el" href="shop__gui_8cpp_source.html#l00118">ShopManagerWindow::ShopManagerWindow()</a>.</p>
+<p>Referenced by <a class="el" href="coaster__gui_8cpp_source.html#l00263">CoasterBuildWindow::CoasterBuildWindow()</a>, <a class="el" href="coaster__gui_8cpp_source.html#l00060">CoasterInstanceWindow::CoasterInstanceWindow()</a>, <a class="el" href="dropdown_8cpp_source.html#l00074">DropdownMenuWindow::DropdownMenuWindow()</a>, <a class="el" href="error__gui_8cpp_source.html#l00051">ErrorMessageWindow::ErrorMessageWindow()</a>, <a class="el" href="person__gui_8cpp_source.html#l00077">GuestInfoWindow::GuestInfoWindow()</a>, <a class="el" href="toolbar__gui_8cpp_source.html#l00442">QuitProgramWindow::QuitProgramWindow()</a>, <a class="el" href="dropdown_8cpp_source.html#l00233">RecolourDropdownWindow::RecolourDropdownWindow()</a>, and <a class="el" href="shop__gui_8cpp_source.html#l00120">ShopManagerWindow::ShopManagerWindow()</a>.</p>
 
 </div>
 </div>
@@ -1133,7 +1133,7 @@ const <a class="el" href="classRideType.html">RideType</a> *&#160;</td><td class
 
 <p>Definition at line <a class="el" href="window_8cpp_source.html#l00410">410</a> of file <a class="el" href="window_8cpp_source.html">window.cpp</a>.</p>
 
-<p>References <a class="el" href="widget_8cpp_source.html#l00512">ScrollbarWidget::SetScrolled()</a>.</p>
+<p>References <a class="el" href="widget_8cpp_source.html#l00548">ScrollbarWidget::SetScrolled()</a>.</p>
 
 </div>
 </div>
@@ -1176,9 +1176,9 @@ template&lt;typename WID &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Address of the widget. </dd></dl>
 
-<p>Definition at line <a class="el" href="window_8h_source.html#l00248">248</a> of file <a class="el" href="window_8h_source.html">window.h</a>.</p>
+<p>Definition at line <a class="el" href="window_8h_source.html#l00264">264</a> of file <a class="el" href="window_8h_source.html">window.h</a>.</p>
 
-<p>References <a class="el" href="window_8h_source.html#l00238">GuiWindow::num_widgets</a>, and <a class="el" href="window_8h_source.html#l00237">GuiWindow::widgets</a>.</p>
+<p>References <a class="el" href="window_8h_source.html#l00254">GuiWindow::num_widgets</a>, and <a class="el" href="window_8h_source.html#l00253">GuiWindow::widgets</a>.</p>
 
 </div>
 </div>
@@ -1221,9 +1221,9 @@ template&lt;typename WID &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Address of the widget. </dd></dl>
 
-<p>Definition at line <a class="el" href="window_8h_source.html#l00261">261</a> of file <a class="el" href="window_8h_source.html">window.h</a>.</p>
+<p>Definition at line <a class="el" href="window_8h_source.html#l00277">277</a> of file <a class="el" href="window_8h_source.html">window.h</a>.</p>
 
-<p>References <a class="el" href="window_8h_source.html#l00238">GuiWindow::num_widgets</a>, and <a class="el" href="window_8h_source.html#l00237">GuiWindow::widgets</a>.</p>
+<p>References <a class="el" href="window_8h_source.html#l00254">GuiWindow::num_widgets</a>, and <a class="el" href="window_8h_source.html#l00253">GuiWindow::widgets</a>.</p>
 
 </div>
 </div>
@@ -1260,9 +1260,9 @@ template&lt;&gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Address of the base widget. </dd></dl>
 
-<p>Definition at line <a class="el" href="window_8h_source.html#l00273">273</a> of file <a class="el" href="window_8h_source.html">window.h</a>.</p>
+<p>Definition at line <a class="el" href="window_8h_source.html#l00289">289</a> of file <a class="el" href="window_8h_source.html">window.h</a>.</p>
 
-<p>References <a class="el" href="window_8h_source.html#l00238">GuiWindow::num_widgets</a>, and <a class="el" href="window_8h_source.html#l00237">GuiWindow::widgets</a>.</p>
+<p>References <a class="el" href="window_8h_source.html#l00254">GuiWindow::num_widgets</a>, and <a class="el" href="window_8h_source.html#l00253">GuiWindow::widgets</a>.</p>
 
 </div>
 </div>
@@ -1299,9 +1299,9 @@ template&lt;&gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Address of the base widget. </dd></dl>
 
-<p>Definition at line <a class="el" href="window_8h_source.html#l00285">285</a> of file <a class="el" href="window_8h_source.html">window.h</a>.</p>
+<p>Definition at line <a class="el" href="window_8h_source.html#l00301">301</a> of file <a class="el" href="window_8h_source.html">window.h</a>.</p>
 
-<p>References <a class="el" href="window_8h_source.html#l00238">GuiWindow::num_widgets</a>, and <a class="el" href="window_8h_source.html#l00237">GuiWindow::widgets</a>.</p>
+<p>References <a class="el" href="window_8h_source.html#l00254">GuiWindow::num_widgets</a>, and <a class="el" href="window_8h_source.html#l00253">GuiWindow::widgets</a>.</p>
 
 </div>
 </div>
@@ -1348,9 +1348,9 @@ template&lt;&gt; </div>
 
 <p>Definition at line <a class="el" href="window_8cpp_source.html#l00511">511</a> of file <a class="el" href="window_8cpp_source.html">window.cpp</a>.</p>
 
-<p>References <a class="el" href="geometry_8h_source.html#l00247">Rectangle&lt; PT, SZ &gt;::base</a>, <a class="el" href="widget_8h_source.html#l00133">LeafWidget::IsChecked()</a>, <a class="el" href="widget_8cpp_source.html#l00212">BaseWidget::MarkDirty()</a>, <a class="el" href="window_8h_source.html#l00123">Window::rect</a>, and <a class="el" href="widget_8h_source.html#l00160">LeafWidget::SetChecked()</a>.</p>
+<p>References <a class="el" href="geometry_8h_source.html#l00349">Rectangle&lt; PT, SZ &gt;::base</a>, <a class="el" href="widget_8h_source.html#l00138">LeafWidget::IsChecked()</a>, <a class="el" href="widget_8cpp_source.html#l00212">BaseWidget::MarkDirty()</a>, <a class="el" href="window_8h_source.html#l00139">Window::rect</a>, and <a class="el" href="widget_8h_source.html#l00165">LeafWidget::SetChecked()</a>.</p>
 
-<p>Referenced by <a class="el" href="terraform__gui_8cpp_source.html#l00162">TerraformGui::Setlevelling()</a>, <a class="el" href="window_8cpp_source.html#l00583">GuiWindow::SetRadioButtonsSelected()</a>, and <a class="el" href="shop__gui_8cpp_source.html#l00134">ShopManagerWindow::SetShopToggleButtons()</a>.</p>
+<p>Referenced by <a class="el" href="terraform__gui_8cpp_source.html#l00166">TerraformGui::Setlevelling()</a>, <a class="el" href="window_8cpp_source.html#l00583">GuiWindow::SetRadioButtonsSelected()</a>, and <a class="el" href="shop__gui_8cpp_source.html#l00136">ShopManagerWindow::SetShopToggleButtons()</a>.</p>
 
 </div>
 </div>
@@ -1432,9 +1432,9 @@ template&lt;&gt; </div>
 
 <p>Definition at line <a class="el" href="window_8cpp_source.html#l00535">535</a> of file <a class="el" href="window_8cpp_source.html">window.cpp</a>.</p>
 
-<p>References <a class="el" href="geometry_8h_source.html#l00247">Rectangle&lt; PT, SZ &gt;::base</a>, <a class="el" href="widget_8h_source.html#l00142">LeafWidget::IsPressed()</a>, <a class="el" href="widget_8cpp_source.html#l00212">BaseWidget::MarkDirty()</a>, <a class="el" href="window_8h_source.html#l00123">Window::rect</a>, and <a class="el" href="widget_8h_source.html#l00169">LeafWidget::SetPressed()</a>.</p>
+<p>References <a class="el" href="geometry_8h_source.html#l00349">Rectangle&lt; PT, SZ &gt;::base</a>, <a class="el" href="widget_8h_source.html#l00147">LeafWidget::IsPressed()</a>, <a class="el" href="widget_8cpp_source.html#l00212">BaseWidget::MarkDirty()</a>, <a class="el" href="window_8h_source.html#l00139">Window::rect</a>, and <a class="el" href="widget_8h_source.html#l00174">LeafWidget::SetPressed()</a>.</p>
 
-<p>Referenced by <a class="el" href="ride__gui_8cpp_source.html#l00290">OnChange()</a>, <a class="el" href="ride__gui_8cpp_source.html#l00233">OnClick()</a>, <a class="el" href="path__gui_8cpp_source.html#l00310">PathBuildGui::SetButtons()</a>, <a class="el" href="coaster__gui_8cpp_source.html#l00406">CoasterBuildWindow::SetButtons()</a>, <a class="el" href="terraform__gui_8cpp_source.html#l00162">TerraformGui::Setlevelling()</a>, <a class="el" href="ride__gui_8cpp_source.html#l00320">SetNewRide()</a>, and <a class="el" href="window_8cpp_source.html#l00583">GuiWindow::SetRadioButtonsSelected()</a>.</p>
+<p>Referenced by <a class="el" href="ride__gui_8cpp_source.html#l00289">OnChange()</a>, <a class="el" href="ride__gui_8cpp_source.html#l00232">OnClick()</a>, <a class="el" href="path__gui_8cpp_source.html#l00326">PathBuildGui::SetButtons()</a>, <a class="el" href="coaster__gui_8cpp_source.html#l00397">CoasterBuildWindow::SetButtons()</a>, <a class="el" href="terraform__gui_8cpp_source.html#l00166">TerraformGui::Setlevelling()</a>, <a class="el" href="ride__gui_8cpp_source.html#l00319">SetNewRide()</a>, and <a class="el" href="window_8cpp_source.html#l00583">GuiWindow::SetRadioButtonsSelected()</a>.</p>
 
 </div>
 </div>
@@ -1471,7 +1471,7 @@ template&lt;&gt; </div>
 
 <p>Definition at line <a class="el" href="window_8cpp_source.html#l00549">549</a> of file <a class="el" href="window_8cpp_source.html">window.cpp</a>.</p>
 
-<p>Referenced by <a class="el" href="ride__gui_8cpp_source.html#l00233">OnClick()</a>, <a class="el" href="coaster__gui_8cpp_source.html#l00308">CoasterBuildWindow::OnClick()</a>, and <a class="el" href="ride__gui_8cpp_source.html#l00320">SetNewRide()</a>.</p>
+<p>Referenced by <a class="el" href="ride__gui_8cpp_source.html#l00232">OnClick()</a>, <a class="el" href="coaster__gui_8cpp_source.html#l00308">CoasterBuildWindow::OnClick()</a>, and <a class="el" href="ride__gui_8cpp_source.html#l00319">SetNewRide()</a>.</p>
 
 </div>
 </div>
@@ -1518,9 +1518,9 @@ template&lt;&gt; </div>
 
 <p>Definition at line <a class="el" href="window_8cpp_source.html#l00559">559</a> of file <a class="el" href="window_8cpp_source.html">window.cpp</a>.</p>
 
-<p>References <a class="el" href="geometry_8h_source.html#l00247">Rectangle&lt; PT, SZ &gt;::base</a>, <a class="el" href="widget_8h_source.html#l00151">LeafWidget::IsShaded()</a>, <a class="el" href="widget_8cpp_source.html#l00212">BaseWidget::MarkDirty()</a>, <a class="el" href="window_8h_source.html#l00123">Window::rect</a>, and <a class="el" href="widget_8h_source.html#l00178">LeafWidget::SetShaded()</a>.</p>
+<p>References <a class="el" href="geometry_8h_source.html#l00349">Rectangle&lt; PT, SZ &gt;::base</a>, <a class="el" href="widget_8h_source.html#l00156">LeafWidget::IsShaded()</a>, <a class="el" href="widget_8cpp_source.html#l00212">BaseWidget::MarkDirty()</a>, <a class="el" href="window_8h_source.html#l00139">Window::rect</a>, and <a class="el" href="widget_8h_source.html#l00183">LeafWidget::SetShaded()</a>.</p>
 
-<p>Referenced by <a class="el" href="path__gui_8cpp_source.html#l00310">PathBuildGui::SetButtons()</a>, <a class="el" href="coaster__gui_8cpp_source.html#l00406">CoasterBuildWindow::SetButtons()</a>, and <a class="el" href="coaster__gui_8cpp_source.html#l00443">CoasterBuildWindow::SetupSelection()</a>.</p>
+<p>Referenced by <a class="el" href="path__gui_8cpp_source.html#l00326">PathBuildGui::SetButtons()</a>, <a class="el" href="coaster__gui_8cpp_source.html#l00397">CoasterBuildWindow::SetButtons()</a>, and <a class="el" href="coaster__gui_8cpp_source.html#l00434">CoasterBuildWindow::SetupSelection()</a>.</p>
 
 </div>
 </div>
@@ -1602,9 +1602,9 @@ template&lt;&gt; </div>
 
 <p>Definition at line <a class="el" href="window_8cpp_source.html#l00583">583</a> of file <a class="el" href="window_8cpp_source.html">window.cpp</a>.</p>
 
-<p>References <a class="el" href="widget_8h_source.html#l00025">INVALID_WIDGET_INDEX</a>, <a class="el" href="window_8cpp_source.html#l00511">GuiWindow::SetWidgetChecked()</a>, <a class="el" href="window_8cpp_source.html#l00535">GuiWindow::SetWidgetPressed()</a>, <a class="el" href="widget_8h_source.html#l00044">WT_RADIOBUTTON</a>, and <a class="el" href="widget_8h_source.html#l00084">BaseWidget::wtype</a>.</p>
+<p>References <a class="el" href="widget_8h_source.html#l00025">INVALID_WIDGET_INDEX</a>, <a class="el" href="window_8cpp_source.html#l00511">GuiWindow::SetWidgetChecked()</a>, <a class="el" href="window_8cpp_source.html#l00535">GuiWindow::SetWidgetPressed()</a>, <a class="el" href="widget_8h_source.html#l00044">WT_RADIOBUTTON</a>, and <a class="el" href="widget_8h_source.html#l00089">BaseWidget::wtype</a>.</p>
 
-<p>Referenced by <a class="el" href="ride__gui_8cpp_source.html#l00303">SetNewRideKind()</a>.</p>
+<p>Referenced by <a class="el" href="ride__gui_8cpp_source.html#l00302">SetNewRideKind()</a>.</p>
 
 </div>
 </div>
@@ -1641,11 +1641,11 @@ template&lt;&gt; </div>
 
 <p>Definition at line <a class="el" href="window_8cpp_source.html#l00601">601</a> of file <a class="el" href="window_8cpp_source.html">window.cpp</a>.</p>
 
-<p>References <a class="el" href="widget_8h_source.html#l00025">INVALID_WIDGET_INDEX</a>, <a class="el" href="widget_8h_source.html#l00133">LeafWidget::IsChecked()</a>, <a class="el" href="widget_8h_source.html#l00142">LeafWidget::IsPressed()</a>, <a class="el" href="widget_8h_source.html#l00151">LeafWidget::IsShaded()</a>, <a class="el" href="widget_8h_source.html#l00044">WT_RADIOBUTTON</a>, and <a class="el" href="widget_8h_source.html#l00084">BaseWidget::wtype</a>.</p>
+<p>References <a class="el" href="widget_8h_source.html#l00025">INVALID_WIDGET_INDEX</a>, <a class="el" href="widget_8h_source.html#l00138">LeafWidget::IsChecked()</a>, <a class="el" href="widget_8h_source.html#l00147">LeafWidget::IsPressed()</a>, <a class="el" href="widget_8h_source.html#l00156">LeafWidget::IsShaded()</a>, <a class="el" href="widget_8h_source.html#l00044">WT_RADIOBUTTON</a>, and <a class="el" href="widget_8h_source.html#l00089">BaseWidget::wtype</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="afbd595ac6745036e4437fe56195d2d5a"></a>
+<a class="anchor" id="acb5bbb2ad271dfc1c4e9e50895bfc677"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1653,7 +1653,7 @@ template&lt;&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void GuiWindow::SetShopType </td>
+          <td class="memname">void GuiWindow::SetRideType </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classRideType.html">RideType</a> *&#160;</td>
           <td class="paramname"><em>ride_type</em></td><td>)</td>
@@ -1677,9 +1677,9 @@ template&lt;&gt; </div>
 
 <p>Definition at line <a class="el" href="window_8cpp_source.html#l00350">350</a> of file <a class="el" href="window_8cpp_source.html">window.cpp</a>.</p>
 
-<p>References <a class="el" href="window_8h_source.html#l00204">GuiWindow::ride_type</a>.</p>
+<p>References <a class="el" href="window_8h_source.html#l00220">GuiWindow::ride_type</a>.</p>
 
-<p>Referenced by <a class="el" href="shop__gui_8cpp_source.html#l00118">ShopManagerWindow::ShopManagerWindow()</a>.</p>
+<p>Referenced by <a class="el" href="shop__gui_8cpp_source.html#l00120">ShopManagerWindow::ShopManagerWindow()</a>.</p>
 
 </div>
 </div>
@@ -1740,7 +1740,7 @@ template&lt;&gt; </div>
 
 <p>Definition at line <a class="el" href="dropdown_8cpp_source.html#l00148">148</a> of file <a class="el" href="dropdown_8cpp_source.html">dropdown.cpp</a>.</p>
 
-<p>References <a class="el" href="window_8cpp_source.html#l00037">_manager</a>, <a class="el" href="window_8h_source.html#l00112">ALL_WINDOWS_OF_TYPE</a>, <a class="el" href="palette_8h_source.html#l00111">COL_RANGE_INVALID</a>, <a class="el" href="widget_8h_source.html#l00184">LeafWidget::colour</a>, <a class="el" href="window_8cpp_source.html#l00769">WindowManager::DeleteWindow()</a>, <a class="el" href="dropdown_8cpp_source.html#l00074">DropdownMenuWindow::DropdownMenuWindow()</a>, <a class="el" href="window_8h_source.html#l00184">GuiWindow::GetWidgetScreenX()</a>, <a class="el" href="window_8h_source.html#l00194">GuiWindow::GetWidgetScreenY()</a>, <a class="el" href="window_8cpp_source.html#l01026">GetWindowByType()</a>, <a class="el" href="geometry_8h_source.html#l00249">Rectangle&lt; PT, SZ &gt;::height</a>, <a class="el" href="widget_8h_source.html#l00089">BaseWidget::min_x</a>, <a class="el" href="widget_8h_source.html#l00091">BaseWidget::pos</a>, <a class="el" href="window_8h_source.html#l00056">WC_DROPDOWN</a>, <a class="el" href="window_8h_source.html#l00125">Window::wnumber</a>, <a class="el" href="widget_8h_source.html#l00047">WT_DROPDOWN_BUTTON</a>, <a class="el" href="widget_8h_source.html#l00084">BaseWidget::wtype</a>, and <a class="el" href="window_8h_source.html#l00124">Window::wtype</a>.</p>
+<p>References <a class="el" href="window_8cpp_source.html#l00037">_window_manager</a>, <a class="el" href="window_8h_source.html#l00128">ALL_WINDOWS_OF_TYPE</a>, <a class="el" href="palette_8h_source.html#l00111">COL_RANGE_INVALID</a>, <a class="el" href="widget_8h_source.html#l00189">LeafWidget::colour</a>, <a class="el" href="window_8cpp_source.html#l00769">WindowManager::DeleteWindow()</a>, <a class="el" href="dropdown_8cpp_source.html#l00074">DropdownMenuWindow::DropdownMenuWindow()</a>, <a class="el" href="window_8h_source.html#l00200">GuiWindow::GetWidgetScreenX()</a>, <a class="el" href="window_8h_source.html#l00210">GuiWindow::GetWidgetScreenY()</a>, <a class="el" href="window_8cpp_source.html#l01037">GetWindowByType()</a>, <a class="el" href="geometry_8h_source.html#l00351">Rectangle&lt; PT, SZ &gt;::height</a>, <a class="el" href="widget_8h_source.html#l00094">BaseWidget::min_x</a>, <a class="el" href="widget_8h_source.html#l00096">BaseWidget::pos</a>, <a class="el" href="window_8h_source.html#l00056">WC_DROPDOWN</a>, <a class="el" href="window_8h_source.html#l00141">Window::wnumber</a>, <a class="el" href="widget_8h_source.html#l00047">WT_DROPDOWN_BUTTON</a>, <a class="el" href="widget_8h_source.html#l00089">BaseWidget::wtype</a>, and <a class="el" href="window_8h_source.html#l00140">Window::wtype</a>.</p>
 
 <p>Referenced by <a class="el" href="setting__gui_8cpp_source.html#l00084">SettingWindow::OnClick()</a>.</p>
 
@@ -1796,9 +1796,9 @@ template&lt;&gt; </div>
 
 <p>Definition at line <a class="el" href="dropdown_8cpp_source.html#l00273">273</a> of file <a class="el" href="dropdown_8cpp_source.html">dropdown.cpp</a>.</p>
 
-<p>References <a class="el" href="window_8cpp_source.html#l00037">_manager</a>, <a class="el" href="window_8h_source.html#l00112">ALL_WINDOWS_OF_TYPE</a>, <a class="el" href="palette_8h_source.html#l00111">COL_RANGE_INVALID</a>, <a class="el" href="widget_8h_source.html#l00184">LeafWidget::colour</a>, <a class="el" href="window_8cpp_source.html#l00769">WindowManager::DeleteWindow()</a>, <a class="el" href="window_8h_source.html#l00184">GuiWindow::GetWidgetScreenX()</a>, <a class="el" href="window_8h_source.html#l00194">GuiWindow::GetWidgetScreenY()</a>, <a class="el" href="window_8cpp_source.html#l01026">GetWindowByType()</a>, <a class="el" href="geometry_8h_source.html#l00249">Rectangle&lt; PT, SZ &gt;::height</a>, <a class="el" href="widget_8h_source.html#l00091">BaseWidget::pos</a>, <a class="el" href="window_8h_source.html#l00056">WC_DROPDOWN</a>, <a class="el" href="window_8h_source.html#l00125">Window::wnumber</a>, <a class="el" href="widget_8h_source.html#l00047">WT_DROPDOWN_BUTTON</a>, <a class="el" href="widget_8h_source.html#l00084">BaseWidget::wtype</a>, and <a class="el" href="window_8h_source.html#l00124">Window::wtype</a>.</p>
+<p>References <a class="el" href="window_8cpp_source.html#l00037">_window_manager</a>, <a class="el" href="window_8h_source.html#l00128">ALL_WINDOWS_OF_TYPE</a>, <a class="el" href="palette_8h_source.html#l00111">COL_RANGE_INVALID</a>, <a class="el" href="widget_8h_source.html#l00189">LeafWidget::colour</a>, <a class="el" href="window_8cpp_source.html#l00769">WindowManager::DeleteWindow()</a>, <a class="el" href="window_8h_source.html#l00200">GuiWindow::GetWidgetScreenX()</a>, <a class="el" href="window_8h_source.html#l00210">GuiWindow::GetWidgetScreenY()</a>, <a class="el" href="window_8cpp_source.html#l01037">GetWindowByType()</a>, <a class="el" href="geometry_8h_source.html#l00351">Rectangle&lt; PT, SZ &gt;::height</a>, <a class="el" href="widget_8h_source.html#l00096">BaseWidget::pos</a>, <a class="el" href="window_8h_source.html#l00056">WC_DROPDOWN</a>, <a class="el" href="window_8h_source.html#l00141">Window::wnumber</a>, <a class="el" href="widget_8h_source.html#l00047">WT_DROPDOWN_BUTTON</a>, <a class="el" href="widget_8h_source.html#l00089">BaseWidget::wtype</a>, and <a class="el" href="window_8h_source.html#l00140">Window::wtype</a>.</p>
 
-<p>Referenced by <a class="el" href="shop__gui_8cpp_source.html#l00197">ShopManagerWindow::OnClick()</a>.</p>
+<p>Referenced by <a class="el" href="shop__gui_8cpp_source.html#l00199">ShopManagerWindow::OnClick()</a>.</p>
 
 </div>
 </div>
@@ -1845,7 +1845,7 @@ template&lt;&gt; </div>
 
 <p>Definition at line <a class="el" href="window_8cpp_source.html#l00092">92</a> of file <a class="el" href="window_8cpp_source.html">window.cpp</a>.</p>
 
-<p>Referenced by <a class="el" href="dropdown_8cpp_source.html#l00074">DropdownMenuWindow::DropdownMenuWindow()</a>, <a class="el" href="window_8cpp_source.html#l00833">WindowManager::MouseMoveEvent()</a>, <a class="el" href="dropdown_8cpp_source.html#l00233">RecolourDropdownWindow::RecolourDropdownWindow()</a>, <a class="el" href="window_8cpp_source.html#l00383">GuiWindow::SetupWidgetTree()</a>, and <a class="el" href="viewport_8cpp_source.html#l01347">Viewport::Viewport()</a>.</p>
+<p>Referenced by <a class="el" href="dropdown_8cpp_source.html#l00074">DropdownMenuWindow::DropdownMenuWindow()</a>, <a class="el" href="window_8cpp_source.html#l00833">WindowManager::MouseMoveEvent()</a>, <a class="el" href="dropdown_8cpp_source.html#l00233">RecolourDropdownWindow::RecolourDropdownWindow()</a>, <a class="el" href="window_8cpp_source.html#l00383">GuiWindow::SetupWidgetTree()</a>, and <a class="el" href="viewport_8cpp_source.html#l01306">Viewport::Viewport()</a>.</p>
 
 </div>
 </div>
@@ -1881,7 +1881,7 @@ template&lt;&gt; </div>
 
 <p>Definition at line <a class="el" href="window_8cpp_source.html#l00101">101</a> of file <a class="el" href="window_8cpp_source.html">window.cpp</a>.</p>
 
-<p>References <a class="el" href="geometry_8h_source.html#l00247">Rectangle&lt; PT, SZ &gt;::base</a>, and <a class="el" href="window_8h_source.html#l00123">Window::rect</a>.</p>
+<p>References <a class="el" href="geometry_8h_source.html#l00349">Rectangle&lt; PT, SZ &gt;::base</a>, and <a class="el" href="window_8h_source.html#l00139">Window::rect</a>.</p>
 
 </div>
 </div>
@@ -1945,9 +1945,9 @@ template&lt;&gt; </div>
 
 <p>Definition at line <a class="el" href="window_8cpp_source.html#l00228">228</a> of file <a class="el" href="window_8cpp_source.html">window.cpp</a>.</p>
 
-<p>References <a class="el" href="video_8cpp_source.html#l00025">_video</a>, <a class="el" href="video_8cpp_source.html#l00292">VideoSystem::MarkDisplayDirty()</a>, and <a class="el" href="window_8h_source.html#l00123">Window::rect</a>.</p>
+<p>References <a class="el" href="video_8cpp_source.html#l00025">_video</a>, <a class="el" href="video_8cpp_source.html#l00295">VideoSystem::MarkDisplayDirty()</a>, and <a class="el" href="window_8h_source.html#l00139">Window::rect</a>.</p>
 
-<p>Referenced by <a class="el" href="window_8cpp_source.html#l00769">WindowManager::DeleteWindow()</a>, <a class="el" href="window_8cpp_source.html#l00833">WindowManager::MouseMoveEvent()</a>, <a class="el" href="viewport_8cpp_source.html#l01585">Viewport::MoveViewport()</a>, <a class="el" href="person__gui_8cpp_source.html#l00117">GuestInfoWindow::OnChange()</a>, <a class="el" href="shop__gui_8cpp_source.html#l00226">ShopManagerWindow::OnChange()</a>, <a class="el" href="toolbar__gui_8cpp_source.html#l00304">BottomToolbarWindow::OnChange()</a>, <a class="el" href="ride__gui_8cpp_source.html#l00233">OnClick()</a>, <a class="el" href="window_8cpp_source.html#l00780">WindowManager::RaiseWindow()</a>, <a class="el" href="viewport_8cpp_source.html#l01534">Viewport::Rotate()</a>, <a class="el" href="window_8cpp_source.html#l00620">GuiWindow::SetHighlight()</a>, and <a class="el" href="window_8cpp_source.html#l00383">GuiWindow::SetupWidgetTree()</a>.</p>
+<p>Referenced by <a class="el" href="window_8cpp_source.html#l00769">WindowManager::DeleteWindow()</a>, <a class="el" href="window_8cpp_source.html#l00833">WindowManager::MouseMoveEvent()</a>, <a class="el" href="viewport_8cpp_source.html#l01569">Viewport::MoveViewport()</a>, <a class="el" href="person__gui_8cpp_source.html#l00117">GuestInfoWindow::OnChange()</a>, <a class="el" href="shop__gui_8cpp_source.html#l00230">ShopManagerWindow::OnChange()</a>, <a class="el" href="toolbar__gui_8cpp_source.html#l00304">BottomToolbarWindow::OnChange()</a>, <a class="el" href="ride__gui_8cpp_source.html#l00232">OnClick()</a>, <a class="el" href="window_8cpp_source.html#l00780">WindowManager::RaiseWindow()</a>, <a class="el" href="viewport_8cpp_source.html#l01518">Viewport::Rotate()</a>, <a class="el" href="window_8cpp_source.html#l00620">GuiWindow::SetHighlight()</a>, <a class="el" href="viewport_8cpp_source.html#l01345">Viewport::SetUndergroundMode()</a>, <a class="el" href="window_8cpp_source.html#l00383">GuiWindow::SetupWidgetTree()</a>, and <a class="el" href="viewport_8cpp_source.html#l01353">Viewport::ToggleUndergroundMode()</a>.</p>
 
 </div>
 </div>
@@ -2042,7 +2042,7 @@ template&lt;&gt; </div>
 
 <p>Definition at line <a class="el" href="ride__gui_8cpp_source.html#l00043">43</a> of file <a class="el" href="ride__gui_8cpp_source.html">ride_gui.cpp</a>.</p>
 
-<p>Referenced by <a class="el" href="ride__gui_8cpp_source.html#l00233">OnClick()</a>, <a class="el" href="ride__gui_8cpp_source.html#l00320">SetNewRide()</a>, and <a class="el" href="ride__gui_8cpp_source.html#l00303">SetNewRideKind()</a>.</p>
+<p>Referenced by <a class="el" href="ride__gui_8cpp_source.html#l00232">OnClick()</a>, <a class="el" href="ride__gui_8cpp_source.html#l00319">SetNewRide()</a>, and <a class="el" href="ride__gui_8cpp_source.html#l00302">SetNewRideKind()</a>.</p>
 
 </div>
 </div>
@@ -2067,9 +2067,9 @@ template&lt;&gt; </div>
 <p>Timeout counter. </p>
 <p>Decremented on each iteration. When it reaches 0, <a class="el" href="classWindow.html#af67225c158278f151fc8eb25dee072fa" title="Timeout callback. ">TimeoutCallback</a> is called. </p>
 
-<p>Definition at line <a class="el" href="window_8h_source.html#l00131">131</a> of file <a class="el" href="window_8h_source.html">window.h</a>.</p>
+<p>Definition at line <a class="el" href="window_8h_source.html#l00147">147</a> of file <a class="el" href="window_8h_source.html">window.h</a>.</p>
 
-<p>Referenced by <a class="el" href="viewport_8cpp_source.html#l00403">Viewport::DisableWorldAdditions()</a>, <a class="el" href="viewport_8cpp_source.html#l00391">Viewport::EnableWorldAdditions()</a>, <a class="el" href="viewport_8cpp_source.html#l00418">Viewport::EnsureAdditionsAreVisible()</a>, <a class="el" href="window_8cpp_source.html#l00461">GuiWindow::OnMouseButtonEvent()</a>, <a class="el" href="window_8cpp_source.html#l00620">GuiWindow::SetHighlight()</a>, <a class="el" href="window_8cpp_source.html#l01005">WindowManager::Tick()</a>, <a class="el" href="viewport_8cpp_source.html#l00430">Viewport::TimeoutCallback()</a>, and <a class="el" href="window_8cpp_source.html#l00057">Window::Window()</a>.</p>
+<p>Referenced by <a class="el" href="viewport_8cpp_source.html#l00398">Viewport::DisableWorldAdditions()</a>, <a class="el" href="viewport_8cpp_source.html#l00386">Viewport::EnableWorldAdditions()</a>, <a class="el" href="viewport_8cpp_source.html#l00413">Viewport::EnsureAdditionsAreVisible()</a>, <a class="el" href="window_8cpp_source.html#l00461">GuiWindow::OnMouseButtonEvent()</a>, <a class="el" href="window_8cpp_source.html#l00620">GuiWindow::SetHighlight()</a>, <a class="el" href="window_8cpp_source.html#l01016">WindowManager::Tick()</a>, <a class="el" href="viewport_8cpp_source.html#l00425">Viewport::TimeoutCallback()</a>, and <a class="el" href="window_8cpp_source.html#l00057">Window::Window()</a>.</p>
 
 </div>
 </div>
@@ -2094,7 +2094,7 @@ template&lt;&gt; </div>
 <p>Window flags. </p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="window_8h.html#a85bb57df22ad4aa3bdf0a3d44a82e7a2" title="Various state flags of the Window. ">WindowFlags</a> </dd></dl>
 
-<p>Definition at line <a class="el" href="window_8h_source.html#l00132">132</a> of file <a class="el" href="window_8h_source.html">window.h</a>.</p>
+<p>Definition at line <a class="el" href="window_8h_source.html#l00148">148</a> of file <a class="el" href="window_8h_source.html">window.h</a>.</p>
 
 <p>Referenced by <a class="el" href="window_8cpp_source.html#l00450">GuiWindow::OnDraw()</a>, <a class="el" href="window_8cpp_source.html#l00620">GuiWindow::SetHighlight()</a>, <a class="el" href="window_8cpp_source.html#l00614">GuiWindow::TimeoutCallback()</a>, and <a class="el" href="window_8cpp_source.html#l00057">Window::Window()</a>.</p>
 
@@ -2106,7 +2106,7 @@ template&lt;&gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Sep 5 2014 19:06:15 for FreeRCT by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Feb 25 2015 13:22:41 for FreeRCT by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

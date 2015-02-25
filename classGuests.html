@@ -48,6 +48,7 @@
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classGuests-members.html">List of all members</a>  </div>
@@ -63,15 +64,15 @@
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a27f7e7dd45d2d869267c8a514e2c4894"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGuests.html#a27f7e7dd45d2d869267c8a514e2c4894">Initialize</a> ()</td></tr>
-<tr class="memdesc:a27f7e7dd45d2d869267c8a514e2c4894"><td class="mdescLeft">&#160;</td><td class="mdescRight">After loading the RCD files, check what resources actually exist.  <a href="#a27f7e7dd45d2d869267c8a514e2c4894">More...</a><br /></td></tr>
-<tr class="separator:a27f7e7dd45d2d869267c8a514e2c4894"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4d4408ea305f7093f60ddaf323517ef0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGuests.html#a4d4408ea305f7093f60ddaf323517ef0">CanUsePersonType</a> (<a class="el" href="person__type_8h.html#a71a16f6a15e17a675963621dceb2722e">PersonType</a> ptype)</td></tr>
-<tr class="memdesc:a4d4408ea305f7093f60ddaf323517ef0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Can guests of the given person type be used for the level?  <a href="#a4d4408ea305f7093f60ddaf323517ef0">More...</a><br /></td></tr>
-<tr class="separator:a4d4408ea305f7093f60ddaf323517ef0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a45ba681bd457604bc80019e8c76887cb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="stdafx_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGuests.html#a45ba681bd457604bc80019e8c76887cb">CountActiveGuests</a> ()</td></tr>
 <tr class="memdesc:a45ba681bd457604bc80019e8c76887cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Count the number of active guests.  <a href="#a45ba681bd457604bc80019e8c76887cb">More...</a><br /></td></tr>
 <tr class="separator:a45ba681bd457604bc80019e8c76887cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a30760025c5877ec6d00b5e6238f1618e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classGuest.html">Guest</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGuests.html#a30760025c5877ec6d00b5e6238f1618e">Get</a> (int idx)</td></tr>
+<tr class="memdesc:a30760025c5877ec6d00b5e6238f1618e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a guest from the array.  <a href="#a30760025c5877ec6d00b5e6238f1618e">More...</a><br /></td></tr>
+<tr class="separator:a30760025c5877ec6d00b5e6238f1618e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ddf586ff767cb4d91282ede8116a31e"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classGuest.html">Guest</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGuests.html#a2ddf586ff767cb4d91282ede8116a31e">Get</a> (int idx) const </td></tr>
+<tr class="memdesc:a2ddf586ff767cb4d91282ede8116a31e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a guest from the array.  <a href="#a2ddf586ff767cb4d91282ede8116a31e">More...</a><br /></td></tr>
+<tr class="separator:a2ddf586ff767cb4d91282ede8116a31e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4d714a251e853a89e84d1fff824c5739"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGuests.html#a4d714a251e853a89e84d1fff824c5739">OnAnimate</a> (int delay)</td></tr>
 <tr class="memdesc:a4d714a251e853a89e84d1fff824c5739"><td class="mdescLeft">&#160;</td><td class="mdescRight">Some time has passed, update the animation.  <a href="#a4d714a251e853a89e84d1fff824c5739">More...</a><br /></td></tr>
 <tr class="separator:a4d714a251e853a89e84d1fff824c5739"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -81,6 +82,16 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a4c2f01336a6da69b9a9bf26487a91639"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGuests.html#a4c2f01336a6da69b9a9bf26487a91639">OnNewDay</a> ()</td></tr>
 <tr class="memdesc:a4c2f01336a6da69b9a9bf26487a91639"><td class="mdescLeft">&#160;</td><td class="mdescRight">A new day arrived, handle daily chores of the park.  <a href="#a4c2f01336a6da69b9a9bf26487a91639">More...</a><br /></td></tr>
 <tr class="separator:a4c2f01336a6da69b9a9bf26487a91639"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0ae56fde016249d28ab8e6e5a7bf995"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGuests.html#ae0ae56fde016249d28ab8e6e5a7bf995">NotifyRideDeletion</a> (const <a class="el" href="classRideInstance.html">RideInstance</a> *)</td></tr>
+<tr class="memdesc:ae0ae56fde016249d28ab8e6e5a7bf995"><td class="mdescLeft">&#160;</td><td class="mdescRight">Notification that the ride is being removed.  <a href="#ae0ae56fde016249d28ab8e6e5a7bf995">More...</a><br /></td></tr>
+<tr class="separator:ae0ae56fde016249d28ab8e6e5a7bf995"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:aaf947f2bdee81c7156087b96d3328556"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aaf947f2bdee81c7156087b96d3328556"></a>
+<a class="el" href="geometry_8h.html#a8dae0129165d8f97077d8cd1ea247764">Point16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGuests.html#aaf947f2bdee81c7156087b96d3328556">start_voxel</a></td></tr>
+<tr class="memdesc:aaf947f2bdee81c7156087b96d3328556"><td class="mdescLeft">&#160;</td><td class="mdescRight">Entry x/y coordinate of the voxel stack at the edge (negative X/Y coordinate means invalid). <br /></td></tr>
+<tr class="separator:aaf947f2bdee81c7156087b96d3328556"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -114,10 +125,6 @@ Private Attributes</h2></td></tr>
 <a class="el" href="classRandom.html">Random</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGuests.html#aff7f2a598306767c09301d0e606865e4">rnd</a></td></tr>
 <tr class="memdesc:aff7f2a598306767c09301d0e606865e4"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classRandom.html" title="A random generator class. ">Random</a> number generator for creating new guests. <br /></td></tr>
 <tr class="separator:aff7f2a598306767c09301d0e606865e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaf947f2bdee81c7156087b96d3328556"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aaf947f2bdee81c7156087b96d3328556"></a>
-<a class="el" href="geometry_8h.html#a8dae0129165d8f97077d8cd1ea247764">Point16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGuests.html#aaf947f2bdee81c7156087b96d3328556">start_voxel</a></td></tr>
-<tr class="memdesc:aaf947f2bdee81c7156087b96d3328556"><td class="mdescLeft">&#160;</td><td class="mdescRight">Entry x/y coordinate of the voxel stack at the edge. <br /></td></tr>
-<tr class="separator:aaf947f2bdee81c7156087b96d3328556"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa63815bee88d59e5e99244b3b1b7cee1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa63815bee88d59e5e99244b3b1b7cee1"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGuests.html#aa63815bee88d59e5e99244b3b1b7cee1">daily_frac</a></td></tr>
 <tr class="memdesc:aa63815bee88d59e5e99244b3b1b7cee1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Frame counter. <br /></td></tr>
@@ -126,71 +133,13 @@ int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
 int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGuests.html#ac1b803fe41e090c6d0959a0340f41adb">next_daily_index</a></td></tr>
 <tr class="memdesc:ac1b803fe41e090c6d0959a0340f41adb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Index of the next guest to give daily service. <br /></td></tr>
 <tr class="separator:ac1b803fe41e090c6d0959a0340f41adb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a71dfbe4a5a2d5583d901872476fb4dae"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a71dfbe4a5a2d5583d901872476fb4dae"></a>
-<a class="el" href="stdafx_8h.html#a05f6b0ae8f6a6e135b0e290c25fe0e4e">uint16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGuests.html#a71dfbe4a5a2d5583d901872476fb4dae">valid_ptypes</a></td></tr>
-<tr class="memdesc:a71dfbe4a5a2d5583d901872476fb4dae"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classPerson.html" title="Class of a person in the world. ">Person</a> types that can be used. <br /></td></tr>
-<tr class="separator:a71dfbe4a5a2d5583d901872476fb4dae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>All our guests. </p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000032">Todo:</a></b></dt><dd>Allow to have several blocks of guests. </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000033">Todo:</a></b></dt><dd>Allow to have several blocks of guests. </dd></dl>
 
 <p>Definition at line <a class="el" href="people_8h_source.html#l00064">64</a> of file <a class="el" href="people_8h_source.html">people.h</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a27f7e7dd45d2d869267c8a514e2c4894"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Guests::Initialize </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>After loading the RCD files, check what resources actually exist. </p>
-
-<p>Definition at line <a class="el" href="people_8cpp_source.html#l00086">86</a> of file <a class="el" href="people_8cpp_source.html">people.cpp</a>.</p>
-
-<p>References <a class="el" href="sprite__store_8cpp_source.html#l00031">_sprite_manager</a>, <a class="el" href="sprite__store_8h_source.html#l00182">ANIM_BEGIN</a>, <a class="el" href="sprite__store_8h_source.html#l00183">ANIM_LAST</a>, <a class="el" href="sprite__store_8cpp_source.html#l01577">SpriteManager::GetAnimation()</a>, <a class="el" href="person__type_8h_source.html#l00030">PERSON_MAX_GUEST</a>, <a class="el" href="person__type_8h_source.html#l00029">PERSON_MIN_GUEST</a>, and <a class="el" href="people_8h_source.html#l00085">valid_ptypes</a>.</p>
-
-<p>Referenced by <a class="el" href="gamecontrol_8cpp_source.html#l00027">StartNewGame()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a4d4408ea305f7093f60ddaf323517ef0"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool Guests::CanUsePersonType </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="person__type_8h.html#a71a16f6a15e17a675963621dceb2722e">PersonType</a>&#160;</td>
-          <td class="paramname"><em>ptype</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Can guests of the given person type be used for the level? </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">ptype</td><td>Person type to examine. </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>Whether the given person type can be used for playing a level. </dd></dl>
-
-<p>Definition at line <a class="el" href="people_8cpp_source.html#l00106">106</a> of file <a class="el" href="people_8cpp_source.html">people.cpp</a>.</p>
-
-<p>References <a class="el" href="person__type_8h_source.html#l00030">PERSON_MAX_GUEST</a>, <a class="el" href="person__type_8h_source.html#l00029">PERSON_MIN_GUEST</a>, and <a class="el" href="people_8h_source.html#l00085">valid_ptypes</a>.</p>
-
-<p>Referenced by <a class="el" href="people_8cpp_source.html#l00197">OnNewDay()</a>.</p>
-
-</div>
-</div>
 <a class="anchor" id="a45ba681bd457604bc80019e8c76887cb"></a>
 <div class="memitem">
 <div class="memproto">
@@ -207,11 +156,87 @@ int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
 <p>Count the number of active guests. </p>
 <dl class="section return"><dt>Returns</dt><dd>The number of active guests. </dd></dl>
 
-<p>Definition at line <a class="el" href="people_8cpp_source.html#l00145">145</a> of file <a class="el" href="people_8cpp_source.html">people.cpp</a>.</p>
+<p>Definition at line <a class="el" href="people_8cpp_source.html#l00117">117</a> of file <a class="el" href="people_8cpp_source.html">people.cpp</a>.</p>
 
-<p>References <a class="el" href="people_8h_source.html#l00078">block</a>, <a class="el" href="people_8h_source.html#l00079">free_idx</a>, <a class="el" href="people_8h_source.html#l00027">GuestBlock::Get()</a>, <a class="el" href="people_8h_source.html#l00015">GUEST_BLOCK_SIZE</a>, and <a class="el" href="person_8h_source.html#l00112">Person::IsActive()</a>.</p>
+<p>References <a class="el" href="people_8h_source.html#l00100">block</a>, <a class="el" href="people_8h_source.html#l00101">free_idx</a>, <a class="el" href="people_8h_source.html#l00027">GuestBlock::Get()</a>, <a class="el" href="people_8h_source.html#l00015">GUEST_BLOCK_SIZE</a>, and <a class="el" href="person_8h_source.html#l00113">Person::IsActive()</a>.</p>
 
-<p>Referenced by <a class="el" href="people_8cpp_source.html#l00197">OnNewDay()</a>.</p>
+<p>Referenced by <a class="el" href="people_8cpp_source.html#l00168">OnNewDay()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a30760025c5877ec6d00b5e6238f1618e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classGuest.html">Guest</a>* Guests::Get </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>idx</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get a guest from the array. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">idx</td><td>Index of the person (should be between <code>0</code> and <a class="el" href="people_8h.html#a1c301274908d5db4835f66b7a6d58fcd" title="Number of guests in a block. ">GUEST_BLOCK_SIZE</a>). </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The requested person. </dd></dl>
+
+<p>Definition at line <a class="el" href="people_8h_source.html#l00076">76</a> of file <a class="el" href="people_8h_source.html">people.h</a>.</p>
+
+<p>References <a class="el" href="people_8h_source.html#l00100">block</a>, and <a class="el" href="people_8h_source.html#l00027">GuestBlock::Get()</a>.</p>
+
+<p>Referenced by <a class="el" href="shop__type_8cpp_source.html#l00194">ShopInstance::EnterRide()</a>, <a class="el" href="shop__type_8cpp_source.html#l00239">ShopInstance::OnAnimate()</a>, and <a class="el" href="shop__type_8cpp_source.html#l00222">ShopInstance::RemoveAllPeople()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a2ddf586ff767cb4d91282ede8116a31e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="classGuest.html">Guest</a>* Guests::Get </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>idx</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get a guest from the array. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">idx</td><td>Index of the person (should be between <code>0</code> and <a class="el" href="people_8h.html#a1c301274908d5db4835f66b7a6d58fcd" title="Number of guests in a block. ">GUEST_BLOCK_SIZE</a>). </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The requested person. </dd></dl>
+
+<p>Definition at line <a class="el" href="people_8h_source.html#l00086">86</a> of file <a class="el" href="people_8h_source.html">people.h</a>.</p>
+
+<p>References <a class="el" href="people_8h_source.html#l00100">block</a>, and <a class="el" href="people_8h_source.html#l00027">GuestBlock::Get()</a>.</p>
 
 </div>
 </div>
@@ -237,11 +262,11 @@ int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="people_8cpp_source.html#l00159">159</a> of file <a class="el" href="people_8cpp_source.html">people.cpp</a>.</p>
+<p>Definition at line <a class="el" href="people_8cpp_source.html#l00131">131</a> of file <a class="el" href="people_8cpp_source.html">people.cpp</a>.</p>
 
-<p>References <a class="el" href="people_8cpp_source.html#l00229">AddFree()</a>, <a class="el" href="people_8h_source.html#l00078">block</a>, <a class="el" href="person_8cpp_source.html#l00907">Guest::DeActivate()</a>, <a class="el" href="people_8h_source.html#l00027">GuestBlock::Get()</a>, <a class="el" href="people_8h_source.html#l00015">GUEST_BLOCK_SIZE</a>, <a class="el" href="person_8h_source.html#l00112">Person::IsActive()</a>, <a class="el" href="person_8h_source.html#l00076">OAR_OK</a>, and <a class="el" href="person_8cpp_source.html#l00698">Person::OnAnimate()</a>.</p>
+<p>References <a class="el" href="people_8cpp_source.html#l00212">AddFree()</a>, <a class="el" href="people_8h_source.html#l00100">block</a>, <a class="el" href="person_8cpp_source.html#l01028">Guest::DeActivate()</a>, <a class="el" href="people_8h_source.html#l00027">GuestBlock::Get()</a>, <a class="el" href="people_8h_source.html#l00015">GUEST_BLOCK_SIZE</a>, <a class="el" href="person_8h_source.html#l00113">Person::IsActive()</a>, <a class="el" href="person_8h_source.html#l00077">OAR_OK</a>, and <a class="el" href="person_8cpp_source.html#l01043">Guest::OnAnimate()</a>.</p>
 
-<p>Referenced by <a class="el" href="gamecontrol_8cpp_source.html#l00089">OnNewFrame()</a>.</p>
+<p>Referenced by <a class="el" href="gamecontrol_8cpp_source.html#l00085">OnNewFrame()</a>.</p>
 
 </div>
 </div>
@@ -260,11 +285,11 @@ int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
 
 <p>A new frame arrived, perform the daily call for some of the guests. </p>
 
-<p>Definition at line <a class="el" href="people_8cpp_source.html#l00174">174</a> of file <a class="el" href="people_8cpp_source.html">people.cpp</a>.</p>
+<p>Definition at line <a class="el" href="people_8cpp_source.html#l00146">146</a> of file <a class="el" href="people_8cpp_source.html">people.cpp</a>.</p>
 
-<p>References <a class="el" href="people_8cpp_source.html#l00229">AddFree()</a>, <a class="el" href="people_8h_source.html#l00078">block</a>, <a class="el" href="people_8h_source.html#l00082">daily_frac</a>, <a class="el" href="person_8cpp_source.html#l00942">Guest::DailyUpdate()</a>, <a class="el" href="person_8cpp_source.html#l00907">Guest::DeActivate()</a>, <a class="el" href="people_8h_source.html#l00027">GuestBlock::Get()</a>, <a class="el" href="people_8h_source.html#l00015">GUEST_BLOCK_SIZE</a>, <a class="el" href="person_8h_source.html#l00112">Person::IsActive()</a>, <a class="el" href="people_8h_source.html#l00083">next_daily_index</a>, <a class="el" href="person_8h_source.html#l00077">OAR_REMOVE</a>, and <a class="el" href="dates_8h_source.html#l00015">TICK_COUNT_PER_DAY</a>.</p>
+<p>References <a class="el" href="people_8cpp_source.html#l00212">AddFree()</a>, <a class="el" href="people_8h_source.html#l00100">block</a>, <a class="el" href="people_8h_source.html#l00103">daily_frac</a>, <a class="el" href="person_8cpp_source.html#l01104">Guest::DailyUpdate()</a>, <a class="el" href="person_8cpp_source.html#l01028">Guest::DeActivate()</a>, <a class="el" href="people_8h_source.html#l00027">GuestBlock::Get()</a>, <a class="el" href="people_8h_source.html#l00015">GUEST_BLOCK_SIZE</a>, <a class="el" href="person_8h_source.html#l00113">Person::IsActive()</a>, <a class="el" href="people_8h_source.html#l00104">next_daily_index</a>, <a class="el" href="person_8h_source.html#l00078">OAR_REMOVE</a>, and <a class="el" href="dates_8h_source.html#l00015">TICK_COUNT_PER_DAY</a>.</p>
 
-<p>Referenced by <a class="el" href="gamecontrol_8cpp_source.html#l00089">OnNewFrame()</a>.</p>
+<p>Referenced by <a class="el" href="gamecontrol_8cpp_source.html#l00085">OnNewFrame()</a>.</p>
 
 </div>
 </div>
@@ -282,15 +307,43 @@ int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
 </div><div class="memdoc">
 
 <p>A new day arrived, handle daily chores of the park. </p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000031">Todo:</a></b></dt><dd><p class="startdd">Add popularity rating concept. </p>
-<p class="enddd"><a class="el" href="classPerson.html" title="Class of a person in the world. ">Person</a> type should be configurable too. </p>
-</dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000032">Todo:</a></b></dt><dd>Add popularity rating concept. </dd></dl>
 
-<p>Definition at line <a class="el" href="people_8cpp_source.html#l00197">197</a> of file <a class="el" href="people_8cpp_source.html">people.cpp</a>.</p>
+<p>Definition at line <a class="el" href="people_8cpp_source.html#l00168">168</a> of file <a class="el" href="people_8cpp_source.html">people.cpp</a>.</p>
 
-<p>References <a class="el" href="gamelevel_8cpp_source.html#l00015">_scenario</a>, <a class="el" href="person_8cpp_source.html#l00884">Guest::Activate()</a>, <a class="el" href="people_8cpp_source.html#l00106">CanUsePersonType()</a>, <a class="el" href="people_8cpp_source.html#l00145">CountActiveGuests()</a>, <a class="el" href="people_8cpp_source.html#l00055">FindEdgeRoad()</a>, <a class="el" href="people_8cpp_source.html#l00239">GetFree()</a>, <a class="el" href="gamelevel_8cpp_source.html#l00042">Scenario::GetSpawnProbability()</a>, <a class="el" href="people_8cpp_source.html#l00220">HasFreeGuests()</a>, <a class="el" href="people_8cpp_source.html#l00043">IsGoodEdgeRoad()</a>, <a class="el" href="gamelevel_8h_source.html#l00027">Scenario::max_guests</a>, <a class="el" href="person__type_8h_source.html#l00023">PERSON_PILLAR</a>, <a class="el" href="people_8h_source.html#l00080">rnd</a>, <a class="el" href="people_8h_source.html#l00081">start_voxel</a>, <a class="el" href="random_8cpp_source.html#l00024">Random::Success1024()</a>, and <a class="el" href="geometry_8h_source.html#l00037">Point&lt; CT &gt;::x</a>.</p>
+<p>References <a class="el" href="gamelevel_8cpp_source.html#l00015">_scenario</a>, <a class="el" href="person_8cpp_source.html#l01003">Guest::Activate()</a>, <a class="el" href="people_8cpp_source.html#l00117">CountActiveGuests()</a>, <a class="el" href="people_8cpp_source.html#l00055">FindEdgeRoad()</a>, <a class="el" href="people_8cpp_source.html#l00222">GetFree()</a>, <a class="el" href="gamelevel_8cpp_source.html#l00042">Scenario::GetSpawnProbability()</a>, <a class="el" href="people_8cpp_source.html#l00203">HasFreeGuests()</a>, <a class="el" href="people_8cpp_source.html#l00043">IsGoodEdgeRoad()</a>, <a class="el" href="gamelevel_8h_source.html#l00027">Scenario::max_guests</a>, <a class="el" href="person__type_8h_source.html#l00023">PERSON_GUEST</a>, <a class="el" href="people_8h_source.html#l00102">rnd</a>, <a class="el" href="people_8h_source.html#l00097">start_voxel</a>, <a class="el" href="random_8cpp_source.html#l00024">Random::Success1024()</a>, and <a class="el" href="geometry_8h_source.html#l00036">Point&lt; CT &gt;::x</a>.</p>
 
-<p>Referenced by <a class="el" href="gamecontrol_8cpp_source.html#l00077">OnNewDay()</a>.</p>
+<p>Referenced by <a class="el" href="gamecontrol_8cpp_source.html#l00073">OnNewDay()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ae0ae56fde016249d28ab8e6e5a7bf995"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Guests::NotifyRideDeletion </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classRideInstance.html">RideInstance</a> *&#160;</td>
+          <td class="paramname"><em>ri</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Notification that the ride is being removed. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">ri</td><td>Ride being removed. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="people_8cpp_source.html#l00190">190</a> of file <a class="el" href="people_8cpp_source.html">people.cpp</a>.</p>
+
+<p>References <a class="el" href="people_8h_source.html#l00100">block</a>, <a class="el" href="people_8h_source.html#l00027">GuestBlock::Get()</a>, <a class="el" href="people_8h_source.html#l00015">GUEST_BLOCK_SIZE</a>, <a class="el" href="person_8h_source.html#l00113">Person::IsActive()</a>, and <a class="el" href="person_8cpp_source.html#l00424">Guest::NotifyRideDeletion()</a>.</p>
+
+<p>Referenced by <a class="el" href="ride__type_8cpp_source.html#l00590">RidesManager::DeleteInstance()</a>.</p>
 
 </div>
 </div>
@@ -318,11 +371,11 @@ int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
 <p>Update <a class="el" href="classGuests.html#af03b813640ab5526a8a72783d3ad1ca9" title="All guests less than this index are active. ">free_idx</a> to the next free guest (if available). </p>
 <dl class="section return"><dt>Returns</dt><dd>Whether a free guest was found. </dd></dl>
 
-<p>Definition at line <a class="el" href="people_8cpp_source.html#l00116">116</a> of file <a class="el" href="people_8cpp_source.html">people.cpp</a>.</p>
+<p>Definition at line <a class="el" href="people_8cpp_source.html#l00088">88</a> of file <a class="el" href="people_8cpp_source.html">people.cpp</a>.</p>
 
-<p>References <a class="el" href="people_8h_source.html#l00078">block</a>, <a class="el" href="people_8h_source.html#l00079">free_idx</a>, <a class="el" href="people_8h_source.html#l00027">GuestBlock::Get()</a>, <a class="el" href="people_8h_source.html#l00015">GUEST_BLOCK_SIZE</a>, and <a class="el" href="person_8h_source.html#l00112">Person::IsActive()</a>.</p>
+<p>References <a class="el" href="people_8h_source.html#l00100">block</a>, <a class="el" href="people_8h_source.html#l00101">free_idx</a>, <a class="el" href="people_8h_source.html#l00027">GuestBlock::Get()</a>, <a class="el" href="people_8h_source.html#l00015">GUEST_BLOCK_SIZE</a>, and <a class="el" href="person_8h_source.html#l00113">Person::IsActive()</a>.</p>
 
-<p>Referenced by <a class="el" href="people_8cpp_source.html#l00239">GetFree()</a>, and <a class="el" href="people_8cpp_source.html#l00220">HasFreeGuests()</a>.</p>
+<p>Referenced by <a class="el" href="people_8cpp_source.html#l00222">GetFree()</a>, and <a class="el" href="people_8cpp_source.html#l00203">HasFreeGuests()</a>.</p>
 
 </div>
 </div>
@@ -350,9 +403,9 @@ int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
 <p>Update <a class="el" href="classGuests.html#af03b813640ab5526a8a72783d3ad1ca9" title="All guests less than this index are active. ">free_idx</a> to the next free guest (if available). </p>
 <dl class="section return"><dt>Returns</dt><dd>Whether a free guest was found. </dd></dl>
 
-<p>Definition at line <a class="el" href="people_8cpp_source.html#l00130">130</a> of file <a class="el" href="people_8cpp_source.html">people.cpp</a>.</p>
+<p>Definition at line <a class="el" href="people_8cpp_source.html#l00102">102</a> of file <a class="el" href="people_8cpp_source.html">people.cpp</a>.</p>
 
-<p>References <a class="el" href="people_8h_source.html#l00078">block</a>, <a class="el" href="people_8h_source.html#l00079">free_idx</a>, <a class="el" href="people_8h_source.html#l00027">GuestBlock::Get()</a>, <a class="el" href="people_8h_source.html#l00015">GUEST_BLOCK_SIZE</a>, and <a class="el" href="person_8h_source.html#l00112">Person::IsActive()</a>.</p>
+<p>References <a class="el" href="people_8h_source.html#l00100">block</a>, <a class="el" href="people_8h_source.html#l00101">free_idx</a>, <a class="el" href="people_8h_source.html#l00027">GuestBlock::Get()</a>, <a class="el" href="people_8h_source.html#l00015">GUEST_BLOCK_SIZE</a>, and <a class="el" href="person_8h_source.html#l00113">Person::IsActive()</a>.</p>
 
 </div>
 </div>
@@ -380,11 +433,11 @@ int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
 <p>Return whether there are still non-active guests. </p>
 <dl class="section return"><dt>Returns</dt><dd><code>true</code> if there are non-active guests, else <code>false</code>. </dd></dl>
 
-<p>Definition at line <a class="el" href="people_8cpp_source.html#l00220">220</a> of file <a class="el" href="people_8cpp_source.html">people.cpp</a>.</p>
+<p>Definition at line <a class="el" href="people_8cpp_source.html#l00203">203</a> of file <a class="el" href="people_8cpp_source.html">people.cpp</a>.</p>
 
-<p>References <a class="el" href="people_8cpp_source.html#l00116">FindNextFreeGuest()</a>.</p>
+<p>References <a class="el" href="people_8cpp_source.html#l00088">FindNextFreeGuest()</a>.</p>
 
-<p>Referenced by <a class="el" href="people_8cpp_source.html#l00197">OnNewDay()</a>.</p>
+<p>Referenced by <a class="el" href="people_8cpp_source.html#l00168">OnNewDay()</a>.</p>
 
 </div>
 </div>
@@ -418,11 +471,11 @@ int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="people_8cpp_source.html#l00229">229</a> of file <a class="el" href="people_8cpp_source.html">people.cpp</a>.</p>
+<p>Definition at line <a class="el" href="people_8cpp_source.html#l00212">212</a> of file <a class="el" href="people_8cpp_source.html">people.cpp</a>.</p>
 
-<p>References <a class="el" href="people_8h_source.html#l00078">block</a>, <a class="el" href="people_8h_source.html#l00079">free_idx</a>, and <a class="el" href="people_8h_source.html#l00049">GuestBlock::Index()</a>.</p>
+<p>References <a class="el" href="people_8h_source.html#l00100">block</a>, <a class="el" href="people_8h_source.html#l00101">free_idx</a>, and <a class="el" href="people_8h_source.html#l00049">GuestBlock::Index()</a>.</p>
 
-<p>Referenced by <a class="el" href="people_8cpp_source.html#l00174">DoTick()</a>, and <a class="el" href="people_8cpp_source.html#l00159">OnAnimate()</a>.</p>
+<p>Referenced by <a class="el" href="people_8cpp_source.html#l00146">DoTick()</a>, and <a class="el" href="people_8cpp_source.html#l00131">OnAnimate()</a>.</p>
 
 </div>
 </div>
@@ -451,11 +504,11 @@ int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
 <dl class="section return"><dt>Returns</dt><dd>A non-active guest. </dd></dl>
 <dl class="section pre"><dt>Precondition</dt><dd><a class="el" href="classGuests.html#a72705cd5845490b488fef21bc6f1e743" title="Return whether there are still non-active guests. ">HasFreeGuests()</a> should hold. </dd></dl>
 
-<p>Definition at line <a class="el" href="people_8cpp_source.html#l00239">239</a> of file <a class="el" href="people_8cpp_source.html">people.cpp</a>.</p>
+<p>Definition at line <a class="el" href="people_8cpp_source.html#l00222">222</a> of file <a class="el" href="people_8cpp_source.html">people.cpp</a>.</p>
 
-<p>References <a class="el" href="people_8h_source.html#l00078">block</a>, <a class="el" href="people_8cpp_source.html#l00116">FindNextFreeGuest()</a>, <a class="el" href="people_8h_source.html#l00079">free_idx</a>, and <a class="el" href="people_8h_source.html#l00027">GuestBlock::Get()</a>.</p>
+<p>References <a class="el" href="people_8h_source.html#l00100">block</a>, <a class="el" href="people_8cpp_source.html#l00088">FindNextFreeGuest()</a>, <a class="el" href="people_8h_source.html#l00101">free_idx</a>, and <a class="el" href="people_8h_source.html#l00027">GuestBlock::Get()</a>.</p>
 
-<p>Referenced by <a class="el" href="people_8cpp_source.html#l00197">OnNewDay()</a>.</p>
+<p>Referenced by <a class="el" href="people_8cpp_source.html#l00168">OnNewDay()</a>.</p>
 
 </div>
 </div>
@@ -466,7 +519,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Sep 5 2014 19:06:15 for FreeRCT by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Feb 25 2015 13:22:41 for FreeRCT by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

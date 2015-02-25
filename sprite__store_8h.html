@@ -68,6 +68,7 @@
 <code>#include &quot;<a class="el" href="person__type_8h_source.html">person_type.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="language_8h_source.html">language.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="track__piece_8h_source.html">track_piece.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="weather_8h_source.html">weather.h</a>&quot;</code><br />
 <code>#include &lt;map&gt;</code><br />
 </div>
 <p><a href="sprite__store_8h_source.html">Go to the source code of this file.</a></p>
@@ -83,9 +84,6 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSurfaceData.html">SurfaceData</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A surface in all orientations.  <a href="classSurfaceData.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTileSelection.html">TileSelection</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Highlight the currently selected ground tile with a selection cursor.  <a href="classTileSelection.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTileCorners.html">TileCorners</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Highlight the currently selected corner of a ground tile with a corner selection sprite.  <a href="classTileCorners.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -94,6 +92,9 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPath.html">Path</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Path sprites.  <a href="classPath.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathDecoration.html">PathDecoration</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Path decoration sprites.  <a href="classPathDecoration.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFoundation.html">Foundation</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Foundation sprites.  <a href="classFoundation.html#details">More...</a><br /></td></tr>
@@ -240,17 +241,19 @@ Enumerations</h2></td></tr>
  }</td></tr>
 <tr class="memdesc:ga27704536d7b3bbb8871573969b0725d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Scrollbar sprites.  <a href="group__gui__sprites__group.html#ga27704536d7b3bbb8871573969b0725d0">More...</a><br /></td></tr>
 <tr class="separator:ga27704536d7b3bbb8871573969b0725d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a39e4120997ff50612ad4a983356c664c"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sprite__store_8h.html#a39e4120997ff50612ad4a983356c664c">WeatherSprites</a> { <br />
-&#160;&#160;<a class="el" href="sprite__store_8h.html#a39e4120997ff50612ad4a983356c664ca6014fdefa8a77810edddc823d4193086">WES_SUNNY</a>, 
-<a class="el" href="sprite__store_8h.html#a39e4120997ff50612ad4a983356c664caa66ffcbbc1436514ab2b3622078add88">WES_LIGHT_CLOUDS</a>, 
-<a class="el" href="sprite__store_8h.html#a39e4120997ff50612ad4a983356c664cafa86c998307bcc3d9ba44239db052c20">WES_THICK_CLOUDS</a>, 
-<a class="el" href="sprite__store_8h.html#a39e4120997ff50612ad4a983356c664ca0298cb3e24d44276f013d6615e9caeaa">WES_RAINING</a>, 
-<br />
-&#160;&#160;<a class="el" href="sprite__store_8h.html#a39e4120997ff50612ad4a983356c664ca32d5340e5dee7de0abaeb9b770497760">WES_COUNT</a>
-<br />
+<tr class="memitem:ac27c0a791ad33676d77ab77224a900c2"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sprite__store_8h.html#ac27c0a791ad33676d77ab77224a900c2">LightRedOrangeGreen</a> { <a class="el" href="sprite__store_8h.html#ac27c0a791ad33676d77ab77224a900c2af378673f28778dabbd17543e3049661c">LROG_RED</a>, 
+<a class="el" href="sprite__store_8h.html#ac27c0a791ad33676d77ab77224a900c2a811ce61689f8d0d65beb790db188eb05">LROG_ORANGE</a>, 
+<a class="el" href="sprite__store_8h.html#ac27c0a791ad33676d77ab77224a900c2a14883fc49bc377ccf7df92ed0b589439">LROG_GREEN</a>, 
+<a class="el" href="sprite__store_8h.html#ac27c0a791ad33676d77ab77224a900c2a226e03c2b00b86641a3a525d9e96d8cc">LROG_NONE</a>
  }</td></tr>
-<tr class="memdesc:a39e4120997ff50612ad4a983356c664c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets of weather sprites to <a class="el" href="gui__sprites_8h.html#a8701853c4005619efb0ebe1ddc698a4ea8793f1610dbf2f4d5572b4c3cbe2c746" title="Start of weather sprites. ">SPR_GUI_WEATHER_START</a>, for different types of weather.  <a href="sprite__store_8h.html#a39e4120997ff50612ad4a983356c664c">More...</a><br /></td></tr>
-<tr class="separator:a39e4120997ff50612ad4a983356c664c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memdesc:ac27c0a791ad33676d77ab77224a900c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Red/orange/green light sprites.  <a href="sprite__store_8h.html#ac27c0a791ad33676d77ab77224a900c2">More...</a><br /></td></tr>
+<tr class="separator:ac27c0a791ad33676d77ab77224a900c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9868aee0fbd45870cd47e41dfa321d2"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sprite__store_8h.html#af9868aee0fbd45870cd47e41dfa321d2">LightRedGreen</a> { <a class="el" href="sprite__store_8h.html#af9868aee0fbd45870cd47e41dfa321d2a3f6ae6190a7e89f7a96fcc25dcc69171">LRG_RED</a>, 
+<a class="el" href="sprite__store_8h.html#af9868aee0fbd45870cd47e41dfa321d2a0d8b2d5abf2f43f32aee76a98750afd2">LRG_GREEN</a>, 
+<a class="el" href="sprite__store_8h.html#af9868aee0fbd45870cd47e41dfa321d2a1d28830f5968502a5fdf6add66123f85">LRG_NONE</a>
+ }</td></tr>
+<tr class="memdesc:af9868aee0fbd45870cd47e41dfa321d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Red/green light sprites.  <a href="sprite__store_8h.html#af9868aee0fbd45870cd47e41dfa321d2">More...</a><br /></td></tr>
+<tr class="separator:af9868aee0fbd45870cd47e41dfa321d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
@@ -319,41 +322,64 @@ const <a class="el" href="stdafx_8h.html#adde6aaee8457bee49c2a92621fe22b79">uint
 </td></tr>
 </table>
 
-<p>Definition at line <a class="el" href="sprite__store_8h_source.html#l00176">176</a> of file <a class="el" href="sprite__store_8h_source.html">sprite_store.h</a>.</p>
+<p>Definition at line <a class="el" href="sprite__store_8h_source.html#l00195">195</a> of file <a class="el" href="sprite__store_8h_source.html">sprite_store.h</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a39e4120997ff50612ad4a983356c664c"></a>
+<a class="anchor" id="ac27c0a791ad33676d77ab77224a900c2"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">enum <a class="el" href="sprite__store_8h.html#a39e4120997ff50612ad4a983356c664c">WeatherSprites</a></td>
+          <td class="memname">enum <a class="el" href="sprite__store_8h.html#ac27c0a791ad33676d77ab77224a900c2">LightRedOrangeGreen</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Offsets of weather sprites to <a class="el" href="gui__sprites_8h.html#a8701853c4005619efb0ebe1ddc698a4ea8793f1610dbf2f4d5572b4c3cbe2c746" title="Start of weather sprites. ">SPR_GUI_WEATHER_START</a>, for different types of weather. </p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000066">Todo:</a></b></dt><dd>Add weather. </dd></dl>
+<p>Red/orange/green light sprites. </p>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a class="anchor" id="a39e4120997ff50612ad4a983356c664ca6014fdefa8a77810edddc823d4193086"></a>WES_SUNNY&#160;</td><td class="fielddoc">
-<p>Sprite offset for sunny weather. </p>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a class="anchor" id="ac27c0a791ad33676d77ab77224a900c2af378673f28778dabbd17543e3049661c"></a>LROG_RED&#160;</td><td class="fielddoc">
+<p>Red light of the red/orange/green light. </p>
 </td></tr>
-<tr><td class="fieldname"><a class="anchor" id="a39e4120997ff50612ad4a983356c664caa66ffcbbc1436514ab2b3622078add88"></a>WES_LIGHT_CLOUDS&#160;</td><td class="fielddoc">
-<p>Sprite offset for light clouds. </p>
+<tr><td class="fieldname"><a class="anchor" id="ac27c0a791ad33676d77ab77224a900c2a811ce61689f8d0d65beb790db188eb05"></a>LROG_ORANGE&#160;</td><td class="fielddoc">
+<p>Orange light of the red/orange/green light. </p>
 </td></tr>
-<tr><td class="fieldname"><a class="anchor" id="a39e4120997ff50612ad4a983356c664cafa86c998307bcc3d9ba44239db052c20"></a>WES_THICK_CLOUDS&#160;</td><td class="fielddoc">
-<p>Sprite offset for thick clouds. </p>
+<tr><td class="fieldname"><a class="anchor" id="ac27c0a791ad33676d77ab77224a900c2a14883fc49bc377ccf7df92ed0b589439"></a>LROG_GREEN&#160;</td><td class="fielddoc">
+<p>Green light of the red/orange/green light. </p>
 </td></tr>
-<tr><td class="fieldname"><a class="anchor" id="a39e4120997ff50612ad4a983356c664ca0298cb3e24d44276f013d6615e9caeaa"></a>WES_RAINING&#160;</td><td class="fielddoc">
-<p>Sprite offset of rain. </p>
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="a39e4120997ff50612ad4a983356c664ca32d5340e5dee7de0abaeb9b770497760"></a>WES_COUNT&#160;</td><td class="fielddoc">
-<p>Number of weather sprites. </p>
+<tr><td class="fieldname"><a class="anchor" id="ac27c0a791ad33676d77ab77224a900c2a226e03c2b00b86641a3a525d9e96d8cc"></a>LROG_NONE&#160;</td><td class="fielddoc">
+<p>No light of the red/orange/green light. </p>
 </td></tr>
 </table>
 
-<p>Definition at line <a class="el" href="sprite__store_8h_source.html#l00369">369</a> of file <a class="el" href="sprite__store_8h_source.html">sprite_store.h</a>.</p>
+<p>Definition at line <a class="el" href="sprite__store_8h_source.html#l00385">385</a> of file <a class="el" href="sprite__store_8h_source.html">sprite_store.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="af9868aee0fbd45870cd47e41dfa321d2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="sprite__store_8h.html#af9868aee0fbd45870cd47e41dfa321d2">LightRedGreen</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Red/green light sprites. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a class="anchor" id="af9868aee0fbd45870cd47e41dfa321d2a3f6ae6190a7e89f7a96fcc25dcc69171"></a>LRG_RED&#160;</td><td class="fielddoc">
+<p>Red light of the red/green light. </p>
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="af9868aee0fbd45870cd47e41dfa321d2a0d8b2d5abf2f43f32aee76a98750afd2"></a>LRG_GREEN&#160;</td><td class="fielddoc">
+<p>Green light of the red/green light. </p>
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="af9868aee0fbd45870cd47e41dfa321d2a1d28830f5968502a5fdf6add66123f85"></a>LRG_NONE&#160;</td><td class="fielddoc">
+<p>No light of the red/green light. </p>
+</td></tr>
+</table>
+
+<p>Definition at line <a class="el" href="sprite__store_8h_source.html#l00393">393</a> of file <a class="el" href="sprite__store_8h_source.html">sprite_store.h</a>.</p>
 
 </div>
 </div>
@@ -403,7 +429,7 @@ const <a class="el" href="stdafx_8h.html#adde6aaee8457bee49c2a92621fe22b79">uint
 
 <p>References <a class="el" href="fileio_8cpp_source.html#l00196">RcdFileReader::GetUInt32()</a>.</p>
 
-<p>Referenced by <a class="el" href="shop__type_8cpp_source.html#l00058">ShopType::Load()</a>, <a class="el" href="track__piece_8cpp_source.html#l00036">TrackVoxel::Load()</a>, <a class="el" href="coaster_8cpp_source.html#l00051">CarType::Load()</a>, <a class="el" href="sprite__store_8cpp_source.html#l00371">Fence::Load()</a>, <a class="el" href="sprite__store_8cpp_source.html#l00674">AnimationSprites::Load()</a>, <a class="el" href="sprite__store_8cpp_source.html#l00569">SpriteManager::LoadBDIR()</a>, <a class="el" href="coaster_8cpp_source.html#l00206">LoadCoasterPlatform()</a>, <a class="el" href="sprite__store_8cpp_source.html#l00468">SpriteManager::LoadFUND()</a>, <a class="el" href="sprite__store_8cpp_source.html#l00734">GuiSprites::LoadGBOR()</a>, <a class="el" href="sprite__store_8cpp_source.html#l00801">GuiSprites::LoadGCHK()</a>, <a class="el" href="sprite__store_8cpp_source.html#l00926">GuiSprites::LoadGSCL()</a>, <a class="el" href="sprite__store_8cpp_source.html#l00859">GuiSprites::LoadGSLI()</a>, <a class="el" href="sprite__store_8cpp_source.html#l00983">GuiSprites::LoadGSLP()</a>, <a class="el" href="sprite__store_8cpp_source.html#l00397">SpriteManager::LoadPATH()</a>, <a class="el" href="sprite__store_8cpp_source.html#l00503">SpriteManager::LoadPLAT()</a>, <a class="el" href="sprite__store_8cpp_source.html#l00540">SpriteManager::LoadSUPP()</a>, <a class="el" href="sprite__store_8cpp_source.html#l00300">SpriteManager::LoadSURF()</a>, <a class="el" href="sprite__store_8cpp_source.html#l00439">SpriteManager::LoadTCOR()</a>, and <a class="el" href="sprite__store_8cpp_source.html#l00338">SpriteManager::LoadTSEL()</a>.</p>
+<p>Referenced by <a class="el" href="shop__type_8cpp_source.html#l00079">ShopType::Load()</a>, <a class="el" href="track__piece_8cpp_source.html#l00036">TrackVoxel::Load()</a>, <a class="el" href="coaster_8cpp_source.html#l00051">CarType::Load()</a>, <a class="el" href="sprite__store_8cpp_source.html#l00379">Fence::Load()</a>, <a class="el" href="sprite__store_8cpp_source.html#l00792">AnimationSprites::Load()</a>, <a class="el" href="sprite__store_8cpp_source.html#l00683">SpriteManager::LoadBDIR()</a>, <a class="el" href="coaster_8cpp_source.html#l00194">LoadCoasterPlatform()</a>, <a class="el" href="sprite__store_8cpp_source.html#l00582">SpriteManager::LoadFUND()</a>, <a class="el" href="sprite__store_8cpp_source.html#l00852">GuiSprites::LoadGBOR()</a>, <a class="el" href="sprite__store_8cpp_source.html#l00920">GuiSprites::LoadGCHK()</a>, <a class="el" href="sprite__store_8cpp_source.html#l01045">GuiSprites::LoadGSCL()</a>, <a class="el" href="sprite__store_8cpp_source.html#l00978">GuiSprites::LoadGSLI()</a>, <a class="el" href="sprite__store_8cpp_source.html#l01102">GuiSprites::LoadGSLP()</a>, <a class="el" href="sprite__store_8cpp_source.html#l00405">SpriteManager::LoadPATH()</a>, <a class="el" href="sprite__store_8cpp_source.html#l00470">SpriteManager::LoadPDEC()</a>, <a class="el" href="sprite__store_8cpp_source.html#l00617">SpriteManager::LoadPLAT()</a>, <a class="el" href="sprite__store_8cpp_source.html#l00654">SpriteManager::LoadSUPP()</a>, <a class="el" href="sprite__store_8cpp_source.html#l00312">SpriteManager::LoadSURF()</a>, <a class="el" href="sprite__store_8cpp_source.html#l00553">SpriteManager::LoadTCOR()</a>, and <a class="el" href="sprite__store_8cpp_source.html#l00346">SpriteManager::LoadTSEL()</a>.</p>
 
 </div>
 </div>
@@ -452,7 +478,7 @@ const <a class="el" href="stdafx_8h.html#adde6aaee8457bee49c2a92621fe22b79">uint
 
 <p>References <a class="el" href="fileio_8cpp_source.html#l00196">RcdFileReader::GetUInt32()</a>.</p>
 
-<p>Referenced by <a class="el" href="shop__type_8cpp_source.html#l00058">ShopType::Load()</a>, <a class="el" href="coaster_8cpp_source.html#l00095">CoasterType::Load()</a>, and <a class="el" href="sprite__store_8cpp_source.html#l00983">GuiSprites::LoadGSLP()</a>.</p>
+<p>Referenced by <a class="el" href="shop__type_8cpp_source.html#l00079">ShopType::Load()</a>, <a class="el" href="coaster_8cpp_source.html#l00093">CoasterType::Load()</a>, and <a class="el" href="sprite__store_8cpp_source.html#l01102">GuiSprites::LoadGSLP()</a>.</p>
 
 </div>
 </div>
@@ -479,18 +505,18 @@ const <a class="el" href="stdafx_8h.html#adde6aaee8457bee49c2a92621fe22b79">uint
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Size of the image, including its origin. </dd></dl>
 
-<p>Definition at line <a class="el" href="sprite__store_8cpp_source.html#l01443">1443</a> of file <a class="el" href="sprite__store_8cpp_source.html">sprite_store.cpp</a>.</p>
+<p>Definition at line <a class="el" href="sprite__store_8cpp_source.html#l01578">1578</a> of file <a class="el" href="sprite__store_8cpp_source.html">sprite_store.cpp</a>.</p>
 
-<p>References <a class="el" href="geometry_8h_source.html#l00161">Rectangle&lt; PT, SZ &gt;::AddPoint()</a>, <a class="el" href="sprite__data_8h_source.html#l00040">ImageData::height</a>, <a class="el" href="sprite__data_8h_source.html#l00039">ImageData::width</a>, <a class="el" href="sprite__data_8h_source.html#l00041">ImageData::xoffset</a>, and <a class="el" href="sprite__data_8h_source.html#l00042">ImageData::yoffset</a>.</p>
+<p>References <a class="el" href="geometry_8h_source.html#l00263">Rectangle&lt; PT, SZ &gt;::AddPoint()</a>, <a class="el" href="sprite__data_8h_source.html#l00049">ImageData::height</a>, <a class="el" href="sprite__data_8h_source.html#l00048">ImageData::width</a>, <a class="el" href="sprite__data_8h_source.html#l00050">ImageData::xoffset</a>, and <a class="el" href="sprite__data_8h_source.html#l00051">ImageData::yoffset</a>.</p>
 
-<p>Referenced by <a class="el" href="sprite__store_8cpp_source.html#l01475">SpriteManager::GetTableSpriteSize()</a>, and <a class="el" href="sprite__store_8cpp_source.html#l01460">SpriteManager::SetSpriteSize()</a>.</p>
+<p>Referenced by <a class="el" href="sprite__store_8cpp_source.html#l01610">SpriteManager::GetTableSpriteSize()</a>, and <a class="el" href="sprite__store_8cpp_source.html#l01595">SpriteManager::SetSpriteSize()</a>.</p>
 
 </div>
 </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Sep 5 2014 19:06:14 for FreeRCT by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Feb 25 2015 13:22:40 for FreeRCT by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

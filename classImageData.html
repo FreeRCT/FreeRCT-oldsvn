@@ -68,9 +68,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a772dd015fe910af1ccad308c7a0980f2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classImageData.html#a772dd015fe910af1ccad308c7a0980f2">Load32bpp</a> (<a class="el" href="classRcdFileReader.html">RcdFileReader</a> *rcd_file, size_t length)</td></tr>
 <tr class="memdesc:a772dd015fe910af1ccad308c7a0980f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load a 32bpp image.  <a href="#a772dd015fe910af1ccad308c7a0980f2">More...</a><br /></td></tr>
 <tr class="separator:a772dd015fe910af1ccad308c7a0980f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acebed62faa1b97af25364d3a44bce38e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="stdafx_8h.html#a1134b580f8da4de94ca6b1de4d37975e">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classImageData.html#acebed62faa1b97af25364d3a44bce38e">GetPixel</a> (<a class="el" href="stdafx_8h.html#a05f6b0ae8f6a6e135b0e290c25fe0e4e">uint16</a> <a class="el" href="classImageData.html#ad2b115162daf7ac09e9fe4392bbadafb">xoffset</a>, <a class="el" href="stdafx_8h.html#a05f6b0ae8f6a6e135b0e290c25fe0e4e">uint16</a> <a class="el" href="classImageData.html#a47112f6751201d5d56b2fddbb640968d">yoffset</a>) const </td></tr>
-<tr class="memdesc:acebed62faa1b97af25364d3a44bce38e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the pixel-value of the provided position.  <a href="#acebed62faa1b97af25364d3a44bce38e">More...</a><br /></td></tr>
-<tr class="separator:acebed62faa1b97af25364d3a44bce38e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a961b9b222bef6dd1c0f221f2d1677be4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="stdafx_8h.html#a1134b580f8da4de94ca6b1de4d37975e">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classImageData.html#a961b9b222bef6dd1c0f221f2d1677be4">GetPixel</a> (<a class="el" href="stdafx_8h.html#a05f6b0ae8f6a6e135b0e290c25fe0e4e">uint16</a> <a class="el" href="classImageData.html#ad2b115162daf7ac09e9fe4392bbadafb">xoffset</a>, <a class="el" href="stdafx_8h.html#a05f6b0ae8f6a6e135b0e290c25fe0e4e">uint16</a> <a class="el" href="classImageData.html#a47112f6751201d5d56b2fddbb640968d">yoffset</a>, const <a class="el" href="classRecolouring.html">Recolouring</a> *recolour=nullptr, <a class="el" href="palette_8h.html#a7bb9fa2a7a1b4386b2f16dca8d47223f">GradientShift</a> shift=<a class="el" href="palette_8h.html#a7bb9fa2a7a1b4386b2f16dca8d47223faa10126e812019c70d6346d74e390e2c4">GS_NORMAL</a>) const </td></tr>
+<tr class="memdesc:a961b9b222bef6dd1c0f221f2d1677be4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the pixel-value of the provided position.  <a href="#a961b9b222bef6dd1c0f221f2d1677be4">More...</a><br /></td></tr>
+<tr class="separator:a961b9b222bef6dd1c0f221f2d1677be4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4226084bd6a60a1ee63c7a49ddef9946"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classImageData.html#a4226084bd6a60a1ee63c7a49ddef9946">IsSinglePixel</a> () const </td></tr>
+<tr class="memdesc:a4226084bd6a60a1ee63c7a49ddef9946"><td class="mdescLeft">&#160;</td><td class="mdescRight">Is the sprite just a single pixel?  <a href="#a4226084bd6a60a1ee63c7a49ddef9946">More...</a><br /></td></tr>
+<tr class="separator:a4226084bd6a60a1ee63c7a49ddef9946"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -144,9 +147,9 @@ Public Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="sprite__data_8cpp_source.html#l00045">45</a> of file <a class="el" href="sprite__data_8cpp_source.html">sprite_data.cpp</a>.</p>
 
-<p>References <a class="el" href="sprite__data_8h_source.html#l00044">data</a>, <a class="el" href="fileio_8cpp_source.html#l00262">RcdFileReader::GetBlob()</a>, <a class="el" href="fileio_8cpp_source.html#l00185">RcdFileReader::GetInt16()</a>, <a class="el" href="fileio_8cpp_source.html#l00174">RcdFileReader::GetUInt16()</a>, <a class="el" href="fileio_8cpp_source.html#l00196">RcdFileReader::GetUInt32()</a>, <a class="el" href="sprite__data_8h_source.html#l00040">height</a>, <a class="el" href="sprite__data_8h_source.html#l00015">INVALID_JUMP</a>, <a class="el" href="sprite__data_8h_source.html#l00043">table</a>, <a class="el" href="sprite__data_8h_source.html#l00039">width</a>, <a class="el" href="sprite__data_8h_source.html#l00041">xoffset</a>, and <a class="el" href="sprite__data_8h_source.html#l00042">yoffset</a>.</p>
+<p>References <a class="el" href="sprite__data_8h_source.html#l00053">data</a>, <a class="el" href="fileio_8cpp_source.html#l00263">RcdFileReader::GetBlob()</a>, <a class="el" href="fileio_8cpp_source.html#l00185">RcdFileReader::GetInt16()</a>, <a class="el" href="fileio_8cpp_source.html#l00174">RcdFileReader::GetUInt16()</a>, <a class="el" href="fileio_8cpp_source.html#l00196">RcdFileReader::GetUInt32()</a>, <a class="el" href="sprite__data_8h_source.html#l00049">height</a>, <a class="el" href="sprite__data_8h_source.html#l00015">INVALID_JUMP</a>, <a class="el" href="sprite__data_8h_source.html#l00052">table</a>, <a class="el" href="sprite__data_8h_source.html#l00048">width</a>, <a class="el" href="sprite__data_8h_source.html#l00050">xoffset</a>, and <a class="el" href="sprite__data_8h_source.html#l00051">yoffset</a>.</p>
 
-<p>Referenced by <a class="el" href="sprite__data_8cpp_source.html#l00251">LoadImage()</a>.</p>
+<p>Referenced by <a class="el" href="sprite__data_8cpp_source.html#l00265">LoadImage()</a>.</p>
 
 </div>
 </div>
@@ -186,13 +189,13 @@ Public Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="sprite__data_8cpp_source.html#l00110">110</a> of file <a class="el" href="sprite__data_8cpp_source.html">sprite_data.cpp</a>.</p>
 
-<p>References <a class="el" href="sprite__data_8h_source.html#l00044">data</a>, <a class="el" href="fileio_8cpp_source.html#l00262">RcdFileReader::GetBlob()</a>, <a class="el" href="fileio_8cpp_source.html#l00185">RcdFileReader::GetInt16()</a>, <a class="el" href="fileio_8cpp_source.html#l00174">RcdFileReader::GetUInt16()</a>, <a class="el" href="sprite__data_8h_source.html#l00040">height</a>, <a class="el" href="sprite__data_8h_source.html#l00039">width</a>, <a class="el" href="sprite__data_8h_source.html#l00041">xoffset</a>, and <a class="el" href="sprite__data_8h_source.html#l00042">yoffset</a>.</p>
+<p>References <a class="el" href="sprite__data_8h_source.html#l00053">data</a>, <a class="el" href="fileio_8cpp_source.html#l00263">RcdFileReader::GetBlob()</a>, <a class="el" href="fileio_8cpp_source.html#l00185">RcdFileReader::GetInt16()</a>, <a class="el" href="fileio_8cpp_source.html#l00174">RcdFileReader::GetUInt16()</a>, <a class="el" href="sprite__data_8h_source.html#l00049">height</a>, <a class="el" href="sprite__data_8h_source.html#l00048">width</a>, <a class="el" href="sprite__data_8h_source.html#l00050">xoffset</a>, and <a class="el" href="sprite__data_8h_source.html#l00051">yoffset</a>.</p>
 
-<p>Referenced by <a class="el" href="sprite__data_8cpp_source.html#l00251">LoadImage()</a>.</p>
+<p>Referenced by <a class="el" href="sprite__data_8cpp_source.html#l00265">LoadImage()</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="acebed62faa1b97af25364d3a44bce38e"></a>
+<a class="anchor" id="a961b9b222bef6dd1c0f221f2d1677be4"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -206,7 +209,19 @@ Public Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="stdafx_8h.html#a05f6b0ae8f6a6e135b0e290c25fe0e4e">uint16</a>&#160;</td>
-          <td class="paramname"><em>yoffset</em>&#160;</td>
+          <td class="paramname"><em>yoffset</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classRecolouring.html">Recolouring</a> *&#160;</td>
+          <td class="paramname"><em>recolour</em> = <code>nullptr</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="palette_8h.html#a7bb9fa2a7a1b4386b2f16dca8d47223f">GradientShift</a>&#160;</td>
+          <td class="paramname"><em>shift</em> = <code><a class="el" href="palette_8h.html#a7bb9fa2a7a1b4386b2f16dca8d47223faa10126e812019c70d6346d74e390e2c4">GS_NORMAL</a></code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -221,16 +236,50 @@ Public Attributes</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">xoffset</td><td>Horizontal offset in the sprite. </td></tr>
     <tr><td class="paramname">yoffset</td><td>Vertical offset in the sprite. </td></tr>
+    <tr><td class="paramname">recolour</td><td><a class="el" href="classRecolouring.html" title="Sprite recolouring information. ">Recolouring</a> to apply to the retrieved pixel. Use <code>nullptr</code> for disabling recolouring. </td></tr>
+    <tr><td class="paramname">shift</td><td>Gradient shift to apply to the retrieved pixel. Use <a class="el" href="palette_8h.html#a7bb9fa2a7a1b4386b2f16dca8d47223faa10126e812019c70d6346d74e390e2c4" title="No change in gradient. ">GS_NORMAL</a> for not shifting the colour. </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Pixel value at the given position, or <code>0</code> if transparent. </dd></dl>
 
-<p>Definition at line <a class="el" href="sprite__data_8cpp_source.html#l00181">181</a> of file <a class="el" href="sprite__data_8cpp_source.html">sprite_data.cpp</a>.</p>
+<p>Definition at line <a class="el" href="sprite__data_8cpp_source.html#l00183">183</a> of file <a class="el" href="sprite__data_8cpp_source.html">sprite_data.cpp</a>.</p>
 
-<p>References <a class="el" href="palette_8cpp_source.html#l00207">_palette</a>, <a class="el" href="sprite__data_8h_source.html#l00044">data</a>, <a class="el" href="sprite__data_8h_source.html#l00038">flags</a>, <a class="el" href="bitmath_8h_source.html#l00034">GB()</a>, <a class="el" href="sprite__data_8h_source.html#l00040">height</a>, <a class="el" href="sprite__data_8h_source.html#l00021">IFG_IS_8BPP</a>, <a class="el" href="sprite__data_8h_source.html#l00015">INVALID_JUMP</a>, <a class="el" href="palette_8h_source.html#l00033">MakeRGBA()</a>, <a class="el" href="palette_8h_source.html#l00021">OPAQUE</a>, <a class="el" href="sprite__data_8h_source.html#l00043">table</a>, <a class="el" href="sprite__data_8h_source.html#l00039">width</a>, <a class="el" href="sprite__data_8h_source.html#l00041">xoffset</a>, and <a class="el" href="sprite__data_8h_source.html#l00042">yoffset</a>.</p>
+<p>References <a class="el" href="palette_8cpp_source.html#l00207">_palette</a>, <a class="el" href="sprite__data_8h_source.html#l00053">data</a>, <a class="el" href="sprite__data_8h_source.html#l00047">flags</a>, <a class="el" href="bitmath_8h_source.html#l00034">GB()</a>, <a class="el" href="palette_8h_source.html#l00063">GetB()</a>, <a class="el" href="palette_8h_source.html#l00053">GetG()</a>, <a class="el" href="palette_8h_source.html#l00244">GetGradientShiftFunc()</a>, <a class="el" href="palette_8cpp_source.html#l00176">Recolouring::GetPalette()</a>, <a class="el" href="palette_8h_source.html#l00043">GetR()</a>, <a class="el" href="palette_8h_source.html#l00317">Recolouring::GetRecolourTable()</a>, <a class="el" href="sprite__data_8h_source.html#l00049">height</a>, <a class="el" href="sprite__data_8h_source.html#l00021">IFG_IS_8BPP</a>, <a class="el" href="sprite__data_8h_source.html#l00015">INVALID_JUMP</a>, <a class="el" href="palette_8h_source.html#l00033">MakeRGBA()</a>, <a class="el" href="palette_8h_source.html#l00021">OPAQUE</a>, <a class="el" href="sprite__data_8h_source.html#l00052">table</a>, <a class="el" href="sprite__data_8h_source.html#l00048">width</a>, <a class="el" href="sprite__data_8h_source.html#l00050">xoffset</a>, and <a class="el" href="sprite__data_8h_source.html#l00051">yoffset</a>.</p>
 
-<p>Referenced by <a class="el" href="viewport_8cpp_source.html#l01204">PixelFinder::CollectVoxel()</a>.</p>
+<p>Referenced by <a class="el" href="viewport_8cpp_source.html#l01175">PixelFinder::CollectVoxel()</a>, and <a class="el" href="gui__graphics_8cpp_source.html#l00029">DrawRepeatedSprites()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a4226084bd6a60a1ee63c7a49ddef9946"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ImageData::IsSinglePixel </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Is the sprite just a single pixel? </p>
+<dl class="section return"><dt>Returns</dt><dd>Whether the sprite is a single pixel. </dd></dl>
+
+<p>Definition at line <a class="el" href="sprite__data_8h_source.html#l00042">42</a> of file <a class="el" href="sprite__data_8h_source.html">sprite_data.h</a>.</p>
+
+<p>References <a class="el" href="sprite__data_8h_source.html#l00049">height</a>, and <a class="el" href="sprite__data_8h_source.html#l00048">width</a>.</p>
+
+<p>Referenced by <a class="el" href="gui__graphics_8cpp_source.html#l00029">DrawRepeatedSprites()</a>.</p>
 
 </div>
 </div>
@@ -248,9 +297,9 @@ Public Attributes</h2></td></tr>
 <p>Flags of the image. </p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="sprite__data_8h.html#a46f3269fe26b81646ea3f557f89509e4" title="Flags of an image in ImageData. ">ImageFlags</a> </dd></dl>
 
-<p>Definition at line <a class="el" href="sprite__data_8h_source.html#l00038">38</a> of file <a class="el" href="sprite__data_8h_source.html">sprite_data.h</a>.</p>
+<p>Definition at line <a class="el" href="sprite__data_8h_source.html#l00047">47</a> of file <a class="el" href="sprite__data_8h_source.html">sprite_data.h</a>.</p>
 
-<p>Referenced by <a class="el" href="video_8cpp_source.html#l00825">VideoSystem::BlitImages()</a>, <a class="el" href="sprite__data_8cpp_source.html#l00181">GetPixel()</a>, and <a class="el" href="sprite__data_8cpp_source.html#l00251">LoadImage()</a>.</p>
+<p>Referenced by <a class="el" href="video_8cpp_source.html#l00689">VideoSystem::BlitImages()</a>, <a class="el" href="sprite__data_8cpp_source.html#l00183">GetPixel()</a>, and <a class="el" href="sprite__data_8cpp_source.html#l00265">LoadImage()</a>.</p>
 
 </div>
 </div>
@@ -261,7 +310,7 @@ Public Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Sep 5 2014 19:06:15 for FreeRCT by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Feb 25 2015 13:22:41 for FreeRCT by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

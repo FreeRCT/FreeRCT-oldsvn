@@ -96,6 +96,9 @@
 <li>GAP
 : <a class="el" href="classComputeInitialPosition.html#ae193e9e0bab66e4f3801ed8b986ac732">ComputeInitialPosition</a>
 </li>
+<li>gate
+: <a class="el" href="structGuestBatch.html#ad3546acada8d4e7287828a1ab1c98fb6">GuestBatch</a>
+</li>
 <li>gentle_down
 : <a class="el" href="classGSLPBlock.html#a65780b75161f43e23c57c1b39250c7fc">GSLPBlock</a>
 </li>
@@ -103,8 +106,12 @@
 : <a class="el" href="classGSLPBlock.html#a8f6623a1f5762afd2c1360b041acb9ee">GSLPBlock</a>
 </li>
 <li>Get()
-: <a class="el" href="classGuestBlock.html#a22ad48fbe069637ce8e3dde09f005342">GuestBlock</a>
+: <a class="el" href="classGuestBlock.html#a83f4db391211fec359a9cd5012e1209d">GuestBlock</a>
+, <a class="el" href="classGuests.html#a30760025c5877ec6d00b5e6238f1618e">Guests</a>
 , <a class="el" href="classVoxelStack.html#a9bdf43776cc3c2598a454690ff4ce542">VoxelStack</a>
+</li>
+<li>Get2D()
+: <a class="el" href="structXYZPoint.html#a745dc57cf4032b8ce04bc0f7dd1af5cd">XYZPoint&lt; CT &gt;</a>
 </li>
 <li>GetAllowedArrows()
 : <a class="el" href="classPathBuildManager.html#aebafc2edf83dda26ef30b88b90e611fa">PathBuildManager</a>
@@ -126,6 +133,9 @@
 </li>
 <li>GetBanking()
 : <a class="el" href="classTrackPiece.html#afd249ca8719a206ebab6fa711d106814">TrackPiece</a>
+</li>
+<li>GetBatch()
+: <a class="el" href="classOnRideGuests.html#ab670b8a1617be245f51df0cb01126c98">OnRideGuests</a>
 </li>
 <li>GetBend()
 : <a class="el" href="classTrackPiece.html#a6fd50d9f1a3ccc18a388819754d54045">TrackPiece</a>
@@ -174,8 +184,8 @@
 : <a class="el" href="classVoxelStack.html#ae19e5238e09f57f4ea10029e93062d62">VoxelStack</a>
 </li>
 <li>GetCreateVoxel()
-: <a class="el" href="classVoxelWorld.html#a4c77dd04dca6e613fcf90721500cd943">VoxelWorld</a>
-, <a class="el" href="classWorldAdditions.html#a7620b15d4c8d810a77d2d7412404bff1">WorldAdditions</a>
+: <a class="el" href="classVoxelWorld.html#a2a87afe31bb40fd5e5f93a7172d3cce7">VoxelWorld</a>
+, <a class="el" href="classWorldAdditions.html#a00f5518963d9cc710897beb73295268c">WorldAdditions</a>
 </li>
 <li>GetCurrentEdge()
 : <a class="el" href="classPerson.html#aa447544f8a3f8e81b0e95cb7f196c997">Person</a>
@@ -184,19 +194,19 @@
 : <a class="el" href="classImage32bpp.html#a3f2fd075f10122c157f321f522782761">Image32bpp</a>
 </li>
 <li>GetCursor()
-: <a class="el" href="classBaseCursor.html#a0179f266fa93190995aa785615b8f210">BaseCursor</a>
-, <a class="el" href="classCursor.html#a96569b8107bb24395420303e2f6abb1b">Cursor</a>
-, <a class="el" href="classEdgeCursor.html#a16e735892ce061e82d559a8693175c76">EdgeCursor</a>
-, <a class="el" href="classMultiCursor.html#af83ec9909f812dc9df37bcc43477c497">MultiCursor</a>
+: <a class="el" href="classBaseCursor.html#a9956cd619610d9c4a8d2b75af43079df">BaseCursor</a>
+, <a class="el" href="classCursor.html#a170e6df8f5803a6f847f111382e97f93">Cursor</a>
+, <a class="el" href="classEdgeCursor.html#ab266e20df1669efe15186b5feafeae98">EdgeCursor</a>
+, <a class="el" href="classMultiCursor.html#a3b8ef00f66c9e6727a30232def93230a">MultiCursor</a>
 </li>
 <li>GetCursorAtPos()
-: <a class="el" href="classViewport.html#ad0821d076af065df591306eb5287765a">Viewport</a>
+: <a class="el" href="classViewport.html#a57afb1b609dc0d7bed80ca49d5e3a41b">Viewport</a>
 </li>
 <li>GetCursorSprite()
 : <a class="el" href="classSpriteStorage.html#ab957fef30b88d860224ca7718817f943">SpriteStorage</a>
 </li>
 <li>GetCursorSpriteAtPos()
-: <a class="el" href="classSpriteCollector.html#a6c67be38f1633b195b9bd21ecdae502d">SpriteCollector</a>
+: <a class="el" href="classSpriteCollector.html#af7163b4b0c1657097def3b5fdce1b96c">SpriteCollector</a>
 </li>
 <li>GetCurve()
 : <a class="el" href="classValueInformation.html#ac072792d0af425ccad1eda7dba41abcc">ValueInformation</a>
@@ -208,22 +218,21 @@
 <li>GetDefaultCarType()
 : <a class="el" href="classCoasterType.html#aa132db3139e35bb6374be5ede422c3ec">CoasterType</a>
 </li>
-<li>GetEndX()
-: <a class="el" href="classPositionedTrackPiece.html#aa83b01c228331a3188f4dd979e40a757">PositionedTrackPiece</a>
-</li>
-<li>GetEndY()
-: <a class="el" href="classPositionedTrackPiece.html#ac890a7d496c10467c4f47346e13c8e94">PositionedTrackPiece</a>
-</li>
-<li>GetEndZ()
-: <a class="el" href="classPositionedTrackPiece.html#adf253f6b6cbb563d1cf41b2abca8f543">PositionedTrackPiece</a>
+<li>GetEndXYZ()
+: <a class="el" href="classPositionedTrackPiece.html#a2e38fc56cfa3af11d9b592f8ebcec70d">PositionedTrackPiece</a>
 </li>
 <li>GetEntranceDirections()
-: <a class="el" href="classCoasterInstance.html#accedd89b7e21b1cc55e4f9a9939c751d">CoasterInstance</a>
-, <a class="el" href="classRideInstance.html#a0a7b0f52dbe935f77556f95a81f5cb2e">RideInstance</a>
-, <a class="el" href="classShopInstance.html#ad1160d9b8f8318db9859b0aacf473f55">ShopInstance</a>
+: <a class="el" href="classCoasterInstance.html#a74169966e3c48a1af5c09d373e061f3c">CoasterInstance</a>
+, <a class="el" href="classRideInstance.html#ad70de8cde78d2ee967d229b2b8a61e26">RideInstance</a>
+, <a class="el" href="classShopInstance.html#a7b1d54b9e537ae62463c947d66d5aa02">ShopInstance</a>
 </li>
 <li>GetEstimate()
-: <a class="el" href="classPathSearcher.html#ab9f1b2dc32f0b347c5cc2426bf5559c1">PathSearcher</a>
+: <a class="el" href="classPathSearcher.html#a9bc660af35103d32b7d2c667bf0d6bde">PathSearcher</a>
+</li>
+<li>GetExit()
+: <a class="el" href="classCoasterInstance.html#abca94cd5522053ca5a66f4dd79d6259e">CoasterInstance</a>
+, <a class="el" href="classRideInstance.html#a1cdef2422a64caf92653866198d70799">RideInstance</a>
+, <a class="el" href="classShopInstance.html#ae451f7291524c72d1d852e649d9e6f6c">ShopInstance</a>
 </li>
 <li>GetExitDirections()
 : <a class="el" href="classGuest.html#a496672f09b2e22211d9003806a7e678b">Guest</a>
@@ -243,6 +252,9 @@
 <li>GetFinances()
 : <a class="el" href="classFinancesManager.html#abd9d111e263d478e364905e75de0cb15">FinancesManager</a>
 </li>
+<li>GetFinishedBatch()
+: <a class="el" href="classOnRideGuests.html#a7f8edbbbaf7d977a5b7a6fa6e532f0bb">OnRideGuests</a>
+</li>
 <li>GetFirstPlacedTrackPiece()
 : <a class="el" href="classCoasterInstance.html#a03c2fbe4027845d5496cea71b115a1e0">CoasterInstance</a>
 </li>
@@ -257,6 +269,9 @@
 </li>
 <li>GetFree()
 : <a class="el" href="classGuests.html#a6c7f17bd35fd902c1969f65fdc6c7f57">Guests</a>
+</li>
+<li>GetFreeBatch()
+: <a class="el" href="classOnRideGuests.html#a1e228491f79ba239a467bae3f9097c1f">OnRideGuests</a>
 </li>
 <li>GetFreeInstance()
 : <a class="el" href="classRidesManager.html#a45ba6ebff60ebb390c99febe5dd1e231">RidesManager</a>
@@ -292,6 +307,9 @@
 <li>GetIndex()
 : <a class="el" href="classRideInstance.html#a1d78c57c48c6b66ea1a6a3bf8d5fd3ce">RideInstance</a>
 </li>
+<li>GetInparkDirections()
+: <a class="el" href="classPerson.html#ad4cab16b03fc0c3aee0e2c1010503bd6">Person</a>
+</li>
 <li>GetInstance()
 : <a class="el" href="structVoxel.html#a78ee7c8c8e8e62d18733aed8c28cba56">Voxel</a>
 </li>
@@ -326,6 +344,9 @@
 </li>
 <li>GetLanguageName()
 : <a class="el" href="classLanguage.html#a7d1fa947c3621e46cd1c9deea53e265e">Language</a>
+</li>
+<li>GetLoadingBatch()
+: <a class="el" href="classOnRideGuests.html#a445fafa24fd7e71cb6a16776d453c4fc">OnRideGuests</a>
 </li>
 <li>GetLong()
 : <a class="el" href="classLoader.html#a0e776e9453afd13d309dd5bceb119f62">Loader</a>
@@ -371,6 +392,9 @@
 , <a class="el" href="classNameTable.html#ab37f978cab8a58ba31da8a58774aaee5">NameTable</a>
 , <a class="el" href="classSingleName.html#a1e3b90a6443e26745dc440ac3c3519a0">SingleName</a>
 </li>
+<li>GetNextBatch()
+: <a class="el" href="classOnRideGuests.html#af8873603c0a9fc1e5feebb2f87e6a5ba">OnRideGuests</a>
+</li>
 <li>GetNextMonth()
 : <a class="el" href="classDate.html#ab3ee7dea920d3e2aa6f46401fd49bbef">Date</a>
 </li>
@@ -415,7 +439,7 @@
 <li>GetPixel()
 : <a class="el" href="classImage32bpp.html#a9e0630cc211368d967d01cfa96b22d33">Image32bpp</a>
 , <a class="el" href="classImage8bpp.html#ad22a32036b4e160bb653348357e31966">Image8bpp</a>
-, <a class="el" href="classImageData.html#acebed62faa1b97af25364d3a44bce38e">ImageData</a>
+, <a class="el" href="classImageData.html#a961b9b222bef6dd1c0f221f2d1677be4">ImageData</a>
 </li>
 <li>GetPlatformDirection()
 : <a class="el" href="classTrackVoxel.html#a25d3773f1f6d990001521c7532f37d53">TrackVoxel</a>
@@ -447,6 +471,9 @@
 </li>
 <li>GetResolutions()
 : <a class="el" href="classVideoSystem.html#aae50e04736024973504ba9cc5130fdaa">VideoSystem</a>
+</li>
+<li>GetRideCapacity()
+: <a class="el" href="classShopType.html#ab70519c7c252449cc3adddacb9980227">ShopType</a>
 </li>
 <li>GetRideInstance()
 : <a class="el" href="classRidesManager.html#a84a301918fe076090437360ca0b987f7">RidesManager</a>
@@ -520,6 +547,9 @@
 <li>GetStartDirection()
 : <a class="el" href="classTrackPiece.html#ac80bfe97a89d764ad2b0fccf21f598e9">TrackPiece</a>
 </li>
+<li>GetState()
+: <a class="el" href="classPathBuildManager.html#af746faab30b74469ecf0565f89d75a03">PathBuildManager</a>
+</li>
 <li>GetString()
 : <a class="el" href="classRideType.html#a1c1e86b34e3286fc58182843d49365b9">RideType</a>
 , <a class="el" href="classTextString.html#a36d2d03b3a9479fa914d9b0cd7ba3d86">TextString</a>
@@ -577,6 +607,9 @@
 <li>GetUInt8()
 : <a class="el" href="classRcdFileReader.html#aa3ac193cae3b6220820e5872e9b2e861">RcdFileReader</a>
 </li>
+<li>GetUnloadingBatch()
+: <a class="el" href="classOnRideGuests.html#a0b01f2f75865dddf05571ee147a8c553">OnRideGuests</a>
+</li>
 <li>GetValue()
 : <a class="el" href="classBezierTrackCurve.html#ac32d257b60c538e002c0f09281d8dacb">BezierTrackCurve</a>
 , <a class="el" href="classConfigFile.html#a11759cfcf1f05191116174b1d6674415">ConfigFile</a>
@@ -596,15 +629,15 @@
 : <a class="el" href="classScrollbarWidget.html#afef7e674e922ccc1984fd59aa7d1f338">ScrollbarWidget</a>
 </li>
 <li>GetVoxel()
-: <a class="el" href="classVoxelWorld.html#a43447d39f61e5d921cb647e44e139258">VoxelWorld</a>
-, <a class="el" href="classWorldAdditions.html#aef1e68fb728362530686d320b7281560">WorldAdditions</a>
+: <a class="el" href="classVoxelWorld.html#a942eb654ddce96b29807beb7a2c25de0">VoxelWorld</a>
+, <a class="el" href="classWorldAdditions.html#ab37fd166d49c83780bc8a653f3bbe68a">WorldAdditions</a>
 </li>
 <li>GetWeatherType()
 : <a class="el" href="classAverageWeather.html#a686b081258be95a9137765dfb68a77c1">AverageWeather</a>
 , <a class="el" href="classWeather.html#a08a993b67761c57c1e42093d00244f19">Weather</a>
 </li>
 <li>GetWidget()
-: <a class="el" href="classGuiWindow.html#ae3da920129f35fd6c3bd4d4252675fb8">GuiWindow</a>
+: <a class="el" href="classGuiWindow.html#acf20b5c0c700e338a974247a32936d6c">GuiWindow</a>
 </li>
 <li>GetWidgetByPosition()
 : <a class="el" href="classBackgroundWidget.html#a5a9ba99403875c9660118d01ea219a28">BackgroundWidget</a>
@@ -655,7 +688,8 @@
 , <a class="el" href="structYyStruct.html#acc8cbe8db569d812eb3bb201a4fad726">YyStruct</a>
 </li>
 <li>guest
-: <a class="el" href="classGuestInfoWindow.html#aad44f646fa33a20a4f1be1758d67118e">GuestInfoWindow</a>
+: <a class="el" href="structGuestData.html#ace778f3a11090c3a6b7c777c9a030e81">GuestData</a>
+, <a class="el" href="classGuestInfoWindow.html#aad44f646fa33a20a4f1be1758d67118e">GuestInfoWindow</a>
 </li>
 <li>GuestBlock()
 : <a class="el" href="classGuestBlock.html#a6063831ec68107a484ec50d718be726c">GuestBlock</a>
@@ -664,7 +698,8 @@
 : <a class="el" href="classGuestInfoWindow.html#a4750c25bb4715e85dbd5667af9f24eb0">GuestInfoWindow</a>
 </li>
 <li>guests
-: <a class="el" href="classGuestBlock.html#a266428e1bad10ae277d474d971e632f4">GuestBlock</a>
+: <a class="el" href="structGuestBatch.html#a01a6af8dfdbaa56d5c37becc9273f38c">GuestBatch</a>
+, <a class="el" href="classGuestBlock.html#a266428e1bad10ae277d474d971e632f4">GuestBlock</a>
 </li>
 <li>gui_text
 : <a class="el" href="classGSLPBlock.html#a23fabf24e9377e4459231442c7056e82">GSLPBlock</a>
@@ -679,7 +714,7 @@
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Sep 5 2014 19:06:16 for FreeRCT by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Feb 25 2015 13:22:41 for FreeRCT by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

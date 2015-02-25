@@ -75,14 +75,15 @@ Classes</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
 <tr class="memitem:a71a16f6a15e17a675963621dceb2722e"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="person__type_8h.html#a71a16f6a15e17a675963621dceb2722e">PersonType</a> { <br />
-&#160;&#160;<a class="el" href="person__type_8h.html#a71a16f6a15e17a675963621dceb2722eaad821acab64ca8ae84576fa12492b69c">PERSON_ANY</a> = 0, 
-<a class="el" href="person__type_8h.html#a71a16f6a15e17a675963621dceb2722ea289046e8c0a10162334a70c39f3ea9f3">PERSON_PILLAR</a> = 1, 
-<a class="el" href="person__type_8h.html#a71a16f6a15e17a675963621dceb2722eacd3f877f9ec9206289af20029682b4bf">PERSON_EARTH</a> = 2, 
-<a class="el" href="person__type_8h.html#a71a16f6a15e17a675963621dceb2722ea913df5a40131b5c9ad312aa7189e1566">PERSON_TYPE_COUNT</a>, 
+&#160;&#160;<a class="el" href="person__type_8h.html#a71a16f6a15e17a675963621dceb2722eaad821acab64ca8ae84576fa12492b69c">PERSON_ANY</a>, 
+<a class="el" href="person__type_8h.html#a71a16f6a15e17a675963621dceb2722ea589174fc0ade5427280b35b4396ea1a4">PERSON_GUEST</a>, 
+<a class="el" href="person__type_8h.html#a71a16f6a15e17a675963621dceb2722eaf329a1bbc95dfda03569e36473eb6488">PERSON_HANDYMAN</a>, 
+<a class="el" href="person__type_8h.html#a71a16f6a15e17a675963621dceb2722ead58b73f1adf04f4806406a1598b94cb4">PERSON_MECHANIC</a>, 
 <br />
-&#160;&#160;<a class="el" href="person__type_8h.html#a71a16f6a15e17a675963621dceb2722eaf137c8b420f4b67907f89ddddac93da1">PERSON_INVALID</a> = 0xFF, 
-<a class="el" href="person__type_8h.html#a71a16f6a15e17a675963621dceb2722ea0f41ac34e3367850a564d83fc3de00d1">PERSON_MIN_GUEST</a> = PERSON_ANY, 
-<a class="el" href="person__type_8h.html#a71a16f6a15e17a675963621dceb2722eabe54aea3b14b6999d47184d8f0e91d43">PERSON_MAX_GUEST</a> = PERSON_EARTH
+&#160;&#160;<a class="el" href="person__type_8h.html#a71a16f6a15e17a675963621dceb2722ea9696a69f1a2ae3d8ebee0c42d8d4ab79">PERSON_GUARD</a>, 
+<a class="el" href="person__type_8h.html#a71a16f6a15e17a675963621dceb2722ea5b2348774a914ca4fcb6401ce5de149e">PERSON_ENTERTAINER</a>, 
+<a class="el" href="person__type_8h.html#a71a16f6a15e17a675963621dceb2722ea913df5a40131b5c9ad312aa7189e1566">PERSON_TYPE_COUNT</a>, 
+<a class="el" href="person__type_8h.html#a71a16f6a15e17a675963621dceb2722eaf137c8b420f4b67907f89ddddac93da1">PERSON_INVALID</a> = 0xFF
 <br />
  }</td></tr>
 <tr class="memdesc:a71a16f6a15e17a675963621dceb2722e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Types of persons.  <a href="person__type_8h.html#a71a16f6a15e17a675963621dceb2722e">More...</a><br /></td></tr>
@@ -96,9 +97,6 @@ Functions</h2></td></tr>
 <tr class="memitem:aa3fe514a01d43083aecc01e89d5dc2ad"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structPersonTypeData.html">PersonTypeData</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="person__type_8h.html#aa3fe514a01d43083aecc01e89d5dc2ad">GetPersonTypeData</a> (<a class="el" href="person__type_8h.html#a71a16f6a15e17a675963621dceb2722e">PersonType</a> pt)</td></tr>
 <tr class="memdesc:aa3fe514a01d43083aecc01e89d5dc2ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the data about a person type for reading.  <a href="#aa3fe514a01d43083aecc01e89d5dc2ad">More...</a><br /></td></tr>
 <tr class="separator:aa3fe514a01d43083aecc01e89d5dc2ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6aec6954a73d521d8155157167165403"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="person__type_8h.html#a6aec6954a73d521d8155157167165403">PersonIsAGuest</a> (<a class="el" href="stdafx_8h.html#adde6aaee8457bee49c2a92621fe22b79">uint8</a> type)</td></tr>
-<tr class="memdesc:a6aec6954a73d521d8155157167165403"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function to decide whether a person type is a guest or not.  <a href="#a6aec6954a73d521d8155157167165403">More...</a><br /></td></tr>
-<tr class="separator:a6aec6954a73d521d8155157167165403"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab8131e0e5076ffd96b4fa74a03adb860"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="person__type_8h.html#ab8131e0e5076ffd96b4fa74a03adb860">LoadPRSG</a> (<a class="el" href="classRcdFileReader.html">RcdFileReader</a> *rcd_file)</td></tr>
 <tr class="memdesc:ab8131e0e5076ffd96b4fa74a03adb860"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load graphics settings of person types from an RCD file.  <a href="#ab8131e0e5076ffd96b4fa74a03adb860">More...</a><br /></td></tr>
 <tr class="separator:ab8131e0e5076ffd96b4fa74a03adb860"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -123,23 +121,26 @@ Functions</h2></td></tr>
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a class="anchor" id="a71a16f6a15e17a675963621dceb2722eaad821acab64ca8ae84576fa12492b69c"></a>PERSON_ANY&#160;</td><td class="fielddoc">
 <p>No people displayed in the animation. </p>
 </td></tr>
-<tr><td class="fieldname"><a class="anchor" id="a71a16f6a15e17a675963621dceb2722ea289046e8c0a10162334a70c39f3ea9f3"></a>PERSON_PILLAR&#160;</td><td class="fielddoc">
-<p>Guests from the planet of Pillars (test graphics). </p>
+<tr><td class="fieldname"><a class="anchor" id="a71a16f6a15e17a675963621dceb2722ea589174fc0ade5427280b35b4396ea1a4"></a>PERSON_GUEST&#160;</td><td class="fielddoc">
+<p>Guests. </p>
 </td></tr>
-<tr><td class="fieldname"><a class="anchor" id="a71a16f6a15e17a675963621dceb2722eacd3f877f9ec9206289af20029682b4bf"></a>PERSON_EARTH&#160;</td><td class="fielddoc">
-<p>Earth-bound guests. </p>
+<tr><td class="fieldname"><a class="anchor" id="a71a16f6a15e17a675963621dceb2722eaf329a1bbc95dfda03569e36473eb6488"></a>PERSON_HANDYMAN&#160;</td><td class="fielddoc">
+<p>Staff handymen. </p>
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="a71a16f6a15e17a675963621dceb2722ead58b73f1adf04f4806406a1598b94cb4"></a>PERSON_MECHANIC&#160;</td><td class="fielddoc">
+<p>Staff mechanics. </p>
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="a71a16f6a15e17a675963621dceb2722ea9696a69f1a2ae3d8ebee0c42d8d4ab79"></a>PERSON_GUARD&#160;</td><td class="fielddoc">
+<p>Staff security guards. </p>
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="a71a16f6a15e17a675963621dceb2722ea5b2348774a914ca4fcb6401ce5de149e"></a>PERSON_ENTERTAINER&#160;</td><td class="fielddoc">
+<p>Staff entertainers. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a71a16f6a15e17a675963621dceb2722ea913df5a40131b5c9ad312aa7189e1566"></a>PERSON_TYPE_COUNT&#160;</td><td class="fielddoc">
 <p>Number of known types of persons. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a71a16f6a15e17a675963621dceb2722eaf137c8b420f4b67907f89ddddac93da1"></a>PERSON_INVALID&#160;</td><td class="fielddoc">
 <p>Invalid person type. </p>
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="a71a16f6a15e17a675963621dceb2722ea0f41ac34e3367850a564d83fc3de00d1"></a>PERSON_MIN_GUEST&#160;</td><td class="fielddoc">
-<p>First value of a guest. </p>
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="a71a16f6a15e17a675963621dceb2722eabe54aea3b14b6999d47184d8f0e91d43"></a>PERSON_MAX_GUEST&#160;</td><td class="fielddoc">
-<p>Last value of a guest. </p>
 </td></tr>
 </table>
 
@@ -179,11 +180,11 @@ Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>Reference to the data of the queried person type. </dd></dl>
 <dl class="section note"><dt>Note</dt><dd>Use <a class="el" href="person__type_8h.html#aa3fe514a01d43083aecc01e89d5dc2ad" title="Get the data about a person type for reading. ">GetPersonTypeData</a> if the data is only read. </dd></dl>
 
-<p>Definition at line <a class="el" href="person_8cpp_source.html#l00046">46</a> of file <a class="el" href="person_8cpp_source.html">person.cpp</a>.</p>
+<p>Definition at line <a class="el" href="person_8cpp_source.html#l00047">47</a> of file <a class="el" href="person_8cpp_source.html">person.cpp</a>.</p>
 
 <p>References <a class="el" href="stdafx_8h_source.html#l00157">lengthof</a>.</p>
 
-<p>Referenced by <a class="el" href="person__type_8h_source.html#l00058">GetPersonTypeData()</a>, and <a class="el" href="person_8cpp_source.html#l00057">LoadPRSG()</a>.</p>
+<p>Referenced by <a class="el" href="person__type_8h_source.html#l00058">GetPersonTypeData()</a>, and <a class="el" href="person_8cpp_source.html#l00058">LoadPRSG()</a>.</p>
 
 </div>
 </div>
@@ -220,48 +221,9 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="person__type_8h_source.html#l00058">58</a> of file <a class="el" href="person__type_8h_source.html">person_type.h</a>.</p>
 
-<p>References <a class="el" href="person_8cpp_source.html#l00046">ModifyPersonTypeData()</a>.</p>
+<p>References <a class="el" href="person_8cpp_source.html#l00047">ModifyPersonTypeData()</a>.</p>
 
-<p>Referenced by <a class="el" href="person_8cpp_source.html#l00172">Person::Activate()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a6aec6954a73d521d8155157167165403"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static bool PersonIsAGuest </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="stdafx_8h.html#adde6aaee8457bee49c2a92621fe22b79">uint8</a>&#160;</td>
-          <td class="paramname"><em>type</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Function to decide whether a person type is a guest or not. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">type</td><td>Person type to test. </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>Whether the given person type is a guest. </dd></dl>
-
-<p>Definition at line <a class="el" href="person__type_8h_source.html#l00068">68</a> of file <a class="el" href="person__type_8h_source.html">person_type.h</a>.</p>
-
-<p>References <a class="el" href="person__type_8h_source.html#l00030">PERSON_MAX_GUEST</a>, and <a class="el" href="person__type_8h_source.html#l00029">PERSON_MIN_GUEST</a>.</p>
-
-<p>Referenced by <a class="el" href="person_8cpp_source.html#l00942">Guest::DailyUpdate()</a>, <a class="el" href="person_8cpp_source.html#l00130">Person::GetName()</a>, and <a class="el" href="person_8cpp_source.html#l00115">Person::SetName()</a>.</p>
+<p>Referenced by <a class="el" href="person_8cpp_source.html#l00174">Person::Activate()</a>.</p>
 
 </div>
 </div>
@@ -288,18 +250,18 @@ Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Loading was a success. </dd></dl>
 
-<p>Definition at line <a class="el" href="person_8cpp_source.html#l00057">57</a> of file <a class="el" href="person_8cpp_source.html">person.cpp</a>.</p>
+<p>Definition at line <a class="el" href="person_8cpp_source.html#l00058">58</a> of file <a class="el" href="person_8cpp_source.html">person.cpp</a>.</p>
 
-<p>References <a class="el" href="fileio_8cpp_source.html#l00196">RcdFileReader::GetUInt32()</a>, <a class="el" href="fileio_8cpp_source.html#l00153">RcdFileReader::GetUInt8()</a>, <a class="el" href="person__type_8h_source.html#l00043">PersonTypeData::graphics</a>, <a class="el" href="person_8cpp_source.html#l00046">ModifyPersonTypeData()</a>, <a class="el" href="person__type_8h_source.html#l00024">PERSON_EARTH</a>, <a class="el" href="person__type_8h_source.html#l00027">PERSON_INVALID</a>, <a class="el" href="person__type_8h_source.html#l00023">PERSON_PILLAR</a>, <a class="el" href="person__type_8h_source.html#l00036">PersonTypeGraphics::recolours</a>, <a class="el" href="palette_8cpp_source.html#l00127">Recolouring::Reset()</a>, <a class="el" href="palette_8cpp_source.html#l00137">Recolouring::Set()</a>, <a class="el" href="fileio_8h_source.html#l00069">RcdFileReader::size</a>, and <a class="el" href="fileio_8h_source.html#l00068">RcdFileReader::version</a>.</p>
+<p>References <a class="el" href="fileio_8cpp_source.html#l00196">RcdFileReader::GetUInt32()</a>, <a class="el" href="fileio_8cpp_source.html#l00153">RcdFileReader::GetUInt8()</a>, <a class="el" href="person__type_8h_source.html#l00043">PersonTypeData::graphics</a>, <a class="el" href="person_8cpp_source.html#l00047">ModifyPersonTypeData()</a>, <a class="el" href="person__type_8h_source.html#l00027">PERSON_ENTERTAINER</a>, <a class="el" href="person__type_8h_source.html#l00026">PERSON_GUARD</a>, <a class="el" href="person__type_8h_source.html#l00023">PERSON_GUEST</a>, <a class="el" href="person__type_8h_source.html#l00024">PERSON_HANDYMAN</a>, <a class="el" href="person__type_8h_source.html#l00030">PERSON_INVALID</a>, <a class="el" href="person__type_8h_source.html#l00025">PERSON_MECHANIC</a>, <a class="el" href="person__type_8h_source.html#l00036">PersonTypeGraphics::recolours</a>, <a class="el" href="palette_8cpp_source.html#l00127">Recolouring::Reset()</a>, <a class="el" href="palette_8cpp_source.html#l00137">Recolouring::Set()</a>, <a class="el" href="fileio_8h_source.html#l00069">RcdFileReader::size</a>, and <a class="el" href="fileio_8h_source.html#l00068">RcdFileReader::version</a>.</p>
 
-<p>Referenced by <a class="el" href="sprite__store_8cpp_source.html#l01185">SpriteManager::Load()</a>.</p>
+<p>Referenced by <a class="el" href="sprite__store_8cpp_source.html#l01315">SpriteManager::Load()</a>.</p>
 
 </div>
 </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Sep 5 2014 19:06:13 for FreeRCT by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Feb 25 2015 13:22:40 for FreeRCT by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

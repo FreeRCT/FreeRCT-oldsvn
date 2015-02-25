@@ -69,15 +69,17 @@
 <code>#include &quot;<a class="el" href="gamelevel_8h_source.html">gamelevel.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="window_8h_source.html">window.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="finances_8h_source.html">finances.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="person_8h_source.html">person.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="people_8h_source.html">people.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="random_8h_source.html">random.h</a>&quot;</code><br />
 </div>
 <p><a href="ride__type_8cpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ad0197331de2c07730a513a74574121d7"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classRideInstance.html">RideInstance</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ride__type_8cpp.html#ad0197331de2c07730a513a74574121d7">RideExistsAtBottom</a> (int xpos, int ypos, int zpos, <a class="el" href="group__map__group.html#ga29bb8f9503c34074bad3c762c92ee68b">TileEdge</a> edge)</td></tr>
-<tr class="memdesc:ad0197331de2c07730a513a74574121d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Does a ride entrance exists at/to the bottom the given voxel in the neighbouring voxel?  <a href="#ad0197331de2c07730a513a74574121d7">More...</a><br /></td></tr>
-<tr class="separator:ad0197331de2c07730a513a74574121d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afea7cee3447ee2730725648991c3f6ee"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classRideInstance.html">RideInstance</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ride__type_8cpp.html#afea7cee3447ee2730725648991c3f6ee">RideExistsAtBottom</a> (<a class="el" href="geometry_8h.html#a71fcb91f44cc6cbf519d0c45c07e931d">XYZPoint16</a> pos, <a class="el" href="group__map__group.html#ga29bb8f9503c34074bad3c762c92ee68b">TileEdge</a> edge)</td></tr>
+<tr class="memdesc:afea7cee3447ee2730725648991c3f6ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Does a ride entrance exists at/to the bottom the given voxel in the neighbouring voxel?  <a href="#afea7cee3447ee2730725648991c3f6ee">More...</a><br /></td></tr>
+<tr class="separator:afea7cee3447ee2730725648991c3f6ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
@@ -91,27 +93,15 @@ Variables</h2></td></tr>
 
 <p>Definition in file <a class="el" href="ride__type_8cpp_source.html">ride_type.cpp</a>.</p>
 </div><h2 class="groupheader">Function Documentation</h2>
-<a class="anchor" id="ad0197331de2c07730a513a74574121d7"></a>
+<a class="anchor" id="afea7cee3447ee2730725648991c3f6ee"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="classRideInstance.html">RideInstance</a>* RideExistsAtBottom </td>
+          <td class="memname"><a class="el" href="classRideInstance.html">RideInstance</a>* RideExistsAtBottom </td>
           <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>xpos</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>ypos</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>zpos</em>, </td>
+          <td class="paramtype"><a class="el" href="geometry_8h.html#a71fcb91f44cc6cbf519d0c45c07e931d">XYZPoint16</a>&#160;</td>
+          <td class="paramname"><em>pos</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -130,9 +120,7 @@ Variables</h2></td></tr>
 <p>Does a ride entrance exists at/to the bottom the given voxel in the neighbouring voxel? </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">xpos</td><td>X coordinate of the voxel. </td></tr>
-    <tr><td class="paramname">ypos</td><td>Y coordinate of the voxel. </td></tr>
-    <tr><td class="paramname">zpos</td><td>Z coordinate of the voxel. </td></tr>
+    <tr><td class="paramname">pos</td><td>Coordinate of the voxel. </td></tr>
     <tr><td class="paramname">edge</td><td>Direction to move to get the neighbouring voxel. </td></tr>
   </table>
   </dd>
@@ -140,9 +128,9 @@ Variables</h2></td></tr>
 <dl class="section pre"><dt>Precondition</dt><dd>voxel coordinate must be valid in the world. </dd></dl>
 <dl class="section return"><dt>Returns</dt><dd>The ride at the neighbouring voxel, if available (else <code>nullptr</code> is returned). </dd></dl>
 
-<p>Definition at line <a class="el" href="ride__type_8cpp_source.html#l00597">597</a> of file <a class="el" href="ride__type_8cpp_source.html">ride_type.cpp</a>.</p>
+<p>Definition at line <a class="el" href="ride__type_8cpp_source.html#l00619">619</a> of file <a class="el" href="ride__type_8cpp_source.html">ride_type.cpp</a>.</p>
 
-<p>References <a class="el" href="tile__func_8cpp_source.html#l00032">_tile_dxy</a>, <a class="el" href="map_8cpp_source.html#l00027">_world</a>, <a class="el" href="map_8h_source.html#l00072">Voxel::GetInstance()</a>, <a class="el" href="ride__type_8cpp_source.html#l00412">RidesManager::GetRideInstance()</a>, <a class="el" href="map_8h_source.html#l00520">VoxelWorld::GetVoxel()</a>, <a class="el" href="map_8h_source.html#l00653">IsVoxelstackInsideWorld()</a>, <a class="el" href="map_8h_source.html#l00045">SRI_FULL_RIDES</a>, <a class="el" href="geometry_8h_source.html#l00037">Point&lt; CT &gt;::x</a>, and <a class="el" href="geometry_8h_source.html#l00038">Point&lt; CT &gt;::y</a>.</p>
+<p>References <a class="el" href="tile__func_8cpp_source.html#l00032">_tile_dxy</a>, <a class="el" href="map_8cpp_source.html#l00027">_world</a>, <a class="el" href="map_8h_source.html#l00072">Voxel::GetInstance()</a>, <a class="el" href="ride__type_8cpp_source.html#l00434">RidesManager::GetRideInstance()</a>, <a class="el" href="map_8h_source.html#l00514">VoxelWorld::GetVoxel()</a>, <a class="el" href="map_8h_source.html#l00639">IsVoxelstackInsideWorld()</a>, <a class="el" href="map_8h_source.html#l00045">SRI_FULL_RIDES</a>, <a class="el" href="geometry_8h_source.html#l00036">Point&lt; CT &gt;::x</a>, <a class="el" href="geometry_8h_source.html#l00100">XYZPoint&lt; CT &gt;::x</a>, <a class="el" href="geometry_8h_source.html#l00037">Point&lt; CT &gt;::y</a>, <a class="el" href="geometry_8h_source.html#l00101">XYZPoint&lt; CT &gt;::y</a>, and <a class="el" href="geometry_8h_source.html#l00102">XYZPoint&lt; CT &gt;::z</a>.</p>
 
 <p>Referenced by <a class="el" href="person_8cpp_source.html#l00389">Guest::ComputeExitDesire()</a>.</p>
 
@@ -151,7 +139,7 @@ Variables</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Sep 5 2014 19:06:13 for FreeRCT by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Feb 25 2015 13:22:40 for FreeRCT by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

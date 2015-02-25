@@ -152,9 +152,9 @@ Functions</h2></td></tr>
 <tr class="memitem:ad107e1bcd4b496ccf8b24ca7b68f4f68"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="map_8h.html#ad107e1bcd4b496ccf8b24ca7b68f4f68">IsVoxelstackInsideWorld</a> (int x, int y)</td></tr>
 <tr class="memdesc:ad107e1bcd4b496ccf8b24ca7b68f4f68"><td class="mdescLeft">&#160;</td><td class="mdescRight">Is the given world voxelstack coordinate within the world boundaries?  <a href="#ad107e1bcd4b496ccf8b24ca7b68f4f68">More...</a><br /></td></tr>
 <tr class="separator:ad107e1bcd4b496ccf8b24ca7b68f4f68"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4fbcb0ab1e143533f9d13d3b5f89e895"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="map_8h.html#a4fbcb0ab1e143533f9d13d3b5f89e895">IsVoxelInsideWorld</a> (int x, int y, int z)</td></tr>
-<tr class="memdesc:a4fbcb0ab1e143533f9d13d3b5f89e895"><td class="mdescLeft">&#160;</td><td class="mdescRight">Is the given world voxel coordinate within the world boundaries?  <a href="#a4fbcb0ab1e143533f9d13d3b5f89e895">More...</a><br /></td></tr>
-<tr class="separator:a4fbcb0ab1e143533f9d13d3b5f89e895"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a025073e0fa94e1f39f620111c9925ac0"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="map_8h.html#a025073e0fa94e1f39f620111c9925ac0">IsVoxelInsideWorld</a> (const <a class="el" href="geometry_8h.html#a71fcb91f44cc6cbf519d0c45c07e931d">XYZPoint16</a> &amp;vox)</td></tr>
+<tr class="memdesc:a025073e0fa94e1f39f620111c9925ac0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Is the given world voxel coordinate within the world boundaries?  <a href="#a025073e0fa94e1f39f620111c9925ac0">More...</a><br /></td></tr>
+<tr class="separator:a025073e0fa94e1f39f620111c9925ac0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa6a3e2ed7cb02ed123ccaef808251702"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="map_8h.html#aa6a3e2ed7cb02ed123ccaef808251702">IsRaisedEdge</a> (<a class="el" href="group__map__group.html#ga29bb8f9503c34074bad3c762c92ee68b">TileEdge</a> edge, <a class="el" href="group__map__group.html#gaa25639f3980e1fa4c64a58d3a8e4d149">TileSlope</a> slope)</td></tr>
 <tr class="memdesc:aa6a3e2ed7cb02ed123ccaef808251702"><td class="mdescLeft">&#160;</td><td class="mdescRight">Is both corners of given edge raised of a voxel with the given non-steep slope?  <a href="#aa6a3e2ed7cb02ed123ccaef808251702">More...</a><br /></td></tr>
 <tr class="separator:aa6a3e2ed7cb02ed123ccaef808251702"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -219,7 +219,7 @@ static const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="ada9f0c1420f66f999469d82ef2262280ae3bfbce4590e9566985d32b115b851d7"></a>SRI_FULL_RIDES&#160;</td><td class="fielddoc">
 <p>First ride instance number for normal rides (created and stored in <a class="el" href="classRidesManager.html" title="Storage of available ride types. ">RidesManager</a>). </p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000025">Todo:</a></b></dt><dd>Add other scenery objects, like trees and flower beds. </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000026">Todo:</a></b></dt><dd>Add other scenery objects, like trees and flower beds. </dd></dl>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="ada9f0c1420f66f999469d82ef2262280a0b5caed9b75886c2a1d3cbb967f7181a"></a>SRI_LAST&#160;</td><td class="fielddoc">
 <p>Biggest possible ride number. </p>
@@ -256,7 +256,7 @@ static const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el
 </td></tr>
 </table>
 
-<p>Definition at line <a class="el" href="map_8h_source.html#l00450">450</a> of file <a class="el" href="map_8h_source.html">map.h</a>.</p>
+<p>Definition at line <a class="el" href="map_8h_source.html#l00446">446</a> of file <a class="el" href="map_8h_source.html">map.h</a>.</p>
 
 </div>
 </div>
@@ -293,11 +293,11 @@ static const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el
 <dl class="section return"><dt>Returns</dt><dd>Whether the instance data indicates a valid path. </dd></dl>
 <dl class="section pre"><dt>Precondition</dt><dd>The instance must be <a class="el" href="map_8h.html#ada9f0c1420f66f999469d82ef2262280aa21a61ab17228d4482507c9526547353" title="Path. ">SRI_PATH</a> </dd></dl>
 
-<p>Definition at line <a class="el" href="map_8h_source.html#l00372">372</a> of file <a class="el" href="map_8h_source.html">map.h</a>.</p>
+<p>Definition at line <a class="el" href="map_8h_source.html#l00368">368</a> of file <a class="el" href="map_8h_source.html">map.h</a>.</p>
 
 <p>References <a class="el" href="path_8h_source.html#l00085">PATH_INVALID</a>.</p>
 
-<p>Referenced by <a class="el" href="path__build_8cpp_source.html#l00278">CanBuildPathFromEdge()</a>, <a class="el" href="viewport_8cpp_source.html#l00891">SpriteCollector::CollectVoxel()</a>, <a class="el" href="viewport_8cpp_source.html#l01204">PixelFinder::CollectVoxel()</a>, <a class="el" href="person_8cpp_source.html#l00571">Guest::DecideMoveDirection()</a>, <a class="el" href="path_8cpp_source.html#l00400">ExamineNeighbourPathEdge()</a>, <a class="el" href="person_8cpp_source.html#l00429">Guest::GetExitDirections()</a>, <a class="el" href="map_8h_source.html#l00418">GetImplodedPathSlope()</a>, <a class="el" href="person_8cpp_source.html#l00503">GetParkEntryDirection()</a>, <a class="el" href="path__build_8cpp_source.html#l00315">GetPathAttachPoints()</a>, <a class="el" href="path_8cpp_source.html#l00221">GetPathExits()</a>, <a class="el" href="path__build_8cpp_source.html#l00731">PathBuildManager::GetRemoveIsEnabled()</a>, <a class="el" href="person_8cpp_source.html#l00150">GetZHeight()</a>, <a class="el" href="map_8h_source.html#l00383">HasValidPath()</a>, <a class="el" href="people_8cpp_source.html#l00043">IsGoodEdgeRoad()</a>, <a class="el" href="path__build_8cpp_source.html#l00494">PathBuildManager::MoveCursor()</a>, <a class="el" href="person_8cpp_source.html#l00698">Person::OnAnimate()</a>, <a class="el" href="path__build_8cpp_source.html#l00093">PathExistsAtBottomEdge()</a>, <a class="el" href="path__build_8cpp_source.html#l00245">RemovePath()</a>, <a class="el" href="path__build_8cpp_source.html#l00892">PathBuildManager::SelectBuyRemove()</a>, <a class="el" href="path__build_8cpp_source.html#l00556">PathBuildManager::SelectMovement()</a>, <a class="el" href="terraform_8cpp_source.html#l00253">SetUpperBoundary()</a>, and <a class="el" href="path_8cpp_source.html#l00267">TravelQueuePath()</a>.</p>
+<p>Referenced by <a class="el" href="path__build_8cpp_source.html#l00315">CanBuildPathFromEdge()</a>, <a class="el" href="path__build_8cpp_source.html#l00290">ChangePath()</a>, <a class="el" href="viewport_8cpp_source.html#l00864">SpriteCollector::CollectVoxel()</a>, <a class="el" href="viewport_8cpp_source.html#l01175">PixelFinder::CollectVoxel()</a>, <a class="el" href="path__build_8cpp_source.html#l00878">PathBuildManager::ComputeNewLongPath()</a>, <a class="el" href="path__build_8cpp_source.html#l00688">PathBuildManager::ComputeWorldAdditions()</a>, <a class="el" href="person_8cpp_source.html#l00625">Guest::DecideMoveDirection()</a>, <a class="el" href="path_8cpp_source.html#l00373">ExamineNeighbourPathEdge()</a>, <a class="el" href="person_8cpp_source.html#l00471">Guest::GetExitDirections()</a>, <a class="el" href="map_8h_source.html#l00414">GetImplodedPathSlope()</a>, <a class="el" href="person_8cpp_source.html#l00532">GetParkEntryDirection()</a>, <a class="el" href="path__build_8cpp_source.html#l00350">GetPathAttachPoints()</a>, <a class="el" href="path_8cpp_source.html#l00221">GetPathExits()</a>, <a class="el" href="path__build_8cpp_source.html#l00821">PathBuildManager::GetRemoveIsEnabled()</a>, <a class="el" href="person_8cpp_source.html#l00152">GetZHeight()</a>, <a class="el" href="map_8h_source.html#l00379">HasValidPath()</a>, <a class="el" href="people_8cpp_source.html#l00043">IsGoodEdgeRoad()</a>, <a class="el" href="path__build_8cpp_source.html#l00584">PathBuildManager::MoveCursor()</a>, <a class="el" href="person_8cpp_source.html#l00809">Person::OnAnimate()</a>, <a class="el" href="path__build_8cpp_source.html#l00110">PathExistsAtBottomEdge()</a>, <a class="el" href="path__build_8cpp_source.html#l00258">RemovePath()</a>, <a class="el" href="path__build_8cpp_source.html#l00987">PathBuildManager::SelectBuyRemove()</a>, <a class="el" href="path__build_8cpp_source.html#l00642">PathBuildManager::SelectMovement()</a>, <a class="el" href="terraform_8cpp_source.html#l00253">SetUpperBoundary()</a>, <a class="el" href="path__build_8cpp_source.html#l00505">PathBuildManager::TileClicked()</a>, and <a class="el" href="path_8cpp_source.html#l00250">TravelQueuePath()</a>.</p>
 
 </div>
 </div>
@@ -331,11 +331,11 @@ static const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd><code>true</code> if the voxel contains a valid path, else <code>false</code>. </dd></dl>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000024">Todo:</a></b></dt><dd>Extend with acceptable types of path (plain path, queueing path, etc.) </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000025">Todo:</a></b></dt><dd>Extend with acceptable types of path (plain path, queueing path, etc.) </dd></dl>
 
-<p>Definition at line <a class="el" href="map_8h_source.html#l00383">383</a> of file <a class="el" href="map_8h_source.html">map.h</a>.</p>
+<p>Definition at line <a class="el" href="map_8h_source.html#l00379">379</a> of file <a class="el" href="map_8h_source.html">map.h</a>.</p>
 
-<p>References <a class="el" href="map_8h_source.html#l00372">HasValidPath()</a>, <a class="el" href="map_8h_source.html#l00065">Voxel::instance</a>, <a class="el" href="map_8h_source.html#l00066">Voxel::instance_data</a>, and <a class="el" href="map_8h_source.html#l00043">SRI_PATH</a>.</p>
+<p>References <a class="el" href="map_8h_source.html#l00368">HasValidPath()</a>, <a class="el" href="map_8h_source.html#l00065">Voxel::instance</a>, <a class="el" href="map_8h_source.html#l00066">Voxel::instance_data</a>, and <a class="el" href="map_8h_source.html#l00043">SRI_PATH</a>.</p>
 
 </div>
 </div>
@@ -371,11 +371,11 @@ static const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el
 <dl class="section return"><dt>Returns</dt><dd>Imploded slope of the path. </dd></dl>
 <dl class="section pre"><dt>Precondition</dt><dd>instance data must be a valid path. </dd></dl>
 
-<p>Definition at line <a class="el" href="map_8h_source.html#l00394">394</a> of file <a class="el" href="map_8h_source.html">map.h</a>.</p>
+<p>Definition at line <a class="el" href="map_8h_source.html#l00390">390</a> of file <a class="el" href="map_8h_source.html">map.h</a>.</p>
 
 <p>References <a class="el" href="bitmath_8h_source.html#l00034">GB()</a>.</p>
 
-<p>Referenced by <a class="el" href="path__build_8cpp_source.html#l00278">CanBuildPathFromEdge()</a>, <a class="el" href="viewport_8cpp_source.html#l00891">SpriteCollector::CollectVoxel()</a>, <a class="el" href="viewport_8cpp_source.html#l01204">PixelFinder::CollectVoxel()</a>, <a class="el" href="path_8cpp_source.html#l00400">ExamineNeighbourPathEdge()</a>, <a class="el" href="person_8cpp_source.html#l00429">Guest::GetExitDirections()</a>, <a class="el" href="map_8h_source.html#l00418">GetImplodedPathSlope()</a>, <a class="el" href="person_8cpp_source.html#l00503">GetParkEntryDirection()</a>, <a class="el" href="path__build_8cpp_source.html#l00315">GetPathAttachPoints()</a>, <a class="el" href="path_8cpp_source.html#l00221">GetPathExits()</a>, <a class="el" href="person_8cpp_source.html#l00150">GetZHeight()</a>, <a class="el" href="people_8cpp_source.html#l00043">IsGoodEdgeRoad()</a>, <a class="el" href="path__build_8cpp_source.html#l00093">PathExistsAtBottomEdge()</a>, <a class="el" href="path__build_8cpp_source.html#l00245">RemovePath()</a>, <a class="el" href="path__build_8cpp_source.html#l00892">PathBuildManager::SelectBuyRemove()</a>, <a class="el" href="path__build_8cpp_source.html#l00556">PathBuildManager::SelectMovement()</a>, and <a class="el" href="terraform_8cpp_source.html#l00253">SetUpperBoundary()</a>.</p>
+<p>Referenced by <a class="el" href="path__build_8cpp_source.html#l00315">CanBuildPathFromEdge()</a>, <a class="el" href="path__build_8cpp_source.html#l00290">ChangePath()</a>, <a class="el" href="viewport_8cpp_source.html#l00864">SpriteCollector::CollectVoxel()</a>, <a class="el" href="viewport_8cpp_source.html#l01175">PixelFinder::CollectVoxel()</a>, <a class="el" href="path_8cpp_source.html#l00373">ExamineNeighbourPathEdge()</a>, <a class="el" href="map_8h_source.html#l00414">GetImplodedPathSlope()</a>, <a class="el" href="person_8cpp_source.html#l00532">GetParkEntryDirection()</a>, <a class="el" href="path__build_8cpp_source.html#l00350">GetPathAttachPoints()</a>, <a class="el" href="path_8cpp_source.html#l00221">GetPathExits()</a>, <a class="el" href="person_8cpp_source.html#l00152">GetZHeight()</a>, <a class="el" href="people_8cpp_source.html#l00043">IsGoodEdgeRoad()</a>, <a class="el" href="path__build_8cpp_source.html#l00110">PathExistsAtBottomEdge()</a>, <a class="el" href="path__build_8cpp_source.html#l00258">RemovePath()</a>, <a class="el" href="path__build_8cpp_source.html#l00987">PathBuildManager::SelectBuyRemove()</a>, <a class="el" href="path__build_8cpp_source.html#l00642">PathBuildManager::SelectMovement()</a>, and <a class="el" href="terraform_8cpp_source.html#l00253">SetUpperBoundary()</a>.</p>
 
 </div>
 </div>
@@ -422,11 +422,11 @@ static const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el
 <dl class="section return"><dt>Returns</dt><dd>New instance data of a path. </dd></dl>
 <dl class="section pre"><dt>Precondition</dt><dd>instance data must be a valid path. </dd></dl>
 
-<p>Definition at line <a class="el" href="map_8h_source.html#l00406">406</a> of file <a class="el" href="map_8h_source.html">map.h</a>.</p>
+<p>Definition at line <a class="el" href="map_8h_source.html#l00402">402</a> of file <a class="el" href="map_8h_source.html">map.h</a>.</p>
 
 <p>References <a class="el" href="bitmath_8h_source.html#l00058">SB()</a>.</p>
 
-<p>Referenced by <a class="el" href="path_8cpp_source.html#l00400">ExamineNeighbourPathEdge()</a>.</p>
+<p>Referenced by <a class="el" href="path_8cpp_source.html#l00373">ExamineNeighbourPathEdge()</a>.</p>
 
 </div>
 </div>
@@ -462,9 +462,9 @@ static const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el
 <dl class="section return"><dt>Returns</dt><dd>Imploded slope of the path. </dd></dl>
 <dl class="section pre"><dt>Precondition</dt><dd>Voxel should have a valid path. </dd></dl>
 
-<p>Definition at line <a class="el" href="map_8h_source.html#l00418">418</a> of file <a class="el" href="map_8h_source.html">map.h</a>.</p>
+<p>Definition at line <a class="el" href="map_8h_source.html#l00414">414</a> of file <a class="el" href="map_8h_source.html">map.h</a>.</p>
 
-<p>References <a class="el" href="map_8h_source.html#l00394">GetImplodedPathSlope()</a>, <a class="el" href="map_8h_source.html#l00372">HasValidPath()</a>, <a class="el" href="map_8h_source.html#l00066">Voxel::instance_data</a>, and <a class="el" href="path_8h_source.html#l00083">PATH_COUNT</a>.</p>
+<p>References <a class="el" href="map_8h_source.html#l00390">GetImplodedPathSlope()</a>, <a class="el" href="map_8h_source.html#l00368">HasValidPath()</a>, <a class="el" href="map_8h_source.html#l00066">Voxel::instance_data</a>, and <a class="el" href="path_8h_source.html#l00083">PATH_COUNT</a>.</p>
 
 </div>
 </div>
@@ -500,11 +500,11 @@ static const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el
 <dl class="section return"><dt>Returns</dt><dd>Type of path. </dd></dl>
 <dl class="section pre"><dt>Precondition</dt><dd>instance data must be a valid path. </dd></dl>
 
-<p>Definition at line <a class="el" href="map_8h_source.html#l00433">433</a> of file <a class="el" href="map_8h_source.html">map.h</a>.</p>
+<p>Definition at line <a class="el" href="map_8h_source.html#l00429">429</a> of file <a class="el" href="map_8h_source.html">map.h</a>.</p>
 
 <p>References <a class="el" href="bitmath_8h_source.html#l00034">GB()</a>.</p>
 
-<p>Referenced by <a class="el" href="viewport_8cpp_source.html#l00891">SpriteCollector::CollectVoxel()</a>, <a class="el" href="viewport_8cpp_source.html#l01204">PixelFinder::CollectVoxel()</a>, <a class="el" href="path_8cpp_source.html#l00400">ExamineNeighbourPathEdge()</a>, <a class="el" href="person_8cpp_source.html#l00429">Guest::GetExitDirections()</a>, and <a class="el" href="path_8cpp_source.html#l00267">TravelQueuePath()</a>.</p>
+<p>Referenced by <a class="el" href="viewport_8cpp_source.html#l00864">SpriteCollector::CollectVoxel()</a>, <a class="el" href="viewport_8cpp_source.html#l01175">PixelFinder::CollectVoxel()</a>, <a class="el" href="path_8cpp_source.html#l00373">ExamineNeighbourPathEdge()</a>, <a class="el" href="person_8cpp_source.html#l00471">Guest::GetExitDirections()</a>, and <a class="el" href="path_8cpp_source.html#l00250">TravelQueuePath()</a>.</p>
 
 </div>
 </div>
@@ -550,9 +550,9 @@ static const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Instance data of a valid path. </dd></dl>
 
-<p>Definition at line <a class="el" href="map_8h_source.html#l00444">444</a> of file <a class="el" href="map_8h_source.html">map.h</a>.</p>
+<p>Definition at line <a class="el" href="map_8h_source.html#l00440">440</a> of file <a class="el" href="map_8h_source.html">map.h</a>.</p>
 
-<p>Referenced by <a class="el" href="path__build_8cpp_source.html#l00030">BuildPathAtTile()</a>.</p>
+<p>Referenced by <a class="el" href="path__build_8cpp_source.html#l00028">BuildPathAtTile()</a>, and <a class="el" href="path__build_8cpp_source.html#l00085">ChangePathAtTile()</a>.</p>
 
 </div>
 </div>
@@ -573,7 +573,7 @@ static const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el
 
 <p>Definition at line <a class="el" href="viewport_8cpp_source.html#l00101">101</a> of file <a class="el" href="viewport_8cpp_source.html">viewport.cpp</a>.</p>
 
-<p>Referenced by <a class="el" href="ride__gui_8cpp_source.html#l00526">ShopPlacementManager::ActivateMode()</a>, and <a class="el" href="coaster__gui_8cpp_source.html#l01328">CoasterBuildMode::UpdateDisplay()</a>.</p>
+<p>Referenced by <a class="el" href="ride__gui_8cpp_source.html#l00521">ShopPlacementManager::ActivateMode()</a>, and <a class="el" href="coaster__gui_8cpp_source.html#l01313">CoasterBuildMode::UpdateDisplay()</a>.</p>
 
 </div>
 </div>
@@ -594,7 +594,7 @@ static const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el
 
 <p>Definition at line <a class="el" href="viewport_8cpp_source.html#l00108">108</a> of file <a class="el" href="viewport_8cpp_source.html">viewport.cpp</a>.</p>
 
-<p>Referenced by <a class="el" href="path__build_8cpp_source.html#l00387">PathBuildManager::LeaveMode()</a>, <a class="el" href="ride__gui_8cpp_source.html#l00541">ShopPlacementManager::LeaveMode()</a>, <a class="el" href="ride__gui_8cpp_source.html#l00566">ShopPlacementManager::OnMouseButtonEvent()</a>, <a class="el" href="path__build_8cpp_source.html#l00357">PathBuildManager::PathBuildManager()</a>, <a class="el" href="ride__gui_8cpp_source.html#l00622">ShopPlacementManager::SetSelection()</a>, and <a class="el" href="coaster__gui_8cpp_source.html#l01328">CoasterBuildMode::UpdateDisplay()</a>.</p>
+<p>Referenced by <a class="el" href="path__build_8cpp_source.html#l00425">PathBuildManager::LeaveMode()</a>, <a class="el" href="ride__gui_8cpp_source.html#l00536">ShopPlacementManager::LeaveMode()</a>, <a class="el" href="ride__gui_8cpp_source.html#l00561">ShopPlacementManager::OnMouseButtonEvent()</a>, <a class="el" href="path__build_8cpp_source.html#l00395">PathBuildManager::PathBuildManager()</a>, <a class="el" href="ride__gui_8cpp_source.html#l00617">ShopPlacementManager::SetSelection()</a>, <a class="el" href="coaster__gui_8cpp_source.html#l01313">CoasterBuildMode::UpdateDisplay()</a>, and <a class="el" href="path__build_8cpp_source.html#l00730">PathBuildManager::UpdateState()</a>.</p>
 
 </div>
 </div>
@@ -640,15 +640,15 @@ static const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Voxelstack coordinate is within world boundaries. </dd></dl>
 
-<p>Definition at line <a class="el" href="map_8h_source.html#l00653">653</a> of file <a class="el" href="map_8h_source.html">map.h</a>.</p>
+<p>Definition at line <a class="el" href="map_8h_source.html#l00639">639</a> of file <a class="el" href="map_8h_source.html">map.h</a>.</p>
 
-<p>References <a class="el" href="map_8h_source.html#l00542">VoxelWorld::GetXSize()</a>, and <a class="el" href="map_8h_source.html#l00551">VoxelWorld::GetYSize()</a>.</p>
+<p>References <a class="el" href="map_8h_source.html#l00534">VoxelWorld::GetXSize()</a>, and <a class="el" href="map_8h_source.html#l00543">VoxelWorld::GetYSize()</a>.</p>
 
-<p>Referenced by <a class="el" href="path__build_8cpp_source.html#l00203">BuildDownwardPath()</a>, <a class="el" href="path__build_8cpp_source.html#l00165">BuildFlatPath()</a>, <a class="el" href="path__build_8cpp_source.html#l00122">BuildUpwardPath()</a>, <a class="el" href="path__build_8cpp_source.html#l00278">CanBuildPathFromEdge()</a>, <a class="el" href="ride__gui_8cpp_source.html#l00410">ShopPlacementManager::ComputeShopVoxel()</a>, <a class="el" href="path__build_8cpp_source.html#l00315">GetPathAttachPoints()</a>, <a class="el" href="path_8cpp_source.html#l00249">GetPathExits()</a>, <a class="el" href="map_8h_source.html#l00665">IsVoxelInsideWorld()</a>, <a class="el" href="path__build_8cpp_source.html#l00093">PathExistsAtBottomEdge()</a>, <a class="el" href="path__build_8cpp_source.html#l00245">RemovePath()</a>, <a class="el" href="ride__type_8cpp_source.html#l00597">RideExistsAtBottom()</a>, and <a class="el" href="path_8cpp_source.html#l00267">TravelQueuePath()</a>.</p>
+<p>Referenced by <a class="el" href="path_8cpp_source.html#l00431">AddRemovePathEdges()</a>, <a class="el" href="path__build_8cpp_source.html#l00215">BuildDownwardPath()</a>, <a class="el" href="path__build_8cpp_source.html#l00179">BuildFlatPath()</a>, <a class="el" href="path__build_8cpp_source.html#l00138">BuildUpwardPath()</a>, <a class="el" href="path__build_8cpp_source.html#l00315">CanBuildPathFromEdge()</a>, <a class="el" href="ride__gui_8cpp_source.html#l00405">ShopPlacementManager::ComputeShopVoxel()</a>, <a class="el" href="person_8cpp_source.html#l01049">Guest::EdgeOfWorldOnAnimate()</a>, <a class="el" href="path__build_8cpp_source.html#l00350">GetPathAttachPoints()</a>, <a class="el" href="map_8h_source.html#l00649">IsVoxelInsideWorld()</a>, <a class="el" href="path__build_8cpp_source.html#l00110">PathExistsAtBottomEdge()</a>, <a class="el" href="path__build_8cpp_source.html#l00258">RemovePath()</a>, <a class="el" href="ride__type_8cpp_source.html#l00619">RideExistsAtBottom()</a>, and <a class="el" href="path_8cpp_source.html#l00250">TravelQueuePath()</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a4fbcb0ab1e143533f9d13d3b5f89e895"></a>
+<a class="anchor" id="a025073e0fa94e1f39f620111c9925ac0"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -658,25 +658,9 @@ static const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el
         <tr>
           <td class="memname">static bool IsVoxelInsideWorld </td>
           <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>x</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramtype">const <a class="el" href="geometry_8h.html#a71fcb91f44cc6cbf519d0c45c07e931d">XYZPoint16</a> &amp;&#160;</td>
+          <td class="paramname"><em>vox</em></td><td>)</td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>y</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>z</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -689,19 +673,17 @@ static const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el
 <p>Is the given world voxel coordinate within the world boundaries? </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">x</td><td>X position of the voxel. </td></tr>
-    <tr><td class="paramname">y</td><td>Y position of the voxel. </td></tr>
-    <tr><td class="paramname">z</td><td>Z position of the voxel. </td></tr>
+    <tr><td class="paramname">vox</td><td><a class="el" href="classPosition.html" title="Position in a source file. ">Position</a> of the voxel. </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Voxel coordinate is within world boundaries. </dd></dl>
 
-<p>Definition at line <a class="el" href="map_8h_source.html#l00665">665</a> of file <a class="el" href="map_8h_source.html">map.h</a>.</p>
+<p>Definition at line <a class="el" href="map_8h_source.html#l00649">649</a> of file <a class="el" href="map_8h_source.html">map.h</a>.</p>
 
-<p>References <a class="el" href="map_8h_source.html#l00653">IsVoxelstackInsideWorld()</a>, and <a class="el" href="map_8h_source.html#l00027">WORLD_Z_SIZE</a>.</p>
+<p>References <a class="el" href="map_8h_source.html#l00639">IsVoxelstackInsideWorld()</a>, <a class="el" href="map_8h_source.html#l00027">WORLD_Z_SIZE</a>, <a class="el" href="geometry_8h_source.html#l00100">XYZPoint&lt; CT &gt;::x</a>, <a class="el" href="geometry_8h_source.html#l00101">XYZPoint&lt; CT &gt;::y</a>, and <a class="el" href="geometry_8h_source.html#l00102">XYZPoint&lt; CT &gt;::z</a>.</p>
 
-<p>Referenced by <a class="el" href="track__piece_8cpp_source.html#l00255">PositionedTrackPiece::IsOnWorld()</a>.</p>
+<p>Referenced by <a class="el" href="path__build_8cpp_source.html#l00668">PathBuildManager::ComputeArrowCursorPosition()</a>, and <a class="el" href="track__piece_8cpp_source.html#l00243">PositionedTrackPiece::IsOnWorld()</a>.</p>
 
 </div>
 </div>
@@ -748,11 +730,11 @@ static const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el
 <dl class="section pre"><dt>Precondition</dt><dd>(slope &amp; TSB_STEEP) == 0 </dd></dl>
 <dl class="section return"><dt>Returns</dt><dd>True if both corners of given edge are raised, otherwise false. </dd></dl>
 
-<p>Definition at line <a class="el" href="map_8h_source.html#l00678">678</a> of file <a class="el" href="map_8h_source.html">map.h</a>.</p>
+<p>Definition at line <a class="el" href="map_8h_source.html#l00662">662</a> of file <a class="el" href="map_8h_source.html">map.h</a>.</p>
 
 <p>References <a class="el" href="tile_8h_source.html#l00069">TSB_STEEP</a>.</p>
 
-<p>Referenced by <a class="el" href="fence__build_8cpp_source.html#l00130">FenceBuildManager::OnMouseButtonEvent()</a>, and <a class="el" href="fence__build_8cpp_source.html#l00068">FenceBuildManager::SetCursors()</a>.</p>
+<p>Referenced by <a class="el" href="fence__build_8cpp_source.html#l00131">FenceBuildManager::OnMouseButtonEvent()</a>, and <a class="el" href="fence__build_8cpp_source.html#l00068">FenceBuildManager::SetCursors()</a>.</p>
 
 </div>
 </div>
@@ -772,14 +754,14 @@ static const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el
 
 <p>Definition at line <a class="el" href="viewport_8cpp_source.html#l00095">95</a> of file <a class="el" href="viewport_8cpp_source.html">viewport.cpp</a>.</p>
 
-<p>Referenced by <a class="el" href="path__build_8cpp_source.html#l00030">BuildPathAtTile()</a>, <a class="el" href="coaster__gui_8cpp_source.html#l00587">CoasterBuildWindow::BuildTrackPiece()</a>, <a class="el" href="terraform_8cpp_source.html#l00754">ChangeAreaCursorMode()</a>, <a class="el" href="terraform_8cpp_source.html#l00690">ChangeTileCursorMode()</a>, <a class="el" href="path__build_8cpp_source.html#l00791">PathBuildManager::ComputeNewLongPath()</a>, <a class="el" href="path_8cpp_source.html#l00400">ExamineNeighbourPathEdge()</a>, <a class="el" href="terraform_8cpp_source.html#l00442">TerrainChanges::ModifyWorld()</a>, <a class="el" href="coaster__gui_8cpp_source.html#l00308">CoasterBuildWindow::OnClick()</a>, <a class="el" href="ride__gui_8cpp_source.html#l00566">ShopPlacementManager::OnMouseButtonEvent()</a>, <a class="el" href="ride__gui_8cpp_source.html#l00465">ShopPlacementManager::PlaceShop()</a>, <a class="el" href="coaster_8cpp_source.html#l00772">CoasterInstance::PlaceTrackPieceInAdditions()</a>, <a class="el" href="path__build_8cpp_source.html#l00062">RemovePathAtTile()</a>, <a class="el" href="coaster_8cpp_source.html#l00793">CoasterInstance::RemoveTrackPieceInAdditions()</a>, <a class="el" href="path__build_8cpp_source.html#l00892">PathBuildManager::SelectBuyRemove()</a>, <a class="el" href="terraform_8cpp_source.html#l00353">SetXFoundations()</a>, <a class="el" href="terraform_8cpp_source.html#l00398">SetYFoundations()</a>, <a class="el" href="coaster__gui_8cpp_source.html#l01328">CoasterBuildMode::UpdateDisplay()</a>, and <a class="el" href="path__build_8cpp_source.html#l00637">PathBuildManager::UpdateState()</a>.</p>
+<p>Referenced by <a class="el" href="path__build_8cpp_source.html#l00028">BuildPathAtTile()</a>, <a class="el" href="coaster__gui_8cpp_source.html#l00577">CoasterBuildWindow::BuildTrackPiece()</a>, <a class="el" href="terraform_8cpp_source.html#l00754">ChangeAreaCursorMode()</a>, <a class="el" href="path__build_8cpp_source.html#l00085">ChangePathAtTile()</a>, <a class="el" href="terraform_8cpp_source.html#l00690">ChangeTileCursorMode()</a>, <a class="el" href="path__build_8cpp_source.html#l00878">PathBuildManager::ComputeNewLongPath()</a>, <a class="el" href="path_8cpp_source.html#l00373">ExamineNeighbourPathEdge()</a>, <a class="el" href="terraform_8cpp_source.html#l00442">TerrainChanges::ModifyWorld()</a>, <a class="el" href="coaster__gui_8cpp_source.html#l00308">CoasterBuildWindow::OnClick()</a>, <a class="el" href="path__build_8cpp_source.html#l00460">PathBuildManager::OnMouseButtonEvent()</a>, <a class="el" href="ride__gui_8cpp_source.html#l00561">ShopPlacementManager::OnMouseButtonEvent()</a>, <a class="el" href="ride__gui_8cpp_source.html#l00460">ShopPlacementManager::PlaceShop()</a>, <a class="el" href="coaster_8cpp_source.html#l00769">CoasterInstance::PlaceTrackPieceInAdditions()</a>, <a class="el" href="path__build_8cpp_source.html#l00058">RemovePathAtTile()</a>, <a class="el" href="coaster_8cpp_source.html#l00788">CoasterInstance::RemoveTrackPieceInAdditions()</a>, <a class="el" href="path__build_8cpp_source.html#l00987">PathBuildManager::SelectBuyRemove()</a>, <a class="el" href="terraform_8cpp_source.html#l00353">SetXFoundations()</a>, <a class="el" href="terraform_8cpp_source.html#l00398">SetYFoundations()</a>, <a class="el" href="path__build_8cpp_source.html#l00505">PathBuildManager::TileClicked()</a>, <a class="el" href="coaster__gui_8cpp_source.html#l01313">CoasterBuildMode::UpdateDisplay()</a>, and <a class="el" href="path__build_8cpp_source.html#l00730">PathBuildManager::UpdateState()</a>.</p>
 
 </div>
 </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Sep 5 2014 19:06:13 for FreeRCT by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Feb 25 2015 13:22:40 for FreeRCT by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

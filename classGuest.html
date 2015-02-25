@@ -57,7 +57,7 @@
 </div><!--header-->
 <div class="contents">
 
-<p><a class="el" href="classGuests.html" title="All our guests. ">Guests</a> walking around in the world.  
+<p>Guests walking around in the world.  
  <a href="classGuest.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="person_8h_source.html">person.h</a>&gt;</code></p>
@@ -80,24 +80,36 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ac0b98473add1c3fd854745b20e3d9531"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGuest.html#ac0b98473add1c3fd854745b20e3d9531">DeActivate</a> (<a class="el" href="person_8h.html#ae3aef3aff49220c420907cdf750bc0e4">AnimateResult</a> ar) override</td></tr>
 <tr class="memdesc:ac0b98473add1c3fd854745b20e3d9531"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mark this person as 'not in use'.  <a href="#ac0b98473add1c3fd854745b20e3d9531">More...</a><br /></td></tr>
 <tr class="separator:ac0b98473add1c3fd854745b20e3d9531"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60e68c7c991eacabba420deb94928a96"><td class="memItemLeft" align="right" valign="top"><a class="el" href="person_8h.html#ae3aef3aff49220c420907cdf750bc0e4">AnimateResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGuest.html#a60e68c7c991eacabba420deb94928a96">OnAnimate</a> (int delay) override</td></tr>
+<tr class="memdesc:a60e68c7c991eacabba420deb94928a96"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update the animation of a person.  <a href="#a60e68c7c991eacabba420deb94928a96">More...</a><br /></td></tr>
+<tr class="separator:a60e68c7c991eacabba420deb94928a96"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af61965465372fbc51c1d862cbfe17a50"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGuest.html#af61965465372fbc51c1d862cbfe17a50">DailyUpdate</a> () override</td></tr>
 <tr class="memdesc:af61965465372fbc51c1d862cbfe17a50"><td class="mdescLeft">&#160;</td><td class="mdescRight">Daily ponderings of a guest.  <a href="#af61965465372fbc51c1d862cbfe17a50">More...</a><br /></td></tr>
 <tr class="separator:af61965465372fbc51c1d862cbfe17a50"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2fbf321e4d35dfe2bd3dfdbf2552b477"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGuest.html#a2fbf321e4d35dfe2bd3dfdbf2552b477">ChangeHappiness</a> (<a class="el" href="stdafx_8h.html#a259fa4834387bd68627ddf37bb3ebdb9">int16</a> amount)</td></tr>
 <tr class="memdesc:a2fbf321e4d35dfe2bd3dfdbf2552b477"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update the happiness of the guest.  <a href="#a2fbf321e4d35dfe2bd3dfdbf2552b477">More...</a><br /></td></tr>
 <tr class="separator:a2fbf321e4d35dfe2bd3dfdbf2552b477"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afcec7606240d9d1b0b96c8bc04ddd5ea"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGuest.html#afcec7606240d9d1b0b96c8bc04ddd5ea">VisitShop</a> (<a class="el" href="classRideInstance.html">RideInstance</a> *ri)</td></tr>
-<tr class="memdesc:afcec7606240d9d1b0b96c8bc04ddd5ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Visit the shop.  <a href="#afcec7606240d9d1b0b96c8bc04ddd5ea">More...</a><br /></td></tr>
-<tr class="separator:afcec7606240d9d1b0b96c8bc04ddd5ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f87d17dd3e69762b322319eefa59fe1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="ride__type_8h.html#a443f647757dde85043b49343f5cbe66b">ItemType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGuest.html#a4f87d17dd3e69762b322319eefa59fe1">SelectItem</a> (const <a class="el" href="classRideInstance.html">RideInstance</a> *ri)</td></tr>
+<tr class="memdesc:a4f87d17dd3e69762b322319eefa59fe1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Select an item to buy from the ride.  <a href="#a4f87d17dd3e69762b322319eefa59fe1">More...</a><br /></td></tr>
+<tr class="separator:a4f87d17dd3e69762b322319eefa59fe1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8de317697c1e5d3c1e4018e8ac5000c2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGuest.html#a8de317697c1e5d3c1e4018e8ac5000c2">BuyItem</a> (<a class="el" href="classRideInstance.html">RideInstance</a> *ri)</td></tr>
+<tr class="memdesc:a8de317697c1e5d3c1e4018e8ac5000c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Buy an item from the ride.  <a href="#a8de317697c1e5d3c1e4018e8ac5000c2">More...</a><br /></td></tr>
+<tr class="separator:a8de317697c1e5d3c1e4018e8ac5000c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6bc9900a4b9157fe536941455a1fe2dd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGuest.html#a6bc9900a4b9157fe536941455a1fe2dd">NotifyRideDeletion</a> (const <a class="el" href="classRideInstance.html">RideInstance</a> *ri)</td></tr>
+<tr class="memdesc:a6bc9900a4b9157fe536941455a1fe2dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Notify the guest of removal of a ride.  <a href="#a6bc9900a4b9157fe536941455a1fe2dd">More...</a><br /></td></tr>
+<tr class="separator:a6bc9900a4b9157fe536941455a1fe2dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a91a0836b65be2e7b42bf919b871154fb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGuest.html#a91a0836b65be2e7b42bf919b871154fb">ExitRide</a> (<a class="el" href="classRideInstance.html">RideInstance</a> *ri, <a class="el" href="group__map__group.html#ga29bb8f9503c34074bad3c762c92ee68b">TileEdge</a> entry)</td></tr>
+<tr class="memdesc:a91a0836b65be2e7b42bf919b871154fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Exit the ride, and continue walking in the park.  <a href="#a91a0836b65be2e7b42bf919b871154fb">More...</a><br /></td></tr>
+<tr class="separator:a91a0836b65be2e7b42bf919b871154fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab340db92813b209931e9be818795ce78"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classImageData.html">ImageData</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPerson.html#ab340db92813b209931e9be818795ce78">GetSprite</a> (const <a class="el" href="classSpriteStorage.html">SpriteStorage</a> *sprites, <a class="el" href="group__map__group.html#gabad48584a1852521ff578b647f07fdd3">ViewOrientation</a> orient, const <a class="el" href="classRecolouring.html">Recolouring</a> **<a class="el" href="classPerson.html#a0b929c2c7ddc76d6724b6755ad6b16f6">recolour</a>) const override</td></tr>
 <tr class="memdesc:ab340db92813b209931e9be818795ce78"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the sprite to draw for the voxel object.  <a href="#ab340db92813b209931e9be818795ce78">More...</a><br /></td></tr>
 <tr class="separator:ab340db92813b209931e9be818795ce78"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a99855082bc6ddb7aff3897168edcb898"><td class="memItemLeft" align="right" valign="top"><a class="el" href="person_8h.html#ae3aef3aff49220c420907cdf750bc0e4">AnimateResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPerson.html#a99855082bc6ddb7aff3897168edcb898">OnAnimate</a> (int delay)</td></tr>
-<tr class="memdesc:a99855082bc6ddb7aff3897168edcb898"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update the animation of the person.  <a href="#a99855082bc6ddb7aff3897168edcb898">More...</a><br /></td></tr>
-<tr class="separator:a99855082bc6ddb7aff3897168edcb898"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adb104799dcfad40a0806174a17343eb4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPerson.html#adb104799dcfad40a0806174a17343eb4">IsActive</a> () const </td></tr>
 <tr class="memdesc:adb104799dcfad40a0806174a17343eb4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Test whether this person is active in the game or not.  <a href="#adb104799dcfad40a0806174a17343eb4">More...</a><br /></td></tr>
 <tr class="separator:adb104799dcfad40a0806174a17343eb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ed81370ad24f82c3e89255dfc9c06c6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPerson.html#a8ed81370ad24f82c3e89255dfc9c06c6">IsGuest</a> () const </td></tr>
+<tr class="memdesc:a8ed81370ad24f82c3e89255dfc9c06c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Test whether this person is a guest or not.  <a href="#a8ed81370ad24f82c3e89255dfc9c06c6">More...</a><br /></td></tr>
+<tr class="separator:a8ed81370ad24f82c3e89255dfc9c06c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abc269b7890c035ceda6247578f29d0b2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPerson.html#abc269b7890c035ceda6247578f29d0b2">SetName</a> (const char *<a class="el" href="classPerson.html#aae27f7c10e2e9d18da3cd4b927e98402">name</a>)</td></tr>
 <tr class="memdesc:abc269b7890c035ceda6247578f29d0b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the name of a guest.  <a href="#abc269b7890c035ceda6247578f29d0b2">More...</a><br /></td></tr>
 <tr class="separator:abc269b7890c035ceda6247578f29d0b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -132,14 +144,10 @@ Public Attributes</h2></td></tr>
 <a class="el" href="classMoney.html">Money</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGuest.html#a7cb7380d4cc8b7a234109c1289356a2e">cash</a></td></tr>
 <tr class="memdesc:a7cb7380d4cc8b7a234109c1289356a2e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Amount of money carried by the guest (should be non-negative). <br /></td></tr>
 <tr class="separator:a7cb7380d4cc8b7a234109c1289356a2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5dd67990a1111d5c85a78ac0305b7ceb"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5dd67990a1111d5c85a78ac0305b7ceb"></a>
-const <a class="el" href="classRideInstance.html">RideInstance</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGuest.html#a5dd67990a1111d5c85a78ac0305b7ceb">wants_visit</a></td></tr>
-<tr class="memdesc:a5dd67990a1111d5c85a78ac0305b7ceb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ride that the guest wants to visit, <code>nullptr</code> there is no favorite ride. <br /></td></tr>
-<tr class="separator:a5dd67990a1111d5c85a78ac0305b7ceb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a207fc5ee905df5eed866bef2a0cf2e9a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a207fc5ee905df5eed866bef2a0cf2e9a"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGuest.html#a207fc5ee905df5eed866bef2a0cf2e9a">queue_mode</a></td></tr>
-<tr class="memdesc:a207fc5ee905df5eed866bef2a0cf2e9a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether we are queueing. <br /></td></tr>
-<tr class="separator:a207fc5ee905df5eed866bef2a0cf2e9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adba7eb5adb7c871698b126828d2d1d3b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adba7eb5adb7c871698b126828d2d1d3b"></a>
+<a class="el" href="classRideInstance.html">RideInstance</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGuest.html#adba7eb5adb7c871698b126828d2d1d3b">ride</a></td></tr>
+<tr class="memdesc:adba7eb5adb7c871698b126828d2d1d3b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ride that the guest wants to visit or is visiting <code>nullptr</code> there is no favorite ride. <br /></td></tr>
+<tr class="separator:adba7eb5adb7c871698b126828d2d1d3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2ecdc3143f7b2fe9e8eee1f1ea544784"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2ecdc3143f7b2fe9e8eee1f1ea544784"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGuest.html#a2ecdc3143f7b2fe9e8eee1f1ea544784">has_map</a></td></tr>
 <tr class="memdesc:a2ecdc3143f7b2fe9e8eee1f1ea544784"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether guest has a park map. <br /></td></tr>
@@ -152,10 +160,18 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGuest.html#a693b673bb877c2083a45dd2b9a8cf03d">has_wrapper</a></td></tr>
 <tr class="memdesc:a693b673bb877c2083a45dd2b9a8cf03d"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classGuest.html" title="Guests walking around in the world. ">Guest</a> has a wrapper for the food or drink. <br /></td></tr>
 <tr class="separator:a693b673bb877c2083a45dd2b9a8cf03d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5aa0fa73a21ab0d58afeda96a9b19923"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5aa0fa73a21ab0d58afeda96a9b19923"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGuest.html#a5aa0fa73a21ab0d58afeda96a9b19923">has_balloon</a></td></tr>
+<tr class="memdesc:a5aa0fa73a21ab0d58afeda96a9b19923"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classGuest.html" title="Guests walking around in the world. ">Guest</a> has a balloon. <br /></td></tr>
+<tr class="separator:a5aa0fa73a21ab0d58afeda96a9b19923"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac0380243e3fa91e218efe6abe14f8a39"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac0380243e3fa91e218efe6abe14f8a39"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGuest.html#ac0380243e3fa91e218efe6abe14f8a39">salty_food</a></td></tr>
 <tr class="memdesc:ac0380243e3fa91e218efe6abe14f8a39"><td class="mdescLeft">&#160;</td><td class="mdescRight">The food in <a class="el" href="classGuest.html#a61f9f2ba0c262087df6ef7c586fe4976" title="Amount of food in the hand (one unit/day). ">food</a> is salty. <br /></td></tr>
 <tr class="separator:ac0380243e3fa91e218efe6abe14f8a39"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b70e90e28bf30264faf592745eed7cc"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2b70e90e28bf30264faf592745eed7cc"></a>
+<a class="el" href="stdafx_8h.html#adde6aaee8457bee49c2a92621fe22b79">uint8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGuest.html#a2b70e90e28bf30264faf592745eed7cc">souvenirs</a></td></tr>
+<tr class="memdesc:a2b70e90e28bf30264faf592745eed7cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of souvenirs bought by the guest. <br /></td></tr>
+<tr class="separator:a2b70e90e28bf30264faf592745eed7cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a61f9f2ba0c262087df6ef7c586fe4976"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a61f9f2ba0c262087df6ef7c586fe4976"></a>
 <a class="el" href="stdafx_8h.html#a1b956fe1df85f3c132b21edb4e116458">int8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGuest.html#a61f9f2ba0c262087df6ef7c586fe4976">food</a></td></tr>
 <tr class="memdesc:a61f9f2ba0c262087df6ef7c586fe4976"><td class="mdescLeft">&#160;</td><td class="mdescRight">Amount of food in the hand (one unit/day). <br /></td></tr>
@@ -180,6 +196,10 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <a class="el" href="stdafx_8h.html#adde6aaee8457bee49c2a92621fe22b79">uint8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGuest.html#a71f3fe760f40a72c87fe181f4776b834">waste</a></td></tr>
 <tr class="memdesc:a71f3fe760f40a72c87fe181f4776b834"><td class="mdescLeft">&#160;</td><td class="mdescRight">Amount of food/drink waste that should be disposed. <br /></td></tr>
 <tr class="separator:a71f3fe760f40a72c87fe181f4776b834"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff4653277c44b7e0bbc2aeb400c34385"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aff4653277c44b7e0bbc2aeb400c34385"></a>
+<a class="el" href="stdafx_8h.html#adde6aaee8457bee49c2a92621fe22b79">uint8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGuest.html#aff4653277c44b7e0bbc2aeb400c34385">nausea</a></td></tr>
+<tr class="memdesc:aff4653277c44b7e0bbc2aeb400c34385"><td class="mdescLeft">&#160;</td><td class="mdescRight">Amount of nausea of the guest. <br /></td></tr>
+<tr class="separator:aff4653277c44b7e0bbc2aeb400c34385"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afbcb43bf294e6232628734f7572cd913"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afbcb43bf294e6232628734f7572cd913"></a>
 <a class="el" href="stdafx_8h.html#a05f6b0ae8f6a6e135b0e290c25fe0e4e">uint16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPerson.html#afbcb43bf294e6232628734f7572cd913">id</a></td></tr>
 <tr class="memdesc:afbcb43bf294e6232628734f7572cd913"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unique id of the person. <br /></td></tr>
@@ -228,30 +248,14 @@ const <a class="el" href="structAnimationFrame.html">AnimationFrame</a> *&#160;<
 bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVoxelObject.html#a7e6b382bc5cda6b2d7a2eec65a87bffd">added</a></td></tr>
 <tr class="memdesc:a7e6b382bc5cda6b2d7a2eec65a87bffd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether the voxel object has been added to a voxel. <br /></td></tr>
 <tr class="separator:a7e6b382bc5cda6b2d7a2eec65a87bffd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8b8cf43c08d98cd076c53d22386a2dcd"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8b8cf43c08d98cd076c53d22386a2dcd"></a>
-<a class="el" href="stdafx_8h.html#a259fa4834387bd68627ddf37bb3ebdb9">int16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVoxelObject.html#a8b8cf43c08d98cd076c53d22386a2dcd">x_vox</a></td></tr>
-<tr class="memdesc:a8b8cf43c08d98cd076c53d22386a2dcd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Voxel index in X direction of the voxel object. <br /></td></tr>
-<tr class="separator:a8b8cf43c08d98cd076c53d22386a2dcd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a570751975a1e230a411e7c19de9433c8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a570751975a1e230a411e7c19de9433c8"></a>
-<a class="el" href="stdafx_8h.html#a259fa4834387bd68627ddf37bb3ebdb9">int16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVoxelObject.html#a570751975a1e230a411e7c19de9433c8">y_vox</a></td></tr>
-<tr class="memdesc:a570751975a1e230a411e7c19de9433c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Voxel index in Y direction of the voxel object. <br /></td></tr>
-<tr class="separator:a570751975a1e230a411e7c19de9433c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab03034582715323cea881ae802894ac5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab03034582715323cea881ae802894ac5"></a>
-<a class="el" href="stdafx_8h.html#a259fa4834387bd68627ddf37bb3ebdb9">int16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVoxelObject.html#ab03034582715323cea881ae802894ac5">z_vox</a></td></tr>
-<tr class="memdesc:ab03034582715323cea881ae802894ac5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Voxel index in Z direction of the voxel object. <br /></td></tr>
-<tr class="separator:ab03034582715323cea881ae802894ac5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4e763517f12fe0d6f2ef569179108da7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4e763517f12fe0d6f2ef569179108da7"></a>
-<a class="el" href="stdafx_8h.html#a259fa4834387bd68627ddf37bb3ebdb9">int16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVoxelObject.html#a4e763517f12fe0d6f2ef569179108da7">x_pos</a></td></tr>
-<tr class="memdesc:a4e763517f12fe0d6f2ef569179108da7"><td class="mdescLeft">&#160;</td><td class="mdescRight">X position of the person inside the voxel (0..255). <br /></td></tr>
-<tr class="separator:a4e763517f12fe0d6f2ef569179108da7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af8fe5ad2ff3334323ef1727cba6c97ed"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af8fe5ad2ff3334323ef1727cba6c97ed"></a>
-<a class="el" href="stdafx_8h.html#a259fa4834387bd68627ddf37bb3ebdb9">int16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVoxelObject.html#af8fe5ad2ff3334323ef1727cba6c97ed">y_pos</a></td></tr>
-<tr class="memdesc:af8fe5ad2ff3334323ef1727cba6c97ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Y position of the person inside the voxel (0..255). <br /></td></tr>
-<tr class="separator:af8fe5ad2ff3334323ef1727cba6c97ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa34cc14074b57e454ab18d2b1eff3a8b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa34cc14074b57e454ab18d2b1eff3a8b"></a>
-<a class="el" href="stdafx_8h.html#a259fa4834387bd68627ddf37bb3ebdb9">int16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVoxelObject.html#aa34cc14074b57e454ab18d2b1eff3a8b">z_pos</a></td></tr>
-<tr class="memdesc:aa34cc14074b57e454ab18d2b1eff3a8b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Z position of the person inside the voxel (0..255). <br /></td></tr>
-<tr class="separator:aa34cc14074b57e454ab18d2b1eff3a8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0044a240a018908c6ed63e1e199d92c4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0044a240a018908c6ed63e1e199d92c4"></a>
+<a class="el" href="geometry_8h.html#a71fcb91f44cc6cbf519d0c45c07e931d">XYZPoint16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVoxelObject.html#a0044a240a018908c6ed63e1e199d92c4">vox_pos</a></td></tr>
+<tr class="memdesc:a0044a240a018908c6ed63e1e199d92c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Voxel position of the object. <br /></td></tr>
+<tr class="separator:a0044a240a018908c6ed63e1e199d92c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab12d97f145e1b434c7cfe15db46f31cb"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab12d97f145e1b434c7cfe15db46f31cb"></a>
+<a class="el" href="geometry_8h.html#a71fcb91f44cc6cbf519d0c45c07e931d">XYZPoint16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVoxelObject.html#ab12d97f145e1b434c7cfe15db46f31cb">pix_pos</a></td></tr>
+<tr class="memdesc:ab12d97f145e1b434c7cfe15db46f31cb"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classPosition.html" title="Position in a source file. ">Position</a> of the object inside the voxel (0..255, but may be outside). <br /></td></tr>
+<tr class="separator:ab12d97f145e1b434c7cfe15db46f31cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
@@ -259,15 +263,24 @@ Protected Member Functions</h2></td></tr>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGuest.html#a3c8074a0aa5755c5714feef45ab6b2eb">DecideMoveDirection</a> () override</td></tr>
 <tr class="memdesc:a3c8074a0aa5755c5714feef45ab6b2eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Decide where to go from the current position. <br /></td></tr>
 <tr class="separator:a3c8074a0aa5755c5714feef45ab6b2eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a65237efec16941b33ec3ed27c8b26549"><td class="memItemLeft" align="right" valign="top"><a class="el" href="person_8h.html#a60e4d3e215ac1a1e28c1b703fe748cee">RideVisitDesire</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGuest.html#a65237efec16941b33ec3ed27c8b26549">ComputeExitDesire</a> (<a class="el" href="group__map__group.html#ga29bb8f9503c34074bad3c762c92ee68b">TileEdge</a> current_edge, int x, int y, int z, <a class="el" href="group__map__group.html#ga29bb8f9503c34074bad3c762c92ee68b">TileEdge</a> exit_edge, bool *seen_wanted_ride)</td></tr>
-<tr class="memdesc:a65237efec16941b33ec3ed27c8b26549"><td class="mdescLeft">&#160;</td><td class="mdescRight">Decide whether visiting the exit edge is useful.  <a href="#a65237efec16941b33ec3ed27c8b26549">More...</a><br /></td></tr>
-<tr class="separator:a65237efec16941b33ec3ed27c8b26549"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a496672f09b2e22211d9003806a7e678b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="stdafx_8h.html#adde6aaee8457bee49c2a92621fe22b79">uint8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGuest.html#a496672f09b2e22211d9003806a7e678b">GetExitDirections</a> (const <a class="el" href="structVoxel.html">Voxel</a> *v, <a class="el" href="group__map__group.html#ga29bb8f9503c34074bad3c762c92ee68b">TileEdge</a> start_edge, bool *seen_wanted_ride, bool *<a class="el" href="classGuest.html#a207fc5ee905df5eed866bef2a0cf2e9a">queue_mode</a>)</td></tr>
+<tr class="memitem:a2842f4b2bcb622a8597d5bbbab7c366c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="person_8h.html#a60e4d3e215ac1a1e28c1b703fe748cee">RideVisitDesire</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGuest.html#a2842f4b2bcb622a8597d5bbbab7c366c">ComputeExitDesire</a> (<a class="el" href="group__map__group.html#ga29bb8f9503c34074bad3c762c92ee68b">TileEdge</a> current_edge, <a class="el" href="geometry_8h.html#a71fcb91f44cc6cbf519d0c45c07e931d">XYZPoint16</a> cur_pos, <a class="el" href="group__map__group.html#ga29bb8f9503c34074bad3c762c92ee68b">TileEdge</a> exit_edge, bool *seen_wanted_ride)</td></tr>
+<tr class="memdesc:a2842f4b2bcb622a8597d5bbbab7c366c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Decide whether visiting the exit edge is useful.  <a href="#a2842f4b2bcb622a8597d5bbbab7c366c">More...</a><br /></td></tr>
+<tr class="separator:a2842f4b2bcb622a8597d5bbbab7c366c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a496672f09b2e22211d9003806a7e678b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="stdafx_8h.html#adde6aaee8457bee49c2a92621fe22b79">uint8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGuest.html#a496672f09b2e22211d9003806a7e678b">GetExitDirections</a> (const <a class="el" href="structVoxel.html">Voxel</a> *v, <a class="el" href="group__map__group.html#ga29bb8f9503c34074bad3c762c92ee68b">TileEdge</a> start_edge, bool *seen_wanted_ride, bool *queue_mode)</td></tr>
 <tr class="memdesc:a496672f09b2e22211d9003806a7e678b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Which way can the guest leave?  <a href="#a496672f09b2e22211d9003806a7e678b">More...</a><br /></td></tr>
 <tr class="separator:a496672f09b2e22211d9003806a7e678b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad505e5c8d0b5bac19bbbf159c98338bf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="person_8h.html#a60e4d3e215ac1a1e28c1b703fe748cee">RideVisitDesire</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGuest.html#ad505e5c8d0b5bac19bbbf159c98338bf">WantToVisit</a> (const <a class="el" href="classRideInstance.html">RideInstance</a> *ri) override</td></tr>
 <tr class="memdesc:ad505e5c8d0b5bac19bbbf159c98338bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">How much does the person desire to visit the given ride?  <a href="#ad505e5c8d0b5bac19bbbf159c98338bf">More...</a><br /></td></tr>
 <tr class="separator:ad505e5c8d0b5bac19bbbf159c98338bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a031f975d3de59f50ba8d903e8aac09ee"><td class="memItemLeft" align="right" valign="top"><a class="el" href="person_8h.html#ae3aef3aff49220c420907cdf750bc0e4">AnimateResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGuest.html#a031f975d3de59f50ba8d903e8aac09ee">EdgeOfWorldOnAnimate</a> () override</td></tr>
+<tr class="memdesc:a031f975d3de59f50ba8d903e8aac09ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handle the case of a guest reaching the end of the game world.  <a href="#a031f975d3de59f50ba8d903e8aac09ee">More...</a><br /></td></tr>
+<tr class="separator:a031f975d3de59f50ba8d903e8aac09ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aecec6d4c4c10784a16e5b1741ee0c70b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="person_8h.html#ae3aef3aff49220c420907cdf750bc0e4">AnimateResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGuest.html#aecec6d4c4c10784a16e5b1741ee0c70b">VisitRideOnAnimate</a> (<a class="el" href="classRideInstance.html">RideInstance</a> *ri, <a class="el" href="group__map__group.html#ga29bb8f9503c34074bad3c762c92ee68b">TileEdge</a> exit_edge) override</td></tr>
+<tr class="memdesc:aecec6d4c4c10784a16e5b1741ee0c70b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handle guest ride visiting.  <a href="#aecec6d4c4c10784a16e5b1741ee0c70b">More...</a><br /></td></tr>
+<tr class="separator:aecec6d4c4c10784a16e5b1741ee0c70b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d479563c67438841540c8e9f3fe112b"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structWalkInformation.html">WalkInformation</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGuest.html#a1d479563c67438841540c8e9f3fe112b">WalkForActivity</a> (const <a class="el" href="structWalkInformation.html">WalkInformation</a> **walks, <a class="el" href="stdafx_8h.html#adde6aaee8457bee49c2a92621fe22b79">uint8</a> walk_count, <a class="el" href="stdafx_8h.html#adde6aaee8457bee49c2a92621fe22b79">uint8</a> exits)</td></tr>
+<tr class="memdesc:a1d479563c67438841540c8e9f3fe112b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find new walk based on activity.  <a href="#a1d479563c67438841540c8e9f3fe112b">More...</a><br /></td></tr>
+<tr class="separator:a1d479563c67438841540c8e9f3fe112b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a83ec56e27b72e44b9acf3ff1201cfc80"><td class="memItemLeft" align="right" valign="top"><a class="el" href="person_8h.html#a60e4d3e215ac1a1e28c1b703fe748cee">RideVisitDesire</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGuest.html#a83ec56e27b72e44b9acf3ff1201cfc80">NeedForItem</a> (enum <a class="el" href="ride__type_8h.html#a443f647757dde85043b49343f5cbe66b">ItemType</a> it, bool use_random)</td></tr>
 <tr class="memdesc:a83ec56e27b72e44b9acf3ff1201cfc80"><td class="mdescLeft">&#160;</td><td class="mdescRight">How useful is the item for the guest?  <a href="#a83ec56e27b72e44b9acf3ff1201cfc80">More...</a><br /></td></tr>
 <tr class="separator:a83ec56e27b72e44b9acf3ff1201cfc80"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -277,6 +290,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="memitem:aa447544f8a3f8e81b0e95cb7f196c997"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__map__group.html#ga29bb8f9503c34074bad3c762c92ee68b">TileEdge</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPerson.html#aa447544f8a3f8e81b0e95cb7f196c997">GetCurrentEdge</a> () const </td></tr>
 <tr class="memdesc:aa447544f8a3f8e81b0e95cb7f196c997"><td class="mdescLeft">&#160;</td><td class="mdescRight">Decide at which edge the person is.  <a href="#aa447544f8a3f8e81b0e95cb7f196c997">More...</a><br /></td></tr>
 <tr class="separator:aa447544f8a3f8e81b0e95cb7f196c997"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad4cab16b03fc0c3aee0e2c1010503bd6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="stdafx_8h.html#adde6aaee8457bee49c2a92621fe22b79">uint8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPerson.html#ad4cab16b03fc0c3aee0e2c1010503bd6">GetInparkDirections</a> ()</td></tr>
+<tr class="memdesc:ad4cab16b03fc0c3aee0e2c1010503bd6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the directions to neighboring tiles that lead to or stay in the park.  <a href="#ad4cab16b03fc0c3aee0e2c1010503bd6">More...</a><br /></td></tr>
+<tr class="separator:ad4cab16b03fc0c3aee0e2c1010503bd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aafc76b197a64261cb355161be46fcbc9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPerson.html#aafc76b197a64261cb355161be46fcbc9">StartAnimation</a> (const <a class="el" href="structWalkInformation.html">WalkInformation</a> *<a class="el" href="classPerson.html#a463a7452b5a64f66d7589bb3e45236bb">walk</a>)</td></tr>
 <tr class="memdesc:aafc76b197a64261cb355161be46fcbc9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform the animation sequence as provided.  <a href="#aafc76b197a64261cb355161be46fcbc9">More...</a><br /></td></tr>
 <tr class="separator:aafc76b197a64261cb355161be46fcbc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -293,9 +309,9 @@ char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cl
 <tr class="separator:aae27f7c10e2e9d18da3cd4b927e98402"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p><a class="el" href="classGuests.html" title="All our guests. ">Guests</a> walking around in the world. </p>
+<div class="textblock"><p>Guests walking around in the world. </p>
 
-<p>Definition at line <a class="el" href="person_8h_source.html#l00151">151</a> of file <a class="el" href="person_8h_source.html">person.h</a>.</p>
+<p>Definition at line <a class="el" href="person_8h_source.html#l00166">166</a> of file <a class="el" href="person_8h_source.html">person.h</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a class="anchor" id="ad331c8a8b8ee5182474df40ba8c77de6"></a>
 <div class="memitem">
@@ -340,11 +356,11 @@ char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cl
 
 <p>Reimplemented from <a class="el" href="classPerson.html#af0c1797aeea1d4c108ef1441a62a954e">Person</a>.</p>
 
-<p>Definition at line <a class="el" href="person_8cpp_source.html#l00884">884</a> of file <a class="el" href="person_8cpp_source.html">person.cpp</a>.</p>
+<p>Definition at line <a class="el" href="person_8cpp_source.html#l01003">1003</a> of file <a class="el" href="person_8cpp_source.html">person.cpp</a>.</p>
 
-<p>References <a class="el" href="person_8cpp_source.html#l00172">Person::Activate()</a>, <a class="el" href="person_8h_source.html#l00163">activity</a>, <a class="el" href="person_8h_source.html#l00166">cash</a>, <a class="el" href="person_8h_source.html#l00176">drink</a>, <a class="el" href="person_8h_source.html#l00175">food</a>, <a class="el" href="person_8h_source.html#l00145">GA_ENTER_PARK</a>, <a class="el" href="person_8h_source.html#l00164">happiness</a>, <a class="el" href="person_8h_source.html#l00171">has_map</a>, <a class="el" href="person_8h_source.html#l00172">has_umbrella</a>, <a class="el" href="person_8h_source.html#l00173">has_wrapper</a>, <a class="el" href="person_8h_source.html#l00177">hunger_level</a>, <a class="el" href="person_8h_source.html#l00168">queue_mode</a>, <a class="el" href="person_8h_source.html#l00132">Person::rnd</a>, <a class="el" href="person_8h_source.html#l00174">salty_food</a>, <a class="el" href="person_8h_source.html#l00179">stomach_level</a>, <a class="el" href="person_8h_source.html#l00178">thirst_level</a>, <a class="el" href="person_8h_source.html#l00165">total_happiness</a>, <a class="el" href="random_8cpp_source.html#l00058">Random::Uniform()</a>, <a class="el" href="person_8h_source.html#l00167">wants_visit</a>, and <a class="el" href="person_8h_source.html#l00180">waste</a>.</p>
+<p>References <a class="el" href="person_8cpp_source.html#l00174">Person::Activate()</a>, <a class="el" href="person_8h_source.html#l00183">activity</a>, <a class="el" href="person_8h_source.html#l00186">cash</a>, <a class="el" href="person_8h_source.html#l00197">drink</a>, <a class="el" href="person_8h_source.html#l00196">food</a>, <a class="el" href="person_8h_source.html#l00158">GA_ENTER_PARK</a>, <a class="el" href="person_8h_source.html#l00184">happiness</a>, <a class="el" href="person_8h_source.html#l00193">has_balloon</a>, <a class="el" href="person_8h_source.html#l00190">has_map</a>, <a class="el" href="person_8h_source.html#l00191">has_umbrella</a>, <a class="el" href="person_8h_source.html#l00192">has_wrapper</a>, <a class="el" href="person_8h_source.html#l00198">hunger_level</a>, <a class="el" href="person_8h_source.html#l00202">nausea</a>, <a class="el" href="person_8h_source.html#l00187">ride</a>, <a class="el" href="person_8h_source.html#l00142">Person::rnd</a>, <a class="el" href="person_8h_source.html#l00194">salty_food</a>, <a class="el" href="person_8h_source.html#l00195">souvenirs</a>, <a class="el" href="person_8h_source.html#l00200">stomach_level</a>, <a class="el" href="person_8h_source.html#l00199">thirst_level</a>, <a class="el" href="person_8h_source.html#l00185">total_happiness</a>, <a class="el" href="random_8cpp_source.html#l00058">Random::Uniform()</a>, and <a class="el" href="person_8h_source.html#l00201">waste</a>.</p>
 
-<p>Referenced by <a class="el" href="people_8cpp_source.html#l00197">Guests::OnNewDay()</a>.</p>
+<p>Referenced by <a class="el" href="people_8cpp_source.html#l00168">Guests::OnNewDay()</a>.</p>
 
 </div>
 </div>
@@ -377,15 +393,58 @@ char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cl
   </table>
   </dd>
 </dl>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000035">Todo:</a></b></dt><dd>Evaluate <a class="el" href="classGuest.html#ab8a49643f22586402a233308c458bf48" title="Sum of all good experiences (for evaluating the day after getting home, values are 0-1000)...">Guest::total_happiness</a> against scenario requirements for evaluating the park value. </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000036">Todo:</a></b></dt><dd>Evaluate <a class="el" href="classGuest.html#ab8a49643f22586402a233308c458bf48" title="Sum of all good experiences (for evaluating the day after getting home, values are 0-1000)...">Guest::total_happiness</a> against scenario requirements for evaluating the park value. </dd></dl>
 
 <p>Reimplemented from <a class="el" href="classPerson.html#ac85cef214585e90a95caba60d68b4bb8">Person</a>.</p>
 
-<p>Definition at line <a class="el" href="person_8cpp_source.html#l00907">907</a> of file <a class="el" href="person_8cpp_source.html">person.cpp</a>.</p>
+<p>Definition at line <a class="el" href="person_8cpp_source.html#l01028">1028</a> of file <a class="el" href="person_8cpp_source.html">person.cpp</a>.</p>
 
-<p>References <a class="el" href="window_8cpp_source.html#l00037">_manager</a>, <a class="el" href="person_8cpp_source.html#l00679">Person::DeActivate()</a>, <a class="el" href="window_8cpp_source.html#l00769">WindowManager::DeleteWindow()</a>, <a class="el" href="window_8cpp_source.html#l01026">GetWindowByType()</a>, <a class="el" href="person_8h_source.html#l00112">Person::IsActive()</a>, and <a class="el" href="window_8h_source.html#l00046">WC_GUEST_INFO</a>.</p>
+<p>References <a class="el" href="window_8cpp_source.html#l00037">_window_manager</a>, <a class="el" href="person_8cpp_source.html#l00789">Person::DeActivate()</a>, <a class="el" href="window_8cpp_source.html#l00769">WindowManager::DeleteWindow()</a>, <a class="el" href="window_8cpp_source.html#l01037">GetWindowByType()</a>, <a class="el" href="person_8h_source.html#l00113">Person::IsActive()</a>, and <a class="el" href="window_8h_source.html#l00046">WC_GUEST_INFO</a>.</p>
 
-<p>Referenced by <a class="el" href="people_8cpp_source.html#l00174">Guests::DoTick()</a>, and <a class="el" href="people_8cpp_source.html#l00159">Guests::OnAnimate()</a>.</p>
+<p>Referenced by <a class="el" href="people_8cpp_source.html#l00146">Guests::DoTick()</a>, and <a class="el" href="people_8cpp_source.html#l00131">Guests::OnAnimate()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a60e68c7c991eacabba420deb94928a96"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="person_8h.html#ae3aef3aff49220c420907cdf750bc0e4">AnimateResult</a> Guest::OnAnimate </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>delay</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Update the animation of a person. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">delay</td><td>Amount of milliseconds since the last update. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Whether to keep the person active or how to deactivate him/her. </dd>
+<dd>
+Result code of the visit. </dd></dl>
+
+<p>Reimplemented from <a class="el" href="classPerson.html#a99855082bc6ddb7aff3897168edcb898">Person</a>.</p>
+
+<p>Definition at line <a class="el" href="person_8cpp_source.html#l01043">1043</a> of file <a class="el" href="person_8cpp_source.html">person.cpp</a>.</p>
+
+<p>References <a class="el" href="person_8h_source.html#l00183">activity</a>, <a class="el" href="person_8h_source.html#l00161">GA_ON_RIDE</a>, <a class="el" href="person_8h_source.html#l00077">OAR_OK</a>, and <a class="el" href="person_8cpp_source.html#l00809">Person::OnAnimate()</a>.</p>
+
+<p>Referenced by <a class="el" href="people_8cpp_source.html#l00131">Guests::OnAnimate()</a>.</p>
 
 </div>
 </div>
@@ -412,17 +471,19 @@ char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cl
 
 <p>Daily ponderings of a guest. </p>
 <dl class="section return"><dt>Returns</dt><dd>If <code>false</code>, de-activate the guest. </dd></dl>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000036">Todo:</a></b></dt><dd><p class="startdd">Make de-activation a bit more random. </p>
-<p class="enddd">Implement dropping litter (<a class="el" href="classGuest.html#a693b673bb877c2083a45dd2b9a8cf03d" title="Guest has a wrapper for the food or drink. ">Guest::has_wrapper</a>) to the path, and also drop the wrapper when passing a non-empty litter bin. </p>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000037">Todo:</a></b></dt><dd><p class="startdd">Make going home a bit more random. </p>
+<p>Implement dropping litter (<a class="el" href="classGuest.html#a693b673bb877c2083a45dd2b9a8cf03d" title="Guest has a wrapper for the food or drink. ">Guest::has_wrapper</a>) to the path, and also drop the wrapper when passing a non-empty litter bin. </p>
+<p>Implement nausea (<a class="el" href="classGuest.html#aff4653277c44b7e0bbc2aeb400c34385" title="Amount of nausea of the guest. ">Guest::nausea</a>). </p>
+<p class="enddd">Implement energy (for tiredness of guests). </p>
 </dd></dl>
 
 <p>Implements <a class="el" href="classPerson.html#ae5674e220fa95b3d6641349b1a61ce83">Person</a>.</p>
 
-<p>Definition at line <a class="el" href="person_8cpp_source.html#l00942">942</a> of file <a class="el" href="person_8cpp_source.html">person.cpp</a>.</p>
+<p>Definition at line <a class="el" href="person_8cpp_source.html#l01104">1104</a> of file <a class="el" href="person_8cpp_source.html">person.cpp</a>.</p>
 
-<p>References <a class="el" href="person_8cpp_source.html#l00926">ChangeHappiness()</a>, <a class="el" href="person_8h_source.html#l00176">drink</a>, <a class="el" href="person_8h_source.html#l00175">food</a>, <a class="el" href="person_8h_source.html#l00164">happiness</a>, <a class="el" href="person_8h_source.html#l00173">has_wrapper</a>, <a class="el" href="person_8h_source.html#l00177">hunger_level</a>, <a class="el" href="person__type_8h_source.html#l00068">PersonIsAGuest()</a>, <a class="el" href="person_8h_source.html#l00132">Person::rnd</a>, <a class="el" href="person_8h_source.html#l00174">salty_food</a>, <a class="el" href="person_8h_source.html#l00179">stomach_level</a>, <a class="el" href="random_8cpp_source.html#l00024">Random::Success1024()</a>, <a class="el" href="person_8h_source.html#l00178">thirst_level</a>, <a class="el" href="person_8h_source.html#l00121">Person::type</a>, and <a class="el" href="person_8h_source.html#l00180">waste</a>.</p>
+<p>References <a class="el" href="weather_8cpp_source.html#l00017">_weather</a>, <a class="el" href="person_8h_source.html#l00183">activity</a>, <a class="el" href="person_8cpp_source.html#l01086">ChangeHappiness()</a>, <a class="el" href="person_8h_source.html#l00197">drink</a>, <a class="el" href="person_8h_source.html#l00196">food</a>, <a class="el" href="person_8h_source.html#l00162">GA_GO_HOME</a>, <a class="el" href="person_8h_source.html#l00159">GA_WANDER</a>, <a class="el" href="weather_8cpp_source.html#l00158">Weather::GetWeatherType()</a>, <a class="el" href="person_8h_source.html#l00184">happiness</a>, <a class="el" href="person_8h_source.html#l00191">has_umbrella</a>, <a class="el" href="person_8h_source.html#l00192">has_wrapper</a>, <a class="el" href="person_8h_source.html#l00198">hunger_level</a>, <a class="el" href="person_8h_source.html#l00122">Person::IsGuest()</a>, <a class="el" href="stdafx_8h_source.html#l00182">NOT_REACHED</a>, <a class="el" href="person_8h_source.html#l00142">Person::rnd</a>, <a class="el" href="person_8h_source.html#l00194">salty_food</a>, <a class="el" href="person_8h_source.html#l00200">stomach_level</a>, <a class="el" href="random_8cpp_source.html#l00024">Random::Success1024()</a>, <a class="el" href="person_8h_source.html#l00199">thirst_level</a>, <a class="el" href="person_8h_source.html#l00201">waste</a>, <a class="el" href="weather_8h_source.html#l00018">WTP_LIGHT_CLOUDS</a>, <a class="el" href="weather_8h_source.html#l00020">WTP_RAINING</a>, <a class="el" href="weather_8h_source.html#l00017">WTP_SUNNY</a>, <a class="el" href="weather_8h_source.html#l00019">WTP_THICK_CLOUDS</a>, and <a class="el" href="weather_8h_source.html#l00021">WTP_THUNDERSTORM</a>.</p>
 
-<p>Referenced by <a class="el" href="people_8cpp_source.html#l00174">Guests::DoTick()</a>.</p>
+<p>Referenced by <a class="el" href="people_8cpp_source.html#l00146">Guests::DoTick()</a>.</p>
 
 </div>
 </div>
@@ -448,20 +509,51 @@ char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cl
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="person_8cpp_source.html#l00926">926</a> of file <a class="el" href="person_8cpp_source.html">person.cpp</a>.</p>
+<p>Definition at line <a class="el" href="person_8cpp_source.html#l01086">1086</a> of file <a class="el" href="person_8cpp_source.html">person.cpp</a>.</p>
 
-<p>References <a class="el" href="window_8h_source.html#l00066">CHG_DISPLAY_OLD</a>, <a class="el" href="math__func_8h_source.html#l00033">Clamp()</a>, <a class="el" href="person_8h_source.html#l00164">happiness</a>, <a class="el" href="window_8cpp_source.html#l01043">NotifyChange()</a>, <a class="el" href="person_8h_source.html#l00165">total_happiness</a>, and <a class="el" href="window_8h_source.html#l00046">WC_GUEST_INFO</a>.</p>
+<p>References <a class="el" href="window_8h_source.html#l00066">CHG_DISPLAY_OLD</a>, <a class="el" href="math__func_8h_source.html#l00033">Clamp()</a>, <a class="el" href="person_8h_source.html#l00184">happiness</a>, <a class="el" href="window_8cpp_source.html#l01054">NotifyChange()</a>, <a class="el" href="person_8h_source.html#l00185">total_happiness</a>, and <a class="el" href="window_8h_source.html#l00046">WC_GUEST_INFO</a>.</p>
 
-<p>Referenced by <a class="el" href="person_8cpp_source.html#l00942">DailyUpdate()</a>, and <a class="el" href="person_8cpp_source.html#l01073">VisitShop()</a>.</p>
+<p>Referenced by <a class="el" href="person_8cpp_source.html#l01330">BuyItem()</a>, and <a class="el" href="person_8cpp_source.html#l01104">DailyUpdate()</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="afcec7606240d9d1b0b96c8bc04ddd5ea"></a>
+<a class="anchor" id="a4f87d17dd3e69762b322319eefa59fe1"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void Guest::VisitShop </td>
+          <td class="memname"><a class="el" href="ride__type_8h.html#a443f647757dde85043b49343f5cbe66b">ItemType</a> Guest::SelectItem </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classRideInstance.html">RideInstance</a> *&#160;</td>
+          <td class="paramname"><em>ri</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Select an item to buy from the ride. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">ri</td><td>Ride instance to buy from. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Item to buy, or <a class="el" href="ride__type_8h.html#a443f647757dde85043b49343f5cbe66ba01fdd13e502d6b0befebb5714926967e" title="Dummy item to denote nothing can be bought. ">ITP_NOTHING</a> if there is nothing of interest. </dd></dl>
+
+<p>Definition at line <a class="el" href="person_8cpp_source.html#l01301">1301</a> of file <a class="el" href="person_8cpp_source.html">person.cpp</a>.</p>
+
+<p>References <a class="el" href="person_8h_source.html#l00186">cash</a>, <a class="el" href="ride__type_8cpp_source.html#l00270">RideInstance::GetSaleItemPrice()</a>, <a class="el" href="ride__type_8cpp_source.html#l00259">RideInstance::GetSaleItemType()</a>, <a class="el" href="ride__type_8h_source.html#l00054">ITP_NOTHING</a>, <a class="el" href="person_8cpp_source.html#l01173">NeedForItem()</a>, <a class="el" href="ride__type_8h_source.html#l00023">NUMBER_ITEM_TYPES_SOLD</a>, <a class="el" href="person_8h_source.html#l00142">Person::rnd</a>, <a class="el" href="person_8h_source.html#l00085">RVD_NO_VISIT</a>, and <a class="el" href="random_8cpp_source.html#l00058">Random::Uniform()</a>.</p>
+
+<p>Referenced by <a class="el" href="person_8cpp_source.html#l01330">BuyItem()</a>, and <a class="el" href="person_8cpp_source.html#l01062">VisitRideOnAnimate()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a8de317697c1e5d3c1e4018e8ac5000c2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Guest::BuyItem </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classRideInstance.html">RideInstance</a> *&#160;</td>
           <td class="paramname"><em>ri</em></td><td>)</td>
@@ -470,24 +562,94 @@ char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cl
       </table>
 </div><div class="memdoc">
 
-<p>Visit the shop. </p>
+<p>Buy an item from the ride. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">ri</td><td>Ride being visited. </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section note"><dt>Note</dt><dd>It is called 'shop', but it is quite generic, so it may be usable for more rides (without queue in front of it). </dd></dl>
 
-<p>Definition at line <a class="el" href="person_8cpp_source.html#l01073">1073</a> of file <a class="el" href="person_8cpp_source.html">person.cpp</a>.</p>
+<p>Definition at line <a class="el" href="person_8cpp_source.html#l01330">1330</a> of file <a class="el" href="person_8cpp_source.html">person.cpp</a>.</p>
 
-<p>References <a class="el" href="person_8cpp_source.html#l01028">AddItem()</a>, <a class="el" href="person_8h_source.html#l00166">cash</a>, <a class="el" href="person_8cpp_source.html#l00926">ChangeHappiness()</a>, <a class="el" href="ride__type_8cpp_source.html#l00248">RideInstance::GetSaleItemPrice()</a>, <a class="el" href="ride__type_8cpp_source.html#l00237">RideInstance::GetSaleItemType()</a>, <a class="el" href="person_8cpp_source.html#l00984">NeedForItem()</a>, <a class="el" href="ride__type_8h_source.html#l00023">NUMBER_ITEM_TYPES_SOLD</a>, <a class="el" href="person_8h_source.html#l00132">Person::rnd</a>, <a class="el" href="person_8h_source.html#l00084">RVD_NO_VISIT</a>, <a class="el" href="ride__type_8cpp_source.html#l00218">RideInstance::SellItem()</a>, and <a class="el" href="random_8cpp_source.html#l00058">Random::Uniform()</a>.</p>
+<p>References <a class="el" href="person_8cpp_source.html#l01236">AddItem()</a>, <a class="el" href="person_8h_source.html#l00186">cash</a>, <a class="el" href="person_8cpp_source.html#l01086">ChangeHappiness()</a>, <a class="el" href="ride__type_8cpp_source.html#l00270">RideInstance::GetSaleItemPrice()</a>, <a class="el" href="ride__type_8cpp_source.html#l00259">RideInstance::GetSaleItemType()</a>, <a class="el" href="ride__type_8h_source.html#l00054">ITP_NOTHING</a>, <a class="el" href="ride__type_8h_source.html#l00023">NUMBER_ITEM_TYPES_SOLD</a>, <a class="el" href="person_8cpp_source.html#l01301">SelectItem()</a>, and <a class="el" href="ride__type_8cpp_source.html#l00240">RideInstance::SellItem()</a>.</p>
 
-<p>Referenced by <a class="el" href="person_8cpp_source.html#l00698">Person::OnAnimate()</a>.</p>
+<p>Referenced by <a class="el" href="person_8cpp_source.html#l01062">VisitRideOnAnimate()</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a65237efec16941b33ec3ed27c8b26549"></a>
+<a class="anchor" id="a6bc9900a4b9157fe536941455a1fe2dd"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Guest::NotifyRideDeletion </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classRideInstance.html">RideInstance</a> *&#160;</td>
+          <td class="paramname"><em>ri</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Notify the guest of removal of a ride. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">ri</td><td>Ride being deleted. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="person_8cpp_source.html#l00424">424</a> of file <a class="el" href="person_8cpp_source.html">person.cpp</a>.</p>
+
+<p>References <a class="el" href="person_8h_source.html#l00183">activity</a>, <a class="el" href="person_8h_source.html#l00161">GA_ON_RIDE</a>, <a class="el" href="person_8h_source.html#l00160">GA_QUEUING</a>, <a class="el" href="person_8h_source.html#l00159">GA_WANDER</a>, <a class="el" href="stdafx_8h_source.html#l00182">NOT_REACHED</a>, and <a class="el" href="person_8h_source.html#l00187">ride</a>.</p>
+
+<p>Referenced by <a class="el" href="people_8cpp_source.html#l00190">Guests::NotifyRideDeletion()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a91a0836b65be2e7b42bf919b871154fb"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Guest::ExitRide </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classRideInstance.html">RideInstance</a> *&#160;</td>
+          <td class="paramname"><em>ri</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__map__group.html#ga29bb8f9503c34074bad3c762c92ee68b">TileEdge</a>&#160;</td>
+          <td class="paramname"><em>entry</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Exit the ride, and continue walking in the park. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">ri</td><td>Ride to exit. </td></tr>
+    <tr><td class="paramname">entry</td><td>Entry direction of the ride. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="person_8cpp_source.html#l00448">448</a> of file <a class="el" href="person_8cpp_source.html">person.cpp</a>.</p>
+
+<p>References <a class="el" href="map_8cpp_source.html#l00027">_world</a>, <a class="el" href="person_8h_source.html#l00183">activity</a>, <a class="el" href="map_8h_source.html#l00323">VoxelObject::AddSelf()</a>, <a class="el" href="person_8cpp_source.html#l00625">DecideMoveDirection()</a>, <a class="el" href="person_8h_source.html#l00161">GA_ON_RIDE</a>, <a class="el" href="person_8h_source.html#l00159">GA_WANDER</a>, <a class="el" href="map_8h_source.html#l00525">VoxelWorld::GetCreateVoxel()</a>, <a class="el" href="classRideInstance.html#a1cdef2422a64caf92653866198d70799">RideInstance::GetExit()</a>, <a class="el" href="map_8h_source.html#l00359">VoxelObject::pix_pos</a>, <a class="el" href="person_8h_source.html#l00187">ride</a>, <a class="el" href="map_8h_source.html#l00358">VoxelObject::vox_pos</a>, <a class="el" href="geometry_8h_source.html#l00100">XYZPoint&lt; CT &gt;::x</a>, <a class="el" href="geometry_8h_source.html#l00101">XYZPoint&lt; CT &gt;::y</a>, and <a class="el" href="geometry_8h_source.html#l00102">XYZPoint&lt; CT &gt;::z</a>.</p>
+
+<p>Referenced by <a class="el" href="shop__type_8cpp_source.html#l00194">ShopInstance::EnterRide()</a>, <a class="el" href="shop__type_8cpp_source.html#l00239">ShopInstance::OnAnimate()</a>, and <a class="el" href="shop__type_8cpp_source.html#l00222">ShopInstance::RemoveAllPeople()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a2842f4b2bcb622a8597d5bbbab7c366c"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -503,20 +665,8 @@ char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cl
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>x</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>y</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>z</em>, </td>
+          <td class="paramtype"><a class="el" href="geometry_8h.html#a71fcb91f44cc6cbf519d0c45c07e931d">XYZPoint16</a>&#160;</td>
+          <td class="paramname"><em>cur_pos</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -547,9 +697,7 @@ char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cl
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">current_edge</td><td>Edge at the current position. </td></tr>
-    <tr><td class="paramname">x</td><td>X coordinate of the current voxel. </td></tr>
-    <tr><td class="paramname">y</td><td>Y coordinate of the current voxel. </td></tr>
-    <tr><td class="paramname">z</td><td>Z coordinate of the current voxel. </td></tr>
+    <tr><td class="paramname">cur_pos</td><td>Coordinate of the current voxel. </td></tr>
     <tr><td class="paramname">exit_edge</td><td>Exit edge being examined. </td></tr>
     <tr><td class="paramname">seen_wanted_ride</td><td>[inout] Whether the wanted ride is seen. </td></tr>
   </table>
@@ -559,9 +707,9 @@ char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cl
 
 <p>Definition at line <a class="el" href="person_8cpp_source.html#l00389">389</a> of file <a class="el" href="person_8cpp_source.html">person.cpp</a>.</p>
 
-<p>References <a class="el" href="tile__func_8cpp_source.html#l00032">_tile_dxy</a>, <a class="el" href="ride__type_8cpp_source.html#l00208">RideInstance::CanBeVisited()</a>, <a class="el" href="path__build_8cpp_source.html#l00093">PathExistsAtBottomEdge()</a>, <a class="el" href="ride__type_8cpp_source.html#l00597">RideExistsAtBottom()</a>, <a class="el" href="ride__type_8h_source.html#l00101">RIS_OPEN</a>, <a class="el" href="person_8h_source.html#l00085">RVD_MAY_VISIT</a>, <a class="el" href="person_8h_source.html#l00086">RVD_MUST_VISIT</a>, <a class="el" href="person_8h_source.html#l00083">RVD_NO_RIDE</a>, <a class="el" href="person_8h_source.html#l00084">RVD_NO_VISIT</a>, <a class="el" href="ride__type_8h_source.html#l00149">RideInstance::state</a>, <a class="el" href="path_8cpp_source.html#l00267">TravelQueuePath()</a>, <a class="el" href="person_8h_source.html#l00167">wants_visit</a>, <a class="el" href="person_8cpp_source.html#l01016">WantToVisit()</a>, <a class="el" href="geometry_8h_source.html#l00037">Point&lt; CT &gt;::x</a>, and <a class="el" href="geometry_8h_source.html#l00038">Point&lt; CT &gt;::y</a>.</p>
+<p>References <a class="el" href="tile__func_8cpp_source.html#l00032">_tile_dxy</a>, <a class="el" href="ride__type_8cpp_source.html#l00230">RideInstance::CanBeVisited()</a>, <a class="el" href="path__build_8cpp_source.html#l00110">PathExistsAtBottomEdge()</a>, <a class="el" href="person_8h_source.html#l00187">ride</a>, <a class="el" href="ride__type_8cpp_source.html#l00619">RideExistsAtBottom()</a>, <a class="el" href="ride__type_8h_source.html#l00106">RIS_OPEN</a>, <a class="el" href="person_8h_source.html#l00086">RVD_MAY_VISIT</a>, <a class="el" href="person_8h_source.html#l00087">RVD_MUST_VISIT</a>, <a class="el" href="person_8h_source.html#l00084">RVD_NO_RIDE</a>, <a class="el" href="person_8h_source.html#l00085">RVD_NO_VISIT</a>, <a class="el" href="ride__type_8h_source.html#l00164">RideInstance::state</a>, <a class="el" href="path_8cpp_source.html#l00250">TravelQueuePath()</a>, <a class="el" href="person_8cpp_source.html#l01224">WantToVisit()</a>, <a class="el" href="geometry_8h_source.html#l00036">Point&lt; CT &gt;::x</a>, and <a class="el" href="geometry_8h_source.html#l00037">Point&lt; CT &gt;::y</a>.</p>
 
-<p>Referenced by <a class="el" href="person_8cpp_source.html#l00429">GetExitDirections()</a>.</p>
+<p>Referenced by <a class="el" href="person_8cpp_source.html#l00471">GetExitDirections()</a>.</p>
 
 </div>
 </div>
@@ -594,7 +742,7 @@ char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cl
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">bool *&#160;</td>
-          <td class="paramname"><em>queue_mode</em>&#160;</td>
+          <td class="paramname"><em>queue_path</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -615,18 +763,18 @@ char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cl
     <tr><td class="paramname">v</td><td>Voxel to cross next for the guest. </td></tr>
     <tr><td class="paramname">start_edge</td><td>Edge where the person is currently (entry edge of the voxel). </td></tr>
     <tr><td class="paramname">seen_wanted_ride</td><td>[out] Whether the wanted ride was seen. </td></tr>
-    <tr><td class="paramname">queue_mode</td><td>[out] Whether the quest should be queuing. </td></tr>
+    <tr><td class="paramname">queue_path</td><td>[out] Whether the quest is walking on a queue path (that may or may not lead to a ride). </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Possible exit directions in low nibble, exits with a shop in high nibble. </dd></dl>
 <dl class="section pre"><dt>Precondition</dt><dd><em>v</em> must have a path. </dd></dl>
 
-<p>Definition at line <a class="el" href="person_8cpp_source.html#l00429">429</a> of file <a class="el" href="person_8cpp_source.html">person.cpp</a>.</p>
+<p>Definition at line <a class="el" href="person_8cpp_source.html#l00471">471</a> of file <a class="el" href="person_8cpp_source.html">person.cpp</a>.</p>
 
-<p>References <a class="el" href="path_8cpp_source.html#l00038">_path_expand</a>, <a class="el" href="sprite__store_8cpp_source.html#l00031">_sprite_manager</a>, <a class="el" href="person_8cpp_source.html#l00389">ComputeExitDesire()</a>, <a class="el" href="tile_8h_source.html#l00118">EDGE_BEGIN</a>, <a class="el" href="tile_8h_source.html#l00124">EDGE_COUNT</a>, <a class="el" href="tile_8h_source.html#l00119">EDGE_NE</a>, <a class="el" href="tile_8h_source.html#l00122">EDGE_NW</a>, <a class="el" href="tile_8h_source.html#l00120">EDGE_SE</a>, <a class="el" href="tile_8h_source.html#l00121">EDGE_SW</a>, <a class="el" href="bitmath_8h_source.html#l00034">GB()</a>, <a class="el" href="map_8h_source.html#l00394">GetImplodedPathSlope()</a>, <a class="el" href="map_8h_source.html#l00105">Voxel::GetInstanceData()</a>, <a class="el" href="sprite__store_8cpp_source.html#l01603">SpriteManager::GetPathStatus()</a>, <a class="el" href="map_8h_source.html#l00433">GetPathType()</a>, <a class="el" href="map_8h_source.html#l00372">HasValidPath()</a>, <a class="el" href="stdafx_8h_source.html#l00182">NOT_REACHED</a>, <a class="el" href="path_8h_source.html#l00118">PAS_QUEUE_PATH</a>, <a class="el" href="path_8h_source.html#l00077">PATH_FLAT_COUNT</a>, <a class="el" href="path_8h_source.html#l00079">PATH_RAMP_NE</a>, <a class="el" href="path_8h_source.html#l00080">PATH_RAMP_NW</a>, <a class="el" href="path_8h_source.html#l00081">PATH_RAMP_SE</a>, <a class="el" href="path_8h_source.html#l00082">PATH_RAMP_SW</a>, <a class="el" href="path_8h_source.html#l00091">PATHBIT_NE</a>, <a class="el" href="person_8h_source.html#l00085">RVD_MAY_VISIT</a>, <a class="el" href="person_8h_source.html#l00086">RVD_MUST_VISIT</a>, <a class="el" href="person_8h_source.html#l00083">RVD_NO_RIDE</a>, <a class="el" href="person_8h_source.html#l00084">RVD_NO_VISIT</a>, <a class="el" href="bitmath_8h_source.html#l00058">SB()</a>, <a class="el" href="map_8h_source.html#l00358">VoxelObject::x_vox</a>, <a class="el" href="map_8h_source.html#l00359">VoxelObject::y_vox</a>, and <a class="el" href="map_8h_source.html#l00360">VoxelObject::z_vox</a>.</p>
+<p>References <a class="el" href="sprite__store_8cpp_source.html#l00031">_sprite_manager</a>, <a class="el" href="person_8cpp_source.html#l00389">ComputeExitDesire()</a>, <a class="el" href="tile_8h_source.html#l00118">EDGE_BEGIN</a>, <a class="el" href="tile_8h_source.html#l00124">EDGE_COUNT</a>, <a class="el" href="bitmath_8h_source.html#l00034">GB()</a>, <a class="el" href="map_8h_source.html#l00105">Voxel::GetInstanceData()</a>, <a class="el" href="path_8cpp_source.html#l00221">GetPathExits()</a>, <a class="el" href="sprite__store_8cpp_source.html#l01748">SpriteManager::GetPathStatus()</a>, <a class="el" href="map_8h_source.html#l00429">GetPathType()</a>, <a class="el" href="map_8h_source.html#l00368">HasValidPath()</a>, <a class="el" href="stdafx_8h_source.html#l00182">NOT_REACHED</a>, <a class="el" href="path_8h_source.html#l00118">PAS_QUEUE_PATH</a>, <a class="el" href="person_8h_source.html#l00086">RVD_MAY_VISIT</a>, <a class="el" href="person_8h_source.html#l00087">RVD_MUST_VISIT</a>, <a class="el" href="person_8h_source.html#l00084">RVD_NO_RIDE</a>, <a class="el" href="person_8h_source.html#l00085">RVD_NO_VISIT</a>, <a class="el" href="bitmath_8h_source.html#l00058">SB()</a>, and <a class="el" href="map_8h_source.html#l00358">VoxelObject::vox_pos</a>.</p>
 
-<p>Referenced by <a class="el" href="person_8cpp_source.html#l00571">DecideMoveDirection()</a>.</p>
+<p>Referenced by <a class="el" href="person_8cpp_source.html#l00625">DecideMoveDirection()</a>.</p>
 
 </div>
 </div>
@@ -663,11 +811,150 @@ char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cl
 
 <p>Reimplemented from <a class="el" href="classPerson.html#af68becb21a22930f4d32fb767c5a4957">Person</a>.</p>
 
-<p>Definition at line <a class="el" href="person_8cpp_source.html#l01016">1016</a> of file <a class="el" href="person_8cpp_source.html">person.cpp</a>.</p>
+<p>Definition at line <a class="el" href="person_8cpp_source.html#l01224">1224</a> of file <a class="el" href="person_8cpp_source.html">person.cpp</a>.</p>
 
-<p>References <a class="el" href="ride__type_8cpp_source.html#l00237">RideInstance::GetSaleItemType()</a>, <a class="el" href="person_8cpp_source.html#l00984">NeedForItem()</a>, <a class="el" href="ride__type_8h_source.html#l00023">NUMBER_ITEM_TYPES_SOLD</a>, <a class="el" href="person_8h_source.html#l00085">RVD_MAY_VISIT</a>, and <a class="el" href="person_8h_source.html#l00084">RVD_NO_VISIT</a>.</p>
+<p>References <a class="el" href="ride__type_8cpp_source.html#l00259">RideInstance::GetSaleItemType()</a>, <a class="el" href="person_8cpp_source.html#l01173">NeedForItem()</a>, <a class="el" href="ride__type_8h_source.html#l00023">NUMBER_ITEM_TYPES_SOLD</a>, <a class="el" href="person_8h_source.html#l00086">RVD_MAY_VISIT</a>, and <a class="el" href="person_8h_source.html#l00085">RVD_NO_VISIT</a>.</p>
 
 <p>Referenced by <a class="el" href="person_8cpp_source.html#l00389">ComputeExitDesire()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a031f975d3de59f50ba8d903e8aac09ee"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="person_8h.html#ae3aef3aff49220c420907cdf750bc0e4">AnimateResult</a> Guest::EdgeOfWorldOnAnimate </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Handle the case of a guest reaching the end of the game world. </p>
+<dl class="section return"><dt>Returns</dt><dd>Result code of the visit. </dd></dl>
+
+<p>Implements <a class="el" href="classPerson.html#a2a720b271bd3784111d1bb6bd85cb025">Person</a>.</p>
+
+<p>Definition at line <a class="el" href="person_8cpp_source.html#l01049">1049</a> of file <a class="el" href="person_8cpp_source.html">person.cpp</a>.</p>
+
+<p>References <a class="el" href="people_8cpp_source.html#l00023">_guests</a>, <a class="el" href="person_8h_source.html#l00183">activity</a>, <a class="el" href="person_8h_source.html#l00162">GA_GO_HOME</a>, <a class="el" href="map_8h_source.html#l00639">IsVoxelstackInsideWorld()</a>, <a class="el" href="person_8h_source.html#l00076">OAR_CONTINUE</a>, <a class="el" href="person_8h_source.html#l00079">OAR_DEACTIVATE</a>, <a class="el" href="people_8h_source.html#l00097">Guests::start_voxel</a>, <a class="el" href="map_8h_source.html#l00358">VoxelObject::vox_pos</a>, <a class="el" href="geometry_8h_source.html#l00036">Point&lt; CT &gt;::x</a>, <a class="el" href="geometry_8h_source.html#l00100">XYZPoint&lt; CT &gt;::x</a>, and <a class="el" href="geometry_8h_source.html#l00037">Point&lt; CT &gt;::y</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aecec6d4c4c10784a16e5b1741ee0c70b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="person_8h.html#ae3aef3aff49220c420907cdf750bc0e4">AnimateResult</a> Guest::VisitRideOnAnimate </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classRideInstance.html">RideInstance</a> *&#160;</td>
+          <td class="paramname"><em>ri</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__map__group.html#ga29bb8f9503c34074bad3c762c92ee68b">TileEdge</a>&#160;</td>
+          <td class="paramname"><em>exit_edge</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Handle guest ride visiting. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">ri</td><td>Ride that can be visited. </td></tr>
+    <tr><td class="paramname">exit_edge</td><td>Exit edge being examined. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Result code of the visit. </dd></dl>
+
+<p>Implements <a class="el" href="classPerson.html#a7b4e0499ab889aa9dfcee026e57f22db">Person</a>.</p>
+
+<p>Definition at line <a class="el" href="person_8cpp_source.html#l01062">1062</a> of file <a class="el" href="person_8cpp_source.html">person.cpp</a>.</p>
+
+<p>References <a class="el" href="person_8h_source.html#l00183">activity</a>, <a class="el" href="person_8cpp_source.html#l01330">BuyItem()</a>, <a class="el" href="ride__type_8cpp_source.html#l00230">RideInstance::CanBeVisited()</a>, <a class="el" href="classRideInstance.html#acb7676e0ec87d26c9fb6528d5809a2f9">RideInstance::EnterRide()</a>, <a class="el" href="person_8h_source.html#l00161">GA_ON_RIDE</a>, <a class="el" href="person_8h_source.html#l00159">GA_WANDER</a>, <a class="el" href="ride__type_8h_source.html#l00054">ITP_NOTHING</a>, <a class="el" href="person_8h_source.html#l00076">OAR_CONTINUE</a>, <a class="el" href="person_8h_source.html#l00077">OAR_OK</a>, <a class="el" href="ride__type_8h_source.html#l00125">RER_REFUSED</a>, <a class="el" href="person_8h_source.html#l00187">ride</a>, and <a class="el" href="person_8cpp_source.html#l01301">SelectItem()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a1d479563c67438841540c8e9f3fe112b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="structWalkInformation.html">WalkInformation</a> * Guest::WalkForActivity </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structWalkInformation.html">WalkInformation</a> **&#160;</td>
+          <td class="paramname"><em>walks</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="stdafx_8h.html#adde6aaee8457bee49c2a92621fe22b79">uint8</a>&#160;</td>
+          <td class="paramname"><em>walk_count</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="stdafx_8h.html#adde6aaee8457bee49c2a92621fe22b79">uint8</a>&#160;</td>
+          <td class="paramname"><em>exits</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Find new walk based on activity. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">walks</td><td>Possible walks. </td></tr>
+    <tr><td class="paramname">walk_count</td><td>Number of available walks. </td></tr>
+    <tr><td class="paramname">exits</td><td>Valid exits for the walk. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Walk info for the activity. </dd></dl>
+
+<p>Definition at line <a class="el" href="person_8cpp_source.html#l00738">738</a> of file <a class="el" href="person_8cpp_source.html">person.cpp</a>.</p>
+
+<p>References <a class="el" href="person_8h_source.html#l00183">activity</a>, <a class="el" href="person_8h_source.html#l00158">GA_ENTER_PARK</a>, <a class="el" href="person_8h_source.html#l00162">GA_GO_HOME</a>, <a class="el" href="person_8h_source.html#l00161">GA_ON_RIDE</a>, <a class="el" href="person_8cpp_source.html#l00609">GetDesiredEdgeIndex()</a>, <a class="el" href="person_8cpp_source.html#l00586">GetGoHomeDirection()</a>, <a class="el" href="person_8cpp_source.html#l00532">GetParkEntryDirection()</a>, <a class="el" href="stdafx_8h_source.html#l00182">NOT_REACHED</a>, <a class="el" href="person_8h_source.html#l00142">Person::rnd</a>, <a class="el" href="random_8cpp_source.html#l00058">Random::Uniform()</a>, and <a class="el" href="map_8h_source.html#l00358">VoxelObject::vox_pos</a>.</p>
+
+<p>Referenced by <a class="el" href="person_8cpp_source.html#l00625">DecideMoveDirection()</a>.</p>
 
 </div>
 </div>
@@ -712,13 +999,14 @@ char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cl
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Desire of getting the item. </dd></dl>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000037">Todo:</a></b></dt><dd>Make warm food attractive on cold days. </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000038">Todo:</a></b></dt><dd>Make warm food attractive on cold days. </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000039">Todo:</a></b></dt><dd>Add some form or age? (just a "is_child" boolean would suffice) </dd></dl>
 
-<p>Definition at line <a class="el" href="person_8cpp_source.html#l00984">984</a> of file <a class="el" href="person_8cpp_source.html">person.cpp</a>.</p>
+<p>Definition at line <a class="el" href="person_8cpp_source.html#l01173">1173</a> of file <a class="el" href="person_8cpp_source.html">person.cpp</a>.</p>
 
-<p>References <a class="el" href="weather_8cpp_source.html#l00017">_weather</a>, <a class="el" href="person_8h_source.html#l00176">drink</a>, <a class="el" href="person_8h_source.html#l00175">food</a>, <a class="el" href="person_8h_source.html#l00171">has_map</a>, <a class="el" href="person_8h_source.html#l00172">has_umbrella</a>, <a class="el" href="person_8h_source.html#l00177">hunger_level</a>, <a class="el" href="ride__type_8h_source.html#l00055">ITP_DRINK</a>, <a class="el" href="ride__type_8h_source.html#l00056">ITP_ICE_CREAM</a>, <a class="el" href="ride__type_8h_source.html#l00057">ITP_NORMAL_FOOD</a>, <a class="el" href="ride__type_8h_source.html#l00054">ITP_NOTHING</a>, <a class="el" href="ride__type_8h_source.html#l00060">ITP_PARK_MAP</a>, <a class="el" href="ride__type_8h_source.html#l00058">ITP_SALTY_FOOD</a>, <a class="el" href="ride__type_8h_source.html#l00059">ITP_UMBRELLA</a>, <a class="el" href="stdafx_8h_source.html#l00182">NOT_REACHED</a>, <a class="el" href="person_8h_source.html#l00132">Person::rnd</a>, <a class="el" href="person_8h_source.html#l00085">RVD_MAY_VISIT</a>, <a class="el" href="person_8h_source.html#l00084">RVD_NO_VISIT</a>, <a class="el" href="person_8h_source.html#l00179">stomach_level</a>, <a class="el" href="random_8cpp_source.html#l00024">Random::Success1024()</a>, <a class="el" href="weather_8h_source.html#l00032">Weather::temperature</a>, <a class="el" href="person_8h_source.html#l00178">thirst_level</a>, and <a class="el" href="person_8h_source.html#l00180">waste</a>.</p>
+<p>References <a class="el" href="weather_8cpp_source.html#l00017">_weather</a>, <a class="el" href="person_8h_source.html#l00183">activity</a>, <a class="el" href="person_8h_source.html#l00186">cash</a>, <a class="el" href="person_8h_source.html#l00197">drink</a>, <a class="el" href="person_8h_source.html#l00196">food</a>, <a class="el" href="person_8h_source.html#l00158">GA_ENTER_PARK</a>, <a class="el" href="person_8h_source.html#l00162">GA_GO_HOME</a>, <a class="el" href="person_8h_source.html#l00193">has_balloon</a>, <a class="el" href="person_8h_source.html#l00190">has_map</a>, <a class="el" href="person_8h_source.html#l00191">has_umbrella</a>, <a class="el" href="person_8h_source.html#l00198">hunger_level</a>, <a class="el" href="ride__type_8h_source.html#l00060">ITP_BALLOON</a>, <a class="el" href="ride__type_8h_source.html#l00055">ITP_DRINK</a>, <a class="el" href="ride__type_8h_source.html#l00065">ITP_FIRST_AID</a>, <a class="el" href="ride__type_8h_source.html#l00056">ITP_ICE_CREAM</a>, <a class="el" href="ride__type_8h_source.html#l00063">ITP_MONEY</a>, <a class="el" href="ride__type_8h_source.html#l00057">ITP_NORMAL_FOOD</a>, <a class="el" href="ride__type_8h_source.html#l00054">ITP_NOTHING</a>, <a class="el" href="ride__type_8h_source.html#l00061">ITP_PARK_MAP</a>, <a class="el" href="ride__type_8h_source.html#l00058">ITP_SALTY_FOOD</a>, <a class="el" href="ride__type_8h_source.html#l00062">ITP_SOUVENIR</a>, <a class="el" href="ride__type_8h_source.html#l00064">ITP_TOILET</a>, <a class="el" href="ride__type_8h_source.html#l00059">ITP_UMBRELLA</a>, <a class="el" href="person_8h_source.html#l00202">nausea</a>, <a class="el" href="stdafx_8h_source.html#l00182">NOT_REACHED</a>, <a class="el" href="person_8h_source.html#l00142">Person::rnd</a>, <a class="el" href="person_8h_source.html#l00086">RVD_MAY_VISIT</a>, <a class="el" href="person_8h_source.html#l00087">RVD_MUST_VISIT</a>, <a class="el" href="person_8h_source.html#l00085">RVD_NO_VISIT</a>, <a class="el" href="person_8h_source.html#l00195">souvenirs</a>, <a class="el" href="person_8h_source.html#l00200">stomach_level</a>, <a class="el" href="random_8cpp_source.html#l00024">Random::Success1024()</a>, <a class="el" href="weather_8h_source.html#l00031">Weather::temperature</a>, <a class="el" href="person_8h_source.html#l00199">thirst_level</a>, and <a class="el" href="person_8h_source.html#l00201">waste</a>.</p>
 
-<p>Referenced by <a class="el" href="person_8cpp_source.html#l01073">VisitShop()</a>, and <a class="el" href="person_8cpp_source.html#l01016">WantToVisit()</a>.</p>
+<p>Referenced by <a class="el" href="person_8cpp_source.html#l01301">SelectItem()</a>, and <a class="el" href="person_8cpp_source.html#l01224">WantToVisit()</a>.</p>
 
 </div>
 </div>
@@ -752,11 +1040,11 @@ char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cl
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="person_8cpp_source.html#l01028">1028</a> of file <a class="el" href="person_8cpp_source.html">person.cpp</a>.</p>
+<p>Definition at line <a class="el" href="person_8cpp_source.html#l01236">1236</a> of file <a class="el" href="person_8cpp_source.html">person.cpp</a>.</p>
 
-<p>References <a class="el" href="person_8h_source.html#l00176">drink</a>, <a class="el" href="person_8h_source.html#l00175">food</a>, <a class="el" href="person_8h_source.html#l00171">has_map</a>, <a class="el" href="person_8h_source.html#l00172">has_umbrella</a>, <a class="el" href="person_8h_source.html#l00173">has_wrapper</a>, <a class="el" href="ride__type_8h_source.html#l00055">ITP_DRINK</a>, <a class="el" href="ride__type_8h_source.html#l00056">ITP_ICE_CREAM</a>, <a class="el" href="ride__type_8h_source.html#l00057">ITP_NORMAL_FOOD</a>, <a class="el" href="ride__type_8h_source.html#l00054">ITP_NOTHING</a>, <a class="el" href="ride__type_8h_source.html#l00060">ITP_PARK_MAP</a>, <a class="el" href="ride__type_8h_source.html#l00058">ITP_SALTY_FOOD</a>, <a class="el" href="ride__type_8h_source.html#l00059">ITP_UMBRELLA</a>, <a class="el" href="stdafx_8h_source.html#l00182">NOT_REACHED</a>, and <a class="el" href="person_8h_source.html#l00174">salty_food</a>.</p>
+<p>References <a class="el" href="person_8h_source.html#l00186">cash</a>, <a class="el" href="person_8h_source.html#l00197">drink</a>, <a class="el" href="person_8h_source.html#l00196">food</a>, <a class="el" href="person_8h_source.html#l00193">has_balloon</a>, <a class="el" href="person_8h_source.html#l00190">has_map</a>, <a class="el" href="person_8h_source.html#l00191">has_umbrella</a>, <a class="el" href="person_8h_source.html#l00192">has_wrapper</a>, <a class="el" href="ride__type_8h_source.html#l00060">ITP_BALLOON</a>, <a class="el" href="ride__type_8h_source.html#l00055">ITP_DRINK</a>, <a class="el" href="ride__type_8h_source.html#l00065">ITP_FIRST_AID</a>, <a class="el" href="ride__type_8h_source.html#l00056">ITP_ICE_CREAM</a>, <a class="el" href="ride__type_8h_source.html#l00063">ITP_MONEY</a>, <a class="el" href="ride__type_8h_source.html#l00057">ITP_NORMAL_FOOD</a>, <a class="el" href="ride__type_8h_source.html#l00054">ITP_NOTHING</a>, <a class="el" href="ride__type_8h_source.html#l00061">ITP_PARK_MAP</a>, <a class="el" href="ride__type_8h_source.html#l00058">ITP_SALTY_FOOD</a>, <a class="el" href="ride__type_8h_source.html#l00062">ITP_SOUVENIR</a>, <a class="el" href="ride__type_8h_source.html#l00064">ITP_TOILET</a>, <a class="el" href="ride__type_8h_source.html#l00059">ITP_UMBRELLA</a>, <a class="el" href="person_8h_source.html#l00202">nausea</a>, <a class="el" href="stdafx_8h_source.html#l00182">NOT_REACHED</a>, <a class="el" href="person_8h_source.html#l00194">salty_food</a>, <a class="el" href="person_8h_source.html#l00195">souvenirs</a>, and <a class="el" href="person_8h_source.html#l00201">waste</a>.</p>
 
-<p>Referenced by <a class="el" href="person_8cpp_source.html#l01073">VisitShop()</a>.</p>
+<p>Referenced by <a class="el" href="person_8cpp_source.html#l01330">BuyItem()</a>.</p>
 
 </div>
 </div>
@@ -811,48 +1099,9 @@ char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cl
 
 <p>Implements <a class="el" href="classVoxelObject.html#aec92d138c7b5b3622575aee15986fad4">VoxelObject</a>.</p>
 
-<p>Definition at line <a class="el" href="person_8cpp_source.html#l00103">103</a> of file <a class="el" href="person_8cpp_source.html">person.cpp</a>.</p>
+<p>Definition at line <a class="el" href="person_8cpp_source.html#l00108">108</a> of file <a class="el" href="person_8cpp_source.html">person.cpp</a>.</p>
 
-<p>References <a class="el" href="person_8h_source.html#l00070">WalkInformation::anim_type</a>, <a class="el" href="person_8h_source.html#l00127">Person::frame_index</a>, <a class="el" href="sprite__store_8h_source.html#l00551">SpriteStorage::GetAnimationSprite()</a>, <a class="el" href="person_8h_source.html#l00129">Person::recolour</a>, <a class="el" href="person_8h_source.html#l00121">Person::type</a>, and <a class="el" href="person_8h_source.html#l00124">Person::walk</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a99855082bc6ddb7aff3897168edcb898"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="person_8h.html#ae3aef3aff49220c420907cdf750bc0e4">AnimateResult</a> Person::OnAnimate </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>delay</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inherited</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Update the animation of the person. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">delay</td><td>Amount of milliseconds since the last update. </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>If <code>false</code>, de-activate the person. </dd></dl>
-
-<p>Definition at line <a class="el" href="person_8cpp_source.html#l00698">698</a> of file <a class="el" href="person_8cpp_source.html">person.cpp</a>.</p>
-
-<p>References <a class="el" href="ride__type_8cpp_source.html#l00043">_rides_manager</a>, <a class="el" href="map_8cpp_source.html#l00027">_world</a>, <a class="el" href="map_8h_source.html#l00323">VoxelObject::AddSelf()</a>, <a class="el" href="sprite__store_8h_source.html#l00184">ANIM_INVALID</a>, <a class="el" href="ride__type_8cpp_source.html#l00208">RideInstance::CanBeVisited()</a>, <a class="el" href="classPerson.html#a61a86db518f934fe610c24f3f9bc89ce">Person::DecideMoveDirection()</a>, <a class="el" href="sprite__store_8h_source.html#l00170">AnimationFrame::duration</a>, <a class="el" href="sprite__store_8h_source.html#l00171">AnimationFrame::dx</a>, <a class="el" href="sprite__store_8h_source.html#l00172">AnimationFrame::dy</a>, <a class="el" href="tile_8h_source.html#l00119">EDGE_NE</a>, <a class="el" href="tile_8h_source.html#l00122">EDGE_NW</a>, <a class="el" href="tile_8h_source.html#l00120">EDGE_SE</a>, <a class="el" href="tile_8h_source.html#l00121">EDGE_SW</a>, <a class="el" href="person_8h_source.html#l00126">Person::frame_count</a>, <a class="el" href="person_8h_source.html#l00127">Person::frame_index</a>, <a class="el" href="person_8h_source.html#l00128">Person::frame_time</a>, <a class="el" href="person_8h_source.html#l00125">Person::frames</a>, <a class="el" href="bitmath_8h_source.html#l00034">GB()</a>, <a class="el" href="map_8h_source.html#l00533">VoxelWorld::GetCreateVoxel()</a>, <a class="el" href="map_8h_source.html#l00072">Voxel::GetInstance()</a>, <a class="el" href="ride__type_8cpp_source.html#l00412">RidesManager::GetRideInstance()</a>, <a class="el" href="map_8h_source.html#l00542">VoxelWorld::GetXSize()</a>, <a class="el" href="map_8h_source.html#l00551">VoxelWorld::GetYSize()</a>, <a class="el" href="person_8cpp_source.html#l00150">GetZHeight()</a>, <a class="el" href="map_8h_source.html#l00372">HasValidPath()</a>, <a class="el" href="tile_8h_source.html#l00128">INVALID_EDGE</a>, <a class="el" href="person_8h_source.html#l00071">WalkInformation::limit_type</a>, <a class="el" href="map_8cpp_source.html#l00143">VoxelObject::MarkDirty()</a>, <a class="el" href="person_8h_source.html#l00078">OAR_DEACTIVATE</a>, <a class="el" href="person_8h_source.html#l00076">OAR_OK</a>, <a class="el" href="person_8h_source.html#l00077">OAR_REMOVE</a>, <a class="el" href="person_8h_source.html#l00122">Person::offset</a>, <a class="el" href="map_8h_source.html#l00338">VoxelObject::RemoveSelf()</a>, <a class="el" href="math__func_8h_source.html#l00046">sign()</a>, <a class="el" href="map_8h_source.html#l00045">SRI_FULL_RIDES</a>, <a class="el" href="person_8cpp_source.html#l00662">Person::StartAnimation()</a>, <a class="el" href="person_8cpp_source.html#l01073">VisitShop()</a>, <a class="el" href="person_8h_source.html#l00124">Person::walk</a>, <a class="el" href="person_8h_source.html#l00036">WLM_CENTER</a>, <a class="el" href="person_8h_source.html#l00045">WLM_END_LIMIT</a>, <a class="el" href="person_8h_source.html#l00037">WLM_HIGH</a>, <a class="el" href="person_8h_source.html#l00041">WLM_LIMIT_LENGTH</a>, <a class="el" href="person_8h_source.html#l00035">WLM_LOW</a>, <a class="el" href="person_8h_source.html#l00038">WLM_MAXIMAL</a>, <a class="el" href="person_8h_source.html#l00034">WLM_MINIMAL</a>, <a class="el" href="person_8h_source.html#l00047">WLM_X_COND</a>, <a class="el" href="person_8h_source.html#l00043">WLM_X_START</a>, <a class="el" href="person_8h_source.html#l00044">WLM_Y_START</a>, <a class="el" href="map_8h_source.html#l00361">VoxelObject::x_pos</a>, <a class="el" href="map_8h_source.html#l00358">VoxelObject::x_vox</a>, <a class="el" href="map_8h_source.html#l00362">VoxelObject::y_pos</a>, <a class="el" href="map_8h_source.html#l00359">VoxelObject::y_vox</a>, <a class="el" href="map_8h_source.html#l00363">VoxelObject::z_pos</a>, and <a class="el" href="map_8h_source.html#l00360">VoxelObject::z_vox</a>.</p>
-
-<p>Referenced by <a class="el" href="people_8cpp_source.html#l00159">Guests::OnAnimate()</a>.</p>
+<p>References <a class="el" href="person_8h_source.html#l00070">WalkInformation::anim_type</a>, <a class="el" href="person_8h_source.html#l00137">Person::frame_index</a>, <a class="el" href="sprite__store_8h_source.html#l00575">SpriteStorage::GetAnimationSprite()</a>, <a class="el" href="person_8h_source.html#l00139">Person::recolour</a>, <a class="el" href="person_8h_source.html#l00131">Person::type</a>, and <a class="el" href="person_8h_source.html#l00134">Person::walk</a>.</p>
 
 </div>
 </div>
@@ -880,11 +1129,43 @@ char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cl
 <p>Test whether this person is active in the game or not. </p>
 <dl class="section return"><dt>Returns</dt><dd>Whether the person is active in the game. </dd></dl>
 
-<p>Definition at line <a class="el" href="person_8h_source.html#l00112">112</a> of file <a class="el" href="person_8h_source.html">person.h</a>.</p>
+<p>Definition at line <a class="el" href="person_8h_source.html#l00113">113</a> of file <a class="el" href="person_8h_source.html">person.h</a>.</p>
 
-<p>References <a class="el" href="person__type_8h_source.html#l00027">PERSON_INVALID</a>, and <a class="el" href="person_8h_source.html#l00121">Person::type</a>.</p>
+<p>References <a class="el" href="person__type_8h_source.html#l00030">PERSON_INVALID</a>, and <a class="el" href="person_8h_source.html#l00131">Person::type</a>.</p>
 
-<p>Referenced by <a class="el" href="person_8cpp_source.html#l00172">Person::Activate()</a>, <a class="el" href="people_8cpp_source.html#l00145">Guests::CountActiveGuests()</a>, <a class="el" href="person_8cpp_source.html#l00679">Person::DeActivate()</a>, <a class="el" href="person_8cpp_source.html#l00907">DeActivate()</a>, <a class="el" href="people_8cpp_source.html#l00174">Guests::DoTick()</a>, <a class="el" href="people_8cpp_source.html#l00116">Guests::FindNextFreeGuest()</a>, and <a class="el" href="people_8cpp_source.html#l00159">Guests::OnAnimate()</a>.</p>
+<p>Referenced by <a class="el" href="person_8cpp_source.html#l00174">Person::Activate()</a>, <a class="el" href="people_8cpp_source.html#l00117">Guests::CountActiveGuests()</a>, <a class="el" href="person_8cpp_source.html#l00789">Person::DeActivate()</a>, <a class="el" href="person_8cpp_source.html#l01028">DeActivate()</a>, <a class="el" href="people_8cpp_source.html#l00146">Guests::DoTick()</a>, <a class="el" href="people_8cpp_source.html#l00088">Guests::FindNextFreeGuest()</a>, <a class="el" href="people_8cpp_source.html#l00190">Guests::NotifyRideDeletion()</a>, and <a class="el" href="people_8cpp_source.html#l00131">Guests::OnAnimate()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a8ed81370ad24f82c3e89255dfc9c06c6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Person::IsGuest </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Test whether this person is a guest or not. </p>
+<dl class="section return"><dt>Returns</dt><dd>Whether the person is a guest. </dd></dl>
+
+<p>Definition at line <a class="el" href="person_8h_source.html#l00122">122</a> of file <a class="el" href="person_8h_source.html">person.h</a>.</p>
+
+<p>References <a class="el" href="person__type_8h_source.html#l00023">PERSON_GUEST</a>, and <a class="el" href="person_8h_source.html#l00131">Person::type</a>.</p>
+
+<p>Referenced by <a class="el" href="person_8cpp_source.html#l01104">DailyUpdate()</a>, <a class="el" href="person_8cpp_source.html#l00134">Person::GetName()</a>, and <a class="el" href="person_8cpp_source.html#l00120">Person::SetName()</a>.</p>
 
 </div>
 </div>
@@ -919,9 +1200,9 @@ char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cl
 </dl>
 <dl class="section note"><dt>Note</dt><dd>Currently unused. </dd></dl>
 
-<p>Definition at line <a class="el" href="person_8cpp_source.html#l00115">115</a> of file <a class="el" href="person_8cpp_source.html">person.cpp</a>.</p>
+<p>Definition at line <a class="el" href="person_8cpp_source.html#l00120">120</a> of file <a class="el" href="person_8cpp_source.html">person.cpp</a>.</p>
 
-<p>References <a class="el" href="person__type_8h_source.html#l00068">PersonIsAGuest()</a>, and <a class="el" href="person_8h_source.html#l00121">Person::type</a>.</p>
+<p>References <a class="el" href="person_8h_source.html#l00122">Person::IsGuest()</a>.</p>
 
 </div>
 </div>
@@ -949,9 +1230,9 @@ char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cl
 <p>Query the name of the person. </p>
 <p>The name is returned in memory owned by the person. Do not free this data. It may change on each call. </p><dl class="section return"><dt>Returns</dt><dd>Static buffer containing the name of the person. </dd></dl>
 
-<p>Definition at line <a class="el" href="person_8cpp_source.html#l00130">130</a> of file <a class="el" href="person_8cpp_source.html">person.cpp</a>.</p>
+<p>Definition at line <a class="el" href="person_8cpp_source.html#l00134">134</a> of file <a class="el" href="person_8cpp_source.html">person.cpp</a>.</p>
 
-<p>References <a class="el" href="person_8h_source.html#l00133">Person::name</a>, <a class="el" href="person__type_8h_source.html#l00068">PersonIsAGuest()</a>, and <a class="el" href="person_8h_source.html#l00121">Person::type</a>.</p>
+<p>References <a class="el" href="person_8h_source.html#l00122">Person::IsGuest()</a>, and <a class="el" href="person_8h_source.html#l00143">Person::name</a>.</p>
 
 <p>Referenced by <a class="el" href="person__gui_8cpp_source.html#l00083">GuestInfoWindow::SetWidgetStringParameters()</a>.</p>
 
@@ -981,11 +1262,43 @@ char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cl
 <p>Decide at which edge the person is. </p>
 <dl class="section return"><dt>Returns</dt><dd>Nearest edge of the person. </dd></dl>
 
-<p>Definition at line <a class="el" href="person_8cpp_source.html#l00364">364</a> of file <a class="el" href="person_8cpp_source.html">person.cpp</a>.</p>
+<p>Definition at line <a class="el" href="person_8cpp_source.html#l00366">366</a> of file <a class="el" href="person_8cpp_source.html">person.cpp</a>.</p>
 
-<p>References <a class="el" href="tile_8h_source.html#l00119">EDGE_NE</a>, <a class="el" href="tile_8h_source.html#l00122">EDGE_NW</a>, <a class="el" href="tile_8h_source.html#l00120">EDGE_SE</a>, <a class="el" href="tile_8h_source.html#l00121">EDGE_SW</a>, <a class="el" href="map_8h_source.html#l00361">VoxelObject::x_pos</a>, and <a class="el" href="map_8h_source.html#l00362">VoxelObject::y_pos</a>.</p>
+<p>References <a class="el" href="tile_8h_source.html#l00119">EDGE_NE</a>, <a class="el" href="tile_8h_source.html#l00122">EDGE_NW</a>, <a class="el" href="tile_8h_source.html#l00120">EDGE_SE</a>, <a class="el" href="tile_8h_source.html#l00121">EDGE_SW</a>, <a class="el" href="map_8h_source.html#l00359">VoxelObject::pix_pos</a>, <a class="el" href="geometry_8h_source.html#l00100">XYZPoint&lt; CT &gt;::x</a>, and <a class="el" href="geometry_8h_source.html#l00101">XYZPoint&lt; CT &gt;::y</a>.</p>
 
-<p>Referenced by <a class="el" href="person_8cpp_source.html#l00571">DecideMoveDirection()</a>.</p>
+<p>Referenced by <a class="el" href="person_8cpp_source.html#l00625">DecideMoveDirection()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ad4cab16b03fc0c3aee0e2c1010503bd6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="stdafx_8h.html#adde6aaee8457bee49c2a92621fe22b79">uint8</a> Person::GetInparkDirections </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the directions to neighboring tiles that lead to or stay in the park. </p>
+<dl class="section return"><dt>Returns</dt><dd>Exits from the current tile that stay or lead into the park in the low nibble. </dd></dl>
+
+<p>Definition at line <a class="el" href="person_8cpp_source.html#l00714">714</a> of file <a class="el" href="person_8cpp_source.html">person.cpp</a>.</p>
+
+<p>References <a class="el" href="tile__func_8cpp_source.html#l00032">_tile_dxy</a>, <a class="el" href="map_8cpp_source.html#l00027">_world</a>, <a class="el" href="tile_8h_source.html#l00118">EDGE_BEGIN</a>, <a class="el" href="tile_8h_source.html#l00124">EDGE_COUNT</a>, <a class="el" href="map_8cpp_source.html#l00482">VoxelWorld::GetTileOwner()</a>, <a class="el" href="map_8h_source.html#l00534">VoxelWorld::GetXSize()</a>, <a class="el" href="map_8h_source.html#l00543">VoxelWorld::GetYSize()</a>, <a class="el" href="map_8h_source.html#l00449">OWN_PARK</a>, <a class="el" href="bitmath_8h_source.html#l00058">SB()</a>, <a class="el" href="map_8h_source.html#l00358">VoxelObject::vox_pos</a>, <a class="el" href="geometry_8h_source.html#l00036">Point&lt; CT &gt;::x</a>, <a class="el" href="geometry_8h_source.html#l00100">XYZPoint&lt; CT &gt;::x</a>, <a class="el" href="geometry_8h_source.html#l00037">Point&lt; CT &gt;::y</a>, and <a class="el" href="geometry_8h_source.html#l00101">XYZPoint&lt; CT &gt;::y</a>.</p>
+
+<p>Referenced by <a class="el" href="person_8cpp_source.html#l00625">DecideMoveDirection()</a>.</p>
 
 </div>
 </div>
@@ -1019,11 +1332,11 @@ char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cl
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="person_8cpp_source.html#l00662">662</a> of file <a class="el" href="person_8cpp_source.html">person.cpp</a>.</p>
+<p>Definition at line <a class="el" href="person_8cpp_source.html#l00772">772</a> of file <a class="el" href="person_8cpp_source.html">person.cpp</a>.</p>
 
-<p>References <a class="el" href="sprite__store_8cpp_source.html#l00031">_sprite_manager</a>, <a class="el" href="person_8h_source.html#l00070">WalkInformation::anim_type</a>, <a class="el" href="sprite__store_8h_source.html#l00170">AnimationFrame::duration</a>, <a class="el" href="person_8h_source.html#l00126">Person::frame_count</a>, <a class="el" href="sprite__store_8h_source.html#l00196">Animation::frame_count</a>, <a class="el" href="person_8h_source.html#l00127">Person::frame_index</a>, <a class="el" href="person_8h_source.html#l00128">Person::frame_time</a>, <a class="el" href="person_8h_source.html#l00125">Person::frames</a>, <a class="el" href="sprite__store_8h_source.html#l00200">Animation::frames</a>, <a class="el" href="sprite__store_8cpp_source.html#l01577">SpriteManager::GetAnimation()</a>, <a class="el" href="map_8cpp_source.html#l00143">VoxelObject::MarkDirty()</a>, and <a class="el" href="person_8h_source.html#l00124">Person::walk</a>.</p>
+<p>References <a class="el" href="sprite__store_8cpp_source.html#l00031">_sprite_manager</a>, <a class="el" href="person_8h_source.html#l00070">WalkInformation::anim_type</a>, <a class="el" href="sprite__store_8h_source.html#l00189">AnimationFrame::duration</a>, <a class="el" href="person_8h_source.html#l00136">Person::frame_count</a>, <a class="el" href="sprite__store_8h_source.html#l00215">Animation::frame_count</a>, <a class="el" href="person_8h_source.html#l00137">Person::frame_index</a>, <a class="el" href="person_8h_source.html#l00138">Person::frame_time</a>, <a class="el" href="person_8h_source.html#l00135">Person::frames</a>, <a class="el" href="sprite__store_8h_source.html#l00219">Animation::frames</a>, <a class="el" href="sprite__store_8cpp_source.html#l01722">SpriteManager::GetAnimation()</a>, <a class="el" href="map_8cpp_source.html#l00143">VoxelObject::MarkDirty()</a>, and <a class="el" href="person_8h_source.html#l00134">Person::walk</a>.</p>
 
-<p>Referenced by <a class="el" href="person_8cpp_source.html#l00571">DecideMoveDirection()</a>, and <a class="el" href="person_8cpp_source.html#l00698">Person::OnAnimate()</a>.</p>
+<p>Referenced by <a class="el" href="person_8cpp_source.html#l00625">DecideMoveDirection()</a>, and <a class="el" href="person_8cpp_source.html#l00809">Person::OnAnimate()</a>.</p>
 
 </div>
 </div>
@@ -1061,7 +1374,7 @@ char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cl
 
 <p>References <a class="el" href="map_8h_source.html#l00356">VoxelObject::added</a>, <a class="el" href="map_8h_source.html#l00354">VoxelObject::next_object</a>, <a class="el" href="map_8h_source.html#l00355">VoxelObject::prev_object</a>, and <a class="el" href="map_8h_source.html#l00293">Voxel::voxel_objects</a>.</p>
 
-<p>Referenced by <a class="el" href="person_8cpp_source.html#l00172">Person::Activate()</a>, <a class="el" href="person_8cpp_source.html#l00698">Person::OnAnimate()</a>, and <a class="el" href="coaster_8cpp_source.html#l00251">DisplayCoasterCar::Set()</a>.</p>
+<p>Referenced by <a class="el" href="person_8cpp_source.html#l00174">Person::Activate()</a>, <a class="el" href="person_8cpp_source.html#l00448">ExitRide()</a>, <a class="el" href="person_8cpp_source.html#l00809">Person::OnAnimate()</a>, and <a class="el" href="coaster_8cpp_source.html#l00235">DisplayCoasterCar::Set()</a>.</p>
 
 </div>
 </div>
@@ -1099,7 +1412,7 @@ char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cl
 
 <p>References <a class="el" href="map_8h_source.html#l00356">VoxelObject::added</a>, <a class="el" href="map_8h_source.html#l00354">VoxelObject::next_object</a>, <a class="el" href="map_8h_source.html#l00355">VoxelObject::prev_object</a>, and <a class="el" href="map_8h_source.html#l00293">Voxel::voxel_objects</a>.</p>
 
-<p>Referenced by <a class="el" href="person_8cpp_source.html#l00679">Person::DeActivate()</a>, <a class="el" href="person_8cpp_source.html#l00698">Person::OnAnimate()</a>, and <a class="el" href="coaster_8cpp_source.html#l00251">DisplayCoasterCar::Set()</a>.</p>
+<p>Referenced by <a class="el" href="person_8cpp_source.html#l00789">Person::DeActivate()</a>, <a class="el" href="person_8cpp_source.html#l00809">Person::OnAnimate()</a>, and <a class="el" href="coaster_8cpp_source.html#l00235">DisplayCoasterCar::Set()</a>.</p>
 
 </div>
 </div>
@@ -1128,9 +1441,9 @@ char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cl
 
 <p>Definition at line <a class="el" href="map_8cpp_source.html#l00143">143</a> of file <a class="el" href="map_8cpp_source.html">map.cpp</a>.</p>
 
-<p>References <a class="el" href="viewport_8cpp_source.html#l01716">MarkVoxelDirty()</a>, <a class="el" href="map_8h_source.html#l00358">VoxelObject::x_vox</a>, <a class="el" href="map_8h_source.html#l00359">VoxelObject::y_vox</a>, and <a class="el" href="map_8h_source.html#l00360">VoxelObject::z_vox</a>.</p>
+<p>References <a class="el" href="viewport_8cpp_source.html#l01698">MarkVoxelDirty()</a>, and <a class="el" href="map_8h_source.html#l00358">VoxelObject::vox_pos</a>.</p>
 
-<p>Referenced by <a class="el" href="person_8cpp_source.html#l00698">Person::OnAnimate()</a>, <a class="el" href="coaster_8cpp_source.html#l00289">DisplayCoasterCar::PreRemove()</a>, <a class="el" href="coaster_8cpp_source.html#l00251">DisplayCoasterCar::Set()</a>, and <a class="el" href="person_8cpp_source.html#l00662">Person::StartAnimation()</a>.</p>
+<p>Referenced by <a class="el" href="person_8cpp_source.html#l00809">Person::OnAnimate()</a>, <a class="el" href="coaster_8cpp_source.html#l00268">DisplayCoasterCar::PreRemove()</a>, <a class="el" href="coaster_8cpp_source.html#l00235">DisplayCoasterCar::Set()</a>, and <a class="el" href="person_8cpp_source.html#l00772">Person::StartAnimation()</a>.</p>
 
 </div>
 </div>
@@ -1141,7 +1454,7 @@ char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cl
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Sep 5 2014 19:06:15 for FreeRCT by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Feb 25 2015 13:22:41 for FreeRCT by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

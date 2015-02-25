@@ -155,6 +155,22 @@ Enumerations</h2></td></tr>
  }</td></tr>
 <tr class="memdesc:gac5457c01326811dc155c7660ba2190a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mouse events of the window manager.  <a href="group__window__group.html#gac5457c01326811dc155c7660ba2190a0">More...</a><br /></td></tr>
 <tr class="separator:gac5457c01326811dc155c7660ba2190a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga701d0af7ed6f93b6e455a81508c24bdc"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__window__group.html#ga701d0af7ed6f93b6e455a81508c24bdc">WmKeyCode</a> { <br />
+&#160;&#160;<a class="el" href="group__window__group.html#gga701d0af7ed6f93b6e455a81508c24bdca75c5f3e22b00a61a3023c238daa99676">WMKC_CURSOR_UP</a>, 
+<a class="el" href="group__window__group.html#gga701d0af7ed6f93b6e455a81508c24bdcad3d410c0c87041246eb50fad2c5dfc29">WMKC_CURSOR_LEFT</a>, 
+<a class="el" href="group__window__group.html#gga701d0af7ed6f93b6e455a81508c24bdcaba617e98a21aa95b12d73b12c5d8df69">WMKC_CURSOR_RIGHT</a>, 
+<a class="el" href="group__window__group.html#gga701d0af7ed6f93b6e455a81508c24bdcaf7bc15b4cf40cd52156eade48df3c090">WMKC_CURSOR_DOWN</a>, 
+<br />
+&#160;&#160;<a class="el" href="group__window__group.html#gga701d0af7ed6f93b6e455a81508c24bdcafe68b34f5ff8a52346706fc72a52de0c">WMKC_BACKSPACE</a>, 
+<a class="el" href="group__window__group.html#gga701d0af7ed6f93b6e455a81508c24bdca36b23c570e344487e54f29008eb6fd2e">WMKC_DELETE</a>, 
+<a class="el" href="group__window__group.html#gga701d0af7ed6f93b6e455a81508c24bdca8de7e6feb7435e1d668efe0ae548440e">WMKC_CANCEL</a>, 
+<a class="el" href="group__window__group.html#gga701d0af7ed6f93b6e455a81508c24bdca37b7b31913148efe4f5ebfb4cbaef9ba">WMKC_CONFIRM</a>, 
+<br />
+&#160;&#160;<a class="el" href="group__window__group.html#gga701d0af7ed6f93b6e455a81508c24bdca9a43f058ed56a3ce5ad8abd049a6f077">WMKC_SYMBOL</a>
+<br />
+ }</td></tr>
+<tr class="memdesc:ga701d0af7ed6f93b6e455a81508c24bdc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Key codes of the window manager.  <a href="group__window__group.html#ga701d0af7ed6f93b6e455a81508c24bdc">More...</a><br /></td></tr>
+<tr class="separator:ga701d0af7ed6f93b6e455a81508c24bdc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga9ca268542af2543cb0d9af524d11c7a1"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__window__group.html#ga9ca268542af2543cb0d9af524d11c7a1">WmMouseModes</a> { <a class="el" href="group__window__group.html#gga9ca268542af2543cb0d9af524d11c7a1a7e69566ec54a6cad1fa796cf4342ad1e">WMMM_PASS_THROUGH</a>, 
 <a class="el" href="group__window__group.html#gga9ca268542af2543cb0d9af524d11c7a1ac8b1d8e2b6356b3130f76e4d519d70c1">WMMM_MOVE_WINDOW</a>
  }</td></tr>
@@ -178,9 +194,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a4e83041d9bb7c20fe3f7e8e389b2b416"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="window_8h.html#a4e83041d9bb7c20fe3f7e8e389b2b416">NotifyChange</a> (<a class="el" href="group__window__group.html#ga58ad3159a8b1f24a1d3497efcd541b69">WindowTypes</a> wtype, <a class="el" href="window_8h.html#ab4fb37b14ef72441144d44b4f29cfb9f">WindowNumber</a> wnumber, <a class="el" href="window_8h.html#aab6fa040b57445f74c311c245079e741">ChangeCode</a> code, <a class="el" href="stdafx_8h.html#a1134b580f8da4de94ca6b1de4d37975e">uint32</a> parameter)</td></tr>
 <tr class="memdesc:a4e83041d9bb7c20fe3f7e8e389b2b416"><td class="mdescLeft">&#160;</td><td class="mdescRight">Notify the window of the given type of the change with the specified number.  <a href="#a4e83041d9bb7c20fe3f7e8e389b2b416">More...</a><br /></td></tr>
 <tr class="separator:a4e83041d9bb7c20fe3f7e8e389b2b416"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga714167f12950fd04045c47b29f0bf13a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__viewport__group.html#ga714167f12950fd04045c47b29f0bf13a">ShowMainDisplay</a> (<a class="el" href="stdafx_8h.html#a1134b580f8da4de94ca6b1de4d37975e">uint32</a> xview, <a class="el" href="stdafx_8h.html#a1134b580f8da4de94ca6b1de4d37975e">uint32</a> yview, <a class="el" href="stdafx_8h.html#a1134b580f8da4de94ca6b1de4d37975e">uint32</a> zview)</td></tr>
-<tr class="memdesc:ga714167f12950fd04045c47b29f0bf13a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Open the main isometric display window.  <a href="group__viewport__group.html#ga714167f12950fd04045c47b29f0bf13a">More...</a><br /></td></tr>
-<tr class="separator:ga714167f12950fd04045c47b29f0bf13a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga0dc4080a39ea5f89477c0989aeb98fff"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__viewport__group.html#ga0dc4080a39ea5f89477c0989aeb98fff">ShowMainDisplay</a> (const <a class="el" href="geometry_8h.html#ad44b56387be4716a93eb09e15466703d">XYZPoint32</a> &amp;view_pos)</td></tr>
+<tr class="memdesc:ga0dc4080a39ea5f89477c0989aeb98fff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Open the main isometric display window.  <a href="group__viewport__group.html#ga0dc4080a39ea5f89477c0989aeb98fff">More...</a><br /></td></tr>
+<tr class="separator:ga0dc4080a39ea5f89477c0989aeb98fff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga6393dc875071cee8ecce2c78640dea55"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga6393dc875071cee8ecce2c78640dea55"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__gui__group.html#ga6393dc875071cee8ecce2c78640dea55">ShowToolbar</a> ()</td></tr>
 <tr class="memdesc:ga6393dc875071cee8ecce2c78640dea55"><td class="mdescLeft">&#160;</td><td class="mdescRight">Open the main toolbar window. <br /></td></tr>
@@ -234,10 +250,10 @@ Variables</h2></td></tr>
 static const <a class="el" href="window_8h.html#ab4fb37b14ef72441144d44b4f29cfb9f">WindowNumber</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="window_8h.html#ada744cd8f44581ff7ac7f7eda514779a">ALL_WINDOWS_OF_TYPE</a> = <a class="el" href="stdafx_8h.html#ab5eb23180f7cc12b7d6c04a8ec067fdd">UINT32_MAX</a></td></tr>
 <tr class="memdesc:ada744cd8f44581ff7ac7f7eda514779a"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classWindow.html" title="Window base class. ">Window</a> number parameter meaning 'all windows of the window type'. <br /></td></tr>
 <tr class="separator:ada744cd8f44581ff7ac7f7eda514779a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga21163a2e6f8ac24387ddde62ce5a5560"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga21163a2e6f8ac24387ddde62ce5a5560"></a>
-<a class="el" href="classWindowManager.html">WindowManager</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__window__group.html#ga21163a2e6f8ac24387ddde62ce5a5560">_manager</a></td></tr>
-<tr class="memdesc:ga21163a2e6f8ac24387ddde62ce5a5560"><td class="mdescLeft">&#160;</td><td class="mdescRight">Window manager. <br /></td></tr>
-<tr class="separator:ga21163a2e6f8ac24387ddde62ce5a5560"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad7cee9ea46c04d30488a7264843b3010"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gad7cee9ea46c04d30488a7264843b3010"></a>
+<a class="el" href="classWindowManager.html">WindowManager</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__window__group.html#gad7cee9ea46c04d30488a7264843b3010">_window_manager</a></td></tr>
+<tr class="memdesc:gad7cee9ea46c04d30488a7264843b3010"><td class="mdescLeft">&#160;</td><td class="mdescRight">Window manager. <br /></td></tr>
+<tr class="separator:gad7cee9ea46c04d30488a7264843b3010"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Window handling data structures. </p>
@@ -366,11 +382,11 @@ static const <a class="el" href="window_8h.html#ab4fb37b14ef72441144d44b4f29cfb9
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="window_8cpp_source.html#l01043">1043</a> of file <a class="el" href="window_8cpp_source.html">window.cpp</a>.</p>
+<p>Definition at line <a class="el" href="window_8cpp_source.html#l01054">1054</a> of file <a class="el" href="window_8cpp_source.html">window.cpp</a>.</p>
 
-<p>References <a class="el" href="window_8cpp_source.html#l01026">GetWindowByType()</a>, and <a class="el" href="window_8cpp_source.html#l00300">Window::OnChange()</a>.</p>
+<p>References <a class="el" href="window_8cpp_source.html#l01037">GetWindowByType()</a>, and <a class="el" href="window_8cpp_source.html#l00300">Window::OnChange()</a>.</p>
 
-<p>Referenced by <a class="el" href="person_8cpp_source.html#l00926">Guest::ChangeHappiness()</a>, <a class="el" href="ride__gui_8cpp_source.html#l00541">ShopPlacementManager::LeaveMode()</a>, <a class="el" href="finances_8cpp_source.html#l00189">FinancesManager::NotifyGui()</a>, <a class="el" href="dropdown_8cpp_source.html#l00128">DropdownMenuWindow::OnClick()</a>, <a class="el" href="ride__gui_8cpp_source.html#l00566">ShopPlacementManager::OnMouseButtonEvent()</a>, <a class="el" href="coaster__gui_8cpp_source.html#l00990">CoasterBuildStateMouse::OnMouseButtonEvent()</a>, <a class="el" href="gamecontrol_8cpp_source.html#l00077">OnNewDay()</a>, <a class="el" href="ride__type_8cpp_source.html#l00263">RideInstance::OnNewMonth()</a>, <a class="el" href="ride__type_8cpp_source.html#l00318">RideInstance::OpenRide()</a>, <a class="el" href="viewport_8cpp_source.html#l01534">Viewport::Rotate()</a>, <a class="el" href="ride__type_8cpp_source.html#l00218">RideInstance::SellItem()</a>, <a class="el" href="gamemode_8cpp_source.html#l00031">GameModeManager::SetGameMode()</a>, and <a class="el" href="path__build_8cpp_source.html#l00637">PathBuildManager::UpdateState()</a>.</p>
+<p>Referenced by <a class="el" href="person_8cpp_source.html#l01086">Guest::ChangeHappiness()</a>, <a class="el" href="ride__gui_8cpp_source.html#l00536">ShopPlacementManager::LeaveMode()</a>, <a class="el" href="finances_8cpp_source.html#l00189">FinancesManager::NotifyGui()</a>, <a class="el" href="dropdown_8cpp_source.html#l00128">DropdownMenuWindow::OnClick()</a>, <a class="el" href="ride__gui_8cpp_source.html#l00561">ShopPlacementManager::OnMouseButtonEvent()</a>, <a class="el" href="coaster__gui_8cpp_source.html#l00977">CoasterBuildStateMouse::OnMouseButtonEvent()</a>, <a class="el" href="gamecontrol_8cpp_source.html#l00073">OnNewDay()</a>, <a class="el" href="ride__type_8cpp_source.html#l00285">RideInstance::OnNewMonth()</a>, <a class="el" href="ride__type_8cpp_source.html#l00340">RideInstance::OpenRide()</a>, <a class="el" href="viewport_8cpp_source.html#l01518">Viewport::Rotate()</a>, <a class="el" href="ride__type_8cpp_source.html#l00240">RideInstance::SellItem()</a>, <a class="el" href="gamemode_8cpp_source.html#l00031">GameModeManager::SetGameMode()</a>, and <a class="el" href="path__build_8cpp_source.html#l00730">PathBuildManager::UpdateState()</a>.</p>
 
 </div>
 </div>
@@ -398,7 +414,7 @@ static const <a class="el" href="window_8h.html#ab4fb37b14ef72441144d44b4f29cfb9
 
 <p>Definition at line <a class="el" href="person__gui_8cpp_source.html#l00126">126</a> of file <a class="el" href="person__gui_8cpp_source.html">person_gui.cpp</a>.</p>
 
-<p>References <a class="el" href="window_8cpp_source.html#l01056">HighlightWindowByType()</a>, <a class="el" href="person_8h_source.html#l00120">Person::id</a>, and <a class="el" href="window_8h_source.html#l00046">WC_GUEST_INFO</a>.</p>
+<p>References <a class="el" href="window_8cpp_source.html#l01067">HighlightWindowByType()</a>, <a class="el" href="person_8h_source.html#l00130">Person::id</a>, and <a class="el" href="window_8h_source.html#l00046">WC_GUEST_INFO</a>.</p>
 
 <p>Referenced by <a class="el" href="select__mode_8cpp_source.html#l00050">SelectMouseMode::OnMouseButtonEvent()</a>.</p>
 
@@ -426,9 +442,9 @@ static const <a class="el" href="window_8h.html#ab4fb37b14ef72441144d44b4f29cfb9
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="shop__gui_8cpp_source.html#l00235">235</a> of file <a class="el" href="shop__gui_8cpp_source.html">shop_gui.cpp</a>.</p>
+<p>Definition at line <a class="el" href="shop__gui_8cpp_source.html#l00239">239</a> of file <a class="el" href="shop__gui_8cpp_source.html">shop_gui.cpp</a>.</p>
 
-<p>References <a class="el" href="ride__type_8cpp_source.html#l00043">_rides_manager</a>, <a class="el" href="ride__type_8cpp_source.html#l00169">RideInstance::GetKind()</a>, <a class="el" href="ride__type_8cpp_source.html#l00412">RidesManager::GetRideInstance()</a>, <a class="el" href="window_8cpp_source.html#l01056">HighlightWindowByType()</a>, <a class="el" href="ride__type_8h_source.html#l00034">RTK_SHOP</a>, and <a class="el" href="window_8h_source.html#l00051">WC_SHOP_MANAGER</a>.</p>
+<p>References <a class="el" href="ride__type_8cpp_source.html#l00045">_rides_manager</a>, <a class="el" href="ride__type_8cpp_source.html#l00171">RideInstance::GetKind()</a>, <a class="el" href="ride__type_8cpp_source.html#l00434">RidesManager::GetRideInstance()</a>, <a class="el" href="window_8cpp_source.html#l01067">HighlightWindowByType()</a>, <a class="el" href="ride__type_8h_source.html#l00034">RTK_SHOP</a>, and <a class="el" href="window_8h_source.html#l00051">WC_SHOP_MANAGER</a>.</p>
 
 <p>Referenced by <a class="el" href="select__mode_8cpp_source.html#l00050">SelectMouseMode::OnMouseButtonEvent()</a>.</p>
 
@@ -449,9 +465,9 @@ static const <a class="el" href="window_8h.html#ab4fb37b14ef72441144d44b4f29cfb9
 
 <p>Open the terraform window (or if it is already opened, highlight and raise it). </p>
 
-<p>Definition at line <a class="el" href="terraform__gui_8cpp_source.html#l00218">218</a> of file <a class="el" href="terraform__gui_8cpp_source.html">terraform_gui.cpp</a>.</p>
+<p>Definition at line <a class="el" href="terraform__gui_8cpp_source.html#l00222">222</a> of file <a class="el" href="terraform__gui_8cpp_source.html">terraform_gui.cpp</a>.</p>
 
-<p>References <a class="el" href="window_8h_source.html#l00112">ALL_WINDOWS_OF_TYPE</a>, <a class="el" href="window_8cpp_source.html#l01056">HighlightWindowByType()</a>, and <a class="el" href="window_8h_source.html#l00053">WC_TERRAFORM</a>.</p>
+<p>References <a class="el" href="window_8h_source.html#l00128">ALL_WINDOWS_OF_TYPE</a>, <a class="el" href="window_8cpp_source.html#l01067">HighlightWindowByType()</a>, and <a class="el" href="window_8h_source.html#l00053">WC_TERRAFORM</a>.</p>
 
 <p>Referenced by <a class="el" href="toolbar__gui_8cpp_source.html#l00113">ToolbarWindow::OnClick()</a>.</p>
 
@@ -474,7 +490,7 @@ static const <a class="el" href="window_8h.html#ab4fb37b14ef72441144d44b4f29cfb9
 
 <p>Definition at line <a class="el" href="finances__gui_8cpp_source.html#l00123">123</a> of file <a class="el" href="finances__gui_8cpp_source.html">finances_gui.cpp</a>.</p>
 
-<p>References <a class="el" href="window_8h_source.html#l00112">ALL_WINDOWS_OF_TYPE</a>, <a class="el" href="window_8cpp_source.html#l01056">HighlightWindowByType()</a>, and <a class="el" href="window_8h_source.html#l00054">WC_FINANCES</a>.</p>
+<p>References <a class="el" href="window_8h_source.html#l00128">ALL_WINDOWS_OF_TYPE</a>, <a class="el" href="window_8cpp_source.html#l01067">HighlightWindowByType()</a>, and <a class="el" href="window_8h_source.html#l00054">WC_FINANCES</a>.</p>
 
 <p>Referenced by <a class="el" href="toolbar__gui_8cpp_source.html#l00113">ToolbarWindow::OnClick()</a>.</p>
 
@@ -504,9 +520,9 @@ static const <a class="el" href="window_8h.html#ab4fb37b14ef72441144d44b4f29cfb9
 
 <p>Definition at line <a class="el" href="coaster__gui_8cpp_source.html#l00086">86</a> of file <a class="el" href="coaster__gui_8cpp_source.html">coaster_gui.cpp</a>.</p>
 
-<p>References <a class="el" href="coaster_8cpp_source.html#l00609">CoasterInstance::DecideRideState()</a>, <a class="el" href="ride__type_8cpp_source.html#l00437">RideInstance::GetIndex()</a>, <a class="el" href="ride__type_8cpp_source.html#l00169">RideInstance::GetKind()</a>, <a class="el" href="window_8cpp_source.html#l01056">HighlightWindowByType()</a>, <a class="el" href="ride__type_8h_source.html#l00100">RIS_CLOSED</a>, <a class="el" href="ride__type_8h_source.html#l00101">RIS_OPEN</a>, <a class="el" href="ride__type_8h_source.html#l00099">RIS_TESTING</a>, <a class="el" href="ride__type_8h_source.html#l00037">RTK_COASTER</a>, <a class="el" href="coaster__gui_8cpp_source.html#l00624">ShowCoasterBuildGui()</a>, and <a class="el" href="window_8h_source.html#l00047">WC_COASTER_MANAGER</a>.</p>
+<p>References <a class="el" href="coaster_8cpp_source.html#l00608">CoasterInstance::DecideRideState()</a>, <a class="el" href="ride__type_8cpp_source.html#l00459">RideInstance::GetIndex()</a>, <a class="el" href="ride__type_8cpp_source.html#l00171">RideInstance::GetKind()</a>, <a class="el" href="window_8cpp_source.html#l01067">HighlightWindowByType()</a>, <a class="el" href="ride__type_8h_source.html#l00105">RIS_CLOSED</a>, <a class="el" href="ride__type_8h_source.html#l00106">RIS_OPEN</a>, <a class="el" href="ride__type_8h_source.html#l00104">RIS_TESTING</a>, <a class="el" href="ride__type_8h_source.html#l00037">RTK_COASTER</a>, <a class="el" href="coaster__gui_8cpp_source.html#l00613">ShowCoasterBuildGui()</a>, and <a class="el" href="window_8h_source.html#l00047">WC_COASTER_MANAGER</a>.</p>
 
-<p>Referenced by <a class="el" href="ride__gui_8cpp_source.html#l00233">RideSelectGui::OnClick()</a>, and <a class="el" href="select__mode_8cpp_source.html#l00050">SelectMouseMode::OnMouseButtonEvent()</a>.</p>
+<p>Referenced by <a class="el" href="ride__gui_8cpp_source.html#l00232">RideSelectGui::OnClick()</a>, and <a class="el" href="select__mode_8cpp_source.html#l00050">SelectMouseMode::OnMouseButtonEvent()</a>.</p>
 
 </div>
 </div>
@@ -532,9 +548,9 @@ static const <a class="el" href="window_8h.html#ab4fb37b14ef72441144d44b4f29cfb9
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="coaster__gui_8cpp_source.html#l00624">624</a> of file <a class="el" href="coaster__gui_8cpp_source.html">coaster_gui.cpp</a>.</p>
+<p>Definition at line <a class="el" href="coaster__gui_8cpp_source.html#l00613">613</a> of file <a class="el" href="coaster__gui_8cpp_source.html">coaster_gui.cpp</a>.</p>
 
-<p>References <a class="el" href="ride__type_8cpp_source.html#l00437">RideInstance::GetIndex()</a>, <a class="el" href="ride__type_8cpp_source.html#l00169">RideInstance::GetKind()</a>, <a class="el" href="window_8cpp_source.html#l01056">HighlightWindowByType()</a>, <a class="el" href="ride__type_8h_source.html#l00037">RTK_COASTER</a>, and <a class="el" href="window_8h_source.html#l00048">WC_COASTER_BUILD</a>.</p>
+<p>References <a class="el" href="ride__type_8cpp_source.html#l00459">RideInstance::GetIndex()</a>, <a class="el" href="ride__type_8cpp_source.html#l00171">RideInstance::GetKind()</a>, <a class="el" href="window_8cpp_source.html#l01067">HighlightWindowByType()</a>, <a class="el" href="ride__type_8h_source.html#l00037">RTK_COASTER</a>, and <a class="el" href="window_8h_source.html#l00048">WC_COASTER_BUILD</a>.</p>
 
 <p>Referenced by <a class="el" href="coaster__gui_8cpp_source.html#l00086">ShowCoasterManagementGui()</a>.</p>
 
@@ -543,7 +559,7 @@ static const <a class="el" href="window_8h.html#ab4fb37b14ef72441144d44b4f29cfb9
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Sep 5 2014 19:06:14 for FreeRCT by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Feb 25 2015 13:22:40 for FreeRCT by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

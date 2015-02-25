@@ -54,24 +54,22 @@
 <p>This is the complete list of members for <a class="el" href="classEdgeCursor.html">EdgeCursor</a>, including all inherited members.</p>
 <table class="directory">
   <tr class="even"><td class="entry"><a class="el" href="classBaseCursor.html#a40410fe20f900ee736d51544acc62663">BaseCursor</a>(Viewport *vp)</td><td class="entry"><a class="el" href="classBaseCursor.html">BaseCursor</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="classEdgeCursor.html#a748737c5512a1c9811ee198d7f428f40">EdgeCursor</a>(Viewport *vp)</td><td class="entry"><a class="el" href="classEdgeCursor.html">EdgeCursor</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classEdgeCursor.html#a16e735892ce061e82d559a8693175c76">GetCursor</a>(uint16 xpos, uint16 ypos, uint8 zpos) override</td><td class="entry"><a class="el" href="classEdgeCursor.html">EdgeCursor</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
-  <tr><td class="entry"><a class="el" href="classEdgeCursor.html#add804cbd3f7f592aeb0ce8b4d10502f1">GetMaxCursorHeight</a>(uint16 xpos, uint16 ypos, uint8 zpos) override</td><td class="entry"><a class="el" href="classEdgeCursor.html">EdgeCursor</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classEdgeCursor.html#ab49ffb0b2a013e3e306ed1bbc3e9cca4">MarkDirty</a>() override</td><td class="entry"><a class="el" href="classEdgeCursor.html">EdgeCursor</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
-  <tr><td class="entry"><a class="el" href="classEdgeCursor.html#a9a29ef99aec67070b43435d080e80a09">SetCursor</a>(uint16 xpos, uint16 ypos, uint8 zpos, CursorType type, const ImageData *sprite, uint8 yoffset, bool always=false)</td><td class="entry"><a class="el" href="classEdgeCursor.html">EdgeCursor</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classBaseCursor.html#a322cf4007d148c08716822df27f83fbe">SetInvalid</a>()</td><td class="entry"><a class="el" href="classBaseCursor.html">BaseCursor</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="classEdgeCursor.html#af522861f61cc3eff022d1e6f2a74fe46">sprite</a></td><td class="entry"><a class="el" href="classEdgeCursor.html">EdgeCursor</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classBaseCursor.html#a436af4c6441ec1ffb0f747c9127e7c02">type</a></td><td class="entry"><a class="el" href="classBaseCursor.html">BaseCursor</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="classBaseCursor.html#aa3a090515b45b932a3e3eed5d6be8268">vp</a></td><td class="entry"><a class="el" href="classBaseCursor.html">BaseCursor</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classEdgeCursor.html#a0c2301aaaac6dcdc9cdd3ed028b913df">xpos</a></td><td class="entry"><a class="el" href="classEdgeCursor.html">EdgeCursor</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="classEdgeCursor.html#aa4d9c783417ddd380aabdf2a51e35e7e">cursor_pos</a></td><td class="entry"><a class="el" href="classEdgeCursor.html">EdgeCursor</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classEdgeCursor.html#a748737c5512a1c9811ee198d7f428f40">EdgeCursor</a>(Viewport *vp)</td><td class="entry"><a class="el" href="classEdgeCursor.html">EdgeCursor</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="classEdgeCursor.html#ab266e20df1669efe15186b5feafeae98">GetCursor</a>(const XYZPoint16 &amp;cursor_pos) override</td><td class="entry"><a class="el" href="classEdgeCursor.html">EdgeCursor</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classEdgeCursor.html#add804cbd3f7f592aeb0ce8b4d10502f1">GetMaxCursorHeight</a>(uint16 xpos, uint16 ypos, uint8 zpos) override</td><td class="entry"><a class="el" href="classEdgeCursor.html">EdgeCursor</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="classEdgeCursor.html#ab49ffb0b2a013e3e306ed1bbc3e9cca4">MarkDirty</a>() override</td><td class="entry"><a class="el" href="classEdgeCursor.html">EdgeCursor</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classEdgeCursor.html#a004ba6e1229b1c7a0e9d991a704a21bb">SetCursor</a>(const XYZPoint16 &amp;cursor_pos, CursorType type, const ImageData *sprite, uint8 yoffset, bool always=false)</td><td class="entry"><a class="el" href="classEdgeCursor.html">EdgeCursor</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="classBaseCursor.html#a322cf4007d148c08716822df27f83fbe">SetInvalid</a>()</td><td class="entry"><a class="el" href="classBaseCursor.html">BaseCursor</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classEdgeCursor.html#af522861f61cc3eff022d1e6f2a74fe46">sprite</a></td><td class="entry"><a class="el" href="classEdgeCursor.html">EdgeCursor</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="classBaseCursor.html#a436af4c6441ec1ffb0f747c9127e7c02">type</a></td><td class="entry"><a class="el" href="classBaseCursor.html">BaseCursor</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classBaseCursor.html#aa3a090515b45b932a3e3eed5d6be8268">vp</a></td><td class="entry"><a class="el" href="classBaseCursor.html">BaseCursor</a></td><td class="entry"></td></tr>
   <tr><td class="entry"><a class="el" href="classEdgeCursor.html#a7d22417eaef578d4a4b3bff0877ce339">yoffset</a></td><td class="entry"><a class="el" href="classEdgeCursor.html">EdgeCursor</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classEdgeCursor.html#ad9120da21199c8d86fc6a2d9f9ca2edb">ypos</a></td><td class="entry"><a class="el" href="classEdgeCursor.html">EdgeCursor</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="classEdgeCursor.html#a4ae36a73f9a95c047081dd7cd638a75b">zpos</a></td><td class="entry"><a class="el" href="classEdgeCursor.html">EdgeCursor</a></td><td class="entry"></td></tr>
   <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>~BaseCursor</b>() (defined in <a class="el" href="classBaseCursor.html">BaseCursor</a>)</td><td class="entry"><a class="el" href="classBaseCursor.html">BaseCursor</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
 </table></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Sep 5 2014 19:06:14 for FreeRCT by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Feb 25 2015 13:22:41 for FreeRCT by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

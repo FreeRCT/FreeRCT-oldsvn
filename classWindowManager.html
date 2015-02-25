@@ -103,6 +103,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a28b306dec5cec82b938e8adf443f7847"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classWindowManager.html#a28b306dec5cec82b938e8adf443f7847">MouseWheelEvent</a> (int direction)</td></tr>
 <tr class="memdesc:a28b306dec5cec82b938e8adf443f7847"><td class="mdescLeft">&#160;</td><td class="mdescRight">The mouse wheel has been turned.  <a href="#a28b306dec5cec82b938e8adf443f7847">More...</a><br /></td></tr>
 <tr class="separator:a28b306dec5cec82b938e8adf443f7847"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a925cea1b37a97e5238f35187f9c4231a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classWindowManager.html#a925cea1b37a97e5238f35187f9c4231a">KeyEvent</a> (<a class="el" href="group__window__group.html#ga701d0af7ed6f93b6e455a81508c24bdc">WmKeyCode</a> key_code, const <a class="el" href="stdafx_8h.html#adde6aaee8457bee49c2a92621fe22b79">uint8</a> *symbol)</td></tr>
+<tr class="memdesc:a925cea1b37a97e5238f35187f9c4231a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Process input from the keyboard.  <a href="#a925cea1b37a97e5238f35187f9c4231a">More...</a><br /></td></tr>
+<tr class="separator:a925cea1b37a97e5238f35187f9c4231a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a75224cb416f417d264fd493d587e0c6a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classWindowManager.html#a75224cb416f417d264fd493d587e0c6a">Tick</a> ()</td></tr>
 <tr class="memdesc:a75224cb416f417d264fd493d587e0c6a"><td class="mdescLeft">&#160;</td><td class="mdescRight">A tick has passed, update whatever must be updated.  <a href="#a75224cb416f417d264fd493d587e0c6a">More...</a><br /></td></tr>
 <tr class="separator:a75224cb416f417d264fd493d587e0c6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -159,7 +162,7 @@ Private Attributes</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Window manager class, manages the window stack. </p>
 
-<p>Definition at line <a class="el" href="window_8h_source.html#l00305">305</a> of file <a class="el" href="window_8h_source.html">window.h</a>.</p>
+<p>Definition at line <a class="el" href="window_8h_source.html#l00321">321</a> of file <a class="el" href="window_8h_source.html">window.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a3a283b34c19aaa20296befaabad4d29b"></a>
 <div class="memitem">
@@ -179,7 +182,7 @@ Private Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="window_8cpp_source.html#l00635">635</a> of file <a class="el" href="window_8cpp_source.html">window.cpp</a>.</p>
 
-<p>References <a class="el" href="window_8h_source.html#l00328">bottom</a>, <a class="el" href="window_8h_source.html#l00337">current_window</a>, <a class="el" href="window_8h_source.html#l00339">mouse_mode</a>, <a class="el" href="window_8h_source.html#l00336">mouse_pos</a>, <a class="el" href="window_8h_source.html#l00338">mouse_state</a>, <a class="el" href="window_8h_source.html#l00327">top</a>, <a class="el" href="window_8h_source.html#l00106">WMMM_PASS_THROUGH</a>, <a class="el" href="geometry_8h_source.html#l00037">Point&lt; CT &gt;::x</a>, and <a class="el" href="geometry_8h_source.html#l00038">Point&lt; CT &gt;::y</a>.</p>
+<p>References <a class="el" href="window_8h_source.html#l00345">bottom</a>, <a class="el" href="window_8h_source.html#l00354">current_window</a>, <a class="el" href="window_8h_source.html#l00356">mouse_mode</a>, <a class="el" href="window_8h_source.html#l00353">mouse_pos</a>, <a class="el" href="window_8h_source.html#l00355">mouse_state</a>, <a class="el" href="window_8h_source.html#l00344">top</a>, <a class="el" href="window_8h_source.html#l00122">WMMM_PASS_THROUGH</a>, <a class="el" href="geometry_8h_source.html#l00036">Point&lt; CT &gt;::x</a>, and <a class="el" href="geometry_8h_source.html#l00037">Point&lt; CT &gt;::y</a>.</p>
 
 </div>
 </div>
@@ -229,7 +232,7 @@ Private Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="window_8cpp_source.html#l00795">795</a> of file <a class="el" href="window_8cpp_source.html">window.cpp</a>.</p>
 
-<p>References <a class="el" href="window_8h_source.html#l00134">Window::lower</a>, and <a class="el" href="window_8h_source.html#l00327">top</a>.</p>
+<p>References <a class="el" href="window_8h_source.html#l00150">Window::lower</a>, and <a class="el" href="window_8h_source.html#l00344">top</a>.</p>
 
 <p>Referenced by <a class="el" href="window_8cpp_source.html#l00712">AddToStack()</a>, <a class="el" href="window_8cpp_source.html#l00745">RemoveFromStack()</a>, <a class="el" href="window_8cpp_source.html#l00875">UpdateCurrentWindow()</a>, and <a class="el" href="window_8cpp_source.html#l00071">Window::~Window()</a>.</p>
 
@@ -259,7 +262,7 @@ Private Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="window_8cpp_source.html#l00712">712</a> of file <a class="el" href="window_8cpp_source.html">window.cpp</a>.</p>
 
-<p>References <a class="el" href="window_8h_source.html#l00328">bottom</a>, <a class="el" href="window_8cpp_source.html#l00695">GetWindowZPriority()</a>, <a class="el" href="window_8cpp_source.html#l00795">HasWindow()</a>, <a class="el" href="window_8h_source.html#l00133">Window::higher</a>, <a class="el" href="window_8h_source.html#l00134">Window::lower</a>, <a class="el" href="window_8h_source.html#l00327">top</a>, and <a class="el" href="window_8h_source.html#l00124">Window::wtype</a>.</p>
+<p>References <a class="el" href="window_8h_source.html#l00345">bottom</a>, <a class="el" href="window_8cpp_source.html#l00695">GetWindowZPriority()</a>, <a class="el" href="window_8cpp_source.html#l00795">HasWindow()</a>, <a class="el" href="window_8h_source.html#l00149">Window::higher</a>, <a class="el" href="window_8h_source.html#l00150">Window::lower</a>, <a class="el" href="window_8h_source.html#l00344">top</a>, and <a class="el" href="window_8h_source.html#l00140">Window::wtype</a>.</p>
 
 <p>Referenced by <a class="el" href="window_8cpp_source.html#l00780">RaiseWindow()</a>, and <a class="el" href="window_8cpp_source.html#l00057">Window::Window()</a>.</p>
 
@@ -289,7 +292,7 @@ Private Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="window_8cpp_source.html#l00745">745</a> of file <a class="el" href="window_8cpp_source.html">window.cpp</a>.</p>
 
-<p>References <a class="el" href="window_8h_source.html#l00328">bottom</a>, <a class="el" href="window_8cpp_source.html#l00795">HasWindow()</a>, <a class="el" href="window_8h_source.html#l00133">Window::higher</a>, <a class="el" href="window_8h_source.html#l00134">Window::lower</a>, and <a class="el" href="window_8h_source.html#l00327">top</a>.</p>
+<p>References <a class="el" href="window_8h_source.html#l00345">bottom</a>, <a class="el" href="window_8cpp_source.html#l00795">HasWindow()</a>, <a class="el" href="window_8h_source.html#l00149">Window::higher</a>, <a class="el" href="window_8h_source.html#l00150">Window::lower</a>, and <a class="el" href="window_8h_source.html#l00344">top</a>.</p>
 
 <p>Referenced by <a class="el" href="window_8cpp_source.html#l00769">DeleteWindow()</a>, and <a class="el" href="window_8cpp_source.html#l00780">RaiseWindow()</a>.</p>
 
@@ -321,7 +324,7 @@ Private Attributes</h2></td></tr>
 
 <p>References <a class="el" href="window_8cpp_source.html#l00228">Window::MarkDirty()</a>, and <a class="el" href="window_8cpp_source.html#l00745">RemoveFromStack()</a>.</p>
 
-<p>Referenced by <a class="el" href="window_8cpp_source.html#l00654">CloseAllWindows()</a>, <a class="el" href="person_8cpp_source.html#l00907">Guest::DeActivate()</a>, <a class="el" href="window_8cpp_source.html#l00912">MouseButtonEvent()</a>, <a class="el" href="dropdown_8cpp_source.html#l00128">DropdownMenuWindow::OnClick()</a>, <a class="el" href="dropdown_8cpp_source.html#l00246">RecolourDropdownWindow::OnClick()</a>, <a class="el" href="toolbar__gui_8cpp_source.html#l00448">QuitProgramWindow::OnClick()</a>, <a class="el" href="dropdown_8cpp_source.html#l00148">GuiWindow::ShowDropdownMenu()</a>, <a class="el" href="toolbar__gui_8cpp_source.html#l00455">ShowQuitProgram()</a>, and <a class="el" href="dropdown_8cpp_source.html#l00273">GuiWindow::ShowRecolourDropdown()</a>.</p>
+<p>Referenced by <a class="el" href="window_8cpp_source.html#l00654">CloseAllWindows()</a>, <a class="el" href="person_8cpp_source.html#l01028">Guest::DeActivate()</a>, <a class="el" href="window_8cpp_source.html#l00912">MouseButtonEvent()</a>, <a class="el" href="dropdown_8cpp_source.html#l00128">DropdownMenuWindow::OnClick()</a>, <a class="el" href="dropdown_8cpp_source.html#l00246">RecolourDropdownWindow::OnClick()</a>, <a class="el" href="toolbar__gui_8cpp_source.html#l00447">QuitProgramWindow::OnClick()</a>, <a class="el" href="dropdown_8cpp_source.html#l00148">GuiWindow::ShowDropdownMenu()</a>, <a class="el" href="toolbar__gui_8cpp_source.html#l00454">ShowQuitProgram()</a>, and <a class="el" href="dropdown_8cpp_source.html#l00273">GuiWindow::ShowRecolourDropdown()</a>.</p>
 
 </div>
 </div>
@@ -349,9 +352,9 @@ Private Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="window_8cpp_source.html#l00780">780</a> of file <a class="el" href="window_8cpp_source.html">window.cpp</a>.</p>
 
-<p>References <a class="el" href="window_8cpp_source.html#l00712">AddToStack()</a>, <a class="el" href="window_8cpp_source.html#l00695">GetWindowZPriority()</a>, <a class="el" href="window_8h_source.html#l00133">Window::higher</a>, <a class="el" href="window_8cpp_source.html#l00228">Window::MarkDirty()</a>, <a class="el" href="window_8cpp_source.html#l00745">RemoveFromStack()</a>, <a class="el" href="window_8h_source.html#l00327">top</a>, and <a class="el" href="window_8h_source.html#l00124">Window::wtype</a>.</p>
+<p>References <a class="el" href="window_8cpp_source.html#l00712">AddToStack()</a>, <a class="el" href="window_8cpp_source.html#l00695">GetWindowZPriority()</a>, <a class="el" href="window_8h_source.html#l00149">Window::higher</a>, <a class="el" href="window_8cpp_source.html#l00228">Window::MarkDirty()</a>, <a class="el" href="window_8cpp_source.html#l00745">RemoveFromStack()</a>, <a class="el" href="window_8h_source.html#l00344">top</a>, and <a class="el" href="window_8h_source.html#l00140">Window::wtype</a>.</p>
 
-<p>Referenced by <a class="el" href="window_8cpp_source.html#l01056">HighlightWindowByType()</a>, and <a class="el" href="window_8cpp_source.html#l00912">MouseButtonEvent()</a>.</p>
+<p>Referenced by <a class="el" href="window_8cpp_source.html#l01067">HighlightWindowByType()</a>, and <a class="el" href="window_8cpp_source.html#l00912">MouseButtonEvent()</a>.</p>
 
 </div>
 </div>
@@ -372,9 +375,9 @@ Private Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="window_8cpp_source.html#l00654">654</a> of file <a class="el" href="window_8cpp_source.html">window.cpp</a>.</p>
 
-<p>References <a class="el" href="window_8cpp_source.html#l00769">DeleteWindow()</a>, and <a class="el" href="window_8h_source.html#l00327">top</a>.</p>
+<p>References <a class="el" href="window_8cpp_source.html#l00769">DeleteWindow()</a>, and <a class="el" href="window_8h_source.html#l00344">top</a>.</p>
 
-<p>Referenced by <a class="el" href="gamecontrol_8cpp_source.html#l00054">ShutdownGame()</a>.</p>
+<p>Referenced by <a class="el" href="gamecontrol_8cpp_source.html#l00050">ShutdownGame()</a>.</p>
 
 </div>
 </div>
@@ -396,7 +399,7 @@ Private Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="window_8cpp_source.html#l00662">662</a> of file <a class="el" href="window_8cpp_source.html">window.cpp</a>.</p>
 
-<p>References <a class="el" href="video_8cpp_source.html#l00025">_video</a>, <a class="el" href="window_8h_source.html#l00134">Window::lower</a>, <a class="el" href="video_8cpp_source.html#l00292">VideoSystem::MarkDisplayDirty()</a>, and <a class="el" href="window_8h_source.html#l00327">top</a>.</p>
+<p>References <a class="el" href="video_8cpp_source.html#l00025">_video</a>, <a class="el" href="window_8h_source.html#l00150">Window::lower</a>, <a class="el" href="video_8cpp_source.html#l00295">VideoSystem::MarkDisplayDirty()</a>, and <a class="el" href="window_8h_source.html#l00344">top</a>.</p>
 
 <p>Referenced by <a class="el" href="setting__gui_8cpp_source.html#l00116">SettingWindow::OnChange()</a>.</p>
 
@@ -420,9 +423,9 @@ Private Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="window_8cpp_source.html#l00674">674</a> of file <a class="el" href="window_8cpp_source.html">window.cpp</a>.</p>
 
-<p>References <a class="el" href="viewport_8cpp_source.html#l01704">GetViewport()</a>, <a class="el" href="geometry_8h_source.html#l00149">Rectangle&lt; PT, SZ &gt;::IsPointInside()</a>, <a class="el" href="window_8h_source.html#l00134">Window::lower</a>, <a class="el" href="window_8h_source.html#l00123">Window::rect</a>, <a class="el" href="window_8h_source.html#l00327">top</a>, <a class="el" href="window_8h_source.html#l00043">WC_BOTTOM_TOOLBAR</a>, and <a class="el" href="window_8h_source.html#l00041">WC_MAINDISPLAY</a>.</p>
+<p>References <a class="el" href="viewport_8cpp_source.html#l01688">GetViewport()</a>, <a class="el" href="geometry_8h_source.html#l00251">Rectangle&lt; PT, SZ &gt;::IsPointInside()</a>, <a class="el" href="window_8h_source.html#l00150">Window::lower</a>, <a class="el" href="window_8h_source.html#l00139">Window::rect</a>, <a class="el" href="window_8h_source.html#l00344">top</a>, <a class="el" href="window_8h_source.html#l00043">WC_BOTTOM_TOOLBAR</a>, and <a class="el" href="window_8h_source.html#l00041">WC_MAINDISPLAY</a>.</p>
 
-<p>Referenced by <a class="el" href="video_8cpp_source.html#l00229">VideoSystem::SetResolution()</a>.</p>
+<p>Referenced by <a class="el" href="video_8cpp_source.html#l00241">VideoSystem::SetResolution()</a>.</p>
 
 </div>
 </div>
@@ -450,9 +453,9 @@ Private Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="window_8cpp_source.html#l00833">833</a> of file <a class="el" href="window_8cpp_source.html">window.cpp</a>.</p>
 
-<p>References <a class="el" href="geometry_8h_source.html#l00247">Rectangle&lt; PT, SZ &gt;::base</a>, <a class="el" href="window_8h_source.html#l00337">current_window</a>, <a class="el" href="window_8cpp_source.html#l00228">Window::MarkDirty()</a>, <a class="el" href="window_8h_source.html#l00081">MB_LEFT</a>, <a class="el" href="window_8h_source.html#l00339">mouse_mode</a>, <a class="el" href="window_8h_source.html#l00336">mouse_pos</a>, <a class="el" href="window_8h_source.html#l00338">mouse_state</a>, <a class="el" href="stdafx_8h_source.html#l00182">NOT_REACHED</a>, <a class="el" href="window_8cpp_source.html#l00245">Window::OnMouseMoveEvent()</a>, <a class="el" href="window_8h_source.html#l00123">Window::rect</a>, <a class="el" href="window_8cpp_source.html#l00092">Window::SetPosition()</a>, <a class="el" href="window_8cpp_source.html#l00875">UpdateCurrentWindow()</a>, <a class="el" href="window_8h_source.html#l00041">WC_MAINDISPLAY</a>, <a class="el" href="window_8h_source.html#l00107">WMMM_MOVE_WINDOW</a>, <a class="el" href="window_8h_source.html#l00106">WMMM_PASS_THROUGH</a>, <a class="el" href="window_8h_source.html#l00124">Window::wtype</a>, <a class="el" href="geometry_8h_source.html#l00037">Point&lt; CT &gt;::x</a>, and <a class="el" href="geometry_8h_source.html#l00038">Point&lt; CT &gt;::y</a>.</p>
+<p>References <a class="el" href="geometry_8h_source.html#l00349">Rectangle&lt; PT, SZ &gt;::base</a>, <a class="el" href="window_8h_source.html#l00354">current_window</a>, <a class="el" href="window_8cpp_source.html#l00228">Window::MarkDirty()</a>, <a class="el" href="window_8h_source.html#l00081">MB_LEFT</a>, <a class="el" href="window_8h_source.html#l00356">mouse_mode</a>, <a class="el" href="window_8h_source.html#l00353">mouse_pos</a>, <a class="el" href="window_8h_source.html#l00355">mouse_state</a>, <a class="el" href="stdafx_8h_source.html#l00182">NOT_REACHED</a>, <a class="el" href="window_8cpp_source.html#l00245">Window::OnMouseMoveEvent()</a>, <a class="el" href="window_8h_source.html#l00139">Window::rect</a>, <a class="el" href="window_8cpp_source.html#l00092">Window::SetPosition()</a>, <a class="el" href="window_8cpp_source.html#l00875">UpdateCurrentWindow()</a>, <a class="el" href="window_8h_source.html#l00041">WC_MAINDISPLAY</a>, <a class="el" href="window_8h_source.html#l00123">WMMM_MOVE_WINDOW</a>, <a class="el" href="window_8h_source.html#l00122">WMMM_PASS_THROUGH</a>, <a class="el" href="window_8h_source.html#l00140">Window::wtype</a>, <a class="el" href="geometry_8h_source.html#l00036">Point&lt; CT &gt;::x</a>, and <a class="el" href="geometry_8h_source.html#l00037">Point&lt; CT &gt;::y</a>.</p>
 
-<p>Referenced by <a class="el" href="video_8cpp_source.html#l00337">UpdateMousePosition()</a>.</p>
+<p>Referenced by <a class="el" href="video_8cpp_source.html#l00340">UpdateMousePosition()</a>.</p>
 
 </div>
 </div>
@@ -491,9 +494,9 @@ Private Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="window_8cpp_source.html#l00912">912</a> of file <a class="el" href="window_8cpp_source.html">window.cpp</a>.</p>
 
-<p>References <a class="el" href="window_8h_source.html#l00112">ALL_WINDOWS_OF_TYPE</a>, <a class="el" href="window_8h_source.html#l00337">current_window</a>, <a class="el" href="window_8cpp_source.html#l00769">DeleteWindow()</a>, <a class="el" href="window_8cpp_source.html#l01026">GetWindowByType()</a>, <a class="el" href="geometry_8h_source.html#l00149">Rectangle&lt; PT, SZ &gt;::IsPointInside()</a>, <a class="el" href="window_8h_source.html#l00081">MB_LEFT</a>, <a class="el" href="window_8h_source.html#l00082">MB_MIDDLE</a>, <a class="el" href="window_8h_source.html#l00083">MB_RIGHT</a>, <a class="el" href="window_8h_source.html#l00339">mouse_mode</a>, <a class="el" href="window_8h_source.html#l00338">mouse_state</a>, <a class="el" href="stdafx_8h_source.html#l00182">NOT_REACHED</a>, <a class="el" href="window_8cpp_source.html#l00254">Window::OnMouseButtonEvent()</a>, <a class="el" href="window_8cpp_source.html#l00780">RaiseWindow()</a>, <a class="el" href="window_8h_source.html#l00123">Window::rect</a>, <a class="el" href="window_8cpp_source.html#l00890">StartWindowMove()</a>, <a class="el" href="window_8cpp_source.html#l00875">UpdateCurrentWindow()</a>, <a class="el" href="window_8h_source.html#l00056">WC_DROPDOWN</a>, <a class="el" href="window_8h_source.html#l00097">WMME_CLOSE_WINDOW</a>, <a class="el" href="window_8h_source.html#l00098">WMME_MOVE_WINDOW</a>, <a class="el" href="window_8h_source.html#l00096">WMME_NONE</a>, <a class="el" href="window_8h_source.html#l00107">WMMM_MOVE_WINDOW</a>, and <a class="el" href="window_8h_source.html#l00106">WMMM_PASS_THROUGH</a>.</p>
+<p>References <a class="el" href="window_8h_source.html#l00128">ALL_WINDOWS_OF_TYPE</a>, <a class="el" href="window_8h_source.html#l00354">current_window</a>, <a class="el" href="window_8cpp_source.html#l00769">DeleteWindow()</a>, <a class="el" href="window_8cpp_source.html#l01037">GetWindowByType()</a>, <a class="el" href="geometry_8h_source.html#l00251">Rectangle&lt; PT, SZ &gt;::IsPointInside()</a>, <a class="el" href="window_8h_source.html#l00081">MB_LEFT</a>, <a class="el" href="window_8h_source.html#l00082">MB_MIDDLE</a>, <a class="el" href="window_8h_source.html#l00083">MB_RIGHT</a>, <a class="el" href="window_8h_source.html#l00356">mouse_mode</a>, <a class="el" href="window_8h_source.html#l00355">mouse_state</a>, <a class="el" href="stdafx_8h_source.html#l00182">NOT_REACHED</a>, <a class="el" href="window_8cpp_source.html#l00254">Window::OnMouseButtonEvent()</a>, <a class="el" href="window_8cpp_source.html#l00780">RaiseWindow()</a>, <a class="el" href="window_8h_source.html#l00139">Window::rect</a>, <a class="el" href="window_8cpp_source.html#l00890">StartWindowMove()</a>, <a class="el" href="window_8cpp_source.html#l00875">UpdateCurrentWindow()</a>, <a class="el" href="window_8h_source.html#l00056">WC_DROPDOWN</a>, <a class="el" href="window_8h_source.html#l00097">WMME_CLOSE_WINDOW</a>, <a class="el" href="window_8h_source.html#l00098">WMME_MOVE_WINDOW</a>, <a class="el" href="window_8h_source.html#l00096">WMME_NONE</a>, <a class="el" href="window_8h_source.html#l00123">WMMM_MOVE_WINDOW</a>, and <a class="el" href="window_8h_source.html#l00122">WMMM_PASS_THROUGH</a>.</p>
 
-<p>Referenced by <a class="el" href="video_8cpp_source.html#l00346">VideoSystem::HandleEvent()</a>.</p>
+<p>Referenced by <a class="el" href="video_8cpp_source.html#l00375">VideoSystem::HandleEvent()</a>.</p>
 
 </div>
 </div>
@@ -521,9 +524,49 @@ Private Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="window_8cpp_source.html#l00974">974</a> of file <a class="el" href="window_8cpp_source.html">window.cpp</a>.</p>
 
-<p>References <a class="el" href="window_8h_source.html#l00337">current_window</a>, <a class="el" href="window_8cpp_source.html#l00263">Window::OnMouseWheelEvent()</a>, and <a class="el" href="window_8cpp_source.html#l00875">UpdateCurrentWindow()</a>.</p>
+<p>References <a class="el" href="window_8h_source.html#l00354">current_window</a>, <a class="el" href="window_8cpp_source.html#l00263">Window::OnMouseWheelEvent()</a>, and <a class="el" href="window_8cpp_source.html#l00875">UpdateCurrentWindow()</a>.</p>
 
-<p>Referenced by <a class="el" href="video_8cpp_source.html#l00346">VideoSystem::HandleEvent()</a>.</p>
+<p>Referenced by <a class="el" href="video_8cpp_source.html#l00375">VideoSystem::HandleEvent()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a925cea1b37a97e5238f35187f9c4231a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool WindowManager::KeyEvent </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__window__group.html#ga701d0af7ed6f93b6e455a81508c24bdc">WmKeyCode</a>&#160;</td>
+          <td class="paramname"><em>key_code</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="stdafx_8h.html#adde6aaee8457bee49c2a92621fe22b79">uint8</a> *&#160;</td>
+          <td class="paramname"><em>symbol</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Process input from the keyboard. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">key_code</td><td>Kind of input. </td></tr>
+    <tr><td class="paramname">symbol</td><td>Entered symbol, if <em>key_code</em> is <a class="el" href="group__window__group.html#gga701d0af7ed6f93b6e455a81508c24bdca9a43f058ed56a3ce5ad8abd049a6f077" title="A symbol is entered. ">WMKC_SYMBOL</a>. Utf-8 encoded. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Key event has been processed. </dd></dl>
+
+<p>Definition at line <a class="el" href="window_8cpp_source.html#l00986">986</a> of file <a class="el" href="window_8cpp_source.html">window.cpp</a>.</p>
+
+<p>Referenced by <a class="el" href="video_8cpp_source.html#l00351">HandleKeyInput()</a>.</p>
 
 </div>
 </div>
@@ -542,11 +585,11 @@ Private Attributes</h2></td></tr>
 
 <p>A tick has passed, update whatever must be updated. </p>
 
-<p>Definition at line <a class="el" href="window_8cpp_source.html#l01005">1005</a> of file <a class="el" href="window_8cpp_source.html">window.cpp</a>.</p>
+<p>Definition at line <a class="el" href="window_8cpp_source.html#l01016">1016</a> of file <a class="el" href="window_8cpp_source.html">window.cpp</a>.</p>
 
-<p>References <a class="el" href="window_8h_source.html#l00134">Window::lower</a>, <a class="el" href="window_8h_source.html#l00131">Window::timeout</a>, <a class="el" href="window_8cpp_source.html#l00281">Window::TimeoutCallback()</a>, <a class="el" href="window_8h_source.html#l00327">top</a>, and <a class="el" href="window_8cpp_source.html#l00985">UpdateWindows()</a>.</p>
+<p>References <a class="el" href="window_8h_source.html#l00150">Window::lower</a>, <a class="el" href="window_8h_source.html#l00147">Window::timeout</a>, <a class="el" href="window_8cpp_source.html#l00281">Window::TimeoutCallback()</a>, <a class="el" href="window_8h_source.html#l00344">top</a>, and <a class="el" href="window_8cpp_source.html#l00996">UpdateWindows()</a>.</p>
 
-<p>Referenced by <a class="el" href="gamecontrol_8cpp_source.html#l00089">OnNewFrame()</a>.</p>
+<p>Referenced by <a class="el" href="gamecontrol_8cpp_source.html#l00085">OnNewFrame()</a>.</p>
 
 </div>
 </div>
@@ -568,7 +611,7 @@ Private Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="window_8cpp_source.html#l00824">824</a> of file <a class="el" href="window_8cpp_source.html">window.cpp</a>.</p>
 
-<p>References <a class="el" href="window_8h_source.html#l00336">mouse_pos</a>.</p>
+<p>References <a class="el" href="window_8h_source.html#l00353">mouse_pos</a>.</p>
 
 <p>Referenced by <a class="el" href="window_8cpp_source.html#l00136">GetDistanceToMouse()</a>, and <a class="el" href="fence__gui_8cpp_source.html#l00126">FenceGui::OnClick()</a>.</p>
 
@@ -607,7 +650,7 @@ Private Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="window_8cpp_source.html#l00810">810</a> of file <a class="el" href="window_8cpp_source.html">window.cpp</a>.</p>
 
-<p>References <a class="el" href="geometry_8h_source.html#l00149">Rectangle&lt; PT, SZ &gt;::IsPointInside()</a>, <a class="el" href="window_8h_source.html#l00134">Window::lower</a>, <a class="el" href="window_8h_source.html#l00123">Window::rect</a>, and <a class="el" href="window_8h_source.html#l00327">top</a>.</p>
+<p>References <a class="el" href="geometry_8h_source.html#l00251">Rectangle&lt; PT, SZ &gt;::IsPointInside()</a>, <a class="el" href="window_8h_source.html#l00150">Window::lower</a>, <a class="el" href="window_8h_source.html#l00139">Window::rect</a>, and <a class="el" href="window_8h_source.html#l00344">top</a>.</p>
 
 <p>Referenced by <a class="el" href="window_8cpp_source.html#l00875">UpdateCurrentWindow()</a>.</p>
 
@@ -639,7 +682,7 @@ Private Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="window_8cpp_source.html#l00875">875</a> of file <a class="el" href="window_8cpp_source.html">window.cpp</a>.</p>
 
-<p>References <a class="el" href="window_8h_source.html#l00337">current_window</a>, <a class="el" href="window_8cpp_source.html#l00810">FindWindowByPosition()</a>, <a class="el" href="window_8cpp_source.html#l00795">HasWindow()</a>, <a class="el" href="window_8h_source.html#l00336">mouse_pos</a>, <a class="el" href="window_8cpp_source.html#l00268">Window::OnMouseEnterEvent()</a>, and <a class="el" href="window_8cpp_source.html#l00273">Window::OnMouseLeaveEvent()</a>.</p>
+<p>References <a class="el" href="window_8h_source.html#l00354">current_window</a>, <a class="el" href="window_8cpp_source.html#l00810">FindWindowByPosition()</a>, <a class="el" href="window_8cpp_source.html#l00795">HasWindow()</a>, <a class="el" href="window_8h_source.html#l00353">mouse_pos</a>, <a class="el" href="window_8cpp_source.html#l00268">Window::OnMouseEnterEvent()</a>, and <a class="el" href="window_8cpp_source.html#l00273">Window::OnMouseLeaveEvent()</a>.</p>
 
 <p>Referenced by <a class="el" href="window_8cpp_source.html#l00912">MouseButtonEvent()</a>, <a class="el" href="window_8cpp_source.html#l00833">MouseMoveEvent()</a>, and <a class="el" href="window_8cpp_source.html#l00974">MouseWheelEvent()</a>.</p>
 
@@ -667,7 +710,7 @@ Private Attributes</h2></td></tr>
 <p>Mouse mode of the window manager. </p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="group__window__group.html#ga9ca268542af2543cb0d9af524d11c7a1" title="Available mouse modes of the window manager. ">WmMouseModes</a> </dd></dl>
 
-<p>Definition at line <a class="el" href="window_8h_source.html#l00339">339</a> of file <a class="el" href="window_8h_source.html">window.h</a>.</p>
+<p>Definition at line <a class="el" href="window_8h_source.html#l00356">356</a> of file <a class="el" href="window_8h_source.html">window.h</a>.</p>
 
 <p>Referenced by <a class="el" href="window_8cpp_source.html#l00912">MouseButtonEvent()</a>, <a class="el" href="window_8cpp_source.html#l00833">MouseMoveEvent()</a>, <a class="el" href="window_8cpp_source.html#l00890">StartWindowMove()</a>, and <a class="el" href="window_8cpp_source.html#l00635">WindowManager()</a>.</p>
 
@@ -680,7 +723,7 @@ Private Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Sep 5 2014 19:06:16 for FreeRCT by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Feb 25 2015 13:22:41 for FreeRCT by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

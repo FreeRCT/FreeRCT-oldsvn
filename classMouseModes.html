@@ -104,7 +104,7 @@ Private Attributes</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>All mouse modes. </p>
 
-<p>Definition at line <a class="el" href="viewport_8h_source.html#l00321">321</a> of file <a class="el" href="viewport_8h_source.html">viewport.h</a>.</p>
+<p>Definition at line <a class="el" href="viewport_8h_source.html#l00315">315</a> of file <a class="el" href="viewport_8h_source.html">viewport.h</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a class="anchor" id="a6a315b570f089f4aeae9cbf503973cff"></a>
 <div class="memitem">
@@ -128,11 +128,11 @@ Private Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="viewport_8cpp_source.html#l01692">1692</a> of file <a class="el" href="viewport_8cpp_source.html">viewport.cpp</a>.</p>
+<p>Definition at line <a class="el" href="viewport_8cpp_source.html#l01676">1676</a> of file <a class="el" href="viewport_8cpp_source.html">viewport.cpp</a>.</p>
 
-<p>References <a class="el" href="viewport_8h_source.html#l00034">MM_COUNT</a>, <a class="el" href="viewport_8h_source.html#l00306">MouseMode::mode</a>, and <a class="el" href="viewport_8h_source.html#l00334">modes</a>.</p>
+<p>References <a class="el" href="viewport_8h_source.html#l00034">MM_COUNT</a>, <a class="el" href="viewport_8h_source.html#l00300">MouseMode::mode</a>, and <a class="el" href="viewport_8h_source.html#l00328">modes</a>.</p>
 
-<p>Referenced by <a class="el" href="viewport_8cpp_source.html#l01808">InitMouseModes()</a>.</p>
+<p>Referenced by <a class="el" href="viewport_8cpp_source.html#l01788">InitMouseModes()</a>.</p>
 
 </div>
 </div>
@@ -150,15 +150,15 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Decide the most appropriate mouse mode of the viewport, depending on available windows. </p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000081">Todo:</a></b></dt><dd><p class="startdd">Perhaps force a redraw/recompute in some way to ensure the right state is displayed? </p>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000082">Todo:</a></b></dt><dd><p class="startdd">Perhaps force a redraw/recompute in some way to ensure the right state is displayed? </p>
 <p class="enddd">Perhaps switch mode when a window associated with a mode is raised? </p>
 </dd></dl>
 
-<p>Definition at line <a class="el" href="viewport_8cpp_source.html#l01727">1727</a> of file <a class="el" href="viewport_8cpp_source.html">viewport.cpp</a>.</p>
+<p>Definition at line <a class="el" href="viewport_8cpp_source.html#l01709">1709</a> of file <a class="el" href="viewport_8cpp_source.html">viewport.cpp</a>.</p>
 
-<p>References <a class="el" href="window_8cpp_source.html#l00037">_manager</a>, <a class="el" href="viewport_8h_source.html#l00337">default_mode</a>, <a class="el" href="stdafx_8h_source.html#l00157">lengthof</a>, <a class="el" href="window_8h_source.html#l00134">Window::lower</a>, <a class="el" href="viewport_8h_source.html#l00332">main_display</a>, <a class="el" href="classMouseMode.html#a0278e5a0f9ec226902d0e0bd27ffb65c">MouseMode::MayActivateMode()</a>, <a class="el" href="viewport_8h_source.html#l00334">modes</a>, <a class="el" href="viewport_8cpp_source.html#l01775">SwitchMode()</a>, <a class="el" href="window_8h_source.html#l00327">WindowManager::top</a>, <a class="el" href="window_8h_source.html#l00058">WC_NONE</a>, <a class="el" href="window_8h_source.html#l00124">Window::wtype</a>, and <a class="el" href="viewport_8h_source.html#l00305">MouseMode::wtype</a>.</p>
+<p>References <a class="el" href="window_8cpp_source.html#l00037">_window_manager</a>, <a class="el" href="viewport_8h_source.html#l00331">default_mode</a>, <a class="el" href="stdafx_8h_source.html#l00157">lengthof</a>, <a class="el" href="window_8h_source.html#l00150">Window::lower</a>, <a class="el" href="viewport_8h_source.html#l00326">main_display</a>, <a class="el" href="classMouseMode.html#a0278e5a0f9ec226902d0e0bd27ffb65c">MouseMode::MayActivateMode()</a>, <a class="el" href="viewport_8h_source.html#l00328">modes</a>, <a class="el" href="viewport_8cpp_source.html#l01757">SwitchMode()</a>, <a class="el" href="window_8h_source.html#l00344">WindowManager::top</a>, <a class="el" href="window_8h_source.html#l00058">WC_NONE</a>, <a class="el" href="window_8h_source.html#l00140">Window::wtype</a>, and <a class="el" href="viewport_8h_source.html#l00299">MouseMode::wtype</a>.</p>
 
-<p>Referenced by <a class="el" href="fence__build_8cpp_source.html#l00040">FenceBuildManager::CloseWindow()</a>, <a class="el" href="ride__gui_8cpp_source.html#l00599">ShopPlacementManager::CloseWindow()</a>, <a class="el" href="terraform_8cpp_source.html#l00600">TileTerraformMouseMode::CloseWindow()</a>, <a class="el" href="coaster__gui_8cpp_source.html#l00885">CoasterBuildStateOn::CloseWindow()</a>, <a class="el" href="coaster__gui_8cpp_source.html#l00964">CoasterBuildStateMouse::CloseWindow()</a>, <a class="el" href="coaster__gui_8cpp_source.html#l01052">CoasterBuildStateFixed::CloseWindow()</a>, <a class="el" href="ride__gui_8cpp_source.html#l00566">ShopPlacementManager::OnMouseButtonEvent()</a>, <a class="el" href="path__build_8cpp_source.html#l00435">PathBuildManager::SetPathGuiState()</a>, <a class="el" href="ride__gui_8cpp_source.html#l00622">ShopPlacementManager::SetSelection()</a>, and <a class="el" href="viewport_8cpp_source.html#l01801">ShowMainDisplay()</a>.</p>
+<p>Referenced by <a class="el" href="fence__build_8cpp_source.html#l00040">FenceBuildManager::CloseWindow()</a>, <a class="el" href="ride__gui_8cpp_source.html#l00594">ShopPlacementManager::CloseWindow()</a>, <a class="el" href="terraform_8cpp_source.html#l00600">TileTerraformMouseMode::CloseWindow()</a>, <a class="el" href="coaster__gui_8cpp_source.html#l00872">CoasterBuildStateOn::CloseWindow()</a>, <a class="el" href="coaster__gui_8cpp_source.html#l00951">CoasterBuildStateMouse::CloseWindow()</a>, <a class="el" href="coaster__gui_8cpp_source.html#l01039">CoasterBuildStateFixed::CloseWindow()</a>, <a class="el" href="ride__gui_8cpp_source.html#l00561">ShopPlacementManager::OnMouseButtonEvent()</a>, <a class="el" href="path__build_8cpp_source.html#l00483">PathBuildManager::SetPathGuiState()</a>, <a class="el" href="ride__gui_8cpp_source.html#l00617">ShopPlacementManager::SetSelection()</a>, and <a class="el" href="viewport_8cpp_source.html#l01781">ShowMainDisplay()</a>.</p>
 
 </div>
 </div>
@@ -178,11 +178,11 @@ Private Attributes</h2></td></tr>
 <p>Get the current mouse mode. </p>
 <dl class="section return"><dt>Returns</dt><dd>The current mouse mode. </dd></dl>
 
-<p>Definition at line <a class="el" href="viewport_8cpp_source.html#l01789">1789</a> of file <a class="el" href="viewport_8cpp_source.html">viewport.cpp</a>.</p>
+<p>Definition at line <a class="el" href="viewport_8cpp_source.html#l01771">1771</a> of file <a class="el" href="viewport_8cpp_source.html">viewport.cpp</a>.</p>
 
-<p>References <a class="el" href="viewport_8h_source.html#l00333">current</a>, and <a class="el" href="viewport_8h_source.html#l00306">MouseMode::mode</a>.</p>
+<p>References <a class="el" href="viewport_8h_source.html#l00327">current</a>, and <a class="el" href="viewport_8h_source.html#l00300">MouseMode::mode</a>.</p>
 
-<p>Referenced by <a class="el" href="terraform_8cpp_source.html#l00442">TerrainChanges::ModifyWorld()</a>, and <a class="el" href="path__build_8cpp_source.html#l00435">PathBuildManager::SetPathGuiState()</a>.</p>
+<p>Referenced by <a class="el" href="terraform_8cpp_source.html#l00442">TerrainChanges::ModifyWorld()</a>, and <a class="el" href="path__build_8cpp_source.html#l00483">PathBuildManager::SetPathGuiState()</a>.</p>
 
 </div>
 </div>
@@ -208,11 +208,11 @@ Private Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="viewport_8cpp_source.html#l01759">1759</a> of file <a class="el" href="viewport_8cpp_source.html">viewport.cpp</a>.</p>
+<p>Definition at line <a class="el" href="viewport_8cpp_source.html#l01741">1741</a> of file <a class="el" href="viewport_8cpp_source.html">viewport.cpp</a>.</p>
 
-<p>References <a class="el" href="stdafx_8h_source.html#l00157">lengthof</a>, <a class="el" href="classMouseMode.html#a0278e5a0f9ec226902d0e0bd27ffb65c">MouseMode::MayActivateMode()</a>, <a class="el" href="viewport_8h_source.html#l00306">MouseMode::mode</a>, <a class="el" href="viewport_8h_source.html#l00334">modes</a>, and <a class="el" href="viewport_8cpp_source.html#l01775">SwitchMode()</a>.</p>
+<p>References <a class="el" href="stdafx_8h_source.html#l00157">lengthof</a>, <a class="el" href="classMouseMode.html#a0278e5a0f9ec226902d0e0bd27ffb65c">MouseMode::MayActivateMode()</a>, <a class="el" href="viewport_8h_source.html#l00300">MouseMode::mode</a>, <a class="el" href="viewport_8h_source.html#l00328">modes</a>, and <a class="el" href="viewport_8cpp_source.html#l01757">SwitchMode()</a>.</p>
 
-<p>Referenced by <a class="el" href="coaster__gui_8cpp_source.html#l00263">CoasterBuildWindow::CoasterBuildWindow()</a>, <a class="el" href="fence__build_8cpp_source.html#l00031">FenceBuildManager::OpenWindow()</a>, <a class="el" href="terraform_8cpp_source.html#l00591">TileTerraformMouseMode::OpenWindow()</a>, <a class="el" href="ride__gui_8cpp_source.html#l00622">ShopPlacementManager::SetSelection()</a>, and <a class="el" href="gamecontrol_8cpp_source.html#l00054">ShutdownGame()</a>.</p>
+<p>Referenced by <a class="el" href="coaster__gui_8cpp_source.html#l00263">CoasterBuildWindow::CoasterBuildWindow()</a>, <a class="el" href="fence__build_8cpp_source.html#l00031">FenceBuildManager::OpenWindow()</a>, <a class="el" href="terraform_8cpp_source.html#l00591">TileTerraformMouseMode::OpenWindow()</a>, <a class="el" href="ride__gui_8cpp_source.html#l00617">ShopPlacementManager::SetSelection()</a>, and <a class="el" href="gamecontrol_8cpp_source.html#l00050">ShutdownGame()</a>.</p>
 
 </div>
 </div>
@@ -239,11 +239,11 @@ Private Attributes</h2></td></tr>
 </dl>
 <dl class="section pre"><dt>Precondition</dt><dd>New mode must allow activation of its mode. </dd></dl>
 
-<p>Definition at line <a class="el" href="viewport_8cpp_source.html#l01775">1775</a> of file <a class="el" href="viewport_8cpp_source.html">viewport.cpp</a>.</p>
+<p>Definition at line <a class="el" href="viewport_8cpp_source.html#l01757">1757</a> of file <a class="el" href="viewport_8cpp_source.html">viewport.cpp</a>.</p>
 
-<p>References <a class="el" href="classMouseMode.html#ac28b070af073b693313ab39557d64d7a">MouseMode::ActivateMode()</a>, <a class="el" href="viewport_8h_source.html#l00333">current</a>, <a class="el" href="classMouseMode.html#a36e8aab8b458d9d1973388e5813a1af4">MouseMode::LeaveMode()</a>, <a class="el" href="viewport_8h_source.html#l00332">main_display</a>, <a class="el" href="classMouseMode.html#a0278e5a0f9ec226902d0e0bd27ffb65c">MouseMode::MayActivateMode()</a>, and <a class="el" href="viewport_8h_source.html#l00260">Viewport::mouse_pos</a>.</p>
+<p>References <a class="el" href="classMouseMode.html#ac28b070af073b693313ab39557d64d7a">MouseMode::ActivateMode()</a>, <a class="el" href="viewport_8h_source.html#l00327">current</a>, <a class="el" href="classMouseMode.html#a36e8aab8b458d9d1973388e5813a1af4">MouseMode::LeaveMode()</a>, <a class="el" href="viewport_8h_source.html#l00326">main_display</a>, <a class="el" href="classMouseMode.html#a0278e5a0f9ec226902d0e0bd27ffb65c">MouseMode::MayActivateMode()</a>, and <a class="el" href="viewport_8h_source.html#l00253">Viewport::mouse_pos</a>.</p>
 
-<p>Referenced by <a class="el" href="viewport_8cpp_source.html#l01759">SetMouseMode()</a>, and <a class="el" href="viewport_8cpp_source.html#l01727">SetViewportMousemode()</a>.</p>
+<p>Referenced by <a class="el" href="viewport_8cpp_source.html#l01741">SetMouseMode()</a>, and <a class="el" href="viewport_8cpp_source.html#l01709">SetViewportMousemode()</a>.</p>
 
 </div>
 </div>
@@ -254,7 +254,7 @@ Private Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Sep 5 2014 19:06:15 for FreeRCT by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Feb 25 2015 13:22:41 for FreeRCT by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

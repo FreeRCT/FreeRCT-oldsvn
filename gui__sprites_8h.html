@@ -83,8 +83,13 @@ Enumerations</h2></td></tr>
 <a class="el" href="gui__sprites_8h.html#a8701853c4005619efb0ebe1ddc698a4ea6f298d24689acc18f53acfe4c2a21fa0">SPR_GUI_COMPASS_END</a> = SPR_GUI_COMPASS_START + TC_END, 
 <a class="el" href="gui__sprites_8h.html#a8701853c4005619efb0ebe1ddc698a4ea8793f1610dbf2f4d5572b4c3cbe2c746">SPR_GUI_WEATHER_START</a> = SPR_GUI_COMPASS_END, 
 <br />
-&#160;&#160;<a class="el" href="gui__sprites_8h.html#a8701853c4005619efb0ebe1ddc698a4ea5c768661b646787a5fdf86127b6bceff">SPR_GUI_WEATHER_END</a> = SPR_GUI_WEATHER_START + WES_COUNT, 
-<a class="el" href="gui__sprites_8h.html#a8701853c4005619efb0ebe1ddc698a4eabf29cd994f9490ffa8ce05a1c3336934">SPR_GUI_SLOPES_START</a> = SPR_GUI_WEATHER_END, 
+&#160;&#160;<a class="el" href="gui__sprites_8h.html#a8701853c4005619efb0ebe1ddc698a4ea5c768661b646787a5fdf86127b6bceff">SPR_GUI_WEATHER_END</a> = SPR_GUI_WEATHER_START + WTP_COUNT, 
+<a class="el" href="gui__sprites_8h.html#a8701853c4005619efb0ebe1ddc698a4ea6d51b43f77a45ec749cec0bab39f7a78">SPR_GUI_ROG_LIGHTS_START</a> = SPR_GUI_WEATHER_END, 
+<a class="el" href="gui__sprites_8h.html#a8701853c4005619efb0ebe1ddc698a4ea319db2a7725132d812d6ec30e6153f18">SPR_GUI_ROG_LIGHTS_END</a> = SPR_GUI_ROG_LIGHTS_START + 4, 
+<a class="el" href="gui__sprites_8h.html#a8701853c4005619efb0ebe1ddc698a4ea027fa5317b7930cd7ae93d1d045451b1">SPR_GUI_RG_LIGHTS_START</a> = SPR_GUI_ROG_LIGHTS_END, 
+<br />
+&#160;&#160;<a class="el" href="gui__sprites_8h.html#a8701853c4005619efb0ebe1ddc698a4ea5bec757528cf40612b06eab214661baa">SPR_GUI_RG_LIGHTS_END</a> = SPR_GUI_RG_LIGHTS_START + 3, 
+<a class="el" href="gui__sprites_8h.html#a8701853c4005619efb0ebe1ddc698a4eabf29cd994f9490ffa8ce05a1c3336934">SPR_GUI_SLOPES_START</a> = SPR_GUI_RG_LIGHTS_END, 
 <a class="el" href="gui__sprites_8h.html#a8701853c4005619efb0ebe1ddc698a4eaa7aeb97a810da3492307e2241048334e">SPR_GUI_SLOPES_END</a> = SPR_GUI_SLOPES_START + TSL_COUNT_VERTICAL, 
 <a class="el" href="gui__sprites_8h.html#a8701853c4005619efb0ebe1ddc698a4ea5d267a2b735422c30b5ff3039b84cfb8">SPR_GUI_BUILDARROW_START</a> = SPR_GUI_SLOPES_END, 
 <br />
@@ -164,10 +169,22 @@ Enumerations</h2></td></tr>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a8701853c4005619efb0ebe1ddc698a4ea8793f1610dbf2f4d5572b4c3cbe2c746"></a>SPR_GUI_WEATHER_START&#160;</td><td class="fielddoc">
 <p>Start of weather sprites. </p>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="sprite__store_8h.html#a39e4120997ff50612ad4a983356c664c" title="Offsets of weather sprites to SPR_GUI_WEATHER_START, for different types of weather. ">WeatherSprites</a> </dd></dl>
+<dl class="section see"><dt>See also</dt><dd>WeatherSprites </dd></dl>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a8701853c4005619efb0ebe1ddc698a4ea5c768661b646787a5fdf86127b6bceff"></a>SPR_GUI_WEATHER_END&#160;</td><td class="fielddoc">
 <p>End of weather sprites. </p>
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="a8701853c4005619efb0ebe1ddc698a4ea6d51b43f77a45ec749cec0bab39f7a78"></a>SPR_GUI_ROG_LIGHTS_START&#160;</td><td class="fielddoc">
+<p>Start of red/orange/green lights. </p>
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="a8701853c4005619efb0ebe1ddc698a4ea319db2a7725132d812d6ec30e6153f18"></a>SPR_GUI_ROG_LIGHTS_END&#160;</td><td class="fielddoc">
+<p>End of red/orange/green lights. </p>
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="a8701853c4005619efb0ebe1ddc698a4ea027fa5317b7930cd7ae93d1d045451b1"></a>SPR_GUI_RG_LIGHTS_START&#160;</td><td class="fielddoc">
+<p>Start of red/green lights. </p>
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="a8701853c4005619efb0ebe1ddc698a4ea5bec757528cf40612b06eab214661baa"></a>SPR_GUI_RG_LIGHTS_END&#160;</td><td class="fielddoc">
+<p>End of red/green lights. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a8701853c4005619efb0ebe1ddc698a4eabf29cd994f9490ffa8ce05a1c3336934"></a>SPR_GUI_SLOPES_START&#160;</td><td class="fielddoc">
 <p>Start of track slopes. </p>
@@ -206,7 +223,7 @@ Enumerations</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Sep 5 2014 19:06:13 for FreeRCT by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Feb 25 2015 13:22:40 for FreeRCT by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

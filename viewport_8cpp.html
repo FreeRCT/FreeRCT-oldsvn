@@ -127,12 +127,12 @@ Functions</h2></td></tr>
 <tr class="memitem:a168b8e1038efc200816524bab3092311"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classViewport.html">Viewport</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="viewport_8cpp.html#a168b8e1038efc200816524bab3092311">GetViewport</a> ()</td></tr>
 <tr class="memdesc:a168b8e1038efc200816524bab3092311"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the address of the viewport window.  <a href="#a168b8e1038efc200816524bab3092311">More...</a><br /></td></tr>
 <tr class="separator:a168b8e1038efc200816524bab3092311"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abbf26051c9afe21b15d0b8e361e58757"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="viewport_8cpp.html#abbf26051c9afe21b15d0b8e361e58757">MarkVoxelDirty</a> (<a class="el" href="stdafx_8h.html#a259fa4834387bd68627ddf37bb3ebdb9">int16</a> xpos, <a class="el" href="stdafx_8h.html#a259fa4834387bd68627ddf37bb3ebdb9">int16</a> ypos, <a class="el" href="stdafx_8h.html#a259fa4834387bd68627ddf37bb3ebdb9">int16</a> zpos, <a class="el" href="stdafx_8h.html#a259fa4834387bd68627ddf37bb3ebdb9">int16</a> height)</td></tr>
-<tr class="memdesc:abbf26051c9afe21b15d0b8e361e58757"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mark a voxel as in need of getting painted.  <a href="#abbf26051c9afe21b15d0b8e361e58757">More...</a><br /></td></tr>
-<tr class="separator:abbf26051c9afe21b15d0b8e361e58757"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga714167f12950fd04045c47b29f0bf13a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__viewport__group.html#ga714167f12950fd04045c47b29f0bf13a">ShowMainDisplay</a> (<a class="el" href="stdafx_8h.html#a1134b580f8da4de94ca6b1de4d37975e">uint32</a> xview, <a class="el" href="stdafx_8h.html#a1134b580f8da4de94ca6b1de4d37975e">uint32</a> yview, <a class="el" href="stdafx_8h.html#a1134b580f8da4de94ca6b1de4d37975e">uint32</a> zview)</td></tr>
-<tr class="memdesc:ga714167f12950fd04045c47b29f0bf13a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Open the main isometric display window.  <a href="group__viewport__group.html#ga714167f12950fd04045c47b29f0bf13a">More...</a><br /></td></tr>
-<tr class="separator:ga714167f12950fd04045c47b29f0bf13a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9d508bfc28352f0f790bd6eb7567186"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="viewport_8cpp.html#ac9d508bfc28352f0f790bd6eb7567186">MarkVoxelDirty</a> (const <a class="el" href="geometry_8h.html#a71fcb91f44cc6cbf519d0c45c07e931d">XYZPoint16</a> &amp;voxel_pos, <a class="el" href="stdafx_8h.html#a259fa4834387bd68627ddf37bb3ebdb9">int16</a> height)</td></tr>
+<tr class="memdesc:ac9d508bfc28352f0f790bd6eb7567186"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mark a voxel as in need of getting painted.  <a href="#ac9d508bfc28352f0f790bd6eb7567186">More...</a><br /></td></tr>
+<tr class="separator:ac9d508bfc28352f0f790bd6eb7567186"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga0dc4080a39ea5f89477c0989aeb98fff"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__viewport__group.html#ga0dc4080a39ea5f89477c0989aeb98fff">ShowMainDisplay</a> (const <a class="el" href="geometry_8h.html#ad44b56387be4716a93eb09e15466703d">XYZPoint32</a> &amp;view_pos)</td></tr>
+<tr class="memdesc:ga0dc4080a39ea5f89477c0989aeb98fff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Open the main isometric display window.  <a href="group__viewport__group.html#ga0dc4080a39ea5f89477c0989aeb98fff">More...</a><br /></td></tr>
+<tr class="separator:ga0dc4080a39ea5f89477c0989aeb98fff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0dafeaffbb866e3726bb18cdae3d2a11"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="viewport_8cpp.html#a0dafeaffbb866e3726bb18cdae3d2a11">InitMouseModes</a> ()</td></tr>
 <tr class="memdesc:a0dafeaffbb866e3726bb18cdae3d2a11"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the mouse modes.  <a href="#a0dafeaffbb866e3726bb18cdae3d2a11">More...</a><br /></td></tr>
 <tr class="separator:a0dafeaffbb866e3726bb18cdae3d2a11"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -173,9 +173,9 @@ static const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el
 
 <p>Definition at line <a class="el" href="viewport_8cpp_source.html#l00101">101</a> of file <a class="el" href="viewport_8cpp_source.html">viewport.cpp</a>.</p>
 
-<p>References <a class="el" href="viewport_8cpp_source.html#l00391">Viewport::EnableWorldAdditions()</a>, and <a class="el" href="viewport_8cpp_source.html#l01704">GetViewport()</a>.</p>
+<p>References <a class="el" href="viewport_8cpp_source.html#l00386">Viewport::EnableWorldAdditions()</a>, and <a class="el" href="viewport_8cpp_source.html#l01688">GetViewport()</a>.</p>
 
-<p>Referenced by <a class="el" href="ride__gui_8cpp_source.html#l00526">ShopPlacementManager::ActivateMode()</a>, and <a class="el" href="coaster__gui_8cpp_source.html#l01328">CoasterBuildMode::UpdateDisplay()</a>.</p>
+<p>Referenced by <a class="el" href="ride__gui_8cpp_source.html#l00521">ShopPlacementManager::ActivateMode()</a>, and <a class="el" href="coaster__gui_8cpp_source.html#l01313">CoasterBuildMode::UpdateDisplay()</a>.</p>
 
 </div>
 </div>
@@ -196,9 +196,9 @@ static const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el
 
 <p>Definition at line <a class="el" href="viewport_8cpp_source.html#l00108">108</a> of file <a class="el" href="viewport_8cpp_source.html">viewport.cpp</a>.</p>
 
-<p>References <a class="el" href="viewport_8cpp_source.html#l00403">Viewport::DisableWorldAdditions()</a>, and <a class="el" href="viewport_8cpp_source.html#l01704">GetViewport()</a>.</p>
+<p>References <a class="el" href="viewport_8cpp_source.html#l00398">Viewport::DisableWorldAdditions()</a>, and <a class="el" href="viewport_8cpp_source.html#l01688">GetViewport()</a>.</p>
 
-<p>Referenced by <a class="el" href="path__build_8cpp_source.html#l00387">PathBuildManager::LeaveMode()</a>, <a class="el" href="ride__gui_8cpp_source.html#l00541">ShopPlacementManager::LeaveMode()</a>, <a class="el" href="ride__gui_8cpp_source.html#l00566">ShopPlacementManager::OnMouseButtonEvent()</a>, <a class="el" href="path__build_8cpp_source.html#l00357">PathBuildManager::PathBuildManager()</a>, <a class="el" href="ride__gui_8cpp_source.html#l00622">ShopPlacementManager::SetSelection()</a>, and <a class="el" href="coaster__gui_8cpp_source.html#l01328">CoasterBuildMode::UpdateDisplay()</a>.</p>
+<p>Referenced by <a class="el" href="path__build_8cpp_source.html#l00425">PathBuildManager::LeaveMode()</a>, <a class="el" href="ride__gui_8cpp_source.html#l00536">ShopPlacementManager::LeaveMode()</a>, <a class="el" href="ride__gui_8cpp_source.html#l00561">ShopPlacementManager::OnMouseButtonEvent()</a>, <a class="el" href="path__build_8cpp_source.html#l00395">PathBuildManager::PathBuildManager()</a>, <a class="el" href="ride__gui_8cpp_source.html#l00617">ShopPlacementManager::SetSelection()</a>, <a class="el" href="coaster__gui_8cpp_source.html#l01313">CoasterBuildMode::UpdateDisplay()</a>, and <a class="el" href="path__build_8cpp_source.html#l00730">PathBuildManager::UpdateState()</a>.</p>
 
 </div>
 </div>
@@ -262,7 +262,7 @@ static const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el
 
 <p>References <a class="el" href="stdafx_8h_source.html#l00182">NOT_REACHED</a>, <a class="el" href="orientation_8h_source.html#l00023">VOR_EAST</a>, <a class="el" href="orientation_8h_source.html#l00022">VOR_NORTH</a>, <a class="el" href="orientation_8h_source.html#l00024">VOR_SOUTH</a>, and <a class="el" href="orientation_8h_source.html#l00025">VOR_WEST</a>.</p>
 
-<p>Referenced by <a class="el" href="viewport_8cpp_source.html#l00173">VoxelCollector::ComputeX()</a>, and <a class="el" href="viewport_8cpp_source.html#l01383">Viewport::ComputeX()</a>.</p>
+<p>Referenced by <a class="el" href="viewport_8cpp_source.html#l00173">VoxelCollector::ComputeX()</a>, and <a class="el" href="viewport_8cpp_source.html#l01369">Viewport::ComputeX()</a>.</p>
 
 </div>
 </div>
@@ -340,7 +340,7 @@ static const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el
 
 <p>References <a class="el" href="stdafx_8h_source.html#l00182">NOT_REACHED</a>, <a class="el" href="orientation_8h_source.html#l00023">VOR_EAST</a>, <a class="el" href="orientation_8h_source.html#l00022">VOR_NORTH</a>, <a class="el" href="orientation_8h_source.html#l00024">VOR_SOUTH</a>, and <a class="el" href="orientation_8h_source.html#l00025">VOR_WEST</a>.</p>
 
-<p>Referenced by <a class="el" href="viewport_8cpp_source.html#l00185">VoxelCollector::ComputeY()</a>, and <a class="el" href="viewport_8cpp_source.html#l01395">Viewport::ComputeY()</a>.</p>
+<p>Referenced by <a class="el" href="viewport_8cpp_source.html#l00185">VoxelCollector::ComputeY()</a>, and <a class="el" href="viewport_8cpp_source.html#l01381">Viewport::ComputeY()</a>.</p>
 
 </div>
 </div>
@@ -386,9 +386,9 @@ static const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el
 </dl>
 <dl class="section return"><dt>Returns</dt><dd><code>true</code> if <em>dd1</em> should be drawn before <em>dd2</em>. </dd></dl>
 
-<p>Definition at line <a class="el" href="viewport_8cpp_source.html#l00246">246</a> of file <a class="el" href="viewport_8cpp_source.html">viewport.cpp</a>.</p>
+<p>Definition at line <a class="el" href="viewport_8cpp_source.html#l00242">242</a> of file <a class="el" href="viewport_8cpp_source.html">viewport.cpp</a>.</p>
 
-<p>References <a class="el" href="viewport_8cpp_source.html#l00236">DrawData::base</a>, <a class="el" href="viewport_8cpp_source.html#l00232">DrawData::level</a>, <a class="el" href="viewport_8cpp_source.html#l00234">DrawData::order</a>, <a class="el" href="geometry_8h_source.html#l00038">Point&lt; CT &gt;::y</a>, and <a class="el" href="viewport_8cpp_source.html#l00233">DrawData::z_height</a>.</p>
+<p>References <a class="el" href="viewport_8cpp_source.html#l00232">DrawData::base</a>, <a class="el" href="viewport_8cpp_source.html#l00228">DrawData::level</a>, <a class="el" href="viewport_8cpp_source.html#l00230">DrawData::order</a>, <a class="el" href="geometry_8h_source.html#l00037">Point&lt; CT &gt;::y</a>, and <a class="el" href="viewport_8cpp_source.html#l00229">DrawData::z_height</a>.</p>
 
 </div>
 </div>
@@ -484,11 +484,11 @@ static const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="nodes_8h.html#a3622a3eda6865ce3e357b761e4f42dbd" title="Path sprites. ">PathSprites</a> </dd></dl>
 <dl class="section return"><dt>Returns</dt><dd>The number of <em>dd</em> entries filled. </dd></dl>
 
-<p>Definition at line <a class="el" href="viewport_8cpp_source.html#l00854">854</a> of file <a class="el" href="viewport_8cpp_source.html">viewport.cpp</a>.</p>
+<p>Definition at line <a class="el" href="viewport_8cpp_source.html#l00829">829</a> of file <a class="el" href="viewport_8cpp_source.html">viewport.cpp</a>.</p>
 
-<p>References <a class="el" href="ride__type_8cpp_source.html#l00043">_rides_manager</a>, <a class="el" href="viewport_8cpp_source.html#l00236">DrawData::base</a>, <a class="el" href="ride__type_8cpp_source.html#l00169">RideInstance::GetKind()</a>, <a class="el" href="ride__type_8cpp_source.html#l00412">RidesManager::GetRideInstance()</a>, <a class="el" href="classRideInstance.html#a2023a342250310d30aaa7484b66bc1c1">RideInstance::GetSprites()</a>, <a class="el" href="viewport_8cpp_source.html#l00232">DrawData::level</a>, <a class="el" href="viewport_8cpp_source.html#l00234">DrawData::order</a>, <a class="el" href="path_8h_source.html#l00085">PATH_INVALID</a>, <a class="el" href="viewport_8cpp_source.html#l00237">DrawData::recolour</a>, <a class="el" href="ride__type_8h_source.html#l00151">RideInstance::recolours</a>, <a class="el" href="ride__type_8h_source.html#l00034">RTK_SHOP</a>, <a class="el" href="viewport_8h_source.html#l00090">SO_PLATFORM_BACK</a>, <a class="el" href="viewport_8h_source.html#l00094">SO_PLATFORM_FRONT</a>, <a class="el" href="viewport_8h_source.html#l00091">SO_RIDE</a>, <a class="el" href="viewport_8h_source.html#l00093">SO_RIDE_FRONT</a>, <a class="el" href="viewport_8cpp_source.html#l00235">DrawData::sprite</a>, <a class="el" href="geometry_8h_source.html#l00037">Point&lt; CT &gt;::x</a>, <a class="el" href="geometry_8h_source.html#l00038">Point&lt; CT &gt;::y</a>, and <a class="el" href="viewport_8cpp_source.html#l00233">DrawData::z_height</a>.</p>
+<p>References <a class="el" href="ride__type_8cpp_source.html#l00045">_rides_manager</a>, <a class="el" href="viewport_8cpp_source.html#l00232">DrawData::base</a>, <a class="el" href="ride__type_8cpp_source.html#l00171">RideInstance::GetKind()</a>, <a class="el" href="ride__type_8cpp_source.html#l00434">RidesManager::GetRideInstance()</a>, <a class="el" href="classRideInstance.html#a2023a342250310d30aaa7484b66bc1c1">RideInstance::GetSprites()</a>, <a class="el" href="viewport_8cpp_source.html#l00228">DrawData::level</a>, <a class="el" href="viewport_8cpp_source.html#l00230">DrawData::order</a>, <a class="el" href="path_8h_source.html#l00085">PATH_INVALID</a>, <a class="el" href="viewport_8cpp_source.html#l00233">DrawData::recolour</a>, <a class="el" href="ride__type_8h_source.html#l00166">RideInstance::recolours</a>, <a class="el" href="ride__type_8h_source.html#l00034">RTK_SHOP</a>, <a class="el" href="viewport_8h_source.html#l00090">SO_PLATFORM_BACK</a>, <a class="el" href="viewport_8h_source.html#l00094">SO_PLATFORM_FRONT</a>, <a class="el" href="viewport_8h_source.html#l00091">SO_RIDE</a>, <a class="el" href="viewport_8h_source.html#l00093">SO_RIDE_FRONT</a>, <a class="el" href="viewport_8cpp_source.html#l00231">DrawData::sprite</a>, <a class="el" href="geometry_8h_source.html#l00036">Point&lt; CT &gt;::x</a>, <a class="el" href="geometry_8h_source.html#l00037">Point&lt; CT &gt;::y</a>, and <a class="el" href="viewport_8cpp_source.html#l00229">DrawData::z_height</a>.</p>
 
-<p>Referenced by <a class="el" href="viewport_8cpp_source.html#l00891">SpriteCollector::CollectVoxel()</a>, and <a class="el" href="viewport_8cpp_source.html#l01204">PixelFinder::CollectVoxel()</a>.</p>
+<p>Referenced by <a class="el" href="viewport_8cpp_source.html#l00864">SpriteCollector::CollectVoxel()</a>, and <a class="el" href="viewport_8cpp_source.html#l01175">PixelFinder::CollectVoxel()</a>.</p>
 
 </div>
 </div>
@@ -509,35 +509,23 @@ static const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el
 <dl class="section return"><dt>Returns</dt><dd>Address of the viewport. </dd></dl>
 <dl class="section note"><dt>Note</dt><dd>Function may return <code>nullptr</code>. </dd></dl>
 
-<p>Definition at line <a class="el" href="viewport_8cpp_source.html#l01704">1704</a> of file <a class="el" href="viewport_8cpp_source.html">viewport.cpp</a>.</p>
+<p>Definition at line <a class="el" href="viewport_8cpp_source.html#l01688">1688</a> of file <a class="el" href="viewport_8cpp_source.html">viewport.cpp</a>.</p>
 
-<p>References <a class="el" href="viewport_8h_source.html#l00332">MouseModes::main_display</a>.</p>
+<p>References <a class="el" href="viewport_8h_source.html#l00326">MouseModes::main_display</a>.</p>
 
-<p>Referenced by <a class="el" href="ride__gui_8cpp_source.html#l00375">ShopPlacementManager::CanPlaceShop()</a>, <a class="el" href="path__build_8cpp_source.html#l00791">PathBuildManager::ComputeNewLongPath()</a>, <a class="el" href="ride__gui_8cpp_source.html#l00410">ShopPlacementManager::ComputeShopVoxel()</a>, <a class="el" href="viewport_8cpp_source.html#l00108">DisableWorldAdditions()</a>, <a class="el" href="toolbar__gui_8cpp_source.html#l00362">BottomToolbarWindow::DrawWidget()</a>, <a class="el" href="viewport_8cpp_source.html#l00101">EnableWorldAdditions()</a>, <a class="el" href="viewport_8cpp_source.html#l00784">SpriteCollector::GetCursorSpriteAtPos()</a>, <a class="el" href="video_8cpp_source.html#l00346">VideoSystem::HandleEvent()</a>, <a class="el" href="fence__build_8cpp_source.html#l00106">FenceBuildManager::LeaveMode()</a>, <a class="el" href="terraform_8cpp_source.html#l00663">TileTerraformMouseMode::LeaveMode()</a>, <a class="el" href="viewport_8cpp_source.html#l01716">MarkVoxelDirty()</a>, <a class="el" href="path__gui_8cpp_source.html#l00249">PathBuildGui::OnClick()</a>, <a class="el" href="coaster__gui_8cpp_source.html#l01292">CoasterBuildMode::OnMouseMoveEvent()</a>, <a class="el" href="ride__gui_8cpp_source.html#l00465">ShopPlacementManager::PlaceShop()</a>, <a class="el" href="window_8cpp_source.html#l00674">WindowManager::RepositionAllWindows()</a>, <a class="el" href="path__gui_8cpp_source.html#l00310">PathBuildGui::SetButtons()</a>, <a class="el" href="fence__build_8cpp_source.html#l00068">FenceBuildManager::SetCursors()</a>, <a class="el" href="terraform_8cpp_source.html#l00644">TileTerraformMouseMode::SetCursors()</a>, <a class="el" href="path__build_8cpp_source.html#l00435">PathBuildManager::SetPathGuiState()</a>, <a class="el" href="video_8cpp_source.html#l00229">VideoSystem::SetResolution()</a>, <a class="el" href="coaster__gui_8cpp_source.html#l01328">CoasterBuildMode::UpdateDisplay()</a>, and <a class="el" href="path__build_8cpp_source.html#l00637">PathBuildManager::UpdateState()</a>.</p>
+<p>Referenced by <a class="el" href="ride__gui_8cpp_source.html#l00372">ShopPlacementManager::CanPlaceShop()</a>, <a class="el" href="path__build_8cpp_source.html#l00878">PathBuildManager::ComputeNewLongPath()</a>, <a class="el" href="ride__gui_8cpp_source.html#l00405">ShopPlacementManager::ComputeShopVoxel()</a>, <a class="el" href="viewport_8cpp_source.html#l00108">DisableWorldAdditions()</a>, <a class="el" href="toolbar__gui_8cpp_source.html#l00362">BottomToolbarWindow::DrawWidget()</a>, <a class="el" href="viewport_8cpp_source.html#l00101">EnableWorldAdditions()</a>, <a class="el" href="viewport_8cpp_source.html#l00759">SpriteCollector::GetCursorSpriteAtPos()</a>, <a class="el" href="video_8cpp_source.html#l00351">HandleKeyInput()</a>, <a class="el" href="fence__build_8cpp_source.html#l00107">FenceBuildManager::LeaveMode()</a>, <a class="el" href="terraform_8cpp_source.html#l00663">TileTerraformMouseMode::LeaveMode()</a>, <a class="el" href="viewport_8cpp_source.html#l01698">MarkVoxelDirty()</a>, <a class="el" href="path__gui_8cpp_source.html#l00256">PathBuildGui::OnClick()</a>, <a class="el" href="coaster__gui_8cpp_source.html#l01277">CoasterBuildMode::OnMouseMoveEvent()</a>, <a class="el" href="ride__gui_8cpp_source.html#l00460">ShopPlacementManager::PlaceShop()</a>, <a class="el" href="window_8cpp_source.html#l00674">WindowManager::RepositionAllWindows()</a>, <a class="el" href="path__gui_8cpp_source.html#l00326">PathBuildGui::SetButtons()</a>, <a class="el" href="fence__build_8cpp_source.html#l00068">FenceBuildManager::SetCursors()</a>, <a class="el" href="terraform_8cpp_source.html#l00644">TileTerraformMouseMode::SetCursors()</a>, <a class="el" href="path__build_8cpp_source.html#l00483">PathBuildManager::SetPathGuiState()</a>, <a class="el" href="video_8cpp_source.html#l00241">VideoSystem::SetResolution()</a>, <a class="el" href="coaster__gui_8cpp_source.html#l01313">CoasterBuildMode::UpdateDisplay()</a>, and <a class="el" href="path__build_8cpp_source.html#l00730">PathBuildManager::UpdateState()</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="abbf26051c9afe21b15d0b8e361e58757"></a>
+<a class="anchor" id="ac9d508bfc28352f0f790bd6eb7567186"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">void MarkVoxelDirty </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="stdafx_8h.html#a259fa4834387bd68627ddf37bb3ebdb9">int16</a>&#160;</td>
-          <td class="paramname"><em>xpos</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="stdafx_8h.html#a259fa4834387bd68627ddf37bb3ebdb9">int16</a>&#160;</td>
-          <td class="paramname"><em>ypos</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="stdafx_8h.html#a259fa4834387bd68627ddf37bb3ebdb9">int16</a>&#160;</td>
-          <td class="paramname"><em>zpos</em>, </td>
+          <td class="paramtype">const <a class="el" href="geometry_8h.html#a71fcb91f44cc6cbf519d0c45c07e931d">XYZPoint16</a> &amp;&#160;</td>
+          <td class="paramname"><em>voxel_pos</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -556,19 +544,17 @@ static const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el
 <p>Mark a voxel as in need of getting painted. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">xpos</td><td>X position of the voxel. </td></tr>
-    <tr><td class="paramname">ypos</td><td>Y position of the voxel. </td></tr>
-    <tr><td class="paramname">zpos</td><td>Z position of the voxel. </td></tr>
+    <tr><td class="paramname">voxel_pos</td><td><a class="el" href="classPosition.html" title="Position in a source file. ">Position</a> of the voxel. </td></tr>
     <tr><td class="paramname">height</td><td>Number of voxels to mark above the specified coordinate (<code>0</code> means inspect the voxel itself). </td></tr>
   </table>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="viewport_8cpp_source.html#l01716">1716</a> of file <a class="el" href="viewport_8cpp_source.html">viewport.cpp</a>.</p>
+<p>Definition at line <a class="el" href="viewport_8cpp_source.html#l01698">1698</a> of file <a class="el" href="viewport_8cpp_source.html">viewport.cpp</a>.</p>
 
-<p>References <a class="el" href="viewport_8cpp_source.html#l01704">GetViewport()</a>, and <a class="el" href="viewport_8cpp_source.html#l01431">Viewport::MarkVoxelDirty()</a>.</p>
+<p>References <a class="el" href="viewport_8cpp_source.html#l01688">GetViewport()</a>, and <a class="el" href="viewport_8cpp_source.html#l01415">Viewport::MarkVoxelDirty()</a>.</p>
 
-<p>Referenced by <a class="el" href="path_8cpp_source.html#l00460">AddRemovePathEdges()</a>, <a class="el" href="path__build_8cpp_source.html#l00030">BuildPathAtTile()</a>, <a class="el" href="map_8cpp_source.html#l00143">VoxelObject::MarkDirty()</a>, and <a class="el" href="path__build_8cpp_source.html#l00062">RemovePathAtTile()</a>.</p>
+<p>Referenced by <a class="el" href="path_8cpp_source.html#l00431">AddRemovePathEdges()</a>, <a class="el" href="path__build_8cpp_source.html#l00028">BuildPathAtTile()</a>, <a class="el" href="path__build_8cpp_source.html#l00085">ChangePathAtTile()</a>, <a class="el" href="map_8cpp_source.html#l00143">VoxelObject::MarkDirty()</a>, and <a class="el" href="path__build_8cpp_source.html#l00058">RemovePathAtTile()</a>.</p>
 
 </div>
 </div>
@@ -587,9 +573,9 @@ static const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el
 
 <p>Initialize the mouse modes. </p>
 
-<p>Definition at line <a class="el" href="viewport_8cpp_source.html#l01808">1808</a> of file <a class="el" href="viewport_8cpp_source.html">viewport.cpp</a>.</p>
+<p>Definition at line <a class="el" href="viewport_8cpp_source.html#l01788">1788</a> of file <a class="el" href="viewport_8cpp_source.html">viewport.cpp</a>.</p>
 
-<p>References <a class="el" href="coaster__gui_8cpp_source.html#l00023">_coaster_builder</a>, <a class="el" href="fence__build_8cpp_source.html#l00020">_fence_builder</a>, <a class="el" href="path__build_8cpp_source.html#l00019">_path_builder</a>, <a class="el" href="select__mode_8cpp_source.html#l00017">_select_mousemode</a>, <a class="el" href="ride__gui_8cpp_source.html#l00024">_shop_placer</a>, <a class="el" href="terraform_8cpp_source.html#l00020">_terraformer</a>, and <a class="el" href="viewport_8cpp_source.html#l01692">MouseModes::RegisterMode()</a>.</p>
+<p>References <a class="el" href="coaster__gui_8cpp_source.html#l00023">_coaster_builder</a>, <a class="el" href="fence__build_8cpp_source.html#l00020">_fence_builder</a>, <a class="el" href="path__build_8cpp_source.html#l00019">_path_builder</a>, <a class="el" href="select__mode_8cpp_source.html#l00017">_select_mousemode</a>, <a class="el" href="ride__gui_8cpp_source.html#l00024">_shop_placer</a>, <a class="el" href="terraform_8cpp_source.html#l00020">_terraformer</a>, and <a class="el" href="viewport_8cpp_source.html#l01676">MouseModes::RegisterMode()</a>.</p>
 
 <p>Referenced by <a class="el" href="freerct_8cpp_source.html#l00072">freerct_main()</a>.</p>
 
@@ -611,14 +597,14 @@ static const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el
 
 <p>Definition at line <a class="el" href="viewport_8cpp_source.html#l00095">95</a> of file <a class="el" href="viewport_8cpp_source.html">viewport.cpp</a>.</p>
 
-<p>Referenced by <a class="el" href="path__build_8cpp_source.html#l00030">BuildPathAtTile()</a>, <a class="el" href="coaster__gui_8cpp_source.html#l00587">CoasterBuildWindow::BuildTrackPiece()</a>, <a class="el" href="terraform_8cpp_source.html#l00754">ChangeAreaCursorMode()</a>, <a class="el" href="terraform_8cpp_source.html#l00690">ChangeTileCursorMode()</a>, <a class="el" href="path__build_8cpp_source.html#l00791">PathBuildManager::ComputeNewLongPath()</a>, <a class="el" href="path_8cpp_source.html#l00400">ExamineNeighbourPathEdge()</a>, <a class="el" href="terraform_8cpp_source.html#l00442">TerrainChanges::ModifyWorld()</a>, <a class="el" href="coaster__gui_8cpp_source.html#l00308">CoasterBuildWindow::OnClick()</a>, <a class="el" href="ride__gui_8cpp_source.html#l00566">ShopPlacementManager::OnMouseButtonEvent()</a>, <a class="el" href="ride__gui_8cpp_source.html#l00465">ShopPlacementManager::PlaceShop()</a>, <a class="el" href="coaster_8cpp_source.html#l00772">CoasterInstance::PlaceTrackPieceInAdditions()</a>, <a class="el" href="path__build_8cpp_source.html#l00062">RemovePathAtTile()</a>, <a class="el" href="coaster_8cpp_source.html#l00793">CoasterInstance::RemoveTrackPieceInAdditions()</a>, <a class="el" href="path__build_8cpp_source.html#l00892">PathBuildManager::SelectBuyRemove()</a>, <a class="el" href="terraform_8cpp_source.html#l00353">SetXFoundations()</a>, <a class="el" href="terraform_8cpp_source.html#l00398">SetYFoundations()</a>, <a class="el" href="coaster__gui_8cpp_source.html#l01328">CoasterBuildMode::UpdateDisplay()</a>, and <a class="el" href="path__build_8cpp_source.html#l00637">PathBuildManager::UpdateState()</a>.</p>
+<p>Referenced by <a class="el" href="path__build_8cpp_source.html#l00028">BuildPathAtTile()</a>, <a class="el" href="coaster__gui_8cpp_source.html#l00577">CoasterBuildWindow::BuildTrackPiece()</a>, <a class="el" href="terraform_8cpp_source.html#l00754">ChangeAreaCursorMode()</a>, <a class="el" href="path__build_8cpp_source.html#l00085">ChangePathAtTile()</a>, <a class="el" href="terraform_8cpp_source.html#l00690">ChangeTileCursorMode()</a>, <a class="el" href="path__build_8cpp_source.html#l00878">PathBuildManager::ComputeNewLongPath()</a>, <a class="el" href="path_8cpp_source.html#l00373">ExamineNeighbourPathEdge()</a>, <a class="el" href="terraform_8cpp_source.html#l00442">TerrainChanges::ModifyWorld()</a>, <a class="el" href="coaster__gui_8cpp_source.html#l00308">CoasterBuildWindow::OnClick()</a>, <a class="el" href="path__build_8cpp_source.html#l00460">PathBuildManager::OnMouseButtonEvent()</a>, <a class="el" href="ride__gui_8cpp_source.html#l00561">ShopPlacementManager::OnMouseButtonEvent()</a>, <a class="el" href="ride__gui_8cpp_source.html#l00460">ShopPlacementManager::PlaceShop()</a>, <a class="el" href="coaster_8cpp_source.html#l00769">CoasterInstance::PlaceTrackPieceInAdditions()</a>, <a class="el" href="path__build_8cpp_source.html#l00058">RemovePathAtTile()</a>, <a class="el" href="coaster_8cpp_source.html#l00788">CoasterInstance::RemoveTrackPieceInAdditions()</a>, <a class="el" href="path__build_8cpp_source.html#l00987">PathBuildManager::SelectBuyRemove()</a>, <a class="el" href="terraform_8cpp_source.html#l00353">SetXFoundations()</a>, <a class="el" href="terraform_8cpp_source.html#l00398">SetYFoundations()</a>, <a class="el" href="path__build_8cpp_source.html#l00505">PathBuildManager::TileClicked()</a>, <a class="el" href="coaster__gui_8cpp_source.html#l01313">CoasterBuildMode::UpdateDisplay()</a>, and <a class="el" href="path__build_8cpp_source.html#l00730">PathBuildManager::UpdateState()</a>.</p>
 
 </div>
 </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Sep 5 2014 19:06:14 for FreeRCT by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Feb 25 2015 13:22:40 for FreeRCT by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

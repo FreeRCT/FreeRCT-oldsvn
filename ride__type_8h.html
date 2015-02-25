@@ -110,7 +110,13 @@ Enumerations</h2></td></tr>
 <br />
 &#160;&#160;<a class="el" href="ride__type_8h.html#a443f647757dde85043b49343f5cbe66baa8d9ba621a5d756b7e04707cc6ff1300">ITP_SALTY_FOOD</a> = 24, 
 <a class="el" href="ride__type_8h.html#a443f647757dde85043b49343f5cbe66ba1afec2d70a9f0ab227f8438216a00d59">ITP_UMBRELLA</a> = 32, 
-<a class="el" href="ride__type_8h.html#a443f647757dde85043b49343f5cbe66ba2e5b7e0dc918ef11f7ae3d12b0d9148c">ITP_PARK_MAP</a> = 40
+<a class="el" href="ride__type_8h.html#a443f647757dde85043b49343f5cbe66babd3f302380d871d6d8b49f7caa1fa0f9">ITP_BALLOON</a> = 33, 
+<a class="el" href="ride__type_8h.html#a443f647757dde85043b49343f5cbe66ba2e5b7e0dc918ef11f7ae3d12b0d9148c">ITP_PARK_MAP</a> = 40, 
+<br />
+&#160;&#160;<a class="el" href="ride__type_8h.html#a443f647757dde85043b49343f5cbe66baf21184b1c173503ffe249e3aed05b4f9">ITP_SOUVENIR</a> = 41, 
+<a class="el" href="ride__type_8h.html#a443f647757dde85043b49343f5cbe66ba101fa51d8f6f256b96427db756015bc3">ITP_MONEY</a> = 48, 
+<a class="el" href="ride__type_8h.html#a443f647757dde85043b49343f5cbe66ba49d60fedcf69b0d73760393e2f58ea53">ITP_TOILET</a> = 49, 
+<a class="el" href="ride__type_8h.html#a443f647757dde85043b49343f5cbe66ba4d9b5c90d853a6139a3ee309ad8b5145">ITP_FIRST_AID</a> = 50
 <br />
  }</td></tr>
 <tr class="memdesc:a443f647757dde85043b49343f5cbe66b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type of items that can be bought.  <a href="ride__type_8h.html#a443f647757dde85043b49343f5cbe66b">More...</a><br /></td></tr>
@@ -138,12 +144,18 @@ Enumerations</h2></td></tr>
  }</td></tr>
 <tr class="memdesc:a8858bf5173c06c00741c0990189cdc6d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Breakdown states which determine if and how a ride will break in a given day.  <a href="ride__type_8h.html#a8858bf5173c06c00741c0990189cdc6d">More...</a><br /></td></tr>
 <tr class="separator:a8858bf5173c06c00741c0990189cdc6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7db2980a108b7cb683f55e882cdb1431"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ride__type_8h.html#a7db2980a108b7cb683f55e882cdb1431">RideEntryResult</a> { <a class="el" href="ride__type_8h.html#a7db2980a108b7cb683f55e882cdb1431aaa5a11356e409a8b26406d1cef9d6b83">RER_REFUSED</a>, 
+<a class="el" href="ride__type_8h.html#a7db2980a108b7cb683f55e882cdb1431ac147ce2a7fbd640a26ba442669268937">RER_ENTERED</a>, 
+<a class="el" href="ride__type_8h.html#a7db2980a108b7cb683f55e882cdb1431a9d8795ddfa2f992283b00cf936b21517">RER_DONE</a>
+ }</td></tr>
+<tr class="memdesc:a7db2980a108b7cb683f55e882cdb1431"><td class="mdescLeft">&#160;</td><td class="mdescRight">Answers of <a class="el" href="classRideInstance.html#acb7676e0ec87d26c9fb6528d5809a2f9" title="The given guest tries to enter the ride. ">RideInstance::EnterRide</a>.  <a href="ride__type_8h.html#a7db2980a108b7cb683f55e882cdb1431">More...</a><br /></td></tr>
+<tr class="separator:a7db2980a108b7cb683f55e882cdb1431"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ad0197331de2c07730a513a74574121d7"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classRideInstance.html">RideInstance</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ride__type_8h.html#ad0197331de2c07730a513a74574121d7">RideExistsAtBottom</a> (int xpos, int ypos, int zpos, <a class="el" href="group__map__group.html#ga29bb8f9503c34074bad3c762c92ee68b">TileEdge</a> edge)</td></tr>
-<tr class="memdesc:ad0197331de2c07730a513a74574121d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Does a ride entrance exists at/to the bottom the given voxel in the neighbouring voxel?  <a href="#ad0197331de2c07730a513a74574121d7">More...</a><br /></td></tr>
-<tr class="separator:ad0197331de2c07730a513a74574121d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afea7cee3447ee2730725648991c3f6ee"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classRideInstance.html">RideInstance</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ride__type_8h.html#afea7cee3447ee2730725648991c3f6ee">RideExistsAtBottom</a> (<a class="el" href="geometry_8h.html#a71fcb91f44cc6cbf519d0c45c07e931d">XYZPoint16</a> pos, <a class="el" href="group__map__group.html#ga29bb8f9503c34074bad3c762c92ee68b">TileEdge</a> edge)</td></tr>
+<tr class="memdesc:afea7cee3447ee2730725648991c3f6ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Does a ride entrance exists at/to the bottom the given voxel in the neighbouring voxel?  <a href="#afea7cee3447ee2730725648991c3f6ee">More...</a><br /></td></tr>
+<tr class="separator:afea7cee3447ee2730725648991c3f6ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
@@ -188,7 +200,7 @@ static const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el
 </div><div class="memdoc">
 
 <p>Kinds of ride types. </p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000046">Todo:</a></b></dt><dd>Split coasters into different kinds?? </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000048">Todo:</a></b></dt><dd>Split coasters into different kinds?? </dd></dl>
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a class="anchor" id="a7920a38ef1d6024ec5d65be22d0c3d6ea601a3d6676990bba5aa8efaf582f5bad"></a>RTK_SHOP&#160;</td><td class="fielddoc">
 <p>Ride type allows buying useful stuff. </p>
@@ -274,8 +286,23 @@ static const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el
 <tr><td class="fieldname"><a class="anchor" id="a443f647757dde85043b49343f5cbe66ba1afec2d70a9f0ab227f8438216a00d59"></a>ITP_UMBRELLA&#160;</td><td class="fielddoc">
 <p>Umbrella against the rain. </p>
 </td></tr>
+<tr><td class="fieldname"><a class="anchor" id="a443f647757dde85043b49343f5cbe66babd3f302380d871d6d8b49f7caa1fa0f9"></a>ITP_BALLOON&#160;</td><td class="fielddoc">
+<p>Balloon. </p>
+</td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a443f647757dde85043b49343f5cbe66ba2e5b7e0dc918ef11f7ae3d12b0d9148c"></a>ITP_PARK_MAP&#160;</td><td class="fielddoc">
 <p>Map of the park, may improve finding the attractions. </p>
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="a443f647757dde85043b49343f5cbe66baf21184b1c173503ffe249e3aed05b4f9"></a>ITP_SOUVENIR&#160;</td><td class="fielddoc">
+<p>Souvenir of the park. </p>
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="a443f647757dde85043b49343f5cbe66ba101fa51d8f6f256b96427db756015bc3"></a>ITP_MONEY&#160;</td><td class="fielddoc">
+<p><a class="el" href="classMoney.html" title="Overflow safe integer you multiply the maximum value with 2, or add 2, or subtract something from the...">Money</a> for more spending (i.e. an ATM). </p>
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="a443f647757dde85043b49343f5cbe66ba49d60fedcf69b0d73760393e2f58ea53"></a>ITP_TOILET&#160;</td><td class="fielddoc">
+<p>Dropping of waste. </p>
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="a443f647757dde85043b49343f5cbe66ba4d9b5c90d853a6139a3ee309ad8b5145"></a>ITP_FIRST_AID&#160;</td><td class="fielddoc">
+<p>Nausea treatment. </p>
 </td></tr>
 </table>
 
@@ -312,7 +339,7 @@ static const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el
 </td></tr>
 </table>
 
-<p>Definition at line <a class="el" href="ride__type_8h_source.html#l00096">96</a> of file <a class="el" href="ride__type_8h_source.html">ride_type.h</a>.</p>
+<p>Definition at line <a class="el" href="ride__type_8h_source.html#l00101">101</a> of file <a class="el" href="ride__type_8h_source.html">ride_type.h</a>.</p>
 
 </div>
 </div>
@@ -336,7 +363,7 @@ static const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el
 </td></tr>
 </table>
 
-<p>Definition at line <a class="el" href="ride__type_8h_source.html#l00105">105</a> of file <a class="el" href="ride__type_8h_source.html">ride_type.h</a>.</p>
+<p>Definition at line <a class="el" href="ride__type_8h_source.html#l00110">110</a> of file <a class="el" href="ride__type_8h_source.html">ride_type.h</a>.</p>
 
 </div>
 </div>
@@ -366,32 +393,47 @@ static const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el
 </td></tr>
 </table>
 
-<p>Definition at line <a class="el" href="ride__type_8h_source.html#l00111">111</a> of file <a class="el" href="ride__type_8h_source.html">ride_type.h</a>.</p>
+<p>Definition at line <a class="el" href="ride__type_8h_source.html#l00116">116</a> of file <a class="el" href="ride__type_8h_source.html">ride_type.h</a>.</p>
 
 </div>
 </div>
-<h2 class="groupheader">Function Documentation</h2>
-<a class="anchor" id="ad0197331de2c07730a513a74574121d7"></a>
+<a class="anchor" id="a7db2980a108b7cb683f55e882cdb1431"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="classRideInstance.html">RideInstance</a>* RideExistsAtBottom </td>
+          <td class="memname">enum <a class="el" href="ride__type_8h.html#a7db2980a108b7cb683f55e882cdb1431">RideEntryResult</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Answers of <a class="el" href="classRideInstance.html#acb7676e0ec87d26c9fb6528d5809a2f9" title="The given guest tries to enter the ride. ">RideInstance::EnterRide</a>. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a class="anchor" id="a7db2980a108b7cb683f55e882cdb1431aaa5a11356e409a8b26406d1cef9d6b83"></a>RER_REFUSED&#160;</td><td class="fielddoc">
+<p>Entry is refused. </p>
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="a7db2980a108b7cb683f55e882cdb1431ac147ce2a7fbd640a26ba442669268937"></a>RER_ENTERED&#160;</td><td class="fielddoc">
+<p>Entry is given, the guest is staying inside the ride. </p>
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="a7db2980a108b7cb683f55e882cdb1431a9d8795ddfa2f992283b00cf936b21517"></a>RER_DONE&#160;</td><td class="fielddoc">
+<p>Entry is given, and visit is immediately done. </p>
+</td></tr>
+</table>
+
+<p>Definition at line <a class="el" href="ride__type_8h_source.html#l00124">124</a> of file <a class="el" href="ride__type_8h_source.html">ride_type.h</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a class="anchor" id="afea7cee3447ee2730725648991c3f6ee"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classRideInstance.html">RideInstance</a>* RideExistsAtBottom </td>
           <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>xpos</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>ypos</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>zpos</em>, </td>
+          <td class="paramtype"><a class="el" href="geometry_8h.html#a71fcb91f44cc6cbf519d0c45c07e931d">XYZPoint16</a>&#160;</td>
+          <td class="paramname"><em>pos</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -410,9 +452,7 @@ static const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el
 <p>Does a ride entrance exists at/to the bottom the given voxel in the neighbouring voxel? </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">xpos</td><td>X coordinate of the voxel. </td></tr>
-    <tr><td class="paramname">ypos</td><td>Y coordinate of the voxel. </td></tr>
-    <tr><td class="paramname">zpos</td><td>Z coordinate of the voxel. </td></tr>
+    <tr><td class="paramname">pos</td><td>Coordinate of the voxel. </td></tr>
     <tr><td class="paramname">edge</td><td>Direction to move to get the neighbouring voxel. </td></tr>
   </table>
   </dd>
@@ -420,9 +460,9 @@ static const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el
 <dl class="section pre"><dt>Precondition</dt><dd>voxel coordinate must be valid in the world. </dd></dl>
 <dl class="section return"><dt>Returns</dt><dd>The ride at the neighbouring voxel, if available (else <code>nullptr</code> is returned). </dd></dl>
 
-<p>Definition at line <a class="el" href="ride__type_8cpp_source.html#l00597">597</a> of file <a class="el" href="ride__type_8cpp_source.html">ride_type.cpp</a>.</p>
+<p>Definition at line <a class="el" href="ride__type_8cpp_source.html#l00619">619</a> of file <a class="el" href="ride__type_8cpp_source.html">ride_type.cpp</a>.</p>
 
-<p>References <a class="el" href="tile__func_8cpp_source.html#l00032">_tile_dxy</a>, <a class="el" href="map_8cpp_source.html#l00027">_world</a>, <a class="el" href="map_8h_source.html#l00072">Voxel::GetInstance()</a>, <a class="el" href="ride__type_8cpp_source.html#l00412">RidesManager::GetRideInstance()</a>, <a class="el" href="map_8h_source.html#l00520">VoxelWorld::GetVoxel()</a>, <a class="el" href="map_8h_source.html#l00653">IsVoxelstackInsideWorld()</a>, <a class="el" href="map_8h_source.html#l00045">SRI_FULL_RIDES</a>, <a class="el" href="geometry_8h_source.html#l00037">Point&lt; CT &gt;::x</a>, and <a class="el" href="geometry_8h_source.html#l00038">Point&lt; CT &gt;::y</a>.</p>
+<p>References <a class="el" href="tile__func_8cpp_source.html#l00032">_tile_dxy</a>, <a class="el" href="map_8cpp_source.html#l00027">_world</a>, <a class="el" href="map_8h_source.html#l00072">Voxel::GetInstance()</a>, <a class="el" href="ride__type_8cpp_source.html#l00434">RidesManager::GetRideInstance()</a>, <a class="el" href="map_8h_source.html#l00514">VoxelWorld::GetVoxel()</a>, <a class="el" href="map_8h_source.html#l00639">IsVoxelstackInsideWorld()</a>, <a class="el" href="map_8h_source.html#l00045">SRI_FULL_RIDES</a>, <a class="el" href="geometry_8h_source.html#l00036">Point&lt; CT &gt;::x</a>, <a class="el" href="geometry_8h_source.html#l00100">XYZPoint&lt; CT &gt;::x</a>, <a class="el" href="geometry_8h_source.html#l00037">Point&lt; CT &gt;::y</a>, <a class="el" href="geometry_8h_source.html#l00101">XYZPoint&lt; CT &gt;::y</a>, and <a class="el" href="geometry_8h_source.html#l00102">XYZPoint&lt; CT &gt;::z</a>.</p>
 
 <p>Referenced by <a class="el" href="person_8cpp_source.html#l00389">Guest::ComputeExitDesire()</a>.</p>
 
@@ -431,7 +471,7 @@ static const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Sep 5 2014 19:06:13 for FreeRCT by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Feb 25 2015 13:22:40 for FreeRCT by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

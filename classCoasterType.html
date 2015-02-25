@@ -120,14 +120,10 @@ Public Attributes</h2></td></tr>
 <a class="el" href="stdafx_8h.html#adde6aaee8457bee49c2a92621fe22b79">uint8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCoasterType.html#a5abce9731db8b9729b89444d0632ad6e">max_number_cars</a></td></tr>
 <tr class="memdesc:a5abce9731db8b9729b89444d0632ad6e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum number of cars in a train. <br /></td></tr>
 <tr class="separator:a5abce9731db8b9729b89444d0632ad6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeaa0dfe3c7b88f4cce04fca75a1caa67"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aeaa0dfe3c7b88f4cce04fca75a1caa67"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCoasterType.html#aeaa0dfe3c7b88f4cce04fca75a1caa67">voxel_count</a></td></tr>
-<tr class="memdesc:aeaa0dfe3c7b88f4cce04fca75a1caa67"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of track voxels in <a class="el" href="classCoasterType.html#a08bb61095b1e07c3b4aa465f6a747a1f" title="All voxels of all track pieces (do not free the track voxels, pieces owns this data). ">voxels</a>. <br /></td></tr>
-<tr class="separator:aeaa0dfe3c7b88f4cce04fca75a1caa67"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a08bb61095b1e07c3b4aa465f6a747a1f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a08bb61095b1e07c3b4aa465f6a747a1f"></a>
-const <a class="el" href="classTrackVoxel.html">TrackVoxel</a> **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCoasterType.html#a08bb61095b1e07c3b4aa465f6a747a1f">voxels</a></td></tr>
-<tr class="memdesc:a08bb61095b1e07c3b4aa465f6a747a1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">All voxels of all track pieces (do not free the track voxels, <a class="el" href="classCoasterType.html#a32e2566413bde7cd547f9f0227d1e74a" title="Track pieces of the coaster. ">pieces</a> owns this data). <br /></td></tr>
-<tr class="separator:a08bb61095b1e07c3b4aa465f6a747a1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b60b4856e927426e02513e2ed10a9fe"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9b60b4856e927426e02513e2ed10a9fe"></a>
+std::vector&lt; const <a class="el" href="classTrackVoxel.html">TrackVoxel</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCoasterType.html#a9b60b4856e927426e02513e2ed10a9fe">voxels</a></td></tr>
+<tr class="memdesc:a9b60b4856e927426e02513e2ed10a9fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">All voxels of all track pieces (do not free the track voxels, <a class="el" href="classCoasterType.html#a32e2566413bde7cd547f9f0227d1e74a" title="Track pieces of the coaster. ">pieces</a> owns this data). <br /></td></tr>
+<tr class="separator:a9b60b4856e927426e02513e2ed10a9fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a32e2566413bde7cd547f9f0227d1e74a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a32e2566413bde7cd547f9f0227d1e74a"></a>
 std::vector&lt; <a class="el" href="track__piece_8h.html#afcd396f5cd6b7704d205d015efd3e3a8">ConstTrackPiecePtr</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCoasterType.html#a32e2566413bde7cd547f9f0227d1e74a">pieces</a></td></tr>
 <tr class="memdesc:a32e2566413bde7cd547f9f0227d1e74a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Track pieces of the coaster. <br /></td></tr>
@@ -221,9 +217,9 @@ Private Member Functions</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="classRideType.html#aa5ca44b4295d36cdec1f59f9eefdd06e">RideType</a>.</p>
 
-<p>Definition at line <a class="el" href="coaster_8cpp_source.html#l00149">149</a> of file <a class="el" href="coaster_8cpp_source.html">coaster.cpp</a>.</p>
+<p>Definition at line <a class="el" href="coaster_8cpp_source.html#l00138">138</a> of file <a class="el" href="coaster_8cpp_source.html">coaster.cpp</a>.</p>
 
-<p>References <a class="el" href="coaster_8cpp_source.html#l00143">GetDefaultCarType()</a>.</p>
+<p>References <a class="el" href="coaster_8cpp_source.html#l00132">GetDefaultCarType()</a>.</p>
 
 </div>
 </div>
@@ -253,9 +249,9 @@ Private Member Functions</h2></td></tr>
 
 <p>Implements <a class="el" href="classRideType.html#af467932b8b7d044ffb4fcbd1cbe703bf">RideType</a>.</p>
 
-<p>Definition at line <a class="el" href="coaster_8cpp_source.html#l00154">154</a> of file <a class="el" href="coaster_8cpp_source.html">coaster.cpp</a>.</p>
+<p>Definition at line <a class="el" href="coaster_8cpp_source.html#l00143">143</a> of file <a class="el" href="coaster_8cpp_source.html">coaster.cpp</a>.</p>
 
-<p>References <a class="el" href="coaster_8cpp_source.html#l00143">GetDefaultCarType()</a>.</p>
+<p>References <a class="el" href="coaster_8cpp_source.html#l00132">GetDefaultCarType()</a>.</p>
 
 </div>
 </div>
@@ -292,7 +288,7 @@ Private Member Functions</h2></td></tr>
 
 <p>Implements <a class="el" href="classRideType.html#a1eaebd6b26d7c8f719d176f7930a6f16">RideType</a>.</p>
 
-<p>Definition at line <a class="el" href="coaster_8cpp_source.html#l00162">162</a> of file <a class="el" href="coaster_8cpp_source.html">coaster.cpp</a>.</p>
+<p>Definition at line <a class="el" href="coaster_8cpp_source.html#l00151">151</a> of file <a class="el" href="coaster_8cpp_source.html">coaster.cpp</a>.</p>
 
 </div>
 </div>
@@ -322,7 +318,7 @@ Private Member Functions</h2></td></tr>
 
 <p>Implements <a class="el" href="classRideType.html#a22cfc2a4de8a4e3f2512d21a01ab29c6">RideType</a>.</p>
 
-<p>Definition at line <a class="el" href="coaster_8cpp_source.html#l00167">167</a> of file <a class="el" href="coaster_8cpp_source.html">coaster.cpp</a>.</p>
+<p>Definition at line <a class="el" href="coaster_8cpp_source.html#l00156">156</a> of file <a class="el" href="coaster_8cpp_source.html">coaster.cpp</a>.</p>
 
 <p>References <a class="el" href="language_8h_source.html#l00055">STR_INVALID</a>.</p>
 
@@ -369,11 +365,11 @@ Private Member Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Loading was successful. </dd></dl>
 
-<p>Definition at line <a class="el" href="coaster_8cpp_source.html#l00095">95</a> of file <a class="el" href="coaster_8cpp_source.html">coaster.cpp</a>.</p>
+<p>Definition at line <a class="el" href="coaster_8cpp_source.html#l00093">93</a> of file <a class="el" href="coaster_8cpp_source.html">coaster.cpp</a>.</p>
 
-<p>References <a class="el" href="language_8cpp_source.html#l00025">_language</a>, <a class="el" href="coaster_8h_source.html#l00083">coaster_kind</a>, <a class="el" href="coaster_8h_source.html#l00036">CPT_COUNT</a>, <a class="el" href="coaster_8h_source.html#l00029">CST_COUNT</a>, <a class="el" href="fileio_8cpp_source.html#l00174">RcdFileReader::GetUInt16()</a>, <a class="el" href="fileio_8cpp_source.html#l00196">RcdFileReader::GetUInt32()</a>, <a class="el" href="fileio_8cpp_source.html#l00153">RcdFileReader::GetUInt8()</a>, <a class="el" href="sprite__store_8cpp_source.html#l00276">LoadTextFromFile()</a>, <a class="el" href="coaster_8h_source.html#l00086">max_number_cars</a>, <a class="el" href="coaster_8h_source.html#l00085">max_number_trains</a>, <a class="el" href="coaster_8h_source.html#l00090">pieces</a>, <a class="el" href="coaster_8h_source.html#l00084">platform_type</a>, <a class="el" href="language_8cpp_source.html#l00210">Language::RegisterStrings()</a>, <a class="el" href="ride__type_8cpp_source.html#l00101">RideType::SetupStrings()</a>, <a class="el" href="fileio_8h_source.html#l00069">RcdFileReader::size</a>, <a class="el" href="language_8h_source.html#l00051">STR_GENERIC_COASTER_START</a>, <a class="el" href="fileio_8h_source.html#l00068">RcdFileReader::version</a>, <a class="el" href="coaster_8h_source.html#l00087">voxel_count</a>, and <a class="el" href="coaster_8h_source.html#l00088">voxels</a>.</p>
+<p>References <a class="el" href="language_8cpp_source.html#l00025">_language</a>, <a class="el" href="coaster_8h_source.html#l00083">coaster_kind</a>, <a class="el" href="coaster_8h_source.html#l00036">CPT_COUNT</a>, <a class="el" href="coaster_8h_source.html#l00029">CST_COUNT</a>, <a class="el" href="fileio_8cpp_source.html#l00174">RcdFileReader::GetUInt16()</a>, <a class="el" href="fileio_8cpp_source.html#l00196">RcdFileReader::GetUInt32()</a>, <a class="el" href="fileio_8cpp_source.html#l00153">RcdFileReader::GetUInt8()</a>, <a class="el" href="sprite__store_8cpp_source.html#l00276">LoadTextFromFile()</a>, <a class="el" href="coaster_8h_source.html#l00086">max_number_cars</a>, <a class="el" href="coaster_8h_source.html#l00085">max_number_trains</a>, <a class="el" href="coaster_8h_source.html#l00089">pieces</a>, <a class="el" href="coaster_8h_source.html#l00084">platform_type</a>, <a class="el" href="language_8cpp_source.html#l00210">Language::RegisterStrings()</a>, <a class="el" href="ride__type_8cpp_source.html#l00103">RideType::SetupStrings()</a>, <a class="el" href="fileio_8h_source.html#l00069">RcdFileReader::size</a>, <a class="el" href="language_8h_source.html#l00051">STR_GENERIC_COASTER_START</a>, <a class="el" href="fileio_8h_source.html#l00068">RcdFileReader::version</a>, and <a class="el" href="coaster_8h_source.html#l00087">voxels</a>.</p>
 
-<p>Referenced by <a class="el" href="sprite__store_8cpp_source.html#l01185">SpriteManager::Load()</a>.</p>
+<p>Referenced by <a class="el" href="sprite__store_8cpp_source.html#l01315">SpriteManager::Load()</a>.</p>
 
 </div>
 </div>
@@ -401,11 +397,11 @@ Private Member Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>Index of the provided track voxel in this coaster type. </dd></dl>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="structVoxel.html#a2c147c8da9b96b11b93db224b102b4bc" title="Set the data associated with the ride instance in this voxel. ">Voxel::SetInstanceData</a> </dd></dl>
 
-<p>Definition at line <a class="el" href="coaster_8cpp_source.html#l00179">179</a> of file <a class="el" href="coaster_8cpp_source.html">coaster.cpp</a>.</p>
+<p>Definition at line <a class="el" href="coaster_8cpp_source.html#l00168">168</a> of file <a class="el" href="coaster_8cpp_source.html">coaster.cpp</a>.</p>
 
-<p>References <a class="el" href="stdafx_8h_source.html#l00182">NOT_REACHED</a>, <a class="el" href="coaster_8h_source.html#l00087">voxel_count</a>, and <a class="el" href="coaster_8h_source.html#l00088">voxels</a>.</p>
+<p>References <a class="el" href="coaster_8h_source.html#l00087">voxels</a>.</p>
 
-<p>Referenced by <a class="el" href="coaster_8cpp_source.html#l00772">CoasterInstance::PlaceTrackPieceInAdditions()</a>.</p>
+<p>Referenced by <a class="el" href="coaster_8cpp_source.html#l00769">CoasterInstance::PlaceTrackPieceInAdditions()</a>.</p>
 
 </div>
 </div>
@@ -434,9 +430,9 @@ Private Member Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>The default car type, or <code>nullptr</code> is no car type is available. </dd></dl>
 <dl class="todo"><dt><b><a class="el" href="todo.html#_todo000001">Todo:</a></b></dt><dd>Make a proper <a class="el" href="classCarType.html" title="A type of car riding at a track. ">CarType</a> selection. </dd></dl>
 
-<p>Definition at line <a class="el" href="coaster_8cpp_source.html#l00143">143</a> of file <a class="el" href="coaster_8cpp_source.html">coaster.cpp</a>.</p>
+<p>Definition at line <a class="el" href="coaster_8cpp_source.html#l00132">132</a> of file <a class="el" href="coaster_8cpp_source.html">coaster.cpp</a>.</p>
 
-<p>Referenced by <a class="el" href="coaster_8cpp_source.html#l00149">CanMakeInstance()</a>, and <a class="el" href="coaster_8cpp_source.html#l00154">CreateInstance()</a>.</p>
+<p>Referenced by <a class="el" href="coaster_8cpp_source.html#l00138">CanMakeInstance()</a>, and <a class="el" href="coaster_8cpp_source.html#l00143">CreateInstance()</a>.</p>
 
 </div>
 </div>
@@ -509,11 +505,11 @@ Private Member Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="ride__type_8cpp_source.html#l00101">101</a> of file <a class="el" href="ride__type_8cpp_source.html">ride_type.cpp</a>.</p>
+<p>Definition at line <a class="el" href="ride__type_8cpp_source.html#l00103">103</a> of file <a class="el" href="ride__type_8cpp_source.html">ride_type.cpp</a>.</p>
 
-<p>References <a class="el" href="ride__type_8h_source.html#l00088">RideType::str_base</a>, <a class="el" href="ride__type_8h_source.html#l00092">RideType::str_description</a>, <a class="el" href="ride__type_8h_source.html#l00090">RideType::str_end</a>, <a class="el" href="ride__type_8h_source.html#l00091">RideType::str_name</a>, <a class="el" href="ride__type_8h_source.html#l00089">RideType::str_start</a>, and <a class="el" href="ride__type_8h_source.html#l00087">RideType::text</a>.</p>
+<p>References <a class="el" href="ride__type_8h_source.html#l00093">RideType::str_base</a>, <a class="el" href="ride__type_8h_source.html#l00097">RideType::str_description</a>, <a class="el" href="ride__type_8h_source.html#l00095">RideType::str_end</a>, <a class="el" href="ride__type_8h_source.html#l00096">RideType::str_name</a>, <a class="el" href="ride__type_8h_source.html#l00094">RideType::str_start</a>, and <a class="el" href="ride__type_8h_source.html#l00092">RideType::text</a>.</p>
 
-<p>Referenced by <a class="el" href="shop__type_8cpp_source.html#l00058">ShopType::Load()</a>, <a class="el" href="coaster_8cpp_source.html#l00095">Load()</a>, and <a class="el" href="ride__type_8cpp_source.html#l00049">RideType::RideType()</a>.</p>
+<p>Referenced by <a class="el" href="shop__type_8cpp_source.html#l00079">ShopType::Load()</a>, <a class="el" href="coaster_8cpp_source.html#l00093">Load()</a>, and <a class="el" href="ride__type_8cpp_source.html#l00051">RideType::RideType()</a>.</p>
 
 </div>
 </div>
@@ -548,11 +544,11 @@ Private Member Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The instantiated string for this ride type. </dd></dl>
 
-<p>Definition at line <a class="el" href="ride__type_8cpp_source.html#l00134">134</a> of file <a class="el" href="ride__type_8cpp_source.html">ride_type.cpp</a>.</p>
+<p>Definition at line <a class="el" href="ride__type_8cpp_source.html#l00136">136</a> of file <a class="el" href="ride__type_8cpp_source.html">ride_type.cpp</a>.</p>
 
-<p>References <a class="el" href="ride__type_8h_source.html#l00088">RideType::str_base</a>, <a class="el" href="ride__type_8h_source.html#l00090">RideType::str_end</a>, and <a class="el" href="ride__type_8h_source.html#l00089">RideType::str_start</a>.</p>
+<p>References <a class="el" href="ride__type_8h_source.html#l00093">RideType::str_base</a>, <a class="el" href="ride__type_8h_source.html#l00095">RideType::str_end</a>, and <a class="el" href="ride__type_8h_source.html#l00094">RideType::str_start</a>.</p>
 
-<p>Referenced by <a class="el" href="ride__gui_8cpp_source.html#l00184">RideSelectGui::DrawWidget()</a>, <a class="el" href="ride__type_8cpp_source.html#l00509">RidesManager::NewInstanceAdded()</a>, <a class="el" href="window_8cpp_source.html#l00360">GuiWindow::TranslateStringNumber()</a>, and <a class="el" href="ride__gui_8cpp_source.html#l00151">RideSelectGui::UpdateWidgetSize()</a>.</p>
+<p>Referenced by <a class="el" href="ride__gui_8cpp_source.html#l00184">RideSelectGui::DrawWidget()</a>, <a class="el" href="ride__type_8cpp_source.html#l00531">RidesManager::NewInstanceAdded()</a>, <a class="el" href="window_8cpp_source.html#l00360">GuiWindow::TranslateStringNumber()</a>, and <a class="el" href="ride__gui_8cpp_source.html#l00151">RideSelectGui::UpdateWidgetSize()</a>.</p>
 
 </div>
 </div>
@@ -580,9 +576,9 @@ Private Member Functions</h2></td></tr>
 <p>Retrieve the string with the name of this type of ride. </p>
 <dl class="section return"><dt>Returns</dt><dd>The name of this ride type. </dd></dl>
 
-<p>Definition at line <a class="el" href="ride__type_8cpp_source.html#l00115">115</a> of file <a class="el" href="ride__type_8cpp_source.html">ride_type.cpp</a>.</p>
+<p>Definition at line <a class="el" href="ride__type_8cpp_source.html#l00117">117</a> of file <a class="el" href="ride__type_8cpp_source.html">ride_type.cpp</a>.</p>
 
-<p>References <a class="el" href="ride__type_8h_source.html#l00091">RideType::str_name</a>.</p>
+<p>References <a class="el" href="ride__type_8h_source.html#l00096">RideType::str_name</a>.</p>
 
 <p>Referenced by <a class="el" href="ride__gui_8cpp_source.html#l00184">RideSelectGui::DrawWidget()</a>, and <a class="el" href="ride__gui_8cpp_source.html#l00151">RideSelectGui::UpdateWidgetSize()</a>.</p>
 
@@ -612,9 +608,9 @@ Private Member Functions</h2></td></tr>
 <p>Retrieve the string with the description of this type of ride. </p>
 <dl class="section return"><dt>Returns</dt><dd>The description of this ride type. </dd></dl>
 
-<p>Definition at line <a class="el" href="ride__type_8cpp_source.html#l00124">124</a> of file <a class="el" href="ride__type_8cpp_source.html">ride_type.cpp</a>.</p>
+<p>Definition at line <a class="el" href="ride__type_8cpp_source.html#l00126">126</a> of file <a class="el" href="ride__type_8cpp_source.html">ride_type.cpp</a>.</p>
 
-<p>References <a class="el" href="ride__type_8h_source.html#l00092">RideType::str_description</a>.</p>
+<p>References <a class="el" href="ride__type_8h_source.html#l00097">RideType::str_description</a>.</p>
 
 <p>Referenced by <a class="el" href="ride__gui_8cpp_source.html#l00184">RideSelectGui::DrawWidget()</a>, and <a class="el" href="ride__gui_8cpp_source.html#l00151">RideSelectGui::UpdateWidgetSize()</a>.</p>
 
@@ -636,7 +632,7 @@ Private Member Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="coaster_8h_source.html#l00083">83</a> of file <a class="el" href="coaster_8h_source.html">coaster.h</a>.</p>
 
-<p>Referenced by <a class="el" href="coaster_8cpp_source.html#l00095">Load()</a>.</p>
+<p>Referenced by <a class="el" href="coaster_8cpp_source.html#l00093">Load()</a>.</p>
 
 </div>
 </div>
@@ -655,7 +651,7 @@ Private Member Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="coaster_8h_source.html#l00084">84</a> of file <a class="el" href="coaster_8h_source.html">coaster.h</a>.</p>
 
-<p>Referenced by <a class="el" href="coaster_8cpp_source.html#l00560">CoasterInstance::GetSprites()</a>, and <a class="el" href="coaster_8cpp_source.html#l00095">Load()</a>.</p>
+<p>Referenced by <a class="el" href="coaster_8cpp_source.html#l00544">CoasterInstance::GetSprites()</a>, and <a class="el" href="coaster_8cpp_source.html#l00093">Load()</a>.</p>
 
 </div>
 </div>
@@ -666,7 +662,7 @@ Private Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Sep 5 2014 19:06:14 for FreeRCT by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Feb 25 2015 13:22:41 for FreeRCT by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

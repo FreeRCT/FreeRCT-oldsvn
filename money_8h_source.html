@@ -96,7 +96,7 @@
 <div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;</div>
 <div class="line"><a name="l00078"></a><span class="lineno"><a class="line" href="classMoney.html#af42a69a4e1d0cbb0718714c0c9886c3c">   78</a></span>&#160;        <span class="keyword">inline</span> <a class="code" href="classMoney.html">Money</a>&amp; <a class="code" href="classMoney.html#af42a69a4e1d0cbb0718714c0c9886c3c">operator+=</a>(<span class="keyword">const</span> <a class="code" href="classMoney.html">Money</a>&amp; other)</div>
 <div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;        {</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;                <span class="keywordflow">if</span> ((<a class="code" href="stdafx_8h.html#ad0d744f05898e32d01f73f8af3cd2071">INT64_MAX</a> - abs(other.<a class="code" href="classMoney.html#aaeb2d1409244969a7506ce574176d57f">m_value</a>)) &lt; abs(this-&gt;m_value) &amp;&amp;</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;                <span class="keywordflow">if</span> ((<a class="code" href="stdafx_8h.html#ad0d744f05898e32d01f73f8af3cd2071">INT64_MAX</a> - std::abs(other.<a class="code" href="classMoney.html#aaeb2d1409244969a7506ce574176d57f">m_value</a>)) &lt; std::abs(this-&gt;m_value) &amp;&amp;</div>
 <div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;                    (this-&gt;m_value &lt; 0) == (other.<a class="code" href="classMoney.html#aaeb2d1409244969a7506ce574176d57f">m_value</a> &lt; 0)) {</div>
 <div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;                        this-&gt;m_value = (this-&gt;m_value &lt; 0) ? <a class="code" href="stdafx_8h.html#ab21f12f372f67b8ff0aa3432336ede67">INT64_MIN</a> : <a class="code" href="stdafx_8h.html#ad0d744f05898e32d01f73f8af3cd2071">INT64_MAX</a> ;</div>
 <div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;                } <span class="keywordflow">else</span> {</div>
@@ -180,7 +180,7 @@
 <div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;</div>
 <div class="line"><a name="l00220"></a><span class="lineno"><a class="line" href="classMoney.html#a0198dc257e9fa49c33a0abdb8760b2c4">  220</a></span>&#160;        <span class="keyword">inline</span> <a class="code" href="classMoney.html">Money</a>&amp; <a class="code" href="classMoney.html#a0198dc257e9fa49c33a0abdb8760b2c4">operator*=</a>(<span class="keyword">const</span> <span class="keywordtype">int</span> factor)</div>
 <div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;        {</div>
-<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;                <span class="keywordflow">if</span> (factor != 0 &amp;&amp; (<a class="code" href="stdafx_8h.html#ad0d744f05898e32d01f73f8af3cd2071">INT64_MAX</a> / abs(factor)) &lt; abs(this-&gt;m_value)) {</div>
+<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;                <span class="keywordflow">if</span> (factor != 0 &amp;&amp; (<a class="code" href="stdafx_8h.html#ad0d744f05898e32d01f73f8af3cd2071">INT64_MAX</a> / std::abs(factor)) &lt; std::abs(this-&gt;m_value)) {</div>
 <div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;                        this-&gt;m_value = ((this-&gt;m_value &lt; 0) == (factor &lt; 0)) ? <a class="code" href="stdafx_8h.html#ad0d744f05898e32d01f73f8af3cd2071">INT64_MAX</a> : <a class="code" href="stdafx_8h.html#ab21f12f372f67b8ff0aa3432336ede67">INT64_MIN</a>;</div>
 <div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;                } <span class="keywordflow">else</span> {</div>
 <div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;                        this-&gt;m_value *= factor;</div>
@@ -423,7 +423,7 @@
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Sep 5 2014 19:06:12 for FreeRCT by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Feb 25 2015 13:22:40 for FreeRCT by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

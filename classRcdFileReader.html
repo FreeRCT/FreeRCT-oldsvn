@@ -75,9 +75,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a5688d475df43e0df821ea5284285f008"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRcdFileReader.html#a5688d475df43e0df821ea5284285f008">ReadBlockHeader</a> ()</td></tr>
 <tr class="memdesc:a5688d475df43e0df821ea5284285f008"><td class="mdescLeft">&#160;</td><td class="mdescRight">Starting at the first byte of a block, read the block information, and put it in <a class="el" href="classRcdFileReader.html#a769a6496c6697a7821f52ba8f7fa6ab0" title="Name of the last found block (with ReadBlockHeader). ">name</a>, <a class="el" href="classRcdFileReader.html#a80f7d60ee982feea0deb0019d109f166" title="Version number of the last found block (with ReadBlockHeader). ">version</a>, and <a class="el" href="classRcdFileReader.html#acc10d042cc834e8066ea482d96099b7f" title="Data size of the last found block (with ReadBlockHeader). ">size</a>.  <a href="#a5688d475df43e0df821ea5284285f008">More...</a><br /></td></tr>
 <tr class="separator:a5688d475df43e0df821ea5284285f008"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a89ace1922903ccf8a68b73e975678e03"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRcdFileReader.html#a89ace1922903ccf8a68b73e975678e03">SkipBytes</a> (<a class="el" href="stdafx_8h.html#a1134b580f8da4de94ca6b1de4d37975e">uint32</a> count)</td></tr>
-<tr class="memdesc:a89ace1922903ccf8a68b73e975678e03"><td class="mdescLeft">&#160;</td><td class="mdescRight">Skip a number of bytes in the file.  <a href="#a89ace1922903ccf8a68b73e975678e03">More...</a><br /></td></tr>
-<tr class="separator:a89ace1922903ccf8a68b73e975678e03"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a38c64d39e4320b79d52b7474fa4ec1be"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRcdFileReader.html#a38c64d39e4320b79d52b7474fa4ec1be">SkipBytes</a> (<a class="el" href="stdafx_8h.html#a1134b580f8da4de94ca6b1de4d37975e">uint32</a> count)</td></tr>
+<tr class="memdesc:a38c64d39e4320b79d52b7474fa4ec1be"><td class="mdescLeft">&#160;</td><td class="mdescRight">Skip a number of bytes in the file.  <a href="#a38c64d39e4320b79d52b7474fa4ec1be">More...</a><br /></td></tr>
+<tr class="separator:a38c64d39e4320b79d52b7474fa4ec1be"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1d45eccd7ad424a9b693fd2d74a57e2c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRcdFileReader.html#a1d45eccd7ad424a9b693fd2d74a57e2c">GetBlob</a> (void *address, size_t length)</td></tr>
 <tr class="memdesc:a1d45eccd7ad424a9b693fd2d74a57e2c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a blob of data from the file.  <a href="#a1d45eccd7ad424a9b693fd2d74a57e2c">More...</a><br /></td></tr>
 <tr class="separator:a1d45eccd7ad424a9b693fd2d74a57e2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -224,9 +224,9 @@ size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cl
 
 <p>Definition at line <a class="el" href="fileio_8cpp_source.html#l00219">219</a> of file <a class="el" href="fileio_8cpp_source.html">fileio.cpp</a>.</p>
 
-<p>References <a class="el" href="fileio_8h_source.html#l00072">fp</a>, <a class="el" href="fileio_8cpp_source.html#l00262">GetBlob()</a>, <a class="el" href="fileio_8cpp_source.html#l00143">GetRemaining()</a>, <a class="el" href="fileio_8cpp_source.html#l00196">GetUInt32()</a>, <a class="el" href="fileio_8h_source.html#l00067">name</a>, and <a class="el" href="fileio_8h_source.html#l00068">version</a>.</p>
+<p>References <a class="el" href="fileio_8h_source.html#l00072">fp</a>, <a class="el" href="fileio_8cpp_source.html#l00263">GetBlob()</a>, <a class="el" href="fileio_8cpp_source.html#l00143">GetRemaining()</a>, <a class="el" href="fileio_8cpp_source.html#l00196">GetUInt32()</a>, <a class="el" href="fileio_8h_source.html#l00067">name</a>, and <a class="el" href="fileio_8h_source.html#l00068">version</a>.</p>
 
-<p>Referenced by <a class="el" href="sprite__store_8cpp_source.html#l01185">SpriteManager::Load()</a>, and <a class="el" href="rcdfile_8cpp_source.html#l00139">RcdFileCollection::ScanFileForMetaInfo()</a>.</p>
+<p>Referenced by <a class="el" href="sprite__store_8cpp_source.html#l01315">SpriteManager::Load()</a>, and <a class="el" href="rcdfile_8cpp_source.html#l00139">RcdFileCollection::ScanFileForMetaInfo()</a>.</p>
 
 </div>
 </div>
@@ -248,18 +248,18 @@ size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cl
 
 <p>Definition at line <a class="el" href="fileio_8cpp_source.html#l00236">236</a> of file <a class="el" href="fileio_8cpp_source.html">fileio.cpp</a>.</p>
 
-<p>References <a class="el" href="fileio_8h_source.html#l00073">file_pos</a>, <a class="el" href="fileio_8h_source.html#l00074">file_size</a>, <a class="el" href="fileio_8cpp_source.html#l00262">GetBlob()</a>, <a class="el" href="fileio_8cpp_source.html#l00143">GetRemaining()</a>, <a class="el" href="fileio_8cpp_source.html#l00196">GetUInt32()</a>, <a class="el" href="fileio_8h_source.html#l00067">name</a>, <a class="el" href="fileio_8h_source.html#l00069">size</a>, and <a class="el" href="fileio_8h_source.html#l00068">version</a>.</p>
+<p>References <a class="el" href="fileio_8h_source.html#l00073">file_pos</a>, <a class="el" href="fileio_8h_source.html#l00074">file_size</a>, <a class="el" href="fileio_8cpp_source.html#l00263">GetBlob()</a>, <a class="el" href="fileio_8cpp_source.html#l00143">GetRemaining()</a>, <a class="el" href="fileio_8cpp_source.html#l00196">GetUInt32()</a>, <a class="el" href="fileio_8h_source.html#l00067">name</a>, <a class="el" href="fileio_8h_source.html#l00069">size</a>, and <a class="el" href="fileio_8h_source.html#l00068">version</a>.</p>
 
-<p>Referenced by <a class="el" href="sprite__store_8cpp_source.html#l01185">SpriteManager::Load()</a>, and <a class="el" href="rcdfile_8cpp_source.html#l00139">RcdFileCollection::ScanFileForMetaInfo()</a>.</p>
+<p>Referenced by <a class="el" href="sprite__store_8cpp_source.html#l01315">SpriteManager::Load()</a>, and <a class="el" href="rcdfile_8cpp_source.html#l00139">RcdFileCollection::ScanFileForMetaInfo()</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a89ace1922903ccf8a68b73e975678e03"></a>
+<a class="anchor" id="a38c64d39e4320b79d52b7474fa4ec1be"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void RcdFileReader::SkipBytes </td>
+          <td class="memname">bool RcdFileReader::SkipBytes </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="stdafx_8h.html#a1134b580f8da4de94ca6b1de4d37975e">uint32</a>&#160;</td>
           <td class="paramname"><em>count</em></td><td>)</td>
@@ -275,12 +275,13 @@ size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cl
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>Skipping was successful. </dd></dl>
 
-<p>Definition at line <a class="el" href="fileio_8cpp_source.html#l00249">249</a> of file <a class="el" href="fileio_8cpp_source.html">fileio.cpp</a>.</p>
+<p>Definition at line <a class="el" href="fileio_8cpp_source.html#l00250">250</a> of file <a class="el" href="fileio_8cpp_source.html">fileio.cpp</a>.</p>
 
 <p>References <a class="el" href="fileio_8h_source.html#l00073">file_pos</a>, <a class="el" href="fileio_8h_source.html#l00074">file_size</a>, and <a class="el" href="fileio_8h_source.html#l00072">fp</a>.</p>
 
-<p>Referenced by <a class="el" href="sprite__store_8cpp_source.html#l01185">SpriteManager::Load()</a>.</p>
+<p>Referenced by <a class="el" href="sprite__store_8cpp_source.html#l01315">SpriteManager::Load()</a>.</p>
 
 </div>
 </div>
@@ -318,7 +319,7 @@ size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cl
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Loading was successful. </dd></dl>
 
-<p>Definition at line <a class="el" href="fileio_8cpp_source.html#l00262">262</a> of file <a class="el" href="fileio_8cpp_source.html">fileio.cpp</a>.</p>
+<p>Definition at line <a class="el" href="fileio_8cpp_source.html#l00263">263</a> of file <a class="el" href="fileio_8cpp_source.html">fileio.cpp</a>.</p>
 
 <p>References <a class="el" href="fileio_8h_source.html#l00073">file_pos</a>, and <a class="el" href="fileio_8h_source.html#l00072">fp</a>.</p>
 
@@ -347,7 +348,7 @@ size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cl
 
 <p>References <a class="el" href="fileio_8h_source.html#l00073">file_pos</a>, and <a class="el" href="fileio_8h_source.html#l00072">fp</a>.</p>
 
-<p>Referenced by <a class="el" href="fileio_8cpp_source.html#l00185">GetInt16()</a>, <a class="el" href="fileio_8cpp_source.html#l00164">GetInt8()</a>, <a class="el" href="rcdfile_8cpp_source.html#l00108">GetString()</a>, <a class="el" href="fileio_8cpp_source.html#l00174">GetUInt16()</a>, <a class="el" href="shop__type_8cpp_source.html#l00058">ShopType::Load()</a>, <a class="el" href="track__piece_8cpp_source.html#l00036">TrackVoxel::Load()</a>, <a class="el" href="sprite__store_8cpp_source.html#l00170">TextData::Load()</a>, <a class="el" href="coaster_8cpp_source.html#l00095">CoasterType::Load()</a>, <a class="el" href="track__piece_8cpp_source.html#l00191">TrackPiece::Load()</a>, <a class="el" href="sprite__store_8cpp_source.html#l00619">Animation::Load()</a>, <a class="el" href="sprite__store_8cpp_source.html#l00674">AnimationSprites::Load()</a>, <a class="el" href="coaster_8cpp_source.html#l00206">LoadCoasterPlatform()</a>, <a class="el" href="sprite__store_8cpp_source.html#l00734">GuiSprites::LoadGBOR()</a>, <a class="el" href="sprite__store_8cpp_source.html#l00926">GuiSprites::LoadGSCL()</a>, <a class="el" href="sprite__store_8cpp_source.html#l00859">GuiSprites::LoadGSLI()</a>, <a class="el" href="person_8cpp_source.html#l00057">LoadPRSG()</a>, and <a class="el" href="track__piece_8cpp_source.html#l00121">LoadTrackCurve()</a>.</p>
+<p>Referenced by <a class="el" href="fileio_8cpp_source.html#l00185">GetInt16()</a>, <a class="el" href="fileio_8cpp_source.html#l00164">GetInt8()</a>, <a class="el" href="rcdfile_8cpp_source.html#l00108">GetString()</a>, <a class="el" href="fileio_8cpp_source.html#l00174">GetUInt16()</a>, <a class="el" href="shop__type_8cpp_source.html#l00079">ShopType::Load()</a>, <a class="el" href="track__piece_8cpp_source.html#l00036">TrackVoxel::Load()</a>, <a class="el" href="sprite__store_8cpp_source.html#l00170">TextData::Load()</a>, <a class="el" href="coaster_8cpp_source.html#l00093">CoasterType::Load()</a>, <a class="el" href="track__piece_8cpp_source.html#l00189">TrackPiece::Load()</a>, <a class="el" href="sprite__store_8cpp_source.html#l00737">Animation::Load()</a>, <a class="el" href="sprite__store_8cpp_source.html#l00792">AnimationSprites::Load()</a>, <a class="el" href="coaster_8cpp_source.html#l00194">LoadCoasterPlatform()</a>, <a class="el" href="sprite__store_8cpp_source.html#l00852">GuiSprites::LoadGBOR()</a>, <a class="el" href="sprite__store_8cpp_source.html#l01045">GuiSprites::LoadGSCL()</a>, <a class="el" href="sprite__store_8cpp_source.html#l00978">GuiSprites::LoadGSLI()</a>, <a class="el" href="person_8cpp_source.html#l00058">LoadPRSG()</a>, and <a class="el" href="track__piece_8cpp_source.html#l00121">LoadTrackCurve()</a>.</p>
 
 </div>
 </div>
@@ -372,7 +373,7 @@ size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cl
 
 <p>References <a class="el" href="fileio_8cpp_source.html#l00153">GetUInt8()</a>.</p>
 
-<p>Referenced by <a class="el" href="fileio_8cpp_source.html#l00207">GetInt32()</a>, <a class="el" href="fileio_8cpp_source.html#l00196">GetUInt32()</a>, <a class="el" href="shop__type_8cpp_source.html#l00058">ShopType::Load()</a>, <a class="el" href="coaster_8cpp_source.html#l00051">CarType::Load()</a>, <a class="el" href="sprite__store_8cpp_source.html#l00170">TextData::Load()</a>, <a class="el" href="coaster_8cpp_source.html#l00095">CoasterType::Load()</a>, <a class="el" href="sprite__store_8cpp_source.html#l00371">Fence::Load()</a>, <a class="el" href="track__piece_8cpp_source.html#l00191">TrackPiece::Load()</a>, <a class="el" href="sprite__store_8cpp_source.html#l00619">Animation::Load()</a>, <a class="el" href="sprite__store_8cpp_source.html#l00674">AnimationSprites::Load()</a>, <a class="el" href="sprite__data_8cpp_source.html#l00110">ImageData::Load32bpp()</a>, <a class="el" href="sprite__data_8cpp_source.html#l00045">ImageData::Load8bpp()</a>, <a class="el" href="sprite__store_8cpp_source.html#l00569">SpriteManager::LoadBDIR()</a>, <a class="el" href="coaster_8cpp_source.html#l00206">LoadCoasterPlatform()</a>, <a class="el" href="sprite__store_8cpp_source.html#l00468">SpriteManager::LoadFUND()</a>, <a class="el" href="sprite__store_8cpp_source.html#l00734">GuiSprites::LoadGBOR()</a>, <a class="el" href="sprite__store_8cpp_source.html#l00801">GuiSprites::LoadGCHK()</a>, <a class="el" href="sprite__store_8cpp_source.html#l00926">GuiSprites::LoadGSCL()</a>, <a class="el" href="sprite__store_8cpp_source.html#l00859">GuiSprites::LoadGSLI()</a>, <a class="el" href="sprite__store_8cpp_source.html#l00397">SpriteManager::LoadPATH()</a>, <a class="el" href="sprite__store_8cpp_source.html#l00503">SpriteManager::LoadPLAT()</a>, <a class="el" href="sprite__store_8cpp_source.html#l00540">SpriteManager::LoadSUPP()</a>, <a class="el" href="sprite__store_8cpp_source.html#l00300">SpriteManager::LoadSURF()</a>, <a class="el" href="sprite__store_8cpp_source.html#l00439">SpriteManager::LoadTCOR()</a>, and <a class="el" href="sprite__store_8cpp_source.html#l00338">SpriteManager::LoadTSEL()</a>.</p>
+<p>Referenced by <a class="el" href="fileio_8cpp_source.html#l00207">GetInt32()</a>, <a class="el" href="fileio_8cpp_source.html#l00196">GetUInt32()</a>, <a class="el" href="shop__type_8cpp_source.html#l00079">ShopType::Load()</a>, <a class="el" href="coaster_8cpp_source.html#l00051">CarType::Load()</a>, <a class="el" href="sprite__store_8cpp_source.html#l00170">TextData::Load()</a>, <a class="el" href="coaster_8cpp_source.html#l00093">CoasterType::Load()</a>, <a class="el" href="sprite__store_8cpp_source.html#l00379">Fence::Load()</a>, <a class="el" href="track__piece_8cpp_source.html#l00189">TrackPiece::Load()</a>, <a class="el" href="sprite__store_8cpp_source.html#l00737">Animation::Load()</a>, <a class="el" href="sprite__store_8cpp_source.html#l00792">AnimationSprites::Load()</a>, <a class="el" href="sprite__data_8cpp_source.html#l00110">ImageData::Load32bpp()</a>, <a class="el" href="sprite__data_8cpp_source.html#l00045">ImageData::Load8bpp()</a>, <a class="el" href="sprite__store_8cpp_source.html#l00683">SpriteManager::LoadBDIR()</a>, <a class="el" href="coaster_8cpp_source.html#l00194">LoadCoasterPlatform()</a>, <a class="el" href="sprite__store_8cpp_source.html#l00582">SpriteManager::LoadFUND()</a>, <a class="el" href="sprite__store_8cpp_source.html#l00852">GuiSprites::LoadGBOR()</a>, <a class="el" href="sprite__store_8cpp_source.html#l00920">GuiSprites::LoadGCHK()</a>, <a class="el" href="sprite__store_8cpp_source.html#l01045">GuiSprites::LoadGSCL()</a>, <a class="el" href="sprite__store_8cpp_source.html#l00978">GuiSprites::LoadGSLI()</a>, <a class="el" href="sprite__store_8cpp_source.html#l00405">SpriteManager::LoadPATH()</a>, <a class="el" href="sprite__store_8cpp_source.html#l00470">SpriteManager::LoadPDEC()</a>, <a class="el" href="sprite__store_8cpp_source.html#l00617">SpriteManager::LoadPLAT()</a>, <a class="el" href="sprite__store_8cpp_source.html#l00654">SpriteManager::LoadSUPP()</a>, <a class="el" href="sprite__store_8cpp_source.html#l00312">SpriteManager::LoadSURF()</a>, <a class="el" href="sprite__store_8cpp_source.html#l00553">SpriteManager::LoadTCOR()</a>, and <a class="el" href="sprite__store_8cpp_source.html#l00346">SpriteManager::LoadTSEL()</a>.</p>
 
 </div>
 </div>
@@ -397,7 +398,7 @@ size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cl
 
 <p>References <a class="el" href="fileio_8cpp_source.html#l00174">GetUInt16()</a>.</p>
 
-<p>Referenced by <a class="el" href="fileio_8cpp_source.html#l00219">CheckFileHeader()</a>, <a class="el" href="shop__type_8cpp_source.html#l00058">ShopType::Load()</a>, <a class="el" href="coaster_8cpp_source.html#l00051">CarType::Load()</a>, <a class="el" href="coaster_8cpp_source.html#l00095">CoasterType::Load()</a>, <a class="el" href="track__piece_8cpp_source.html#l00191">TrackPiece::Load()</a>, <a class="el" href="sprite__data_8cpp_source.html#l00045">ImageData::Load8bpp()</a>, <a class="el" href="track__piece_8cpp_source.html#l00097">LoadBezier()</a>, <a class="el" href="person_8cpp_source.html#l00057">LoadPRSG()</a>, <a class="el" href="sprite__store_8cpp_source.html#l00256">LoadSpriteFromFile()</a>, <a class="el" href="sprite__store_8cpp_source.html#l00276">LoadTextFromFile()</a>, and <a class="el" href="fileio_8cpp_source.html#l00236">ReadBlockHeader()</a>.</p>
+<p>Referenced by <a class="el" href="fileio_8cpp_source.html#l00219">CheckFileHeader()</a>, <a class="el" href="shop__type_8cpp_source.html#l00079">ShopType::Load()</a>, <a class="el" href="coaster_8cpp_source.html#l00051">CarType::Load()</a>, <a class="el" href="coaster_8cpp_source.html#l00093">CoasterType::Load()</a>, <a class="el" href="track__piece_8cpp_source.html#l00189">TrackPiece::Load()</a>, <a class="el" href="sprite__data_8cpp_source.html#l00045">ImageData::Load8bpp()</a>, <a class="el" href="track__piece_8cpp_source.html#l00097">LoadBezier()</a>, <a class="el" href="person_8cpp_source.html#l00058">LoadPRSG()</a>, <a class="el" href="sprite__store_8cpp_source.html#l00256">LoadSpriteFromFile()</a>, <a class="el" href="sprite__store_8cpp_source.html#l00276">LoadTextFromFile()</a>, and <a class="el" href="fileio_8cpp_source.html#l00236">ReadBlockHeader()</a>.</p>
 
 </div>
 </div>
@@ -422,7 +423,7 @@ size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cl
 
 <p>References <a class="el" href="fileio_8cpp_source.html#l00153">GetUInt8()</a>.</p>
 
-<p>Referenced by <a class="el" href="track__piece_8cpp_source.html#l00036">TrackVoxel::Load()</a>, and <a class="el" href="track__piece_8cpp_source.html#l00191">TrackPiece::Load()</a>.</p>
+<p>Referenced by <a class="el" href="track__piece_8cpp_source.html#l00036">TrackVoxel::Load()</a>, and <a class="el" href="track__piece_8cpp_source.html#l00189">TrackPiece::Load()</a>.</p>
 
 </div>
 </div>
@@ -447,7 +448,7 @@ size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cl
 
 <p>References <a class="el" href="fileio_8cpp_source.html#l00153">GetUInt8()</a>.</p>
 
-<p>Referenced by <a class="el" href="sprite__store_8cpp_source.html#l00619">Animation::Load()</a>, <a class="el" href="sprite__data_8cpp_source.html#l00110">ImageData::Load32bpp()</a>, <a class="el" href="sprite__data_8cpp_source.html#l00045">ImageData::Load8bpp()</a>, <a class="el" href="track__piece_8cpp_source.html#l00097">LoadBezier()</a>, and <a class="el" href="track__piece_8cpp_source.html#l00121">LoadTrackCurve()</a>.</p>
+<p>Referenced by <a class="el" href="sprite__store_8cpp_source.html#l00737">Animation::Load()</a>, <a class="el" href="sprite__data_8cpp_source.html#l00110">ImageData::Load32bpp()</a>, <a class="el" href="sprite__data_8cpp_source.html#l00045">ImageData::Load8bpp()</a>, <a class="el" href="track__piece_8cpp_source.html#l00097">LoadBezier()</a>, and <a class="el" href="track__piece_8cpp_source.html#l00121">LoadTrackCurve()</a>.</p>
 
 </div>
 </div>
@@ -472,7 +473,7 @@ size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cl
 
 <p>References <a class="el" href="fileio_8cpp_source.html#l00174">GetUInt16()</a>.</p>
 
-<p>Referenced by <a class="el" href="shop__type_8cpp_source.html#l00058">ShopType::Load()</a>.</p>
+<p>Referenced by <a class="el" href="shop__type_8cpp_source.html#l00079">ShopType::Load()</a>.</p>
 
 </div>
 </div>
@@ -507,7 +508,7 @@ size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cl
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Sep 5 2014 19:06:15 for FreeRCT by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Feb 25 2015 13:22:41 for FreeRCT by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>
